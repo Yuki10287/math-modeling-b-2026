@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-09-11T05:38:44.448973+00:00",
+  "split": "holdout",
+  "first_seed": 2000,
+  "last_seed": 2019,
+  "independent_layouts": 20,
+  "fields": [
+    "smooth",
+    "hash",
+    "extreme"
+  ],
+  "schedules": [
+    "baseline",
+    "safe",
+    "dynamic"
+  ],
+  "policy": "time",
+  "code_hashes": {
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "recovery.py": "8694db3b4af09433afc6fb06c66af0d0f5b1afb26a4752969d6be76409ab5c77",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "benchmark.py": "30c752e707b26fba25d8ff6d2e567eeede9d26c2e41be8391d661d991f467baf"
+  },
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "official_simulator": false,
+  "layout_model": "area-uniform disk, uniform reception radii, fixed spatial error fields; self-defined"
+}

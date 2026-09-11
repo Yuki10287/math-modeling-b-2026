@@ -1,0 +1,1142 @@
+{
+  "geometry_checks": {
+    "covers": [
+      {
+        "case": 0,
+        "parts": 5,
+        "complete": true,
+        "worst_s": 58.888936426820635
+      },
+      {
+        "case": 1,
+        "parts": 4,
+        "complete": true,
+        "worst_s": 52.29757839842661
+      },
+      {
+        "case": 2,
+        "parts": 3,
+        "complete": true,
+        "worst_s": 50.59614765400251
+      },
+      {
+        "case": 3,
+        "parts": 2,
+        "complete": true,
+        "worst_s": 38.859871746997996
+      },
+      {
+        "case": 4,
+        "parts": 1,
+        "complete": true,
+        "worst_s": 28.68754252559956
+      }
+    ],
+    "vertex_only_false_certificate_rejected": true,
+    "exhausted_cover_rejected": true
+  },
+  "development": {
+    "summary": {
+      "baseline": {
+        "sources": 11,
+        "cleared": 11,
+        "mean_s": 181.1347240748532,
+        "sum_s": 1992.481964823385,
+        "mean_measure": 2.272727272727273,
+        "clear_failures": 0,
+        "runtime_s": 1.4787447999842698
+      },
+      "optical": {
+        "sources": 11,
+        "cleared": 11,
+        "mean_s": 180.35382211326893,
+        "sum_s": 1983.8920432459581,
+        "mean_measure": 1.4545454545454546,
+        "clear_failures": 15,
+        "runtime_s": 1.5656037999724504
+      },
+      "hybrid": {
+        "sources": 11,
+        "cleared": 11,
+        "mean_s": 174.14239291058814,
+        "sum_s": 1915.5663220164697,
+        "mean_measure": 1.2727272727272727,
+        "clear_failures": 11,
+        "runtime_s": 3.6716889000235824
+      }
+    },
+    "rows": [
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 7,
+        "runtime_s": 0.10411259999091271,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 185.37063633486832,
+        "average_s": 185.37063633486832,
+        "distance_m": 851.8531816743415,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 170.3706363348683,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 7,
+        "runtime_s": 0.12464579999505077,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 180.2086819446932,
+        "average_s": 180.2086819446932,
+        "distance_m": 836.0434097234661,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 167.2086819446932,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "optical",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 7,
+        "runtime_s": 0.31983010000840295,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 177.97818487944846,
+        "average_s": 177.97818487944846,
+        "distance_m": 824.8909243972424,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 164.9781848794485,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "hybrid",
+        "steps": 3,
+        "actions": [
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 9,
+        "runtime_s": 0.07525609999720473,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 118.4803793294018,
+        "average_s": 118.4803793294018,
+        "distance_m": 517.4018966470089,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 103.48037932940179,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 9,
+        "runtime_s": 0.07719709999219049,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 113.5363913224929,
+        "average_s": 113.5363913224929,
+        "distance_m": 517.6819566124645,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 103.5363913224929,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "optical",
+        "steps": 2,
+        "actions": [
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 9,
+        "runtime_s": 0.23594889999367297,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 115.74205662448034,
+        "average_s": 115.74205662448034,
+        "distance_m": 528.7102831224017,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 105.74205662448034,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "hybrid",
+        "steps": 2,
+        "actions": [
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 18,
+        "runtime_s": 0.3068554000055883,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 310.38057617585247,
+        "average_s": 310.38057617585247,
+        "distance_m": 1426.9028808792623,
+        "counts": {
+          "measure": 4,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 285.38057617585247,
+          "measure": 20,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 5,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 18,
+        "runtime_s": 0.3040589000011096,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 307.1075224734848,
+        "average_s": 307.1075224734848,
+        "distance_m": 1405.537612367424,
+        "counts": {
+          "measure": 3,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 2
+        },
+        "time_parts_s": {
+          "move": 281.1075224734848,
+          "measure": 15,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 6
+        },
+        "mode": "optical",
+        "steps": 6,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 18,
+        "runtime_s": 0.49356560000160243,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 307.5648749489672,
+        "average_s": 307.5648749489672,
+        "distance_m": 1447.8243747448362,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 289.56487494896726,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "hybrid",
+        "steps": 4,
+        "actions": [
+          "area_risk_rollout",
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 20,
+        "runtime_s": 0.13784369999484625,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 136.71247348821126,
+        "average_s": 136.71247348821126,
+        "distance_m": 583.5623674410564,
+        "counts": {
+          "measure": 3,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 116.71247348821127,
+          "measure": 15,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 4,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 20,
+        "runtime_s": 0.10915809999278281,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 149.8415354059779,
+        "average_s": 149.8415354059779,
+        "distance_m": 594.2076770298896,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 7
+        },
+        "time_parts_s": {
+          "move": 118.84153540597792,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 21
+        },
+        "mode": "optical",
+        "steps": 9,
+        "actions": [
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 20,
+        "runtime_s": 0.3074899000057485,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 142.21047210782748,
+        "average_s": 142.21047210782748,
+        "distance_m": 601.0523605391373,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 4
+        },
+        "time_parts_s": {
+          "move": 120.21047210782747,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 12
+        },
+        "mode": "hybrid",
+        "steps": 6,
+        "actions": [
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 6,
+        "runtime_s": 0.12259919999632984,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 225.72866852799822,
+        "average_s": 225.72866852799822,
+        "distance_m": 1053.6433426399913,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 210.72866852799825,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 6,
+        "runtime_s": 0.12620779999997467,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 221.6613188614206,
+        "average_s": 221.6613188614206,
+        "distance_m": 1043.306594307103,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 208.66131886142063,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "optical",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 6,
+        "runtime_s": 0.48171979999460746,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 226.70067437879428,
+        "average_s": 226.70067437879428,
+        "distance_m": 1043.5033718939715,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 208.7006743787943,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "hybrid",
+        "steps": 4,
+        "actions": [
+          "area_risk_rollout",
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 11,
+        "runtime_s": 0.14028409999446012,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 236.6721268649469,
+        "average_s": 236.6721268649469,
+        "distance_m": 1108.3606343247345,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 221.6721268649469,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 11,
+        "runtime_s": 0.18038949999026954,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 228.13894320197855,
+        "average_s": 228.13894320197855,
+        "distance_m": 1090.6947160098928,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 218.13894320197855,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "optical",
+        "steps": 2,
+        "actions": [
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 11,
+        "runtime_s": 0.3654153000097722,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 228.13894320197855,
+        "average_s": 228.13894320197855,
+        "distance_m": 1090.6947160098928,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 218.13894320197855,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "hybrid",
+        "steps": 2,
+        "actions": [
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 10,
+        "runtime_s": 0.057441600001766346,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 44.93508101709885,
+        "average_s": 44.93508101709885,
+        "distance_m": 174.67540508549428,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 34.93508101709885,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 2,
+        "actions": [
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 10,
+        "runtime_s": 0.059612500001094304,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 44.93508101709885,
+        "average_s": 44.93508101709885,
+        "distance_m": 174.67540508549428,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 34.93508101709885,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "optical",
+        "steps": 2,
+        "actions": [
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 10,
+        "runtime_s": 0.17579850000038277,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 42.70937043705643,
+        "average_s": 42.70937043705643,
+        "distance_m": 163.54685218528215,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 32.70937043705643,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "hybrid",
+        "steps": 2,
+        "actions": [
+          "area_risk_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 16,
+        "runtime_s": 0.07219500000064727,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 53.54718924240761,
+        "average_s": 53.54718924240761,
+        "distance_m": 217.73594621203807,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 43.54718924240761,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 2,
+        "actions": [
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 16,
+        "runtime_s": 0.06672940000134986,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 53.54718924240761,
+        "average_s": 53.54718924240761,
+        "distance_m": 217.73594621203807,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 43.54718924240761,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "optical",
+        "steps": 2,
+        "actions": [
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 16,
+        "runtime_s": 0.16957329999422655,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 39.273219398369775,
+        "average_s": 39.273219398369775,
+        "distance_m": 146.36609699184888,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 29.273219398369775,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "hybrid",
+        "steps": 2,
+        "actions": [
+          "area_risk_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 19,
+        "runtime_s": 0.16623180000169668,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 230.125352325893,
+        "average_s": 230.125352325893,
+        "distance_m": 1050.626761629465,
+        "counts": {
+          "measure": 3,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 210.12535232589298,
+          "measure": 15,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 4,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 19,
+        "runtime_s": 0.19417950000206474,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 234.0579778544874,
+        "average_s": 234.0579778544874,
+        "distance_m": 1050.2898892724372,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 3
+        },
+        "time_parts_s": {
+          "move": 210.05797785448743,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 9
+        },
+        "mode": "optical",
+        "steps": 6,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 19,
+        "runtime_s": 0.5317544999998063,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 191.32104145426118,
+        "average_s": 191.32104145426118,
+        "distance_m": 851.6052072713057,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 2
+        },
+        "time_parts_s": {
+          "move": 170.32104145426115,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 6
+        },
+        "mode": "hybrid",
+        "steps": 5,
+        "actions": [
+          "area_risk_rollout",
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 8,
+        "runtime_s": 0.10724409999966156,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 219.40310050798226,
+        "average_s": 219.40310050798226,
+        "distance_m": 1022.0155025399113,
+        "counts": {
+          "measure": 2,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 204.40310050798226,
+          "measure": 10,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 8,
+        "runtime_s": 0.11238299999968149,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 219.73102091319205,
+        "average_s": 219.73102091319205,
+        "distance_m": 1033.6551045659603,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 206.73102091319205,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "optical",
+        "steps": 3,
+        "actions": [
+          "baseline_time_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 8,
+        "runtime_s": 0.28817100000742357,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 219.73102091319205,
+        "average_s": 219.73102091319205,
+        "distance_m": 1033.6551045659603,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 206.73102091319205,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "hybrid",
+        "steps": 3,
+        "actions": [
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 4,
+        "runtime_s": 0.18868120000115596,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 231.1263810087243,
+        "average_s": 231.1263810087243,
+        "distance_m": 1055.6319050436216,
+        "counts": {
+          "measure": 3,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 211.1263810087243,
+          "measure": 15,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "baseline",
+        "steps": 4,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 4,
+        "runtime_s": 0.21104219999688212,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 231.1263810087243,
+        "average_s": 231.1263810087243,
+        "distance_m": 1055.6319050436216,
+        "counts": {
+          "measure": 3,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 0
+        },
+        "time_parts_s": {
+          "move": 211.1263810087243,
+          "measure": 15,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 0
+        },
+        "mode": "optical",
+        "steps": 4,
+        "actions": [
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "baseline_time_rollout",
+          "whole_belief_in_one_disk"
+        ]
+      },
+      {
+        "seed": 1000,
+        "field": "smooth",
+        "channel": 4,
+        "runtime_s": 0.30242200000793673,
+        "source_count": 1,
+        "cleared": 1,
+        "all_cleared": true,
+        "total_s": 224.19646367209407,
+        "average_s": 224.19646367209407,
+        "distance_m": 1055.9823183604703,
+        "counts": {
+          "measure": 1,
+          "switch": 0,
+          "clear_success": 1,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 211.19646367209407,
+          "measure": 5,
+          "switch": 0,
+          "clear_success": 5,
+          "clear_fail": 3
+        },
+        "mode": "hybrid",
+        "steps": 3,
+        "actions": [
+          "area_risk_rollout",
+          "certified_optical_partition_cheaper",
+          "continue_certified_optical_cover"
+        ]
+      }
+    ]
+  }
+}

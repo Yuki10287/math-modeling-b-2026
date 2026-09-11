@@ -1,0 +1,38 @@
+{
+  "local_only": true,
+  "grid": {
+    "route_orientations_checked": 16,
+    "points": 152,
+    "internal_path_m": 3030,
+    "continuous_cover_bound_m": 18.027756377319946
+  },
+  "recovery": {
+    "legal_forced_cases": 72,
+    "largest_clear_count": 127,
+    "exhausted_calls": 152,
+    "exhausted_failure_virtual_s": 1062.0,
+    "worst_success_virtual_bound_s": 1064
+  },
+  "baseline": {
+    "normal_runs_exactly_equal": 48,
+    "first_near_checked": true
+  },
+  "model": {
+    "recovered_model_failure_paths": [
+      "initial_belief",
+      "mec",
+      "choose_measure",
+      "update_belief",
+      "certified_clear_failed"
+    ]
+  },
+  "api": {
+    "api_failure_paths_propagated": [
+      "normal_measure",
+      "normal_clear",
+      "fallback_clear",
+      "rejected_response_steps_0",
+      "rejected_response_steps_30"
+    ]
+  }
+}

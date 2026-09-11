@@ -1,0 +1,37 @@
+# Local caches and runtime output
+**/__pycache__/
+*.py[cod]
+**/tmp/
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Official/practice session records may contain team identifiers
+**/official_runs/
+*.jsonl
+*.jsonl.*
+/practice-*.json
+
+# Original problem materials and old transfer bundles remain local
+*.zip
+*.pdf
+*.docx
+*.xlsx
+/附件/
+
+# Local credentials and machine settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+desktop.ini
+
+# Old packaging snapshots refer to machine-local transfer artifacts
+**/release_manifest.json
+**/official_release_manifest.json

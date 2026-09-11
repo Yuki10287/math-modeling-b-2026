@@ -1,0 +1,394 @@
+{
+  "groups": {
+    "baseline": {
+      "runs": 60,
+      "source_instances": 786,
+      "all_cleared": 60,
+      "certified_complete": 60,
+      "errors": 0,
+      "belief_violation_runs": 0,
+      "mean_total_s": 3945.95306374394,
+      "median_total_s": 4028.4902540666753,
+      "p90_total_s": 4238.630759135379,
+      "max_total_s": 4692.462388559905,
+      "mean_per_source_s": 305.3132094301753,
+      "pooled_per_source_s": 301.2177911254916,
+      "mean_distance_m": 16313.181985386364,
+      "mean_measures": 105.48333333333333,
+      "mean_switches": 90.4,
+      "mean_scan_tail_s": 223.13437280769588,
+      "max_runtime_s": 1.0701246999960858,
+      "fallback_count": 0,
+      "clear_failures": 0
+    },
+    "dynamic": {
+      "runs": 60,
+      "source_instances": 786,
+      "all_cleared": 60,
+      "certified_complete": 60,
+      "errors": 0,
+      "belief_violation_runs": 0,
+      "mean_total_s": 3660.7308856295203,
+      "median_total_s": 3671.8736935250045,
+      "p90_total_s": 4032.408574238511,
+      "max_total_s": 4218.384479619016,
+      "mean_per_source_s": 282.782588443239,
+      "pooled_per_source_s": 279.4451057732459,
+      "mean_distance_m": 14843.987761480934,
+      "mean_measures": 106.8,
+      "mean_switches": 92.43333333333334,
+      "mean_scan_tail_s": 88.22446599590178,
+      "max_runtime_s": 1.2419417000055546,
+      "fallback_count": 0,
+      "clear_failures": 0
+    },
+    "safe": {
+      "runs": 60,
+      "source_instances": 786,
+      "all_cleared": 60,
+      "certified_complete": 60,
+      "errors": 0,
+      "belief_violation_runs": 0,
+      "mean_total_s": 3945.95306374394,
+      "median_total_s": 4028.4902540666753,
+      "p90_total_s": 4238.630759135379,
+      "max_total_s": 4692.462388559905,
+      "mean_per_source_s": 305.3132094301753,
+      "pooled_per_source_s": 301.2177911254916,
+      "mean_distance_m": 16313.181985386364,
+      "mean_measures": 105.48333333333333,
+      "mean_switches": 90.4,
+      "mean_scan_tail_s": 223.13437280769588,
+      "max_runtime_s": 0.997709200004465,
+      "fallback_count": 0,
+      "clear_failures": 0
+    }
+  },
+  "comparisons_to_baseline": {
+    "dynamic": {
+      "conditions": 60,
+      "faster": 56,
+      "equal": 0,
+      "slower": 4,
+      "mean_saved_s": 285.2221781144196,
+      "aggregate_reduction_pct": 7.228220242533736,
+      "mean_paired_reduction_pct": 6.968101434441094,
+      "worst_regression_s": 318.1437879589794,
+      "paired_successes": 60
+    },
+    "safe": {
+      "conditions": 60,
+      "faster": 0,
+      "equal": 60,
+      "slower": 0,
+      "mean_saved_s": 0.0,
+      "aggregate_reduction_pct": 0.0,
+      "mean_paired_reduction_pct": 0.0,
+      "worst_regression_s": 0.0,
+      "paired_successes": 60
+    }
+  },
+  "safe_events_equal_baseline": [
+    {
+      "seed": 2000,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2000,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2000,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2001,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2001,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2001,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2002,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2002,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2002,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2003,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2003,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2003,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2004,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2004,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2004,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2005,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2005,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2005,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2006,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2006,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2006,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2007,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2007,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2007,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2008,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2008,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2008,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2009,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2009,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2009,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2010,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2010,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2010,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2011,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2011,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2011,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2012,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2012,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2012,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2013,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2013,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2013,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2014,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2014,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2014,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2015,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2015,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2015,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2016,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2016,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2016,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2017,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2017,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2017,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2018,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2018,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2018,
+      "field": "extreme",
+      "equal": true
+    },
+    {
+      "seed": 2019,
+      "field": "smooth",
+      "equal": true
+    },
+    {
+      "seed": 2019,
+      "field": "hash",
+      "equal": true
+    },
+    {
+      "seed": 2019,
+      "field": "extreme",
+      "equal": true
+    }
+  ],
+  "code_hashes_unchanged": true
+}

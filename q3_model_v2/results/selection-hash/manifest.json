@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-09-11T06:48:19.136603+00:00",
+  "split": "development",
+  "first_seed": 1000,
+  "last_seed": 1009,
+  "independent_layouts": 10,
+  "fields": [
+    "hash"
+  ],
+  "schedules": [
+    "adaptive_range",
+    "lean"
+  ],
+  "policy": "time",
+  "code_hashes": {
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "solver.py": "6c9191bd2ea5ec997e1280b06cbb9e1217906f432a734383e1b9db898cf75e8a",
+    "geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "belief_model.py": "453d17bcbf196be5991e21a47c137648e2af1a9c7300b708536d1724da1e55ea",
+    "coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "recovery.py": "8694db3b4af09433afc6fb06c66af0d0f5b1afb26a4752969d6be76409ab5c77",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82"
+  },
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "official_simulator": false,
+  "layout_model": "area-uniform disk, uniform reception radii, fixed spatial error fields; self-defined"
+}

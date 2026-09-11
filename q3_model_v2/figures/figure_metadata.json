@@ -1,0 +1,138 @@
+{
+  "local_only": true,
+  "data_files": [
+    "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout_rows.json",
+    "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout_summary.json"
+  ],
+  "data_sha256": {
+    "rows": "4396c7b64957ca77d3412a97d0c7b743a8a780896f510973dcaca258d3cbaee2",
+    "summary": "c2f6f361ca21b664f8c3c920f9068d6eb1c6b5a4812335fdb62e962c4b95dd7a"
+  },
+  "manifests": {
+    "extreme": {
+      "path": "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout-extreme\\manifest.json",
+      "sha256": "f9802dd349b719cf56ef2092919e94d4a53f914ca54599fc791acc5197ed1589"
+    },
+    "hash": {
+      "path": "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout-hash\\manifest.json",
+      "sha256": "61ec6b54d25b990599261b863a224dff53e58f27378e73b4082a6ad934cbf3ea"
+    },
+    "smooth": {
+      "path": "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout-smooth\\manifest.json",
+      "sha256": "86abe61e26a7e6038d947b9cd59f65dfadcacb02d134137b78c31ca1a2a3f586"
+    }
+  },
+  "font": {
+    "family": "Microsoft YaHei",
+    "file": "C:\\Windows\\Fonts\\msyh.ttc"
+  },
+  "schedule_labels": {
+    "baseline": "原始初版",
+    "v1": "上一版改进",
+    "lean": "本次改进模型"
+  },
+  "overview": {
+    "outputs": [
+      "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\figures\\holdout_comparison.png",
+      "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\figures\\holdout_comparison.svg"
+    ],
+    "conditions": 60,
+    "independent_layouts": 20,
+    "faster": 58,
+    "slower": 2,
+    "equal": 0,
+    "mean_total_s": {
+      "baseline": 3904.1264210919076,
+      "v1": 3624.903826825685,
+      "lean": 3215.222542562839
+    },
+    "mean_components_s": {
+      "move": {
+        "baseline": 3209.693087758574,
+        "v1": 2925.5204934923513,
+        "lean": 2472.6058758961717
+      },
+      "measure": {
+        "baseline": 534.0,
+        "v1": 537.5,
+        "lean": 541.0833333333334
+      },
+      "switch": {
+        "baseline": 91.93333333333334,
+        "v1": 93.38333333333334,
+        "lean": 103.08333333333333
+      },
+      "clear_success": {
+        "baseline": 68.5,
+        "v1": 68.5,
+        "lean": 68.5
+      },
+      "clear_fail": {
+        "baseline": 0.0,
+        "v1": 0.0,
+        "lean": 29.95
+      }
+    },
+    "reduction_vs_v1_pct": 11.301852513466615,
+    "reduction_vs_original_pct": 17.64553204033788,
+    "mean_saved_vs_v1_s": 409.6812842628462,
+    "includes_every_holdout_condition": true
+  },
+  "median_trajectory": {
+    "outputs": [
+      "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\figures\\median_trajectory_comparison.png",
+      "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\figures\\median_trajectory_comparison.svg"
+    ],
+    "selected_seed": 4005,
+    "selected_field": "extreme",
+    "selection_rule": "Nearest to median of per-condition percentage savings from v1 to lean; ties by seed, field.",
+    "condition_count": 60,
+    "median_saving_pct": 11.120650506196641,
+    "selected_saving_pct": 11.114524029188836,
+    "distance_to_median_pct": 0.006126477007805775,
+    "source_truth_used_only_for_post_run_plot": true,
+    "case_paths": [
+      "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout-extreme\\cases\\4005-extreme-baseline.json",
+      "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout-extreme\\cases\\4005-extreme-v1.json",
+      "C:\\Users\\15591\\Desktop\\B题求解\\q3_model_v2\\results\\holdout-extreme\\cases\\4005-extreme-lean.json"
+    ],
+    "case_sha256": [
+      "35f00607fcc09ccd818db6d08cb4257f01bd90101db6b86e10a189f87232aca3",
+      "d56317b09d596da81a42e8ad875c46ad22cd43f073754cf15d426e5fdf471381",
+      "e47accb90f6bbc30e932459d81e13d4348cfe565be14229fa698721fe5ed7699"
+    ],
+    "total_s": {
+      "baseline": 4432.3672893916255,
+      "v1": 3956.8546881052443,
+      "lean": 3517.069122995702
+    },
+    "common_axis_extent_m": 2050.0
+  },
+  "outputs_sha256": {
+    "holdout_comparison.png": "908e371ab54f79809320795bc2170269a0c787367f581db13fe95792e4ea63fe",
+    "holdout_comparison.svg": "1cfece10a2887a847c8004e02f1bd5b7e96599497da68b90fa4adecd142bcca6",
+    "median_trajectory_comparison.png": "44a3f6c7a09196510d1e6191e84122fe52d4e702ec1532e5a79dc3eb6f9faacf",
+    "median_trajectory_comparison.svg": "06fc52f3ad50432abb669a375ac88aa7799265d0ea0c7ec37070866de5a73ecf"
+  },
+  "visual_qa": {
+    "status": "passed",
+    "method": "Both generated PNG files inspected with view_image at original detail.",
+    "checks": [
+      "Microsoft YaHei Chinese glyphs are legible.",
+      "Titles, axes, legends and annotations do not overlap or clip.",
+      "All 60 paired points are retained, including the two slower lean conditions.",
+      "Three trajectory panels have identical coordinate limits and source layout.",
+      "Median case selection is deterministic and its rule is printed on the figure."
+    ],
+    "png_dimensions": {
+      "holdout_comparison.png": [
+        2479,
+        1512
+      ],
+      "median_trajectory_comparison.png": [
+        3161,
+        1454
+      ]
+    }
+  }
+}

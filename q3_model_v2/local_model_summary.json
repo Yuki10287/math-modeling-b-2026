@@ -1,0 +1,76 @@
+{
+  "scope": "Remaining single-source service from identical v1 development first observation and service start; excludes initial scan and global coverage route.",
+  "seeds": "1000-1009",
+  "fields": [
+    "smooth",
+    "hash",
+    "extreme"
+  ],
+  "paired_sources": 393,
+  "bearing_half_angle_deg": {
+    "baseline": 1.0,
+    "optical_and_hybrid": 1.0050001
+  },
+  "comparisons": {
+    "optical": {
+      "mean_s": 161.711227729097,
+      "reduction_vs_baseline_pct": 1.8529252646775862,
+      "faster": 200,
+      "equal": 0,
+      "slower": 193,
+      "worst_regression_vs_baseline_s": 119.3088311194951,
+      "all_cleared": 393,
+      "clear_failures": 344,
+      "fields": {
+        "smooth": 2.3376795100954877,
+        "hash": 1.3687532288055186,
+        "extreme": 1.8497132348739165
+      }
+    },
+    "hybrid": {
+      "mean_s": 151.53475029595765,
+      "reduction_vs_baseline_pct": 8.029314530893846,
+      "faster": 256,
+      "equal": 0,
+      "slower": 137,
+      "worst_regression_vs_baseline_s": 35.107106819328294,
+      "all_cleared": 393,
+      "clear_failures": 322,
+      "fields": {
+        "smooth": 9.523888695831499,
+        "hash": 7.390491242845464,
+        "extreme": 7.156346303837053
+      }
+    },
+    "hybrid_short": {
+      "mean_s": 142.95154720637362,
+      "reduction_vs_baseline_pct": 13.238700959603017,
+      "faster": 286,
+      "equal": 0,
+      "slower": 107,
+      "worst_regression_vs_baseline_s": 44.151668688548,
+      "all_cleared": 393,
+      "clear_failures": 323,
+      "fields": {
+        "smooth": 14.823384532710149,
+        "hash": 13.086150074761386,
+        "extreme": 11.782714927805802
+      },
+      "extra_reduction_vs_hybrid_pct": 5.66418136620178,
+      "extra_worst_regression_s": 63.98286656677287,
+      "extra_faster_equal_slower": [
+        119,
+        216,
+        58
+      ]
+    }
+  },
+  "input_files": [
+    "local_experiments_v2_geometry.json",
+    "local_short_experiments_v2_geometry.json"
+  ],
+  "baseline_mean_s": 164.7641849389713,
+  "current_local_policy_sha256": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+  "short_run_matches_current_local_policy": true,
+  "standard_run_version_note": "Recorded immediately before adding optional candidate_mode=short branch; standard default behavior unchanged."
+}

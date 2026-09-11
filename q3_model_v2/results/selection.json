@@ -1,0 +1,49 @@
+{
+  "chosen_schedule": "lean",
+  "criterion": "Lower mean total virtual time on 30 matched development conditions, with all-clear required",
+  "development_means_s": {
+    "adaptive_range": 3154.7864652629182,
+    "lean": 3096.541005784027
+  },
+  "seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "fields": [
+    "smooth",
+    "hash",
+    "extreme"
+  ],
+  "source_count_bound_fix_in_selection": true,
+  "post_selection_safe_change": "Immediately clear other channels already certified within 20 m at the current stop; confirmed again on frozen development and holdout. No new tuning.",
+  "frozen_code_hashes": {
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82"
+  },
+  "frozen_at_utc": "2026-09-11T06:52:47.363171+00:00",
+  "untouched_holdout": {
+    "seeds": [
+      4000,
+      4019
+    ],
+    "layouts": 20,
+    "conditions": 60
+  }
+}

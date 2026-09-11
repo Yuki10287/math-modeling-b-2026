@@ -1,0 +1,3558 @@
+{
+  "official_simulator": false,
+  "validation_kind": "independent_local_adversarial_cases",
+  "policy": "time",
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "source_sha256": {
+    "validate.py": "06c38de7b7ec9056affbee56e361e7d1392085ce28371acffd2c9ad23eb5dab9",
+    "solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "recovery.py": "8694db3b4af09433afc6fb06c66af0d0f5b1afb26a4752969d6be76409ab5c77",
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e"
+  },
+  "coverage": {
+    "continuous_coverage_proved": true,
+    "annulus_endpoint_distances_m": [
+      601.2811579596912,
+      968.9015717043836
+    ],
+    "sampled_max_nearest_distance_m": 968.901571704384,
+    "samples": 260821
+  },
+  "results": [
+    {
+      "case": "ten_sources_at_origin",
+      "schedule": "baseline",
+      "policy": "time",
+      "field": "smooth",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "cleared": 10,
+        "absent_channels": 10,
+        "scan_points": 7,
+        "complete": true,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": []
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.0032018000056268647,
+      "timing": {
+        "total_s": 1964.0000000000002,
+        "distance_m": 7200.000000000001,
+        "counts": {
+          "measure": 80,
+          "switch": 74,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 196.40000000000003,
+        "actions": 90
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 0,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.0
+      },
+      "near_responses": 10,
+      "station_visit_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "case": "last_boundary_source",
+      "schedule": "baseline",
+      "policy": "time",
+      "field": "extreme",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "cleared": 10,
+        "absent_channels": 10,
+        "scan_points": 7,
+        "complete": true,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.08498559999861754,
+      "timing": {
+        "total_s": 2130.7766184021593,
+        "distance_m": 7783.883092010797,
+        "counts": {
+          "measure": 89,
+          "switch": 79,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 213.07766184021594,
+        "actions": 99
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 4,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9925404725211706
+      },
+      "near_responses": 9,
+      "station_visit_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "late_source_discovery_station": 6,
+      "late_source_found_at_last_station": true
+    },
+    {
+      "case": "near_and_distance_boundaries",
+      "schedule": "baseline",
+      "policy": "time",
+      "field": "constant",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "cleared": 10,
+        "absent_channels": 10,
+        "scan_points": 7,
+        "complete": true,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [
+              0
+            ],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              5
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.5210331000125734,
+      "timing": {
+        "total_s": 3424.537306087168,
+        "distance_m": 13922.686530435838,
+        "counts": {
+          "measure": 101,
+          "switch": 85,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 342.4537306087168,
+        "actions": 111
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 25,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9941417178297343
+      },
+      "near_responses": 3,
+      "station_visit_order": [
+        0,
+        5,
+        6,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "case": "sixteen_colocated_worst_boundary",
+      "schedule": "baseline",
+      "policy": "time",
+      "field": "extreme",
+      "seed": 701,
+      "passed": true,
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_count",
+        "cleared": 16,
+        "complete": true,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "count_upper_bound",
+          "cleared_channels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "absent_channels": [],
+          "unresolved_channels": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "negative_scan_indices": {
+            "1": [
+              0
+            ],
+            "2": [
+              0
+            ],
+            "3": [
+              0
+            ],
+            "4": [
+              0
+            ],
+            "5": [
+              0
+            ],
+            "6": [
+              0
+            ],
+            "7": [
+              0
+            ],
+            "8": [
+              0
+            ],
+            "9": [
+              0
+            ],
+            "10": [
+              0
+            ],
+            "11": [
+              0
+            ],
+            "12": [
+              0
+            ],
+            "13": [
+              0
+            ],
+            "14": [
+              0
+            ],
+            "15": [
+              0
+            ],
+            "16": [
+              0
+            ],
+            "17": [
+              0,
+              1
+            ],
+            "18": [
+              0,
+              1
+            ],
+            "19": [
+              0,
+              1
+            ],
+            "20": [
+              0,
+              1
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 1.058761099993717,
+      "timing": {
+        "total_s": 3744.060591392085,
+        "distance_m": 16050.302956960411,
+        "counts": {
+          "measure": 80,
+          "switch": 54,
+          "clear_success": 16,
+          "clear_fail": 0
+        },
+        "average_s": 234.0037869620053,
+        "actions": 96
+      },
+      "coverage_certificate": {
+        "certificate": "count_16",
+        "absent_channels": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "negative_station_counts": {
+          "17": 2,
+          "18": 2,
+          "19": 2,
+          "20": 2
+        },
+        "absent_channels_missing_stations": {
+          "17": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "18": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "19": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "20": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "trace_audit": {
+        "polygons_checked": 56,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.993925653286567
+      },
+      "near_responses": 0,
+      "station_visit_order": [
+        0,
+        1
+      ]
+    },
+    {
+      "case": "sixteen_minimum_radius_boundary_ring",
+      "schedule": "baseline",
+      "policy": "time",
+      "field": "hash",
+      "seed": 701,
+      "passed": true,
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_count",
+        "cleared": 16,
+        "complete": true,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "count_upper_bound",
+          "cleared_channels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "absent_channels": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [
+              0
+            ],
+            "2": [
+              0
+            ],
+            "3": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            "4": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [
+              0,
+              1,
+              4,
+              5,
+              6
+            ],
+            "6": [
+              0,
+              1,
+              4,
+              5,
+              6
+            ],
+            "7": [
+              0,
+              1,
+              4,
+              5,
+              6
+            ],
+            "8": [
+              0,
+              1,
+              5,
+              6
+            ],
+            "9": [
+              0,
+              1,
+              5,
+              6
+            ],
+            "10": [
+              0,
+              1,
+              6
+            ],
+            "11": [
+              0,
+              1,
+              6
+            ],
+            "12": [
+              0,
+              1,
+              6
+            ],
+            "13": [
+              0,
+              1
+            ],
+            "14": [
+              0,
+              1
+            ],
+            "15": [
+              0,
+              1
+            ],
+            "16": [
+              0
+            ],
+            "17": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.6840309000108391,
+      "timing": {
+        "total_s": 5397.769614215274,
+        "distance_m": 22858.848071076365,
+        "counts": {
+          "measure": 127,
+          "switch": 111,
+          "clear_success": 16,
+          "clear_fail": 0
+        },
+        "average_s": 337.3606008884546,
+        "actions": 143
+      },
+      "coverage_certificate": {
+        "certificate": "count_16",
+        "absent_channels": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "negative_station_counts": {
+          "17": 7,
+          "18": 7,
+          "19": 7,
+          "20": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 46,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9702517232681771
+      },
+      "near_responses": 0,
+      "station_visit_order": [
+        0,
+        1,
+        6,
+        5,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "case": "ten_sources_at_origin",
+      "schedule": "safe",
+      "policy": "time",
+      "field": "smooth",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "complete": true,
+        "cleared": 10,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": []
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.0024635000008856878,
+      "timing": {
+        "total_s": 1964.0000000000002,
+        "distance_m": 7200.000000000001,
+        "counts": {
+          "measure": 80,
+          "switch": 74,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 196.40000000000003,
+        "actions": 90
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 0,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.0
+      },
+      "near_responses": 10,
+      "station_visit_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "case": "last_boundary_source",
+      "schedule": "safe",
+      "policy": "time",
+      "field": "extreme",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "complete": true,
+        "cleared": 10,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.07898760000534821,
+      "timing": {
+        "total_s": 2130.7766184021593,
+        "distance_m": 7783.883092010797,
+        "counts": {
+          "measure": 89,
+          "switch": 79,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 213.07766184021594,
+        "actions": 99
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 4,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9925404725211706
+      },
+      "near_responses": 9,
+      "station_visit_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "late_source_discovery_station": 6,
+      "late_source_found_at_last_station": true
+    },
+    {
+      "case": "near_and_distance_boundaries",
+      "schedule": "safe",
+      "policy": "time",
+      "field": "constant",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "complete": true,
+        "cleared": 10,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [
+              0
+            ],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              5
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.4317794000089634,
+      "timing": {
+        "total_s": 3424.537306087168,
+        "distance_m": 13922.686530435838,
+        "counts": {
+          "measure": 101,
+          "switch": 85,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 342.4537306087168,
+        "actions": 111
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 25,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9941417178297343
+      },
+      "near_responses": 3,
+      "station_visit_order": [
+        0,
+        5,
+        6,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "case": "sixteen_colocated_worst_boundary",
+      "schedule": "safe",
+      "policy": "time",
+      "field": "extreme",
+      "seed": 701,
+      "passed": true,
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_count",
+        "complete": true,
+        "cleared": 16,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "count_upper_bound",
+          "cleared_channels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "absent_channels": [],
+          "unresolved_channels": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "negative_scan_indices": {
+            "1": [
+              0
+            ],
+            "2": [
+              0
+            ],
+            "3": [
+              0
+            ],
+            "4": [
+              0
+            ],
+            "5": [
+              0
+            ],
+            "6": [
+              0
+            ],
+            "7": [
+              0
+            ],
+            "8": [
+              0
+            ],
+            "9": [
+              0
+            ],
+            "10": [
+              0
+            ],
+            "11": [
+              0
+            ],
+            "12": [
+              0
+            ],
+            "13": [
+              0
+            ],
+            "14": [
+              0
+            ],
+            "15": [
+              0
+            ],
+            "16": [
+              0
+            ],
+            "17": [
+              0,
+              1
+            ],
+            "18": [
+              0,
+              1
+            ],
+            "19": [
+              0,
+              1
+            ],
+            "20": [
+              0,
+              1
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.9552301000076113,
+      "timing": {
+        "total_s": 3744.060591392085,
+        "distance_m": 16050.302956960411,
+        "counts": {
+          "measure": 80,
+          "switch": 54,
+          "clear_success": 16,
+          "clear_fail": 0
+        },
+        "average_s": 234.0037869620053,
+        "actions": 96
+      },
+      "coverage_certificate": {
+        "certificate": "count_16",
+        "absent_channels": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "negative_station_counts": {
+          "17": 2,
+          "18": 2,
+          "19": 2,
+          "20": 2
+        },
+        "absent_channels_missing_stations": {
+          "17": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "18": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "19": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "20": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "trace_audit": {
+        "polygons_checked": 56,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.993925653286567
+      },
+      "near_responses": 0,
+      "station_visit_order": [
+        0,
+        1
+      ]
+    },
+    {
+      "case": "sixteen_minimum_radius_boundary_ring",
+      "schedule": "safe",
+      "policy": "time",
+      "field": "hash",
+      "seed": 701,
+      "passed": true,
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_count",
+        "complete": true,
+        "cleared": 16,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "count_upper_bound",
+          "cleared_channels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "absent_channels": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [
+              0
+            ],
+            "2": [
+              0
+            ],
+            "3": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            "4": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [
+              0,
+              1,
+              4,
+              5,
+              6
+            ],
+            "6": [
+              0,
+              1,
+              4,
+              5,
+              6
+            ],
+            "7": [
+              0,
+              1,
+              4,
+              5,
+              6
+            ],
+            "8": [
+              0,
+              1,
+              5,
+              6
+            ],
+            "9": [
+              0,
+              1,
+              5,
+              6
+            ],
+            "10": [
+              0,
+              1,
+              6
+            ],
+            "11": [
+              0,
+              1,
+              6
+            ],
+            "12": [
+              0,
+              1,
+              6
+            ],
+            "13": [
+              0,
+              1
+            ],
+            "14": [
+              0,
+              1
+            ],
+            "15": [
+              0,
+              1
+            ],
+            "16": [
+              0
+            ],
+            "17": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.6814644999976736,
+      "timing": {
+        "total_s": 5397.769614215274,
+        "distance_m": 22858.848071076365,
+        "counts": {
+          "measure": 127,
+          "switch": 111,
+          "clear_success": 16,
+          "clear_fail": 0
+        },
+        "average_s": 337.3606008884546,
+        "actions": 143
+      },
+      "coverage_certificate": {
+        "certificate": "count_16",
+        "absent_channels": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "negative_station_counts": {
+          "17": 7,
+          "18": 7,
+          "19": 7,
+          "20": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 46,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9702517232681771
+      },
+      "near_responses": 0,
+      "station_visit_order": [
+        0,
+        1,
+        6,
+        5,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "case": "ten_sources_at_origin",
+      "schedule": "dynamic",
+      "policy": "time",
+      "field": "smooth",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "complete": true,
+        "cleared": 10,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": []
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.027308500008075498,
+      "timing": {
+        "total_s": 1964.0000000000002,
+        "distance_m": 7200.000000000001,
+        "counts": {
+          "measure": 80,
+          "switch": 74,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 196.40000000000003,
+        "actions": 90
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 0,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.0
+      },
+      "near_responses": 10,
+      "station_visit_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "case": "last_boundary_source",
+      "schedule": "dynamic",
+      "policy": "time",
+      "field": "extreme",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "complete": true,
+        "cleared": 10,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.10489300001063384,
+      "timing": {
+        "total_s": 2130.7766184021593,
+        "distance_m": 7783.883092010797,
+        "counts": {
+          "measure": 89,
+          "switch": 79,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 213.07766184021594,
+        "actions": 99
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 4,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9925404725211706
+      },
+      "near_responses": 9,
+      "station_visit_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "late_source_discovery_station": 6,
+      "late_source_found_at_last_station": true
+    },
+    {
+      "case": "near_and_distance_boundaries",
+      "schedule": "dynamic",
+      "policy": "time",
+      "field": "constant",
+      "seed": 701,
+      "passed": true,
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "complete": true,
+        "cleared": 10,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "seven_point_coverage",
+          "cleared_channels": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            20
+          ],
+          "absent_channels": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            19
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [],
+            "2": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "3": [],
+            "4": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "5": [],
+            "6": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "7": [],
+            "8": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "9": [],
+            "10": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "11": [],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "13": [],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "15": [],
+            "16": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "17": [
+              0
+            ],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.44734740001149476,
+      "timing": {
+        "total_s": 3532.2037226702087,
+        "distance_m": 14386.01861335104,
+        "counts": {
+          "measure": 103,
+          "switch": 90,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 353.2203722670209,
+        "actions": 113
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "2": 7,
+          "4": 7,
+          "6": 7,
+          "8": 7,
+          "10": 7,
+          "12": 7,
+          "14": 7,
+          "16": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 23,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9941417178297343
+      },
+      "near_responses": 3,
+      "station_visit_order": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "case": "sixteen_colocated_worst_boundary",
+      "schedule": "dynamic",
+      "policy": "time",
+      "field": "extreme",
+      "seed": 701,
+      "passed": true,
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_count",
+        "complete": true,
+        "cleared": 16,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "count_upper_bound",
+          "cleared_channels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "absent_channels": [],
+          "unresolved_channels": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "negative_scan_indices": {
+            "1": [
+              0
+            ],
+            "2": [
+              0
+            ],
+            "3": [
+              0
+            ],
+            "4": [
+              0
+            ],
+            "5": [
+              0
+            ],
+            "6": [
+              0
+            ],
+            "7": [
+              0
+            ],
+            "8": [
+              0
+            ],
+            "9": [
+              0
+            ],
+            "10": [
+              0
+            ],
+            "11": [
+              0
+            ],
+            "12": [
+              0
+            ],
+            "13": [
+              0
+            ],
+            "14": [
+              0
+            ],
+            "15": [
+              0
+            ],
+            "16": [
+              0
+            ],
+            "17": [
+              0,
+              1
+            ],
+            "18": [
+              0,
+              1
+            ],
+            "19": [
+              0,
+              1
+            ],
+            "20": [
+              0,
+              1
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 1.0278369000006933,
+      "timing": {
+        "total_s": 3744.0604506659415,
+        "distance_m": 16050.302253329713,
+        "counts": {
+          "measure": 80,
+          "switch": 54,
+          "clear_success": 16,
+          "clear_fail": 0
+        },
+        "average_s": 234.00377816662134,
+        "actions": 96
+      },
+      "coverage_certificate": {
+        "certificate": "count_16",
+        "absent_channels": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "negative_station_counts": {
+          "17": 2,
+          "18": 2,
+          "19": 2,
+          "20": 2
+        },
+        "absent_channels_missing_stations": {
+          "17": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "18": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "19": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "20": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "trace_audit": {
+        "polygons_checked": 56,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.993925653286567
+      },
+      "near_responses": 0,
+      "station_visit_order": [
+        0,
+        1
+      ]
+    },
+    {
+      "case": "sixteen_minimum_radius_boundary_ring",
+      "schedule": "dynamic",
+      "policy": "time",
+      "field": "hash",
+      "seed": 701,
+      "passed": true,
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "solver_result": {
+        "status": "complete_by_coverage",
+        "complete": true,
+        "cleared": 16,
+        "completion_certificate": {
+          "valid": true,
+          "basis": "count_upper_bound",
+          "cleared_channels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "absent_channels": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "unresolved_channels": [],
+          "negative_scan_indices": {
+            "1": [
+              0
+            ],
+            "2": [
+              0
+            ],
+            "3": [
+              0,
+              1
+            ],
+            "4": [
+              0,
+              1
+            ],
+            "5": [
+              0,
+              1,
+              2
+            ],
+            "6": [
+              0,
+              1,
+              2
+            ],
+            "7": [
+              0,
+              1,
+              2
+            ],
+            "8": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "9": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "10": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "11": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "12": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "13": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "14": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "15": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "16": [
+              0
+            ],
+            "17": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "18": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "19": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "20": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "assumptions": "问题3：全向固定源，唯一频道，接收半径至少1000米，源位于1800米圆域"
+        },
+        "fallback_count": 0
+      },
+      "runtime_s": 0.6031232999957865,
+      "timing": {
+        "total_s": 4608.714706913499,
+        "distance_m": 18898.573534567488,
+        "counts": {
+          "measure": 127,
+          "switch": 114,
+          "clear_success": 16,
+          "clear_fail": 0
+        },
+        "average_s": 288.0446691820937,
+        "actions": 143
+      },
+      "coverage_certificate": {
+        "certificate": "count_16",
+        "absent_channels": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "negative_station_counts": {
+          "17": 7,
+          "18": 7,
+          "19": 7,
+          "20": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 43,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9395373057290044
+      },
+      "near_responses": 0,
+      "station_visit_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "errors": [],
+  "injection_checks": [
+    {
+      "case": "injected_initial_geometry",
+      "schedule": "safe",
+      "injected_failures": 1,
+      "geometry_calls": 2,
+      "passed": true,
+      "cleared": 10,
+      "proxy_recoveries": 1,
+      "fallback_count": 0,
+      "timing": {
+        "total_s": 2190.570290079943,
+        "distance_m": 8307.851450399714,
+        "counts": {
+          "measure": 81,
+          "switch": 74,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 219.0570290079943,
+        "actions": 91
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "10": 7,
+          "11": 7,
+          "12": 7,
+          "13": 7,
+          "14": 7,
+          "15": 7,
+          "16": 7,
+          "17": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 2,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9900000000000091
+      }
+    },
+    {
+      "case": "injected_initial_geometry",
+      "schedule": "safe",
+      "injected_failures": 2,
+      "geometry_calls": 2,
+      "passed": true,
+      "cleared": 10,
+      "proxy_recoveries": 1,
+      "fallback_count": 1,
+      "timing": {
+        "total_s": 1964.380853243998,
+        "distance_m": 7201.90426621999,
+        "counts": {
+          "measure": 80,
+          "switch": 74,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 196.4380853243998,
+        "actions": 90
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "10": 7,
+          "11": 7,
+          "12": 7,
+          "13": 7,
+          "14": 7,
+          "15": 7,
+          "16": 7,
+          "17": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 0,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9900000000000091
+      }
+    },
+    {
+      "case": "injected_initial_geometry",
+      "schedule": "dynamic",
+      "injected_failures": 1,
+      "geometry_calls": 2,
+      "passed": true,
+      "cleared": 10,
+      "proxy_recoveries": 1,
+      "fallback_count": 0,
+      "timing": {
+        "total_s": 2190.570290079943,
+        "distance_m": 8307.851450399714,
+        "counts": {
+          "measure": 81,
+          "switch": 74,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 219.0570290079943,
+        "actions": 91
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "10": 7,
+          "11": 7,
+          "12": 7,
+          "13": 7,
+          "14": 7,
+          "15": 7,
+          "16": 7,
+          "17": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 2,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9900000000000091
+      }
+    },
+    {
+      "case": "injected_initial_geometry",
+      "schedule": "dynamic",
+      "injected_failures": 2,
+      "geometry_calls": 2,
+      "passed": true,
+      "cleared": 10,
+      "proxy_recoveries": 1,
+      "fallback_count": 1,
+      "timing": {
+        "total_s": 1964.380853243998,
+        "distance_m": 7201.90426621999,
+        "counts": {
+          "measure": 80,
+          "switch": 74,
+          "clear_success": 10,
+          "clear_fail": 0
+        },
+        "average_s": 196.4380853243998,
+        "actions": 90
+      },
+      "coverage_certificate": {
+        "certificate": "per_channel_coverage",
+        "absent_channels": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "negative_station_counts": {
+          "10": 7,
+          "11": 7,
+          "12": 7,
+          "13": 7,
+          "14": 7,
+          "15": 7,
+          "16": 7,
+          "17": 7,
+          "18": 7,
+          "19": 7
+        },
+        "absent_channels_missing_stations": {}
+      },
+      "trace_audit": {
+        "polygons_checked": 0,
+        "truth_exclusion_violations": 0
+      },
+      "observation_audit": {
+        "max_observed_absolute_error_deg": 0.9900000000000091
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "safe",
+      "mode": "measure_transport",
+      "passed": true,
+      "exception_type": "InjectedTransportError",
+      "successful_target_clear": false,
+      "fallback_count": 0,
+      "timing": {
+        "total_s": 113.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 19,
+          "switch": 18,
+          "clear_success": 0,
+          "clear_fail": 0
+        },
+        "average_s": 113.0,
+        "actions": 19
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "safe",
+      "mode": "measure_rejected",
+      "passed": true,
+      "exception_type": "RuntimeError",
+      "successful_target_clear": false,
+      "fallback_count": 0,
+      "timing": {
+        "total_s": 113.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 19,
+          "switch": 18,
+          "clear_success": 0,
+          "clear_fail": 0
+        },
+        "average_s": 113.0,
+        "actions": 19
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "safe",
+      "mode": "clear_transport",
+      "passed": true,
+      "exception_type": "InjectedTransportError",
+      "successful_target_clear": false,
+      "fallback_count": 1,
+      "timing": {
+        "total_s": 164.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 20,
+          "switch": 19,
+          "clear_success": 9,
+          "clear_fail": 0
+        },
+        "average_s": 18.22222222222222,
+        "actions": 29
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "safe",
+      "mode": "clear_rejected",
+      "passed": true,
+      "exception_type": "RuntimeError",
+      "successful_target_clear": false,
+      "fallback_count": 1,
+      "timing": {
+        "total_s": 164.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 20,
+          "switch": 19,
+          "clear_success": 9,
+          "clear_fail": 0
+        },
+        "average_s": 18.22222222222222,
+        "actions": 29
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "dynamic",
+      "mode": "measure_transport",
+      "passed": true,
+      "exception_type": "InjectedTransportError",
+      "successful_target_clear": false,
+      "fallback_count": 0,
+      "timing": {
+        "total_s": 113.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 19,
+          "switch": 18,
+          "clear_success": 0,
+          "clear_fail": 0
+        },
+        "average_s": 113.0,
+        "actions": 19
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "dynamic",
+      "mode": "measure_rejected",
+      "passed": true,
+      "exception_type": "RuntimeError",
+      "successful_target_clear": false,
+      "fallback_count": 0,
+      "timing": {
+        "total_s": 113.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 19,
+          "switch": 18,
+          "clear_success": 0,
+          "clear_fail": 0
+        },
+        "average_s": 113.0,
+        "actions": 19
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "dynamic",
+      "mode": "clear_transport",
+      "passed": true,
+      "exception_type": "InjectedTransportError",
+      "successful_target_clear": false,
+      "fallback_count": 1,
+      "timing": {
+        "total_s": 164.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 20,
+          "switch": 19,
+          "clear_success": 9,
+          "clear_fail": 0
+        },
+        "average_s": 18.22222222222222,
+        "actions": 29
+      }
+    },
+    {
+      "case": "api_failure_propagates",
+      "schedule": "dynamic",
+      "mode": "clear_rejected",
+      "passed": true,
+      "exception_type": "RuntimeError",
+      "successful_target_clear": false,
+      "fallback_count": 1,
+      "timing": {
+        "total_s": 164.0,
+        "distance_m": 0.0,
+        "counts": {
+          "measure": 20,
+          "switch": 19,
+          "clear_success": 9,
+          "clear_fail": 0
+        },
+        "average_s": 18.22222222222222,
+        "actions": 29
+      }
+    },
+    {
+      "case": "boolean_step_limit_rejected",
+      "schedule": "baseline",
+      "passed": true,
+      "actions": 0
+    },
+    {
+      "case": "boolean_step_limit_rejected",
+      "schedule": "safe",
+      "passed": true,
+      "actions": 0
+    },
+    {
+      "case": "boolean_step_limit_rejected",
+      "schedule": "dynamic",
+      "passed": true,
+      "actions": 0
+    }
+  ],
+  "all_passed": true
+}
