@@ -1,0 +1,42 @@
+{
+  "groups": {
+    "lean": {
+      "runs": 36,
+      "passed": 36,
+      "sources": 444,
+      "mean_total_s": 3136.5929300464722,
+      "mean_move_s": 2356.9540411575836,
+      "mean_measures": 115.52777777777777,
+      "mean_tail_s": 47.809380887016836,
+      "max_total_s": 3447.265109502489,
+      "mean_runtime_s": 3.373314813888606,
+      "max_runtime_s": 6.336722300009569
+    },
+    "route_interleave": {
+      "runs": 36,
+      "passed": 36,
+      "sources": 444,
+      "mean_total_s": 3093.989022635806,
+      "mean_move_s": 2318.3223559691396,
+      "mean_measures": 115.02777777777777,
+      "mean_tail_s": 71.24313887228854,
+      "max_total_s": 3418.130652577455,
+      "mean_runtime_s": 4.870000163887501,
+      "max_runtime_s": 9.113421899994137
+    }
+  },
+  "comparisons_to_lean": {
+    "route_interleave": {
+      "pairs": 36,
+      "faster": 25,
+      "equal": 0,
+      "slower": 11,
+      "mean_saved_s": 42.60390741066611,
+      "reduction_pct": 1.3582861519118097,
+      "worst_regression_s": 102.1247880643482,
+      "worst_regression_case": "8304-uniform-extreme",
+      "largest_saving_s": 216.1910055369476
+    }
+  },
+  "source_snapshot_stable": true
+}

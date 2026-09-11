@@ -1,0 +1,42 @@
+{
+  "groups": {
+    "bounded": {
+      "runs": 9,
+      "passed": 9,
+      "sources": 90,
+      "mean_total_s": 3105.142307972877,
+      "mean_move_s": 2207.1423079728766,
+      "mean_measures": 140.33333333333334,
+      "mean_tail_s": 96.1236016876671,
+      "max_total_s": 3315.24799552905,
+      "mean_runtime_s": 9.08937008888784,
+      "max_runtime_s": 10.485276799998246
+    },
+    "original": {
+      "runs": 9,
+      "passed": 8,
+      "sources": 90,
+      "mean_total_s": 3082.3760692114147,
+      "mean_move_s": 2193.0427358780817,
+      "mean_measures": 138.22222222222223,
+      "mean_tail_s": 86.5417929373859,
+      "max_total_s": 3315.24799552905,
+      "mean_runtime_s": 6.192117899999074,
+      "max_runtime_s": 7.669449599998188
+    }
+  },
+  "comparisons_to_original": {
+    "bounded": {
+      "pairs": 9,
+      "faster": 3,
+      "equal": 3,
+      "slower": 3,
+      "mean_saved_s": -22.76623876146227,
+      "reduction_pct": -0.7385938071887092,
+      "worst_regression_s": 205.81941056827372,
+      "worst_regression_case": "9501-sparse10-smooth",
+      "largest_saving_s": 9.18824137693673
+    }
+  },
+  "source_snapshot_stable": true
+}

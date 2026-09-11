@@ -1,0 +1,88 @@
+{
+  "groups": {
+    "bounded": {
+      "runs": 1,
+      "passed": 1,
+      "sources": 14,
+      "mean_total_s": 3096.641612159823,
+      "mean_move_s": 2288.6416121598227,
+      "mean_measures": 121.0,
+      "mean_tail_s": 0.0,
+      "max_total_s": 3096.641612159823,
+      "mean_runtime_s": 20.723939599993173,
+      "max_runtime_s": 20.723939599993173
+    },
+    "legal": {
+      "runs": 1,
+      "passed": 1,
+      "sources": 14,
+      "mean_total_s": 3102.950117812737,
+      "mean_move_s": 2294.950117812737,
+      "mean_measures": 121.0,
+      "mean_tail_s": 0.0,
+      "max_total_s": 3102.950117812737,
+      "mean_runtime_s": 20.697170900006313,
+      "max_runtime_s": 20.697170900006313
+    },
+    "original": {
+      "runs": 1,
+      "passed": 1,
+      "sources": 14,
+      "mean_total_s": 3110.1742600939956,
+      "mean_move_s": 2299.174260093995,
+      "mean_measures": 120.0,
+      "mean_tail_s": 0.0,
+      "max_total_s": 3110.1742600939956,
+      "mean_runtime_s": 7.7296419000049355,
+      "max_runtime_s": 7.7296419000049355
+    },
+    "policy": {
+      "runs": 1,
+      "passed": 1,
+      "sources": 14,
+      "mean_total_s": 3120.940311431704,
+      "mean_move_s": 2312.940311431705,
+      "mean_measures": 121.0,
+      "mean_tail_s": 0.0,
+      "max_total_s": 3120.940311431704,
+      "mean_runtime_s": 64.95705610000005,
+      "max_runtime_s": 64.95705610000005
+    }
+  },
+  "comparisons_to_original": {
+    "bounded": {
+      "pairs": 1,
+      "faster": 1,
+      "equal": 0,
+      "slower": 0,
+      "mean_saved_s": 13.532647934172473,
+      "reduction_pct": 0.4351089939816906,
+      "worst_regression_s": 0.0,
+      "worst_regression_case": "8700-uniform-extreme",
+      "largest_saving_s": 13.532647934172473
+    },
+    "legal": {
+      "pairs": 1,
+      "faster": 1,
+      "equal": 0,
+      "slower": 0,
+      "mean_saved_s": 7.224142281258537,
+      "reduction_pct": 0.23227451831075888,
+      "worst_regression_s": 0.0,
+      "worst_regression_case": "8700-uniform-extreme",
+      "largest_saving_s": 7.224142281258537
+    },
+    "policy": {
+      "pairs": 1,
+      "faster": 0,
+      "equal": 0,
+      "slower": 1,
+      "mean_saved_s": -10.766051337708177,
+      "reduction_pct": -0.3461558883000596,
+      "worst_regression_s": 10.766051337708177,
+      "worst_regression_case": "8700-uniform-extreme",
+      "largest_saving_s": -10.766051337708177
+    }
+  },
+  "source_snapshot_stable": true
+}

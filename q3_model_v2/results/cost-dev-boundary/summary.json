@@ -1,0 +1,88 @@
+{
+  "groups": {
+    "bounded": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 40,
+      "mean_total_s": 3769.206815419922,
+      "mean_move_s": 2896.2068154199223,
+      "mean_measures": 135.0,
+      "mean_tail_s": 0.0,
+      "max_total_s": 4043.0111342132495,
+      "mean_runtime_s": 9.181953874998726,
+      "max_runtime_s": 10.229180900001666
+    },
+    "legal": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 40,
+      "mean_total_s": 3769.8316080096292,
+      "mean_move_s": 2896.0816080096292,
+      "mean_measures": 135.0,
+      "mean_tail_s": 0.0,
+      "max_total_s": 4043.0111342132495,
+      "mean_runtime_s": 8.972225925001112,
+      "max_runtime_s": 10.131935500001418
+    },
+    "original": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 40,
+      "mean_total_s": 3769.9220857229934,
+      "mean_move_s": 2891.922085722993,
+      "mean_measures": 132.5,
+      "mean_tail_s": 0.0,
+      "max_total_s": 4020.3121450313756,
+      "mean_runtime_s": 6.523129550001613,
+      "max_runtime_s": 7.129985899999156
+    },
+    "policy": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 40,
+      "mean_total_s": 3772.9222640789485,
+      "mean_move_s": 2897.922264078949,
+      "mean_measures": 135.5,
+      "mean_tail_s": 0.0,
+      "max_total_s": 4026.810226992552,
+      "mean_runtime_s": 13.225516499998776,
+      "max_runtime_s": 14.961997999998857
+    }
+  },
+  "comparisons_to_original": {
+    "bounded": {
+      "pairs": 4,
+      "faster": 3,
+      "equal": 0,
+      "slower": 1,
+      "mean_saved_s": 0.7152703030716339,
+      "reduction_pct": 0.018973079199180842,
+      "worst_regression_s": 22.698989181873912,
+      "worst_regression_case": "8900-boundary10-extreme",
+      "largest_saving_s": 13.179929699269906
+    },
+    "legal": {
+      "pairs": 4,
+      "faster": 3,
+      "equal": 0,
+      "slower": 1,
+      "mean_saved_s": 0.09047771336429378,
+      "reduction_pct": 0.002399988946905305,
+      "worst_regression_s": 22.698989181873912,
+      "worst_regression_case": "8900-boundary10-extreme",
+      "largest_saving_s": 11.341139928080338
+    },
+    "policy": {
+      "pairs": 4,
+      "faster": 2,
+      "equal": 0,
+      "slower": 2,
+      "mean_saved_s": -3.0001783559553132,
+      "reduction_pct": -0.0795819724581905,
+      "worst_regression_s": 13.65886207302674,
+      "worst_regression_case": "8900-boundary10-smooth",
+      "largest_saving_s": 2.322310533044856
+    }
+  },
+  "source_snapshot_stable": true
+}

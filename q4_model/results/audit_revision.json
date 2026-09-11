@@ -1,0 +1,144 @@
+{
+  "reason": "Strengthened the offline audit for degenerate line segments: reject points beyond endpoints. Solver, trajectories, performance data and completion decisions are unchanged.",
+  "solver_rerun": false,
+  "official_simulator_used": false,
+  "changed_files": [
+    "q4_model/test_model.py",
+    "q4_model/validation.py"
+  ],
+  "code_hashes": {
+    "q4_model/benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+    "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "q4_model/test_model.py": "2129c884971a564e33c3b566c9fe85148b7c80c5c1b321459bab2c9d8d8377d2",
+    "q4_model/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+    "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "q3_model_v2/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e"
+  },
+  "all_saved_audits_unchanged": true,
+  "passed": true,
+  "checks": [
+    {
+      "file": "results\\development\\13000-uniform-smooth-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\development\\13100-boundary-smooth-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\development\\13200-cluster-smooth-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\development\\13000-uniform-smooth-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\development\\13100-boundary-smooth-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\development\\13200-cluster-smooth-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14000-uniform-extreme-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14000-uniform-hash-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14001-uniform-extreme-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14001-uniform-hash-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14100-boundary-extreme-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14100-boundary-hash-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14101-boundary-extreme-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14101-boundary-hash-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14200-cluster-extreme-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14200-cluster-hash-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14201-cluster-extreme-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14201-cluster-hash-optical.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14000-uniform-extreme-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14000-uniform-hash-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14001-uniform-extreme-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14001-uniform-hash-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14100-boundary-extreme-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14100-boundary-hash-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14101-boundary-extreme-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14101-boundary-hash-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14200-cluster-extreme-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14200-cluster-hash-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14201-cluster-extreme-active.json",
+      "passed": true
+    },
+    {
+      "file": "results\\holdout\\14201-cluster-hash-active.json",
+      "passed": true
+    }
+  ]
+}

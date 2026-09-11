@@ -1,0 +1,31 @@
+{
+  "recorded_at_utc": "2026-09-11T13:51:18.210433+00:00",
+  "problem": 4,
+  "variant": "shared",
+  "official_simulator_used": false,
+  "source_sha256": {
+    "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "q4_model/joint_solver.py": "8ba8f79b19e1f0284ec810dcf96909df9644d7a2d92f38b1b32fbaff234cfc85",
+    "q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "q4_model/q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "q3_model_v2/official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e",
+    "q4_model/requirements.txt": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a",
+    "q4_model/run_official.ps1": "d656388c1ae892dea9801b196f1fc10fc351d56d8d2a5122d833b7b448398c56",
+    "q4_model/运行第四问.cmd": "d0a69ed8239ecf5c485dd2ceb87459b0a9edce0fa5d286480ebc94d8ddc23912",
+    "q4_model/verify_release.py": "a1c16ccaa51521c148158d30e9ac3c1ea2c2e4e7c5bce60eded12bf7537b2048"
+  },
+  "evidence_sha256": {
+    "q4_model/results/readiness_analysis.json": "38dd1b3923c6f9f60ca0cb3806a55b2e878231ec1b4c98c64b36c4bfe5b6d4a6",
+    "q4_model/results/q4_http_validation.json": "992b7944f78765c2cb26f544113cb6f16add8b13e106de351ed71be2107e7a6e",
+    "q4_model/results/stress-endpoints/manifest.json": "8fa72d8daaa572faf4dc49102148d50c28b57aaf80e378e51baf8fe7f152a0ad",
+    "q4_model/results/stress-endpoints/summary.json": "84e301f7f86ed5f59658e3b6de5620766805c300a38eca82460ec20c6ab70c29"
+  },
+  "launcher_validation": "PowerShell parser checked separately; interactive launcher not executed.",
+  "interface_validation": "Full Python CLI and Q4 session runner exercised only against ephemeral local HTTP fixtures."
+}

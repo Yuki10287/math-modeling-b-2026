@@ -1,0 +1,35 @@
+{
+  "local_only": true,
+  "official_simulator_used": false,
+  "truth_hidden": true,
+  "start_seed": 7000,
+  "seeds": 2,
+  "fields": [
+    "smooth"
+  ],
+  "schedules": [
+    "lean",
+    "route",
+    "joint"
+  ],
+  "population": "uniform",
+  "split": "development",
+  "layout_distribution_is_self_defined": true,
+  "source_sha256": {
+    "solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "joint_solver.py": "75d0c08dca5fd4f52d56bccbda8ed1e42c080cde7df57ae6922efcefe51849b0",
+    "joint_planning.py": "7a0641290503ed6be442e7f9f026fa403402b05cef7745fd7a4fa4a963dcde97",
+    "geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "validate_model.py": "3ada7725926ea2a703503516c24436128b733f2577b3d007c0ad4c206e860b70",
+    "benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "benchmark_joint.py": "c411315ce888f17e819fdfa1ac2390bc48599e0d039bd2e268bbfa070b0eb04b"
+  }
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "name": "7000-uniform-smooth",
+    "seed": 7000,
+    "field": "smooth",
+    "schedule": "lean",
+    "passed": true,
+    "error": null,
+    "runtime_s": 7.719687200005865,
+    "tail_s": 0.0,
+    "source_count": 15,
+    "cleared": 15,
+    "all_cleared": true,
+    "total_s": 3563.320456744088,
+    "average_s": 237.55469711627254,
+    "distance_m": 14101.602283720444,
+    "counts": {
+      "measure": 107,
+      "switch": 103,
+      "clear_success": 15,
+      "clear_fail": 10
+    },
+    "time_parts_s": {
+      "move": 2820.320456744089,
+      "measure": 535,
+      "switch": 103,
+      "clear_success": 75,
+      "clear_fail": 30
+    }
+  },
+  {
+    "name": "7000-uniform-smooth",
+    "seed": 7000,
+    "field": "smooth",
+    "schedule": "route",
+    "passed": false,
+    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\15591\\Desktop\\B\u9898\u6c42\u89e3\\q3_model_v2\\benchmark_joint.py\", line 103, in main\n    outcome = solve(PublicAPI(arena), trace=trace, schedule=schedule)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\15591\\Desktop\\B\u9898\u6c42\u89e3\\q3_model_v2\\joint_solver.py\", line 198, in solve_multi\n    tasks, _ = joint_route(model.coverage, unknown, model.position, sources)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\15591\\Desktop\\B\u9898\u6c42\u89e3\\q3_model_v2\\joint_planning.py\", line 126, in joint_route\n    groups = residual_groups(tracker, channels, scans)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\15591\\Desktop\\B\u9898\u6c42\u89e3\\q3_model_v2\\joint_planning.py\", line 104, in residual_groups\n    raise ValueError('scan route does not cover residual evidence')\nValueError: scan route does not cover residual evidence\n",
+    "runtime_s": 1.2105107999959728,
+    "tail_s": 0.0,
+    "source_count": 15,
+    "cleared": 1,
+    "all_cleared": false,
+    "total_s": 306.7298482796142,
+    "average_s": 306.7298482796142,
+    "distance_m": 858.6492413980711,
+    "counts": {
+      "measure": 22,
+      "switch": 20,
+      "clear_success": 1,
+      "clear_fail": 0
+    },
+    "time_parts_s": {
+      "move": 171.72984827961423,
+      "measure": 110,
+      "switch": 20,
+      "clear_success": 5,
+      "clear_fail": 0
+    }
+  }
+]

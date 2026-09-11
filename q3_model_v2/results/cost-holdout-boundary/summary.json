@@ -1,0 +1,42 @@
+{
+  "groups": {
+    "bounded": {
+      "runs": 9,
+      "passed": 9,
+      "sources": 90,
+      "mean_total_s": 3423.478774200698,
+      "mean_move_s": 2559.3676630895875,
+      "mean_measures": 133.88888888888889,
+      "mean_tail_s": 58.90906305940689,
+      "max_total_s": 3654.2024237853,
+      "mean_runtime_s": 9.115978811107603,
+      "max_runtime_s": 11.71600679999392
+    },
+    "original": {
+      "runs": 9,
+      "passed": 9,
+      "sources": 90,
+      "mean_total_s": 3415.9637277614765,
+      "mean_move_s": 2548.1859499836983,
+      "mean_measures": 132.11111111111111,
+      "mean_tail_s": 59.109394282081865,
+      "max_total_s": 3607.278563651275,
+      "mean_runtime_s": 6.466480511112928,
+      "max_runtime_s": 7.678818799991859
+    }
+  },
+  "comparisons_to_original": {
+    "bounded": {
+      "pairs": 9,
+      "faster": 4,
+      "equal": 0,
+      "slower": 5,
+      "mean_saved_s": -7.515046439222463,
+      "reduction_pct": -0.21999784067224762,
+      "worst_regression_s": 86.49494568648606,
+      "worst_regression_case": "9601-boundary10-hash",
+      "largest_saving_s": 45.93009947686369
+    }
+  },
+  "source_snapshot_stable": true
+}

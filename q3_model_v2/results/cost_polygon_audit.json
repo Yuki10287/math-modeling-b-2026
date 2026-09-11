@@ -1,0 +1,977 @@
+{
+  "local_offline_replay_only": true,
+  "official_simulator_used": false,
+  "original_results_modified": false,
+  "convex_hull_substitution": false,
+  "boundary_tolerance_m": 1e-05,
+  "regression_cases_passed": 11,
+  "source_snapshot_stable": true,
+  "runs": 78,
+  "original_audit_passed": 77,
+  "supplemental_audit_passed": 78,
+  "polygons_checked": 6420,
+  "optical_paths_checked": 496,
+  "original_false_negative_disagreements": [
+    {
+      "file": "results\\cost-holdout-sparse\\cases\\9502-sparse10-hash-original.json",
+      "trace_index": 127,
+      "phase": "belief_update",
+      "channel": 3,
+      "polygon": [
+        [
+          -1485.7744640310023,
+          -83.92557238910767
+        ],
+        [
+          -1491.5134372635835,
+          -78.18659915652651
+        ],
+        [
+          -1577.5501038696184,
+          -278.2979022559528
+        ],
+        [
+          -1577.5501038314858,
+          -278.29790214548973
+        ]
+      ],
+      "truth": [
+        -1562.3300404485096,
+        -245.32353442855123
+      ],
+      "minimum_edge_m": 1.1685969124405425e-07,
+      "truth_to_boundary_m": 0.3158158284280186,
+      "convex_halfplanes": false,
+      "ray_crossing": true,
+      "matplotlib_path": true
+    },
+    {
+      "file": "results\\cost-holdout-sparse\\cases\\9502-sparse10-hash-original.json",
+      "trace_index": 129,
+      "phase": "localize",
+      "channel": 3,
+      "polygon": [
+        [
+          -1485.7744640310023,
+          -83.92557238910767
+        ],
+        [
+          -1491.5134372635835,
+          -78.18659915652651
+        ],
+        [
+          -1577.5501038696184,
+          -278.2979022559528
+        ],
+        [
+          -1577.5501038314858,
+          -278.29790214548973
+        ]
+      ],
+      "truth": [
+        -1562.3300404485096,
+        -245.32353442855123
+      ],
+      "minimum_edge_m": 1.1685969124405425e-07,
+      "truth_to_boundary_m": 0.3158158284280186,
+      "convex_halfplanes": false,
+      "ray_crossing": true,
+      "matplotlib_path": true
+    },
+    {
+      "file": "results\\cost-holdout-sparse\\cases\\9502-sparse10-hash-original.json",
+      "trace_index": 130,
+      "phase": "local_action",
+      "channel": 3,
+      "polygon": [
+        [
+          -1485.7744640310023,
+          -83.92557238910767
+        ],
+        [
+          -1491.5134372635835,
+          -78.18659915652651
+        ],
+        [
+          -1577.5501038696184,
+          -278.2979022559528
+        ],
+        [
+          -1577.5501038314858,
+          -278.29790214548973
+        ]
+      ],
+      "truth": [
+        -1562.3300404485096,
+        -245.32353442855123
+      ],
+      "minimum_edge_m": 1.1685969124405425e-07,
+      "truth_to_boundary_m": 0.3158158284280186,
+      "convex_halfplanes": false,
+      "ray_crossing": true,
+      "matplotlib_path": true
+    }
+  ],
+  "rows": [
+    {
+      "name": "9400-uniform-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 139,
+      "polygons_checked": 90,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "34137d076b133eb372f38f3c42a540b0d42e044250acf0c8605f8e8b12bfe832"
+    },
+    {
+      "name": "9400-uniform-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 139,
+      "polygons_checked": 90,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "9e213da1cc9d17e3addc45c61f4a784049765cd15244ca3cec769c5aeb5d98e0"
+    },
+    {
+      "name": "9400-uniform-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 137,
+      "polygons_checked": 86,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "26b1222c1cdbf5fdcc52c2b0837d381a1704e47f7c770ac5bad62e2dd0583e46"
+    },
+    {
+      "name": "9400-uniform-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 136,
+      "polygons_checked": 83,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "596165f1f0c0650415d79d03009eb58fdd135c09783743991890e3e9d160ff76"
+    },
+    {
+      "name": "9400-uniform-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 130,
+      "polygons_checked": 91,
+      "optical_paths_checked": 4,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "9295a3d78a50a9f883f06bb79673b50823906d089dcc456233a2e714feded10a"
+    },
+    {
+      "name": "9400-uniform-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 132,
+      "polygons_checked": 97,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "be22547f61b399cdb59257c0af67641e8e19cb303f923e7b9f6d0cd5d693c61b"
+    },
+    {
+      "name": "9401-uniform-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 133,
+      "polygons_checked": 74,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "a6c8df473681216523a45046174a12c104e520adae26dd5965132b85a4dd9071"
+    },
+    {
+      "name": "9401-uniform-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 133,
+      "polygons_checked": 74,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "00314c4910d5f433b93edd9c2bf5fc6c4b214bd6aa6fa6ceeb5847ca7ae83f1a"
+    },
+    {
+      "name": "9401-uniform-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 150,
+      "polygons_checked": 76,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "ebf5e674224e3f996555acf6a30118cc2db895ac22eb683771e6a931a499feb3"
+    },
+    {
+      "name": "9401-uniform-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 144,
+      "polygons_checked": 83,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "97a7c4178dd0ccdd1b03623a00a3dcf2c4186a06c999083c9b94faeb6960b4b2"
+    },
+    {
+      "name": "9401-uniform-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 123,
+      "polygons_checked": 76,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "e8363d5ee707670495d1e762dc3bd8acfe273b0040967944cbcd619d83745dd9"
+    },
+    {
+      "name": "9401-uniform-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 123,
+      "polygons_checked": 76,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "930667ae1d870800ba396c78af6745f56e5b6b925ee160411eb8ea18e1e44694"
+    },
+    {
+      "name": "9402-uniform-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 141,
+      "polygons_checked": 101,
+      "optical_paths_checked": 9,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "981b55fc55bb235cb861eb4b08ff6c6388ceaa2881b04cbbbc2b040f00471394"
+    },
+    {
+      "name": "9402-uniform-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 142,
+      "polygons_checked": 119,
+      "optical_paths_checked": 9,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "e6808b054f1536cafd1100219880f483b67de184ef4ee2e2488d337710f10eb7"
+    },
+    {
+      "name": "9402-uniform-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 137,
+      "polygons_checked": 110,
+      "optical_paths_checked": 13,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "64e33357148297723169f72e423067d37c71ae1f7610a52e21aa2241cc7f968a"
+    },
+    {
+      "name": "9402-uniform-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 143,
+      "polygons_checked": 130,
+      "optical_paths_checked": 12,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "fd23236d6debdd2c06b020f5280ec63bd286d2c08a2b35628205b81f8cb94152"
+    },
+    {
+      "name": "9402-uniform-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 142,
+      "polygons_checked": 127,
+      "optical_paths_checked": 11,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "c03d4320f1d73f866686e5d04c676e1ec47df122be37130ae9a448667aa71d9b"
+    },
+    {
+      "name": "9402-uniform-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 141,
+      "polygons_checked": 124,
+      "optical_paths_checked": 12,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "3978abf5edfec5624ba4a6a04933e5cce9cfd5bd7e160391621401f5d1e42553"
+    },
+    {
+      "name": "9403-uniform-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 125,
+      "polygons_checked": 84,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "18527437697c84d80805f2a3d37ed306546fe94bd28f107e5714aee36ce2ffe8"
+    },
+    {
+      "name": "9403-uniform-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 127,
+      "polygons_checked": 90,
+      "optical_paths_checked": 10,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "8f5bf82ee1a56b16570ec1fbdf3a88666e265e7378bff8d8d84c42eeedf8f1de"
+    },
+    {
+      "name": "9403-uniform-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 129,
+      "polygons_checked": 94,
+      "optical_paths_checked": 4,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "e0e76676ab4c0553729cb9690cbcaaabda8b7da13e18b72a9313ebed2616da05"
+    },
+    {
+      "name": "9403-uniform-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 128,
+      "polygons_checked": 91,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "8b58d03d76521a857ee66426286713a3e5f8a515f744ec71cb2b65c8c09920e5"
+    },
+    {
+      "name": "9403-uniform-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 131,
+      "polygons_checked": 100,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "8277cfd5258b5f7b8f03ea7f6d9f7daaef8b3542f01e3ccb32d822b846d22e35"
+    },
+    {
+      "name": "9403-uniform-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 131,
+      "polygons_checked": 100,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "ccbdc1b8fb63307ea1e3ae5ad0395eb421f646df154cea82d7e568fbe154a561"
+    },
+    {
+      "name": "9500-sparse10-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 154,
+      "polygons_checked": 72,
+      "optical_paths_checked": 4,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "e989a09500c146f208996dd185111ba3b1d1c30468d683dda8f0f4a350a5d03b"
+    },
+    {
+      "name": "9500-sparse10-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 156,
+      "polygons_checked": 78,
+      "optical_paths_checked": 5,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "c4ecb8d5e1d4664f2cfbc5bc1cb0b8e9896010ad48fc64e3da0b12f14ceffc2c"
+    },
+    {
+      "name": "9500-sparse10-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 153,
+      "polygons_checked": 71,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "058430d10a374c92a81e7efa8d92190fa47f838d5854199cce72d74d1e69db38"
+    },
+    {
+      "name": "9500-sparse10-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 153,
+      "polygons_checked": 71,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "46ed03ac33ee74bfb4f472c559f58c050fa5e58915c7ec9b6738c789a17f95c7"
+    },
+    {
+      "name": "9500-sparse10-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 155,
+      "polygons_checked": 72,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "f1cbd6d214ab32b3c4e83c65a39173af0aa3860f7812d44166583c2eb79dbe23"
+    },
+    {
+      "name": "9500-sparse10-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 155,
+      "polygons_checked": 72,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "b7226caa960f25688afd5bfdb8b38a94c6a13c06d6c0248e76933cb90104f20e"
+    },
+    {
+      "name": "9501-sparse10-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 155,
+      "polygons_checked": 57,
+      "optical_paths_checked": 3,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "af98596bfca40e66bf2c08ee6c6d4d6b611b6a80ae3fac16adedeb7aa657a580"
+    },
+    {
+      "name": "9501-sparse10-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 155,
+      "polygons_checked": 57,
+      "optical_paths_checked": 2,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "e2e4dfb79eeb3b0db351537b80e8c80f4e86010cc4de1a046bd2a837013e8e3c"
+    },
+    {
+      "name": "9501-sparse10-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 150,
+      "polygons_checked": 77,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "fa861a0d3f1e8ace24c2fb1b7acc0dd569542321174f94ade023acf12f979271"
+    },
+    {
+      "name": "9501-sparse10-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 150,
+      "polygons_checked": 77,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "da77d607770afd27cefaa87a2bc94794a1a6c162db5278cc03875154ac2b524f"
+    },
+    {
+      "name": "9501-sparse10-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 152,
+      "polygons_checked": 81,
+      "optical_paths_checked": 4,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "c0d6da302bea17ee9a588e2ac5eb8c8cb295613e62cb16bb187b2b3f57457054"
+    },
+    {
+      "name": "9501-sparse10-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 138,
+      "polygons_checked": 64,
+      "optical_paths_checked": 3,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "b61a19c597a0d7ed1371c6ccba30cb7e6594d3e904f349fb8092b7e6bbd81b3f"
+    },
+    {
+      "name": "9502-sparse10-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 158,
+      "polygons_checked": 69,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "286cc31b862324140f3697429fca60add4b05b7f869bef33d8c28457d693e5ba"
+    },
+    {
+      "name": "9502-sparse10-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 159,
+      "polygons_checked": 72,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "38e3d905af7d162846dc6ccae4df20835b22970231fec5c5e1714c3626c6937b"
+    },
+    {
+      "name": "9502-sparse10-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 160,
+      "polygons_checked": 75,
+      "optical_paths_checked": 5,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "9d482d4baa14ccdb6bb94cf62b4b143ca2038d34ae6144cf0be9871ef07e8b86"
+    },
+    {
+      "name": "9502-sparse10-hash",
+      "schedule": "original",
+      "original_audit_passed": false,
+      "supplemental_audit_passed": true,
+      "actions": 160,
+      "polygons_checked": 77,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "53b832ba76949dfef7af1375a9a19f3ea7df0ba4c715108420c559f923239087"
+    },
+    {
+      "name": "9502-sparse10-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 147,
+      "polygons_checked": 74,
+      "optical_paths_checked": 5,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "60594a5b496eee29381173cc0b6f553acef33c0a976aefb437016c5e9d31ef41"
+    },
+    {
+      "name": "9502-sparse10-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 149,
+      "polygons_checked": 80,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "543bc7f6153ebcecf28baa56914e15311c99ab915b0dc0cc393ad5105827a3f3"
+    },
+    {
+      "name": "9600-boundary10-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 141,
+      "polygons_checked": 69,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "b5d60da158b24c4e934f5d12b588d06c79dcf77ab0a0d1a4d9a9581093f94b50"
+    },
+    {
+      "name": "9600-boundary10-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 149,
+      "polygons_checked": 91,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "8b4929bc04808e15d42613a0b86dcf11c90fb6b17e401bf0144bf9d3886c907b"
+    },
+    {
+      "name": "9600-boundary10-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 147,
+      "polygons_checked": 91,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "b7d048306351b58fade3636ae3df9bfa022ec93781386ee4a1d36af8ba8629f4"
+    },
+    {
+      "name": "9600-boundary10-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 149,
+      "polygons_checked": 97,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "65160a5866c9137839544b201462e8549314fef0db685193aacdb3ee457486c2"
+    },
+    {
+      "name": "9600-boundary10-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 149,
+      "polygons_checked": 91,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "4b8f1e3d4b3bc7a23a18bac2222165a57f45c483ca83f6dc40f69bad1fa5317e"
+    },
+    {
+      "name": "9600-boundary10-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 152,
+      "polygons_checked": 100,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "6f4e28d7d32fc0e9075058279e92ecf9ce34b564759ed1bb020807a1cc4329b9"
+    },
+    {
+      "name": "9601-boundary10-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 164,
+      "polygons_checked": 66,
+      "optical_paths_checked": 3,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "31840e6150b5b1a04af1a3762d5f9259d767e95e4630b00c14099b9eb306fd03"
+    },
+    {
+      "name": "9601-boundary10-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 169,
+      "polygons_checked": 81,
+      "optical_paths_checked": 5,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "d802cedea4c122ac440be4ca3c52dd2c2b10150e162b133cee3df1cdf4fc433a"
+    },
+    {
+      "name": "9601-boundary10-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 171,
+      "polygons_checked": 89,
+      "optical_paths_checked": 8,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "bbd99951e0153e597e5578bd1ed552396e0fa3133fcd3becbd555d9cd21506b2"
+    },
+    {
+      "name": "9601-boundary10-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 172,
+      "polygons_checked": 94,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "4f7ee5a9c43b66b568cdf1d33d6db701fddba138e4b50823545ac443c1497fb7"
+    },
+    {
+      "name": "9601-boundary10-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 167,
+      "polygons_checked": 79,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "c51c1f97f22c125fd88c655ecd1da903eef378cf9b686ee04617339211a52c11"
+    },
+    {
+      "name": "9601-boundary10-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 171,
+      "polygons_checked": 91,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "c883c740cf8f0434246bda7a39a301cb2c7a9190150150f160bbce3fa6714d71"
+    },
+    {
+      "name": "9602-boundary10-extreme",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 133,
+      "polygons_checked": 77,
+      "optical_paths_checked": 3,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "3889ccda9aeddcbe89ad10291f0caa0e86bed8adf0c809c280d625d9f29134ce"
+    },
+    {
+      "name": "9602-boundary10-extreme",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 136,
+      "polygons_checked": 86,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "c58e7e726a55c180fea139f84c36fd5135a50a96b40d0dfb6eeefb73cdadc911"
+    },
+    {
+      "name": "9602-boundary10-hash",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 137,
+      "polygons_checked": 91,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "1a8cbd4a6640a4f0cdbc5718804cda8b767f74e42f38dea0d6477be315351097"
+    },
+    {
+      "name": "9602-boundary10-hash",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 135,
+      "polygons_checked": 83,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "6c9ef1b1a0295d6c7d39e998c816a24dde2c82d9310caff6ead5c3659698fe38"
+    },
+    {
+      "name": "9602-boundary10-smooth",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 136,
+      "polygons_checked": 88,
+      "optical_paths_checked": 5,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "73728353cab0ba0c459fea6f87a19fd667a9f439de45609cb7c69fe61efa5ccf"
+    },
+    {
+      "name": "9602-boundary10-smooth",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 139,
+      "polygons_checked": 97,
+      "optical_paths_checked": 7,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "8129e7715c6ddfb8eaac8a2ed25d7d187bbe52f9838df91cc343e26738e10f70"
+    },
+    {
+      "name": "boundary_radius1000_16",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 142,
+      "polygons_checked": 116,
+      "optical_paths_checked": 8,
+      "certificate_basis": "count_16",
+      "saved_case_sha256": "5ee07d248fbf5098b08ecd9e0455f0c1457de0e05d452dc95f1539aafc6b75d1"
+    },
+    {
+      "name": "boundary_radius1000_16",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 150,
+      "polygons_checked": 138,
+      "optical_paths_checked": 9,
+      "certificate_basis": "count_16",
+      "saved_case_sha256": "9719dcf04d676ea4edf017bfae47d7c3459291f845dcd40e0d464fe8d497b097"
+    },
+    {
+      "name": "cluster_plus_last_channel20",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 126,
+      "polygons_checked": 102,
+      "optical_paths_checked": 10,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "8c8c17f39f9a65fe3df6d0a094852ce9c420c2136078d1b08c9f42845ffedaf1"
+    },
+    {
+      "name": "cluster_plus_last_channel20",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 126,
+      "polygons_checked": 102,
+      "optical_paths_checked": 10,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "c96560ec1c1a88bf8c230a9034df4d79b9dae596f26b8052864920fc3832caad"
+    },
+    {
+      "name": "collinear_sources_10",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 115,
+      "polygons_checked": 67,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "8db687f450c78a893a095c5457dfb5baafd9e560316e8ad2776a6c8641e2b8b5"
+    },
+    {
+      "name": "collinear_sources_10",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 115,
+      "polygons_checked": 65,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "25d081d1cb1dbb0daba4278421338c5f4396a671b3dc1a431ae98f195dd1c1bc"
+    },
+    {
+      "name": "distance_thresholds_10",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 138,
+      "polygons_checked": 69,
+      "optical_paths_checked": 3,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "940d186cf70acc374cec40005bc389e6850d208fa523f032fd9bab2f08ff8585"
+    },
+    {
+      "name": "distance_thresholds_10",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 139,
+      "polygons_checked": 75,
+      "optical_paths_checked": 6,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "4488535d8f70a5667af9320babde531a7f239b503e5a15dcda995e9d5ea878e6"
+    },
+    {
+      "name": "nearby_sources_mixed_radii_16",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 54,
+      "polygons_checked": 77,
+      "optical_paths_checked": 7,
+      "certificate_basis": "count_16",
+      "saved_case_sha256": "5a5bdac99425d014089968680886435fad32c531083482ed5b3ee9855553d2e5"
+    },
+    {
+      "name": "nearby_sources_mixed_radii_16",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 52,
+      "polygons_checked": 74,
+      "optical_paths_checked": 8,
+      "certificate_basis": "count_16",
+      "saved_case_sha256": "4a5479b97688ad4b321aea9c8cf64811f2e11e77ba8ea9578e9b9952789697c0"
+    },
+    {
+      "name": "origin_coincident_10",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 90,
+      "polygons_checked": 20,
+      "optical_paths_checked": 0,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "54fe121cc3bb65b61615e52a77e9795fc2b6f3853847af0b4fedd30783101e1f"
+    },
+    {
+      "name": "origin_coincident_10",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 90,
+      "polygons_checked": 20,
+      "optical_paths_checked": 0,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "e9f39d1e1c34eaa667e53dc380318cbc28aca7947be296417a44f23fe122804e"
+    },
+    {
+      "name": "quantization_robustness_10",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 110,
+      "polygons_checked": 55,
+      "optical_paths_checked": 0,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "12e39fabcf3e9882808dda8e75078484f5c843b061369e1fc352f315ed417a73"
+    },
+    {
+      "name": "quantization_robustness_10",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 110,
+      "polygons_checked": 55,
+      "optical_paths_checked": 0,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "7bb43cef70dbb309b5a305e465a73e6c5f9cc8274b7378d0e226616437a31c19"
+    },
+    {
+      "name": "remote_coincident_12",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 123,
+      "polygons_checked": 70,
+      "optical_paths_checked": 11,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "3afc857e5df68e823ea06acf5f6a540b3d46347db802c6027c5d8b0667585063"
+    },
+    {
+      "name": "remote_coincident_12",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 123,
+      "polygons_checked": 70,
+      "optical_paths_checked": 11,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "1bd13683c8f0d6c75237067d7bb58dcab7015d7fd6896b7aaf5d1db5b3c26a2f"
+    },
+    {
+      "name": "two_dense_clusters_14",
+      "schedule": "bounded",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 133,
+      "polygons_checked": 64,
+      "optical_paths_checked": 0,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "7d880d86446c306a0eb0f3e6b58129d57e77f7df96ae36b531bf68544307bb8a"
+    },
+    {
+      "name": "two_dense_clusters_14",
+      "schedule": "original",
+      "original_audit_passed": true,
+      "supplemental_audit_passed": true,
+      "actions": 133,
+      "polygons_checked": 58,
+      "optical_paths_checked": 0,
+      "certificate_basis": "whole_square_negative_disk_coverage",
+      "saved_case_sha256": "26005495fcfd7808a03f877bf04b132b2d8eafbab72b571d3ed96b989b48f98d"
+    }
+  ],
+  "auditor_sha256": "ea801a03cb012a6849effc85fc11b2ad3b5e56cb5d1600b3337950139362c5e3",
+  "old_auditor_sha256": "3ada7725926ea2a703503516c24436128b733f2577b3d007c0ad4c206e860b70"
+}

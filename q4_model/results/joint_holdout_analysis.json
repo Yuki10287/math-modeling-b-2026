@@ -1,0 +1,318 @@
+{
+  "selected": "shared",
+  "baseline": "previous_q4_active_31_stations",
+  "conditions": 24,
+  "independent_layouts": 12,
+  "groups": {
+    "baseline": {
+      "runs": 24,
+      "all_cleared": 24,
+      "source_instances": 294,
+      "mean_total_s": 9941.76215581443,
+      "mean_case_average_s": 824.9521113343098,
+      "pooled_average_s": 811.5724208828105,
+      "mean_runtime_s": 5.8000533333336834,
+      "max_runtime_s": 7.949999600008596,
+      "costs_s": {
+        "move": 7620.928822481096,
+        "measure": 1782.2916666666667,
+        "switch": 324.9166666666667,
+        "clear_success": 61.25,
+        "clear_fail": 152.375
+      }
+    },
+    "shared": {
+      "runs": 24,
+      "all_cleared": 24,
+      "source_instances": 294,
+      "mean_total_s": 6848.065588728214,
+      "mean_case_average_s": 568.3708472678917,
+      "pooled_average_s": 559.0257623451603,
+      "mean_runtime_s": 4.640404887499244,
+      "max_runtime_s": 8.514086999988649,
+      "costs_s": {
+        "move": 4779.190588728213,
+        "measure": 1582.9166666666667,
+        "switch": 297.5833333333333,
+        "clear_success": 61.25,
+        "clear_fail": 127.125
+      }
+    }
+  },
+  "populations": {
+    "uniform": {
+      "conditions": 8,
+      "baseline_mean_s": 10225.891570954242,
+      "candidate_mean_s": 6723.6926738549555,
+      "mean_saved_s": 3502.198897099286,
+      "reduction_pct": 34.24834766532219,
+      "faster": 8,
+      "slower": 0
+    },
+    "boundary": {
+      "conditions": 8,
+      "baseline_mean_s": 10710.991910451303,
+      "candidate_mean_s": 7673.236420249,
+      "mean_saved_s": 3037.755490202303,
+      "reduction_pct": 28.361103393591385,
+      "faster": 8,
+      "slower": 0
+    },
+    "cluster": {
+      "conditions": 8,
+      "baseline_mean_s": 8888.402986037741,
+      "candidate_mean_s": 6147.267672080685,
+      "mean_saved_s": 2741.1353139570565,
+      "reduction_pct": 30.839458092336063,
+      "faster": 8,
+      "slower": 0
+    },
+    "all": {
+      "conditions": 24,
+      "baseline_mean_s": 9941.76215581443,
+      "candidate_mean_s": 6848.065588728214,
+      "mean_saved_s": 3093.6965670862155,
+      "reduction_pct": 31.1181913085385,
+      "faster": 24,
+      "slower": 0
+    }
+  },
+  "pairs": [
+    {
+      "seed": 17000,
+      "population": "uniform",
+      "field": "hash",
+      "baseline_s": 10411.809346859574,
+      "candidate_s": 6278.361879067327,
+      "saved_s": 4133.447467792247
+    },
+    {
+      "seed": 17000,
+      "population": "uniform",
+      "field": "extreme",
+      "baseline_s": 10567.965669028401,
+      "candidate_s": 7235.7216723811825,
+      "saved_s": 3332.2439966472184
+    },
+    {
+      "seed": 17001,
+      "population": "uniform",
+      "field": "hash",
+      "baseline_s": 10559.928336399862,
+      "candidate_s": 7835.507843406482,
+      "saved_s": 2724.4204929933803
+    },
+    {
+      "seed": 17001,
+      "population": "uniform",
+      "field": "extreme",
+      "baseline_s": 9872.359340710229,
+      "candidate_s": 7214.884971995333,
+      "saved_s": 2657.4743687148957
+    },
+    {
+      "seed": 17002,
+      "population": "uniform",
+      "field": "hash",
+      "baseline_s": 9837.208810065782,
+      "candidate_s": 6092.261627767265,
+      "saved_s": 3744.947182298517
+    },
+    {
+      "seed": 17002,
+      "population": "uniform",
+      "field": "extreme",
+      "baseline_s": 11241.902277888212,
+      "candidate_s": 6663.478306367145,
+      "saved_s": 4578.423971521067
+    },
+    {
+      "seed": 17003,
+      "population": "uniform",
+      "field": "hash",
+      "baseline_s": 9867.036878120076,
+      "candidate_s": 6118.23471288273,
+      "saved_s": 3748.8021652373463
+    },
+    {
+      "seed": 17003,
+      "population": "uniform",
+      "field": "extreme",
+      "baseline_s": 9448.921908561797,
+      "candidate_s": 6351.090376972182,
+      "saved_s": 3097.831531589615
+    },
+    {
+      "seed": 17100,
+      "population": "boundary",
+      "field": "hash",
+      "baseline_s": 10491.714718398158,
+      "candidate_s": 7387.799200637092,
+      "saved_s": 3103.9155177610655
+    },
+    {
+      "seed": 17100,
+      "population": "boundary",
+      "field": "extreme",
+      "baseline_s": 10371.275942922803,
+      "candidate_s": 7369.61553854263,
+      "saved_s": 3001.6604043801726
+    },
+    {
+      "seed": 17101,
+      "population": "boundary",
+      "field": "hash",
+      "baseline_s": 11186.208153782878,
+      "candidate_s": 7921.310701111642,
+      "saved_s": 3264.8974526712364
+    },
+    {
+      "seed": 17101,
+      "population": "boundary",
+      "field": "extreme",
+      "baseline_s": 10698.74120723316,
+      "candidate_s": 7484.349416089066,
+      "saved_s": 3214.391791144095
+    },
+    {
+      "seed": 17102,
+      "population": "boundary",
+      "field": "hash",
+      "baseline_s": 10014.162695156228,
+      "candidate_s": 7969.165353035819,
+      "saved_s": 2044.9973421204095
+    },
+    {
+      "seed": 17102,
+      "population": "boundary",
+      "field": "extreme",
+      "baseline_s": 10396.37740091507,
+      "candidate_s": 8896.148814681248,
+      "saved_s": 1500.2285862338213
+    },
+    {
+      "seed": 17103,
+      "population": "boundary",
+      "field": "hash",
+      "baseline_s": 11493.890465583374,
+      "candidate_s": 6853.726884125365,
+      "saved_s": 4640.163581458009
+    },
+    {
+      "seed": 17103,
+      "population": "boundary",
+      "field": "extreme",
+      "baseline_s": 11035.564699618746,
+      "candidate_s": 7503.775453769134,
+      "saved_s": 3531.7892458496117
+    },
+    {
+      "seed": 17200,
+      "population": "cluster",
+      "field": "hash",
+      "baseline_s": 8997.99312406639,
+      "candidate_s": 6243.56472192367,
+      "saved_s": 2754.42840214272
+    },
+    {
+      "seed": 17200,
+      "population": "cluster",
+      "field": "extreme",
+      "baseline_s": 9211.214162293363,
+      "candidate_s": 6930.58644133633,
+      "saved_s": 2280.6277209570335
+    },
+    {
+      "seed": 17201,
+      "population": "cluster",
+      "field": "hash",
+      "baseline_s": 8733.218435676852,
+      "candidate_s": 6121.40137968996,
+      "saved_s": 2611.8170559868922
+    },
+    {
+      "seed": 17201,
+      "population": "cluster",
+      "field": "extreme",
+      "baseline_s": 8691.83702349469,
+      "candidate_s": 5882.7847389880135,
+      "saved_s": 2809.052284506677
+    },
+    {
+      "seed": 17202,
+      "population": "cluster",
+      "field": "hash",
+      "baseline_s": 8869.982906736079,
+      "candidate_s": 6179.5634506243705,
+      "saved_s": 2690.4194561117083
+    },
+    {
+      "seed": 17202,
+      "population": "cluster",
+      "field": "extreme",
+      "baseline_s": 8823.841869057513,
+      "candidate_s": 6273.993712525478,
+      "saved_s": 2549.8481565320344
+    },
+    {
+      "seed": 17203,
+      "population": "cluster",
+      "field": "hash",
+      "baseline_s": 8985.942670662269,
+      "candidate_s": 5698.416314787811,
+      "saved_s": 3287.526355874458
+    },
+    {
+      "seed": 17203,
+      "population": "cluster",
+      "field": "extreme",
+      "baseline_s": 8793.193696314778,
+      "candidate_s": 5847.830616769849,
+      "saved_s": 2945.363079544929
+    }
+  ],
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 70604,
+    "unit": "layout; both fields stay together; stratified by population",
+    "mean_saved_s_ci95": [
+      2749.2945011564047,
+      3415.8396116908134
+    ],
+    "reduction_pct_ci95": [
+      27.94291837587076,
+      33.92369576100456
+    ]
+  },
+  "worst_regression_s": 0.0,
+  "smallest_saving": {
+    "seed": 17102,
+    "population": "boundary",
+    "field": "extreme",
+    "baseline_s": 10396.37740091507,
+    "candidate_s": 8896.148814681248,
+    "saved_s": 1500.2285862338213
+  },
+  "audits": {
+    "runs": 78,
+    "source_instances": 983,
+    "events": 29515,
+    "polygons": 2498,
+    "optical_plans": 668,
+    "triangle_certificates": 22134
+  },
+  "diagnostics": {
+    "baseline": {
+      "mean_tail_s": 3715.107158671682,
+      "mean_scan_approach_move_s": 5600.87166884036
+    },
+    "shared": {
+      "mean_tail_s": 958.5938001911802,
+      "mean_scan_approach_move_s": 3175.807913079963
+    }
+  },
+  "source_snapshot_stable": true,
+  "all_passed": true,
+  "official_simulator_used": false,
+  "local_only": true
+}

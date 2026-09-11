@@ -1,0 +1,86 @@
+{
+  "recorded_at_utc": "2026-09-11T13:51:18.210433+00:00",
+  "variant": "shared",
+  "local_only": true,
+  "official_simulator_used": false,
+  "solver_unchanged_from_holdout": true,
+  "stress": {
+    "constructed_layouts": 10,
+    "runs": 30,
+    "passed": 30,
+    "all_cleared": 30,
+    "source_instances": 372,
+    "audit_counts": {
+      "events": 10650,
+      "polygons": 966,
+      "optical_plans": 236,
+      "triangle_certificates": 6912
+    },
+    "maximum_total_s": 8307.241052426298,
+    "maximum_runtime_s": 11.711794600007124,
+    "layout_note": "Ten deterministic constructions; outward_min_radius and one_omni also provide a tiny-rotation repeat. No statistical independence or representative mean is claimed."
+  },
+  "http_tests": {
+    "tests_run": 14,
+    "passed": true,
+    "integration": [
+      {
+        "case": "outward_min_radius",
+        "source_count": 10,
+        "complete": true,
+        "basis": "directional_triangle_cover",
+        "total_virtual_s": 7196.457313,
+        "audit": {
+          "passed": true,
+          "events": 461,
+          "polygons": 19,
+          "optical_plans": 7,
+          "triangle_certificates": 360,
+          "max_time_error_s": 0.0,
+          "total_s": 7196.457312681587,
+          "counts": {
+            "measure": 451,
+            "switch": 431,
+            "clear_success": 10,
+            "clear_fail": 0
+          }
+        },
+        "direct_http_actions_equal": true,
+        "retry_executed_once": true,
+        "record": "q4_model/results/http-local/outward_min_radius.json"
+      },
+      {
+        "case": "mixed_radius_endpoints",
+        "source_count": 16,
+        "complete": true,
+        "basis": "count_upper_bound",
+        "total_virtual_s": 6004.096098,
+        "audit": {
+          "passed": true,
+          "events": 342,
+          "polygons": 31,
+          "optical_plans": 10,
+          "triangle_certificates": 0,
+          "max_time_error_s": 0.0,
+          "total_s": 6004.096097892088,
+          "counts": {
+            "measure": 232,
+            "switch": 216,
+            "clear_success": 16,
+            "clear_fail": 94
+          }
+        },
+        "direct_http_actions_equal": true,
+        "retry_executed_once": true,
+        "record": "q4_model/results/http-local/mixed_radius_endpoints.json"
+      }
+    ]
+  },
+  "threshold_tests": {
+    "tests_run": 3,
+    "passed": true,
+    "sha256": "978f65ad990eb2695555c7d21fba1b5dcbff80f3ec312aff3daf81f1494d4c7b"
+  },
+  "rounding_scope": "Nearest 0.01 degree after fixed errors attaining +/-1 degree; truncation is not covered.",
+  "third_question_changed": false
+}

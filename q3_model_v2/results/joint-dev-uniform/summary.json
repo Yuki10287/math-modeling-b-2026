@@ -1,0 +1,65 @@
+{
+  "groups": {
+    "joint": {
+      "runs": 9,
+      "passed": 9,
+      "sources": 114,
+      "mean_total_s": 2964.3344251656285,
+      "mean_move_s": 2277.5566473878507,
+      "mean_measures": 101.33333333333333,
+      "mean_tail_s": 137.10768321382295,
+      "max_total_s": 3300.9444788502997,
+      "mean_runtime_s": 7.862965522220798,
+      "max_runtime_s": 12.210839999999735
+    },
+    "lean": {
+      "runs": 9,
+      "passed": 9,
+      "sources": 114,
+      "mean_total_s": 2981.3274578099317,
+      "mean_move_s": 2301.660791143265,
+      "mean_measures": 99.88888888888889,
+      "mean_tail_s": 144.49317267957778,
+      "max_total_s": 3235.9286748859067,
+      "mean_runtime_s": 4.790205288888602,
+      "max_runtime_s": 6.709623899994767
+    },
+    "route": {
+      "runs": 9,
+      "passed": 9,
+      "sources": 114,
+      "mean_total_s": 2954.245135204739,
+      "mean_move_s": 2278.3562463158505,
+      "mean_measures": 99.44444444444444,
+      "mean_tail_s": 130.36966755600238,
+      "max_total_s": 3213.0320517099244,
+      "mean_runtime_s": 29.80657204444449,
+      "max_runtime_s": 224.8017286999966
+    }
+  },
+  "comparisons_to_lean": {
+    "joint": {
+      "pairs": 9,
+      "faster": 5,
+      "equal": 0,
+      "slower": 4,
+      "mean_saved_s": 16.993032644303284,
+      "reduction_pct": 0.5699820930367133,
+      "worst_regression_s": 65.01580396439294,
+      "worst_regression_case": "7002-uniform-extreme",
+      "largest_saving_s": 90.98251981217345
+    },
+    "route": {
+      "pairs": 9,
+      "faster": 8,
+      "equal": 0,
+      "slower": 1,
+      "mean_saved_s": 27.082322605192683,
+      "reduction_pct": 0.9083981209191702,
+      "worst_regression_s": 26.31358952218943,
+      "worst_regression_case": "7003-uniform-hash",
+      "largest_saving_s": 84.79307858738366
+    }
+  },
+  "source_snapshot_stable": true
+}

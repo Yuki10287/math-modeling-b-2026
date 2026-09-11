@@ -1,0 +1,88 @@
+{
+  "groups": {
+    "bounded": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 58,
+      "mean_total_s": 3111.33635056761,
+      "mean_move_s": 2436.3363505676098,
+      "mean_measures": 97.5,
+      "mean_tail_s": 30.92239094947979,
+      "max_total_s": 3307.0412256854315,
+      "mean_runtime_s": 11.722193599998718,
+      "max_runtime_s": 13.567348099997616
+    },
+    "legal": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 58,
+      "mean_total_s": 3111.33635056761,
+      "mean_move_s": 2436.3363505676098,
+      "mean_measures": 97.5,
+      "mean_tail_s": 30.92239094947979,
+      "max_total_s": 3307.0412256854315,
+      "mean_runtime_s": 11.767054625001037,
+      "max_runtime_s": 13.37192320000031
+    },
+    "original": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 58,
+      "mean_total_s": 3117.680582802427,
+      "mean_move_s": 2441.180582802427,
+      "mean_measures": 96.5,
+      "mean_tail_s": 30.92430356568741,
+      "max_total_s": 3310.6435425795107,
+      "mean_runtime_s": 9.794758850002836,
+      "max_runtime_s": 10.473563899999135
+    },
+    "policy": {
+      "runs": 4,
+      "passed": 4,
+      "sources": 58,
+      "mean_total_s": 3111.884934051188,
+      "mean_move_s": 2425.3849340511874,
+      "mean_measures": 98.5,
+      "mean_tail_s": 0.0,
+      "max_total_s": 3247.2696926599056,
+      "mean_runtime_s": 15.220125725001708,
+      "max_runtime_s": 17.16263849999814
+    }
+  },
+  "comparisons_to_original": {
+    "bounded": {
+      "pairs": 4,
+      "faster": 2,
+      "equal": 1,
+      "slower": 1,
+      "mean_saved_s": 6.344232234817014,
+      "reduction_pct": 0.2034920533492978,
+      "worst_regression_s": 2.1673197425352555,
+      "worst_regression_case": "8701-uniform-extreme",
+      "largest_saving_s": 23.941931787724116
+    },
+    "legal": {
+      "pairs": 4,
+      "faster": 2,
+      "equal": 1,
+      "slower": 1,
+      "mean_saved_s": 6.344232234817014,
+      "reduction_pct": 0.2034920533492978,
+      "worst_regression_s": 2.1673197425352555,
+      "worst_regression_case": "8701-uniform-extreme",
+      "largest_saving_s": 23.941931787724116
+    },
+    "policy": {
+      "pairs": 4,
+      "faster": 2,
+      "equal": 0,
+      "slower": 2,
+      "mean_saved_s": 5.795648751239696,
+      "reduction_pct": 0.18589616855585928,
+      "worst_regression_s": 49.02908626262615,
+      "worst_regression_case": "8702-uniform-smooth",
+      "largest_saving_s": 63.37384991960516
+    }
+  },
+  "source_snapshot_stable": true
+}

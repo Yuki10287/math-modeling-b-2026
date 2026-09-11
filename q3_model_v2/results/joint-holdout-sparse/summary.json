@@ -1,0 +1,42 @@
+{
+  "groups": {
+    "lean": {
+      "runs": 8,
+      "passed": 8,
+      "sources": 80,
+      "mean_total_s": 2873.898981606041,
+      "mean_move_s": 2018.1489816060416,
+      "mean_measures": 133.0,
+      "mean_tail_s": 56.60140741749876,
+      "max_total_s": 3100.9464441275845,
+      "mean_runtime_s": 2.8413377624983696,
+      "max_runtime_s": 3.5553743000054965
+    },
+    "route_interleave": {
+      "runs": 8,
+      "passed": 8,
+      "sources": 80,
+      "mean_total_s": 2853.908891777089,
+      "mean_move_s": 1979.5338917770896,
+      "mean_measures": 135.0,
+      "mean_tail_s": 85.36315339781271,
+      "max_total_s": 2977.472053730312,
+      "mean_runtime_s": 4.463884099997813,
+      "max_runtime_s": 5.086788100001286
+    }
+  },
+  "comparisons_to_lean": {
+    "route_interleave": {
+      "pairs": 8,
+      "faster": 5,
+      "equal": 0,
+      "slower": 3,
+      "mean_saved_s": 19.990089828952136,
+      "reduction_pct": 0.6955738513042979,
+      "worst_regression_s": 96.49428426897157,
+      "worst_regression_case": "8402-sparse10-smooth",
+      "largest_saving_s": 173.17518848988175
+    }
+  },
+  "source_snapshot_stable": true
+}

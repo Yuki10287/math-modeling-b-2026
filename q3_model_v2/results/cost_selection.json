@@ -1,0 +1,152 @@
+{
+  "frozen_at": "2026-09-11T09:31:30.173329+00:00",
+  "selected": "bounded",
+  "baseline": "original",
+  "baseline_definition": "previous route_interleave candidate; NOT lean",
+  "selection_basis": "Lowest combined mean on 12 development conditions; gain too small for a performance claim.",
+  "development": {
+    "groups": {
+      "bounded": {
+        "runs": 12,
+        "passed": 12,
+        "sources": 138,
+        "mean_total_s": 3262.449418068329,
+        "mean_move_s": 2458.116084734996,
+        "mean_measures": 122.41666666666667,
+        "mean_tail_s": 28.20184432674455,
+        "max_total_s": 4043.0111342132495,
+        "mean_runtime_s": 9.45543839166688,
+        "max_runtime_s": 13.567348099997616
+      },
+      "legal": {
+        "runs": 12,
+        "passed": 12,
+        "sources": 138,
+        "mean_total_s": 3262.6576822648985,
+        "mean_move_s": 2458.074348931565,
+        "mean_measures": 122.41666666666667,
+        "mean_tail_s": 28.20184432674455,
+        "max_total_s": 4043.0111342132495,
+        "mean_runtime_s": 9.448853525003264,
+        "max_runtime_s": 13.37192320000031
+      },
+      "original": {
+        "runs": 12,
+        "passed": 12,
+        "sources": 138,
+        "mean_total_s": 3265.17956208074,
+        "mean_move_s": 2457.8462287474063,
+        "mean_measures": 121.08333333333333,
+        "mean_tail_s": 28.16312327617368,
+        "max_total_s": 4020.3121450313756,
+        "mean_runtime_s": 7.29873170000307,
+        "max_runtime_s": 10.473563899999135
+      },
+      "policy": {
+        "runs": 12,
+        "passed": 12,
+        "sources": 138,
+        "mean_total_s": 3263.244106656942,
+        "mean_move_s": 2451.744106656942,
+        "mean_measures": 123.16666666666667,
+        "mean_tail_s": 17.616029204422983,
+        "max_total_s": 4026.810226992552,
+        "mean_runtime_s": 13.124575458332401,
+        "max_runtime_s": 17.16263849999814
+      }
+    },
+    "comparisons_to_original": {
+      "bounded": {
+        "pairs": 12,
+        "faster": 7,
+        "equal": 2,
+        "slower": 3,
+        "mean_saved_s": 2.730144012410468,
+        "reduction_pct": 0.08361390118069585,
+        "worst_regression_s": 22.698989181873912,
+        "worst_regression_case": "8900-boundary10-extreme",
+        "largest_saving_s": 23.941931787724116
+      },
+      "legal": {
+        "pairs": 12,
+        "faster": 7,
+        "equal": 2,
+        "slower": 3,
+        "mean_saved_s": 2.5218798158413542,
+        "reduction_pct": 0.07723556294203567,
+        "worst_regression_s": 22.698989181873912,
+        "worst_regression_case": "8900-boundary10-extreme",
+        "largest_saving_s": 23.941931787724116
+      },
+      "policy": {
+        "pairs": 12,
+        "faster": 6,
+        "equal": 0,
+        "slower": 6,
+        "mean_saved_s": 1.935455423797445,
+        "reduction_pct": 0.059275619824230234,
+        "worst_regression_s": 49.02908626262615,
+        "worst_regression_case": "8702-uniform-smooth",
+        "largest_saving_s": 63.37384991960516
+      }
+    }
+  },
+  "source_sha256": {
+    "solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "joint_solver.py": "b6f4307fe9f7edcbf891d1677e126848b4208ce4d439f9a4adb7a7a5a5a3239c",
+    "joint_planning.py": "e258ccd8f678c1a05b3d77168735afc888a8c5844d76be07b8ce2c5155287c50",
+    "flexible_coverage.py": "cb2c39412fb93e9ddbbbef198775310c213164250bed75e446dafdb79d4c46ff",
+    "geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "validate_model.py": "3ada7725926ea2a703503516c24436128b733f2577b3d007c0ad4c206e860b70",
+    "benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "benchmark_joint.py": "afb9194391424f85f1d5186e5098bc119f1bdb55305f29092d9937bf882d80e1",
+    "forecast_solver.py": "6c07c1b6f7df3db3207d32831a7eb300e727b3ed313151c013c5821b82710cec",
+    "forecast_policy.py": "d81bf1712db22baeeb979fb034595a38189590b51fb1760451e40ae1e4e3f9b4",
+    "benchmark_forecast.py": "8fb0684f8284d61a01fc5168a76ae1c31e133e4af3a108a470c3933c6fd816ea"
+  },
+  "holdout_plan": [
+    {
+      "population": "uniform",
+      "start_seed": 9400,
+      "seeds": 4,
+      "fields": [
+        "smooth",
+        "hash",
+        "extreme"
+      ]
+    },
+    {
+      "population": "sparse10",
+      "start_seed": 9500,
+      "seeds": 3,
+      "fields": [
+        "smooth",
+        "hash",
+        "extreme"
+      ]
+    },
+    {
+      "population": "boundary10",
+      "start_seed": 9600,
+      "seeds": 3,
+      "fields": [
+        "smooth",
+        "hash",
+        "extreme"
+      ]
+    }
+  ],
+  "independent_layouts": 10,
+  "paired_conditions": 30,
+  "stress_cases": 9,
+  "claim_rule": "No tuning on holdout. Report uncertainty and computation cost even if mean is positive. Keep stable entry unchanged.",
+  "official_simulator_used": false
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "existing_main_solution_consolidation",
+  "recorded_at_utc": "2026-09-11T11:52:22.166878+00:00",
+  "chosen_schedule": "lean",
+  "chosen_policy": "time",
+  "scope": "Q3 only; Q4 deferred",
+  "solver_or_client_changed": false,
+  "official_simulator_contacted": false,
+  "file_sha256": {
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e",
+    "run_official.ps1": "33915d6ccfaf3e99152f16ff17d96cfbe88be6809acc3a30253ada0fbac7123b",
+    "运行第三问.cmd": "deb2d2ac38afdda0b44afa4bc09b5dafae2daeccd4ac2461d0081844f0ffa200",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "provenance": {
+    "development_selection": {
+      "path": "results/selection.json",
+      "sha256": "4cae357bf55f59625aa3c28df1cf89be65ccb75b5426c47c2b3bac6715c9de77"
+    },
+    "historical_interface_release": {
+      "path": "official_release_manifest.json",
+      "sha256": "de58a0f457a09989267b76dcb9d1ecd258538795ad799abaa329f530b79d39ca"
+    }
+  },
+  "manual_entry": "运行第三问.cmd",
+  "notes": [
+    "This records the existing release, not a newly tuned solver.",
+    "Hashes cover source bytes and dependency declaration, not the installed runtime or all documentation.",
+    "Official evidence is five user-provided practices, not formal tests."
+  ]
+}
