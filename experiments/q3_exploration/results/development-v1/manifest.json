@@ -1,0 +1,305 @@
+{
+  "arguments": {
+    "out": "experiments\\q3_exploration\\results\\development-v1",
+    "start_seed": 22000,
+    "layouts": 1,
+    "populations": "uniform,sparse10,boundary10",
+    "fields": "smooth",
+    "variants": "lean,reference,probe,scan,both",
+    "split": "development"
+  },
+  "python": "3.14.0",
+  "numpy": "2.4.1",
+  "source_sha256": {
+    "src/q3_model_v2/baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "src/q3_model_v2/v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "src/q3_model_v2/solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "src/q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src/q3_model_v2/belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "src/q3_model_v2/coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "src/q3_model_v2/scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "src/q3_model_v2/local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "src/q3_model_v2/recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "src/q3_model_v2/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src/q3_model_v2/benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "experiments/q3_exploration/bootstrap.py": "f760e8f52ce895ad687306295ec2b580db50af22c9a9734e0c6af48c04e97ee7",
+    "experiments/q3_exploration/probe_policy.py": "9f1dd8bba641729a134cf775ba382d67d2c49d35ab11a1bb86166ff54fbf1ea2",
+    "experiments/q3_exploration/exploration_solver.py": "4249b7913513fd5b65c831fa3c315a36716a478e528685801c7c70e669d0cff2",
+    "experiments/q3_exploration/benchmark_exploration.py": "698018fc7ab26da866edecde6a3c4885a53d80ae24013f54718c6d984cef0b7e",
+    "experiments/q3_exploration/scan_preview.py": "21cb852def7c7666f96f570c56dbbc31f1acb2eb49d2fbfb51ef003352700d0f"
+  },
+  "local_only": true,
+  "official_simulator_used": false,
+  "truth_hidden": true,
+  "cases": [
+    {
+      "name": "22000-uniform-smooth",
+      "seed": 22000,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            861.0609095307456,
+            912.810219417003
+          ],
+          "radius": 1073.0080435770637
+        },
+        {
+          "channel": 14,
+          "position": [
+            -651.4613221699176,
+            -380.57690710781685
+          ],
+          "radius": 1498.1677304976338
+        },
+        {
+          "channel": 6,
+          "position": [
+            27.45837991208117,
+            1230.778859729209
+          ],
+          "radius": 1240.2490897233984
+        },
+        {
+          "channel": 3,
+          "position": [
+            -985.2554124096082,
+            1209.5471964399428
+          ],
+          "radius": 1462.0563506506492
+        },
+        {
+          "channel": 13,
+          "position": [
+            -218.3011445175714,
+            1013.7529525171999
+          ],
+          "radius": 1454.2538113919873
+        },
+        {
+          "channel": 10,
+          "position": [
+            -874.3114513596578,
+            1163.6223580847022
+          ],
+          "radius": 1006.3860454452446
+        },
+        {
+          "channel": 1,
+          "position": [
+            1060.5971660926398,
+            497.2759047283856
+          ],
+          "radius": 1273.2024842459487
+        },
+        {
+          "channel": 2,
+          "position": [
+            924.4663220283217,
+            680.15143120455
+          ],
+          "radius": 1112.0952690508475
+        },
+        {
+          "channel": 7,
+          "position": [
+            -444.2206149794442,
+            -410.9694920384539
+          ],
+          "radius": 1105.7943970079466
+        },
+        {
+          "channel": 18,
+          "position": [
+            46.766846938653366,
+            -1667.383449746343
+          ],
+          "radius": 1315.11190673608
+        },
+        {
+          "channel": 17,
+          "position": [
+            98.00571204013896,
+            -1180.2665189201891
+          ],
+          "radius": 1188.303102695078
+        }
+      ]
+    },
+    {
+      "name": "22100-sparse10-smooth",
+      "seed": 22100,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            -458.0501565616088,
+            -1241.2546135439943
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            83.83521304501622,
+            -764.7481917913974
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            -111.60162175248558,
+            -306.09951529928054
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            1455.4531509287854,
+            -693.3020899938584
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            -643.1395103715154,
+            -1037.3337424645397
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            339.027166501235,
+            895.3712927093153
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            369.46678822676967,
+            942.3847030705291
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -377.0631292728712,
+            1038.3685445281492
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            -1121.4118592504724,
+            -1043.9855649038745
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            -565.6582092971993,
+            1181.9496117467752
+          ],
+          "radius": 1000.0
+        }
+      ]
+    },
+    {
+      "name": "22200-boundary10-smooth",
+      "seed": 22200,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 8,
+          "position": [
+            -1147.0877924771996,
+            1344.1864106859928
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            1355.834268501402,
+            -984.0515826555261
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            1676.3452380521653,
+            -392.17639042056265
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 20,
+          "position": [
+            -1731.7472363075956,
+            128.16047468438697
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            1393.823495501176,
+            -962.9343980614018
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            1625.9617183025612,
+            413.3309690484694
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 19,
+          "position": [
+            766.425805239848,
+            -1474.3816705002687
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            -111.49904702255142,
+            1651.7367561229444
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -267.31570890586005,
+            -1779.4187240983933
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            -860.5153077832878,
+            1536.208265697555
+          ],
+          "radius": 1000.0
+        }
+      ]
+    }
+  ]
+}

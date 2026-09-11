@@ -1,0 +1,88 @@
+{
+  "groups": {
+    "both": {
+      "runs": 16,
+      "passed": 16,
+      "sources": 174,
+      "mean_total_s": 3243.3994003275693,
+      "mean_move_s": 2452.7119003275693,
+      "mean_measures": 119.375,
+      "mean_tail_s": 210.44743743299483,
+      "max_total_s": 3602.100783061023,
+      "mean_runtime_s": 4.189322775006076,
+      "max_runtime_s": 6.24181619999581
+    },
+    "lean": {
+      "runs": 16,
+      "passed": 16,
+      "sources": 174,
+      "mean_total_s": 3146.0397032805226,
+      "mean_move_s": 2296.164703280523,
+      "mean_measures": 129.25,
+      "mean_tail_s": 193.33819984367432,
+      "max_total_s": 3668.125051055582,
+      "mean_runtime_s": 3.7264639125005488,
+      "max_runtime_s": 7.551678500021808
+    },
+    "probe": {
+      "runs": 16,
+      "passed": 16,
+      "sources": 174,
+      "mean_total_s": 3144.7207798014424,
+      "mean_move_s": 2288.158279801443,
+      "mean_measures": 130.1875,
+      "mean_tail_s": 193.33819984367432,
+      "max_total_s": 3668.125051055582,
+      "mean_runtime_s": 4.445890231252633,
+      "max_runtime_s": 8.488038799987407
+    },
+    "scan": {
+      "runs": 16,
+      "passed": 16,
+      "sources": 174,
+      "mean_total_s": 3247.278844563225,
+      "mean_move_s": 2457.591344563225,
+      "mean_measures": 119.3125,
+      "mean_tail_s": 210.44743743299483,
+      "max_total_s": 3618.74235987489,
+      "mean_runtime_s": 3.2927035250013432,
+      "max_runtime_s": 4.98724200000288
+    }
+  },
+  "comparisons_to_lean": {
+    "both": {
+      "pairs": 16,
+      "faster": 4,
+      "equal": 0,
+      "slower": 12,
+      "mean_saved_s": -97.35969704704624,
+      "reduction_pct": -3.0946747730336885,
+      "worst_regression_s": 286.85882266794306,
+      "worst_regression_case": "22501-sparse10-extreme",
+      "largest_saving_s": 201.46503975677206
+    },
+    "probe": {
+      "pairs": 16,
+      "faster": 4,
+      "equal": 5,
+      "slower": 7,
+      "mean_saved_s": 1.3189234790801834,
+      "reduction_pct": 0.04192329415629689,
+      "worst_regression_s": 63.47069425103018,
+      "worst_regression_case": "22700-one_side10-extreme",
+      "largest_saving_s": 96.8211459993131
+    },
+    "scan": {
+      "pairs": 16,
+      "faster": 4,
+      "equal": 0,
+      "slower": 12,
+      "mean_saved_s": -101.23914128270224,
+      "reduction_pct": -3.217986765301641,
+      "worst_regression_s": 302.3020401969666,
+      "worst_regression_case": "22501-sparse10-extreme",
+      "largest_saving_s": 201.46503975677206
+    }
+  },
+  "source_snapshot_stable": true
+}

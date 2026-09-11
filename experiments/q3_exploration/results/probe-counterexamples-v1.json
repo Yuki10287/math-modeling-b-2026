@@ -1,0 +1,869 @@
+{
+  "split": "constructed_stress_from_development",
+  "independent_holdout": false,
+  "local_only": true,
+  "official_simulator_used": false,
+  "source_data_sha256": {
+    "experiments/q3_exploration/results/development-v1/cases/22000-uniform-smooth-probe.json": "1a914d948dcd70851ff08ac91daf039b88e249290ada09d86dbf998b5fe3a7a0",
+    "experiments/q3_exploration/results/development-v1/cases/22100-sparse10-smooth-probe.json": "d734b9a3a595c34bd2406a78aec56314221b7aa1fbb6351d56b7b8ede7cb1415",
+    "experiments/q3_exploration/results/development-v1/cases/22200-boundary10-smooth-probe.json": "dfc9fe1f6bb783b8475af2b475cffea4f7d6d3d1c854e0152a4849b101678036"
+  },
+  "construction": "For each selected development probe, move only that channel source to 10 m from the origin along its original true bearing, set its fixed radius to 1000 m, and retain all other sources, the seed, and the fixed error field.",
+  "verification": "Replay the original and replacement first reading with LocalArena, require exact equality to the recorded origin reading, and require no signal at the original probe point. Reject any case failing either check.",
+  "interpretation": "These layouts target the small near-origin feasible region missed by finite area samples. They do not estimate typical performance or prove that a full rerun will select the same probe. Run both policies from the start with only the public API; do not inject the old route or source truth into either solver.",
+  "unique_selected_case_channel_pairs": 6,
+  "kept_cases": 6,
+  "excluded_cases": [],
+  "cases": [
+    {
+      "name": "22000-uniform-smooth-near-origin-ch13",
+      "seed": 22000,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            861.0609095307456,
+            912.810219417003
+          ],
+          "radius": 1073.0080435770637
+        },
+        {
+          "channel": 14,
+          "position": [
+            -651.4613221699176,
+            -380.57690710781685
+          ],
+          "radius": 1498.1677304976338
+        },
+        {
+          "channel": 6,
+          "position": [
+            27.45837991208117,
+            1230.778859729209
+          ],
+          "radius": 1240.2490897233984
+        },
+        {
+          "channel": 3,
+          "position": [
+            -985.2554124096082,
+            1209.5471964399428
+          ],
+          "radius": 1462.0563506506492
+        },
+        {
+          "channel": 13,
+          "position": [
+            -2.1051401017501123,
+            9.775908405463072
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 10,
+          "position": [
+            -874.3114513596578,
+            1163.6223580847022
+          ],
+          "radius": 1006.3860454452446
+        },
+        {
+          "channel": 1,
+          "position": [
+            1060.5971660926398,
+            497.2759047283856
+          ],
+          "radius": 1273.2024842459487
+        },
+        {
+          "channel": 2,
+          "position": [
+            924.4663220283217,
+            680.15143120455
+          ],
+          "radius": 1112.0952690508475
+        },
+        {
+          "channel": 7,
+          "position": [
+            -444.2206149794442,
+            -410.9694920384539
+          ],
+          "radius": 1105.7943970079466
+        },
+        {
+          "channel": 18,
+          "position": [
+            46.766846938653366,
+            -1667.383449746343
+          ],
+          "radius": 1315.11190673608
+        },
+        {
+          "channel": 17,
+          "position": [
+            98.00571204013896,
+            -1180.2665189201891
+          ],
+          "radius": 1188.303102695078
+        }
+      ],
+      "construction": {
+        "base_case": "22000-uniform-smooth",
+        "changed_channel": 13,
+        "original_source": {
+          "channel": 13,
+          "position": [
+            -218.3011445175714,
+            1013.7529525171999
+          ],
+          "radius": 1454.2538113919873
+        },
+        "replacement_source": {
+          "channel": 13,
+          "position": [
+            -2.1051401017501123,
+            9.775908405463072
+          ],
+          "radius": 1000.0
+        },
+        "originally_selected_probe": [
+          -989.7270551772127,
+          1210.0554620645776
+        ],
+        "original_design_signal_mass": 0.882220766812685,
+        "first_measurement_position": [
+          0.0,
+          0.0
+        ],
+        "expected_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 102.35
+        },
+        "original_replayed_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 102.35
+        },
+        "replacement_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 102.35
+        },
+        "first_reading_preserved_exactly": true,
+        "replacement_distance_to_original_probe_m": 1554.3706295698744,
+        "replacement_feedback_at_original_probe": {
+          "measure_result": "no_signal"
+        },
+        "source_count_unchanged": true,
+        "other_sources_unchanged": true
+      }
+    },
+    {
+      "name": "22000-uniform-smooth-near-origin-ch6",
+      "seed": 22000,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            861.0609095307456,
+            912.810219417003
+          ],
+          "radius": 1073.0080435770637
+        },
+        {
+          "channel": 14,
+          "position": [
+            -651.4613221699176,
+            -380.57690710781685
+          ],
+          "radius": 1498.1677304976338
+        },
+        {
+          "channel": 6,
+          "position": [
+            0.2230420914282183,
+            9.99751230184046
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            -985.2554124096082,
+            1209.5471964399428
+          ],
+          "radius": 1462.0563506506492
+        },
+        {
+          "channel": 13,
+          "position": [
+            -218.3011445175714,
+            1013.7529525171999
+          ],
+          "radius": 1454.2538113919873
+        },
+        {
+          "channel": 10,
+          "position": [
+            -874.3114513596578,
+            1163.6223580847022
+          ],
+          "radius": 1006.3860454452446
+        },
+        {
+          "channel": 1,
+          "position": [
+            1060.5971660926398,
+            497.2759047283856
+          ],
+          "radius": 1273.2024842459487
+        },
+        {
+          "channel": 2,
+          "position": [
+            924.4663220283217,
+            680.15143120455
+          ],
+          "radius": 1112.0952690508475
+        },
+        {
+          "channel": 7,
+          "position": [
+            -444.2206149794442,
+            -410.9694920384539
+          ],
+          "radius": 1105.7943970079466
+        },
+        {
+          "channel": 18,
+          "position": [
+            46.766846938653366,
+            -1667.383449746343
+          ],
+          "radius": 1315.11190673608
+        },
+        {
+          "channel": 17,
+          "position": [
+            98.00571204013896,
+            -1180.2665189201891
+          ],
+          "radius": 1188.303102695078
+        }
+      ],
+      "construction": {
+        "base_case": "22000-uniform-smooth",
+        "changed_channel": 6,
+        "original_source": {
+          "channel": 6,
+          "position": [
+            27.45837991208117,
+            1230.778859729209
+          ],
+          "radius": 1240.2490897233984
+        },
+        "replacement_source": {
+          "channel": 6,
+          "position": [
+            0.2230420914282183,
+            9.99751230184046
+          ],
+          "radius": 1000.0
+        },
+        "originally_selected_probe": [
+          -210.31181739203092,
+          1014.046391372898
+        ],
+        "original_design_signal_mass": 1.0,
+        "first_measurement_position": [
+          0.0,
+          0.0
+        ],
+        "expected_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 88.86
+        },
+        "original_replayed_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 88.86
+        },
+        "replacement_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 88.86
+        },
+        "first_reading_preserved_exactly": true,
+        "replacement_distance_to_original_probe_m": 1025.8845347413942,
+        "replacement_feedback_at_original_probe": {
+          "measure_result": "no_signal"
+        },
+        "source_count_unchanged": true,
+        "other_sources_unchanged": true
+      }
+    },
+    {
+      "name": "22000-uniform-smooth-near-origin-ch1",
+      "seed": 22000,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            861.0609095307456,
+            912.810219417003
+          ],
+          "radius": 1073.0080435770637
+        },
+        {
+          "channel": 14,
+          "position": [
+            -651.4613221699176,
+            -380.57690710781685
+          ],
+          "radius": 1498.1677304976338
+        },
+        {
+          "channel": 6,
+          "position": [
+            27.45837991208117,
+            1230.778859729209
+          ],
+          "radius": 1240.2490897233984
+        },
+        {
+          "channel": 3,
+          "position": [
+            -985.2554124096082,
+            1209.5471964399428
+          ],
+          "radius": 1462.0563506506492
+        },
+        {
+          "channel": 13,
+          "position": [
+            -218.3011445175714,
+            1013.7529525171999
+          ],
+          "radius": 1454.2538113919873
+        },
+        {
+          "channel": 10,
+          "position": [
+            -874.3114513596578,
+            1163.6223580847022
+          ],
+          "radius": 1006.3860454452446
+        },
+        {
+          "channel": 1,
+          "position": [
+            9.054192400121302,
+            4.245185506145243
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            924.4663220283217,
+            680.15143120455
+          ],
+          "radius": 1112.0952690508475
+        },
+        {
+          "channel": 7,
+          "position": [
+            -444.2206149794442,
+            -410.9694920384539
+          ],
+          "radius": 1105.7943970079466
+        },
+        {
+          "channel": 18,
+          "position": [
+            46.766846938653366,
+            -1667.383449746343
+          ],
+          "radius": 1315.11190673608
+        },
+        {
+          "channel": 17,
+          "position": [
+            98.00571204013896,
+            -1180.2665189201891
+          ],
+          "radius": 1188.303102695078
+        }
+      ],
+      "construction": {
+        "base_case": "22000-uniform-smooth",
+        "changed_channel": 1,
+        "original_source": {
+          "channel": 1,
+          "position": [
+            1060.5971660926398,
+            497.2759047283856
+          ],
+          "radius": 1273.2024842459487
+        },
+        "replacement_source": {
+          "channel": 1,
+          "position": [
+            9.054192400121302,
+            4.245185506145243
+          ],
+          "radius": 1000.0
+        },
+        "originally_selected_probe": [
+          924.2206949513907,
+          696.1814344696097
+        ],
+        "original_design_signal_mass": 1.0,
+        "first_measurement_position": [
+          0.0,
+          0.0
+        ],
+        "expected_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 24.63
+        },
+        "original_replayed_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 24.63
+        },
+        "replacement_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 24.63
+        },
+        "first_reading_preserved_exactly": true,
+        "replacement_distance_to_original_probe_m": 1147.303577969472,
+        "replacement_feedback_at_original_probe": {
+          "measure_result": "no_signal"
+        },
+        "source_count_unchanged": true,
+        "other_sources_unchanged": true
+      }
+    },
+    {
+      "name": "22000-uniform-smooth-near-origin-ch17",
+      "seed": 22000,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            861.0609095307456,
+            912.810219417003
+          ],
+          "radius": 1073.0080435770637
+        },
+        {
+          "channel": 14,
+          "position": [
+            -651.4613221699176,
+            -380.57690710781685
+          ],
+          "radius": 1498.1677304976338
+        },
+        {
+          "channel": 6,
+          "position": [
+            27.45837991208117,
+            1230.778859729209
+          ],
+          "radius": 1240.2490897233984
+        },
+        {
+          "channel": 3,
+          "position": [
+            -985.2554124096082,
+            1209.5471964399428
+          ],
+          "radius": 1462.0563506506492
+        },
+        {
+          "channel": 13,
+          "position": [
+            -218.3011445175714,
+            1013.7529525171999
+          ],
+          "radius": 1454.2538113919873
+        },
+        {
+          "channel": 10,
+          "position": [
+            -874.3114513596578,
+            1163.6223580847022
+          ],
+          "radius": 1006.3860454452446
+        },
+        {
+          "channel": 1,
+          "position": [
+            1060.5971660926398,
+            497.2759047283856
+          ],
+          "radius": 1273.2024842459487
+        },
+        {
+          "channel": 2,
+          "position": [
+            924.4663220283217,
+            680.15143120455
+          ],
+          "radius": 1112.0952690508475
+        },
+        {
+          "channel": 7,
+          "position": [
+            -444.2206149794442,
+            -410.9694920384539
+          ],
+          "radius": 1105.7943970079466
+        },
+        {
+          "channel": 18,
+          "position": [
+            46.766846938653366,
+            -1667.383449746343
+          ],
+          "radius": 1315.11190673608
+        },
+        {
+          "channel": 17,
+          "position": [
+            0.8275212981348957,
+            -9.965701606065332
+          ],
+          "radius": 1000.0
+        }
+      ],
+      "construction": {
+        "base_case": "22000-uniform-smooth",
+        "changed_channel": 17,
+        "original_source": {
+          "channel": 17,
+          "position": [
+            98.00571204013896,
+            -1180.2665189201891
+          ],
+          "radius": 1188.303102695078
+        },
+        "replacement_source": {
+          "channel": 17,
+          "position": [
+            0.8275212981348957,
+            -9.965701606065332
+          ],
+          "radius": 1000.0
+        },
+        "originally_selected_probe": [
+          45.50877211070809,
+          -1667.9995695420732
+        ],
+        "original_design_signal_mass": 0.9832040338949595,
+        "first_measurement_position": [
+          0.0,
+          0.0
+        ],
+        "expected_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 274.72
+        },
+        "original_replayed_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 274.72
+        },
+        "replacement_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 274.72
+        },
+        "first_reading_preserved_exactly": true,
+        "replacement_distance_to_original_probe_m": 1658.635801312939,
+        "replacement_feedback_at_original_probe": {
+          "measure_result": "no_signal"
+        },
+        "source_count_unchanged": true,
+        "other_sources_unchanged": true
+      }
+    },
+    {
+      "name": "22000-uniform-smooth-near-origin-ch7",
+      "seed": 22000,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            861.0609095307456,
+            912.810219417003
+          ],
+          "radius": 1073.0080435770637
+        },
+        {
+          "channel": 14,
+          "position": [
+            -651.4613221699176,
+            -380.57690710781685
+          ],
+          "radius": 1498.1677304976338
+        },
+        {
+          "channel": 6,
+          "position": [
+            27.45837991208117,
+            1230.778859729209
+          ],
+          "radius": 1240.2490897233984
+        },
+        {
+          "channel": 3,
+          "position": [
+            -985.2554124096082,
+            1209.5471964399428
+          ],
+          "radius": 1462.0563506506492
+        },
+        {
+          "channel": 13,
+          "position": [
+            -218.3011445175714,
+            1013.7529525171999
+          ],
+          "radius": 1454.2538113919873
+        },
+        {
+          "channel": 10,
+          "position": [
+            -874.3114513596578,
+            1163.6223580847022
+          ],
+          "radius": 1006.3860454452446
+        },
+        {
+          "channel": 1,
+          "position": [
+            1060.5971660926398,
+            497.2759047283856
+          ],
+          "radius": 1273.2024842459487
+        },
+        {
+          "channel": 2,
+          "position": [
+            924.4663220283217,
+            680.15143120455
+          ],
+          "radius": 1112.0952690508475
+        },
+        {
+          "channel": 7,
+          "position": [
+            -7.340455473614765,
+            -6.791002388445982
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            46.766846938653366,
+            -1667.383449746343
+          ],
+          "radius": 1315.11190673608
+        },
+        {
+          "channel": 17,
+          "position": [
+            98.00571204013896,
+            -1180.2665189201891
+          ],
+          "radius": 1188.303102695078
+        }
+      ],
+      "construction": {
+        "base_case": "22000-uniform-smooth",
+        "changed_channel": 7,
+        "original_source": {
+          "channel": 7,
+          "position": [
+            -444.2206149794442,
+            -410.9694920384539
+          ],
+          "radius": 1105.7943970079466
+        },
+        "replacement_source": {
+          "channel": 7,
+          "position": [
+            -7.340455473614765,
+            -6.791002388445982
+          ],
+          "radius": 1000.0
+        },
+        "originally_selected_probe": [
+          -593.2874814634113,
+          -967.3491378727203
+        ],
+        "original_design_signal_mass": 1.0,
+        "first_measurement_position": [
+          0.0,
+          0.0
+        ],
+        "expected_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 222.49
+        },
+        "original_replayed_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 222.49
+        },
+        "replacement_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 222.49
+        },
+        "first_reading_preserved_exactly": true,
+        "replacement_distance_to_original_probe_m": 1125.1692534509255,
+        "replacement_feedback_at_original_probe": {
+          "measure_result": "no_signal"
+        },
+        "source_count_unchanged": true,
+        "other_sources_unchanged": true
+      }
+    },
+    {
+      "name": "22100-sparse10-smooth-near-origin-ch15",
+      "seed": 22100,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            -458.0501565616088,
+            -1241.2546135439943
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            83.83521304501622,
+            -764.7481917913974
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            -3.425364182085639,
+            -9.395045514529707
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            1455.4531509287854,
+            -693.3020899938584
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            -643.1395103715154,
+            -1037.3337424645397
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            339.027166501235,
+            895.3712927093153
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            369.46678822676967,
+            942.3847030705291
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -377.0631292728712,
+            1038.3685445281492
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            -1121.4118592504724,
+            -1043.9855649038745
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            -565.6582092971993,
+            1181.9496117467752
+          ],
+          "radius": 1000.0
+        }
+      ],
+      "construction": {
+        "base_case": "22100-sparse10-smooth",
+        "changed_channel": 15,
+        "original_source": {
+          "channel": 15,
+          "position": [
+            -111.60162175248558,
+            -306.09951529928054
+          ],
+          "radius": 1000.0
+        },
+        "replacement_source": {
+          "channel": 15,
+          "position": [
+            -3.425364182085639,
+            -9.395045514529707
+          ],
+          "radius": 1000.0
+        },
+        "originally_selected_probe": [
+          -481.4054853389125,
+          -1224.658956119491
+        ],
+        "original_design_signal_mass": 1.0,
+        "first_measurement_position": [
+          0.0,
+          0.0
+        ],
+        "expected_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 249.51
+        },
+        "original_replayed_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 249.51
+        },
+        "replacement_first_reading": {
+          "measure_result": "direction",
+          "svd_deg": 249.51
+        },
+        "first_reading_preserved_exactly": true,
+        "replacement_distance_to_original_probe_m": 1305.883367165674,
+        "replacement_feedback_at_original_probe": {
+          "measure_result": "no_signal"
+        },
+        "source_count_unchanged": true,
+        "other_sources_unchanged": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "decision": "retain_frozen_time_lean",
+  "promoted_candidates": [],
+  "official_simulator_used": false,
+  "official_entry_changed": false,
+  "performance_holdout_run": false,
+  "reason": "Expanded development probing gain was only 1.3189234790801834 seconds (0.04192329415629689 percent); scan and combined variants regressed. Stress results are retained separately and do not establish average performance.",
+  "development_batches": ["development-v1", "development-expanded-v1"],
+  "stress_batch": "stress-v1",
+  "complete_runs": 109,
+  "all_complete_runs_passed": true,
+  "behavior_tests_passed": 8,
+  "frozen_main_files_verified": 15,
+  "limitations": [
+    "Development results use self-defined layout distributions and error fields.",
+    "Two error fields on one layout are not independent source layouts.",
+    "Finite area and radius scenarios rank actions but provide no reception or completion proof.",
+    "The scan forecast uses immediate batch service and exact hypothetical source visits, unlike actual localization and joint scheduling.",
+    "Six stress layouts were constructed from development traces and are not held-out performance cases.",
+    "A 2300-second official whole-task result has not been reproduced or verified by these experiments."
+  ]
+}
