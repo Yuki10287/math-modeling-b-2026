@@ -1,0 +1,147 @@
+{
+  "recorded_at_utc": "2026-09-11T14:17:17.364195+00:00",
+  "base_commit": "13445df374dad31f9183ff75ad2a80ac20574c69",
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "tracked_files_before": 2433,
+  "preserved_files": 2418,
+  "moved_tracked_files": 2430,
+  "raw_json_and_png_preserved": 2279,
+  "changed_existing_files": [
+    ".gitignore",
+    "docs/B题问题一二建模梳理.md",
+    "README.md",
+    "src/q3_model_v2/README.md",
+    "src/q3_model_v2/create_release.py",
+    "src/q3_model_v2/local_checks.py",
+    "src/q3_model_v2/全局动作价值实验与本地验证.md",
+    "src/q3_model_v2/官方测试操作说明.md",
+    "src/q3_model_v2/成本预测诊断与本地验证.md",
+    "src/q4_model/README.md",
+    "src/q4_model/第四问压力测试与接口验证.md",
+    "src/q4_model/第四问官方演练操作说明.md",
+    "docs/方案冻结与版本选择.md",
+    "docs/论文整理/前三问模型与验证整理稿.md",
+    "docs/论文整理/证据索引与交付清单.md"
+  ],
+  "file_moves": [
+    [
+      "q1_q2_geometry",
+      "src/q1_q2_geometry"
+    ],
+    [
+      "q3_model_v2",
+      "src/q3_model_v2"
+    ],
+    [
+      "q4_model",
+      "src/q4_model"
+    ],
+    [
+      "q3_prototype",
+      "archive/q3_prototype"
+    ],
+    [
+      "q3_improved",
+      "archive/q3_improved"
+    ],
+    [
+      "论文整理",
+      "docs/论文整理"
+    ],
+    [
+      "方案冻结与版本选择.md",
+      "docs/方案冻结与版本选择.md"
+    ],
+    [
+      "评委视角复盘与文献方向.md",
+      "docs/评委视角复盘与文献方向.md"
+    ],
+    [
+      "B题问题一二建模梳理.md",
+      "docs/B题问题一二建模梳理.md"
+    ],
+    [
+      "附件",
+      "local_data/题目与附件/附件"
+    ],
+    [
+      "B题前期分析与文献启发.docx",
+      "local_data/早期分析/B题前期分析与文献启发.docx"
+    ],
+    [
+      "测试结果1.xlsx",
+      "local_data/早期演练/测试结果1.xlsx"
+    ],
+    [
+      "practice-02.jsonl",
+      "local_data/早期演练/practice-02.jsonl"
+    ],
+    [
+      "practice-02.jsonl.beliefs(1).json",
+      "local_data/早期演练/practice-02.jsonl.beliefs(1).json"
+    ],
+    [
+      "B题第一问与第二问几何实验.zip",
+      "local_data/历史压缩包/B题第一问与第二问几何实验.zip"
+    ],
+    [
+      "B题第三问v2官方接口版.zip",
+      "local_data/历史压缩包/B题第三问v2官方接口版.zip"
+    ],
+    [
+      "B题第三问改进版与本地对照.zip",
+      "local_data/历史压缩包/B题第三问改进版与本地对照.zip"
+    ],
+    [
+      "B题第三问模型改进v2与本地验证.zip",
+      "local_data/历史压缩包/B题第三问模型改进v2与本地验证.zip"
+    ],
+    [
+      "B题闭环原型与本地测试.zip",
+      "local_data/历史压缩包/B题闭环原型与本地测试.zip"
+    ]
+  ],
+  "not_moved": [
+    {
+      "path": "B题.pdf",
+      "reason": "Windows reports the file is in use; retained at project root."
+    }
+  ],
+  "tests": [
+    {
+      "command": "python -X utf8 -m unittest discover -s src/q3_model_v2 -p test_client.py -v",
+      "tests": 12,
+      "passed": true
+    },
+    {
+      "command": "python -X utf8 -m unittest discover -s src/q4_model -p test_*.py -v",
+      "tests": 27,
+      "passed": true
+    }
+  ],
+  "source_model_or_parameters_changed": false,
+  "historical_helper_paths_adjusted": [
+    "src/q3_model_v2/create_release.py",
+    "src/q3_model_v2/local_checks.py"
+  ],
+  "structure_validation": {
+    "passed": true,
+    "local_only": true,
+    "official_simulator_contacted": false,
+    "document_links": 221,
+    "release_checks": [
+      {
+        "script": "src/q3_model_v2/verify_main_solution.py",
+        "passed": true
+      },
+      {
+        "script": "src/q4_model/verify_release.py",
+        "passed": true
+      }
+    ],
+    "errors": []
+  },
+  "launcher_syntax_checked": true,
+  "launchers_executed": false
+}

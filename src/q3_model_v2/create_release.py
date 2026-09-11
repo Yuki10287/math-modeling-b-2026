@@ -20,8 +20,8 @@ def main():
     for name in ('本轮改进与实验结果.md', '模型推导与适用边界.md',
                  'figures/holdout_comparison.png', 'figures/median_trajectory_comparison.png'):
         assert (ROOT/name).is_file()
-    assert (ROOT/'baseline_solver.py').read_bytes() == (ROOT.parent/'q3_improved/baseline_solver.py').read_bytes()
-    assert (ROOT/'v1_solver.py').read_bytes() == (ROOT.parent/'q3_improved/solver.py').read_bytes()
+    assert (ROOT/'baseline_solver.py').read_bytes() == (ROOT.parents[1]/'archive/q3_improved/baseline_solver.py').read_bytes()
+    assert (ROOT/'v1_solver.py').read_bytes() == (ROOT.parents[1]/'archive/q3_improved/solver.py').read_bytes()
     files = []
     for parent, dirs, names in os.walk(ROOT):
         dirs[:] = sorted(d for d in dirs if d not in ('__pycache__', 'tmp', '.git', '.pytest_cache'))

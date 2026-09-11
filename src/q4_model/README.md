@@ -1,5 +1,7 @@
 # 第四问：混合源覆盖与联合路线
 
+先看[代码导读](代码导读.md)了解主流程和文件分工；日常运行使用[项目根目录的运行第四问](../../运行第四问.cmd)。
+
 当前推荐方案为 **`joint_solver.py` 的 `shared` 配置**：25站双环覆盖、扫描与已知源的联合路线、扫描停点的信息复用。第四问独立启动入口已准备好，见[官方演练操作说明](第四问官方演练操作说明.md)；接入验证仅使用本地HTTP替身，尚无第四问官方成绩。第三问lean的15个冻结文件保持一致。
 
 先读[覆盖与联合路线改进](第四问覆盖与联合路线改进.md)。位置、类型、半径、朝向的相容约束以及光学后备原理仍见[首版模型说明](第四问模型与本地验证.md)。原31站版本和历史结果保留作对照。
@@ -13,10 +15,10 @@
 需保留相邻的 `q3_model_v2` 文件夹，以读取冻结的几何模块和自建环境。Python 3.11或更新版本，在项目根目录执行：
 
 ```powershell
-python -m pip install -r q4_model/requirements.txt
+python -m pip install -r src/q4_model/requirements.txt
 python -X utf8 -m unittest discover -s q4_model -p test_model.py -v
 python -X utf8 -m unittest discover -s q4_model -p test_joint.py -v
-python -X utf8 q4_model/benchmark_joint.py --out q4_model/results/my-joint-check --start-seed 18000 --layouts 1 --populations uniform --fields smooth --variants baseline,shared
+python -X utf8 src/q4_model/benchmark_joint.py --out src/q4_model/results/my-joint-check --start-seed 18000 --layouts 1 --populations uniform --fields smooth --variants baseline,shared
 ```
 
 输出目录必须尚不存在。以上测试不连接网络或官方模拟器。样例是复现运行方法，不是新的独立性能结论；用于调参的数据今后应归入开发资料。

@@ -102,7 +102,7 @@ def run_local(source, seed, field, anchor, first, start, mode):
 
 def development(seeds, fields, modes):
     rows = []
-    old = Path(__file__).resolve().parents[1] / 'q3_improved/results/development-v1/cases'
+    old = Path(__file__).resolve().parents[2] / 'archive/q3_improved/results/development-v1/cases'
     for seed in seeds:
         if seed >= 4000:
             raise ValueError('holdout seeds forbidden in local development')
