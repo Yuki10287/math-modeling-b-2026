@@ -1,10 +1,10 @@
 # 第三问：版本与实验过程
 
-每一行对应一个实际文件夹，代码、结果、图表和相关说明都在该组里面。先选阶段，再看组内README。
+当前 `time/lean` 运行所需的10个模块集中在本目录，入口是 [official_client.py](official_client.py)，核心求解器是 [solver.py](solver.py)。模型报告、实验脚本、结果和图表按下表归档；先看主方案，再按需查实验阶段。
 
 | 阶段 | 当前地位 | 研究内容 |
 |---|---|---|
-| [00_主方案_lean](00_主方案_lean/README.md) | 当前主方案 | 官方运行保持time/lean；包含模型、主实验、接口与验证。 |
+| [00_主方案_lean](00_主方案_lean/README.md) | 当前主方案材料 | 模型推导、主实验、接口检查和冻结证据；运行模块位于上一级。 |
 | [01_早期局部选点实验](01_早期局部选点实验/README.md) | 开发探索 | 保存局部选点、半径与局部费用诊断。 |
 | [02_联合调度实验](02_联合调度实验/README.md) | 未晋升的候选 | 将扫描与清除联合调度；独立保留代码、数据和报告。 |
 | [03_成本预测实验](03_成本预测实验/README.md) | 未晋升的候选 | 研究预测费用与实际开销的差距。 |
@@ -16,4 +16,24 @@
 
 主入口保持time/lean。后续联合调度、成本预测、全局价值与闭环预测分别归档；探索分支不自动替换主方案。
 
-供第四问复用的 [geometry.py](geometry.py) 与 [official_client.py](official_client.py) 位于本目录，其余源码保留在各阶段。第三问演练仍使用项目根目录入口；历史实验仍通过 `tools/run_study.py` 自动组装依赖。08组按其README中的路径直接运行。
+本目录的8个求解模块与共用的 [geometry.py](geometry.py)、[official_client.py](official_client.py) 放在同一层，直接命令行入口不依赖 `tools/` 生成临时运行目录。实验和验证脚本仍保留在各阶段；历史实验继续通过 `tools/run_study.py` 组装依赖，08组按其README中的路径直接运行。模块的位置调整不改变 `time/lean` 算法，原始实验结果与冻结哈希保留用于核查。
+
+## 直接运行第三问
+
+安装环境后，从仓库根目录执行下列命令。此命令会立即连接模拟器，只由队员在手动启动问题3、等待接口就绪后运行；将队号和新日志名替换为本次实际值。
+
+```powershell
+python -X utf8 src/q3_model_v2/official_client.py --robot-id YOUR_TEAM_ID --log NEW_LOG.jsonl
+```
+
+`--log` 指向本次新文件，不允许覆盖已有日志；指定子目录时，须先创建其父目录。CMD入口仍可使用：[运行第三问.cmd](../../运行第三问.cmd)。环境、端口和日志详情见[官方测试操作说明](00_主方案_lean/reports/官方测试操作说明.md)。
+
+只做本地检查时，在仓库根目录运行：
+
+```powershell
+python -X utf8 -m unittest discover -s src/q3_model_v2/tests -v
+```
+
+[直接入口回归](tests/test_direct_entry.py)用于检查实际命令行入口，测试仅使用本地替身。`python -X utf8 src/q3_model_v2/official_client.py --help` 只显示参数，不能证明求解器导入、整局运行和结果保存已经通过。
+
+本次目录调整及完整运行结果见[命令行入口整理与本地验证](00_主方案_lean/reports/命令行入口整理与本地验证.md)。

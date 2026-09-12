@@ -1,0 +1,115 @@
+{
+  "kind": "real_direct_cli_local_regression",
+  "official_simulator_contacted": false,
+  "seed": 1000,
+  "field": "hash",
+  "independent_layouts": 1,
+  "note": "Reuses an existing interface case; not new performance evidence.",
+  "python_version": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "relative_from_root",
+      "passed": true,
+      "action_count": 136,
+      "trace_records": 120,
+      "cleared": 11,
+      "total_virtual_s": 3100.5112402323,
+      "all_actions_and_trace_equal_frozen_reference": true,
+      "completion_certificate_valid": true,
+      "normal_exit": true,
+      "source_hashes_equal_frozen_reference": true,
+      "independent_max_time_error_s": 2.842170943040401e-14,
+      "non_test_network_attempts": 0,
+      "entry_mode": "repository-relative script path",
+      "working_directory_mode": "repository root"
+    },
+    {
+      "name": "absolute_from_other_cwd",
+      "passed": true,
+      "action_count": 136,
+      "trace_records": 120,
+      "cleared": 11,
+      "total_virtual_s": 3100.5112402323,
+      "all_actions_and_trace_equal_frozen_reference": true,
+      "completion_certificate_valid": true,
+      "normal_exit": true,
+      "source_hashes_equal_frozen_reference": true,
+      "independent_max_time_error_s": 2.842170943040401e-14,
+      "non_test_network_attempts": 0,
+      "entry_mode": "absolute script path",
+      "working_directory_mode": "separate temporary working directory"
+    },
+    {
+      "name": "ten_runtime_files_import_and_help",
+      "passed": true,
+      "runtime_file_count": 10,
+      "network_attempts": 0
+    },
+    {
+      "name": "network_restriction_negative_controls",
+      "passed": true,
+      "blocked_before_socket_connect": 3,
+      "missing_guard_fails_before_address_resolution": true
+    }
+  ],
+  "frozen_runtime_sha256": {
+    "official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e",
+    "geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02"
+  },
+  "frozen_local_fixture_sha256": {
+    "benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e"
+  },
+  "runtime_hashes_unchanged": true,
+  "validation_date": "2026-09-12",
+  "summary_note": "Sanitized summary; raw command logs and traces are retained in ignored tmp/. No algorithm or parameter changes.",
+  "direct_suite": {
+    "tests_passed": 4,
+    "elapsed_wall_s": 19.667,
+    "command": "python -X utf8 -m unittest discover -s src/q3_model_v2/tests -v"
+  },
+  "migration": {
+    "runtime_files_colocated": 10,
+    "modules_moved_without_byte_changes": 8,
+    "manifest_path_values_updated": 8,
+    "duplicate_old_modules_retained": false,
+    "algorithm_and_parameters_changed": false
+  },
+  "compatibility_checks": [
+    {
+      "command": "python -X utf8 tools/run_study.py q3_main --tests",
+      "passed": true,
+      "tests_passed": 12
+    },
+    {
+      "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/launch_model.ps1 -Problem q3 -CheckOnly",
+      "passed": true,
+      "simulator_contacted": false
+    },
+    {
+      "command": "python -X utf8 tools/run_study.py verify",
+      "passed": true,
+      "frozen_file_counts": {
+        "q3": 15,
+        "q4": 15,
+        "share25": 17,
+        "share25_evidence": 8
+      }
+    },
+    {
+      "check": "Three Q4 client imports and --help with network denied",
+      "passed": true,
+      "full_q4_sessions_tested": false
+    }
+  ],
+  "test_file_sha256": "dd5c1b7b44ca5eb1f2f5520ee146e02ce99b68de12354f91ce99203a690a57af",
+  "numpy_version": "2.4.1"
+}
