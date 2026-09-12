@@ -1,0 +1,222 @@
+{
+  "arguments": {
+    "out": "experiments\\q3_closed_loop\\results\\conditional-boundary-v1",
+    "start_seed": 26200,
+    "layouts": 1,
+    "populations": "boundary10,one_side10",
+    "fields": "smooth",
+    "variants": "lean,conditional,conditional_mean",
+    "split": "development"
+  },
+  "cases": [
+    {
+      "name": "26200-boundary10-smooth",
+      "seed": 26200,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 12,
+          "position": [
+            1160.1820431910724,
+            1286.678360246088
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            1582.8267302412892,
+            -617.0558032498211
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 10,
+          "position": [
+            -1455.1110873615146,
+            961.5900420301465
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            -1657.5896079020993,
+            -565.4407565944621
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            -1594.7104040995432,
+            -554.1692785001475
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            -1316.6666035835137,
+            -1105.2932149337691
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1187.2699094905586,
+            1176.2142025858802
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            -1026.3552464460338,
+            1352.248032689993
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            -1663.6770510990077,
+            72.25832557310761
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 1,
+          "position": [
+            1669.4388682686827,
+            -166.21929851313456
+          ],
+          "radius": 1000.0
+        }
+      ]
+    },
+    {
+      "name": "26300-one_side10-smooth",
+      "seed": 26300,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 19,
+          "position": [
+            -459.03876734635855,
+            1603.256901456041
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            -69.83785953286748,
+            1725.1690971571713
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            264.5738562570686,
+            1059.8925921844277
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            207.0858688394324,
+            1721.0662340601332
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 20,
+          "position": [
+            -327.37248418571204,
+            1105.3642439178448
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            -165.85202864642585,
+            1584.7457517567436
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            -299.68354706881775,
+            1681.763902775963
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -116.0384020667026,
+            722.507521917696
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            -626.114065871293,
+            1206.7388185626144
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            -46.43306027192542,
+            1220.5579646152703
+          ],
+          "radius": 1000.0
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "src/q3_model_v2/baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "src/q3_model_v2/v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "src/q3_model_v2/solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "src/q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src/q3_model_v2/belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "src/q3_model_v2/coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "src/q3_model_v2/scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "src/q3_model_v2/local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "src/q3_model_v2/recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "src/q3_model_v2/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src/q3_model_v2/benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "src/q3_model_v2/benchmark_joint.py": "afb9194391424f85f1d5186e5098bc119f1bdb55305f29092d9937bf882d80e1",
+    "src/q3_model_v2/validate_model.py": "3ada7725926ea2a703503516c24436128b733f2577b3d007c0ad4c206e860b70",
+    "experiments/q3_exploration/scan_preview.py": "21cb852def7c7666f96f570c56dbbc31f1acb2eb49d2fbfb51ef003352700d0f",
+    "experiments/q3_closed_loop/bootstrap.py": "d75e5c61ba94ee45cfe308647d2c760dfbd5df938b127c3681e117d3ff677465",
+    "experiments/q3_closed_loop/rollout_solver.py": "07103fc5d17d66cd9dd99df8eb1bf03ab2da388cc45f27d1b2c4409bed1359c6",
+    "experiments/q3_closed_loop/scenario_model.py": "b3dbc832447c6b37149755ea08b8fdb2c3fd8b09a415d2a325b3742e3f63fd60",
+    "experiments/q3_closed_loop/closed_preview.py": "01e1a1be23598fd4805d2ad890d666d5dc448cb35bb05838270bc59fee6bfc8e",
+    "experiments/q3_closed_loop/benchmark_closed.py": "7243693f23a7c368b4c4a3ae8af99285089eb940ac25a4e12f541d510cedf418",
+    "experiments/q3_closed_loop/conditional_worlds.py": "1b71b234822bcf709e3c5b8e88079dd9be8d3bedb6d3acafd217af31246fc6b8",
+    "experiments/q3_closed_loop/conditional_preview.py": "7c729ac85656a48a7f28acd8a942e00a0aa33fd4c36bcfec72eac79f142674eb",
+    "experiments/q3_closed_loop/benchmark_conditional.py": "0f8118b16d20c2fe6df9d658791e211d83192315934673efb599a97202fc634d"
+  },
+  "local_only": true,
+  "official_simulator_used": false,
+  "truth_hidden": true,
+  "decisions": 1,
+  "scenarios": 6,
+  "max_candidates": 3,
+  "risk_weights": [
+    0.2,
+    0.0
+  ],
+  "margin_s": 5.0
+}

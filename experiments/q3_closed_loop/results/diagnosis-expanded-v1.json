@@ -1,0 +1,597 @@
+{
+  "local_only": true,
+  "official_simulator_used": false,
+  "diagnostic_only": true,
+  "note": "Truth is used only for post-hoc counterfactual feedback. Samples and checkpoints are development data; rankings cannot be retuned and called held-out.",
+  "cases": [
+    {
+      "name": "24100-uniform-smooth",
+      "online_variant": "closed",
+      "exact_online_replay": true,
+      "checkpoints": [
+        {
+          "iteration": 0,
+          "historical_cleared": 0,
+          "candidates": [
+            {
+              "kind": "scan",
+              "key": "cover:0.000000000:0.000000000",
+              "position": [
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:-566.748309008:981.636866306",
+              "position": [
+                -566.748309008261,
+                981.6368663060545
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:566.748309008:981.636866306",
+              "position": [
+                566.7483090082609,
+                981.6368663060537
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            3125.823141908039,
+            3368.7928634354553,
+            3404.2994305254683
+          ],
+          "old_scenario_costs_s": [
+            [
+              3939.7865228926066,
+              2799.1387083103346,
+              3476.088171767345,
+              3260.3187673288767,
+              3201.73907495605,
+              3803.27730452275
+            ],
+            [
+              3578.453320028916,
+              3219.3433473535665,
+              2854.41807473274,
+              3327.3090921018597,
+              3757.8635813190003,
+              3728.4432478530725
+            ],
+            [
+              3403.113824134928,
+              3144.2441887289297,
+              3624.9525687030405,
+              3356.074079913792,
+              3388.4252449230826,
+              3914.8489049876866
+            ]
+          ],
+          "closed_scenario_costs_s": [
+            [
+              3118.536414223034,
+              2874.992144664117,
+              2979.000541472782,
+              2715.1561759056954,
+              3185.719677011657,
+              3488.874785046099
+            ],
+            [
+              2900.7547249827035,
+              2805.5931724564475,
+              3222.4360837604618,
+              2935.4834579116,
+              3266.8149708387896,
+              3424.752392005182
+            ],
+            [
+              3270.500372282574,
+              2962.4435004950337,
+              2989.6957544398088,
+              2982.635972599462,
+              3511.7052897595922,
+              3344.4287023527804
+            ]
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": 242.96972152741637,
+              "old_predicted_delta_s": -2.419647731467952,
+              "closed_predicted_delta_s": 32.25917727196664,
+              "old_absolute_delta_error_s": 245.38936925888433,
+              "closed_absolute_delta_error_s": 210.71054425544972,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            },
+            {
+              "index": 2,
+              "actual_delta_s": 278.4762886174294,
+              "old_predicted_delta_s": 58.55171026891609,
+              "closed_predicted_delta_s": 116.52164226764444,
+              "old_absolute_delta_error_s": 219.92457834851334,
+              "closed_absolute_delta_error_s": 161.95464634978498,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            }
+          ],
+          "online_chosen_index": 0
+        }
+      ]
+    },
+    {
+      "name": "24200-sparse10-smooth",
+      "online_variant": "closed",
+      "exact_online_replay": true,
+      "checkpoints": [
+        {
+          "iteration": 0,
+          "historical_cleared": 0,
+          "candidates": [
+            {
+              "kind": "scan",
+              "key": "cover:0.000000000:0.000000000",
+              "position": [
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:-566.748309008:981.636866306",
+              "position": [
+                -566.748309008261,
+                981.6368663060545
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:566.748309008:981.636866306",
+              "position": [
+                566.7483090082609,
+                981.6368663060537
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            3055.280798408458,
+            3184.7969833396373,
+            3265.4944633784326
+          ],
+          "old_scenario_costs_s": [
+            [
+              3939.7865228926066,
+              2799.1387083103346,
+              3476.088171767345,
+              3260.3187673288767,
+              3201.73907495605,
+              3803.27730452275
+            ],
+            [
+              3578.453320028916,
+              3219.3433473535665,
+              2854.41807473274,
+              3327.3090921018597,
+              3757.8635813190003,
+              3728.4432478530725
+            ],
+            [
+              3403.113824134928,
+              3144.2441887289297,
+              3624.9525687030405,
+              3356.074079913792,
+              3388.4252449230826,
+              3914.8489049876866
+            ]
+          ],
+          "closed_scenario_costs_s": [
+            [
+              3118.536414223034,
+              2874.992144664117,
+              2979.000541472782,
+              2715.1561759056954,
+              3185.719677011657,
+              3488.874785046099
+            ],
+            [
+              2900.7547249827035,
+              2805.5931724564475,
+              3222.4360837604618,
+              2935.4834579116,
+              3266.8149708387896,
+              3424.752392005182
+            ],
+            [
+              3270.500372282574,
+              2962.4435004950337,
+              2989.6957544398088,
+              2982.635972599462,
+              3511.7052897595922,
+              3344.4287023527804
+            ]
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": 129.5161849311794,
+              "old_predicted_delta_s": -2.419647731467952,
+              "closed_predicted_delta_s": 32.25917727196664,
+              "old_absolute_delta_error_s": 131.93583266264736,
+              "closed_absolute_delta_error_s": 97.25700765921275,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            },
+            {
+              "index": 2,
+              "actual_delta_s": 210.21366496997462,
+              "old_predicted_delta_s": 58.55171026891609,
+              "closed_predicted_delta_s": 116.52164226764444,
+              "old_absolute_delta_error_s": 151.66195470105853,
+              "closed_absolute_delta_error_s": 93.69202270233018,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            }
+          ],
+          "online_chosen_index": 0
+        }
+      ]
+    },
+    {
+      "name": "24300-boundary10-smooth",
+      "online_variant": "closed",
+      "exact_online_replay": true,
+      "checkpoints": [
+        {
+          "iteration": 0,
+          "historical_cleared": 0,
+          "candidates": [
+            {
+              "kind": "scan",
+              "key": "cover:0.000000000:0.000000000",
+              "position": [
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:-566.748309008:981.636866306",
+              "position": [
+                -566.748309008261,
+                981.6368663060545
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:566.748309008:981.636866306",
+              "position": [
+                566.7483090082609,
+                981.6368663060537
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            3431.719746754989,
+            3594.39509174165,
+            3566.4651549860987
+          ],
+          "old_scenario_costs_s": [
+            [
+              3939.7865228926066,
+              2799.1387083103346,
+              3476.088171767345,
+              3260.3187673288767,
+              3201.73907495605,
+              3803.27730452275
+            ],
+            [
+              3578.453320028916,
+              3219.3433473535665,
+              2854.41807473274,
+              3327.3090921018597,
+              3757.8635813190003,
+              3728.4432478530725
+            ],
+            [
+              3403.113824134928,
+              3144.2441887289297,
+              3624.9525687030405,
+              3356.074079913792,
+              3388.4252449230826,
+              3914.8489049876866
+            ]
+          ],
+          "closed_scenario_costs_s": [
+            [
+              3118.536414223034,
+              2874.992144664117,
+              2979.000541472782,
+              2715.1561759056954,
+              3185.719677011657,
+              3488.874785046099
+            ],
+            [
+              2900.7547249827035,
+              2805.5931724564475,
+              3222.4360837604618,
+              2935.4834579116,
+              3266.8149708387896,
+              3424.752392005182
+            ],
+            [
+              3270.500372282574,
+              2962.4435004950337,
+              2989.6957544398088,
+              2982.635972599462,
+              3511.7052897595922,
+              3344.4287023527804
+            ]
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": 162.675344986661,
+              "old_predicted_delta_s": -2.419647731467952,
+              "closed_predicted_delta_s": 32.25917727196664,
+              "old_absolute_delta_error_s": 165.09499271812896,
+              "closed_absolute_delta_error_s": 130.41616771469435,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            },
+            {
+              "index": 2,
+              "actual_delta_s": 134.74540823110965,
+              "old_predicted_delta_s": 58.55171026891609,
+              "closed_predicted_delta_s": 116.52164226764444,
+              "old_absolute_delta_error_s": 76.19369796219357,
+              "closed_absolute_delta_error_s": 18.223765963465212,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            }
+          ],
+          "online_chosen_index": 0
+        },
+        {
+          "iteration": 1,
+          "historical_cleared": 0,
+          "candidates": [
+            {
+              "kind": "scan",
+              "key": "cover:566.748309008:981.636866306",
+              "position": [
+                566.7483090082609,
+                981.6368663060537
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:-566.748309008:981.636866306",
+              "position": [
+                -566.748309008261,
+                981.6368663060545
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:-1145.953152997:0.000000000",
+              "position": [
+                -1145.9531529965172,
+                1.4033878607900018e-13
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            3312.719746754989,
+            3268.5853281245236,
+            3172.351313398276
+          ],
+          "old_scenario_costs_s": [
+            [
+              2865.645560342247,
+              3190.945992316291,
+              2871.625771370568,
+              2741.7827186689074,
+              3167.222779512188,
+              3091.601048453534
+            ],
+            [
+              2786.1170612508613,
+              2844.4268512713847,
+              2743.612956092677,
+              2953.1338570755825,
+              3272.5943676562683,
+              3092.0568015642984
+            ],
+            [
+              3126.6231280244397,
+              2795.8233491760066,
+              2939.4195390670407,
+              2948.8032398609766,
+              2816.7090412160264,
+              3154.716421167833
+            ]
+          ],
+          "closed_scenario_costs_s": [
+            [
+              3033.7948062265236,
+              3135.9049246927248,
+              2849.287552060777,
+              2940.8118806811995,
+              3437.5567610033654,
+              3254.8497119466756
+            ],
+            [
+              3033.1968914360186,
+              2879.3340739275122,
+              2929.3034909135567,
+              3185.918500136968,
+              3321.02513824743,
+              3428.579917080153
+            ],
+            [
+              3011.060114537641,
+              2765.733783867786,
+              3221.033503469378,
+              2910.7286738082867,
+              3138.0495730242055,
+              3114.508922743242
+            ]
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": -44.13441863046546,
+              "old_predicted_delta_s": -39.480329292110504,
+              "closed_predicted_delta_s": 20.858729188395348,
+              "old_absolute_delta_error_s": 4.654089338354957,
+              "closed_absolute_delta_error_s": 64.9931478188608,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": false
+            },
+            {
+              "index": 2,
+              "actual_delta_s": -140.368433356713,
+              "old_predicted_delta_s": -24.454858691902093,
+              "closed_predicted_delta_s": -81.84851086012122,
+              "old_absolute_delta_error_s": 115.91357466481092,
+              "closed_absolute_delta_error_s": 58.51992249659179,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            }
+          ],
+          "online_chosen_index": 0
+        }
+      ]
+    },
+    {
+      "name": "24400-one_side10-smooth",
+      "online_variant": "closed",
+      "exact_online_replay": true,
+      "checkpoints": [
+        {
+          "iteration": 0,
+          "historical_cleared": 0,
+          "candidates": [
+            {
+              "kind": "scan",
+              "key": "cover:0.000000000:0.000000000",
+              "position": [
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:-566.748309008:981.636866306",
+              "position": [
+                -566.748309008261,
+                981.6368663060545
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:566.748309008:981.636866306",
+              "position": [
+                566.7483090082609,
+                981.6368663060537
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            2522.501821931067,
+            2581.7582980816674,
+            2583.6285978022347
+          ],
+          "old_scenario_costs_s": [
+            [
+              3939.7865228926066,
+              2799.1387083103346,
+              3476.088171767345,
+              3260.3187673288767,
+              3201.73907495605,
+              3803.27730452275
+            ],
+            [
+              3578.453320028916,
+              3219.3433473535665,
+              2854.41807473274,
+              3327.3090921018597,
+              3757.8635813190003,
+              3728.4432478530725
+            ],
+            [
+              3403.113824134928,
+              3144.2441887289297,
+              3624.9525687030405,
+              3356.074079913792,
+              3388.4252449230826,
+              3914.8489049876866
+            ]
+          ],
+          "closed_scenario_costs_s": [
+            [
+              3118.536414223034,
+              2874.992144664117,
+              2979.000541472782,
+              2715.1561759056954,
+              3185.719677011657,
+              3488.874785046099
+            ],
+            [
+              2900.7547249827035,
+              2805.5931724564475,
+              3222.4360837604618,
+              2935.4834579116,
+              3266.8149708387896,
+              3424.752392005182
+            ],
+            [
+              3270.500372282574,
+              2962.4435004950337,
+              2989.6957544398088,
+              2982.635972599462,
+              3511.7052897595922,
+              3344.4287023527804
+            ]
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": 59.25647615060052,
+              "old_predicted_delta_s": -2.419647731467952,
+              "closed_predicted_delta_s": 32.25917727196664,
+              "old_absolute_delta_error_s": 61.676123882068474,
+              "closed_absolute_delta_error_s": 26.997298878633877,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            },
+            {
+              "index": 2,
+              "actual_delta_s": 61.126775871167865,
+              "old_predicted_delta_s": 58.55171026891609,
+              "closed_predicted_delta_s": 116.52164226764444,
+              "old_absolute_delta_error_s": 2.575065602251776,
+              "closed_absolute_delta_error_s": 55.39486639647657,
+              "old_correct_improvement_sign": true,
+              "closed_correct_improvement_sign": true
+            }
+          ],
+          "online_chosen_index": 0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "comparisons": 10,
+    "old": {
+      "mean_absolute_delta_error_s": 117.5019279138912,
+      "correct_improvement_sign": 10
+    },
+    "closed": {
+      "mean_absolute_delta_error_s": 91.81593902355002,
+      "correct_improvement_sign": 9
+    }
+  }
+}

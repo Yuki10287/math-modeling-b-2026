@@ -1,0 +1,37 @@
+{
+  "stage_recorded": "After the first development condition; before expanded development completed",
+  "main_solver": "frozen time/lean",
+  "candidate_policy_frozen": true,
+  "official_simulator_used": false,
+  "expanded_development": {
+    "start_seed": 24100,
+    "populations": ["uniform", "sparse10", "boundary10", "one_side10"],
+    "layouts_per_population": 1,
+    "fields": ["smooth", "extreme"],
+    "variants": ["lean", "legacy", "closed", "closed_mean"],
+    "independent_layouts": 4,
+    "conditions": 8
+  },
+  "candidate_variants_for_possible_holdout": ["closed", "closed_mean"],
+  "holdout_gate": {
+    "all_development_runs_pass": true,
+    "minimum_expanded_mean_reduction_percent": 2.0,
+    "more_faster_than_slower_conditions": true,
+    "rationale": "A small exploratory gate, not a statistical significance test. Expensive full rollouts require a material development benefit before further performance testing."
+  },
+  "if_gate_passes": {
+    "selection": "eligible candidate with lowest expanded mean total seconds",
+    "start_seed": 25000,
+    "layouts_per_population": 2,
+    "populations": ["uniform", "sparse10", "boundary10", "one_side10"],
+    "fields": ["smooth", "extreme"],
+    "code_changes_before_holdout": false
+  },
+  "diagnostic_rules": [
+    "Compare action cost differences against a common baseline; do not equate exact scenario execution with accurate prediction of the real hidden world.",
+    "Historical true sources may only drive post-hoc counterfactual APIs and never the online policy.",
+    "Report source-layout count separately from repeated error-field conditions.",
+    "Report cached wall-clock times as cached, not independent runtime claims.",
+    "Keep all negative and incomplete results; incomplete scenario rollouts cannot receive artificially low costs."
+  ]
+}

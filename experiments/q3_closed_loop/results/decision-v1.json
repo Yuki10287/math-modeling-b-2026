@@ -1,0 +1,46 @@
+{
+  "local_only": true,
+  "official_simulator_used": false,
+  "decision": "retain_frozen_time_lean",
+  "production_entry_changed": false,
+  "candidates_promoted": [],
+  "performance_holdout_run": false,
+  "achieved_2300_second_target": false,
+  "evidence": "analysis-v1.json",
+  "full_benchmark_runs": 51,
+  "full_benchmark_runs_passed": 51,
+  "behavior_tests_passed": 23,
+  "scan_expanded_development": {
+    "independent_source_layouts": 4,
+    "conditions": 8,
+    "baseline_mean_virtual_s": 3032.8355727426506,
+    "best_candidate": "closed_mean",
+    "candidate_mean_virtual_s": 3001.7333489089797,
+    "mean_saved_s": 31.102223833671133,
+    "reduction_pct": 1.0255163225200765,
+    "faster_equal_slower": [2, 6, 0],
+    "distinct_benefiting_layouts": 1,
+    "met_predeclared_2pct_development_gate": false
+  },
+  "conditional_pilot": {
+    "independent_source_layouts": 4,
+    "conditions": 4,
+    "baseline_mean_virtual_s": 2955.168324438605,
+    "candidates": ["conditional", "conditional_mean"],
+    "candidate_mean_virtual_s": 2940.0249871573997,
+    "mean_saved_s": 15.14333728120505,
+    "reduction_pct": 0.5124356929509875,
+    "faster_equal_slower": [1, 3, 0],
+    "distinct_benefiting_layouts": 1,
+    "preregistered": false
+  },
+  "limitations": [
+    "The two stages use different layouts; their savings cannot be added.",
+    "Paired variants and repeated error fields are not independent source layouts.",
+    "Scenarios satisfy public feedback constraints but are not a calibrated official posterior.",
+    "Only a restricted task shortlist and limited decision checkpoints were tested.",
+    "Full rollout has a substantial measured computation cost; shared-cache timings are not fresh-run estimates.",
+    "Offline true-layout diagnostics do not supply hidden truth to online selectors.",
+    "Small development gains do not establish generalization or official performance."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "local_only": true,
+  "official_simulator_used": false,
+  "diagnostic_only": true,
+  "note": "Truth is used only for post-hoc counterfactual feedback. Samples and checkpoints are development data; rankings cannot be retuned and called held-out.",
+  "cases": [
+    {
+      "name": "24000-uniform-smooth",
+      "online_variant": "closed",
+      "exact_online_replay": true,
+      "checkpoints": [
+        {
+          "iteration": 0,
+          "historical_cleared": 0,
+          "candidates": [
+            {
+              "kind": "scan",
+              "key": "cover:0.000000000:0.000000000",
+              "position": [
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:-566.748309008:981.636866306",
+              "position": [
+                -566.748309008261,
+                981.6368663060545
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:566.748309008:981.636866306",
+              "position": [
+                566.7483090082609,
+                981.6368663060537
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            3353.5085770257497,
+            3190.736542248512,
+            3238.0146718284855
+          ],
+          "old_scenario_costs_s": [
+            [
+              3939.7865228926066,
+              2799.1387083103346,
+              3476.088171767345,
+              3260.3187673288767,
+              3201.73907495605,
+              3803.27730452275
+            ],
+            [
+              3578.453320028916,
+              3219.3433473535665,
+              2854.41807473274,
+              3327.3090921018597,
+              3757.8635813190003,
+              3728.4432478530725
+            ],
+            [
+              3403.113824134928,
+              3144.2441887289297,
+              3624.9525687030405,
+              3356.074079913792,
+              3388.4252449230826,
+              3914.8489049876866
+            ]
+          ],
+          "closed_scenario_costs_s": [
+            [
+              3118.536414223034,
+              2874.992144664117,
+              2979.000541472782,
+              2715.1561759056954,
+              3185.719677011657,
+              3488.874785046099
+            ],
+            [
+              2900.7547249827035,
+              2805.5931724564475,
+              3222.4360837604618,
+              2935.4834579116,
+              3266.8149708387896,
+              3424.752392005182
+            ],
+            [
+              3270.500372282574,
+              2962.4435004950337,
+              2989.6957544398088,
+              2982.635972599462,
+              3511.7052897595922,
+              3344.4287023527804
+            ]
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": -162.77203477723788,
+              "old_predicted_delta_s": -2.419647731467952,
+              "closed_predicted_delta_s": 32.25917727196664,
+              "old_absolute_delta_error_s": 160.35238704576992,
+              "closed_absolute_delta_error_s": 195.03121204920453,
+              "old_correct_improvement_sign": false,
+              "closed_correct_improvement_sign": false
+            },
+            {
+              "index": 2,
+              "actual_delta_s": -115.49390519726421,
+              "old_predicted_delta_s": 58.55171026891609,
+              "closed_predicted_delta_s": 116.52164226764444,
+              "old_absolute_delta_error_s": 174.0456154661803,
+              "closed_absolute_delta_error_s": 232.01554746490865,
+              "old_correct_improvement_sign": false,
+              "closed_correct_improvement_sign": false
+            }
+          ],
+          "online_chosen_index": 0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "comparisons": 2,
+    "old": {
+      "mean_absolute_delta_error_s": 167.1990012559751,
+      "correct_improvement_sign": 0
+    },
+    "closed": {
+      "mean_absolute_delta_error_s": 213.5233797570566,
+      "correct_improvement_sign": 0
+    }
+  }
+}

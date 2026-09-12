@@ -1,0 +1,135 @@
+{
+  "local_only": true,
+  "diagnostic_only": true,
+  "official_simulator_used": false,
+  "hidden_truth_used_only_in_counterfactual_feedback": true,
+  "cases": [
+    {
+      "name": "26200-boundary10-smooth",
+      "exact_online_replay": true,
+      "checkpoints": [
+        {
+          "iteration": 2,
+          "known_channels": [
+            12
+          ],
+          "candidates": [
+            {
+              "kind": "source",
+              "key": 12,
+              "position": [
+                901.140637473913,
+                1145.562544817459
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:1200.000000000:0.000000000",
+              "position": [
+                1200.0,
+                0.0
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:599.349466694:-999.694404457",
+              "position": [
+                599.3494666943653,
+                -999.6944044567744
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            2832.5841857242804,
+            3178.957485199709,
+            3197.542194564484
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": 346.37329947542867,
+              "predicted_delta_s": 217.75148265765566,
+              "absolute_delta_error_s": 128.621816817773,
+              "correct_five_second_decision": true
+            },
+            {
+              "index": 2,
+              "actual_delta_s": 364.95800884020355,
+              "predicted_delta_s": 413.399477569468,
+              "absolute_delta_error_s": 48.44146872926444,
+              "correct_five_second_decision": true
+            }
+          ],
+          "online_chosen_index": 0,
+          "chosen_actual_delta_s": 0.0
+        }
+      ]
+    },
+    {
+      "name": "26300-one_side10-smooth",
+      "exact_online_replay": true,
+      "checkpoints": [
+        {
+          "iteration": 1,
+          "known_channels": [
+            5
+          ],
+          "candidates": [
+            {
+              "kind": "scan",
+              "key": "cover:-566.748309008:981.636866306",
+              "position": [
+                -566.748309008261,
+                981.6368663060545
+              ]
+            },
+            {
+              "kind": "source",
+              "key": 5,
+              "position": [
+                -128.26004609813478,
+                739.1808592466347
+              ]
+            },
+            {
+              "kind": "scan",
+              "key": "cover:566.748309008:981.636866306",
+              "position": [
+                566.7483090082609,
+                981.6368663060537
+              ]
+            }
+          ],
+          "actual_continuation_s": [
+            2702.8667460091633,
+            2642.293396884343,
+            2731.4956208179315
+          ],
+          "alternatives": [
+            {
+              "index": 1,
+              "actual_delta_s": -60.5733491248202,
+              "predicted_delta_s": -182.47853281877943,
+              "absolute_delta_error_s": 121.90518369395923,
+              "correct_five_second_decision": true
+            },
+            {
+              "index": 2,
+              "actual_delta_s": 28.62887480876816,
+              "predicted_delta_s": -142.56220703897603,
+              "absolute_delta_error_s": 171.1910818477442,
+              "correct_five_second_decision": false
+            }
+          ],
+          "online_chosen_index": 1,
+          "chosen_actual_delta_s": -60.5733491248202
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "comparisons": 4,
+    "mean_absolute_delta_error_s": 117.53988777218521,
+    "correct_five_second_decisions": 3
+  }
+}
