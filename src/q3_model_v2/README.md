@@ -16,4 +16,4 @@
 
 主入口保持time/lean。后续联合调度、成本预测、全局价值与闭环预测分别归档；探索分支不自动替换主方案。
 
-源码不再平铺。历史实验运行时由项目根目录的入口或 `tools/run_study.py` 自动组装依赖，不需要手工设置Python导入路径；08组按其README中的新路径直接运行。
+供第四问复用的 [geometry.py](geometry.py) 与 [official_client.py](official_client.py) 位于本目录，其余源码保留在各阶段。第三问演练仍使用项目根目录入口；历史实验仍通过 `tools/run_study.py` 自动组装依赖。08组按其README中的路径直接运行。

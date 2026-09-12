@@ -33,17 +33,17 @@ python -X utf8 tools/run_study.py q4_main --script benchmark_joint.py -- --out s
 
 | 文件 | 用途 |
 |---|---|
-| [q4_official_client.py](../code/q4_official_client.py)、[运行第四问.cmd](../code/运行第四问.cmd) | 由使用者启动的第四问接入程序与独立完成核验 |
+| [q4_official_client.py](../../q4_official_client.py)、[运行第四问.cmd](../../../../运行第四问.cmd) | 由使用者启动的第四问接入程序与独立完成核验 |
 | [verify_release.py](../code/verify_release.py)、[发布记录](../results/client_release.json) | 15个文件的只读版本核查 |
 | [stress_check.py](../code/stress_check.py)、[综合验证记录](../results/readiness_analysis.json) | 确定性压力集合、误差端点与接口验证 |
-| [polar_cover.py](../code/polar_cover.py) | 当前25站、36三角形的连续方向覆盖 |
-| [joint_solver.py](../code/joint_solver.py)、[route_planning.py](../../00_公共几何与定位/code/route_planning.py) | 当前联合路线与扫描停点复用 |
+| [polar_cover.py](../../polar_cover.py) | 当前25站、36三角形的连续方向覆盖 |
+| [joint_solver.py](../../joint_solver.py)、[route_planning.py](../../route_planning.py) | 当前联合路线与扫描停点复用 |
 | [benchmark_joint.py](../code/benchmark_joint.py)、[test_joint.py](../code/test_joint.py) | 新版配对实验与四项针对性核查 |
 | [results/joint_selection.json](../results/joint_selection.json)、[新验证汇总](../results/joint_holdout_analysis.json) | 当前配置选择、冻结指纹及24组结果 |
-| [guarded_policy.py](../../00_公共几何与定位/code/guarded_policy.py) | 未入选的类型保守评分，保留作对照 |
-| [directional_cover.py](../../00_公共几何与定位/code/directional_cover.py) | 连续三角网、负测点凸包与不存在证书 |
-| [localization.py](../../00_公共几何与定位/code/localization.py) | 混合类型情景、矩形覆盖和主动测向评分 |
-| [solver.py](../../01_初版31站/code/solver.py) | 原31站整局闭环，保留对照 |
+| [guarded_policy.py](../../guarded_policy.py) | 未入选的类型保守评分，保留作对照 |
+| [directional_cover.py](../../directional_cover.py) | 连续三角网、负测点凸包与不存在证书 |
+| [localization.py](../../localization.py) | 混合类型情景、矩形覆盖和主动测向评分 |
+| [solver.py](../../solver.py) | 原31站整局闭环，保留对照 |
 | [validation.py](../../00_公共几何与定位/code/validation.py) | 独立反馈计时、真源包含性和完整覆盖验证 |
 | [benchmark.py](../../01_初版31站/code/benchmark.py) | 合成案例、公开接口包装与配对实验 |
 | [test_model.py](../../01_初版31站/code/test_model.py) | 六项定向几何、退化审计及接口边界检查 |

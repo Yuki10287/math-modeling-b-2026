@@ -2,7 +2,7 @@
 
 **状态：当前主方案。** 官方运行保持time/lean；包含模型、主实验、接口与验证。
 
-这里把本阶段的代码、实验产物和说明放在一起；文件夹序号表示研究过程，不代表性能排名。
+本阶段的模型、实验产物和说明保留在本目录；供第四问复用的几何与通信模块位于上一级目录，下方链接指向其实际位置。文件夹序号表示研究过程，不代表性能排名。
 
 ## 先看说明
 
@@ -30,9 +30,9 @@
 - [coverage_model.py](code/coverage_model.py): 模型或运行依赖。
 - [create_release.py](code/create_release.py): 模型或运行依赖。
 - [environment.py](code/environment.py): 模型或运行依赖。
-- [geometry.py](code/geometry.py): 模型或运行依赖。
+- [geometry.py](../geometry.py): 模型或运行依赖。
 - [local_policy.py](code/local_policy.py): 模型或运行依赖。
-- [official_client.py](code/official_client.py): 接口程序。
+- [official_client.py](../official_client.py): 接口程序。
 - [package_official.py](code/package_official.py): 模型或运行依赖。
 - [plot_results.py](code/plot_results.py): 结果分析、核查或绘图。
 - [recovery.py](code/recovery.py): 模型或运行依赖。

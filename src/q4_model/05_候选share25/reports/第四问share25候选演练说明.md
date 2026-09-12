@@ -16,7 +16,7 @@
 
 ## 2. 日志与测试记录
 
-候选日志自动保存在 `local_data/official_runs/share25/`：
+使用CMD入口时，候选日志自动保存在 `local_data/official_runs/share25/`；使用[直接命令行](../../README.md)时，日志写入 `--log` 指定位置。CMD自动命名如下：
 
 - `share25-时间-随机编号.jsonl`：请求与反馈、`variant=share25`、运行源码指纹及最终汇总。
 - 同名加 `.beliefs.json`：定位可行域、选点、光学覆盖及动作轨迹。

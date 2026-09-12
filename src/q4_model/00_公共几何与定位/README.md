@@ -2,7 +2,7 @@
 
 **状态：共享基础。** 各版本共用的几何、定位、路线与独立审计。
 
-这里把本阶段的代码、实验产物和说明放在一起；文件夹序号表示研究过程，不代表性能排名。
+本阶段的实验脚本、产物和说明保留在本目录；运行模块集中在上一级目录，下方链接指向其实际位置。文件夹序号表示研究过程，不代表性能排名。
 
 ## 先看说明
 
@@ -12,15 +12,15 @@
 
 | 内容 | 位置 |
 |---|---|
-| 本阶段源代码和本地检查 | [code/](code/) |
+| 本阶段实验脚本和本地检查 | [code/](code/) |
 
 主要文件：
 
-- [directional_cover.py](code/directional_cover.py): 模型或运行依赖。
-- [guarded_policy.py](code/guarded_policy.py): 模型或运行依赖。
-- [localization.py](code/localization.py): 模型或运行依赖。
-- [route_planning.py](code/route_planning.py): 模型或运行依赖。
-- [shared.py](code/shared.py): 模型或运行依赖。
+- [directional_cover.py](../directional_cover.py): 模型或运行依赖。
+- [guarded_policy.py](../guarded_policy.py): 模型或运行依赖。
+- [localization.py](../localization.py): 模型或运行依赖。
+- [route_planning.py](../route_planning.py): 模型或运行依赖。
+- [shared.py](../shared.py): 模型或运行依赖。
 - [validation.py](code/validation.py): 模型或运行依赖。
 
 ## 使用了哪些前序成果
