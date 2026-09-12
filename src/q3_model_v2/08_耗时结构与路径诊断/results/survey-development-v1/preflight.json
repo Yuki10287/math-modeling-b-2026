@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "reference_runs": [
+    {
+      "seed": 27990,
+      "events": 120,
+      "total_s": 2990.042119184849,
+      "exact_event_match": true
+    },
+    {
+      "seed": 27991,
+      "events": 122,
+      "total_s": 3249.49444126456,
+      "exact_event_match": true
+    }
+  ],
+  "full_runs": 4,
+  "supplemental_skip_conditions_checked": [
+    "already_certified_clear",
+    "near",
+    "conflict",
+    "already_recorded",
+    "no_reception_certificate"
+  ],
+  "repeated_supplemental_call_adds_no_measurements": true,
+  "model_source_sha256": {
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "src/q3_model_v2/00_\u4e3b\u65b9\u6848_lean/code/validate_model.py": "3ada7725926ea2a703503516c24436128b733f2577b3d007c0ad4c206e860b70",
+    "src/q3_model_v2/02_\u8054\u5408\u8c03\u5ea6\u5b9e\u9a8c/code/benchmark_joint.py": "afb9194391424f85f1d5186e5098bc119f1bdb55305f29092d9937bf882d80e1",
+    "src/q3_model_v2/02_\u8054\u5408\u8c03\u5ea6\u5b9e\u9a8c/code/joint_solver.py": "b6f4307fe9f7edcbf891d1677e126848b4208ce4d439f9a4adb7a7a5a5a3239c",
+    "src/q3_model_v2/02_\u8054\u5408\u8c03\u5ea6\u5b9e\u9a8c/code/joint_planning.py": "e258ccd8f678c1a05b3d77168735afc888a8c5844d76be07b8ce2c5155287c50",
+    "src/q3_model_v2/02_\u8054\u5408\u8c03\u5ea6\u5b9e\u9a8c/code/flexible_coverage.py": "cb2c39412fb93e9ddbbbef198775310c213164250bed75e446dafdb79d4c46ff",
+    "src/q3_model_v2/08_\u8017\u65f6\u7ed3\u6784\u4e0e\u8def\u5f84\u8bca\u65ad/code/survey_solver.py": "0aa984f10f3246e9f593de8c2934b1ca9330ecca3e11e5b951a2821b705e54dd"
+  },
+  "note": "The four preflight executions completed before development. The reuse option added afterward does not change model or preflight logic."
+}

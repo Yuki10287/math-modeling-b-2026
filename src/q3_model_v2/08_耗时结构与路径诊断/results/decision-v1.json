@@ -1,0 +1,56 @@
+{
+  "decision": "retain_frozen_time_lean",
+  "official_simulator_contacted": false,
+  "production_solver_changed": false,
+  "performance_holdout_run": false,
+  "candidate_promoted": null,
+  "official_diagnostics": {
+    "user_supplied_cases": 5,
+    "accepted_actions_reconciled": 671,
+    "task_blocks": 98,
+    "mean_total_s": 3015.0100068,
+    "mean_scan_entry_movement_s": 857.1428892389009,
+    "mean_source_entry_movement_s": 992.2126610085683,
+    "mean_source_internal_movement_s": 404.65445743695767,
+    "fixed_block_channel_order_optimal_mean_saving_s": 0.6986521692836505,
+    "fixed_block_removal_state_optimal_mean_saving_s": 13.742112464035472,
+    "fixed_prefix_tail_movement_saving_upper_bounds_s": {
+      "03": 19.70603288869478,
+      "05": 29.84239994613349,
+      "07": 6.526363826777333
+    },
+    "scope": "Fixed-block reordering and retained-prefix geometry only; not global bounds for the original online problem."
+  },
+  "survey_development": {
+    "independent_layouts": 4,
+    "all_layouts_have_10_sources": true,
+    "paired_conditions": 8,
+    "full_benchmark_runs": 24,
+    "passed_runs": 24,
+    "baseline_mean_virtual_s": 3046.9434278000026,
+    "candidate_mean_virtual_s": 3782.0704299009503,
+    "candidate_increase_pct": 24.126703351093553,
+    "candidate_mean_additional_movement_s": 780.1270021009477,
+    "candidate_faster_equal_slower": [0, 0, 8],
+    "candidate_variants": ["survey", "survey_all"],
+    "variants_have_identical_events_in_all_conditions": true,
+    "additional_eligible_bearings": 0,
+    "frozen_dependency_files": 18,
+    "preflight_full_runs": 4
+  },
+  "validation": {
+    "block_route_behavior_tests": 6,
+    "independent_permutation_problems": 36,
+    "independent_permutation_comparisons": 72,
+    "independent_permutation_all_passed": true,
+    "corridor_analytic_checks": 6
+  },
+  "limitations": [
+    "Official source truth and unvisited-point feedback were not available or invented.",
+    "Hindsight reordering uses future action coordinates, so it is not a deployable online policy.",
+    "The two blocks of official and self-defined local evidence must not be pooled as one performance sample.",
+    "Vanishing post-clear tail does not imply lower whole-game time.",
+    "These results do not prove 2300 seconds impossible or comparable to the reported competitor result.",
+    "Further gains may require changing earlier observation geometry and service interleaving; this is unverified."
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "official_simulator_contacted": false,
+  "online_solver_changed": false,
+  "hidden_truth_used": false,
+  "method": "Exact subset DP of recorded blocks",
+  "precedence": "removal_state",
+  "input_sha256": "97c673b718b7708e57111b2e3db3dad9f203c5f36520bd643e012889e478c144",
+  "source_sha256": {
+    "run_block_diagnostic.py": "e69608480827a104bba9a8815082097b33c04b9d616a3898912be4bacfcc4445",
+    "block_route_diagnostic.py": "ce67dfbb25335a7acb53fd070ff3b2d07b964cef5c02f7833f813633c4e633d4"
+  },
+  "cases": [
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "total_s": 3144.955872878502,
+      "original_s": 3148.449133724919,
+      "saved_s": 3.4932608464173427,
+      "states": 321721,
+      "exact": true,
+      "costs_s": {
+        "movement": 2506.955872878501,
+        "measure": 450.0,
+        "switch": 83.0,
+        "clear_fail": 30.0,
+        "clear_success": 75.0
+      },
+      "original_costs_s": {
+        "movement": 2510.449133724919,
+        "measure": 450.0,
+        "switch": 83.0,
+        "clear_fail": 30.0,
+        "clear_success": 75.0
+      },
+      "predecessors": [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          2,
+          7,
+          8
+        ],
+        [],
+        [
+          0,
+          2,
+          7,
+          10
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          2,
+          7,
+          10
+        ],
+        [],
+        [
+          0,
+          2,
+          7,
+          10,
+          14
+        ],
+        [
+          0,
+          2,
+          7,
+          10,
+          14,
+          15
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          17
+        ],
+        [],
+        [],
+        [
+          0,
+          2
+        ]
+      ],
+      "precedence": "removal_state",
+      "per_channel_actions_identical": true,
+      "all_actions_preserve_removal_state": true,
+      "scope": "Fixed blocks and points, specified precedence; hindsight only.",
+      "case": "practice-v2-01",
+      "blocks": 22,
+      "runtime_s": 4.727700599993113
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "total_s": 3026.762342567985,
+      "original_s": 3026.7623425679853,
+      "saved_s": 4.547473508864641e-13,
+      "states": 71867,
+      "exact": true,
+      "costs_s": {
+        "movement": 2231.7623425679853,
+        "measure": 585.0,
+        "switch": 111.0,
+        "clear_fail": 24.0,
+        "clear_success": 75.0
+      },
+      "original_costs_s": {
+        "movement": 2231.7623425679853,
+        "measure": 585.0,
+        "switch": 111.0,
+        "clear_fail": 24.0,
+        "clear_success": 75.0
+      },
+      "predecessors": [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          0,
+          2
+        ],
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [],
+        [
+          0,
+          2,
+          4,
+          8
+        ],
+        [
+          0,
+          2,
+          4,
+          8,
+          9
+        ],
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          2,
+          4,
+          8,
+          11,
+          12,
+          13
+        ],
+        [
+          0,
+          2,
+          4,
+          8,
+          11,
+          12,
+          13,
+          14
+        ],
+        [],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          2,
+          4,
+          8,
+          11,
+          13,
+          16
+        ],
+        [
+          0,
+          2,
+          4,
+          8,
+          11,
+          13,
+          16,
+          17,
+          18
+        ],
+        [],
+        [
+          0,
+          2,
+          20
+        ]
+      ],
+      "precedence": "removal_state",
+      "per_channel_actions_identical": true,
+      "all_actions_preserve_removal_state": true,
+      "scope": "Fixed blocks and points, specified precedence; hindsight only.",
+      "case": "practice-v2-02",
+      "blocks": 22,
+      "runtime_s": 1.045716100023128
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "total_s": 3013.3162277593415,
+      "original_s": 3013.3162277593415,
+      "saved_s": 0.0,
+      "states": 26049,
+      "exact": true,
+      "costs_s": {
+        "movement": 2195.3162277593415,
+        "measure": 625.0,
+        "switch": 119.0,
+        "clear_fail": 24.0,
+        "clear_success": 50.0
+      },
+      "original_costs_s": {
+        "movement": 2195.3162277593415,
+        "measure": 625.0,
+        "switch": 119.0,
+        "clear_fail": 24.0,
+        "clear_success": 50.0
+      },
+      "predecessors": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          0,
+          3
+        ],
+        [],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0
+        ],
+        [],
+        [],
+        [
+          0,
+          3,
+          5,
+          8,
+          9
+        ],
+        [
+          0,
+          3,
+          5,
+          8,
+          9,
+          10
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          12
+        ],
+        [],
+        [
+          0,
+          1,
+          2
+        ],
+        []
+      ],
+      "precedence": "removal_state",
+      "per_channel_actions_identical": true,
+      "all_actions_preserve_removal_state": true,
+      "scope": "Fixed blocks and points, specified precedence; hindsight only.",
+      "case": "practice-v2-03",
+      "blocks": 17,
+      "runtime_s": 0.32315969999763183
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "total_s": 2846.735530266198,
+      "original_s": 2846.735530266199,
+      "saved_s": 9.094947017729282e-13,
+      "states": 2941,
+      "exact": true,
+      "costs_s": {
+        "movement": 2039.7355302661988,
+        "measure": 605.0,
+        "switch": 116.0,
+        "clear_fail": 36.0,
+        "clear_success": 50.0
+      },
+      "original_costs_s": {
+        "movement": 2039.7355302661988,
+        "measure": 605.0,
+        "switch": 116.0,
+        "clear_fail": 36.0,
+        "clear_success": 50.0
+      },
+      "predecessors": [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [],
+        [
+          0,
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [],
+        [],
+        [
+          0,
+          2,
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          0,
+          2,
+          5,
+          9,
+          12,
+          13,
+          14
+        ],
+        []
+      ],
+      "precedence": "removal_state",
+      "per_channel_actions_identical": true,
+      "all_actions_preserve_removal_state": true,
+      "scope": "Fixed blocks and points, specified precedence; hindsight only.",
+      "case": "practice-v2-05",
+      "blocks": 17,
+      "runtime_s": 0.028842900006566197
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "total_s": 2974.569502629932,
+      "original_s": 3039.7868041036904,
+      "saved_s": 65.21730147375865,
+      "states": 10477,
+      "exact": true,
+      "costs_s": {
+        "movement": 2226.5695026299313,
+        "measure": 565.0,
+        "switch": 106.0,
+        "clear_fail": 12.0,
+        "clear_success": 65.0
+      },
+      "original_costs_s": {
+        "movement": 2292.7868041036904,
+        "measure": 565.0,
+        "switch": 105.0,
+        "clear_fail": 12.0,
+        "clear_success": 65.0
+      },
+      "predecessors": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ],
+        [],
+        [],
+        [
+          0,
+          3,
+          5,
+          9,
+          10
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          3,
+          5,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          0,
+          3,
+          5,
+          9,
+          10,
+          11,
+          13
+        ],
+        [],
+        [
+          0,
+          3,
+          5,
+          9,
+          10,
+          15,
+          17
+        ],
+        []
+      ],
+      "precedence": "removal_state",
+      "per_channel_actions_identical": false,
+      "all_actions_preserve_removal_state": true,
+      "scope": "Fixed blocks and points, specified precedence; hindsight only.",
+      "case": "practice-v2-07",
+      "blocks": 20,
+      "runtime_s": 0.11476749999565072
+    }
+  ],
+  "aggregate": {
+    "cases": 5,
+    "mean_original_s": 3015.0100076844274,
+    "mean_reordered_s": 3001.267895220392,
+    "mean_saved_s": 13.742112464035472
+  },
+  "limitations": [
+    "Hindsight uses recorded future action points, unavailable to an online planner.",
+    "Optimum is only for fixed blocks, fixed positions and the stated precedence constraints.",
+    "This does not bound gains from changing points, splitting blocks or changing within-block action order.",
+    "Feedback preservation follows Q3 static source and fixed-position feedback rules; no official replay performed."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "analysis_kind": "offline_continuous_prefix_corridor_capacity",
+  "official_simulator_contacted": false,
+  "policy_executed": false,
+  "hidden_truth_used": false,
+  "unobserved_feedback_generated": false,
+  "source_input": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q3_model_v2\\05_官方演练复盘\\results\\official_practice_20260911_analysis.json",
+  "input_sha256": "5a77ecb10eca8a2812400a004a04271d865afea38a97a361c6ffcc23d0564e5b",
+  "script_sha256": "72544f6a130a481efc2fcf87ee3492c0157b18d257139830135064562e4ceb79",
+  "constants": {
+    "target_radius_m": 1800.0,
+    "minimum_signal_radius_m": 1000.0,
+    "cell_size_m": 20.0,
+    "cell_half_diagonal_m": 14.14213562373095,
+    "speed_m_per_s": 5.0
+  },
+  "geometry_self_checks": {
+    "passed": true,
+    "analytic_checks": 6
+  },
+  "interpretation": [
+    "A hole witness is strictly in the target disk and more than 1000 m from every point of the recorded prefix. It proves that unlimited on-path readings alone cannot certify its absence for minimum-range sources.",
+    "For each whole-cell capacity claim, at least one point on the path is within 1000 minus the cell half diagonal of its center. That single disk contains the entire square. This is prospective capacity, never accepted evidence.",
+    "A sampled count is not exact uncovered area. No sampled hole is not by itself a proof of continuous coverage; the separate whole-cell test supplies a sufficient coverage certificate.",
+    "No alternative official score is calculated. Changed policies may change discoveries, routes, source order, and channel costs."
+  ],
+  "cases": [
+    {
+      "case": "practice-v2-01",
+      "cleared": 15,
+      "absent": 5,
+      "actual_total_s": 3148.449131,
+      "actual_tail_s": 0.0,
+      "path_distinct_stop_count": 44,
+      "path_positive_length_segments": 43,
+      "square_cell_count": 25800,
+      "stopped_point_whole_cell_capacity": 25800,
+      "continuous_path_whole_cell_capacity": 25800,
+      "additional_cells_reachable_between_stops": 0,
+      "continuous_path_whole_cell_cover_complete": true,
+      "interior_sample_points_proving_physical_holes": 0,
+      "physical_hole_proved": false,
+      "physical_hole_witness": null,
+      "farthest_examined_in_domain_point": {
+        "position": [
+          -1450.0,
+          -1050.0
+        ],
+        "norm_from_origin_m": 1790.2513789968157,
+        "nearest_pre_last_clear_path_distance_m": 836.1937621907108,
+        "excess_over_minimum_reception_radius_m": 0.0
+      },
+      "finite_insertion_completion": {
+        "additional_stops_needed_for_actual_completion": 0,
+        "additional_measurement_fee_s": 0.0,
+        "basis": "The recorded run already completed at this checkpoint; no new feedback is assumed."
+      },
+      "retained_prefix_tail_lower_bound": null
+    },
+    {
+      "case": "practice-v2-02",
+      "cleared": 15,
+      "absent": 5,
+      "actual_total_s": 3026.762339,
+      "actual_tail_s": 0.0,
+      "path_distinct_stop_count": 37,
+      "path_positive_length_segments": 36,
+      "square_cell_count": 25800,
+      "stopped_point_whole_cell_capacity": 25800,
+      "continuous_path_whole_cell_capacity": 25800,
+      "additional_cells_reachable_between_stops": 0,
+      "continuous_path_whole_cell_cover_complete": true,
+      "interior_sample_points_proving_physical_holes": 0,
+      "physical_hole_proved": false,
+      "physical_hole_witness": null,
+      "farthest_examined_in_domain_point": {
+        "position": [
+          -30.0,
+          -1790.0
+        ],
+        "norm_from_origin_m": 1790.2513789968157,
+        "nearest_pre_last_clear_path_distance_m": 973.7961208808367,
+        "excess_over_minimum_reception_radius_m": 0.0
+      },
+      "finite_insertion_completion": {
+        "additional_stops_needed_for_actual_completion": 0,
+        "additional_measurement_fee_s": 0.0,
+        "basis": "The recorded run already completed at this checkpoint; no new feedback is assumed."
+      },
+      "retained_prefix_tail_lower_bound": null
+    },
+    {
+      "case": "practice-v2-03",
+      "cleared": 10,
+      "absent": 10,
+      "actual_total_s": 3013.316228,
+      "actual_tail_s": 194.0943940000002,
+      "path_distinct_stop_count": 33,
+      "path_positive_length_segments": 31,
+      "square_cell_count": 25800,
+      "stopped_point_whole_cell_capacity": 25537,
+      "continuous_path_whole_cell_capacity": 25545,
+      "additional_cells_reachable_between_stops": 8,
+      "continuous_path_whole_cell_cover_complete": false,
+      "interior_sample_points_proving_physical_holes": 194,
+      "physical_hole_proved": true,
+      "physical_hole_witness": {
+        "position": [
+          1690.0,
+          -590.0
+        ],
+        "norm_from_origin_m": 1790.0279327429503,
+        "nearest_pre_last_clear_path_distance_m": 1168.8916365994623,
+        "excess_over_minimum_reception_radius_m": 168.89163659946234
+      },
+      "farthest_examined_in_domain_point": {
+        "position": [
+          1690.0,
+          -590.0
+        ],
+        "norm_from_origin_m": 1790.0279327429503,
+        "nearest_pre_last_clear_path_distance_m": 1168.8916365994623,
+        "excess_over_minimum_reception_radius_m": 168.89163659946234
+      },
+      "finite_insertion_completion": null,
+      "retained_prefix_tail_lower_bound": {
+        "witness_position": [
+          1590.0,
+          -830.0
+        ],
+        "witness_nearest_prefix_distance_m": 1007.6194393505252,
+        "checkpoint_position": [
+          832.0494044107651,
+          203.869279944908
+        ],
+        "necessary_tail_movement_at_least_m": 281.94180576494136,
+        "necessary_tail_movement_at_least_s": 56.388361152988274,
+        "actual_tail_movement_s": 76.09439404168305,
+        "tail_movement_saving_at_most_s": 19.70603288869478,
+        "scope": "Preserve the full original prefix through the last clear; allow arbitrary extra on-prefix measurements; then change only the suffix. This is a movement-only optimistic bound and excludes added measurement costs. Changing the earlier route or clear order falls outside it."
+      }
+    },
+    {
+      "case": "practice-v2-05",
+      "cleared": 10,
+      "absent": 10,
+      "actual_total_s": 2846.73553,
+      "actual_tail_s": 253.028233,
+      "path_distinct_stop_count": 32,
+      "path_positive_length_segments": 31,
+      "square_cell_count": 25800,
+      "stopped_point_whole_cell_capacity": 25466,
+      "continuous_path_whole_cell_capacity": 25471,
+      "additional_cells_reachable_between_stops": 5,
+      "continuous_path_whole_cell_cover_complete": false,
+      "interior_sample_points_proving_physical_holes": 271,
+      "physical_hole_proved": true,
+      "physical_hole_witness": {
+        "position": [
+          -1710.0,
+          550.0
+        ],
+        "norm_from_origin_m": 1796.2739212046697,
+        "nearest_pre_last_clear_path_distance_m": 1220.9648071607187,
+        "excess_over_minimum_reception_radius_m": 220.9648071607187
+      },
+      "farthest_examined_in_domain_point": {
+        "position": [
+          -1710.0,
+          550.0
+        ],
+        "norm_from_origin_m": 1796.2739212046697,
+        "nearest_pre_last_clear_path_distance_m": 1220.9648071607187,
+        "excess_over_minimum_reception_radius_m": 220.9648071607187
+      },
+      "finite_insertion_completion": null,
+      "retained_prefix_tail_lower_bound": {
+        "witness_position": [
+          -1570.0,
+          870.0
+        ],
+        "witness_nearest_prefix_distance_m": 1009.3023695147007,
+        "checkpoint_position": [
+          -1468.453189547798,
+          -647.5354267692716
+        ],
+        "necessary_tail_movement_at_least_m": 520.9291654159342,
+        "necessary_tail_movement_at_least_s": 104.18583308318685,
+        "actual_tail_movement_s": 134.02823302932035,
+        "tail_movement_saving_at_most_s": 29.84239994613349,
+        "scope": "Preserve the full original prefix through the last clear; allow arbitrary extra on-prefix measurements; then change only the suffix. This is a movement-only optimistic bound and excludes added measurement costs. Changing the earlier route or clear order falls outside it."
+      }
+    },
+    {
+      "case": "practice-v2-07",
+      "cleared": 13,
+      "absent": 7,
+      "actual_total_s": 3039.786806,
+      "actual_tail_s": 286.96637899999996,
+      "path_distinct_stop_count": 29,
+      "path_positive_length_segments": 28,
+      "square_cell_count": 25800,
+      "stopped_point_whole_cell_capacity": 24263,
+      "continuous_path_whole_cell_capacity": 24264,
+      "additional_cells_reachable_between_stops": 1,
+      "continuous_path_whole_cell_cover_complete": false,
+      "interior_sample_points_proving_physical_holes": 1417,
+      "physical_hole_proved": true,
+      "physical_hole_witness": {
+        "position": [
+          1790.0,
+          -90.0
+        ],
+        "norm_from_origin_m": 1792.2611416866685,
+        "nearest_pre_last_clear_path_distance_m": 1530.7385946146426,
+        "excess_over_minimum_reception_radius_m": 530.7385946146426
+      },
+      "farthest_examined_in_domain_point": {
+        "position": [
+          1790.0,
+          -90.0
+        ],
+        "norm_from_origin_m": 1792.2611416866685,
+        "nearest_pre_last_clear_path_distance_m": 1530.7385946146426,
+        "excess_over_minimum_reception_radius_m": 530.7385946146426
+      },
+      "finite_insertion_completion": null,
+      "retained_prefix_tail_lower_bound": {
+        "witness_position": [
+          1570.0,
+          -870.0
+        ],
+        "witness_nearest_prefix_distance_m": 1010.6707777229112,
+        "checkpoint_position": [
+          728.2744263461639,
+          1154.1638374928425
+        ],
+        "necessary_tail_movement_at_least_m": 1192.2000780851708,
+        "necessary_tail_movement_at_least_s": 238.44001561703416,
+        "actual_tail_movement_s": 244.9663794438115,
+        "tail_movement_saving_at_most_s": 6.526363826777333,
+        "scope": "Preserve the full original prefix through the last clear; allow arbitrary extra on-prefix measurements; then change only the suffix. This is a movement-only optimistic bound and excludes added measurement costs. Changing the earlier route or clear order falls outside it."
+      }
+    }
+  ]
+}

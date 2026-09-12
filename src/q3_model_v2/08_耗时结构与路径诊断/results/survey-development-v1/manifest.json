@@ -1,0 +1,739 @@
+{
+  "split": "development",
+  "local_only": true,
+  "official_simulator_used": false,
+  "truth_hidden_from_solver": true,
+  "source_sha256": {
+    "src/q3_model_v2/00_主方案_lean/code/baseline_solver.py": "0c292235c9c793097fd31e1378830c1d55572072401fbd22917e80c6e2b8ac02",
+    "src/q3_model_v2/00_主方案_lean/code/v1_solver.py": "05de9cfb2f2095f8b184c60bc96baf6edc03c68712caf849b350d4ecf6a0df42",
+    "src/q3_model_v2/00_主方案_lean/code/solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "src/q3_model_v2/00_主方案_lean/code/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src/q3_model_v2/00_主方案_lean/code/belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "src/q3_model_v2/00_主方案_lean/code/coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "src/q3_model_v2/00_主方案_lean/code/scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1",
+    "src/q3_model_v2/00_主方案_lean/code/local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "src/q3_model_v2/00_主方案_lean/code/recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "src/q3_model_v2/00_主方案_lean/code/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src/q3_model_v2/00_主方案_lean/code/benchmark.py": "977a87db007b598fcd0aabfc73954f9b76ec05091f52782b483481dc8ca46a82",
+    "src/q3_model_v2/00_主方案_lean/code/validate_model.py": "3ada7725926ea2a703503516c24436128b733f2577b3d007c0ad4c206e860b70",
+    "src/q3_model_v2/02_联合调度实验/code/benchmark_joint.py": "afb9194391424f85f1d5186e5098bc119f1bdb55305f29092d9937bf882d80e1",
+    "src/q3_model_v2/02_联合调度实验/code/joint_solver.py": "b6f4307fe9f7edcbf891d1677e126848b4208ce4d439f9a4adb7a7a5a5a3239c",
+    "src/q3_model_v2/02_联合调度实验/code/joint_planning.py": "e258ccd8f678c1a05b3d77168735afc888a8c5844d76be07b8ce2c5155287c50",
+    "src/q3_model_v2/02_联合调度实验/code/flexible_coverage.py": "cb2c39412fb93e9ddbbbef198775310c213164250bed75e446dafdb79d4c46ff",
+    "src/q3_model_v2/08_耗时结构与路径诊断/code/survey_solver.py": "0aa984f10f3246e9f593de8c2934b1ca9330ecca3e11e5b951a2821b705e54dd",
+    "src/q3_model_v2/08_耗时结构与路径诊断/code/benchmark_survey.py": "33c8eebfb1257c9c9f0c7436ba7f32895e8234d4ca77e4852749fe335d605f26"
+  },
+  "cases": [
+    {
+      "name": "27000-uniform-smooth",
+      "seed": 27000,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 7,
+          "position": [
+            117.77851015087919,
+            -1796.1294278406358
+          ],
+          "radius": 1069.2817001614183
+        },
+        {
+          "channel": 8,
+          "position": [
+            1242.7212366089252,
+            630.515896873208
+          ],
+          "radius": 1339.5862095674033
+        },
+        {
+          "channel": 20,
+          "position": [
+            1233.7722784220232,
+            5.476152561432765
+          ],
+          "radius": 1290.7275398566383
+        },
+        {
+          "channel": 13,
+          "position": [
+            -208.7210230185949,
+            -1066.2029945970964
+          ],
+          "radius": 1059.1329404498126
+        },
+        {
+          "channel": 16,
+          "position": [
+            -446.05194633867416,
+            -1261.5182849815426
+          ],
+          "radius": 1492.0417038627731
+        },
+        {
+          "channel": 6,
+          "position": [
+            1326.1679728316371,
+            -789.7105759152179
+          ],
+          "radius": 1453.312373291193
+        },
+        {
+          "channel": 10,
+          "position": [
+            -1747.5823345884862,
+            -302.62528703708085
+          ],
+          "radius": 1271.106441933733
+        },
+        {
+          "channel": 19,
+          "position": [
+            649.0863652924486,
+            864.3305334939223
+          ],
+          "radius": 1325.3729732907464
+        },
+        {
+          "channel": 3,
+          "position": [
+            1107.790526537842,
+            944.9334394244087
+          ],
+          "radius": 1163.7060862264068
+        },
+        {
+          "channel": 14,
+          "position": [
+            250.10655449229566,
+            -1516.8406140523682
+          ],
+          "radius": 1226.8329796426094
+        }
+      ]
+    },
+    {
+      "name": "27000-uniform-extreme",
+      "seed": 27000,
+      "field": "extreme",
+      "sources": [
+        {
+          "channel": 7,
+          "position": [
+            117.77851015087919,
+            -1796.1294278406358
+          ],
+          "radius": 1069.2817001614183
+        },
+        {
+          "channel": 8,
+          "position": [
+            1242.7212366089252,
+            630.515896873208
+          ],
+          "radius": 1339.5862095674033
+        },
+        {
+          "channel": 20,
+          "position": [
+            1233.7722784220232,
+            5.476152561432765
+          ],
+          "radius": 1290.7275398566383
+        },
+        {
+          "channel": 13,
+          "position": [
+            -208.7210230185949,
+            -1066.2029945970964
+          ],
+          "radius": 1059.1329404498126
+        },
+        {
+          "channel": 16,
+          "position": [
+            -446.05194633867416,
+            -1261.5182849815426
+          ],
+          "radius": 1492.0417038627731
+        },
+        {
+          "channel": 6,
+          "position": [
+            1326.1679728316371,
+            -789.7105759152179
+          ],
+          "radius": 1453.312373291193
+        },
+        {
+          "channel": 10,
+          "position": [
+            -1747.5823345884862,
+            -302.62528703708085
+          ],
+          "radius": 1271.106441933733
+        },
+        {
+          "channel": 19,
+          "position": [
+            649.0863652924486,
+            864.3305334939223
+          ],
+          "radius": 1325.3729732907464
+        },
+        {
+          "channel": 3,
+          "position": [
+            1107.790526537842,
+            944.9334394244087
+          ],
+          "radius": 1163.7060862264068
+        },
+        {
+          "channel": 14,
+          "position": [
+            250.10655449229566,
+            -1516.8406140523682
+          ],
+          "radius": 1226.8329796426094
+        }
+      ]
+    },
+    {
+      "name": "27100-sparse10-smooth",
+      "seed": 27100,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 8,
+          "position": [
+            1154.1364293479824,
+            304.30295558247514
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            -216.11330688590414,
+            -1349.9610312465677
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            -358.96349422101906,
+            -1599.4820240600914
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            -1480.347072295551,
+            -984.7658072228727
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            -1574.828074093312,
+            -124.58812817085028
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            835.4904115767426,
+            102.719886306163
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            -129.85686876982314,
+            148.9051434282786
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            -1725.9052830030764,
+            -390.05237014018917
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            -1268.0279983967455,
+            -1030.785940627242
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            501.50929717298874,
+            208.04650543979778
+          ],
+          "radius": 1000.0
+        }
+      ]
+    },
+    {
+      "name": "27100-sparse10-extreme",
+      "seed": 27100,
+      "field": "extreme",
+      "sources": [
+        {
+          "channel": 8,
+          "position": [
+            1154.1364293479824,
+            304.30295558247514
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            -216.11330688590414,
+            -1349.9610312465677
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            -358.96349422101906,
+            -1599.4820240600914
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            -1480.347072295551,
+            -984.7658072228727
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            -1574.828074093312,
+            -124.58812817085028
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            835.4904115767426,
+            102.719886306163
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            -129.85686876982314,
+            148.9051434282786
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            -1725.9052830030764,
+            -390.05237014018917
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            -1268.0279983967455,
+            -1030.785940627242
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            501.50929717298874,
+            208.04650543979778
+          ],
+          "radius": 1000.0
+        }
+      ]
+    },
+    {
+      "name": "27200-boundary10-smooth",
+      "seed": 27200,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 15,
+          "position": [
+            639.3603450624388,
+            -1639.2005955307723
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            725.5733467043262,
+            1492.6422929883556
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            815.3795206478279,
+            1470.7784293095344
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            675.5248323036643,
+            1555.228854415535
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            211.19467179083517,
+            -1751.1315705915144
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 19,
+          "position": [
+            -680.7947968255069,
+            1634.8599203336332
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            -1493.1697528377222,
+            766.853797578625
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            -1475.1188742484287,
+            -946.3919916541961
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            927.2079548701734,
+            -1524.7707248260272
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            -1448.5641177690331,
+            -1052.4465229025727
+          ],
+          "radius": 1000.0
+        }
+      ]
+    },
+    {
+      "name": "27200-boundary10-extreme",
+      "seed": 27200,
+      "field": "extreme",
+      "sources": [
+        {
+          "channel": 15,
+          "position": [
+            639.3603450624388,
+            -1639.2005955307723
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            725.5733467043262,
+            1492.6422929883556
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            815.3795206478279,
+            1470.7784293095344
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            675.5248323036643,
+            1555.228854415535
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            211.19467179083517,
+            -1751.1315705915144
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 19,
+          "position": [
+            -680.7947968255069,
+            1634.8599203336332
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            -1493.1697528377222,
+            766.853797578625
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            -1475.1188742484287,
+            -946.3919916541961
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            927.2079548701734,
+            -1524.7707248260272
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            -1448.5641177690331,
+            -1052.4465229025727
+          ],
+          "radius": 1000.0
+        }
+      ]
+    },
+    {
+      "name": "27300-one_side10-smooth",
+      "seed": 27300,
+      "field": "smooth",
+      "sources": [
+        {
+          "channel": 6,
+          "position": [
+            -356.4893582853121,
+            -1362.4813208741984
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 1,
+          "position": [
+            -115.61841344350296,
+            -1098.5547848700387
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            -45.74034479832933,
+            -609.4282395369786
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -265.275233102765,
+            -1448.2697787683355
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            -174.69298919485632,
+            -1775.8405306293037
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            -152.74790306691415,
+            -930.9935346159757
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            -409.35144498232086,
+            -1386.45908682473
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            -138.09481553117288,
+            -581.8166026632322
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            -36.17699836499838,
+            -1104.7428345745163
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            242.34963974375117,
+            -1335.497144118561
+          ],
+          "radius": 1000.0
+        }
+      ]
+    },
+    {
+      "name": "27300-one_side10-extreme",
+      "seed": 27300,
+      "field": "extreme",
+      "sources": [
+        {
+          "channel": 6,
+          "position": [
+            -356.4893582853121,
+            -1362.4813208741984
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 1,
+          "position": [
+            -115.61841344350296,
+            -1098.5547848700387
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            -45.74034479832933,
+            -609.4282395369786
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -265.275233102765,
+            -1448.2697787683355
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 2,
+          "position": [
+            -174.69298919485632,
+            -1775.8405306293037
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            -152.74790306691415,
+            -930.9935346159757
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            -409.35144498232086,
+            -1386.45908682473
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            -138.09481553117288,
+            -581.8166026632322
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            -36.17699836499838,
+            -1104.7428345745163
+          ],
+          "radius": 1000.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            242.34963974375117,
+            -1335.497144118561
+          ],
+          "radius": 1000.0
+        }
+      ]
+    }
+  ],
+  "variants": [
+    "lean",
+    "survey",
+    "survey_all"
+  ],
+  "python": "3.14.0",
+  "numpy": "2.4.1",
+  "independent_layouts": 4,
+  "paired_conditions": 8,
+  "gate": {
+    "minimum_mean_reduction_pct": 2.0,
+    "faster_must_exceed_slower": true,
+    "all_audits_must_pass": true
+  },
+  "design": "Complete unknown-channel search before travel for source service; retain original free-at-stop clears and shared observations. survey_all adds all eligible certified fresh bearings at scan stops. Fixed parameters; no tuning after results."
+}
