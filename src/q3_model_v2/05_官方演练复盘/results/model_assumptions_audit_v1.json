@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "audit": "independent small mathematical probes, no simulator connection",
+  "seed": 912003,
+  "python_version": "3.14.0",
+  "numpy_version": "2.4.1",
+  "source_sha256": {
+    "geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "belief_model.py": "de373cb75b0d4699ef7d6df47c76fc8e1289ae7e9406a2d24f8652c2cf85ce21",
+    "coverage_model.py": "31d8e46bfa53efe07ddf28c581014e4b1b2bfa88348fe88f19576cc1dba41345",
+    "recovery.py": "cf23467a083c278e7c2b3a9192fde999e132e6aa5adcf316d40e6d4d74692da3",
+    "solver.py": "deceeb3a4d6ed0e97df8fc24bf42e77138295c069bb733d1343fbe7adf238fa9",
+    "local_policy.py": "9f2a137ecaec8e81fdf19795a990291cd92d7d0b5834d0c8298d6ddef4008c89",
+    "scan_planning.py": "4ee968de555e62d81b8bb6dd9e6ee885233a8f3eea359ad1c83dfdac95a645f1"
+  },
+  "scope": "Finite boundary/random probes; not a universal numerical proof or performance sample",
+  "observation_generation": "Nearest rounding to two decimals after errors from {-1,0,+1} degrees",
+  "generated_truth_cases": 200,
+  "belief_updates_checked": 1000,
+  "max_truth_outside_distance_m": 0.0,
+  "conflict_count": 0,
+  "fixed_seven_stations_complete": true,
+  "coverage_cells": 25800,
+  "convex_hull_negative_hole_is_refilled": true,
+  "hole_probe_interpretation": "Conservative information loss, not exclusion of a feasible source",
+  "conditional_pre_quantization_truncation_only": {
+    "true_angle_degrees": 45.0099,
+    "noise_degrees": -1.0,
+    "returned_angle_degrees": 44.0,
+    "total_error_degrees": 1.0099000000000018,
+    "truth_outside_belief_m": 0.12827908187132173,
+    "fallback_nearest_distance_m": 11.44012423547449,
+    "admissible_under_literal_returned_error_bound": false,
+    "interpretation": "Only relevant if an additional official rule permits pre-quantization noise plus truncation and final errors over one degree; not an established official model counterexample"
+  }
+}

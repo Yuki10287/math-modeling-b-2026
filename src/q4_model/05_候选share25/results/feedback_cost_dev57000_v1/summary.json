@@ -1,0 +1,1532 @@
+{
+  "passed": true,
+  "source_snapshot_stable": true,
+  "rows": [
+    {
+      "seed": 57000,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 5.005042600008892,
+      "process_cpu_s": 4.9375,
+      "independent_audit_wall_s": 0.8959579999791458,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 353,
+        "polygons": 42,
+        "optical_plans": 5,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6448.931646432973,
+        "counts": {
+          "measure": 325,
+          "switch": 311,
+          "clear_success": 13,
+          "clear_fail": 15
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 5,
+          "removed_planned": 43,
+          "skipped_before_success": 0,
+          "accepted_actions": 353,
+          "actual_optical_actions": 20,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 296,
+        "unknown_scan_measures": 296,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 8
+          },
+          "optical_cover": {
+            "actions": 20
+          },
+          "scan": {
+            "actions": 296,
+            "negative": 283,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 25,
+            "positive": 21,
+            "negative": 4
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 3,
+            "negative": 1
+          }
+        },
+        "feedback_cost_predictions": 0,
+        "prediction_fields": [],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 353,
+        "belief": 42,
+        "task_choice": 41,
+        "decision": 4,
+        "shared_prediction": 25,
+        "ordered_optical_prune": 5,
+        "optical_plan": 5
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6448.931646432973,
+      "average_s": 496.0716651102287,
+      "distance_m": 22014.658232164864,
+      "counts": {
+        "measure": 325,
+        "switch": 311,
+        "clear_success": 13,
+        "clear_fail": 15
+      },
+      "time_parts_s": {
+        "move": 4402.931646432973,
+        "measure": 1625,
+        "switch": 311,
+        "clear_success": 65,
+        "clear_fail": 45
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57000-uniform-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 57000,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "feedback_cost",
+      "runtime_s": 52.46179109998047,
+      "process_cpu_s": 51.859375,
+      "independent_audit_wall_s": 0.5173669000214431,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 373,
+        "polygons": 41,
+        "optical_plans": 10,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6464.87317416792,
+        "counts": {
+          "measure": 324,
+          "switch": 308,
+          "clear_success": 13,
+          "clear_fail": 36
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 43,
+          "skipped_before_success": 18,
+          "accepted_actions": 373,
+          "actual_optical_actions": 46,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 296,
+        "unknown_scan_measures": 296,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "optical_cover": {
+            "actions": 46
+          },
+          "scan": {
+            "actions": 296,
+            "negative": 283,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 25,
+            "positive": 20,
+            "negative": 5
+          },
+          "source_measure": {
+            "actions": 3,
+            "positive": 1,
+            "negative": 2
+          }
+        },
+        "feedback_cost_predictions": 13,
+        "prediction_fields": [
+          "candidates",
+          "channel",
+          "current_optical",
+          "mean_weight",
+          "model",
+          "phase",
+          "risk_weight",
+          "selected",
+          "selected_q"
+        ],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 373,
+        "belief": 41,
+        "task_choice": 40,
+        "feedback_cost_prediction": 13,
+        "decision": 3,
+        "shared_prediction": 25,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6464.87317416792,
+      "average_s": 497.2979364744554,
+      "distance_m": 21819.36587083961,
+      "counts": {
+        "measure": 324,
+        "switch": 308,
+        "clear_success": 13,
+        "clear_fail": 36
+      },
+      "time_parts_s": {
+        "move": 4363.873174167922,
+        "measure": 1620,
+        "switch": 308,
+        "clear_success": 65,
+        "clear_fail": 108
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57000-uniform-hashed-feedback_cost.json"
+    },
+    {
+      "seed": 57100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 6.721265200001653,
+      "process_cpu_s": 6.390625,
+      "independent_audit_wall_s": 0.5192676000006031,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 412,
+        "polygons": 40,
+        "optical_plans": 11,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 7773.619670701199,
+        "counts": {
+          "measure": 341,
+          "switch": 323,
+          "clear_success": 16,
+          "clear_fail": 55
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 11,
+          "removed_planned": 243,
+          "skipped_before_success": 61,
+          "accepted_actions": 412,
+          "actual_optical_actions": 66,
+          "contractions_applied": 4,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 4
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 24,
+        "actual_scan_measures": 317,
+        "unknown_scan_measures": 317,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 5
+          },
+          "optical_cover": {
+            "actions": 66
+          },
+          "scan": {
+            "actions": 317,
+            "negative": 301,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 15,
+            "negative": 8,
+            "positive": 7
+          },
+          "source_measure": {
+            "actions": 9,
+            "positive": 5,
+            "negative": 4
+          }
+        },
+        "feedback_cost_predictions": 0,
+        "prediction_fields": [],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 412,
+        "task_choice": 48,
+        "belief": 40,
+        "shared_prediction": 15,
+        "decision": 9,
+        "ordered_optical_prune": 11,
+        "optical_plan": 11
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 7773.619670701199,
+      "average_s": 485.8512294188249,
+      "distance_m": 27503.098353506015,
+      "counts": {
+        "measure": 341,
+        "switch": 323,
+        "clear_success": 16,
+        "clear_fail": 55
+      },
+      "time_parts_s": {
+        "move": 5500.619670701203,
+        "measure": 1705,
+        "switch": 323,
+        "clear_success": 80,
+        "clear_fail": 165
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57100-boundary-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 57100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "feedback_cost",
+      "runtime_s": 254.5930705999781,
+      "process_cpu_s": 250.75,
+      "independent_audit_wall_s": 0.9362401000107639,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 442,
+        "polygons": 35,
+        "optical_plans": 12,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 7608.274927395924,
+        "counts": {
+          "measure": 341,
+          "switch": 324,
+          "clear_success": 16,
+          "clear_fail": 85
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 12,
+          "removed_planned": 287,
+          "skipped_before_success": 61,
+          "accepted_actions": 442,
+          "actual_optical_actions": 97,
+          "contractions_applied": 5,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 5
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 24,
+        "actual_scan_measures": 322,
+        "unknown_scan_measures": 322,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 97
+          },
+          "scan": {
+            "actions": 322,
+            "negative": 306,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 14,
+            "negative": 9,
+            "positive": 5
+          },
+          "source_measure": {
+            "actions": 5,
+            "negative": 4,
+            "positive": 1
+          }
+        },
+        "feedback_cost_predictions": 17,
+        "prediction_fields": [
+          "candidates",
+          "channel",
+          "current_optical",
+          "mean_weight",
+          "model",
+          "phase",
+          "risk_weight",
+          "selected",
+          "selected_q"
+        ],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 442,
+        "task_choice": 44,
+        "belief": 35,
+        "shared_prediction": 14,
+        "feedback_cost_prediction": 17,
+        "ordered_optical_prune": 12,
+        "optical_plan": 12,
+        "decision": 5
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 7608.274927395924,
+      "average_s": 475.5171829622453,
+      "distance_m": 26221.374636979643,
+      "counts": {
+        "measure": 341,
+        "switch": 324,
+        "clear_success": 16,
+        "clear_fail": 85
+      },
+      "time_parts_s": {
+        "move": 5244.274927395929,
+        "measure": 1705,
+        "switch": 324,
+        "clear_success": 80,
+        "clear_fail": 255
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57100-boundary-hashed-feedback_cost.json"
+    },
+    {
+      "seed": 57200,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 5.884334999980638,
+      "process_cpu_s": 5.515625,
+      "independent_audit_wall_s": 0.6177033999993,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 294,
+        "polygons": 29,
+        "optical_plans": 5,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5736.553495124761,
+        "counts": {
+          "measure": 280,
+          "switch": 258,
+          "clear_success": 11,
+          "clear_fail": 3
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 5,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 294,
+          "actual_optical_actions": 8,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 262,
+        "unknown_scan_measures": 262,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "optical_cover": {
+            "actions": 8
+          },
+          "scan": {
+            "actions": 262,
+            "negative": 251,
+            "positive": 11
+          },
+          "shared_measure": {
+            "actions": 14,
+            "positive": 14
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 4
+          }
+        },
+        "feedback_cost_predictions": 0,
+        "prediction_fields": [],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 294,
+        "belief": 29,
+        "task_choice": 39,
+        "decision": 4,
+        "shared_prediction": 14,
+        "ordered_optical_prune": 5,
+        "optical_plan": 5
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5736.553495124761,
+      "average_s": 521.5048631931601,
+      "distance_m": 20072.767475623805,
+      "counts": {
+        "measure": 280,
+        "switch": 258,
+        "clear_success": 11,
+        "clear_fail": 3
+      },
+      "time_parts_s": {
+        "move": 4014.553495124761,
+        "measure": 1400,
+        "switch": 258,
+        "clear_success": 55,
+        "clear_fail": 9
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57200-cluster-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 57200,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "feedback_cost",
+      "runtime_s": 63.624541500001214,
+      "process_cpu_s": 62.828125,
+      "independent_audit_wall_s": 0.49615150000317954,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 301,
+        "polygons": 31,
+        "optical_plans": 7,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5671.248357981554,
+        "counts": {
+          "measure": 281,
+          "switch": 263,
+          "clear_success": 11,
+          "clear_fail": 9
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 7,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 301,
+          "actual_optical_actions": 16,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 261,
+        "unknown_scan_measures": 261,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 16
+          },
+          "scan": {
+            "actions": 261,
+            "negative": 250,
+            "positive": 11
+          },
+          "shared_measure": {
+            "actions": 16,
+            "positive": 14,
+            "negative": 2
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 4
+          }
+        },
+        "feedback_cost_predictions": 11,
+        "prediction_fields": [
+          "candidates",
+          "channel",
+          "current_optical",
+          "mean_weight",
+          "model",
+          "phase",
+          "risk_weight",
+          "selected",
+          "selected_q"
+        ],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 301,
+        "belief": 31,
+        "task_choice": 39,
+        "feedback_cost_prediction": 11,
+        "decision": 4,
+        "shared_prediction": 16,
+        "ordered_optical_prune": 7,
+        "optical_plan": 7
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5671.248357981554,
+      "average_s": 515.5680325437777,
+      "distance_m": 19606.241789907774,
+      "counts": {
+        "measure": 281,
+        "switch": 263,
+        "clear_success": 11,
+        "clear_fail": 9
+      },
+      "time_parts_s": {
+        "move": 3921.248357981555,
+        "measure": 1405,
+        "switch": 263,
+        "clear_success": 55,
+        "clear_fail": 27
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57200-cluster-hashed-feedback_cost.json"
+    },
+    {
+      "seed": 57300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 6.328529899998102,
+      "process_cpu_s": 6.234375,
+      "independent_audit_wall_s": 0.7889229000138585,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 321,
+        "polygons": 33,
+        "optical_plans": 7,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 5929.205741649268,
+        "counts": {
+          "measure": 310,
+          "switch": 295,
+          "clear_success": 10,
+          "clear_fail": 1
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 7,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 321,
+          "actual_optical_actions": 8,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 287,
+        "unknown_scan_measures": 287,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "optical_cover": {
+            "actions": 8
+          },
+          "scan": {
+            "actions": 287,
+            "positive": 10,
+            "negative": 277
+          },
+          "shared_measure": {
+            "actions": 21,
+            "positive": 20,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 2,
+            "positive": 2
+          }
+        },
+        "feedback_cost_predictions": 0,
+        "prediction_fields": [],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 321,
+        "belief": 33,
+        "task_choice": 36,
+        "decision": 2,
+        "shared_prediction": 21,
+        "ordered_optical_prune": 7,
+        "optical_plan": 7
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 5929.205741649268,
+      "average_s": 592.9205741649268,
+      "distance_m": 20156.028708246333,
+      "counts": {
+        "measure": 310,
+        "switch": 295,
+        "clear_success": 10,
+        "clear_fail": 1
+      },
+      "time_parts_s": {
+        "move": 4031.2057416492667,
+        "measure": 1550,
+        "switch": 295,
+        "clear_success": 50,
+        "clear_fail": 3
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57300-omni_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 57300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "feedback_cost",
+      "runtime_s": 32.60922589999973,
+      "process_cpu_s": 32.09375,
+      "independent_audit_wall_s": 0.7187910999928135,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 348,
+        "polygons": 33,
+        "optical_plans": 6,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 5951.1227115112115,
+        "counts": {
+          "measure": 310,
+          "switch": 294,
+          "clear_success": 10,
+          "clear_fail": 28
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 6,
+          "removed_planned": 11,
+          "skipped_before_success": 0,
+          "accepted_actions": 348,
+          "actual_optical_actions": 34,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 287,
+        "unknown_scan_measures": 287,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 34
+          },
+          "scan": {
+            "actions": 287,
+            "positive": 10,
+            "negative": 277
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 20,
+            "negative": 2
+          },
+          "source_measure": {
+            "actions": 1,
+            "positive": 1
+          }
+        },
+        "feedback_cost_predictions": 7,
+        "prediction_fields": [
+          "candidates",
+          "channel",
+          "current_optical",
+          "mean_weight",
+          "model",
+          "phase",
+          "risk_weight",
+          "selected",
+          "selected_q"
+        ],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 348,
+        "belief": 33,
+        "task_choice": 35,
+        "feedback_cost_prediction": 7,
+        "decision": 1,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 6,
+        "optical_plan": 6
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 5951.1227115112115,
+      "average_s": 595.1122711511211,
+      "distance_m": 19865.613557556062,
+      "counts": {
+        "measure": 310,
+        "switch": 294,
+        "clear_success": 10,
+        "clear_fail": 28
+      },
+      "time_parts_s": {
+        "move": 3973.1227115112124,
+        "measure": 1550,
+        "switch": 294,
+        "clear_success": 50,
+        "clear_fail": 84
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57300-omni_heavy-hashed-feedback_cost.json"
+    },
+    {
+      "seed": 57400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 11.159053100011079,
+      "process_cpu_s": 10.765625,
+      "independent_audit_wall_s": 0.6556294999900274,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 328,
+        "polygons": 48,
+        "optical_plans": 8,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6391.412479762936,
+        "counts": {
+          "measure": 308,
+          "switch": 292,
+          "clear_success": 13,
+          "clear_fail": 7
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 45,
+          "skipped_before_success": 0,
+          "accepted_actions": 328,
+          "actual_optical_actions": 15,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 273,
+        "unknown_scan_measures": 273,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 5
+          },
+          "optical_cover": {
+            "actions": 15
+          },
+          "scan": {
+            "actions": 273,
+            "positive": 13,
+            "negative": 260
+          },
+          "shared_measure": {
+            "actions": 26,
+            "negative": 7,
+            "positive": 19
+          },
+          "source_measure": {
+            "actions": 9,
+            "negative": 2,
+            "positive": 7
+          }
+        },
+        "feedback_cost_predictions": 0,
+        "prediction_fields": [],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 328,
+        "belief": 48,
+        "task_choice": 46,
+        "decision": 9,
+        "shared_prediction": 26,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6391.412479762936,
+      "average_s": 491.64711382791813,
+      "distance_m": 22367.06239881467,
+      "counts": {
+        "measure": 308,
+        "switch": 292,
+        "clear_success": 13,
+        "clear_fail": 7
+      },
+      "time_parts_s": {
+        "move": 4473.412479762934,
+        "measure": 1540,
+        "switch": 292,
+        "clear_success": 65,
+        "clear_fail": 21
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57400-dir_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 57400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "feedback_cost",
+      "runtime_s": 210.58630139997695,
+      "process_cpu_s": 208.546875,
+      "independent_audit_wall_s": 0.441429500002414,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 360,
+        "polygons": 45,
+        "optical_plans": 12,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6363.688267362413,
+        "counts": {
+          "measure": 315,
+          "switch": 297,
+          "clear_success": 13,
+          "clear_fail": 32
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 12,
+          "removed_planned": 53,
+          "skipped_before_success": 0,
+          "accepted_actions": 360,
+          "actual_optical_actions": 44,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 283,
+        "unknown_scan_measures": 283,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 1
+          },
+          "optical_cover": {
+            "actions": 44
+          },
+          "scan": {
+            "actions": 283,
+            "positive": 13,
+            "negative": 270
+          },
+          "shared_measure": {
+            "actions": 25,
+            "positive": 14,
+            "negative": 11
+          },
+          "source_measure": {
+            "actions": 7,
+            "positive": 6,
+            "negative": 1
+          }
+        },
+        "feedback_cost_predictions": 19,
+        "prediction_fields": [
+          "candidates",
+          "channel",
+          "current_optical",
+          "mean_weight",
+          "model",
+          "phase",
+          "risk_weight",
+          "selected",
+          "selected_q"
+        ],
+        "decision_evidence_scope": "Full original/new action scores, support and risk terms remain in the complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 360,
+        "belief": 45,
+        "task_choice": 44,
+        "feedback_cost_prediction": 19,
+        "decision": 7,
+        "shared_prediction": 25,
+        "ordered_optical_prune": 12,
+        "optical_plan": 12
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6363.688267362413,
+      "average_s": 489.514482104801,
+      "distance_m": 21653.44133681209,
+      "counts": {
+        "measure": 315,
+        "switch": 297,
+        "clear_success": 13,
+        "clear_fail": 32
+      },
+      "time_parts_s": {
+        "move": 4330.688267362419,
+        "measure": 1575,
+        "switch": 297,
+        "clear_success": 65,
+        "clear_fail": 96
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57400-dir_heavy-hashed-feedback_cost.json"
+    }
+  ],
+  "pairs": [
+    {
+      "seed": 57000,
+      "population": "uniform",
+      "field": "hashed",
+      "scene_sha256": "51c810171be0a2988bb540002758d2f7249b1d2d81d9a2659517087da1073db7",
+      "baseline_s": 6448.931646432973,
+      "candidate_s": 6464.87317416792,
+      "saved_s": -15.941527734947158,
+      "reduction_percent": -0.24719641343639795,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 311
+      }
+    },
+    {
+      "seed": 57100,
+      "population": "boundary",
+      "field": "hashed",
+      "scene_sha256": "0acf9170e0da7c85d5f497ea2e1102edfcf6ad28b2cae55fc15d7474c2cca7f7",
+      "baseline_s": 7773.619670701199,
+      "candidate_s": 7608.274927395924,
+      "saved_s": 165.34474330527428,
+      "reduction_percent": 2.1269981078243285,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 16,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 322
+      }
+    },
+    {
+      "seed": 57200,
+      "population": "cluster",
+      "field": "hashed",
+      "scene_sha256": "99c10573074005a0f63b03b12ea96d75174c4ab3669e019b96106d28fdcd79b1",
+      "baseline_s": 5736.553495124761,
+      "candidate_s": 5671.248357981554,
+      "saved_s": 65.3051371432066,
+      "reduction_percent": 1.1384036982956143,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 11,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 249
+      }
+    },
+    {
+      "seed": 57300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "scene_sha256": "240aba3fa4134c7cf2e8425f5aa81648d1560bcee0340fcab32d28598686b12a",
+      "baseline_s": 5929.205741649268,
+      "candidate_s": 5951.1227115112115,
+      "saved_s": -21.91696986194347,
+      "reduction_percent": -0.3696442798061355,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 10,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 296
+      }
+    },
+    {
+      "seed": 57400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "scene_sha256": "cbed8a3a767e7db0f81c9864dbb3f3f4a232975f551a7aee2ea1b6c345988f92",
+      "baseline_s": 6391.412479762936,
+      "candidate_s": 6363.688267362413,
+      "saved_s": 27.724212400522447,
+      "reduction_percent": 0.43377285519132647,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 232
+      }
+    }
+  ],
+  "overall": {
+    "groups": {
+      "baseline_share25_prune": {
+        "runs": 5,
+        "all_cleared": 5,
+        "passes": 5,
+        "source_condition_instances": 63,
+        "cleared": 63,
+        "mean_total_s": 6455.944606734227,
+        "maximum_total_s": 7773.619670701199,
+        "p90_total_s": 7243.744460993908,
+        "pooled_per_source_s": 512.3765560900181,
+        "mean_solver_wall_s": 7.019645160000072,
+        "maximum_solver_wall_s": 11.159053100011079,
+        "mean_process_cpu_s": 6.76875
+      },
+      "feedback_cost": {
+        "runs": 5,
+        "all_cleared": 5,
+        "passes": 5,
+        "source_condition_instances": 63,
+        "cleared": 63,
+        "mean_total_s": 6411.841487683805,
+        "maximum_total_s": 7608.274927395924,
+        "p90_total_s": 7150.914226104723,
+        "pooled_per_source_s": 508.8763085463337,
+        "mean_solver_wall_s": 122.77498609998729,
+        "maximum_solver_wall_s": 254.5930705999781,
+        "mean_process_cpu_s": 121.215625
+      }
+    },
+    "mean_reduction_percent": 0.6831396757093863,
+    "faster": 3,
+    "slower": 2,
+    "ties": 0,
+    "worst_pair": {
+      "seed": 57300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "scene_sha256": "240aba3fa4134c7cf2e8425f5aa81648d1560bcee0340fcab32d28598686b12a",
+      "baseline_s": 5929.205741649268,
+      "candidate_s": 5951.1227115112115,
+      "saved_s": -21.91696986194347,
+      "reduction_percent": -0.3696442798061355,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 10,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 296
+      }
+    }
+  },
+  "by_field": {
+    "hashed": {
+      "groups": {
+        "baseline_share25_prune": {
+          "runs": 5,
+          "all_cleared": 5,
+          "passes": 5,
+          "source_condition_instances": 63,
+          "cleared": 63,
+          "mean_total_s": 6455.944606734227,
+          "maximum_total_s": 7773.619670701199,
+          "p90_total_s": 7243.744460993908,
+          "pooled_per_source_s": 512.3765560900181,
+          "mean_solver_wall_s": 7.019645160000072,
+          "maximum_solver_wall_s": 11.159053100011079,
+          "mean_process_cpu_s": 6.76875
+        },
+        "feedback_cost": {
+          "runs": 5,
+          "all_cleared": 5,
+          "passes": 5,
+          "source_condition_instances": 63,
+          "cleared": 63,
+          "mean_total_s": 6411.841487683805,
+          "maximum_total_s": 7608.274927395924,
+          "p90_total_s": 7150.914226104723,
+          "pooled_per_source_s": 508.8763085463337,
+          "mean_solver_wall_s": 122.77498609998729,
+          "maximum_solver_wall_s": 254.5930705999781,
+          "mean_process_cpu_s": 121.215625
+        }
+      },
+      "mean_reduction_percent": 0.6831396757093863,
+      "faster": 3,
+      "slower": 2,
+      "ties": 0,
+      "worst_pair": {
+        "seed": 57300,
+        "population": "omni_heavy",
+        "field": "hashed",
+        "scene_sha256": "240aba3fa4134c7cf2e8425f5aa81648d1560bcee0340fcab32d28598686b12a",
+        "baseline_s": 5929.205741649268,
+        "candidate_s": 5951.1227115112115,
+        "saved_s": -21.91696986194347,
+        "reduction_percent": -0.3696442798061355,
+        "baseline_passed": true,
+        "candidate_passed": true,
+        "all_cleared": true,
+        "source_count": 10,
+        "same_source_layout": true,
+        "shared_point_feedback": {
+          "passed": true,
+          "shared_measurement_keys": 296
+        }
+      }
+    }
+  },
+  "independent_layouts": 5,
+  "paired_conditions": 5,
+  "official_contacted": false,
+  "performance_comparison_valid": true,
+  "warning": "Repeated fields share each layout. Failures remain recorded and invalidate performance claims. Saved source snapshots belong to this feedback-cost experiment only."
+}

@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "source_files": [
+    {
+      "path": "src/q4_model/05_候选share25/code/feedback_cost_experiment.py",
+      "sha256": "acc8157340bfb1e6cda947e202ed751996b023f6a62108053b59bffb9a768af3"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/receive_guarantee_v1.py",
+      "sha256": "5a23f2fc982d914ae4a9455b36e818ccb6ab10e3615442f4e9e92fb74de2aa41"
+    },
+    {
+      "path": "src/q4_model/ordered_optical_prune.py",
+      "sha256": "2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/test_feedback_cost_v1.py",
+      "sha256": "2b0264287d809625d07b29ac9e7cbd2d660d109ba8620fb9aaec5c980d25d1f0"
+    }
+  ],
+  "input_files": [
+    {
+      "path": "src/q4_model/05_候选share25/results/station_joint_view_dev54000_v1/54100-boundary-hashed-baseline_share25_prune.json",
+      "sha256": "de10f44681b712146bc636d737833d16f90ca7aa71cd08e38a989b5b7eff78bd"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/results/station_joint_view_dev54000_v1/54100-boundary-hashed-station_joint_view.json",
+      "sha256": "81f58ee39e43d0fa42403dba3bc757e1501281b227b48da759299c108199708e"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55101-boundary-hashed-station_joint_view.json",
+      "sha256": "40c3914aa545c3c353ebe1139c579cccdcf1c3e1a7d7bf5259f53a50bd98df43"
+    }
+  ],
+  "ast_structure": {
+    "passed": true,
+    "service_changes": 3,
+    "entire_solver_ast_equal_after_only_three_normalizations": true,
+    "ten_point_pool_construction_ast_identical": true
+  },
+  "branch_scoring": [
+    {
+      "name": "sample_mass_one_unproved",
+      "passed": true,
+      "state_unchanged": true,
+      "score": 117.30511691818705,
+      "expected_tail_s": 108.50338383326519,
+      "risk_tail_s": 121.51204925787442,
+      "signal_mass": 1.0,
+      "negative_in_risk": true,
+      "negative_work_mass": 0.0
+    },
+    {
+      "name": "exact_receipt_certificate",
+      "passed": true,
+      "state_unchanged": true,
+      "score": 117.30522303991587,
+      "expected_tail_s": 108.50340837763397,
+      "risk_tail_s": 121.51248168904337,
+      "signal_mass": 1.0,
+      "negative_in_risk": false,
+      "negative_work_mass": 0.0
+    },
+    {
+      "name": "mixed_half_signal",
+      "passed": true,
+      "state_unchanged": true,
+      "score": 354.80984202186966,
+      "expected_tail_s": 220.44260461494787,
+      "risk_tail_s": 262.27795831680226,
+      "signal_mass": 0.5,
+      "negative_in_risk": true,
+      "negative_work_mass": 0.5
+    }
+  ],
+  "saved_optical_prefixes": [
+    {
+      "input": "src/q4_model/05_候选share25/results/station_joint_view_dev54000_v1/54100-boundary-hashed-baseline_share25_prune.json",
+      "channel": 14,
+      "passed": true,
+      "forecast_matches_actual_prune": true,
+      "full_kept_path_s": 360.89390047143,
+      "actual_success_prefix_s": 205.7709324649613,
+      "mean_s": 160.7714271502016,
+      "full_points": 38,
+      "actual_points": 20,
+      "empty_quadrature_falls_back_to_worst": true
+    },
+    {
+      "input": "src/q4_model/05_候选share25/results/station_joint_view_dev54000_v1/54100-boundary-hashed-station_joint_view.json",
+      "channel": 14,
+      "passed": true,
+      "forecast_matches_actual_prune": true,
+      "full_kept_path_s": 582.2835714187162,
+      "actual_success_prefix_s": 323.7452914079347,
+      "mean_s": 282.493891129351,
+      "full_points": 62,
+      "actual_points": 32,
+      "empty_quadrature_falls_back_to_worst": true
+    },
+    {
+      "input": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55101-boundary-hashed-station_joint_view.json",
+      "channel": 11,
+      "passed": true,
+      "forecast_matches_actual_prune": true,
+      "full_kept_path_s": 542.9305746040411,
+      "actual_success_prefix_s": 299.5655513763358,
+      "mean_s": 182.81458477293782,
+      "full_points": 54,
+      "actual_points": 31,
+      "empty_quadrature_falls_back_to_worst": true
+    }
+  ],
+  "network_guard": {
+    "attempts": 0,
+    "blocked_calls": [
+      "connect",
+      "connect_ex",
+      "create_connection"
+    ]
+  },
+  "no_full_game_run": true,
+  "elapsed_wall_s": 0.9881074999866541,
+  "limits": [
+    "Finite positive quadrature remains a work model, not a continuous worst-case guarantee.",
+    "Mean position integration differs from an official posterior and ignores some nonconvex exclusions.",
+    "Local checks do not establish overall runtime improvement."
+  ]
+}

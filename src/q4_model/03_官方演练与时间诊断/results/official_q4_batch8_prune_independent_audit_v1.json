@@ -1,0 +1,2382 @@
+{
+  "passed": true,
+  "archive_filename": "测试结果(8).zip",
+  "archive_sha256": "55de302ddb1e195ae3cccb1b7efcb9e600be2174b7cd17e20aa7dd4e6ee57749",
+  "cases": [
+    {
+      "case": "q4_share25_prune_client-practice-01",
+      "input_log_sha256": "1f44e8b7a7d1ab74b9b497f538dd012b08425d8998e0250cec5adc05ddae12eb",
+      "input_trace_sha256": "0308726e3c4a74c5c68fd75cf6dc18944d3746b579945e3ba8a13a81eba64ffb",
+      "input_member": "测试结果/q4_share25_prune_client-practice-01.jsonl",
+      "trace_member": "测试结果/q4_share25_prune_client-practice-01.jsonl.beliefs.json",
+      "passed": true,
+      "total_sources_from_user": 15,
+      "omni_from_user": 2,
+      "directional_from_user": 13,
+      "source_total_basis": "User-provided official end-screen count, independently cross-checked against unique successful clear feedback; never inferred from time.",
+      "cleared": 15,
+      "cleared_channels": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "clear_fraction": 1.0,
+      "variant": "share25_prune",
+      "base_variant": "share25",
+      "source_files_checked": 15,
+      "hashes_match_release_and_current": true,
+      "source_hash_matches": {
+        "q4_model/shared.py": true,
+        "q4_model/directional_cover.py": true,
+        "q4_model/polar_cover.py": true,
+        "q4_model/localization.py": true,
+        "q4_model/solver.py": true,
+        "q4_model/route_planning.py": true,
+        "q4_model/guarded_policy.py": true,
+        "q4_model/negative_region.py": true,
+        "q4_model/ordered_optical_prune.py": true,
+        "q4_model/negative_region_proof.py": true,
+        "q4_model/prune_proof.py": true,
+        "q4_model/q4_official_client.py": true,
+        "q4_model/q4_share25_prune_client.py": true,
+        "q3_model_v2/geometry.py": true,
+        "q3_model_v2/official_client.py": true
+      },
+      "unique_accepted_requests": 315,
+      "actual_actions": 313,
+      "client_errors": 0,
+      "rejected_requests": 0,
+      "total_virtual_s": 6175.999694,
+      "per_source_virtual_s": 411.73331293333337,
+      "independently_reconstructed_virtual_s": 6175.999696808255,
+      "max_cumulative_rounding_error_s": 4.526456905296072e-06,
+      "max_per_action_rounding_error_s": 4.963231106103194e-07,
+      "action_counts": {
+        "measure": 277,
+        "switch": 268,
+        "no_signal": 234,
+        "direction": 43,
+        "clear_fail": 21,
+        "clear_success": 15
+      },
+      "costs_s": {
+        "move": 4384.999696808256,
+        "measure": 1385,
+        "switch": 268,
+        "clear_success": 75,
+        "clear_fail": 63
+      },
+      "by_reason": {
+        "certified_clear": {
+          "actions": 3,
+          "move_s": 234.97893364377424,
+          "fee_s": 15,
+          "total_s": 249.97893364377424
+        },
+        "optical_cover": {
+          "actions": 33,
+          "move_s": 933.0677575698583,
+          "fee_s": 123,
+          "total_s": 1056.0677575698583
+        },
+        "scan": {
+          "actions": 242,
+          "move_s": 2806.600285903525,
+          "fee_s": 1445,
+          "total_s": 4251.600285903525
+        },
+        "shared_measure": {
+          "actions": 30,
+          "move_s": 0.0,
+          "fee_s": 179,
+          "total_s": 179.0
+        },
+        "source_measure": {
+          "actions": 5,
+          "move_s": 410.3527196910981,
+          "fee_s": 29,
+          "total_s": 439.3527196910981
+        }
+      },
+      "final_absence_tail_s": 0.0,
+      "final_absence_tail_actions": 0,
+      "measurements_on_eventually_absent_channels": 125,
+      "proof_audit": {
+        "passed": true,
+        "plans": 12,
+        "removed_planned": 76,
+        "skipped_before_success": 0,
+        "accepted_actions": 313,
+        "actual_optical_actions": 33,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      },
+      "exact_completion_audit": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 5,
+        "cells_per_channel": 576,
+        "verified_cells": 2880,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      },
+      "optical_plan_details": [
+        {
+          "trace_index": 30,
+          "preceding_actual_event": 22,
+          "channel": 15,
+          "original_plan_points": 7,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 5,
+          "successful_original_index": 4,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 88.09324890513923,
+            "failed_clear_s": 12,
+            "successful_clear_s": 5,
+            "total_s": 105.09324890513923
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 88.09324890513923,
+            "failed_clear_s": 12,
+            "successful_clear_s": 5,
+            "total_s": 105.09324890513923
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 149,
+          "preceding_actual_event": 110,
+          "channel": 12,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 48.80227983774095,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 56.80227983774095
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 48.80227983774095,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 56.80227983774095
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 185,
+          "preceding_actual_event": 129,
+          "channel": 11,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 15.922483599409508,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 23.92248359940951
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 15.922483599409508,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 23.92248359940951
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 272,
+          "preceding_actual_event": 192,
+          "channel": 20,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 50.99843031615375,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 58.99843031615375
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 50.99843031615375,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 58.99843031615375
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 289,
+          "preceding_actual_event": 203,
+          "channel": 6,
+          "original_plan_points": 6,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 3,
+          "successful_original_index": 2,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 56.47809489341995,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 67.47809489341995
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 56.47809489341995,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 67.47809489341995
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 304,
+          "preceding_actual_event": 214,
+          "channel": 5,
+          "original_plan_points": 5,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 3,
+          "successful_original_index": 2,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 78.66929122572559,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 89.66929122572559
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 78.66929122572559,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 89.66929122572559
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 324,
+          "preceding_actual_event": 226,
+          "channel": 10,
+          "original_plan_points": 102,
+          "planned_removed": 76,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 76,
+          "contraction_applied": true,
+          "actual_clear_calls": 10,
+          "successful_original_index": 9,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 76,
+          "actual_block_cost_s": {
+            "move_s": 113.45761719316135,
+            "failed_clear_s": 27,
+            "successful_clear_s": 5,
+            "total_s": 145.45761719316135
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 113.45761719316135,
+            "failed_clear_s": 27,
+            "successful_clear_s": 5,
+            "total_s": 145.45761719316135
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 356,
+          "preceding_actual_event": 251,
+          "channel": 18,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 43.002295883731804,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 48.002295883731804
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 43.002295883731804,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 48.002295883731804
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 380,
+          "preceding_actual_event": 267,
+          "channel": 8,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 51.15072968244718,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 59.15072968244718
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 51.15072968244718,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 59.15072968244718
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 409,
+          "preceding_actual_event": 281,
+          "channel": 7,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 126.86813242804317,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 131.86813242804317
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 126.86813242804317,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 131.86813242804317
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 432,
+          "preceding_actual_event": 296,
+          "channel": 3,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 106.14118598919137,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 111.14118598919137
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 106.14118598919137,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 111.14118598919137
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 436,
+          "preceding_actual_event": 297,
+          "channel": 19,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 153.48396761569438,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 158.48396761569438
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 153.48396761569438,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 158.48396761569438
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        }
+      ],
+      "proved_avoided_cost_s": 0.0,
+      "avoided_cost_interpretation": "Geometric proof and actual successful prefix restore only the original ordered optical points that were guaranteed to fail. This is conditional cost accounting, not a newly observed official share25 score.",
+      "official_program_runtime_s": null,
+      "observed_server_enter_to_exit_s": 9.056,
+      "client_local_session_wall_s": 9.187626900000396,
+      "client_solver_wall_s": 8.69772759999978,
+      "client_pruning_proof_wall_s": 0.1406569999999192,
+      "hidden_truth_positions_available": false,
+      "hidden_truth_containment_independently_checked": false
+    },
+    {
+      "case": "q4_share25_prune_client-practice-02",
+      "input_log_sha256": "34497cdebf9cdb6d2eb0bb836acb0b8acbf1029866c4696038c2344f96848851",
+      "input_trace_sha256": "494bb7e115daf7f7062b420112018601f38fbfa709c5bf15eb7e0b1fa966ff9b",
+      "input_member": "测试结果/q4_share25_prune_client-practice-02.jsonl",
+      "trace_member": "测试结果/q4_share25_prune_client-practice-02.jsonl.beliefs.json",
+      "passed": true,
+      "total_sources_from_user": 12,
+      "omni_from_user": 11,
+      "directional_from_user": 1,
+      "source_total_basis": "User-provided official end-screen count, independently cross-checked against unique successful clear feedback; never inferred from time.",
+      "cleared": 12,
+      "cleared_channels": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "clear_fraction": 1.0,
+      "variant": "share25_prune",
+      "base_variant": "share25",
+      "source_files_checked": 15,
+      "hashes_match_release_and_current": true,
+      "source_hash_matches": {
+        "q4_model/shared.py": true,
+        "q4_model/directional_cover.py": true,
+        "q4_model/polar_cover.py": true,
+        "q4_model/localization.py": true,
+        "q4_model/solver.py": true,
+        "q4_model/route_planning.py": true,
+        "q4_model/guarded_policy.py": true,
+        "q4_model/negative_region.py": true,
+        "q4_model/ordered_optical_prune.py": true,
+        "q4_model/negative_region_proof.py": true,
+        "q4_model/prune_proof.py": true,
+        "q4_model/q4_official_client.py": true,
+        "q4_model/q4_share25_prune_client.py": true,
+        "q3_model_v2/geometry.py": true,
+        "q3_model_v2/official_client.py": true
+      },
+      "unique_accepted_requests": 317,
+      "actual_actions": 315,
+      "client_errors": 0,
+      "rejected_requests": 0,
+      "total_virtual_s": 6149.839581,
+      "per_source_virtual_s": 512.48663175,
+      "independently_reconstructed_virtual_s": 6149.839584085597,
+      "max_cumulative_rounding_error_s": 3.80583787773503e-06,
+      "max_per_action_rounding_error_s": 4.985721773209661e-07,
+      "action_counts": {
+        "measure": 295,
+        "switch": 278,
+        "no_signal": 260,
+        "direction": 35,
+        "clear_success": 12,
+        "clear_fail": 8
+      },
+      "costs_s": {
+        "move": 4312.839584085598,
+        "measure": 1475,
+        "switch": 278,
+        "clear_success": 60,
+        "clear_fail": 24
+      },
+      "by_reason": {
+        "certified_clear": {
+          "actions": 2,
+          "move_s": 213.35229915196552,
+          "fee_s": 10,
+          "total_s": 223.35229915196552
+        },
+        "optical_cover": {
+          "actions": 18,
+          "move_s": 844.1409640897045,
+          "fee_s": 74,
+          "total_s": 918.1409640897045
+        },
+        "scan": {
+          "actions": 271,
+          "move_s": 3008.541166433361,
+          "fee_s": 1610,
+          "total_s": 4618.5411664333615
+        },
+        "shared_measure": {
+          "actions": 22,
+          "move_s": 0.0,
+          "fee_s": 131,
+          "total_s": 131.0
+        },
+        "source_measure": {
+          "actions": 2,
+          "move_s": 246.80515441056687,
+          "fee_s": 12,
+          "total_s": 258.80515441056684
+        }
+      },
+      "final_absence_tail_s": 463.99022700000023,
+      "final_absence_tail_actions": 24,
+      "measurements_on_eventually_absent_channels": 200,
+      "proof_audit": {
+        "passed": true,
+        "plans": 10,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 315,
+        "actual_optical_actions": 18,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      },
+      "exact_completion_audit": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 8,
+        "cells_per_channel": 576,
+        "verified_cells": 4608,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      },
+      "optical_plan_details": [
+        {
+          "trace_index": 108,
+          "preceding_actual_event": 77,
+          "channel": 15,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 53.29454385234086,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 58.29454385234086
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 53.29454385234086,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 58.29454385234086
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 158,
+          "preceding_actual_event": 109,
+          "channel": 20,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 59.4166451237376,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 67.4166451237376
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 59.4166451237376,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 67.4166451237376
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 198,
+          "preceding_actual_event": 129,
+          "channel": 6,
+          "original_plan_points": 5,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 4,
+          "successful_original_index": 3,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 50.24271968768155,
+            "failed_clear_s": 9,
+            "successful_clear_s": 5,
+            "total_s": 64.24271968768156
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 50.24271968768155,
+            "failed_clear_s": 9,
+            "successful_clear_s": 5,
+            "total_s": 64.24271968768156
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 216,
+          "preceding_actual_event": 143,
+          "channel": 2,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 75.73903942203583,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 80.73903942203583
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 75.73903942203583,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 80.73903942203583
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 220,
+          "preceding_actual_event": 144,
+          "channel": 4,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 92.9557592856073,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 100.9557592856073
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 92.9557592856073,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 100.9557592856073
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 236,
+          "preceding_actual_event": 156,
+          "channel": 16,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 91.61705684234423,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 96.61705684234423
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 91.61705684234423,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 96.61705684234423
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 251,
+          "preceding_actual_event": 167,
+          "channel": 1,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 104.30655206768567,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 112.30655206768567
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 104.30655206768567,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 112.30655206768567
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 303,
+          "preceding_actual_event": 210,
+          "channel": 10,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 129.87220950503325,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 137.87220950503325
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 129.87220950503325,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 137.87220950503325
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 386,
+          "preceding_actual_event": 279,
+          "channel": 13,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 98.92085907219482,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 103.92085907219482
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 98.92085907219482,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 103.92085907219482
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 402,
+          "preceding_actual_event": 289,
+          "channel": 19,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 87.77557923104337,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 95.77557923104337
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 87.77557923104337,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 95.77557923104337
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        }
+      ],
+      "proved_avoided_cost_s": 0.0,
+      "avoided_cost_interpretation": "Geometric proof and actual successful prefix restore only the original ordered optical points that were guaranteed to fail. This is conditional cost accounting, not a newly observed official share25 score.",
+      "official_program_runtime_s": null,
+      "observed_server_enter_to_exit_s": 7.14,
+      "client_local_session_wall_s": 7.23898779999945,
+      "client_solver_wall_s": 6.857242899999619,
+      "client_pruning_proof_wall_s": 0.020279599999412312,
+      "hidden_truth_positions_available": false,
+      "hidden_truth_containment_independently_checked": false
+    },
+    {
+      "case": "q4_share25_prune_client-practice-03",
+      "input_log_sha256": "639400e6f057f9805e4b55f9271c3dd4319b8c9a47501d7ba51577b22f041d11",
+      "input_trace_sha256": "cc274fe4b629fab9d83771266750c64935b0eb8dc569786b0b651b3a54f88594",
+      "input_member": "测试结果/q4_share25_prune_client-practice-03.jsonl",
+      "trace_member": "测试结果/q4_share25_prune_client-practice-03.jsonl.beliefs.json",
+      "passed": true,
+      "total_sources_from_user": 16,
+      "omni_from_user": 11,
+      "directional_from_user": 5,
+      "source_total_basis": "User-provided official end-screen count, independently cross-checked against unique successful clear feedback; never inferred from time.",
+      "cleared": 16,
+      "cleared_channels": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "clear_fraction": 1.0,
+      "variant": "share25_prune",
+      "base_variant": "share25",
+      "source_files_checked": 15,
+      "hashes_match_release_and_current": true,
+      "source_hash_matches": {
+        "q4_model/shared.py": true,
+        "q4_model/directional_cover.py": true,
+        "q4_model/polar_cover.py": true,
+        "q4_model/localization.py": true,
+        "q4_model/solver.py": true,
+        "q4_model/route_planning.py": true,
+        "q4_model/guarded_policy.py": true,
+        "q4_model/negative_region.py": true,
+        "q4_model/ordered_optical_prune.py": true,
+        "q4_model/negative_region_proof.py": true,
+        "q4_model/prune_proof.py": true,
+        "q4_model/q4_official_client.py": true,
+        "q4_model/q4_share25_prune_client.py": true,
+        "q3_model_v2/geometry.py": true,
+        "q3_model_v2/official_client.py": true
+      },
+      "unique_accepted_requests": 247,
+      "actual_actions": 245,
+      "client_errors": 0,
+      "rejected_requests": 0,
+      "total_virtual_s": 5496.590142,
+      "per_source_virtual_s": 343.536883875,
+      "independently_reconstructed_virtual_s": 5496.5901466182895,
+      "max_cumulative_rounding_error_s": 4.731556145998184e-06,
+      "max_per_action_rounding_error_s": 4.6856064273015363e-07,
+      "action_counts": {
+        "measure": 215,
+        "switch": 205,
+        "no_signal": 169,
+        "direction": 46,
+        "clear_fail": 14,
+        "clear_success": 16
+      },
+      "costs_s": {
+        "move": 4094.590146618289,
+        "measure": 1075,
+        "switch": 205,
+        "clear_success": 80,
+        "clear_fail": 42
+      },
+      "by_reason": {
+        "certified_clear": {
+          "actions": 4,
+          "move_s": 418.3302261562687,
+          "fee_s": 20,
+          "total_s": 438.3302261562687
+        },
+        "optical_cover": {
+          "actions": 26,
+          "move_s": 704.934824882651,
+          "fee_s": 102,
+          "total_s": 806.934824882651
+        },
+        "scan": {
+          "actions": 176,
+          "move_s": 2385.9621270487196,
+          "fee_s": 1049,
+          "total_s": 3434.9621270487196
+        },
+        "shared_measure": {
+          "actions": 32,
+          "move_s": 0.0,
+          "fee_s": 190,
+          "total_s": 190.0
+        },
+        "source_measure": {
+          "actions": 7,
+          "move_s": 585.3629685306496,
+          "fee_s": 41,
+          "total_s": 626.3629685306496
+        }
+      },
+      "final_absence_tail_s": 0.0,
+      "final_absence_tail_actions": 0,
+      "measurements_on_eventually_absent_channels": 72,
+      "proof_audit": {
+        "passed": true,
+        "plans": 12,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 245,
+        "actual_optical_actions": 26,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      },
+      "exact_completion_audit": {
+        "passed": true,
+        "basis": "count_upper_bound",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 0
+      },
+      "optical_plan_details": [
+        {
+          "trace_index": 55,
+          "preceding_actual_event": 39,
+          "channel": 3,
+          "original_plan_points": 6,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 5,
+          "successful_original_index": 4,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 27.447166860968988,
+            "failed_clear_s": 12,
+            "successful_clear_s": 5,
+            "total_s": 44.44716686096899
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 27.447166860968988,
+            "failed_clear_s": 12,
+            "successful_clear_s": 5,
+            "total_s": 44.44716686096899
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 63,
+          "preceding_actual_event": 44,
+          "channel": 6,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 73.7369723316323,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 78.7369723316323
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 73.7369723316323,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 78.7369723316323
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 162,
+          "preceding_actual_event": 107,
+          "channel": 20,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 52.46446728485199,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 60.46446728485199
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 52.46446728485199,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 60.46446728485199
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 199,
+          "preceding_actual_event": 130,
+          "channel": 11,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 3,
+          "successful_original_index": 2,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 50.10263379251574,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 61.10263379251574
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 50.10263379251574,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 61.10263379251574
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 301,
+          "preceding_actual_event": 199,
+          "channel": 17,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 27.29592067757934,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 32.29592067757934
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 27.29592067757934,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 32.29592067757934
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 315,
+          "preceding_actual_event": 203,
+          "channel": 1,
+          "original_plan_points": 5,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 4,
+          "successful_original_index": 3,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 25.419309413739434,
+            "failed_clear_s": 9,
+            "successful_clear_s": 5,
+            "total_s": 39.419309413739434
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 25.419309413739434,
+            "failed_clear_s": 9,
+            "successful_clear_s": 5,
+            "total_s": 39.419309413739434
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 351,
+          "preceding_actual_event": 223,
+          "channel": 10,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 32.72577797291692,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 40.72577797291692
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 32.72577797291692,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 40.72577797291692
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 362,
+          "preceding_actual_event": 230,
+          "channel": 19,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 3,
+          "successful_original_index": 2,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 55.67138489917994,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 66.67138489917994
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 55.67138489917994,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 66.67138489917994
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 368,
+          "preceding_actual_event": 233,
+          "channel": 16,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 31.739220937324223,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 36.73922093732422
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 31.739220937324223,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 36.73922093732422
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 384,
+          "preceding_actual_event": 238,
+          "channel": 18,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 115.9904383930055,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 123.9904383930055
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 115.9904383930055,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 123.9904383930055
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 392,
+          "preceding_actual_event": 241,
+          "channel": 13,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 124.73121837680097,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 129.73121837680097
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 124.73121837680097,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 129.73121837680097
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 401,
+          "preceding_actual_event": 244,
+          "channel": 7,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 87.61031394213572,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 92.61031394213572
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 87.61031394213572,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 92.61031394213572
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        }
+      ],
+      "proved_avoided_cost_s": 0.0,
+      "avoided_cost_interpretation": "Geometric proof and actual successful prefix restore only the original ordered optical points that were guaranteed to fail. This is conditional cost accounting, not a newly observed official share25 score.",
+      "official_program_runtime_s": null,
+      "observed_server_enter_to_exit_s": 8.671,
+      "client_local_session_wall_s": 8.74617699999908,
+      "client_solver_wall_s": 8.624036199998955,
+      "client_pruning_proof_wall_s": 0.029483299998901202,
+      "hidden_truth_positions_available": false,
+      "hidden_truth_containment_independently_checked": false
+    },
+    {
+      "case": "q4_share25_prune_client-practice-04",
+      "input_log_sha256": "baac324aa0f5b8b022ac75e52afe7801f01f9dfb856097133063140b3ba0201c",
+      "input_trace_sha256": "6272ee0191c4d1559d81e01745eb93639f32ec7de9a4298ad0cba1ef2deb3d7d",
+      "input_member": "测试结果/q4_share25_prune_client-practice-04.jsonl",
+      "trace_member": "测试结果/q4_share25_prune_client-practice-04.jsonl.beliefs.json",
+      "passed": true,
+      "total_sources_from_user": 14,
+      "omni_from_user": 1,
+      "directional_from_user": 13,
+      "source_total_basis": "User-provided official end-screen count, independently cross-checked against unique successful clear feedback; never inferred from time.",
+      "cleared": 14,
+      "cleared_channels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        18,
+        19
+      ],
+      "clear_fraction": 1.0,
+      "variant": "share25_prune",
+      "base_variant": "share25",
+      "source_files_checked": 15,
+      "hashes_match_release_and_current": true,
+      "source_hash_matches": {
+        "q4_model/shared.py": true,
+        "q4_model/directional_cover.py": true,
+        "q4_model/polar_cover.py": true,
+        "q4_model/localization.py": true,
+        "q4_model/solver.py": true,
+        "q4_model/route_planning.py": true,
+        "q4_model/guarded_policy.py": true,
+        "q4_model/negative_region.py": true,
+        "q4_model/ordered_optical_prune.py": true,
+        "q4_model/negative_region_proof.py": true,
+        "q4_model/prune_proof.py": true,
+        "q4_model/q4_official_client.py": true,
+        "q4_model/q4_share25_prune_client.py": true,
+        "q3_model_v2/geometry.py": true,
+        "q3_model_v2/official_client.py": true
+      },
+      "unique_accepted_requests": 342,
+      "actual_actions": 340,
+      "client_errors": 0,
+      "rejected_requests": 0,
+      "total_virtual_s": 6436.342433,
+      "per_source_virtual_s": 459.7387452142857,
+      "independently_reconstructed_virtual_s": 6436.342441950303,
+      "max_cumulative_rounding_error_s": 1.0722582374000922e-05,
+      "max_per_action_rounding_error_s": 4.962934667673835e-07,
+      "action_counts": {
+        "measure": 290,
+        "switch": 273,
+        "no_signal": 251,
+        "direction": 39,
+        "clear_fail": 36,
+        "clear_success": 14
+      },
+      "costs_s": {
+        "move": 4535.342441950303,
+        "measure": 1450,
+        "switch": 273,
+        "clear_success": 70,
+        "clear_fail": 108
+      },
+      "by_reason": {
+        "certified_clear": {
+          "actions": 6,
+          "move_s": 284.0050815151429,
+          "fee_s": 30,
+          "total_s": 314.0050815151429
+        },
+        "optical_cover": {
+          "actions": 44,
+          "move_s": 646.5462382108682,
+          "fee_s": 148,
+          "total_s": 794.5462382108682
+        },
+        "scan": {
+          "actions": 249,
+          "move_s": 3013.94845525088,
+          "fee_s": 1483,
+          "total_s": 4496.94845525088
+        },
+        "shared_measure": {
+          "actions": 31,
+          "move_s": 0.0,
+          "fee_s": 183,
+          "total_s": 183.0
+        },
+        "source_measure": {
+          "actions": 10,
+          "move_s": 590.8426669734113,
+          "fee_s": 57,
+          "total_s": 647.8426669734113
+        }
+      },
+      "final_absence_tail_s": 100.51285899999948,
+      "final_absence_tail_actions": 6,
+      "measurements_on_eventually_absent_channels": 150,
+      "proof_audit": {
+        "passed": true,
+        "plans": 8,
+        "removed_planned": 120,
+        "skipped_before_success": 44,
+        "accepted_actions": 340,
+        "actual_optical_actions": 44,
+        "contractions_applied": 3,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      },
+      "exact_completion_audit": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 6,
+        "cells_per_channel": 576,
+        "verified_cells": 3456,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      },
+      "optical_plan_details": [
+        {
+          "trace_index": 38,
+          "preceding_actual_event": 24,
+          "channel": 12,
+          "original_plan_points": 108,
+          "planned_removed": 46,
+          "original_polygon_removed": 6,
+          "additional_contraction_removed": 40,
+          "contraction_applied": true,
+          "actual_clear_calls": 19,
+          "successful_original_index": 38,
+          "actual_skipped_before_success": 20,
+          "actual_skipped_original_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "removed_after_success": 26,
+          "actual_block_cost_s": {
+            "move_s": 141.57243527144269,
+            "failed_clear_s": 54,
+            "successful_clear_s": 5,
+            "total_s": 200.57243527144269
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 359.86368239906125,
+            "failed_clear_s": 114,
+            "successful_clear_s": 5,
+            "total_s": 478.86368239906125
+          },
+          "proved_avoided_cost_s": 278.2912471276186,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 112,
+          "preceding_actual_event": 81,
+          "channel": 8,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 18.19669020958996,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 23.19669020958996
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 18.19669020958996,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 23.19669020958996
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 283,
+          "preceding_actual_event": 200,
+          "channel": 5,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 41.02531885819608,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 49.02531885819608
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 41.02531885819608,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 49.02531885819608
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 361,
+          "preceding_actual_event": 241,
+          "channel": 2,
+          "original_plan_points": 80,
+          "planned_removed": 58,
+          "original_polygon_removed": 9,
+          "additional_contraction_removed": 49,
+          "contraction_applied": true,
+          "actual_clear_calls": 8,
+          "successful_original_index": 31,
+          "actual_skipped_before_success": 24,
+          "actual_skipped_original_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "removed_after_success": 34,
+          "actual_block_cost_s": {
+            "move_s": 63.18351918670084,
+            "failed_clear_s": 21,
+            "successful_clear_s": 5,
+            "total_s": 89.18351918670083
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 319.7261655315012,
+            "failed_clear_s": 93,
+            "successful_clear_s": 5,
+            "total_s": 417.7261655315012
+          },
+          "proved_avoided_cost_s": 328.54264634480035,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 404,
+          "preceding_actual_event": 272,
+          "channel": 1,
+          "original_plan_points": 40,
+          "planned_removed": 16,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 16,
+          "contraction_applied": true,
+          "actual_clear_calls": 7,
+          "successful_original_index": 6,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 16,
+          "actual_block_cost_s": {
+            "move_s": 36.24944290646587,
+            "failed_clear_s": 18,
+            "successful_clear_s": 5,
+            "total_s": 59.24944290646587
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 36.24944290646587,
+            "failed_clear_s": 18,
+            "successful_clear_s": 5,
+            "total_s": 59.24944290646587
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 414,
+          "preceding_actual_event": 279,
+          "channel": 4,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 105.13149372316896,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 113.13149372316896
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 105.13149372316896,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 113.13149372316896
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 426,
+          "preceding_actual_event": 287,
+          "channel": 3,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 66.60442705068508,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 74.60442705068508
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 66.60442705068508,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 74.60442705068508
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 488,
+          "preceding_actual_event": 331,
+          "channel": 7,
+          "original_plan_points": 6,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 3,
+          "successful_original_index": 2,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 174.58291100461864,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 185.58291100461864
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 174.58291100461864,
+            "failed_clear_s": 6,
+            "successful_clear_s": 5,
+            "total_s": 185.58291100461864
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        }
+      ],
+      "proved_avoided_cost_s": 606.8338934724189,
+      "avoided_cost_interpretation": "Geometric proof and actual successful prefix restore only the original ordered optical points that were guaranteed to fail. This is conditional cost accounting, not a newly observed official share25 score.",
+      "official_program_runtime_s": null,
+      "observed_server_enter_to_exit_s": 8.472,
+      "client_local_session_wall_s": 8.536675299999843,
+      "client_solver_wall_s": 8.051272400000016,
+      "client_pruning_proof_wall_s": 0.22344220000013593,
+      "hidden_truth_positions_available": false,
+      "hidden_truth_containment_independently_checked": false
+    },
+    {
+      "case": "q4_share25_prune_client-practice-05",
+      "input_log_sha256": "d2219bb767f2563ffca4fe45d5168ffc48c2ee7ee3f8e6cd324c114977b40be6",
+      "input_trace_sha256": "31d15639e0d2e134d21c05430b7a18c895cd4d0759ae469dfce7f3c3fdb8ed51",
+      "input_member": "测试结果/q4_share25_prune_client-practice-05.jsonl",
+      "trace_member": "测试结果/q4_share25_prune_client-practice-05.jsonl.beliefs.json",
+      "passed": true,
+      "total_sources_from_user": 15,
+      "omni_from_user": 9,
+      "directional_from_user": 6,
+      "source_total_basis": "User-provided official end-screen count, independently cross-checked against unique successful clear feedback; never inferred from time.",
+      "cleared": 15,
+      "cleared_channels": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        20
+      ],
+      "clear_fraction": 1.0,
+      "variant": "share25_prune",
+      "base_variant": "share25",
+      "source_files_checked": 15,
+      "hashes_match_release_and_current": true,
+      "source_hash_matches": {
+        "q4_model/shared.py": true,
+        "q4_model/directional_cover.py": true,
+        "q4_model/polar_cover.py": true,
+        "q4_model/localization.py": true,
+        "q4_model/solver.py": true,
+        "q4_model/route_planning.py": true,
+        "q4_model/guarded_policy.py": true,
+        "q4_model/negative_region.py": true,
+        "q4_model/ordered_optical_prune.py": true,
+        "q4_model/negative_region_proof.py": true,
+        "q4_model/prune_proof.py": true,
+        "q4_model/q4_official_client.py": true,
+        "q4_model/q4_share25_prune_client.py": true,
+        "q3_model_v2/geometry.py": true,
+        "q3_model_v2/official_client.py": true
+      },
+      "unique_accepted_requests": 232,
+      "actual_actions": 230,
+      "client_errors": 0,
+      "rejected_requests": 0,
+      "total_virtual_s": 5734.695538,
+      "per_source_virtual_s": 382.31303586666667,
+      "independently_reconstructed_virtual_s": 5734.695542227798,
+      "max_cumulative_rounding_error_s": 4.248373443260789e-06,
+      "max_per_action_rounding_error_s": 4.732941434326676e-07,
+      "action_counts": {
+        "measure": 204,
+        "switch": 188,
+        "no_signal": 163,
+        "direction": 41,
+        "clear_success": 15,
+        "clear_fail": 11
+      },
+      "costs_s": {
+        "move": 4418.695542227799,
+        "measure": 1020,
+        "switch": 188,
+        "clear_success": 75,
+        "clear_fail": 33
+      },
+      "by_reason": {
+        "certified_clear": {
+          "actions": 5,
+          "move_s": 263.9807485468129,
+          "fee_s": 25,
+          "total_s": 288.9807485468129
+        },
+        "optical_cover": {
+          "actions": 21,
+          "move_s": 719.7152861078708,
+          "fee_s": 83,
+          "total_s": 802.7152861078708
+        },
+        "scan": {
+          "actions": 166,
+          "move_s": 3098.1998822045953,
+          "fee_s": 981,
+          "total_s": 4079.1998822045953
+        },
+        "shared_measure": {
+          "actions": 33,
+          "move_s": 0.0,
+          "fee_s": 197,
+          "total_s": 197.0
+        },
+        "source_measure": {
+          "actions": 5,
+          "move_s": 336.79962536851974,
+          "fee_s": 30,
+          "total_s": 366.79962536851974
+        }
+      },
+      "final_absence_tail_s": 553.3959599999998,
+      "final_absence_tail_actions": 15,
+      "measurements_on_eventually_absent_channels": 125,
+      "proof_audit": {
+        "passed": true,
+        "plans": 10,
+        "removed_planned": 72,
+        "skipped_before_success": 26,
+        "accepted_actions": 230,
+        "actual_optical_actions": 21,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      },
+      "exact_completion_audit": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 5,
+        "cells_per_channel": 576,
+        "verified_cells": 2880,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      },
+      "optical_plan_details": [
+        {
+          "trace_index": 151,
+          "preceding_actual_event": 89,
+          "channel": 2,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 64.77014017844559,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 69.77014017844559
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 64.77014017844559,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 69.77014017844559
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 197,
+          "preceding_actual_event": 108,
+          "channel": 3,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 82.5734527644216,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 87.5734527644216
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 82.5734527644216,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 87.5734527644216
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 228,
+          "preceding_actual_event": 128,
+          "channel": 4,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 52.69772636543864,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 57.69772636543864
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 52.69772636543864,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 57.69772636543864
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 248,
+          "preceding_actual_event": 134,
+          "channel": 9,
+          "original_plan_points": 108,
+          "planned_removed": 72,
+          "original_polygon_removed": 20,
+          "additional_contraction_removed": 52,
+          "contraction_applied": true,
+          "actual_clear_calls": 11,
+          "successful_original_index": 36,
+          "actual_skipped_before_success": 26,
+          "actual_skipped_original_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "removed_after_success": 46,
+          "actual_block_cost_s": {
+            "move_s": 76.22548932092005,
+            "failed_clear_s": 30,
+            "successful_clear_s": 5,
+            "total_s": 111.22548932092005
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 348.7125250686224,
+            "failed_clear_s": 108,
+            "successful_clear_s": 5,
+            "total_s": 461.7125250686224
+          },
+          "proved_avoided_cost_s": 350.4870357477024,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 268,
+          "preceding_actual_event": 150,
+          "channel": 7,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 34.88519047329411,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 39.88519047329411
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 34.88519047329411,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 39.88519047329411
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 272,
+          "preceding_actual_event": 151,
+          "channel": 20,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 2,
+          "successful_original_index": 1,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 132.24191842280837,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 140.24191842280837
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 132.24191842280837,
+            "failed_clear_s": 3,
+            "successful_clear_s": 5,
+            "total_s": 140.24191842280837
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 331,
+          "preceding_actual_event": 195,
+          "channel": 8,
+          "original_plan_points": 4,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 46.82946341106874,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 51.82946341106874
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 46.82946341106874,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 51.82946341106874
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 338,
+          "preceding_actual_event": 197,
+          "channel": 12,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 66.06006142057205,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 71.06006142057205
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 66.06006142057205,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 71.06006142057205
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 360,
+          "preceding_actual_event": 213,
+          "channel": 6,
+          "original_plan_points": 3,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 84.07210979817663,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 89.07210979817663
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 84.07210979817663,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 89.07210979817663
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        },
+        {
+          "trace_index": 364,
+          "preceding_actual_event": 214,
+          "channel": 13,
+          "original_plan_points": 2,
+          "planned_removed": 0,
+          "original_polygon_removed": 0,
+          "additional_contraction_removed": 0,
+          "contraction_applied": false,
+          "actual_clear_calls": 1,
+          "successful_original_index": 0,
+          "actual_skipped_before_success": 0,
+          "actual_skipped_original_indices": [],
+          "removed_after_success": 0,
+          "actual_block_cost_s": {
+            "move_s": 79.35973395272505,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 84.35973395272505
+          },
+          "restored_original_prefix_cost_s": {
+            "move_s": 79.35973395272505,
+            "failed_clear_s": 0,
+            "successful_clear_s": 5,
+            "total_s": 84.35973395272505
+          },
+          "proved_avoided_cost_s": 0.0,
+          "proof_bound_to_raw_trace_and_preceding_actual_measurements": true
+        }
+      ],
+      "proved_avoided_cost_s": 350.4870357477024,
+      "avoided_cost_interpretation": "Geometric proof and actual successful prefix restore only the original ordered optical points that were guaranteed to fail. This is conditional cost accounting, not a newly observed official share25 score.",
+      "official_program_runtime_s": null,
+      "observed_server_enter_to_exit_s": 7.52,
+      "client_local_session_wall_s": 7.608770900000309,
+      "client_solver_wall_s": 7.274452499999825,
+      "client_pruning_proof_wall_s": 0.0770565999991959,
+      "hidden_truth_positions_available": false,
+      "hidden_truth_containment_independently_checked": false
+    }
+  ],
+  "cases_checked": 5,
+  "cleared_total": 72,
+  "supplied_source_total": 72,
+  "total_virtual_s": 29993.467388,
+  "average_case_virtual_s": 5998.6934776,
+  "pooled_per_source_virtual_s": 416.57593594444444,
+  "equal_weight_case_per_source_s": 421.9617219278572,
+  "optical_plans": 52,
+  "planned_removed": 268,
+  "actual_skipped_before_success": 70,
+  "proved_avoided_cost_s": 957.3209292201213,
+  "release_manifest_sha256": "a23d5ccb1b86d6fa569eef2697d196e693654e2c7022d97b6c9145a4635dbb91",
+  "auditors_sha256": {
+    "src/q4_model/03_官方演练与时间诊断/code/audit_official_prune_batch8.py": "a3fae388dca50abee835cd4ed1e04a03f87076c0c6aa04f29c1c717185835c1a",
+    "src/q4_model/prune_proof.py": "94b2875ffd20c6c46a87a136a4d91e8a9bb5851f1646c7e2a491ced63e9d0283",
+    "src/q4_model/negative_region_proof.py": "2b7a9abb3ad39cbf829aebceaa7171b6b270e130d2b785cdc4e8354ccd9b76ca",
+    "src/q4_model/05_候选share25/code/refined_cover_audit.py": "592eadb386b6500ce07496079bf16df3d1bb3a1c7205da133689a1a204fcc06a",
+    "src/q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "src/q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd"
+  },
+  "no_official_simulator_contacted": true,
+  "input_members_read_in_memory_only": true,
+  "original_zip_modified": false,
+  "original_source_or_results_modified": false,
+  "formal_test_ids_and_official_runtime_available": false,
+  "scope": "Official practice log audit with user-reported totals. New practice outcomes are separated from conditional restored-prefix cost accounting and from any prior batch."
+}

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "tests": 7,
+  "runtime_s": 0.7262968999857549,
+  "failures": [],
+  "errors": [],
+  "source_bindings": [
+    {
+      "path": "src/q4_model/05_候选share25/code/test_window_joint_v1.py",
+      "sha256": "9c071841432db729d3937f0d018c5d6579e4bf7d23666634ecb6a9d1ffd3172e"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/window_joint_planner_v1.py",
+      "sha256": "c035626bab8e8c72de564041e8301009cf985df53927bde2eb5af38938ba4fed"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/window_worlds_v1.py",
+      "sha256": "2234a7dee1b962352cfb0c8df77a1a142be89729d72216297c78b07fa63df58d"
+    },
+    {
+      "path": "src/q4_model/ordered_optical_prune.py",
+      "sha256": "2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a"
+    },
+    {
+      "path": "src/q4_model/localization.py",
+      "sha256": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1"
+    },
+    {
+      "path": "src/q4_model/route_planning.py",
+      "sha256": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5"
+    },
+    {
+      "path": "src/q3_model_v2/geometry.py",
+      "sha256": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311"
+    }
+  ],
+  "source_stable": true,
+  "scope": "Seven bounded synthetic mechanism checks. No full game or simulator connection. Controlled transitions test planning control flow; one real macro tests state/fee semantics.",
+  "limitations": [
+    "Budget comparison uses the same cap, not identical consumed work: depth1=30, depth2=60 controlled macro transitions.",
+    "Fixed-error checks use a handcrafted hypothesis; the complete world sampler is tested independently elsewhere.",
+    "Local fixed-task terminal is a heuristic. This check does not claim complete exploration value or global two-step optimality."
+  ]
+}

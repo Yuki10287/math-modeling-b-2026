@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "development_manifest": {
+    "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/manifest.json",
+    "sha256": "beaf2caf568098439f61523fdfa660e53e98750ccb7d4848a60cc92d7e9c348d"
+  },
+  "holdout_manifest": {
+    "path": "src/q4_model/05_候选share25/results/feedback_cost_holdout58000_v1/manifest.json",
+    "sha256": "72cf70ede65d71592929fccce753bcd84ddc03091836e90cd89a07fbf30ea646"
+  },
+  "development_audit": {
+    "path": "src/q4_model/05_候选share25/results/feedback_cost_predictions_independent_audit57000_v2/summary.json",
+    "sha256": "11d95009612f8bf9cb794013ea62093ea727809ef31dff4f17e4d4206535267b"
+  },
+  "holdout_audit": {
+    "path": "src/q4_model/05_候选share25/results/feedback_cost_predictions_independent_audit58000_v2/summary.json",
+    "sha256": "65453e7585dbac292e06d830cf85abd6a96c8acee989a512ae4ce54ce650d32f"
+  },
+  "model_and_helper": [
+    {
+      "path": "src/q4_model/05_候选share25/code/feedback_cost_experiment.py",
+      "development_sha256": "acc8157340bfb1e6cda947e202ed751996b023f6a62108053b59bffb9a768af3",
+      "holdout_sha256": "acc8157340bfb1e6cda947e202ed751996b023f6a62108053b59bffb9a768af3",
+      "active_sha256": "acc8157340bfb1e6cda947e202ed751996b023f6a62108053b59bffb9a768af3",
+      "same": true
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/receive_guarantee_v1.py",
+      "development_sha256": "5a23f2fc982d914ae4a9455b36e818ccb6ab10e3615442f4e9e92fb74de2aa41",
+      "holdout_sha256": "5a23f2fc982d914ae4a9455b36e818ccb6ab10e3615442f4e9e92fb74de2aa41",
+      "active_sha256": "5a23f2fc982d914ae4a9455b36e818ccb6ab10e3615442f4e9e92fb74de2aa41",
+      "same": true
+    }
+  ],
+  "same_frozen_auditor": {
+    "path": "src/q4_model/05_候选share25/code/audit_feedback_predictions_v2.py",
+    "sha256": "60e3d5131b2429ee2b37068d1ce69d4441b59ad02a349bf0deccfdcb7de78cf5"
+  },
+  "certified_receipt_counts": {
+    "development": 0,
+    "holdout": 0
+  },
+  "scope": "Read-only fingerprint comparison; no solver run or evidence overwrite."
+}

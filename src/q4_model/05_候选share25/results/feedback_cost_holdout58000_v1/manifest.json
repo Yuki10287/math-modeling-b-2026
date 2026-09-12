@@ -1,0 +1,101 @@
+{
+  "code_hashes": {
+    "src/q3_model_v2/00_主方案_lean/code/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src/q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src/q3_model_v2/official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e",
+    "src/q4_model/00_公共几何与定位/code/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+    "src/q4_model/01_初版31站/code/benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+    "src/q4_model/04_22站覆盖实验/code/benchmark_cells.py": "0e47247b60e8458b591e9ba591aa29d8d17d59b84c1725857e75c2774f8c7d12",
+    "src/q4_model/05_候选share25/code/benchmark_feedback_cost_v1.py": "64bcfcfe74dd37d347f84a7b9f6cf2fa3691fc24b2ebfb3956cecb7c9d002de9",
+    "src/q4_model/05_候选share25/code/benchmark_station_joint_view_v1.py": "b7774da06a88eb16d94efe7b6ccf5a56a43875d39d3f0298642b3ad3c86505ea",
+    "src/q4_model/05_候选share25/code/feedback_cost_experiment.py": "acc8157340bfb1e6cda947e202ed751996b023f6a62108053b59bffb9a768af3",
+    "src/q4_model/05_候选share25/code/receive_guarantee_v1.py": "5a23f2fc982d914ae4a9455b36e818ccb6ab10e3615442f4e9e92fb74de2aa41",
+    "src/q4_model/05_候选share25/code/refined_cover_audit.py": "592eadb386b6500ce07496079bf16df3d1bb3a1c7205da133689a1a204fcc06a",
+    "src/q4_model/05_候选share25/results/share25_prune_client_release.json": "a23d5ccb1b86d6fa569eef2697d196e693654e2c7022d97b6c9145a4635dbb91",
+    "src/q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "src/q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "src/q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "src/q4_model/negative_region.py": "55389254f37177805a0d6269e4fb3fa35180d764f098f84b9c2d243441056bf6",
+    "src/q4_model/negative_region_proof.py": "2b7a9abb3ad39cbf829aebceaa7171b6b270e130d2b785cdc4e8354ccd9b76ca",
+    "src/q4_model/ordered_optical_prune.py": "2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a",
+    "src/q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "src/q4_model/prune_proof.py": "94b2875ffd20c6c46a87a136a4d91e8a9bb5851f1646c7e2a491ced63e9d0283",
+    "src/q4_model/q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "src/q4_model/q4_share25_prune_client.py": "346ee3a02db3fc6c2a36ba58c073179b7bc2ff73894df73e5e89ee0018153e4d",
+    "src/q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "src/q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "src/q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "src/studies.json": "7c9acd8eb2cc010d5d2a00c11243989687b5abd95f2ed772cc425cdb773aee0c"
+  },
+  "source_archive": "source_snapshot",
+  "variants": [
+    "baseline_share25_prune",
+    "feedback_cost"
+  ],
+  "seeds": [
+    58000,
+    58001,
+    58100,
+    58101,
+    58200,
+    58201,
+    58300,
+    58301,
+    58400,
+    58401
+  ],
+  "seeds_base": 58000,
+  "populations": [
+    "uniform",
+    "boundary",
+    "cluster",
+    "omni_heavy",
+    "dir_heavy"
+  ],
+  "layouts_per_population": 2,
+  "fields": [
+    "hashed"
+  ],
+  "independent_layouts": 10,
+  "paired_conditions": 10,
+  "max_active_measures": 6,
+  "local_only": true,
+  "official_contacted": false,
+  "frozen_before_runs": true,
+  "parameter_tuning_during_run": false,
+  "prior_seed_inventory": {
+    "checked_manifests": 91,
+    "collisions": {},
+    "checked_sources": "Existing result filenames and explicit seed fields in all readable result manifests."
+  },
+  "baseline": "Direct current production ordered_optical_prune.solve_multi(variant=share25).",
+  "change_scope": "Only local service feedback-branch cost prediction; same original candidate points, fixed stations, route, sharing and ordered optical execution.",
+  "reused_audit_helpers": "Unmodified benchmark_station_joint_view_v1 pure API and post-run checks; its candidate, load_support, main and scoring are not used.",
+  "current_physical_support": {
+    "environment": "src/q3_model_v2/00_主方案_lean/code/environment.py",
+    "validation": "src/q4_model/00_公共几何与定位/code/validation.py",
+    "cases": "src/q4_model/01_初版31站/code/benchmark.py",
+    "populations": "src/q4_model/04_22站覆盖实验/code/benchmark_cells.py"
+  },
+  "public_interface": [
+    "position copy",
+    "channel",
+    "measure",
+    "clear"
+  ],
+  "hidden_truth_scope": "Environment and post-run audit only.",
+  "error_fields": {
+    "constant": "Fixed +0.99 degrees.",
+    "hashed": "Fixed coordinate/seed/channel BLAKE2b in [-0.99,+0.99).",
+    "extreme": "Fixed spatial sign field +/-0.99 degrees."
+  },
+  "field_distribution_is_official": false,
+  "population_distribution_is_official": false,
+  "solver_wall_timing_excludes": "Post-run proof audits and serialization.",
+  "process_cpu_clock": "time.process_time()",
+  "action_limit": 10000,
+  "solver_wall_limit_s": 1200,
+  "python": "3.14.0",
+  "numpy": "2.4.1",
+  "scipy": "1.17.0"
+}

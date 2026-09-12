@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "source_sha256": "2234a7dee1b962352cfb0c8df77a1a142be89729d72216297c78b07fa63df58d",
+  "checks": [
+    {
+      "name": "empty_history_uniform_count_prior",
+      "passed": true,
+      "totals": [
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ]
+    },
+    {
+      "name": "active_history_consistency_determinism_purity_hidden_fields_ignored",
+      "passed": true,
+      "known_pool": {
+        "3": {
+          "proposals": 256,
+          "compatible_particles": 48,
+          "sufficient": true
+        }
+      },
+      "world_hashes": [
+        "b85db30550f204d9a03e46d8e9cae87ca5dfb623185165e6a2a2d103184b83a6",
+        "7160c51dc2a68c6bb0864953498813906df3106fbaea6285dabf40a4f824ce34",
+        "f791f50f4c10a2e00f1ab8f5797940ae4c75befd9660df044720311607587e52",
+        "19a50158c50fa2941c3aff70df4cb72b6636b58f8a3bdf551c0783d45d02ecb7",
+        "9061728817d1bdd354a5f95e2fcdafb331f27296a687ce0a5cf364325233ade6",
+        "044f14c1430ccdb99d5f085c3bc62b711acfd7443b6f1f44e7450b6f618360b6"
+      ]
+    },
+    {
+      "name": "rounded_bearing_and_wraparound_endpoints",
+      "passed": true
+    },
+    {
+      "name": "thin_known_support_explicit_fallback",
+      "passed": true,
+      "diagnostics": {
+        "model": "window_worlds_v1",
+        "worlds_are_predictions_only": true,
+        "unknown_draw_budget": 4096,
+        "known_draw_budget_per_channel": 8192,
+        "known_target": 48,
+        "known_pools": {
+          "3": {
+            "proposals": 8192,
+            "compatible_particles": 1,
+            "sufficient": false
+          }
+        },
+        "unknown_support": {},
+        "prior": "N uniform 10..16; uniform channel subsets; independent uniform disk1800 position, radius1000..1500, half type, uniform heading.",
+        "approximation": "Finite rejection support; known bearing likelihood is support-conditioned, not calibrated. Cleared-source geometry is integrated out.",
+        "history_sha256": "d95e91f3fd5d011499119933b14df0e82c8d52a4e7f65db00f6533906b74f9c2",
+        "actual_discovered": 1,
+        "integrated_out_cleared": [],
+        "passed": false,
+        "reason": "insufficient_known_support:3",
+        "count": 0,
+        "fallback_required": true
+      }
+    },
+    {
+      "name": "empty_unproven_unknown_cloud_does_not_mean_absence",
+      "passed": true,
+      "reason": "insufficient_unproven_unknown_support:1"
+    },
+    {
+      "name": "sixteen_observed_clears_count_boundary",
+      "passed": true
+    },
+    {
+      "name": "contradictory_repeated_feedback_fallback",
+      "passed": true
+    }
+  ],
+  "elapsed_wall_s": 0.09437960002105683,
+  "no_environment_import_or_full_solver_run": true
+}

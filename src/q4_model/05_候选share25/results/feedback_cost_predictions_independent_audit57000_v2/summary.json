@@ -1,0 +1,1460 @@
+{
+  "passed": true,
+  "scope": "Read-only audit of saved local predictions; no new execution or official contact.",
+  "manifest": {
+    "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/manifest.json",
+    "sha256": "beaf2caf568098439f61523fdfa660e53e98750ccb7d4848a60cc92d7e9c348d"
+  },
+  "audit_source": {
+    "path": "src/q4_model/05_候选share25/code/audit_feedback_predictions_v2.py",
+    "sha256": "60e3d5131b2429ee2b37068d1ce69d4441b59ad02a349bf0deccfdcb7de78cf5"
+  },
+  "dependencies": [
+    {
+      "path": "src/q4_model/localization.py",
+      "sha256": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1"
+    },
+    {
+      "path": "src/q4_model/shared.py",
+      "sha256": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970"
+    },
+    {
+      "path": "src/q3_model_v2/geometry.py",
+      "sha256": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/feedback_cost_experiment.py",
+      "sha256": "acc8157340bfb1e6cda947e202ed751996b023f6a62108053b59bffb9a768af3"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/receive_guarantee_v1.py",
+      "sha256": "5a23f2fc982d914ae4a9455b36e818ccb6ab10e3615442f4e9e92fb74de2aa41"
+    }
+  ],
+  "static_interface_review": {
+    "passed": true,
+    "model": {
+      "path": "src/q4_model/05_候选share25/code/feedback_cost_experiment.py",
+      "sha256": "acc8157340bfb1e6cda947e202ed751996b023f6a62108053b59bffb9a768af3"
+    },
+    "inspected_score_parameters": "public belief and coordinates/channel only",
+    "hidden_truth_names_or_attributes_found": false,
+    "limitation": "Static interface/name inspection and public-prefix binding, not a general formal noninterference proof."
+  },
+  "receipt_challenges": {
+    "passed": true,
+    "valid_exact_boundary": 1,
+    "forged_rejected": [
+      "different_q",
+      "wrong_actual_positive_index",
+      "wrong_weight",
+      "different_source_ledger",
+      "future_positive_not_yet_accepted"
+    ]
+  },
+  "rows": [
+    {
+      "input": {
+        "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57000-uniform-hashed-feedback_cost.json",
+        "sha256": "6646435b71d15ca6c63087e37ef4b7c1e71cd4949dce523aef7de2b4645f36b7"
+      },
+      "passed": true,
+      "actions": 373,
+      "belief_rows": 41,
+      "prediction_rows": 13,
+      "candidates": 114,
+      "certified_receipt": 0,
+      "zero_mass_negative_in_risk": 18,
+      "positive_branches": 4687,
+      "predictions": [
+        {
+          "trace_index": 24,
+          "event_prefix": 20,
+          "channel": 8,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 124,
+          "event_prefix": 94,
+          "channel": 11,
+          "actual_positive_points": [
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ],
+            [
+              927.2887932375056,
+              248.4662832984199
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 478
+        },
+        {
+          "trace_index": 233,
+          "event_prefix": 185,
+          "channel": 4,
+          "actual_positive_points": [
+            [
+              -3.423188873723455e-13,
+              -1863.4972282657675
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 8,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 72
+        },
+        {
+          "trace_index": 238,
+          "event_prefix": 186,
+          "channel": 4,
+          "actual_positive_points": [
+            [
+              -3.423188873723455e-13,
+              -1863.4972282657675
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 7,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 21
+        },
+        {
+          "trace_index": 243,
+          "event_prefix": 187,
+          "channel": 4,
+          "actual_positive_points": [
+            [
+              -3.423188873723455e-13,
+              -1863.4972282657675
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 0,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 0
+        },
+        {
+          "trace_index": 282,
+          "event_prefix": 221,
+          "channel": 2,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              230.7813534966729,
+              -295.7189753865422
+            ],
+            [
+              248.46628329841948,
+              -927.2887932375057
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 478
+        },
+        {
+          "trace_index": 325,
+          "event_prefix": 250,
+          "channel": 7,
+          "actual_positive_points": [
+            [
+              -678.8225099390858,
+              -678.8225099390855
+            ],
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 345,
+          "event_prefix": 262,
+          "channel": 6,
+          "actual_positive_points": [
+            [
+              -678.8225099390858,
+              -678.8225099390855
+            ],
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ],
+            [
+              -1072.5179458333498,
+              226.80020083214455
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 5,
+          "positive_branches": 470
+        },
+        {
+          "trace_index": 376,
+          "event_prefix": 285,
+          "channel": 3,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              230.7813534966729,
+              -295.7189753865422
+            ],
+            [
+              -1072.5179458333498,
+              226.80020083214455
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 4,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 455,
+          "event_prefix": 336,
+          "channel": 20,
+          "actual_positive_points": [
+            [
+              -248.4662832984198,
+              927.2887932375056
+            ],
+            [
+              248.46628329842014,
+              927.2887932375055
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 464,
+          "event_prefix": 339,
+          "channel": 1,
+          "actual_positive_points": [
+            [
+              -678.8225099390855,
+              678.8225099390856
+            ],
+            [
+              -327.1158512849232,
+              433.19893038464284
+            ],
+            [
+              -248.4662832984198,
+              927.2887932375056
+            ],
+            [
+              678.8225099390856,
+              678.8225099390856
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 472,
+          "event_prefix": 341,
+          "channel": 18,
+          "actual_positive_points": [
+            [
+              1.1410629579078184e-13,
+              1863.4972282657675
+            ],
+            [
+              42.92086207527935,
+              1618.4494781275196
+            ],
+            [
+              -102.26141501457812,
+              1635.7852875950468
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 9,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 304
+        },
+        {
+          "trace_index": 478,
+          "event_prefix": 343,
+          "channel": 17,
+          "actual_positive_points": [
+            [
+              -678.8225099390855,
+              678.8225099390856
+            ],
+            [
+              -327.1158512849232,
+              433.19893038464284
+            ],
+            [
+              1.1410629579078184e-13,
+              1863.4972282657675
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 5,
+          "positive_branches": 476
+        }
+      ]
+    },
+    {
+      "input": {
+        "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57100-boundary-hashed-feedback_cost.json",
+        "sha256": "4a622517cb4522c0227b1df33668de180b024350f0994e626305fd18d8021978"
+      },
+      "passed": true,
+      "actions": 442,
+      "belief_rows": 35,
+      "prediction_rows": 17,
+      "candidates": 112,
+      "certified_receipt": 0,
+      "zero_mass_negative_in_risk": 28,
+      "positive_branches": 3738,
+      "predictions": [
+        {
+          "trace_index": 171,
+          "event_prefix": 155,
+          "channel": 17,
+          "actual_positive_points": [
+            [
+              -678.8225099390855,
+              678.8225099390856
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 390
+        },
+        {
+          "trace_index": 265,
+          "event_prefix": 237,
+          "channel": 14,
+          "actual_positive_points": [
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 6,
+          "positive_branches": 219
+        },
+        {
+          "trace_index": 273,
+          "event_prefix": 239,
+          "channel": 14,
+          "actual_positive_points": [
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 6,
+          "positive_branches": 234
+        },
+        {
+          "trace_index": 295,
+          "event_prefix": 255,
+          "channel": 13,
+          "actual_positive_points": [
+            [
+              -1613.835939560044,
+              -931.7486141328832
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 324
+        },
+        {
+          "trace_index": 341,
+          "event_prefix": 286,
+          "channel": 9,
+          "actual_positive_points": [
+            [
+              -3.423188873723455e-13,
+              -1863.4972282657675
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 0,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 0
+        },
+        {
+          "trace_index": 352,
+          "event_prefix": 293,
+          "channel": 12,
+          "actual_positive_points": [
+            [
+              -3.423188873723455e-13,
+              -1863.4972282657675
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 3,
+          "positive_branches": 303
+        },
+        {
+          "trace_index": 357,
+          "event_prefix": 294,
+          "channel": 12,
+          "actual_positive_points": [
+            [
+              -3.423188873723455e-13,
+              -1863.4972282657675
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 0,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 0
+        },
+        {
+          "trace_index": 387,
+          "event_prefix": 318,
+          "channel": 20,
+          "actual_positive_points": [
+            [
+              931.748614132884,
+              -1613.8359395600435
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 303
+        },
+        {
+          "trace_index": 392,
+          "event_prefix": 319,
+          "channel": 20,
+          "actual_positive_points": [
+            [
+              931.748614132884,
+              -1613.8359395600435
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 0,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 0
+        },
+        {
+          "trace_index": 421,
+          "event_prefix": 340,
+          "channel": 5,
+          "actual_positive_points": [
+            [
+              1863.4972282657675,
+              0.0
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 462
+        },
+        {
+          "trace_index": 484,
+          "event_prefix": 386,
+          "channel": 11,
+          "actual_positive_points": [
+            [
+              -1613.8359395600437,
+              931.7486141328836
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 0,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 0
+        },
+        {
+          "trace_index": 513,
+          "event_prefix": 411,
+          "channel": 4,
+          "actual_positive_points": [
+            [
+              -931.7486141328833,
+              1613.8359395600437
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 366
+        },
+        {
+          "trace_index": 521,
+          "event_prefix": 413,
+          "channel": 4,
+          "actual_positive_points": [
+            [
+              -931.7486141328833,
+              1613.8359395600437
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 261
+        },
+        {
+          "trace_index": 529,
+          "event_prefix": 415,
+          "channel": 4,
+          "actual_positive_points": [
+            [
+              -931.7486141328833,
+              1613.8359395600437
+            ],
+            [
+              -291.01924780416033,
+              1817.3275266013748
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 6,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 5,
+          "positive_branches": 269
+        },
+        {
+          "trace_index": 544,
+          "event_prefix": 424,
+          "channel": 16,
+          "actual_positive_points": [
+            [
+              -248.4662832984198,
+              927.2887932375056
+            ],
+            [
+              -291.01924780416033,
+              1817.3275266013748
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 7,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 5,
+          "positive_branches": 268
+        },
+        {
+          "trace_index": 553,
+          "event_prefix": 427,
+          "channel": 2,
+          "actual_positive_points": [
+            [
+              1.1410629579078184e-13,
+              1863.4972282657675
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 0,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 0
+        },
+        {
+          "trace_index": 567,
+          "event_prefix": 434,
+          "channel": 19,
+          "actual_positive_points": [
+            [
+              931.748614132884,
+              1613.8359395600435
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 9,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 339
+        }
+      ]
+    },
+    {
+      "input": {
+        "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57200-cluster-hashed-feedback_cost.json",
+        "sha256": "f70a8bfabf7ea49d9e6e22652b69f4730eb4949142f1847b9fd8e1ad6bed0434"
+      },
+      "passed": true,
+      "actions": 301,
+      "belief_rows": 31,
+      "prediction_rows": 11,
+      "candidates": 106,
+      "certified_receipt": 0,
+      "zero_mass_negative_in_risk": 10,
+      "positive_branches": 4505,
+      "predictions": [
+        {
+          "trace_index": 27,
+          "event_prefix": 20,
+          "channel": 7,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 38,
+          "event_prefix": 23,
+          "channel": 5,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 213,
+          "event_prefix": 157,
+          "channel": 10,
+          "actual_positive_points": [
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 390
+        },
+        {
+          "trace_index": 224,
+          "event_prefix": 160,
+          "channel": 7,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              343.52889329621985,
+              150.6645775936237
+            ],
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 232,
+          "event_prefix": 162,
+          "channel": 18,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              343.52889329621985,
+              150.6645775936237
+            ],
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 478
+        },
+        {
+          "trace_index": 241,
+          "event_prefix": 167,
+          "channel": 20,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              540.8791734129071,
+              142.20385497177114
+            ],
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 478
+        },
+        {
+          "trace_index": 259,
+          "event_prefix": 180,
+          "channel": 10,
+          "actual_positive_points": [
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ],
+            [
+              934.7010811124666,
+              508.3586899220383
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 6,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 5,
+          "positive_branches": 263
+        },
+        {
+          "trace_index": 265,
+          "event_prefix": 182,
+          "channel": 13,
+          "actual_positive_points": [
+            [
+              -248.4662832984198,
+              927.2887932375056
+            ],
+            [
+              248.46628329842014,
+              927.2887932375055
+            ],
+            [
+              1041.200783470745,
+              440.7619129882115
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 406
+        },
+        {
+          "trace_index": 272,
+          "event_prefix": 184,
+          "channel": 15,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              343.52889329621985,
+              150.6645775936237
+            ],
+            [
+              934.7010811124666,
+              508.3586899220383
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 296,
+          "event_prefix": 199,
+          "channel": 14,
+          "actual_positive_points": [
+            [
+              1613.8359395600437,
+              931.7486141328836
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 141
+        },
+        {
+          "trace_index": 301,
+          "event_prefix": 200,
+          "channel": 14,
+          "actual_positive_points": [
+            [
+              1613.8359395600437,
+              931.7486141328836
+            ],
+            [
+              1229.1141152643804,
+              562.6646270840935
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 437
+        }
+      ]
+    },
+    {
+      "input": {
+        "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57300-omni_heavy-hashed-feedback_cost.json",
+        "sha256": "86912ba07fa011b2ed28489cc36964d4384dfb9cf3170a5a39a981f8f8f6309a"
+      },
+      "passed": true,
+      "actions": 348,
+      "belief_rows": 33,
+      "prediction_rows": 7,
+      "candidates": 70,
+      "certified_receipt": 0,
+      "zero_mass_negative_in_risk": 4,
+      "positive_branches": 3224,
+      "predictions": [
+        {
+          "trace_index": 27,
+          "event_prefix": 20,
+          "channel": 8,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 127,
+          "event_prefix": 88,
+          "channel": 14,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -391.5694436724761,
+              -277.1332042681978
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 136,
+          "event_prefix": 91,
+          "channel": 12,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -248.46628329842065,
+              -927.2887932375054
+            ],
+            [
+              248.46628329841948,
+              -927.2887932375057
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 165,
+          "event_prefix": 108,
+          "channel": 16,
+          "actual_positive_points": [
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 360
+        },
+        {
+          "trace_index": 303,
+          "event_prefix": 221,
+          "channel": 8,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -366.14914785180935,
+              -81.51698973450918
+            ],
+            [
+              -391.5694436724761,
+              -277.1332042681978
+            ],
+            [
+              -678.8225099390858,
+              -678.8225099390855
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 311,
+          "event_prefix": 223,
+          "channel": 10,
+          "actual_positive_points": [
+            [
+              -927.2887932375056,
+              248.46628329841974
+            ],
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ],
+            [
+              -1057.7288913517302,
+              -224.20711679929312
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 478
+        },
+        {
+          "trace_index": 360,
+          "event_prefix": 264,
+          "channel": 13,
+          "actual_positive_points": [
+            [
+              248.46628329842014,
+              927.2887932375055
+            ],
+            [
+              43.99169339762674,
+              612.2876012433815
+            ],
+            [
+              -248.4662832984198,
+              927.2887932375056
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 478
+        }
+      ]
+    },
+    {
+      "input": {
+        "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57400-dir_heavy-hashed-feedback_cost.json",
+        "sha256": "151a1562af8cf281496cea9b0c0be70e75627d046164b0a7d39045baac8bf7ae"
+      },
+      "passed": true,
+      "actions": 360,
+      "belief_rows": 45,
+      "prediction_rows": 19,
+      "candidates": 162,
+      "certified_receipt": 0,
+      "zero_mass_negative_in_risk": 17,
+      "positive_branches": 6476,
+      "predictions": [
+        {
+          "trace_index": 25,
+          "event_prefix": 20,
+          "channel": 1,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 36,
+          "event_prefix": 23,
+          "channel": 1,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -362.1317063285073,
+              97.85473344995964
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 175,
+          "event_prefix": 137,
+          "channel": 3,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -362.1317063285073,
+              97.85473344995964
+            ],
+            [
+              678.8225099390856,
+              678.8225099390856
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 478
+        },
+        {
+          "trace_index": 186,
+          "event_prefix": 140,
+          "channel": 6,
+          "actual_positive_points": [
+            [
+              927.2887932375056,
+              248.4662832984199
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 3,
+          "positive_branches": 360
+        },
+        {
+          "trace_index": 197,
+          "event_prefix": 143,
+          "channel": 6,
+          "actual_positive_points": [
+            [
+              927.2887932375056,
+              248.4662832984199
+            ],
+            [
+              591.9596301759941,
+              -431.9410379710892
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 6,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 5,
+          "positive_branches": 260
+        },
+        {
+          "trace_index": 237,
+          "event_prefix": 172,
+          "channel": 9,
+          "actual_positive_points": [
+            [
+              927.2887932375056,
+              248.4662832984199
+            ],
+            [
+              368.2611298160003,
+              -347.19107282724974
+            ],
+            [
+              591.9596301759941,
+              -431.9410379710892
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 478
+        },
+        {
+          "trace_index": 265,
+          "event_prefix": 188,
+          "channel": 19,
+          "actual_positive_points": [
+            [
+              1613.835939560043,
+              -931.7486141328845
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 6,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 60
+        },
+        {
+          "trace_index": 276,
+          "event_prefix": 191,
+          "channel": 19,
+          "actual_positive_points": [
+            [
+              1613.835939560043,
+              -931.7486141328845
+            ],
+            [
+              1342.2536401430766,
+              -649.8779887041406
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 7,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 81
+        },
+        {
+          "trace_index": 287,
+          "event_prefix": 194,
+          "channel": 19,
+          "actual_positive_points": [
+            [
+              1613.835939560043,
+              -931.7486141328845
+            ],
+            [
+              1342.2536401430766,
+              -649.8779887041406
+            ],
+            [
+              1148.8189836735585,
+              -451.2424106688651
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 340
+        },
+        {
+          "trace_index": 339,
+          "event_prefix": 237,
+          "channel": 10,
+          "actual_positive_points": [
+            [
+              1.1410629579078184e-13,
+              1863.4972282657675
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 390
+        },
+        {
+          "trace_index": 344,
+          "event_prefix": 238,
+          "channel": 10,
+          "actual_positive_points": [
+            [
+              1.1410629579078184e-13,
+              1863.4972282657675
+            ],
+            [
+              -573.6585336745595,
+              1691.4666254429392
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 7,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 282
+        },
+        {
+          "trace_index": 404,
+          "event_prefix": 286,
+          "channel": 11,
+          "actual_positive_points": [
+            [
+              -931.7486141328845,
+              -1613.8359395600432
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 412,
+          "event_prefix": 288,
+          "channel": 11,
+          "actual_positive_points": [
+            [
+              -931.7486141328845,
+              -1613.8359395600432
+            ],
+            [
+              -557.8818096794383,
+              -1654.5499071313438
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 480
+        },
+        {
+          "trace_index": 448,
+          "event_prefix": 315,
+          "channel": 5,
+          "actual_positive_points": [
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ],
+            [
+              1461.3850572446638,
+              -891.5370606814223
+            ],
+            [
+              1342.2536401430766,
+              -649.8779887041406
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 476
+        },
+        {
+          "trace_index": 457,
+          "event_prefix": 318,
+          "channel": 20,
+          "actual_positive_points": [
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ],
+            [
+              498.6582317424447,
+              -1558.8949127427584
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 1,
+          "positive_branches": 452
+        },
+        {
+          "trace_index": 473,
+          "event_prefix": 328,
+          "channel": 17,
+          "actual_positive_points": [
+            [
+              931.748614132884,
+              -1613.8359395600435
+            ]
+          ],
+          "selected": "measure",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 192
+        },
+        {
+          "trace_index": 478,
+          "event_prefix": 329,
+          "channel": 17,
+          "actual_positive_points": [
+            [
+              931.748614132884,
+              -1613.8359395600435
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 1,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 3
+        },
+        {
+          "trace_index": 483,
+          "event_prefix": 330,
+          "channel": 14,
+          "actual_positive_points": [
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ],
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ],
+            [
+              1148.8189836735585,
+              -451.2424106688651
+            ],
+            [
+              -112.81165349718879,
+              -1732.617907774566
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 5,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 4,
+          "positive_branches": 226
+        },
+        {
+          "trace_index": 504,
+          "event_prefix": 345,
+          "channel": 16,
+          "actual_positive_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -362.1317063285073,
+              97.85473344995964
+            ],
+            [
+              591.9596301759941,
+              -431.9410379710892
+            ]
+          ],
+          "selected": "optical",
+          "candidates": 10,
+          "certified_receipt": 0,
+          "zero_mass_negative_in_risk": 0,
+          "positive_branches": 478
+        }
+      ]
+    }
+  ],
+  "total": {
+    "actions": 1824,
+    "belief_rows": 185,
+    "prediction_rows": 67,
+    "candidates": 564,
+    "certified_receipt": 0,
+    "zero_mass_negative_in_risk": 77,
+    "positive_branches": 22630
+  },
+  "limitations": [
+    "Finite position/type/direction scenarios are the frozen working distribution, not official probabilities.",
+    "Hypothetical optical mean/full-tail values are checked for finite accounting and branch aggregation; this script does not rerun every hypothetical geometric contraction/cover.",
+    "Actual optical deletion/completion proofs and physical source retention belong to the separate complete trajectory audits.",
+    "An unproved receipt retains no_signal in the risk maximum even with zero sampled negative mass; .2 risk weighting is not a worst-case time guarantee."
+  ]
+}

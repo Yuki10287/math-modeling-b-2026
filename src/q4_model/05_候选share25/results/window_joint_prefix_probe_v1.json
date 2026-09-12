@@ -1,0 +1,1666 @@
+{
+  "scope": "One saved public prefix only; no new whole game and no observed performance/virtual-time improvement claim.",
+  "input": {
+    "path": "src/q4_model/05_候选share25/results/feedback_cost_dev57000_v1/57000-uniform-hashed-baseline_share25_prune.json",
+    "sha256": "b01525598a233b628adb14ba26285871d7c5075e3a3c3084896aeaf783063523",
+    "prefix_events": 20
+  },
+  "source_bindings": [
+    {
+      "path": "src/q3_model_v2/geometry.py",
+      "sha256": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/window_joint_planner_v1.py",
+      "sha256": "c035626bab8e8c72de564041e8301009cf985df53927bde2eb5af38938ba4fed"
+    },
+    {
+      "path": "src/q4_model/05_候选share25/code/window_worlds_v1.py",
+      "sha256": "2234a7dee1b962352cfb0c8df77a1a142be89729d72216297c78b07fa63df58d"
+    },
+    {
+      "path": "src/q4_model/directional_cover.py",
+      "sha256": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd"
+    },
+    {
+      "path": "src/q4_model/guarded_policy.py",
+      "sha256": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0"
+    },
+    {
+      "path": "src/q4_model/localization.py",
+      "sha256": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1"
+    },
+    {
+      "path": "src/q4_model/negative_region.py",
+      "sha256": "55389254f37177805a0d6269e4fb3fa35180d764f098f84b9c2d243441056bf6"
+    },
+    {
+      "path": "src/q4_model/ordered_optical_prune.py",
+      "sha256": "2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a"
+    },
+    {
+      "path": "src/q4_model/polar_cover.py",
+      "sha256": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd"
+    },
+    {
+      "path": "src/q4_model/route_planning.py",
+      "sha256": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5"
+    },
+    {
+      "path": "src/q4_model/shared.py",
+      "sha256": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970"
+    },
+    {
+      "path": "src/q4_model/solver.py",
+      "sha256": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab"
+    }
+  ],
+  "source_hashes_stable": true,
+  "public_reconstruction": {
+    "position": [
+      0.0,
+      0.0
+    ],
+    "radio": 20,
+    "discovered": [
+      2,
+      3,
+      8
+    ],
+    "cleared": [],
+    "belief_channels": [
+      2,
+      3,
+      8
+    ],
+    "root_digest": "4eca42dacf886dba0247f55d73b5b8dfb31465cdb5e90b55ef4f790cd4a7f639",
+    "ledger_fields": [
+      "action",
+      "channel",
+      "measure_result",
+      "position",
+      "svd_deg"
+    ],
+    "ledger": [
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 1,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 2,
+        "measure_result": "direction",
+        "svd_deg": 242.49
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 3,
+        "measure_result": "direction",
+        "svd_deg": 126.58
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 4,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 5,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 6,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 7,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 8,
+        "measure_result": "direction",
+        "svd_deg": 307.67
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 9,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 10,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 11,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 12,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 13,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 14,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 15,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 16,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 17,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 18,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 19,
+        "measure_result": "no_signal"
+      },
+      {
+        "action": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "channel": 20,
+        "measure_result": "no_signal"
+      }
+    ],
+    "sources_or_environment_seed_supplied_to_model": false
+  },
+  "shared_root_and_world_digests": true,
+  "horizons": [
+    {
+      "depth": 1,
+      "selected": [
+        "source",
+        8
+      ],
+      "applied": false,
+      "reason": "complete_root_comparison",
+      "error": null,
+      "root_digest": "4eca42dacf886dba0247f55d73b5b8dfb31465cdb5e90b55ef4f790cd4a7f639",
+      "root_tasks": [
+        [
+          "source",
+          8
+        ],
+        [
+          "scan",
+          3
+        ],
+        [
+          "scan",
+          5
+        ],
+        [
+          "scan",
+          11
+        ],
+        [
+          "source",
+          3
+        ]
+      ],
+      "baseline_task": [
+        "source",
+        8
+      ],
+      "world_digest": "2facb71115f6aafbc4547091c665e2f52e1b7685ae5e3eea846fbfa8f3ac9e38",
+      "world_count": 6,
+      "sampling": {
+        "model": "window_worlds_v1",
+        "worlds_are_predictions_only": true,
+        "unknown_draw_budget": 4096,
+        "known_draw_budget_per_channel": 8192,
+        "known_target": 48,
+        "known_pools": {
+          "2": {
+            "proposals": 256,
+            "compatible_particles": 48,
+            "sufficient": true
+          },
+          "3": {
+            "proposals": 256,
+            "compatible_particles": 48,
+            "sufficient": true
+          },
+          "8": {
+            "proposals": 256,
+            "compatible_particles": 48,
+            "sufficient": true
+          }
+        },
+        "unknown_support": {
+          "1": 2577,
+          "4": 2577,
+          "5": 2577,
+          "6": 2577,
+          "7": 2577,
+          "9": 2577,
+          "10": 2577,
+          "11": 2577,
+          "12": 2577,
+          "13": 2577,
+          "14": 2577,
+          "15": 2577,
+          "16": 2577,
+          "17": 2577,
+          "18": 2577,
+          "19": 2577,
+          "20": 2577
+        },
+        "prior": "N uniform 10..16; uniform channel subsets; independent uniform disk1800 position, radius1000..1500, half type, uniform heading.",
+        "approximation": "Finite rejection support; known bearing likelihood is support-conditioned, not calibrated. Cleared-source geometry is integrated out.",
+        "history_sha256": "cfa6b2fb18c6e5c9fd7a6eaf1d5a82ae784a68b36fa0b6dabe28c409d9c3d9ff",
+        "actual_discovered": 3,
+        "integrated_out_cleared": [],
+        "existing_cover_absent_channels": [],
+        "total_count_posterior": {
+          "10": 0.23133330158965926,
+          "11": 0.20012222595709447,
+          "12": 0.16787596884486736,
+          "13": 0.13730500078788818,
+          "14": 0.10994517530241099,
+          "15": 0.08646506248605747,
+          "16": 0.06695326503202226
+        },
+        "count_formula": "e_(N-D)(w_c)/C(20,N); equals proportional C(N,D)*w^(N-D) for equal unknown ledgers.",
+        "passed": true,
+        "reason": "sampled",
+        "count": 6,
+        "world_sha256": [
+          "ff104d59c87af80074d9afe9069b5c43aca3d2a46a7a2940d51d36a542c0b1c6",
+          "14ac23ceabad07844e10fe49787a52d512515a390c45be4ce5b34ae5f6a6c31d",
+          "3d8b7d94bea829f273a7b0cb8cbcd05fbf7c366d9d13b0040ba48e50f9599fb2",
+          "814664f668a409c3cf98bbd7f73b723f404ae265b8b24e7f681d2e3e03469baf",
+          "8be4d6ebf0a7f7b1f89b21f1cdfd563f66fd154e1d9eb4c5e9167d88d3002f91",
+          "2fa7ef1637a33ceae86073b71bbd1b02d0a03e1597ebaecee5e9e61f26723ec9"
+        ]
+      },
+      "root_scores": [
+        {
+          "task": [
+            "source",
+            8
+          ],
+          "mean_s": 1621.8882973185202,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "8d228e57baa5b4565b3a969eb5fdc477dacfc4f5c046ee98697559c8dd0a183b",
+              "terminal": {
+                "total_s": 1568.9474199017209,
+                "travel_s": 615.2918809929848,
+                "service_s": 649.6555389087359,
+                "scan_s": 304.0
+              },
+              "total_s": 1738.3196739117197,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "0aa3b1a03d6afe1db1af7765bb1d7cddf915c99184909463ad24c6a243d90197",
+              "terminal": {
+                "total_s": 1040.6290698009575,
+                "travel_s": 632.9520123701301,
+                "service_s": 103.67705743082745,
+                "scan_s": 304.0
+              },
+              "total_s": 1210.0013238109564,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "b1d61d2fa31f7187cd8d669e033d6a67363900e410dc2faa90c0358455c2253b",
+              "terminal": {
+                "total_s": 1563.932408340972,
+                "travel_s": 614.5616024524018,
+                "service_s": 645.3708058885702,
+                "scan_s": 304.0
+              },
+              "total_s": 1733.3046623509708,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "b4179a7f27989faedfbd6e27b68a9e3617bf0088b267cff801e1c9de23c49ccc",
+              "terminal": {
+                "total_s": 1534.924662103627,
+                "travel_s": 677.2415388254377,
+                "service_s": 553.6831232781893,
+                "scan_s": 304.0
+              },
+              "total_s": 1704.296916113626,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "33830e955462964f40a178bed25da071584288c1138aff884278e75f6618480f",
+              "terminal": {
+                "total_s": 1399.7238428465482,
+                "travel_s": 595.735588919315,
+                "service_s": 499.98825392723325,
+                "scan_s": 304.0
+              },
+              "total_s": 1569.096096856547,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "4eece1fd5eb48b6d152116f27bcdf190ab1684da945e4aa7f30c160dfaac5971",
+              "terminal": {
+                "total_s": 1606.938856857304,
+                "travel_s": 743.0281889858541,
+                "service_s": 559.9106678714501,
+                "scan_s": 304.0
+              },
+              "total_s": 1776.311110867303,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            }
+          ]
+        },
+        {
+          "task": [
+            "scan",
+            3
+          ],
+          "mean_s": 1775.401830626797,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 299.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "82ef56db7f51d4db612744a7add4c4947a795c190aa0f517f0c6444a1c4535f9",
+              "terminal": {
+                "total_s": 1370.7088925438047,
+                "travel_s": 583.998552727399,
+                "service_s": 595.7103398164057,
+                "scan_s": 191.0
+              },
+              "total_s": 1669.7088925438047,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 299.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "662698243ca674a6d290e946fca4d2ea23138be3c4a0df471e3fa2e3ab863706",
+              "terminal": {
+                "total_s": 1380.7969269535747,
+                "travel_s": 582.086587137169,
+                "service_s": 595.7103398164057,
+                "scan_s": 203.0
+              },
+              "total_s": 1679.7969269535747,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 299.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "a4903b6e1c65eba51c748de5a73b984a9ff23bfb8971e24fa09fea9c79d206f2",
+              "terminal": {
+                "total_s": 1359.9614347307354,
+                "travel_s": 585.2510949143297,
+                "service_s": 595.7103398164057,
+                "scan_s": 179.0
+              },
+              "total_s": 1658.9614347307354,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 299.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "46248115b112c0b2627d29fbe0a8fd1a3d61a680cf7584dad7fccf3cfaa082f9",
+              "terminal": {
+                "total_s": 1445.5403165470805,
+                "travel_s": 650.7383082884123,
+                "service_s": 627.8020082586681,
+                "scan_s": 167.0
+              },
+              "total_s": 1744.5403165470805,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 299.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "54ef1a7d9365aebdde708293d3158118c70b8be55f345ac362b74a4797ae05a4",
+              "terminal": {
+                "total_s": 1835.5374637884256,
+                "travel_s": 587.6756972510991,
+                "service_s": 1080.8617665373265,
+                "scan_s": 167.0
+              },
+              "total_s": 2134.5374637884256,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 299.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "33d16762897f8e238ea40abf62b9d48ff60ab9210c4f530f29e8f6029bff940b",
+              "terminal": {
+                "total_s": 1465.865949197159,
+                "travel_s": 658.270731066437,
+                "service_s": 628.5952181307218,
+                "scan_s": 179.0
+              },
+              "total_s": 1764.865949197159,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 0
+            }
+          ]
+        },
+        {
+          "task": [
+            "scan",
+            5
+          ],
+          "mean_s": 1837.6974900317098,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "d430f1752f9d4e40f1fbc6eb21f0dac4713b759c6b1b5fb20cfd523d52d93cc6",
+              "terminal": {
+                "total_s": 1839.768181620249,
+                "travel_s": 555.9064150829224,
+                "service_s": 1080.8617665373265,
+                "scan_s": 203.0
+              },
+              "total_s": 2144.768181620249,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "29e3c583af4cec958c93851e72f13baf62793a94b4baab32088ef6deb59d0044",
+              "terminal": {
+                "total_s": 1436.292221622652,
+                "travel_s": 616.4094379417986,
+                "service_s": 628.8827836808533,
+                "scan_s": 191.0
+              },
+              "total_s": 1741.292221622652,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "48919d5f3042427d2b319cb242fa7125db9da88c7e72b3797c036a8be9771246",
+              "terminal": {
+                "total_s": 1827.768181620249,
+                "travel_s": 555.9064150829224,
+                "service_s": 1080.8617665373265,
+                "scan_s": 191.0
+              },
+              "total_s": 2132.768181620249,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "71ab82f477ce4a061861aebf7eb02670c7f852cf193a70710b7cc19931bb8f2d",
+              "terminal": {
+                "total_s": 1415.140447003733,
+                "travel_s": 606.8809028123744,
+                "service_s": 617.2595441913586,
+                "scan_s": 191.0
+              },
+              "total_s": 1720.140447003733,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "ad403a725665c5df4d4358128d183380946c2d81b2bb5438efd9cd6d5ae83c95",
+              "terminal": {
+                "total_s": 1320.5383013086441,
+                "travel_s": 545.8279614922384,
+                "service_s": 595.7103398164057,
+                "scan_s": 179.0
+              },
+              "total_s": 1625.5383013086441,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "f823f7d8f74c3bbcd856e2a3bc910611df3ddb0bb4b5882e12fa4ba2e50b933f",
+              "terminal": {
+                "total_s": 1356.677607014732,
+                "travel_s": 608.1237602508719,
+                "service_s": 617.5538467638601,
+                "scan_s": 131.0
+              },
+              "total_s": 1661.677607014732,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            }
+          ]
+        },
+        {
+          "task": [
+            "scan",
+            11
+          ],
+          "mean_s": 1784.0156092020359,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "e6b6c96aebe922df0b99fb7f86a68f367712f7b78e8baf4f2a6eeda527944afb",
+              "terminal": {
+                "total_s": 1839.768181620249,
+                "travel_s": 555.9064150829224,
+                "service_s": 1080.8617665373265,
+                "scan_s": 203.0
+              },
+              "total_s": 2144.768181620249,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "1e60d8c76e4d2fff0026af004a8f458827fea106ac97702b3dd1c9ea1f1eddc1",
+              "terminal": {
+                "total_s": 1225.875251930082,
+                "travel_s": 563.7238252091613,
+                "service_s": 495.15142672092077,
+                "scan_s": 167.0
+              },
+              "total_s": 1530.875251930082,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "2b73e1c185bfcf3457090bd4839ac813efac4718a78398323bb470e34c4d74c0",
+              "terminal": {
+                "total_s": 1815.768181620249,
+                "travel_s": 555.9064150829224,
+                "service_s": 1080.8617665373265,
+                "scan_s": 179.0
+              },
+              "total_s": 2120.768181620249,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "b1e429740b58c11066736cbaa5465f49ec123359021195bbd3a201610745e22c",
+              "terminal": {
+                "total_s": 1319.6620426127488,
+                "travel_s": 636.9527510047611,
+                "service_s": 515.7092916079877,
+                "scan_s": 167.0
+              },
+              "total_s": 1624.6620426127488,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "eb7d60744f4c8f8dc559ed3eb80cc098b2c3ca4846884024148245dc882d69f4",
+              "terminal": {
+                "total_s": 1250.3421011054345,
+                "travel_s": 558.6330003445329,
+                "service_s": 500.70910076090155,
+                "scan_s": 191.0
+              },
+              "total_s": 1555.3421011054345,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 305.0,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "5129f17d4b8a9a9d2279f426c872e00c1260630b6ea9df6ab361103fad9390ad",
+              "terminal": {
+                "total_s": 1422.677896323452,
+                "travel_s": 692.1038117073194,
+                "service_s": 539.5740846161324,
+                "scan_s": 191.0
+              },
+              "total_s": 1727.677896323452,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 0
+            }
+          ]
+        },
+        {
+          "task": [
+            "source",
+            3
+          ],
+          "mean_s": 1999.9323353285515,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "317db15bb3ec8fcae8b354b8148a1ffeaac2ab9e51048faee2bb68b8688c6ce1",
+              "terminal": {
+                "total_s": 1999.188370016783,
+                "travel_s": 614.3266034794565,
+                "service_s": 1080.8617665373265,
+                "scan_s": 304.0
+              },
+              "total_s": 2168.902877761876,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "f5e3c005431baaa865fa8fe85ed0165ad8df498806cc99361a102e29e2754853",
+              "terminal": {
+                "total_s": 1603.6381610494805,
+                "travel_s": 684.2236783334287,
+                "service_s": 615.4144827160519,
+                "scan_s": 304.0
+              },
+              "total_s": 1773.3526687945737,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "9067cd16217027f99ace803de87624bf79e8cf8df74c9727d3b37c3c19a83bd7",
+              "terminal": {
+                "total_s": 1999.188370016783,
+                "travel_s": 614.3266034794565,
+                "service_s": 1080.8617665373265,
+                "scan_s": 304.0
+              },
+              "total_s": 2168.902877761876,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "f78116ca71930136eadee38ce2b16146d50406d1e285092303d31b2a257f82d7",
+              "terminal": {
+                "total_s": 1691.954581423478,
+                "travel_s": 707.6101699220284,
+                "service_s": 680.3444115014496,
+                "scan_s": 304.0
+              },
+              "total_s": 1861.6690891685712,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "317db15bb3ec8fcae8b354b8148a1ffeaac2ab9e51048faee2bb68b8688c6ce1",
+              "terminal": {
+                "total_s": 1999.188370016783,
+                "travel_s": 614.3266034794565,
+                "service_s": 1080.8617665373265,
+                "scan_s": 304.0
+              },
+              "total_s": 2168.902877761876,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 0.0,
+              "second_task": null,
+              "first_public_digest": "d8bdaa14b39af41273144bbd97c2b52f92797d5c056fc1a386a82fcfd4b78fa6",
+              "terminal": {
+                "total_s": 1688.1491129774422,
+                "travel_s": 710.1150629621412,
+                "service_s": 674.0340500153011,
+                "scan_s": 304.0
+              },
+              "total_s": 1857.8636207225354,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 0
+            }
+          ]
+        }
+      ],
+      "budget": {
+        "max_transitions": 60,
+        "max_api_calls": 6000,
+        "used_transitions": 30,
+        "predicted_measure": 372,
+        "predicted_clear": 0,
+        "terminal_evaluations": 30
+      },
+      "planner_wall_s": 4.737053500022739,
+      "planner_cpu_s": 4.703125,
+      "external_wall_s": 4.737139600008959,
+      "external_cpu_s": 4.703125,
+      "original_public_state_unchanged": true
+    },
+    {
+      "depth": 2,
+      "selected": [
+        "source",
+        8
+      ],
+      "applied": false,
+      "reason": "complete_root_comparison",
+      "error": null,
+      "root_digest": "4eca42dacf886dba0247f55d73b5b8dfb31465cdb5e90b55ef4f790cd4a7f639",
+      "root_tasks": [
+        [
+          "source",
+          8
+        ],
+        [
+          "scan",
+          3
+        ],
+        [
+          "scan",
+          5
+        ],
+        [
+          "scan",
+          11
+        ],
+        [
+          "source",
+          3
+        ]
+      ],
+      "baseline_task": [
+        "source",
+        8
+      ],
+      "world_digest": "2facb71115f6aafbc4547091c665e2f52e1b7685ae5e3eea846fbfa8f3ac9e38",
+      "world_count": 6,
+      "sampling": {
+        "model": "window_worlds_v1",
+        "worlds_are_predictions_only": true,
+        "unknown_draw_budget": 4096,
+        "known_draw_budget_per_channel": 8192,
+        "known_target": 48,
+        "known_pools": {
+          "2": {
+            "proposals": 256,
+            "compatible_particles": 48,
+            "sufficient": true
+          },
+          "3": {
+            "proposals": 256,
+            "compatible_particles": 48,
+            "sufficient": true
+          },
+          "8": {
+            "proposals": 256,
+            "compatible_particles": 48,
+            "sufficient": true
+          }
+        },
+        "unknown_support": {
+          "1": 2577,
+          "4": 2577,
+          "5": 2577,
+          "6": 2577,
+          "7": 2577,
+          "9": 2577,
+          "10": 2577,
+          "11": 2577,
+          "12": 2577,
+          "13": 2577,
+          "14": 2577,
+          "15": 2577,
+          "16": 2577,
+          "17": 2577,
+          "18": 2577,
+          "19": 2577,
+          "20": 2577
+        },
+        "prior": "N uniform 10..16; uniform channel subsets; independent uniform disk1800 position, radius1000..1500, half type, uniform heading.",
+        "approximation": "Finite rejection support; known bearing likelihood is support-conditioned, not calibrated. Cleared-source geometry is integrated out.",
+        "history_sha256": "cfa6b2fb18c6e5c9fd7a6eaf1d5a82ae784a68b36fa0b6dabe28c409d9c3d9ff",
+        "actual_discovered": 3,
+        "integrated_out_cleared": [],
+        "existing_cover_absent_channels": [],
+        "total_count_posterior": {
+          "10": 0.23133330158965926,
+          "11": 0.20012222595709447,
+          "12": 0.16787596884486736,
+          "13": 0.13730500078788818,
+          "14": 0.10994517530241099,
+          "15": 0.08646506248605747,
+          "16": 0.06695326503202226
+        },
+        "count_formula": "e_(N-D)(w_c)/C(20,N); equals proportional C(N,D)*w^(N-D) for equal unknown ledgers.",
+        "passed": true,
+        "reason": "sampled",
+        "count": 6,
+        "world_sha256": [
+          "ff104d59c87af80074d9afe9069b5c43aca3d2a46a7a2940d51d36a542c0b1c6",
+          "14ac23ceabad07844e10fe49787a52d512515a390c45be4ce5b34ae5f6a6c31d",
+          "3d8b7d94bea829f273a7b0cb8cbcd05fbf7c366d9d13b0040ba48e50f9599fb2",
+          "814664f668a409c3cf98bbd7f73b723f404ae265b8b24e7f681d2e3e03469baf",
+          "8be4d6ebf0a7f7b1f89b21f1cdfd563f66fd154e1d9eb4c5e9167d88d3002f91",
+          "2fa7ef1637a33ceae86073b71bbd1b02d0a03e1597ebaecee5e9e61f26723ec9"
+        ]
+      },
+      "root_scores": [
+        {
+          "task": [
+            "source",
+            8
+          ],
+          "mean_s": 1593.2089225825396,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 142.66203807897892,
+              "second_task": [
+                "scan",
+                11
+              ],
+              "first_public_digest": "8d228e57baa5b4565b3a969eb5fdc477dacfc4f5c046ee98697559c8dd0a183b",
+              "terminal": {
+                "total_s": 1426.2853818227418,
+                "travel_s": 574.6298429140058,
+                "service_s": 649.6555389087359,
+                "scan_s": 202.0
+              },
+              "total_s": 1738.3196739117197,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 17
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 154.66203807897892,
+              "second_task": [
+                "scan",
+                11
+              ],
+              "first_public_digest": "0aa3b1a03d6afe1db1af7765bb1d7cddf915c99184909463ad24c6a243d90197",
+              "terminal": {
+                "total_s": 843.5955573398329,
+                "travel_s": 593.3271797937739,
+                "service_s": 83.26837754605903,
+                "scan_s": 167.0
+              },
+              "total_s": 1167.6298494288108,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 19
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 142.66203807897892,
+              "second_task": [
+                "scan",
+                11
+              ],
+              "first_public_digest": "b1d61d2fa31f7187cd8d669e033d6a67363900e410dc2faa90c0358455c2253b",
+              "terminal": {
+                "total_s": 1397.2703702619929,
+                "travel_s": 573.8995643734228,
+                "service_s": 645.3708058885702,
+                "scan_s": 178.0
+              },
+              "total_s": 1709.3046623509708,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 17
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 93.16144317492954,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "b4179a7f27989faedfbd6e27b68a9e3617bf0088b267cff801e1c9de23c49ccc",
+              "terminal": {
+                "total_s": 1406.6383488519555,
+                "travel_s": 607.4869221310346,
+                "service_s": 495.15142672092077,
+                "scan_s": 304.0
+              },
+              "total_s": 1669.1720460368838,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 2
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 36.8944015055397,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "33830e955462964f40a178bed25da071584288c1138aff884278e75f6618480f",
+              "terminal": {
+                "total_s": 1361.9814118529184,
+                "travel_s": 567.8299851319978,
+                "service_s": 490.15142672092077,
+                "scan_s": 304.0
+              },
+              "total_s": 1568.248067368457,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 2
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 169.3722540099989,
+              "second_cost_s": 119.44271596930996,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "4eece1fd5eb48b6d152116f27bcdf190ab1684da945e4aa7f30c160dfaac5971",
+              "terminal": {
+                "total_s": 1417.7642664190882,
+                "travel_s": 618.6128396981675,
+                "service_s": 495.15142672092077,
+                "scan_s": 304.0
+              },
+              "total_s": 1706.5792363983971,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 1
+            }
+          ]
+        },
+        {
+          "task": [
+            "scan",
+            3
+          ],
+          "mean_s": 1697.1182448859338,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 299.0,
+              "second_cost_s": 300.0,
+              "second_task": [
+                "scan",
+                5
+              ],
+              "first_public_digest": "82ef56db7f51d4db612744a7add4c4947a795c190aa0f517f0c6444a1c4535f9",
+              "terminal": {
+                "total_s": 1083.7088925438047,
+                "travel_s": 391.998552727399,
+                "service_s": 595.7103398164057,
+                "scan_s": 96.0
+              },
+              "total_s": 1682.7088925438047,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 18
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 299.0,
+              "second_cost_s": 300.0,
+              "second_task": [
+                "scan",
+                5
+              ],
+              "first_public_digest": "662698243ca674a6d290e946fca4d2ea23138be3c4a0df471e3fa2e3ab863706",
+              "terminal": {
+                "total_s": 1081.7969269535747,
+                "travel_s": 390.086587137169,
+                "service_s": 595.7103398164057,
+                "scan_s": 96.0
+              },
+              "total_s": 1680.7969269535747,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 18
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 299.0,
+              "second_cost_s": 288.0,
+              "second_task": [
+                "scan",
+                5
+              ],
+              "first_public_digest": "a4903b6e1c65eba51c748de5a73b984a9ff23bfb8971e24fa09fea9c79d206f2",
+              "terminal": {
+                "total_s": 1072.9614347307354,
+                "travel_s": 393.25109491432966,
+                "service_s": 595.7103398164057,
+                "scan_s": 84.0
+              },
+              "total_s": 1659.9614347307354,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 16
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 299.0,
+              "second_cost_s": 116.0288804977503,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "46248115b112c0b2627d29fbe0a8fd1a3d61a680cf7584dad7fccf3cfaa082f9",
+              "terminal": {
+                "total_s": 1327.5638927803539,
+                "travel_s": 551.9581460775069,
+                "service_s": 608.6057467028469,
+                "scan_s": 167.0
+              },
+              "total_s": 1742.5927732781042,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 3
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 299.0,
+              "second_cost_s": 288.0,
+              "second_task": [
+                "scan",
+                5
+              ],
+              "first_public_digest": "54ef1a7d9365aebdde708293d3158118c70b8be55f345ac362b74a4797ae05a4",
+              "terminal": {
+                "total_s": 1077.226929172103,
+                "travel_s": 403.51658935569725,
+                "service_s": 595.7103398164057,
+                "scan_s": 78.0
+              },
+              "total_s": 1664.226929172103,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 16
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 299.0,
+              "second_cost_s": 117.61178159396744,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "33d16762897f8e238ea40abf62b9d48ff60ab9210c4f530f29e8f6029bff940b",
+              "terminal": {
+                "total_s": 1335.8107310433156,
+                "travel_s": 550.7272425413101,
+                "service_s": 606.0834885020056,
+                "scan_s": 179.0
+              },
+              "total_s": 1752.422512637283,
+              "first_predicted_actions": 18,
+              "second_predicted_actions": 3
+            }
+          ]
+        },
+        {
+          "task": [
+            "scan",
+            5
+          ],
+          "mean_s": 1850.634430310498,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 305.0,
+              "second_cost_s": 74.23484664304385,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "d430f1752f9d4e40f1fbc6eb21f0dac4713b759c6b1b5fb20cfd523d52d93cc6",
+              "terminal": {
+                "total_s": 1810.997343521684,
+                "travel_s": 527.1355769843575,
+                "service_s": 1080.8617665373265,
+                "scan_s": 203.0
+              },
+              "total_s": 2190.232190164728,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 2
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 305.0,
+              "second_cost_s": 294.0,
+              "second_task": [
+                "scan",
+                3
+              ],
+              "first_public_digest": "29e3c583af4cec958c93851e72f13baf62793a94b4baab32088ef6deb59d0044",
+              "terminal": {
+                "total_s": 1117.685251860432,
+                "travel_s": 425.97491204402615,
+                "service_s": 595.7103398164057,
+                "scan_s": 96.0
+              },
+              "total_s": 1716.685251860432,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 17
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 305.0,
+              "second_cost_s": 80.23484664304385,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "48919d5f3042427d2b319cb242fa7125db9da88c7e72b3797c036a8be9771246",
+              "terminal": {
+                "total_s": 1798.997343521684,
+                "travel_s": 527.1355769843575,
+                "service_s": 1080.8617665373265,
+                "scan_s": 191.0
+              },
+              "total_s": 2184.232190164728,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 3
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 305.0,
+              "second_cost_s": 79.07666503890393,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "71ab82f477ce4a061861aebf7eb02670c7f852cf193a70710b7cc19931bb8f2d",
+              "terminal": {
+                "total_s": 1329.8202289124106,
+                "travel_s": 548.109889096005,
+                "service_s": 590.7103398164057,
+                "scan_s": 191.0
+              },
+              "total_s": 1713.8968939513145,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 4
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 305.0,
+              "second_cost_s": 48.743320561803806,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "ad403a725665c5df4d4358128d183380946c2d81b2bb5438efd9cd6d5ae83c95",
+              "terminal": {
+                "total_s": 1283.7931680598626,
+                "travel_s": 514.082828243457,
+                "service_s": 590.7103398164057,
+                "scan_s": 179.0
+              },
+              "total_s": 1637.5364886216664,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 3
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 305.0,
+              "second_cost_s": 85.84947972672927,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "f823f7d8f74c3bbcd856e2a3bc910611df3ddb0bb4b5882e12fa4ba2e50b933f",
+              "terminal": {
+                "total_s": 1270.3740873733911,
+                "travel_s": 548.6637475569854,
+                "service_s": 590.7103398164057,
+                "scan_s": 131.0
+              },
+              "total_s": 1661.2235671001204,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 5
+            }
+          ]
+        },
+        {
+          "task": [
+            "scan",
+            11
+          ],
+          "mean_s": 1657.0999578388737,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 305.0,
+              "second_cost_s": 77.44433792882474,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "e6b6c96aebe922df0b99fb7f86a68f367712f7b78e8baf4f2a6eeda527944afb",
+              "terminal": {
+                "total_s": 947.1761419076902,
+                "travel_s": 582.6873167114504,
+                "service_s": 161.4888251962398,
+                "scan_s": 203.0
+              },
+              "total_s": 1329.620479836515,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 3
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 305.0,
+              "second_cost_s": 42.254658134166526,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "1e60d8c76e4d2fff0026af004a8f458827fea106ac97702b3dd1c9ea1f1eddc1",
+              "terminal": {
+                "total_s": 1195.0804189438686,
+                "travel_s": 537.928992222948,
+                "service_s": 490.15142672092077,
+                "scan_s": 167.0
+              },
+              "total_s": 1542.335077078035,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 3
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 305.0,
+              "second_cost_s": 77.44433792882474,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "2b73e1c185bfcf3457090bd4839ac813efac4718a78398323bb470e34c4d74c0",
+              "terminal": {
+                "total_s": 1788.93320189071,
+                "travel_s": 529.0714353533835,
+                "service_s": 1080.8617665373265,
+                "scan_s": 179.0
+              },
+              "total_s": 2171.377539819535,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 3
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 305.0,
+              "second_cost_s": 84.831422734833,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "b1e429740b58c11066736cbaa5465f49ec123359021195bbd3a201610745e22c",
+              "terminal": {
+                "total_s": 1250.5732514980764,
+                "travel_s": 593.4218247771557,
+                "service_s": 490.15142672092077,
+                "scan_s": 167.0
+              },
+              "total_s": 1640.4046742329094,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 6
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 305.0,
+              "second_cost_s": 47.008643558580815,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "eb7d60744f4c8f8dc559ed3eb80cc098b2c3ca4846884024148245dc882d69f4",
+              "terminal": {
+                "total_s": 1208.4692818058916,
+                "travel_s": 527.3178550849709,
+                "service_s": 490.15142672092077,
+                "scan_s": 191.0
+              },
+              "total_s": 1560.4779253644724,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 3
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 305.0,
+              "second_cost_s": 98.77037507873123,
+              "second_task": [
+                "source",
+                8
+              ],
+              "first_public_digest": "5129f17d4b8a9a9d2279f426c872e00c1260630b6ea9df6ab361103fad9390ad",
+              "terminal": {
+                "total_s": 1294.6136756230442,
+                "travel_s": 613.4622489021234,
+                "service_s": 490.15142672092077,
+                "scan_s": 191.0
+              },
+              "total_s": 1698.3840507017753,
+              "first_predicted_actions": 19,
+              "second_predicted_actions": 5
+            }
+          ]
+        },
+        {
+          "task": [
+            "source",
+            3
+          ],
+          "mean_s": 1886.9871042806308,
+          "samples": [
+            {
+              "world_index": 0,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 52.000000000000014,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "317db15bb3ec8fcae8b354b8148a1ffeaac2ab9e51048faee2bb68b8688c6ce1",
+              "terminal": {
+                "total_s": 1981.8049110341494,
+                "travel_s": 596.9431444968228,
+                "service_s": 1080.8617665373265,
+                "scan_s": 304.0
+              },
+              "total_s": 2203.5194187792426,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 2
+            },
+            {
+              "world_index": 1,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 170.23484664304385,
+              "second_task": [
+                "scan",
+                5
+              ],
+              "first_public_digest": "f5e3c005431baaa865fa8fe85ed0165ad8df498806cc99361a102e29e2754853",
+              "terminal": {
+                "total_s": 1428.4033144064367,
+                "travel_s": 621.9888316903848,
+                "service_s": 615.4144827160519,
+                "scan_s": 191.0
+              },
+              "total_s": 1768.3526687945737,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 18
+            },
+            {
+              "world_index": 2,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 46.000000000000014,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "9067cd16217027f99ace803de87624bf79e8cf8df74c9727d3b37c3c19a83bd7",
+              "terminal": {
+                "total_s": 1981.8049110341494,
+                "travel_s": 596.9431444968228,
+                "service_s": 1080.8617665373265,
+                "scan_s": 304.0
+              },
+              "total_s": 2197.5194187792426,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 1
+            },
+            {
+              "world_index": 3,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 170.23484664304385,
+              "second_task": [
+                "scan",
+                5
+              ],
+              "first_public_digest": "f78116ca71930136eadee38ce2b16146d50406d1e285092303d31b2a257f82d7",
+              "terminal": {
+                "total_s": 1404.8383155553825,
+                "travel_s": 613.7517954956176,
+                "service_s": 600.0865200597648,
+                "scan_s": 191.0
+              },
+              "total_s": 1744.7876699435194,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 18
+            },
+            {
+              "world_index": 4,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 52.000000000000014,
+              "second_task": [
+                "source",
+                3
+              ],
+              "first_public_digest": "317db15bb3ec8fcae8b354b8148a1ffeaac2ab9e51048faee2bb68b8688c6ce1",
+              "terminal": {
+                "total_s": 1492.827205047859,
+                "travel_s": 587.3450923267608,
+                "service_s": 601.4821127210984,
+                "scan_s": 304.0
+              },
+              "total_s": 1714.5417127929522,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 2
+            },
+            {
+              "world_index": 5,
+              "first_cost_s": 169.7145077450931,
+              "second_cost_s": 176.23484664304385,
+              "second_task": [
+                "scan",
+                5
+              ],
+              "first_public_digest": "d8bdaa14b39af41273144bbd97c2b52f92797d5c056fc1a386a82fcfd4b78fa6",
+              "terminal": {
+                "total_s": 1347.252382206117,
+                "travel_s": 616.1163025979646,
+                "service_s": 600.1360796081524,
+                "scan_s": 131.0
+              },
+              "total_s": 1693.201736594254,
+              "first_predicted_actions": 3,
+              "second_predicted_actions": 19
+            }
+          ]
+        }
+      ],
+      "budget": {
+        "max_transitions": 60,
+        "max_api_calls": 6000,
+        "used_transitions": 60,
+        "predicted_measure": 603,
+        "predicted_clear": 18,
+        "terminal_evaluations": 30
+      },
+      "planner_wall_s": 9.79652570001781,
+      "planner_cpu_s": 9.65625,
+      "external_wall_s": 9.796824499993818,
+      "external_cpu_s": 9.65625,
+      "original_public_state_unchanged": true
+    }
+  ],
+  "network_guard": {
+    "attempts": 0
+  },
+  "limitation": "Both depths have identical root state/worlds and transition cap; consumed prediction work differs. Scores are fixed-task-episode work-model predictions, not realized costs or a performance comparison."
+}

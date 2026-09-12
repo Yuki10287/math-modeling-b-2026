@@ -24,7 +24,7 @@ try {
     $runtimePath = [string]$runtimePath
     switch ($Problem) {
         'q3' { $folder='src\q3_model_v2'; $verify='verify_main_solution.py'; $client='official_client.py'; $label='第三问 time/lean'; $module='问题3演练测试' }
-        'q4' { $folder='src\q4_model'; $verify='verify_release.py'; $client='q4_official_client.py'; $label='第四问 shared'; $module='问题4演练测试' }
+        'q4' { $folder='src\q4_model'; $verify='verify_share25_prune_release.py'; $client='q4_share25_prune_client.py'; $label='第四问 share25_prune 最终方案'; $module='问题4演练测试' }
         'share25' { $folder='src\q4_model'; $verify='verify_share25_release.py'; $client='q4_share25_client.py'; $label='第四问 share25 候选'; $module='问题4演练测试' }
     }
     $modulePath = Join-Path $runtimePath $folder

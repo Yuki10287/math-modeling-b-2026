@@ -46,7 +46,7 @@ def visited_stop_diagnostic(case, centers):
         interpretation='All previous stops considered, regardless of channels actually measured; not a rerun of a changed policy.')
 
 
-def read_case(path, centers):
+def read_case(path, centers, source_dir=None):
     records = [json.loads(line) for line in path.read_text(encoding='utf-8-sig').splitlines() if line.strip()]
     traces = json.loads(Path(str(path) + '.beliefs.json').read_text(encoding='utf-8-sig'))
     summaries = [r for r in records if r.get('type') == 'session_summary']
@@ -56,8 +56,9 @@ def read_case(path, centers):
     assert summary['complete'] and summary['status'] == 'complete' and summary['exit_accepted']
     assert summary['fallback_count'] == 0
     hashes = summary['source_sha256']
+    source_dir = Path(source_dir) if source_dir is not None else BASE
     mismatches = [name for name, value in hashes.items()
-                  if hashlib.sha256((BASE / name).read_bytes()).hexdigest() != value]
+                  if hashlib.sha256((source_dir / name).read_bytes()).hexdigest() != value]
     assert not mismatches, mismatches
     accepted = [r for r in records if r.get('path')]
     assert accepted[0]['path'] == '/enter' and accepted[-1]['path'] == '/exit'
@@ -141,8 +142,13 @@ def read_case(path, centers):
     evidence = all_channel_evidence_audit(SimpleNamespace(events=actions), summary, centers)
     cert = summary['completion_certificate']
     absent = set(cert['absent_channels'])
+    absent_by_count = set(cert.get('absent_by_count_channels', []))
     assert not (absent & removed)
-    assert absent | removed == set(range(1, 21))
+    assert not (absent_by_count & (absent | removed))
+    assert absent | absent_by_count | removed == set(range(1, 21))
+    if absent_by_count:
+        assert cert['basis'] == 'count_upper_bound' and len(removed) == 16
+        assert absent_by_count == set(range(1, 21)) - removed
     assert not cert['unresolved_channels']
     assert all(evidence['per_channel'][str(c)]['complete'] for c in absent)
     cursor = 0

@@ -1,6 +1,6 @@
 # 第四问：官方演练与时间诊断
 
-**状态：实测复盘。** 本组保存shared的两批演练（5次与4次），以及share25的第六批4次演练。各批代码、数据、报告与诊断单独归档；share25及后续保序删点的本地研究见[候选阶段](../05_候选share25/README.md)。share25_prune尚无官方实测成绩。
+**状态：实测复盘。** 本组保存shared的两批演练（5次与4次）、share25的第六批4次演练，以及share25_prune的第八批5次演练。各批代码、数据、报告与诊断单独归档；候选的本地研究见[候选阶段](../05_候选share25/README.md)。
 
 ## 按批次查找
 
@@ -9,8 +9,9 @@
 | 旧批：测试结果(2).zip，5次 | shared；63/63清除；合并503.51秒/源 | [五次结果分析](reports/官方演练五次结果分析.md) | [逐动作与汇总](results/official_q4_20260911_analysis.json)、[对应图表](figures/official_q4_practice_costs.png) |
 | 新批：测试结果(4).zip，4次 | shared；50/50清除；合并504.33秒/源 | [第四批结果分析](reports/官方演练第四批结果分析.md) | [逐动作与汇总](results/official_q4_20260912_batch4_analysis.json)、[条件回放诊断](results/official_q4_20260912_batch4_replay_detail.json) |
 | 第六批：测试结果(6).zip，4次 | share25；51/51清除；合并517.21秒/源 | [第六批share25结果分析](reports/官方演练第六批share25结果分析.md) | [逐动作与汇总](results/official_q4_20260912_batch6_share25_analysis.json)、[情景预测诊断](results/official_q4_20260912_batch6_share25_diagnostics.json) |
+| 第八批：测试结果(8).zip，5次 | share25_prune；72/72清除；合并416.58秒/源 | [第八批保序删点分析](reports/官方演练第八批保序删点结果分析.md) | [独立审计](results/official_q4_batch8_prune_independent_audit_v1.json)、[费用及路线诊断](results/official_q4_batch8_prune_diagnostics_v1.json) |
 
-第四批shared平均整局6304.11秒，第六批share25平均6594.44秒，尚无官方证据确认候选提速。5000秒参考针对整局；旧[400秒目标评估](results/target400_assessment.json)针对单源，二者不能混用。不同批次布局不同，均值变化不能当作算法改进或退步幅度。下文“新批”的历史复核步骤专指第四批shared。
+第四批shared平均整局6304.11秒，第六批share25平均6594.44秒，第八批share25_prune平均5998.69秒。5000秒参考针对整局；旧[400秒目标评估](results/target400_assessment.json)针对单源，二者不能混用。不同批次布局不同，均值变化不能当作算法改进或退步幅度；第八批另以保序证明单独核算删点的实际收益。下文“新批”的历史复核步骤专指第四批shared。
 
 新批前三次严格回放通过，第四次在两处等价路线选择上沿用日志方向后通过条件核查；条件核查与严格复现分别记录。具体证据和局限见新批报告。
 

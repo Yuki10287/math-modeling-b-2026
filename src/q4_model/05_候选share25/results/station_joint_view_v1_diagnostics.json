@@ -1,0 +1,2426 @@
+{
+  "scope": "Read-only analysis of saved local development and independent holdout cases; no official test or new solver experiment.",
+  "diagnostic_source": {
+    "path": "src/q4_model/05_候选share25/code/diagnose_station_joint_view_v1.py",
+    "sha256": "162684c0d53773cecc1876166df54644846d75e40c08863d107299ca3fd415ad"
+  },
+  "frozen_model": {
+    "path": "src/q4_model/05_候选share25/code/station_joint_view_experiment.py",
+    "sha256": "f83999d7a38316930bccfee6d7304aff35a4117569f8347fe55ab816919118cc"
+  },
+  "development_54100": {
+    "inputs": [
+      {
+        "path": "src/q4_model/05_候选share25/results/station_joint_view_dev54000_v1/54100-boundary-hashed-baseline_share25_prune.json",
+        "sha256": "de10f44681b712146bc636d737833d16f90ca7aa71cd08e38a989b5b7eff78bd"
+      },
+      {
+        "path": "src/q4_model/05_候选share25/results/station_joint_view_dev54000_v1/54100-boundary-hashed-station_joint_view.json",
+        "sha256": "81f58ee39e43d0fa42403dba3bc757e1501281b227b48da759299c108199708e"
+      }
+    ],
+    "baseline_summary": {
+      "seed": 54100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 6.364526299992576,
+      "independent_audit_wall_s": 1.8879062999913003,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 483,
+        "polygons": 28,
+        "optical_plans": 8,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 7463.5986659463715,
+        "counts": {
+          "measure": 439,
+          "switch": 418,
+          "clear_success": 11,
+          "clear_fail": 33
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 325,
+          "skipped_before_success": 30,
+          "accepted_actions": 483,
+          "actual_optical_actions": 41,
+          "contractions_applied": 6,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 6
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 483,
+        "task_choice": 42,
+        "belief": 28,
+        "shared_prediction": 10,
+        "decision": 7,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 422,
+        "unknown_scan_measures": 422,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "optical_cover": {
+            "actions": 41
+          },
+          "scan": {
+            "actions": 422,
+            "negative": 411,
+            "positive": 11
+          },
+          "shared_measure": {
+            "actions": 10,
+            "positive": 4,
+            "negative": 6
+          },
+          "source_measure": {
+            "actions": 7,
+            "negative": 5,
+            "positive": 2
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 7463.5986659463715,
+      "average_s": 678.5089696314883,
+      "distance_m": 23482.993329731842,
+      "counts": {
+        "measure": 439,
+        "switch": 418,
+        "clear_success": 11,
+        "clear_fail": 33
+      },
+      "time_parts_s": {
+        "move": 4696.598665946369,
+        "measure": 2195,
+        "switch": 418,
+        "clear_success": 55,
+        "clear_fail": 99
+      },
+      "source_snapshot_stable": true
+    },
+    "candidate_summary": {
+      "seed": 54100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 885.4039062000229,
+      "independent_audit_wall_s": 4.187574800016591,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 495,
+        "polygons": 28,
+        "optical_plans": 8,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 7599.989213733246,
+        "counts": {
+          "measure": 439,
+          "switch": 418,
+          "clear_success": 11,
+          "clear_fail": 45
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 301,
+          "skipped_before_success": 18,
+          "accepted_actions": 495,
+          "actual_optical_actions": 53,
+          "contractions_applied": 6,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 6
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 495,
+        "task_choice": 41,
+        "belief": 28,
+        "shared_prediction": 10,
+        "station_joint_prediction": 12,
+        "decision": 6,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 12,
+        "joint_selected": 1,
+        "actual_joint_measures": 1,
+        "joint_positive": 0,
+        "joint_negative": 1,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 422,
+        "unknown_scan_measures": 422,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "joint_source_measure": {
+            "actions": 1,
+            "negative": 1
+          },
+          "optical_cover": {
+            "actions": 53
+          },
+          "scan": {
+            "actions": 422,
+            "negative": 411,
+            "positive": 11
+          },
+          "shared_measure": {
+            "actions": 10,
+            "positive": 4,
+            "negative": 6
+          },
+          "source_measure": {
+            "actions": 6,
+            "negative": 4,
+            "positive": 2
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 7599.989213733246,
+      "average_s": 690.908110339386,
+      "distance_m": 23984.946068666224,
+      "counts": {
+        "measure": 439,
+        "switch": 418,
+        "clear_success": 11,
+        "clear_fail": 45
+      },
+      "time_parts_s": {
+        "move": 4796.9892137332445,
+        "measure": 2195,
+        "switch": 418,
+        "clear_success": 55,
+        "clear_fail": 135
+      },
+      "source_snapshot_stable": true
+    },
+    "total_delta_s": 136.39054778687478,
+    "relative_regression_percent": 1.8274099920347298,
+    "component_delta_s": {
+      "move": 100.39054778687569,
+      "measure": 0,
+      "switch": 0,
+      "clear_success": 0,
+      "clear_fail": 36
+    },
+    "reason_counts": [
+      {
+        "scan": 422,
+        "shared_measure": 10,
+        "source_measure": 7,
+        "optical_cover": 41,
+        "certified_clear": 3
+      },
+      {
+        "scan": 422,
+        "shared_measure": 10,
+        "source_measure": 6,
+        "optical_cover": 53,
+        "joint_source_measure": 1,
+        "certified_clear": 3
+      }
+    ],
+    "first_behavior_divergence": {
+      "event": 355,
+      "baseline": {
+        "action": "measure",
+        "position": [
+          -1693.2374001193161,
+          -117.42148423219352
+        ],
+        "channel": 14,
+        "time_s": 4856.393881550458,
+        "measure_result": "no_signal"
+      },
+      "candidate": {
+        "action": "measure",
+        "position": [
+          -1863.4972282657675,
+          2.2821259158156367e-13
+        ],
+        "channel": 14,
+        "time_s": 4889.777634640176,
+        "measure_result": "no_signal"
+      }
+    },
+    "selected_joint_actions": [
+      {
+        "trace_index": 403,
+        "actual_action": {
+          "phase": "actual_action",
+          "action": "measure",
+          "reason": "joint_source_measure",
+          "channel": 14,
+          "event": 355,
+          "position": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "move_s": 213.3546247196121,
+          "result": "no_signal"
+        },
+        "original_action": "measure",
+        "original_forecast": {
+          "local_s": 288.871803877156,
+          "continuation_s": 1904.1418787205062,
+          "score": 2193.0136825976624,
+          "signal_mass": 0.9782608695652173,
+          "scenarios": 46
+        },
+        "selected_forecast": {
+          "local_s": 307.6814537531265,
+          "continuation_s": 1695.508080365906,
+          "score": 2087.1895341190325,
+          "signal_mass": 1.0,
+          "scenarios": 46,
+          "station": 19,
+          "q": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "scan_fee_s": 84
+        },
+        "expected_saving_s": 105.82414847862992,
+        "original_prune_diagnostic": null
+      }
+    ],
+    "optical_blocks": [
+      {
+        "channel": 4,
+        "baseline": {
+          "actions": 5,
+          "failures": 4,
+          "move_s": 63.37786379812042,
+          "total_s": 80.3778637981195
+        },
+        "candidate": {
+          "actions": 5,
+          "failures": 4,
+          "move_s": 63.37786379812042,
+          "total_s": 80.3778637981195
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          22,
+          22
+        ],
+        "removed_planned": [
+          12,
+          12
+        ],
+        "first_actual_points": [
+          [
+            1141.4857002500269,
+            1392.0459606145387
+          ],
+          [
+            1141.4857002500269,
+            1392.0459606145387
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 8,
+        "baseline": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 41.62405512384147,
+          "total_s": 46.62405512384157
+        },
+        "candidate": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 41.62405512384147,
+          "total_s": 46.62405512384157
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          88,
+          88
+        ],
+        "removed_planned": [
+          73,
+          73
+        ],
+        "first_actual_points": [
+          [
+            -1641.5675454319946,
+            752.212314038092
+          ],
+          [
+            -1641.5675454319946,
+            752.212314038092
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 12,
+        "baseline": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 25.915381400752437,
+          "total_s": 33.915381400753176
+        },
+        "candidate": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 25.915381400752437,
+          "total_s": 33.915381400753176
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          100,
+          100
+        ],
+        "removed_planned": [
+          48,
+          48
+        ],
+        "first_actual_points": [
+          [
+            1795.0076054299425,
+            -74.64754515472168
+          ],
+          [
+            1795.0076054299425,
+            -74.64754515472168
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 14,
+        "baseline": {
+          "actions": 20,
+          "failures": 19,
+          "move_s": 143.7709324649613,
+          "total_s": 205.77093246496042
+        },
+        "candidate": {
+          "actions": 32,
+          "failures": 31,
+          "move_s": 225.74529140793484,
+          "total_s": 323.7452914079331
+        },
+        "delta_s": 117.97435894297269,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          98,
+          98
+        ],
+        "removed_planned": [
+          60,
+          36
+        ],
+        "first_actual_points": [
+          [
+            -1616.3365943691301,
+            -287.80041073477776
+          ],
+          [
+            -1608.4718617654808,
+            49.1843860989123
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [
+          [
+            -1693.2374001193161,
+            -117.42148423219352
+          ]
+        ],
+        "candidate_only_negative_points": [
+          [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ]
+        ]
+      },
+      {
+        "channel": 16,
+        "baseline": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 34.22491382786858,
+          "total_s": 39.22491382786848
+        },
+        "candidate": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 34.22491382786858,
+          "total_s": 39.22491382786848
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          4,
+          4
+        ],
+        "removed_planned": [
+          0,
+          0
+        ],
+        "first_actual_points": [
+          [
+            1747.524976858359,
+            239.84202319936938
+          ],
+          [
+            1747.524976858359,
+            239.84202319936938
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 17,
+        "baseline": {
+          "actions": 7,
+          "failures": 6,
+          "move_s": 57.13348489546108,
+          "total_s": 80.13348489546252
+        },
+        "candidate": {
+          "actions": 7,
+          "failures": 6,
+          "move_s": 57.13348489546108,
+          "total_s": 80.13348489546252
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          66,
+          66
+        ],
+        "removed_planned": [
+          45,
+          45
+        ],
+        "first_actual_points": [
+          [
+            -718.213833979181,
+            -1656.2031416160055
+          ],
+          [
+            -718.213833979181,
+            -1656.2031416160055
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 19,
+        "baseline": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 87.71263309317345,
+          "total_s": 95.71263309317328
+        },
+        "candidate": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 87.71263309317345,
+          "total_s": 95.71263309317328
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          7,
+          7
+        ],
+        "removed_planned": [
+          0,
+          0
+        ],
+        "first_actual_points": [
+          [
+            -399.6441387798209,
+            1756.050012409411
+          ],
+          [
+            -399.6441387798209,
+            1756.050012409411
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 20,
+        "baseline": {
+          "actions": 3,
+          "failures": 2,
+          "move_s": 68.57694893842323,
+          "total_s": 79.57694893842381
+        },
+        "candidate": {
+          "actions": 3,
+          "failures": 2,
+          "move_s": 68.57694893842323,
+          "total_s": 79.57694893842381
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          100,
+          100
+        ],
+        "removed_planned": [
+          87,
+          87
+        ],
+        "first_actual_points": [
+          [
+            -1505.1422670078869,
+            -964.2981073901869
+          ],
+          [
+            -1505.1422670078869,
+            -964.2981073901869
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      }
+    ],
+    "optical_extra_s": 117.97435894297269,
+    "optical_share_of_total_regression": 0.8649745958005872,
+    "discoveries": [
+      {
+        "channel": 3,
+        "baseline": {
+          "event": 144,
+          "position": [
+            -678.8225099390855,
+            678.8225099390856
+          ],
+          "time_s": 1644.3190799162078
+        },
+        "candidate": {
+          "event": 144,
+          "position": [
+            -678.8225099390855,
+            678.8225099390856
+          ],
+          "time_s": 1644.3190799162078
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 2,
+        "baseline": {
+          "event": 221,
+          "position": [
+            927.2887932375056,
+            248.4662832984199
+          ],
+          "time_s": 2500.86513319368
+        },
+        "candidate": {
+          "event": 221,
+          "position": [
+            927.2887932375056,
+            248.4662832984199
+          ],
+          "time_s": 2500.86513319368
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 16,
+        "baseline": {
+          "event": 234,
+          "position": [
+            927.2887932375056,
+            248.4662832984199
+          ],
+          "time_s": 2578.86513319368
+        },
+        "candidate": {
+          "event": 234,
+          "position": [
+            927.2887932375056,
+            248.4662832984199
+          ],
+          "time_s": 2578.86513319368
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 17,
+        "baseline": {
+          "event": 322,
+          "position": [
+            -931.7486141328845,
+            -1613.8359395600432
+          ],
+          "time_s": 3974.74562701003
+        },
+        "candidate": {
+          "event": 322,
+          "position": [
+            -931.7486141328845,
+            -1613.8359395600432
+          ],
+          "time_s": 3974.74562701003
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 14,
+        "baseline": {
+          "event": 344,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4471.865827645834
+        },
+        "candidate": {
+          "event": 344,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4471.865827645834
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 20,
+        "baseline": {
+          "event": 348,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4495.865827645834
+        },
+        "candidate": {
+          "event": 348,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4495.865827645834
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 8,
+        "baseline": {
+          "event": 396,
+          "position": [
+            -1613.8359395600437,
+            931.7486141328836
+          ],
+          "time_s": 5547.2687486864825
+        },
+        "candidate": {
+          "event": 408,
+          "position": [
+            -1613.8359395600437,
+            931.7486141328836
+          ],
+          "time_s": 5683.659296473357
+        },
+        "candidate_delay_s": 136.39054778687478
+      },
+      {
+        "channel": 18,
+        "baseline": {
+          "event": 433,
+          "position": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "time_s": 6304.600594658203
+        },
+        "candidate": {
+          "event": 445,
+          "position": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "time_s": 6440.9911424450775
+        },
+        "candidate_delay_s": 136.39054778687478
+      },
+      {
+        "channel": 19,
+        "baseline": {
+          "event": 434,
+          "position": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "time_s": 6310.600594658203
+        },
+        "candidate": {
+          "event": 446,
+          "position": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "time_s": 6446.9911424450775
+        },
+        "candidate_delay_s": 136.39054778687478
+      },
+      {
+        "channel": 4,
+        "baseline": {
+          "event": 441,
+          "position": [
+            931.748614132884,
+            1613.8359395600435
+          ],
+          "time_s": 6734.803579224181
+        },
+        "candidate": {
+          "event": 453,
+          "position": [
+            931.748614132884,
+            1613.8359395600435
+          ],
+          "time_s": 6871.194127011056
+        },
+        "candidate_delay_s": 136.39054778687478
+      },
+      {
+        "channel": 12,
+        "baseline": {
+          "event": 479,
+          "position": [
+            1863.4972282657675,
+            0.0
+          ],
+          "time_s": 7417.683284545618
+        },
+        "candidate": {
+          "event": 491,
+          "position": [
+            1863.4972282657675,
+            0.0
+          ],
+          "time_s": 7554.073832332493
+        },
+        "candidate_delay_s": 136.39054778687478
+      }
+    ],
+    "discovery_order_and_positions_exactly_same": true,
+    "suffix_after_last_discovery": {
+      "baseline_start_after_event": 479,
+      "candidate_start_after_event": 491,
+      "baseline_actions": 4,
+      "candidate_actions": 4,
+      "identical_except_virtual_clock": true
+    }
+  },
+  "holdout_55101": {
+    "inputs": [
+      {
+        "path": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55101-boundary-hashed-baseline_share25_prune.json",
+        "sha256": "eb7851cc76d2699ab84f8c9375e610d7bd3251a8f867988919882702a140cab2"
+      },
+      {
+        "path": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55101-boundary-hashed-station_joint_view.json",
+        "sha256": "40c3914aa545c3c353ebe1139c579cccdcf1c3e1a7d7bf5259f53a50bd98df43"
+      }
+    ],
+    "baseline_summary": {
+      "seed": 55101,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 13.087594900018303,
+      "independent_audit_wall_s": 1.4157096999988426,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 450,
+        "polygons": 47,
+        "optical_plans": 10,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 7586.848626470279,
+        "counts": {
+          "measure": 374,
+          "switch": 356,
+          "clear_success": 16,
+          "clear_fail": 60
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 270,
+          "skipped_before_success": 30,
+          "accepted_actions": 450,
+          "actual_optical_actions": 70,
+          "contractions_applied": 4,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 4
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 450,
+        "task_choice": 48,
+        "belief": 47,
+        "shared_prediction": 21,
+        "decision": 10,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 23,
+        "actual_scan_measures": 343,
+        "unknown_scan_measures": 343,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "optical_cover": {
+            "actions": 70
+          },
+          "scan": {
+            "actions": 343,
+            "negative": 327,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 21,
+            "negative": 14,
+            "positive": 7
+          },
+          "source_measure": {
+            "actions": 10,
+            "positive": 4,
+            "negative": 6
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 7586.848626470279,
+      "average_s": 474.1780391543924,
+      "distance_m": 25504.243132351527,
+      "counts": {
+        "measure": 374,
+        "switch": 356,
+        "clear_success": 16,
+        "clear_fail": 60
+      },
+      "time_parts_s": {
+        "move": 5100.848626470305,
+        "measure": 1870,
+        "switch": 356,
+        "clear_success": 80,
+        "clear_fail": 180
+      },
+      "source_snapshot_stable": true
+    },
+    "candidate_summary": {
+      "seed": 55101,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 14.948277099989355,
+      "independent_audit_wall_s": 1.6403098999871872,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 582,
+        "polygons": 48,
+        "optical_plans": 10,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 9277.278883432089,
+        "counts": {
+          "measure": 375,
+          "switch": 360,
+          "clear_success": 16,
+          "clear_fail": 191
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 249,
+          "skipped_before_success": 91,
+          "accepted_actions": 582,
+          "actual_optical_actions": 201,
+          "contractions_applied": 5,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 5
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 582,
+        "task_choice": 44,
+        "belief": 48,
+        "shared_prediction": 22,
+        "station_joint_prediction": 15,
+        "decision": 6,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 15,
+        "joint_selected": 4,
+        "actual_joint_measures": 4,
+        "joint_positive": 0,
+        "joint_negative": 4,
+        "actual_scan_stations": 23,
+        "actual_scan_measures": 343,
+        "unknown_scan_measures": 343,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "joint_source_measure": {
+            "actions": 4,
+            "negative": 4
+          },
+          "optical_cover": {
+            "actions": 201
+          },
+          "scan": {
+            "actions": 343,
+            "negative": 327,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 22,
+            "negative": 15,
+            "positive": 7
+          },
+          "source_measure": {
+            "actions": 6,
+            "positive": 4,
+            "negative": 2
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 9277.278883432089,
+      "average_s": 579.8299302145056,
+      "distance_m": 31946.394417160456,
+      "counts": {
+        "measure": 375,
+        "switch": 360,
+        "clear_success": 16,
+        "clear_fail": 191
+      },
+      "time_parts_s": {
+        "move": 6389.278883432091,
+        "measure": 1875,
+        "switch": 360,
+        "clear_success": 80,
+        "clear_fail": 573
+      },
+      "source_snapshot_stable": true
+    },
+    "total_delta_s": 1690.4302569618103,
+    "relative_regression_percent": 22.281059504257826,
+    "component_delta_s": {
+      "move": 1288.4302569617857,
+      "measure": 5,
+      "switch": 4,
+      "clear_success": 0,
+      "clear_fail": 393
+    },
+    "reason_counts": [
+      {
+        "scan": 343,
+        "shared_measure": 21,
+        "source_measure": 10,
+        "certified_clear": 6,
+        "optical_cover": 70
+      },
+      {
+        "scan": 343,
+        "shared_measure": 22,
+        "source_measure": 6,
+        "certified_clear": 6,
+        "optical_cover": 201,
+        "joint_source_measure": 4
+      }
+    ],
+    "first_behavior_divergence": {
+      "event": 327,
+      "baseline": {
+        "action": "measure",
+        "position": [
+          -1487.850042000371,
+          -658.6632111510182
+        ],
+        "channel": 15,
+        "time_s": 4526.278835025627,
+        "measure_result": "no_signal"
+      },
+      "candidate": {
+        "action": "measure",
+        "position": [
+          -1863.4972282657675,
+          2.2821259158156367e-13
+        ],
+        "channel": 15,
+        "time_s": 4675.932260130311,
+        "measure_result": "no_signal"
+      }
+    },
+    "selected_joint_actions": [
+      {
+        "trace_index": 398,
+        "actual_action": {
+          "phase": "actual_action",
+          "action": "measure",
+          "reason": "joint_source_measure",
+          "channel": 15,
+          "event": 327,
+          "position": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "move_s": 263.0589489630734,
+          "result": "no_signal"
+        },
+        "original_action": "measure",
+        "original_forecast": {
+          "local_s": 358.55533002599043,
+          "continuation_s": 1839.7058071636463,
+          "score": 2198.261137189637,
+          "signal_mass": 0.9,
+          "scenarios": 50
+        },
+        "selected_forecast": {
+          "local_s": 396.5209431433525,
+          "continuation_s": 1668.7920298849428,
+          "score": 2131.3129730282953,
+          "signal_mass": 0.88,
+          "scenarios": 50,
+          "station": 19,
+          "q": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "scan_fee_s": 66
+        },
+        "expected_saving_s": 66.94816416134154,
+        "original_prune_diagnostic": null
+      },
+      {
+        "trace_index": 453,
+        "actual_action": {
+          "phase": "actual_action",
+          "action": "measure",
+          "reason": "joint_source_measure",
+          "channel": 19,
+          "event": 365,
+          "position": [
+            -1613.8359395600437,
+            931.7486141328836
+          ],
+          "move_s": 330.95877577843765,
+          "result": "no_signal"
+        },
+        "original_action": "measure",
+        "original_forecast": {
+          "local_s": 397.68918647983605,
+          "continuation_s": 1582.0222761905468,
+          "score": 1979.7114626703828,
+          "signal_mass": 0.9761904761904762,
+          "scenarios": 42
+        },
+        "selected_forecast": {
+          "local_s": 449.28999434984763,
+          "continuation_s": 1445.493882150113,
+          "score": 1948.7838764999606,
+          "signal_mass": 1.0,
+          "scenarios": 42,
+          "station": 18,
+          "q": [
+            -1613.8359395600437,
+            931.7486141328836
+          ],
+          "scan_fee_s": 54
+        },
+        "expected_saving_s": 30.927586170422273,
+        "original_prune_diagnostic": null
+      },
+      {
+        "trace_index": 508,
+        "actual_action": {
+          "phase": "actual_action",
+          "action": "measure",
+          "reason": "joint_source_measure",
+          "channel": 14,
+          "event": 408,
+          "position": [
+            -931.7486141328833,
+            1613.8359395600437
+          ],
+          "move_s": 346.1748030932925,
+          "result": "no_signal"
+        },
+        "original_action": "optical",
+        "original_forecast": {
+          "local_s": 595.7330725623046,
+          "continuation_s": 1453.9446812231922,
+          "score": 2049.677753785497
+        },
+        "selected_forecast": {
+          "local_s": 661.8593670223778,
+          "continuation_s": 1311.4338607934553,
+          "score": 2021.2932278158332,
+          "signal_mass": 0.7777777777777778,
+          "scenarios": 9,
+          "station": 17,
+          "q": [
+            -931.7486141328833,
+            1613.8359395600437
+          ],
+          "scan_fee_s": 48
+        },
+        "expected_saving_s": 28.384525969663628,
+        "original_prune_diagnostic": {
+          "original_points": 102,
+          "removable_points": 37,
+          "kept_points": 65
+        }
+      },
+      {
+        "trace_index": 603,
+        "actual_action": {
+          "phase": "actual_action",
+          "action": "measure",
+          "reason": "joint_source_measure",
+          "channel": 11,
+          "event": 487,
+          "position": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "move_s": 368.72594181838315,
+          "result": "no_signal"
+        },
+        "original_action": "measure",
+        "original_forecast": {
+          "local_s": 422.59046795555264,
+          "continuation_s": 883.2508583461598,
+          "score": 1305.8413263017123,
+          "signal_mass": 1.0,
+          "scenarios": 37
+        },
+        "selected_forecast": {
+          "local_s": 437.031803208043,
+          "continuation_s": 750.9777338490303,
+          "score": 1230.0095370570734,
+          "signal_mass": 1.0,
+          "scenarios": 37,
+          "station": 16,
+          "q": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "scan_fee_s": 42
+        },
+        "expected_saving_s": 75.83178924463891,
+        "original_prune_diagnostic": null
+      }
+    ],
+    "optical_blocks": [
+      {
+        "channel": 2,
+        "baseline": {
+          "actions": 38,
+          "failures": 37,
+          "move_s": 324.12798894213813,
+          "total_s": 440.12798894212574
+        },
+        "candidate": {
+          "actions": 38,
+          "failures": 37,
+          "move_s": 324.12798894213813,
+          "total_s": 440.1279889421585
+        },
+        "delta_s": 3.2741809263825417e-11,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          84,
+          84
+        ],
+        "removed_planned": [
+          7,
+          7
+        ],
+        "first_actual_points": [
+          [
+            1723.5159889573265,
+            537.9566869985476
+          ],
+          [
+            1723.5159889573265,
+            537.9566869985476
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 5,
+        "baseline": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 38.866795265238274,
+          "total_s": 46.86679526523858
+        },
+        "candidate": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 38.866795265238274,
+          "total_s": 46.86679526523858
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          2,
+          2
+        ],
+        "removed_planned": [
+          0,
+          0
+        ],
+        "first_actual_points": [
+          [
+            1192.8816131791752,
+            -1280.837999088875
+          ],
+          [
+            1192.8816131791752,
+            -1280.837999088875
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 6,
+        "baseline": {
+          "actions": 4,
+          "failures": 3,
+          "move_s": 92.12432215442368,
+          "total_s": 106.12432215442368
+        },
+        "candidate": {
+          "actions": 4,
+          "failures": 3,
+          "move_s": 92.12432215442368,
+          "total_s": 106.12432215442277
+        },
+        "delta_s": -9.094947017729282e-13,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          10,
+          10
+        ],
+        "removed_planned": [
+          0,
+          0
+        ],
+        "first_actual_points": [
+          [
+            566.9884723195734,
+            1710.3055834240852
+          ],
+          [
+            566.9884723195734,
+            1710.3055834240852
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 11,
+        "baseline": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 45.837526570244606,
+          "total_s": 50.837526570244336
+        },
+        "candidate": {
+          "actions": 31,
+          "failures": 30,
+          "move_s": 204.5655513763358,
+          "total_s": 299.5655513763377
+        },
+        "delta_s": 248.72802480609334,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": false,
+        "original_points": [
+          92,
+          92
+        ],
+        "removed_planned": [
+          10,
+          38
+        ],
+        "first_actual_points": [
+          [
+            -758.9143161984083,
+            1638.615519153404
+          ],
+          [
+            81.32335894773513,
+            1702.7519965384604
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [
+          [
+            -529.8026766332705,
+            1644.517016227994
+          ]
+        ],
+        "candidate_only_negative_points": [
+          [
+            -1015.1246418503831,
+            1477.8187904383428
+          ],
+          [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ]
+        ]
+      },
+      {
+        "channel": 13,
+        "baseline": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 171.277284533868,
+          "total_s": 179.27728453386817
+        },
+        "candidate": {
+          "actions": 2,
+          "failures": 1,
+          "move_s": 171.277284533868,
+          "total_s": 179.27728453386817
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          4,
+          4
+        ],
+        "removed_planned": [
+          0,
+          0
+        ],
+        "first_actual_points": [
+          [
+            -770.588216330117,
+            -1551.7274730307079
+          ],
+          [
+            -770.588216330117,
+            -1551.7274730307079
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 14,
+        "baseline": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 15.872563614372478,
+          "total_s": 20.872563614372666
+        },
+        "candidate": {
+          "actions": 35,
+          "failures": 34,
+          "move_s": 369.16660050937344,
+          "total_s": 476.166600509363
+        },
+        "delta_s": 455.2940368949903,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": false,
+        "original_points": [
+          102,
+          102
+        ],
+        "removed_planned": [
+          37,
+          37
+        ],
+        "first_actual_points": [
+          [
+            -1557.053994799093,
+            876.3025354485269
+          ],
+          [
+            -898.1482244181345,
+            182.52405638465808
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": [
+          [
+            -1015.1246418503831,
+            1477.8187904383428
+          ],
+          [
+            -931.7486141328833,
+            1613.8359395600437
+          ]
+        ]
+      },
+      {
+        "channel": 15,
+        "baseline": {
+          "actions": 17,
+          "failures": 16,
+          "move_s": 127.89279081318296,
+          "total_s": 180.89279081317727
+        },
+        "candidate": {
+          "actions": 23,
+          "failures": 22,
+          "move_s": 142.482653052278,
+          "total_s": 213.4826530522705
+        },
+        "delta_s": 32.589862239093236,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          98,
+          98
+        ],
+        "removed_planned": [
+          67,
+          55
+        ],
+        "first_actual_points": [
+          [
+            -1633.5695653883665,
+            -278.75014307011105
+          ],
+          [
+            -1637.7611461280612,
+            -112.14776730805342
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [
+          [
+            -1487.850042000371,
+            -658.6632111510182
+          ]
+        ],
+        "candidate_only_negative_points": [
+          [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ]
+        ]
+      },
+      {
+        "channel": 16,
+        "baseline": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 136.77982449956812,
+          "total_s": 141.77982449956835
+        },
+        "candidate": {
+          "actions": 31,
+          "failures": 30,
+          "move_s": 228.05395647249304,
+          "total_s": 323.05395647248315
+        },
+        "delta_s": 181.2741319729148,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": false,
+        "original_points": [
+          98,
+          98
+        ],
+        "removed_planned": [
+          56,
+          44
+        ],
+        "first_actual_points": [
+          [
+            -1789.9481116047916,
+            110.69972485561448
+          ],
+          [
+            -1338.99067638434,
+            826.4016257767088
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [
+          [
+            -1512.6774848230077,
+            735.8709088343332
+          ],
+          [
+            -1441.3664914044325,
+            686.1869313487543
+          ]
+        ],
+        "candidate_only_negative_points": [
+          [
+            -1739.0736671901627,
+            -114.69670822219948
+          ],
+          [
+            -1613.8359395600437,
+            931.7486141328836
+          ]
+        ]
+      },
+      {
+        "channel": 17,
+        "baseline": {
+          "actions": 3,
+          "failures": 2,
+          "move_s": 77.87508290293017,
+          "total_s": 88.87508290292953
+        },
+        "candidate": {
+          "actions": 3,
+          "failures": 2,
+          "move_s": 77.87508290293017,
+          "total_s": 88.87508290292953
+        },
+        "delta_s": 0.0,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": true,
+        "original_points": [
+          15,
+          15
+        ],
+        "removed_planned": [
+          0,
+          0
+        ],
+        "first_actual_points": [
+          [
+            -1374.7857236888842,
+            -1168.5657989733006
+          ],
+          [
+            -1374.7857236888842,
+            -1168.5657989733006
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [],
+        "candidate_only_negative_points": []
+      },
+      {
+        "channel": 19,
+        "baseline": {
+          "actions": 1,
+          "failures": 0,
+          "move_s": 5.960050508828459,
+          "total_s": 10.960050508828317
+        },
+        "candidate": {
+          "actions": 32,
+          "failures": 31,
+          "move_s": 323.18009409799697,
+          "total_s": 421.1800940980065
+        },
+        "delta_s": 410.2200435891782,
+        "original_polygon_exactly_same": true,
+        "original_point_set_exactly_same": true,
+        "original_order_exactly_same": false,
+        "original_points": [
+          100,
+          100
+        ],
+        "removed_planned": [
+          93,
+          68
+        ],
+        "first_actual_points": [
+          [
+            -1781.484096432348,
+            82.12673938235139
+          ],
+          [
+            -1248.8239679139008,
+            766.8623547278748
+          ]
+        ],
+        "successful_clearpoint_exactly_same": true,
+        "baseline_only_negative_points": [
+          [
+            -1789.9481116047916,
+            110.69972485561448
+          ],
+          [
+            -1512.6774848230077,
+            735.8709088343332
+          ],
+          [
+            -1441.3664914044325,
+            686.1869313487543
+          ]
+        ],
+        "candidate_only_negative_points": [
+          [
+            -1739.0736671901627,
+            -114.69670822219948
+          ],
+          [
+            -1613.8359395600437,
+            931.7486141328836
+          ]
+        ]
+      }
+    ],
+    "optical_extra_s": 1328.1060995023017,
+    "optical_share_of_total_regression": 0.7856615758222942,
+    "discoveries": [
+      {
+        "channel": 13,
+        "baseline": {
+          "event": 74,
+          "position": [
+            -248.46628329842065,
+            -927.2887932375054
+          ],
+          "time_s": 830.7730266387362
+        },
+        "candidate": {
+          "event": 74,
+          "position": [
+            -248.46628329842065,
+            -927.2887932375054
+          ],
+          "time_s": 830.7730266387362
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 20,
+        "baseline": {
+          "event": 157,
+          "position": [
+            -678.8225099390855,
+            678.8225099390856
+          ],
+          "time_s": 1723.3190799162078
+        },
+        "candidate": {
+          "event": 157,
+          "position": [
+            -678.8225099390855,
+            678.8225099390856
+          ],
+          "time_s": 1723.3190799162078
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 3,
+        "baseline": {
+          "event": 179,
+          "position": [
+            248.46628329842014,
+            927.2887932375055
+          ],
+          "time_s": 2054.0921065549437
+        },
+        "candidate": {
+          "event": 179,
+          "position": [
+            248.46628329842014,
+            927.2887932375055
+          ],
+          "time_s": 2054.0921065549437
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 7,
+        "baseline": {
+          "event": 201,
+          "position": [
+            678.8225099390856,
+            678.8225099390856
+          ],
+          "time_s": 2284.478619874312
+        },
+        "candidate": {
+          "event": 201,
+          "position": [
+            678.8225099390856,
+            678.8225099390856
+          ],
+          "time_s": 2284.478619874312
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 9,
+        "baseline": {
+          "event": 203,
+          "position": [
+            678.8225099390856,
+            678.8225099390856
+          ],
+          "time_s": 2296.478619874312
+        },
+        "candidate": {
+          "event": 203,
+          "position": [
+            678.8225099390856,
+            678.8225099390856
+          ],
+          "time_s": 2296.478619874312
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 1,
+        "baseline": {
+          "event": 232,
+          "position": [
+            927.2887932375054,
+            -248.4662832984207
+          ],
+          "time_s": 2726.662226305152
+        },
+        "candidate": {
+          "event": 232,
+          "position": [
+            927.2887932375054,
+            -248.4662832984207
+          ],
+          "time_s": 2726.662226305152
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 5,
+        "baseline": {
+          "event": 250,
+          "position": [
+            1613.835939560043,
+            -931.7486141328845
+          ],
+          "time_s": 3028.875479686736
+        },
+        "candidate": {
+          "event": 250,
+          "position": [
+            1613.835939560043,
+            -931.7486141328845
+          ],
+          "time_s": 3028.875479686736
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 15,
+        "baseline": {
+          "event": 319,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4294.998228264308
+        },
+        "candidate": {
+          "event": 319,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4294.998228264308
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 17,
+        "baseline": {
+          "event": 321,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4306.998228264308
+        },
+        "candidate": {
+          "event": 321,
+          "position": [
+            -1613.835939560044,
+            -931.7486141328832
+          ],
+          "time_s": 4306.998228264308
+        },
+        "candidate_delay_s": 0.0
+      },
+      {
+        "channel": 16,
+        "baseline": {
+          "event": 354,
+          "position": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "time_s": 5038.439820573515
+        },
+        "candidate": {
+          "event": 336,
+          "position": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "time_s": 4729.932260130311
+        },
+        "candidate_delay_s": -308.50756044320406
+      },
+      {
+        "channel": 19,
+        "baseline": {
+          "event": 356,
+          "position": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "time_s": 5050.439820573515
+        },
+        "candidate": {
+          "event": 338,
+          "position": [
+            -1863.4972282657675,
+            2.2821259158156367e-13
+          ],
+          "time_s": 4741.932260130311
+        },
+        "candidate_delay_s": -308.50756044320406
+      },
+      {
+        "channel": 14,
+        "baseline": {
+          "event": 372,
+          "position": [
+            -1613.8359395600437,
+            931.7486141328836
+          ],
+          "time_s": 5636.889889213954
+        },
+        "candidate": {
+          "event": 373,
+          "position": [
+            -1613.8359395600437,
+            931.7486141328836
+          ],
+          "time_s": 5392.218367968357
+        },
+        "candidate_delay_s": -244.67152124559743
+      },
+      {
+        "channel": 11,
+        "baseline": {
+          "event": 382,
+          "position": [
+            -931.7486141328833,
+            1613.8359395600437
+          ],
+          "time_s": 5903.5966197518355
+        },
+        "candidate": {
+          "event": 414,
+          "position": [
+            -931.7486141328833,
+            1613.8359395600437
+          ],
+          "time_s": 6121.447127534132
+        },
+        "candidate_delay_s": 217.85050778229652
+      },
+      {
+        "channel": 8,
+        "baseline": {
+          "event": 390,
+          "position": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "time_s": 6235.36356316568
+        },
+        "candidate": {
+          "event": 491,
+          "position": [
+            1.1410629579078184e-13,
+            1863.4972282657675
+          ],
+          "time_s": 7477.4272720751505
+        },
+        "candidate_delay_s": 1242.0637089094707
+      },
+      {
+        "channel": 2,
+        "baseline": {
+          "event": 399,
+          "position": [
+            931.748614132884,
+            1613.8359395600435
+          ],
+          "time_s": 6573.042238881019
+        },
+        "candidate": {
+          "event": 531,
+          "position": [
+            931.748614132884,
+            1613.8359395600435
+          ],
+          "time_s": 8263.472495842796
+        },
+        "candidate_delay_s": 1690.4302569617766
+      },
+      {
+        "channel": 6,
+        "baseline": {
+          "event": 401,
+          "position": [
+            931.748614132884,
+            1613.8359395600435
+          ],
+          "time_s": 6585.042238881019
+        },
+        "candidate": {
+          "event": 533,
+          "position": [
+            931.748614132884,
+            1613.8359395600435
+          ],
+          "time_s": 8275.472495842796
+        },
+        "candidate_delay_s": 1690.4302569617766
+      }
+    ],
+    "discovery_order_and_positions_exactly_same": true,
+    "suffix_after_last_discovery": {
+      "baseline_start_after_event": 401,
+      "candidate_start_after_event": 533,
+      "baseline_actions": 49,
+      "candidate_actions": 49,
+      "identical_except_virtual_clock": true
+    }
+  },
+  "bounded_predictor_microtest": {
+    "record_type": "retrospective_record_of_completed_bounded_microtest",
+    "rerun_by_this_diagnostic_script": false,
+    "input": {
+      "path": "src/q4_model/05_候选share25/results/station_joint_view_dev54000_v1/54100-boundary-hashed-station_joint_view.json",
+      "sha256": "81f58ee39e43d0fa42403dba3bc757e1501281b227b48da759299c108199708e"
+    },
+    "python_command": "D:\\Python\\python.exe -B -X utf8 -",
+    "method": [
+      "Reconstruct each of the 12 selector inputs from preceding accepted actions and latest belief trace only; never read saved sources.",
+      "Restore polygon, positives and negatives; measured points start at the first positive for that channel; restore failed clears, last actual position and last measured channel.",
+      "Restore coverage negative ledgers from actual no_signal measurements; reuse recorded fixed tasks, points and unknown channels.",
+      "Recompute original choose_measure and optical_plan; call the unchanged select_joint_measure; compare the entire produced prediction dictionary by exact Python equality.",
+      "Measure perf_counter wall and process_time CPU; inclusive wrappers instrument optical_plan, optical_forecast and measure_forecast in that child process only.",
+      "55-second deadline checked before wrapped calls; process finished around 4.7 seconds, without timeout; no whole-game replay, file mutation, or new feedback."
+    ],
+    "predictions": [
+      {
+        "trace_index": 351,
+        "accepted_events_before": 324,
+        "channel": 17,
+        "polygon_vertices": 7,
+        "negative_points": 16,
+        "remaining_scan_tasks": 8,
+        "effective_station_candidates": 1,
+        "selected_station": null,
+        "wall_s": 0.2576610999822151,
+        "cpu_s": 0.265625,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 356,
+        "accepted_events_before": 325,
+        "channel": 17,
+        "polygon_vertices": 7,
+        "negative_points": 17,
+        "remaining_scan_tasks": 8,
+        "effective_station_candidates": 1,
+        "selected_station": null,
+        "wall_s": 0.05551760000525974,
+        "cpu_s": 0.046875,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 386,
+        "accepted_events_before": 348,
+        "channel": 20,
+        "polygon_vertices": 5,
+        "negative_points": 17,
+        "remaining_scan_tasks": 7,
+        "effective_station_candidates": 1,
+        "selected_station": null,
+        "wall_s": 0.07300509998458438,
+        "cpu_s": 0.078125,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 403,
+        "accepted_events_before": 354,
+        "channel": 14,
+        "polygon_vertices": 5,
+        "negative_points": 19,
+        "remaining_scan_tasks": 7,
+        "effective_station_candidates": 2,
+        "selected_station": 19,
+        "wall_s": 0.4994474000122864,
+        "cpu_s": 0.5,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 475,
+        "accepted_events_before": 416,
+        "channel": 8,
+        "polygon_vertices": 5,
+        "negative_points": 19,
+        "remaining_scan_tasks": 5,
+        "effective_station_candidates": 1,
+        "selected_station": null,
+        "wall_s": 0.18611469998722896,
+        "cpu_s": 0.171875,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 480,
+        "accepted_events_before": 417,
+        "channel": 8,
+        "polygon_vertices": 5,
+        "negative_points": 20,
+        "remaining_scan_tasks": 5,
+        "effective_station_candidates": 1,
+        "selected_station": null,
+        "wall_s": 0.05678970000008121,
+        "cpu_s": 0.0625,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 520,
+        "accepted_events_before": 446,
+        "channel": 19,
+        "polygon_vertices": 4,
+        "negative_points": 21,
+        "remaining_scan_tasks": 3,
+        "effective_station_candidates": 0,
+        "selected_station": null,
+        "wall_s": 0.39112730001215823,
+        "cpu_s": 0.375,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 529,
+        "accepted_events_before": 449,
+        "channel": 18,
+        "polygon_vertices": 8,
+        "negative_points": 22,
+        "remaining_scan_tasks": 3,
+        "effective_station_candidates": 0,
+        "selected_station": null,
+        "wall_s": 0.09008369999355637,
+        "cpu_s": 0.09375,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 549,
+        "accepted_events_before": 462,
+        "channel": 4,
+        "polygon_vertices": 7,
+        "negative_points": 22,
+        "remaining_scan_tasks": 2,
+        "effective_station_candidates": 1,
+        "selected_station": null,
+        "wall_s": 0.5587745999800973,
+        "cpu_s": 0.546875,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 554,
+        "accepted_events_before": 463,
+        "channel": 4,
+        "polygon_vertices": 6,
+        "negative_points": 22,
+        "remaining_scan_tasks": 2,
+        "effective_station_candidates": 1,
+        "selected_station": null,
+        "wall_s": 0.6564035000046715,
+        "cpu_s": 0.625,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 562,
+        "accepted_events_before": 465,
+        "channel": 4,
+        "polygon_vertices": 6,
+        "negative_points": 23,
+        "remaining_scan_tasks": 2,
+        "effective_station_candidates": 0,
+        "selected_station": null,
+        "wall_s": 0.08514359997934662,
+        "cpu_s": 0.078125,
+        "prediction_exactly_equal_to_saved": true
+      },
+      {
+        "trace_index": 587,
+        "accepted_events_before": 482,
+        "channel": 16,
+        "polygon_vertices": 4,
+        "negative_points": 12,
+        "remaining_scan_tasks": 1,
+        "effective_station_candidates": 0,
+        "selected_station": null,
+        "wall_s": 0.3466891999996733,
+        "cpu_s": 0.34375,
+        "prediction_exactly_equal_to_saved": true
+      }
+    ],
+    "exact_predictions": 12,
+    "total_timed_wall_s": 3.268361400027061,
+    "total_timed_cpu_s": 3.1875,
+    "inclusive_profile_not_additive": {
+      "optical_plan": {
+        "calls": 439,
+        "wall_s": 0.35015629994450137,
+        "cpu_s": 0.3125
+      },
+      "optical_forecast": {
+        "calls": 444,
+        "wall_s": 0.5235208996164147,
+        "cpu_s": 0.53125
+      },
+      "measure_forecast": {
+        "calls": 60,
+        "wall_s": 0.6235535000450909,
+        "cpu_s": 0.609375
+      }
+    },
+    "original_game_runtime_s": 885.4039062000229,
+    "original_game_cpu_or_segment_times_available": false,
+    "conclusion": "The 12 identical predictions did not reproduce a function slowdown. Process scheduling or machine suspension remains possible; the original log lacks CPU and segment timings, so the 885-second cause is not diagnosed. Candidate count alone does not explain it."
+  },
+  "findings": {
+    "development": "A single joint negative at station 19 replaces c14 original negative view. The finite forecast assigns signal mass 1, but actual response is negative. Same 98-point optical plan then removes 36 instead of 60 points and executes 32 instead of 20; optical extra 117.97 seconds explains most of 136.39 seconds regression.",
+    "holdout": "Four selected joint measurements are all negative, including two forecast signal masses of 1. Earlier c16/c19 discoveries are overtaken by optical entry/order and negative-witness changes. Five affected blocks add 131 failed clears and 1328.11 seconds, with unchanged polygons, original point sets and success points. The whole 1690.43-second difference exists by the last discovery; subsequent 49 actions are identical.",
+    "interpretation": "The scores are finite work-model forecasts, not probabilities guaranteed by the task. They do not reliably value negative witness placement or early success order. More certified deletions alone do not ensure earlier success: c11 removes more planned points but executes 31 instead of 1.",
+    "decision": "Do not promote frozen v1 or adjust it against this counterexample. Preserve its performance and audit evidence as a rejected local candidate."
+  },
+  "exact_selection_preserving_cost_pruning_notes": {
+    "status": "Mathematical possibility only; not implemented or tested; microtest does not establish a current performance need.",
+    "lower_bound": "For a candidate use its immediate move/measurement/switch and current scan fee, plus fixed residual internal-route movement and frozen scan fees. Other expected optical and exit-connector costs are nonnegative; their omission gives a conservative lower bound.",
+    "branch_bound": "Already accumulated nonnegative weighted optical/connector terms can strengthen this bound; uncomputed terms may be bounded by zero. Stop only when a conservative bound cannot beat the incumbent under the exact existing tie policy.",
+    "numerics": "A float implementation must round conservatively and account for score comparison tolerance; no claim that naive float summation preserves exact selection.",
+    "limitation": "Such pruning preserves the present proxy selection, not actual run quality; it does not repair the holdout optical-entry regressions."
+  }
+}

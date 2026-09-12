@@ -1,0 +1,2892 @@
+{
+  "passed": true,
+  "source_snapshot_stable": true,
+  "rows": [
+    {
+      "seed": 55000,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 9.02350939999451,
+      "independent_audit_wall_s": 0.8344284999766387,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 275,
+        "polygons": 39,
+        "optical_plans": 8,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 5741.948606255694,
+        "counts": {
+          "measure": 257,
+          "switch": 244,
+          "clear_success": 13,
+          "clear_fail": 5
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 275,
+          "actual_optical_actions": 13,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 275,
+        "belief": 39,
+        "task_choice": 41,
+        "decision": 4,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 231,
+        "unknown_scan_measures": 231,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 5
+          },
+          "optical_cover": {
+            "actions": 13
+          },
+          "scan": {
+            "actions": 231,
+            "positive": 13,
+            "negative": 218
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 19,
+            "negative": 3
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 3,
+            "negative": 1
+          }
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 5741.948606255694,
+      "average_s": 441.6883543273611,
+      "distance_m": 20664.743031278475,
+      "counts": {
+        "measure": 257,
+        "switch": 244,
+        "clear_success": 13,
+        "clear_fail": 5
+      },
+      "time_parts_s": {
+        "move": 4132.948606255695,
+        "measure": 1285,
+        "switch": 244,
+        "clear_success": 65,
+        "clear_fail": 15
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55000-uniform-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55000,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 10.841431899985764,
+      "independent_audit_wall_s": 0.5754497000016272,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 275,
+        "polygons": 39,
+        "optical_plans": 8,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 5741.948606255694,
+        "counts": {
+          "measure": 257,
+          "switch": 244,
+          "clear_success": 13,
+          "clear_fail": 5
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 275,
+          "actual_optical_actions": 13,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 275,
+        "belief": 39,
+        "task_choice": 41,
+        "station_joint_prediction": 12,
+        "decision": 4,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 12,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 231,
+        "unknown_scan_measures": 231,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 5
+          },
+          "optical_cover": {
+            "actions": 13
+          },
+          "scan": {
+            "actions": 231,
+            "positive": 13,
+            "negative": 218
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 19,
+            "negative": 3
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 3,
+            "negative": 1
+          }
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 5741.948606255694,
+      "average_s": 441.6883543273611,
+      "distance_m": 20664.743031278475,
+      "counts": {
+        "measure": 257,
+        "switch": 244,
+        "clear_success": 13,
+        "clear_fail": 5
+      },
+      "time_parts_s": {
+        "move": 4132.948606255695,
+        "measure": 1285,
+        "switch": 244,
+        "clear_success": 65,
+        "clear_fail": 15
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55000-uniform-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55001,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 6.626765700028045,
+      "independent_audit_wall_s": 1.0830736000207253,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 331,
+        "polygons": 37,
+        "optical_plans": 8,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 6300.075765091268,
+        "counts": {
+          "measure": 289,
+          "switch": 273,
+          "clear_success": 11,
+          "clear_fail": 31
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 142,
+          "skipped_before_success": 24,
+          "accepted_actions": 331,
+          "actual_optical_actions": 39,
+          "contractions_applied": 2,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 2
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 331,
+        "belief": 37,
+        "task_choice": 38,
+        "decision": 3,
+        "shared_prediction": 23,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 263,
+        "unknown_scan_measures": 263,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "optical_cover": {
+            "actions": 39
+          },
+          "scan": {
+            "actions": 263,
+            "positive": 11,
+            "negative": 252
+          },
+          "shared_measure": {
+            "actions": 23,
+            "positive": 14,
+            "negative": 9
+          },
+          "source_measure": {
+            "actions": 3,
+            "positive": 1,
+            "negative": 2
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 6300.075765091268,
+      "average_s": 572.7341604628426,
+      "distance_m": 22170.378825456348,
+      "counts": {
+        "measure": 289,
+        "switch": 273,
+        "clear_success": 11,
+        "clear_fail": 31
+      },
+      "time_parts_s": {
+        "move": 4434.075765091269,
+        "measure": 1445,
+        "switch": 273,
+        "clear_success": 55,
+        "clear_fail": 93
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55001-uniform-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55001,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 11.101770800014492,
+      "independent_audit_wall_s": 1.3481816000130493,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 331,
+        "polygons": 38,
+        "optical_plans": 8,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 6397.808622929424,
+        "counts": {
+          "measure": 290,
+          "switch": 273,
+          "clear_success": 11,
+          "clear_fail": 30
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 142,
+          "skipped_before_success": 24,
+          "accepted_actions": 331,
+          "actual_optical_actions": 38,
+          "contractions_applied": 2,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 2
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 331,
+        "belief": 38,
+        "task_choice": 36,
+        "station_joint_prediction": 10,
+        "shared_prediction": 24,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8,
+        "decision": 1
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 10,
+        "joint_selected": 2,
+        "actual_joint_measures": 2,
+        "joint_positive": 1,
+        "joint_negative": 1,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 263,
+        "unknown_scan_measures": 263,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "joint_source_measure": {
+            "actions": 2,
+            "positive": 1,
+            "negative": 1
+          },
+          "optical_cover": {
+            "actions": 38
+          },
+          "scan": {
+            "actions": 263,
+            "positive": 11,
+            "negative": 252
+          },
+          "shared_measure": {
+            "actions": 24,
+            "positive": 15,
+            "negative": 9
+          },
+          "source_measure": {
+            "actions": 1,
+            "negative": 1
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 6397.808622929424,
+      "average_s": 581.6189657208567,
+      "distance_m": 22649.043114647116,
+      "counts": {
+        "measure": 290,
+        "switch": 273,
+        "clear_success": 11,
+        "clear_fail": 30
+      },
+      "time_parts_s": {
+        "move": 4529.808622929423,
+        "measure": 1450,
+        "switch": 273,
+        "clear_success": 55,
+        "clear_fail": 90
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55001-uniform-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 8.319894899992505,
+      "independent_audit_wall_s": 2.265653900016332,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 433,
+        "polygons": 32,
+        "optical_plans": 10,
+        "triangle_certificates": 216,
+        "max_time_error_s": 0.0,
+        "total_s": 7107.677364360171,
+        "counts": {
+          "measure": 403,
+          "switch": 388,
+          "clear_success": 14,
+          "clear_fail": 16
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 430,
+          "skipped_before_success": 0,
+          "accepted_actions": 433,
+          "actual_optical_actions": 26,
+          "contractions_applied": 6,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 6,
+          "cells_per_channel": 576,
+          "verified_cells": 3456,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 6
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 433,
+        "task_choice": 46,
+        "belief": 32,
+        "shared_prediction": 10,
+        "decision": 8,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 385,
+        "unknown_scan_measures": 385,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 26
+          },
+          "scan": {
+            "actions": 385,
+            "negative": 371,
+            "positive": 14
+          },
+          "shared_measure": {
+            "actions": 10,
+            "negative": 4,
+            "positive": 6
+          },
+          "source_measure": {
+            "actions": 8,
+            "negative": 7,
+            "positive": 1
+          }
+        }
+      },
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 7107.677364360171,
+      "average_s": 507.69124031144077,
+      "distance_m": 22933.386821800883,
+      "counts": {
+        "measure": 403,
+        "switch": 388,
+        "clear_success": 14,
+        "clear_fail": 16
+      },
+      "time_parts_s": {
+        "move": 4586.677364360176,
+        "measure": 2015,
+        "switch": 388,
+        "clear_success": 70,
+        "clear_fail": 48
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55100-boundary-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 9.448389400000451,
+      "independent_audit_wall_s": 2.1900393000105396,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 433,
+        "polygons": 32,
+        "optical_plans": 10,
+        "triangle_certificates": 216,
+        "max_time_error_s": 0.0,
+        "total_s": 7107.677364360171,
+        "counts": {
+          "measure": 403,
+          "switch": 388,
+          "clear_success": 14,
+          "clear_fail": 16
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 430,
+          "skipped_before_success": 0,
+          "accepted_actions": 433,
+          "actual_optical_actions": 26,
+          "contractions_applied": 6,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 6,
+          "cells_per_channel": 576,
+          "verified_cells": 3456,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 6
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 433,
+        "task_choice": 46,
+        "belief": 32,
+        "shared_prediction": 10,
+        "station_joint_prediction": 12,
+        "decision": 8,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 12,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 385,
+        "unknown_scan_measures": 385,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 26
+          },
+          "scan": {
+            "actions": 385,
+            "negative": 371,
+            "positive": 14
+          },
+          "shared_measure": {
+            "actions": 10,
+            "negative": 4,
+            "positive": 6
+          },
+          "source_measure": {
+            "actions": 8,
+            "negative": 7,
+            "positive": 1
+          }
+        }
+      },
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 7107.677364360171,
+      "average_s": 507.69124031144077,
+      "distance_m": 22933.386821800883,
+      "counts": {
+        "measure": 403,
+        "switch": 388,
+        "clear_success": 14,
+        "clear_fail": 16
+      },
+      "time_parts_s": {
+        "move": 4586.677364360176,
+        "measure": 2015,
+        "switch": 388,
+        "clear_success": 70,
+        "clear_fail": 48
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55100-boundary-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55101,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 13.087594900018303,
+      "independent_audit_wall_s": 1.4157096999988426,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 450,
+        "polygons": 47,
+        "optical_plans": 10,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 7586.848626470279,
+        "counts": {
+          "measure": 374,
+          "switch": 356,
+          "clear_success": 16,
+          "clear_fail": 60
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 270,
+          "skipped_before_success": 30,
+          "accepted_actions": 450,
+          "actual_optical_actions": 70,
+          "contractions_applied": 4,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 4
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 450,
+        "task_choice": 48,
+        "belief": 47,
+        "shared_prediction": 21,
+        "decision": 10,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 23,
+        "actual_scan_measures": 343,
+        "unknown_scan_measures": 343,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "optical_cover": {
+            "actions": 70
+          },
+          "scan": {
+            "actions": 343,
+            "negative": 327,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 21,
+            "negative": 14,
+            "positive": 7
+          },
+          "source_measure": {
+            "actions": 10,
+            "positive": 4,
+            "negative": 6
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 7586.848626470279,
+      "average_s": 474.1780391543924,
+      "distance_m": 25504.243132351527,
+      "counts": {
+        "measure": 374,
+        "switch": 356,
+        "clear_success": 16,
+        "clear_fail": 60
+      },
+      "time_parts_s": {
+        "move": 5100.848626470305,
+        "measure": 1870,
+        "switch": 356,
+        "clear_success": 80,
+        "clear_fail": 180
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55101-boundary-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55101,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 14.948277099989355,
+      "independent_audit_wall_s": 1.6403098999871872,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 582,
+        "polygons": 48,
+        "optical_plans": 10,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 9277.278883432089,
+        "counts": {
+          "measure": 375,
+          "switch": 360,
+          "clear_success": 16,
+          "clear_fail": 191
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 249,
+          "skipped_before_success": 91,
+          "accepted_actions": 582,
+          "actual_optical_actions": 201,
+          "contractions_applied": 5,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 5
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 582,
+        "task_choice": 44,
+        "belief": 48,
+        "shared_prediction": 22,
+        "station_joint_prediction": 15,
+        "decision": 6,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 15,
+        "joint_selected": 4,
+        "actual_joint_measures": 4,
+        "joint_positive": 0,
+        "joint_negative": 4,
+        "actual_scan_stations": 23,
+        "actual_scan_measures": 343,
+        "unknown_scan_measures": 343,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "joint_source_measure": {
+            "actions": 4,
+            "negative": 4
+          },
+          "optical_cover": {
+            "actions": 201
+          },
+          "scan": {
+            "actions": 343,
+            "negative": 327,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 22,
+            "negative": 15,
+            "positive": 7
+          },
+          "source_measure": {
+            "actions": 6,
+            "positive": 4,
+            "negative": 2
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 9277.278883432089,
+      "average_s": 579.8299302145056,
+      "distance_m": 31946.394417160456,
+      "counts": {
+        "measure": 375,
+        "switch": 360,
+        "clear_success": 16,
+        "clear_fail": 191
+      },
+      "time_parts_s": {
+        "move": 6389.278883432091,
+        "measure": 1875,
+        "switch": 360,
+        "clear_success": 80,
+        "clear_fail": 573
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55101-boundary-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55200,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 12.194214899995131,
+      "independent_audit_wall_s": 0.8353656999825034,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 300,
+        "polygons": 47,
+        "optical_plans": 3,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5694.901045471839,
+        "counts": {
+          "measure": 286,
+          "switch": 268,
+          "clear_success": 11,
+          "clear_fail": 3
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 3,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 300,
+          "actual_optical_actions": 6,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 300,
+        "belief": 47,
+        "task_choice": 42,
+        "decision": 7,
+        "shared_prediction": 29,
+        "ordered_optical_prune": 3,
+        "optical_plan": 3
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 250,
+        "unknown_scan_measures": 250,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 8
+          },
+          "optical_cover": {
+            "actions": 6
+          },
+          "scan": {
+            "actions": 250,
+            "negative": 239,
+            "positive": 11
+          },
+          "shared_measure": {
+            "actions": 29,
+            "positive": 12,
+            "negative": 17
+          },
+          "source_measure": {
+            "actions": 7,
+            "positive": 6,
+            "negative": 1
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5694.901045471839,
+      "average_s": 517.7182768610763,
+      "distance_m": 19664.5052273592,
+      "counts": {
+        "measure": 286,
+        "switch": 268,
+        "clear_success": 11,
+        "clear_fail": 3
+      },
+      "time_parts_s": {
+        "move": 3932.90104547184,
+        "measure": 1430,
+        "switch": 268,
+        "clear_success": 55,
+        "clear_fail": 9
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55200-cluster-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55200,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 14.270476899982896,
+      "independent_audit_wall_s": 0.8156938000174705,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 295,
+        "polygons": 44,
+        "optical_plans": 4,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5705.171776835307,
+        "counts": {
+          "measure": 283,
+          "switch": 263,
+          "clear_success": 11,
+          "clear_fail": 1
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 4,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 295,
+          "actual_optical_actions": 5,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 295,
+        "belief": 44,
+        "task_choice": 39,
+        "station_joint_prediction": 10,
+        "shared_prediction": 27,
+        "decision": 4,
+        "ordered_optical_prune": 4,
+        "optical_plan": 4
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 10,
+        "joint_selected": 2,
+        "actual_joint_measures": 2,
+        "joint_positive": 2,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 250,
+        "unknown_scan_measures": 250,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 7
+          },
+          "joint_source_measure": {
+            "actions": 2,
+            "positive": 2
+          },
+          "optical_cover": {
+            "actions": 5
+          },
+          "scan": {
+            "actions": 250,
+            "negative": 239,
+            "positive": 11
+          },
+          "shared_measure": {
+            "actions": 27,
+            "positive": 12,
+            "negative": 15
+          },
+          "source_measure": {
+            "actions": 4,
+            "negative": 1,
+            "positive": 3
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5705.171776835307,
+      "average_s": 518.6519797123007,
+      "distance_m": 19845.85888417654,
+      "counts": {
+        "measure": 283,
+        "switch": 263,
+        "clear_success": 11,
+        "clear_fail": 1
+      },
+      "time_parts_s": {
+        "move": 3969.1717768353083,
+        "measure": 1415,
+        "switch": 263,
+        "clear_success": 55,
+        "clear_fail": 3
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55200-cluster-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55201,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 12.144073299976299,
+      "independent_audit_wall_s": 0.7492787000082899,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 315,
+        "polygons": 38,
+        "optical_plans": 6,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 5774.236701916989,
+        "counts": {
+          "measure": 301,
+          "switch": 282,
+          "clear_success": 12,
+          "clear_fail": 2
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 6,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 315,
+          "actual_optical_actions": 8,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 315,
+        "belief": 38,
+        "task_choice": 40,
+        "decision": 4,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 6,
+        "optical_plan": 6
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 275,
+        "unknown_scan_measures": 275,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "optical_cover": {
+            "actions": 8
+          },
+          "scan": {
+            "actions": 275,
+            "negative": 263,
+            "positive": 12
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 19,
+            "negative": 3
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 4
+          }
+        }
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 5774.236701916989,
+      "average_s": 481.18639182641573,
+      "distance_m": 19606.183509584953,
+      "counts": {
+        "measure": 301,
+        "switch": 282,
+        "clear_success": 12,
+        "clear_fail": 2
+      },
+      "time_parts_s": {
+        "move": 3921.2367019169906,
+        "measure": 1505,
+        "switch": 282,
+        "clear_success": 60,
+        "clear_fail": 6
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55201-cluster-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55201,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 13.7475288999849,
+      "independent_audit_wall_s": 0.7763940999866463,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 310,
+        "polygons": 34,
+        "optical_plans": 6,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 5786.767644787479,
+        "counts": {
+          "measure": 297,
+          "switch": 279,
+          "clear_success": 12,
+          "clear_fail": 1
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 6,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 310,
+          "actual_optical_actions": 7,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 310,
+        "belief": 34,
+        "task_choice": 38,
+        "station_joint_prediction": 9,
+        "decision": 2,
+        "shared_prediction": 19,
+        "ordered_optical_prune": 6,
+        "optical_plan": 6
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 9,
+        "joint_selected": 1,
+        "actual_joint_measures": 1,
+        "joint_positive": 1,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 275,
+        "unknown_scan_measures": 275,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "joint_source_measure": {
+            "actions": 1,
+            "positive": 1
+          },
+          "optical_cover": {
+            "actions": 7
+          },
+          "scan": {
+            "actions": 275,
+            "negative": 263,
+            "positive": 12
+          },
+          "shared_measure": {
+            "actions": 19,
+            "positive": 16,
+            "negative": 3
+          },
+          "source_measure": {
+            "actions": 2,
+            "positive": 2
+          }
+        }
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 5786.767644787479,
+      "average_s": 482.2306370656233,
+      "distance_m": 19798.8382239374,
+      "counts": {
+        "measure": 297,
+        "switch": 279,
+        "clear_success": 12,
+        "clear_fail": 1
+      },
+      "time_parts_s": {
+        "move": 3959.76764478748,
+        "measure": 1485,
+        "switch": 279,
+        "clear_success": 60,
+        "clear_fail": 3
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55201-cluster-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 14.599301499983994,
+      "independent_audit_wall_s": 0.05991030001314357,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 202,
+        "polygons": 53,
+        "optical_plans": 8,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 5134.699975708792,
+        "counts": {
+          "measure": 179,
+          "switch": 165,
+          "clear_success": 16,
+          "clear_fail": 7
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 202,
+          "actual_optical_actions": 15,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 202,
+        "belief": 53,
+        "task_choice": 37,
+        "decision": 3,
+        "shared_prediction": 34,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 19,
+        "actual_scan_measures": 142,
+        "unknown_scan_measures": 142,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 8
+          },
+          "optical_cover": {
+            "actions": 15
+          },
+          "scan": {
+            "actions": 142,
+            "negative": 126,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 34,
+            "positive": 30,
+            "negative": 4
+          },
+          "source_measure": {
+            "actions": 3,
+            "positive": 3
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 5134.699975708792,
+      "average_s": 320.9187484817995,
+      "distance_m": 19868.499878543953,
+      "counts": {
+        "measure": 179,
+        "switch": 165,
+        "clear_success": 16,
+        "clear_fail": 7
+      },
+      "time_parts_s": {
+        "move": 3973.6999757087906,
+        "measure": 895,
+        "switch": 165,
+        "clear_success": 80,
+        "clear_fail": 21
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55300-omni_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 14.373641100013629,
+      "independent_audit_wall_s": 0.04172310000285506,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 202,
+        "polygons": 53,
+        "optical_plans": 8,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 5134.699975708792,
+        "counts": {
+          "measure": 179,
+          "switch": 165,
+          "clear_success": 16,
+          "clear_fail": 7
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 202,
+          "actual_optical_actions": 15,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 202,
+        "belief": 53,
+        "task_choice": 37,
+        "station_joint_prediction": 8,
+        "decision": 3,
+        "shared_prediction": 34,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 8,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 19,
+        "actual_scan_measures": 142,
+        "unknown_scan_measures": 142,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 8
+          },
+          "optical_cover": {
+            "actions": 15
+          },
+          "scan": {
+            "actions": 142,
+            "negative": 126,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 34,
+            "positive": 30,
+            "negative": 4
+          },
+          "source_measure": {
+            "actions": 3,
+            "positive": 3
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 5134.699975708792,
+      "average_s": 320.9187484817995,
+      "distance_m": 19868.499878543953,
+      "counts": {
+        "measure": 179,
+        "switch": 165,
+        "clear_success": 16,
+        "clear_fail": 7
+      },
+      "time_parts_s": {
+        "move": 3973.6999757087906,
+        "measure": 895,
+        "switch": 165,
+        "clear_success": 80,
+        "clear_fail": 21
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55300-omni_heavy-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55301,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 11.741828500002157,
+      "independent_audit_wall_s": 0.4071113000100013,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 215,
+        "polygons": 53,
+        "optical_plans": 5,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 5807.587670504161,
+        "counts": {
+          "measure": 197,
+          "switch": 187,
+          "clear_success": 15,
+          "clear_fail": 3
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 5,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 215,
+          "actual_optical_actions": 8,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 215,
+        "belief": 53,
+        "task_choice": 42,
+        "decision": 3,
+        "shared_prediction": 35,
+        "ordered_optical_prune": 5,
+        "optical_plan": 5
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 159,
+        "unknown_scan_measures": 159,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 10
+          },
+          "optical_cover": {
+            "actions": 8
+          },
+          "scan": {
+            "actions": 159,
+            "negative": 144,
+            "positive": 15
+          },
+          "shared_measure": {
+            "actions": 35,
+            "positive": 27,
+            "negative": 8
+          },
+          "source_measure": {
+            "actions": 3,
+            "positive": 3
+          }
+        }
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 5807.587670504161,
+      "average_s": 387.1725113669441,
+      "distance_m": 22757.93835252082,
+      "counts": {
+        "measure": 197,
+        "switch": 187,
+        "clear_success": 15,
+        "clear_fail": 3
+      },
+      "time_parts_s": {
+        "move": 4551.587670504165,
+        "measure": 985,
+        "switch": 187,
+        "clear_success": 75,
+        "clear_fail": 9
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55301-omni_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55301,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 14.1861465999973,
+      "independent_audit_wall_s": 0.4760525999881793,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 221,
+        "polygons": 46,
+        "optical_plans": 8,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 5573.902718803672,
+        "counts": {
+          "measure": 202,
+          "switch": 187,
+          "clear_success": 15,
+          "clear_fail": 4
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 221,
+          "actual_optical_actions": 12,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 221,
+        "belief": 46,
+        "task_choice": 41,
+        "station_joint_prediction": 11,
+        "shared_prediction": 28,
+        "decision": 2,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 11,
+        "joint_selected": 1,
+        "actual_joint_measures": 1,
+        "joint_positive": 1,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 171,
+        "unknown_scan_measures": 171,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 7
+          },
+          "joint_source_measure": {
+            "actions": 1,
+            "positive": 1
+          },
+          "optical_cover": {
+            "actions": 12
+          },
+          "scan": {
+            "actions": 171,
+            "negative": 156,
+            "positive": 15
+          },
+          "shared_measure": {
+            "actions": 28,
+            "positive": 27,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 2,
+            "positive": 2
+          }
+        }
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 5573.902718803672,
+      "average_s": 371.59351458691145,
+      "distance_m": 21449.513594018365,
+      "counts": {
+        "measure": 202,
+        "switch": 187,
+        "clear_success": 15,
+        "clear_fail": 4
+      },
+      "time_parts_s": {
+        "move": 4289.9027188036725,
+        "measure": 1010,
+        "switch": 187,
+        "clear_success": 75,
+        "clear_fail": 12
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55301-omni_heavy-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 8.303246399998898,
+      "independent_audit_wall_s": 0.9631498999951873,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 353,
+        "polygons": 43,
+        "optical_plans": 10,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6500.987546873903,
+        "counts": {
+          "measure": 308,
+          "switch": 294,
+          "clear_success": 13,
+          "clear_fail": 32
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 159,
+          "skipped_before_success": 30,
+          "accepted_actions": 353,
+          "actual_optical_actions": 42,
+          "contractions_applied": 3,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 3
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 353,
+        "belief": 43,
+        "task_choice": 43,
+        "decision": 6,
+        "shared_prediction": 24,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 278,
+        "unknown_scan_measures": 278,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "optical_cover": {
+            "actions": 42
+          },
+          "scan": {
+            "actions": 278,
+            "negative": 265,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 24,
+            "positive": 17,
+            "negative": 7
+          },
+          "source_measure": {
+            "actions": 6,
+            "negative": 3,
+            "positive": 3
+          }
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6500.987546873903,
+      "average_s": 500.0759651441464,
+      "distance_m": 22529.93773436951,
+      "counts": {
+        "measure": 308,
+        "switch": 294,
+        "clear_success": 13,
+        "clear_fail": 32
+      },
+      "time_parts_s": {
+        "move": 4505.987546873902,
+        "measure": 1540,
+        "switch": 294,
+        "clear_success": 65,
+        "clear_fail": 96
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55400-dir_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 9.90971060001175,
+      "independent_audit_wall_s": 0.652732599992305,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 338,
+        "polygons": 43,
+        "optical_plans": 7,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6596.216447157716,
+        "counts": {
+          "measure": 308,
+          "switch": 292,
+          "clear_success": 13,
+          "clear_fail": 17
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 7,
+          "removed_planned": 5,
+          "skipped_before_success": 5,
+          "accepted_actions": 338,
+          "actual_optical_actions": 24,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 338,
+        "belief": 43,
+        "task_choice": 41,
+        "station_joint_prediction": 14,
+        "decision": 4,
+        "shared_prediction": 23,
+        "ordered_optical_prune": 7,
+        "optical_plan": 7
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 14,
+        "joint_selected": 3,
+        "actual_joint_measures": 3,
+        "joint_positive": 3,
+        "joint_negative": 0,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 278,
+        "unknown_scan_measures": 278,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "joint_source_measure": {
+            "actions": 3,
+            "positive": 3
+          },
+          "optical_cover": {
+            "actions": 24
+          },
+          "scan": {
+            "actions": 278,
+            "negative": 265,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 23,
+            "positive": 16,
+            "negative": 7
+          },
+          "source_measure": {
+            "actions": 4,
+            "negative": 2,
+            "positive": 2
+          }
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6596.216447157716,
+      "average_s": 507.40126516597815,
+      "distance_m": 23241.08223578858,
+      "counts": {
+        "measure": 308,
+        "switch": 292,
+        "clear_success": 13,
+        "clear_fail": 17
+      },
+      "time_parts_s": {
+        "move": 4648.216447157716,
+        "measure": 1540,
+        "switch": 292,
+        "clear_success": 65,
+        "clear_fail": 51
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55400-dir_heavy-hashed-station_joint_view.json"
+    },
+    {
+      "seed": 55401,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "runtime_s": 11.276639999996405,
+      "independent_audit_wall_s": 0.2078034000005573,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 305,
+        "polygons": 53,
+        "optical_plans": 7,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 6056.916032996848,
+        "counts": {
+          "measure": 272,
+          "switch": 257,
+          "clear_success": 16,
+          "clear_fail": 17
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 7,
+          "removed_planned": 89,
+          "skipped_before_success": 0,
+          "accepted_actions": 305,
+          "actual_optical_actions": 24,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 305,
+        "belief": 53,
+        "task_choice": 48,
+        "decision": 10,
+        "shared_prediction": 27,
+        "ordered_optical_prune": 7,
+        "optical_plan": 7
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 0,
+        "joint_selected": 0,
+        "actual_joint_measures": 0,
+        "joint_positive": 0,
+        "joint_negative": 0,
+        "actual_scan_stations": 23,
+        "actual_scan_measures": 235,
+        "unknown_scan_measures": 235,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 9
+          },
+          "optical_cover": {
+            "actions": 24
+          },
+          "scan": {
+            "actions": 235,
+            "negative": 219,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 27,
+            "positive": 21,
+            "negative": 6
+          },
+          "source_measure": {
+            "actions": 10,
+            "positive": 9,
+            "negative": 1
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 6056.916032996848,
+      "average_s": 378.557252062303,
+      "distance_m": 21544.58016498424,
+      "counts": {
+        "measure": 272,
+        "switch": 257,
+        "clear_success": 16,
+        "clear_fail": 17
+      },
+      "time_parts_s": {
+        "move": 4308.916032996848,
+        "measure": 1360,
+        "switch": 257,
+        "clear_success": 80,
+        "clear_fail": 51
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55401-dir_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 55401,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "station_joint_view",
+      "runtime_s": 13.985735700000077,
+      "independent_audit_wall_s": 0.22585099999560043,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 313,
+        "polygons": 55,
+        "optical_plans": 10,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 6242.886960592339,
+        "counts": {
+          "measure": 276,
+          "switch": 258,
+          "clear_success": 16,
+          "clear_fail": 21
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 89,
+          "skipped_before_success": 0,
+          "accepted_actions": 313,
+          "actual_optical_actions": 31,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        }
+      },
+      "trace_phase_counts": {
+        "actual_action": 313,
+        "belief": 55,
+        "task_choice": 49,
+        "station_joint_prediction": 16,
+        "shared_prediction": 28,
+        "decision": 9,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "joint_diagnostics": {
+        "joint_predictions": 16,
+        "joint_selected": 2,
+        "actual_joint_measures": 2,
+        "joint_positive": 1,
+        "joint_negative": 1,
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 237,
+        "unknown_scan_measures": 237,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "joint_source_measure": {
+            "actions": 2,
+            "negative": 1,
+            "positive": 1
+          },
+          "optical_cover": {
+            "actions": 31
+          },
+          "scan": {
+            "actions": 237,
+            "negative": 221,
+            "positive": 16
+          },
+          "shared_measure": {
+            "actions": 28,
+            "positive": 19,
+            "negative": 9
+          },
+          "source_measure": {
+            "actions": 9,
+            "positive": 8,
+            "negative": 1
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 6242.886960592339,
+      "average_s": 390.1804350370212,
+      "distance_m": 22309.434802961685,
+      "counts": {
+        "measure": 276,
+        "switch": 258,
+        "clear_success": 16,
+        "clear_fail": 21
+      },
+      "time_parts_s": {
+        "move": 4461.886960592337,
+        "measure": 1380,
+        "switch": 258,
+        "clear_success": 80,
+        "clear_fail": 63
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/station_joint_view_holdout55000_v1/55401-dir_heavy-hashed-station_joint_view.json"
+    }
+  ],
+  "pairs": [
+    {
+      "seed": 55000,
+      "population": "uniform",
+      "field": "hashed",
+      "scene_sha256": "415546a8ffa6603fab2967bad7e54d7f1c3e122869feae24a8debd813c8e87aa",
+      "baseline_s": 5741.948606255694,
+      "candidate_s": 5741.948606255694,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 13,
+      "candidate_source_count": 13,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 257
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55001,
+      "population": "uniform",
+      "field": "hashed",
+      "scene_sha256": "7e0b31105934a8ef5ccce2d77d0978eeeed7d2d39c6bd143aedd8412197e67f7",
+      "baseline_s": 6300.075765091268,
+      "candidate_s": 6397.808622929424,
+      "saved_s": -97.73285783815572,
+      "reduction_percent": -1.5512965475700098,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 11,
+      "candidate_source_count": 11,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 282
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55100,
+      "population": "boundary",
+      "field": "hashed",
+      "scene_sha256": "cfc5fafa55d166575ef2b3b61c3f965bd5a8b27fe5b3574dd77b40f8e8dd518b",
+      "baseline_s": 7107.677364360171,
+      "candidate_s": 7107.677364360171,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 14,
+      "candidate_source_count": 14,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 403
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55101,
+      "population": "boundary",
+      "field": "hashed",
+      "scene_sha256": "800edebf40484ee502a1d513bd22f6c888e683f9e6a4af95882cc7ccb1e7ae39",
+      "baseline_s": 7586.848626470279,
+      "candidate_s": 9277.278883432089,
+      "saved_s": -1690.4302569618103,
+      "reduction_percent": -22.281059504257826,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 16,
+      "candidate_source_count": 16,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 364
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55200,
+      "population": "cluster",
+      "field": "hashed",
+      "scene_sha256": "587b9eb0872fd3eac8023604a7047f78ff2b9c11fed2faeec2d15606fe4401f8",
+      "baseline_s": 5694.901045471839,
+      "candidate_s": 5705.171776835307,
+      "saved_s": -10.270731363468258,
+      "reduction_percent": -0.18034960188877694,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 11,
+      "candidate_source_count": 11,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 265
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55201,
+      "population": "cluster",
+      "field": "hashed",
+      "scene_sha256": "46d0f1986eddc84b8110b6c87bf25f1b3feb2aa95294f42757aac675a0a38ff7",
+      "baseline_s": 5774.236701916989,
+      "candidate_s": 5786.767644787479,
+      "saved_s": -12.530942870490435,
+      "reduction_percent": -0.21701470717905083,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 12,
+      "candidate_source_count": 12,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 293
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "scene_sha256": "6c5b7f535c1afb94d919568fdb4a1ed747ac5e8de273325bef76faead407fd7e",
+      "baseline_s": 5134.699975708792,
+      "candidate_s": 5134.699975708792,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 16,
+      "candidate_source_count": 16,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 179
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55301,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "scene_sha256": "a8f50e48c254893f295cb8940a05ca5eac13915942871f7203974b2b5cf99474",
+      "baseline_s": 5807.587670504161,
+      "candidate_s": 5573.902718803672,
+      "saved_s": 233.68495170048936,
+      "reduction_percent": 4.023786896706511,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 15,
+      "candidate_source_count": 15,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 146
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "scene_sha256": "3d5033cffbee739d6d86ff4107a9a7ba87b9de88e79c0797df4de85d3fec8336",
+      "baseline_s": 6500.987546873903,
+      "candidate_s": 6596.216447157716,
+      "saved_s": -95.22890028381335,
+      "reduction_percent": -1.464837451190098,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 13,
+      "candidate_source_count": 13,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 299
+      },
+      "same_source_layout": true
+    },
+    {
+      "seed": 55401,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "scene_sha256": "0c91c19cca5a8359736a2c47601140c2ea9b2fe2e6a1a79e686c996804f7aaca",
+      "baseline_s": 6056.916032996848,
+      "candidate_s": 6242.886960592339,
+      "saved_s": -185.97092759549105,
+      "reduction_percent": -3.070389726097559,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 16,
+      "candidate_source_count": 16,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 230
+      },
+      "same_source_layout": true
+    }
+  ],
+  "overall": {
+    "groups": {
+      "baseline_share25_prune": {
+        "runs": 10,
+        "all_cleared": 10,
+        "passes": 10,
+        "source_condition_instances": 137,
+        "cleared": 137,
+        "mean_total_s": 6170.587933564994,
+        "maximum_total_s": 7586.848626470279,
+        "p90_total_s": 7155.594490571181,
+        "pooled_per_source_s": 450.4078783624084,
+        "mean_solver_wall_s": 10.731706949998625,
+        "maximum_solver_wall_s": 14.599301499983994
+      },
+      "station_joint_view": {
+        "runs": 10,
+        "all_cleared": 10,
+        "passes": 10,
+        "source_condition_instances": 137,
+        "cleared": 137,
+        "mean_total_s": 6356.435900086268,
+        "maximum_total_s": 9277.278883432089,
+        "p90_total_s": 7324.637516267362,
+        "pooled_per_source_s": 463.9734233639612,
+        "mean_solver_wall_s": 12.681310899998062,
+        "maximum_solver_wall_s": 14.948277099989355
+      }
+    },
+    "mean_reduction_percent": -3.01183563903775,
+    "faster": 1,
+    "slower": 6,
+    "ties": 3,
+    "worst_pair": {
+      "seed": 55101,
+      "population": "boundary",
+      "field": "hashed",
+      "scene_sha256": "800edebf40484ee502a1d513bd22f6c888e683f9e6a4af95882cc7ccb1e7ae39",
+      "baseline_s": 7586.848626470279,
+      "candidate_s": 9277.278883432089,
+      "saved_s": -1690.4302569618103,
+      "reduction_percent": -22.281059504257826,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "baseline_source_count": 16,
+      "candidate_source_count": 16,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 364
+      },
+      "same_source_layout": true
+    }
+  },
+  "by_field": {
+    "hashed": {
+      "groups": {
+        "baseline_share25_prune": {
+          "runs": 10,
+          "all_cleared": 10,
+          "passes": 10,
+          "source_condition_instances": 137,
+          "cleared": 137,
+          "mean_total_s": 6170.587933564994,
+          "maximum_total_s": 7586.848626470279,
+          "p90_total_s": 7155.594490571181,
+          "pooled_per_source_s": 450.4078783624084,
+          "mean_solver_wall_s": 10.731706949998625,
+          "maximum_solver_wall_s": 14.599301499983994
+        },
+        "station_joint_view": {
+          "runs": 10,
+          "all_cleared": 10,
+          "passes": 10,
+          "source_condition_instances": 137,
+          "cleared": 137,
+          "mean_total_s": 6356.435900086268,
+          "maximum_total_s": 9277.278883432089,
+          "p90_total_s": 7324.637516267362,
+          "pooled_per_source_s": 463.9734233639612,
+          "mean_solver_wall_s": 12.681310899998062,
+          "maximum_solver_wall_s": 14.948277099989355
+        }
+      },
+      "mean_reduction_percent": -3.01183563903775,
+      "faster": 1,
+      "slower": 6,
+      "ties": 3,
+      "worst_pair": {
+        "seed": 55101,
+        "population": "boundary",
+        "field": "hashed",
+        "scene_sha256": "800edebf40484ee502a1d513bd22f6c888e683f9e6a4af95882cc7ccb1e7ae39",
+        "baseline_s": 7586.848626470279,
+        "candidate_s": 9277.278883432089,
+        "saved_s": -1690.4302569618103,
+        "reduction_percent": -22.281059504257826,
+        "baseline_passed": true,
+        "candidate_passed": true,
+        "all_cleared": true,
+        "baseline_source_count": 16,
+        "candidate_source_count": 16,
+        "shared_point_feedback": {
+          "passed": true,
+          "shared_measurement_keys": 364
+        },
+        "same_source_layout": true
+      }
+    }
+  },
+  "independent_layouts": 10,
+  "paired_conditions": 10,
+  "official_contacted": false,
+  "performance_comparison_valid": true,
+  "warning": "Multiple fields reuse a layout. Count layouts and conditions separately. If any correctness audit fails, timing differences are diagnostic only."
+}

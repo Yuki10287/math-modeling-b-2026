@@ -1,0 +1,100 @@
+{
+  "model": "positive_convex_hull_receipt_v1",
+  "passed": true,
+  "deterministic_cases": [
+    {
+      "name": "same_actual_positive",
+      "expected_certified": true,
+      "passed": true
+    },
+    {
+      "name": "one_point_offline",
+      "expected_certified": false,
+      "passed": true
+    },
+    {
+      "name": "segment_interior",
+      "expected_certified": true,
+      "passed": true
+    },
+    {
+      "name": "segment_endpoint_duplicates",
+      "expected_certified": true,
+      "passed": true
+    },
+    {
+      "name": "segment_extension",
+      "expected_certified": false,
+      "passed": true
+    },
+    {
+      "name": "triangle_interior",
+      "expected_certified": true,
+      "passed": true
+    },
+    {
+      "name": "triangle_exact_boundary",
+      "expected_certified": true,
+      "passed": true
+    },
+    {
+      "name": "one_ulp_outside",
+      "expected_certified": false,
+      "passed": true
+    },
+    {
+      "name": "distance_1000_alone_is_insufficient",
+      "expected_certified": false,
+      "passed": true
+    },
+    {
+      "name": "no_positive",
+      "expected_certified": false,
+      "passed": true
+    },
+    {
+      "name": "nonfinite",
+      "expected_certified": false,
+      "passed": true
+    }
+  ],
+  "finite_heading_counterexample": {
+    "source": [
+      0,
+      0
+    ],
+    "radius": 1000,
+    "positives": [
+      [
+        500,
+        1
+      ],
+      [
+        500,
+        -1
+      ]
+    ],
+    "candidate": [
+      500,
+      2
+    ],
+    "actual_heading_proportional_to": [
+      1,
+      -300
+    ],
+    "positive_dot_products": [
+      200,
+      800
+    ],
+    "candidate_dot_product": -100,
+    "sampled_accepted_headings": 11,
+    "sampled_receive_fraction": 1.0,
+    "actual_response": "no_signal",
+    "certified": false
+  },
+  "physical_property_checks": 640,
+  "certified_property_checks": 347,
+  "seed": 57000,
+  "source_sha256": "5a23f2fc982d914ae4a9455b36e818ccb6ab10e3615442f4e9e92fb74de2aa41",
+  "test_boundary": "Local algebra/physical consistency tests; no simulator or network calls."
+}

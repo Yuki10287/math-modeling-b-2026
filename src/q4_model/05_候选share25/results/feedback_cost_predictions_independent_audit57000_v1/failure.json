@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "stage": "first case input binding after content audit",
+  "exception": "ValueError: relative input path is not in subpath of absolute PROJECT during Path.relative_to",
+  "tool_exit_code": 1,
+  "first_case": "57000-uniform-hashed-feedback_cost.json",
+  "source_sha256": "bb8ed7b67e57f5d34a67763b45a13ed28560388a70379f645f184e88c418621a",
+  "scope": "Audit path handling failure; no model or original case was modified, and remaining cases were not audited by this attempt.",
+  "correction": "Create separate audit_feedback_predictions_v2.py with path.resolve() inside binding; preserve v1 and use new result directory."
+}

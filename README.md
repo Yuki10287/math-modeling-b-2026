@@ -19,7 +19,7 @@
 
 - 第二问从[独立求解示例](src/q1_q2_geometry/02_第二问自适应求解/reports/README.md)开始。
 - [运行第三问.cmd](运行第三问.cmd)：当前time/lean主方案。
-- [运行第四问.cmd](运行第四问.cmd)：当前25站shared主方案。
+- [运行第四问.cmd](运行第四问.cmd)：第四问最终方案 `share25_prune`。
 - [运行第四问候选.cmd](运行第四问候选.cmd)：独立share25候选，先看[候选说明](src/q4_model/05_候选share25/reports/第四问share25候选演练说明.md)。
 
 第三、四问由你手动开启相应官方演练，再按窗口提示开始。个人日志保存在 `local_data/official_runs/`。请保留完整项目，使用根目录入口；组内的历史启动文件仅用于版本溯源。

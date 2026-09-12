@@ -1,0 +1,3553 @@
+{
+  "passed": true,
+  "source_snapshot_stable": true,
+  "rows": [
+    {
+      "seed": 61000,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "depth": null,
+      "runtime_s": 10.207254899985855,
+      "process_cpu_s": 9.734375,
+      "independent_audit_wall_s": 0.8910100000211969,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 322,
+        "polygons": 41,
+        "optical_plans": 9,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6572.833824012858,
+        "counts": {
+          "measure": 299,
+          "switch": 281,
+          "clear_success": 13,
+          "clear_fail": 10
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 9,
+          "removed_planned": 48,
+          "skipped_before_success": 0,
+          "accepted_actions": 322,
+          "actual_optical_actions": 19,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 0,
+          "evaluated_windows": 0,
+          "used_transitions_total": 0,
+          "used_transitions_maximum": 0,
+          "predicted_api_calls_total": 0,
+          "predicted_api_calls_maximum": 0,
+          "terminal_evaluations_total": 0,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 271,
+        "unknown_scan_measures": 271,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 19
+          },
+          "scan": {
+            "actions": 271,
+            "negative": 258,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 17,
+            "negative": 5
+          },
+          "source_measure": {
+            "actions": 6,
+            "positive": 6
+          }
+        },
+        "window_trace_phase_counts": {},
+        "window_trace_fields": [],
+        "planner_profiles": [],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 322,
+        "belief": 41,
+        "task_choice": 43,
+        "decision": 6,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 9,
+        "optical_plan": 9
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6572.833824012858,
+      "average_s": 505.6026018471429,
+      "distance_m": 23509.169120064307,
+      "counts": {
+        "measure": 299,
+        "switch": 281,
+        "clear_success": 13,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 4701.833824012861,
+        "measure": 1495,
+        "switch": 281,
+        "clear_success": 65,
+        "clear_fail": 30
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61000-uniform-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 61000,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "window_depth1",
+      "depth": 1,
+      "runtime_s": 38.91688180001802,
+      "process_cpu_s": 37.828125,
+      "independent_audit_wall_s": 0.6738129000004847,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 298,
+        "polygons": 38,
+        "optical_plans": 8,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6255.549563933802,
+        "counts": {
+          "measure": 275,
+          "switch": 259,
+          "clear_success": 13,
+          "clear_fail": 10
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 48,
+          "skipped_before_success": 0,
+          "accepted_actions": 298,
+          "actual_optical_actions": 18,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 120,
+          "used_transitions_maximum": 30,
+          "predicted_api_calls_total": 1305,
+          "predicted_api_calls_maximum": 363,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 250,
+        "unknown_scan_measures": 250,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 5
+          },
+          "optical_cover": {
+            "actions": 18
+          },
+          "scan": {
+            "actions": 250,
+            "negative": 237,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 21,
+            "positive": 14,
+            "negative": 7
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 4
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 24,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 354,
+              "predicted_clear": 0,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 35,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 336,
+              "predicted_clear": 27,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 46,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 288,
+              "predicted_clear": 12,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 68,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 282,
+              "predicted_clear": 6,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 298,
+        "belief": 38,
+        "window_rollout_prediction": 4,
+        "task_choice": 41,
+        "decision": 4,
+        "shared_prediction": 21,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6255.549563933802,
+      "average_s": 481.1961203026002,
+      "distance_m": 22632.74781966902,
+      "counts": {
+        "measure": 275,
+        "switch": 259,
+        "clear_success": 13,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 4526.549563933804,
+        "measure": 1375,
+        "switch": 259,
+        "clear_success": 65,
+        "clear_fail": 30
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61000-uniform-hashed-window_depth1.json"
+    },
+    {
+      "seed": 61000,
+      "population": "uniform",
+      "field": "hashed",
+      "variant": "window_depth2",
+      "depth": 2,
+      "runtime_s": 54.910100200009765,
+      "process_cpu_s": 53.640625,
+      "independent_audit_wall_s": 0.7496998000133317,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 299,
+        "polygons": 34,
+        "optical_plans": 8,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6290.175977094322,
+        "counts": {
+          "measure": 276,
+          "switch": 257,
+          "clear_success": 13,
+          "clear_fail": 10
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 48,
+          "skipped_before_success": 0,
+          "accepted_actions": 299,
+          "actual_optical_actions": 18,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 240,
+          "used_transitions_maximum": 60,
+          "predicted_api_calls_total": 2434,
+          "predicted_api_calls_maximum": 760,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 255,
+        "unknown_scan_measures": 255,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 5
+          },
+          "optical_cover": {
+            "actions": 18
+          },
+          "scan": {
+            "actions": 255,
+            "negative": 242,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 17,
+            "positive": 15,
+            "negative": 2
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 4
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 24,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 615,
+              "predicted_clear": 15,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 35,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 726,
+              "predicted_clear": 34,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 46,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 589,
+              "predicted_clear": 24,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 49,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 389,
+              "predicted_clear": 42,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 299,
+        "belief": 34,
+        "window_rollout_prediction": 4,
+        "task_choice": 41,
+        "decision": 4,
+        "shared_prediction": 17,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6290.175977094322,
+      "average_s": 483.85969054571706,
+      "distance_m": 22790.87988547162,
+      "counts": {
+        "measure": 276,
+        "switch": 257,
+        "clear_success": 13,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 4558.175977094324,
+        "measure": 1380,
+        "switch": 257,
+        "clear_success": 65,
+        "clear_fail": 30
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61000-uniform-hashed-window_depth2.json"
+    },
+    {
+      "seed": 61100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "depth": null,
+      "runtime_s": 7.935823000007076,
+      "process_cpu_s": 7.78125,
+      "independent_audit_wall_s": 0.9668837999925017,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 416,
+        "polygons": 36,
+        "optical_plans": 10,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 7419.064583178268,
+        "counts": {
+          "measure": 388,
+          "switch": 372,
+          "clear_success": 15,
+          "clear_fail": 13
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 97,
+          "skipped_before_success": 0,
+          "accepted_actions": 416,
+          "actual_optical_actions": 23,
+          "contractions_applied": 2,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 2
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 0,
+          "evaluated_windows": 0,
+          "used_transitions_total": 0,
+          "used_transitions_maximum": 0,
+          "predicted_api_calls_total": 0,
+          "predicted_api_calls_maximum": 0,
+          "terminal_evaluations_total": 0,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 367,
+        "unknown_scan_measures": 367,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 5
+          },
+          "optical_cover": {
+            "actions": 23
+          },
+          "scan": {
+            "actions": 367,
+            "negative": 352,
+            "positive": 15
+          },
+          "shared_measure": {
+            "actions": 8,
+            "negative": 4,
+            "positive": 4
+          },
+          "source_measure": {
+            "actions": 13,
+            "positive": 8,
+            "negative": 5
+          }
+        },
+        "window_trace_phase_counts": {},
+        "window_trace_fields": [],
+        "planner_profiles": [],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 416,
+        "task_choice": 52,
+        "belief": 36,
+        "decision": 13,
+        "shared_prediction": 8,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 7419.064583178268,
+      "average_s": 494.60430554521787,
+      "distance_m": 24965.322915891335,
+      "counts": {
+        "measure": 388,
+        "switch": 372,
+        "clear_success": 15,
+        "clear_fail": 13
+      },
+      "time_parts_s": {
+        "move": 4993.064583178267,
+        "measure": 1940,
+        "switch": 372,
+        "clear_success": 75,
+        "clear_fail": 39
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61100-boundary-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 61100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "window_depth1",
+      "depth": 1,
+      "runtime_s": 19.291849800007185,
+      "process_cpu_s": 19.046875,
+      "independent_audit_wall_s": 1.0011762999929488,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 414,
+        "polygons": 35,
+        "optical_plans": 9,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 7254.751407012988,
+        "counts": {
+          "measure": 388,
+          "switch": 370,
+          "clear_success": 15,
+          "clear_fail": 11
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 9,
+          "removed_planned": 275,
+          "skipped_before_success": 0,
+          "accepted_actions": 414,
+          "actual_optical_actions": 20,
+          "contractions_applied": 4,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 4
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 102,
+          "used_transitions_maximum": 30,
+          "predicted_api_calls_total": 1396,
+          "predicted_api_calls_maximum": 366,
+          "terminal_evaluations_total": 102,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 368,
+        "unknown_scan_measures": 368,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "optical_cover": {
+            "actions": 20
+          },
+          "scan": {
+            "actions": 368,
+            "negative": 353,
+            "positive": 15
+          },
+          "shared_measure": {
+            "actions": 13,
+            "negative": 4,
+            "positive": 9
+          },
+          "source_measure": {
+            "actions": 7,
+            "positive": 3,
+            "negative": 4
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 168,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 24,
+              "predicted_measure": 366,
+              "predicted_clear": 0,
+              "terminal_evaluations": 24
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 192,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 24,
+              "predicted_measure": 354,
+              "predicted_clear": 0,
+              "terminal_evaluations": 24
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 217,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 336,
+              "predicted_clear": 6,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 223,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 24,
+              "predicted_measure": 324,
+              "predicted_clear": 10,
+              "terminal_evaluations": 24
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 414,
+        "task_choice": 46,
+        "belief": 35,
+        "window_rollout_prediction": 4,
+        "shared_prediction": 13,
+        "ordered_optical_prune": 9,
+        "optical_plan": 9,
+        "decision": 7
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 7254.751407012988,
+      "average_s": 483.6500938008659,
+      "distance_m": 24183.75703506492,
+      "counts": {
+        "measure": 388,
+        "switch": 370,
+        "clear_success": 15,
+        "clear_fail": 11
+      },
+      "time_parts_s": {
+        "move": 4836.751407012984,
+        "measure": 1940,
+        "switch": 370,
+        "clear_success": 75,
+        "clear_fail": 33
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61100-boundary-hashed-window_depth1.json"
+    },
+    {
+      "seed": 61100,
+      "population": "boundary",
+      "field": "hashed",
+      "variant": "window_depth2",
+      "depth": 2,
+      "runtime_s": 32.10087460000068,
+      "process_cpu_s": 31.5625,
+      "independent_audit_wall_s": 0.7641596999892499,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 414,
+        "polygons": 35,
+        "optical_plans": 9,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 7254.751407012988,
+        "counts": {
+          "measure": 388,
+          "switch": 370,
+          "clear_success": 15,
+          "clear_fail": 11
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 9,
+          "removed_planned": 275,
+          "skipped_before_success": 0,
+          "accepted_actions": 414,
+          "actual_optical_actions": 20,
+          "contractions_applied": 4,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 4
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 204,
+          "used_transitions_maximum": 60,
+          "predicted_api_calls_total": 2654,
+          "predicted_api_calls_maximum": 718,
+          "terminal_evaluations_total": 102,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 368,
+        "unknown_scan_measures": 368,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 6
+          },
+          "optical_cover": {
+            "actions": 20
+          },
+          "scan": {
+            "actions": 368,
+            "negative": 353,
+            "positive": 15
+          },
+          "shared_measure": {
+            "actions": 13,
+            "negative": 4,
+            "positive": 9
+          },
+          "source_measure": {
+            "actions": 7,
+            "positive": 3,
+            "negative": 4
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 168,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 48,
+              "predicted_measure": 712,
+              "predicted_clear": 6,
+              "terminal_evaluations": 24
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 192,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 48,
+              "predicted_measure": 674,
+              "predicted_clear": 9,
+              "terminal_evaluations": 24
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 217,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 559,
+              "predicted_clear": 36,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 223,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 48,
+              "predicted_measure": 638,
+              "predicted_clear": 20,
+              "terminal_evaluations": 24
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 414,
+        "task_choice": 46,
+        "belief": 35,
+        "window_rollout_prediction": 4,
+        "shared_prediction": 13,
+        "ordered_optical_prune": 9,
+        "optical_plan": 9,
+        "decision": 7
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 7254.751407012988,
+      "average_s": 483.6500938008659,
+      "distance_m": 24183.75703506492,
+      "counts": {
+        "measure": 388,
+        "switch": 370,
+        "clear_success": 15,
+        "clear_fail": 11
+      },
+      "time_parts_s": {
+        "move": 4836.751407012984,
+        "measure": 1940,
+        "switch": 370,
+        "clear_success": 75,
+        "clear_fail": 33
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61100-boundary-hashed-window_depth2.json"
+    },
+    {
+      "seed": 61200,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "depth": null,
+      "runtime_s": 4.589031699986663,
+      "process_cpu_s": 4.546875,
+      "independent_audit_wall_s": 1.0584525000012945,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 371,
+        "polygons": 24,
+        "optical_plans": 7,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 6607.764110422375,
+        "counts": {
+          "measure": 294,
+          "switch": 271,
+          "clear_success": 10,
+          "clear_fail": 67
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 7,
+          "removed_planned": 96,
+          "skipped_before_success": 33,
+          "accepted_actions": 371,
+          "actual_optical_actions": 74,
+          "contractions_applied": 2,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 2
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 0,
+          "evaluated_windows": 0,
+          "used_transitions_total": 0,
+          "used_transitions_maximum": 0,
+          "predicted_api_calls_total": 0,
+          "predicted_api_calls_maximum": 0,
+          "terminal_evaluations_total": 0,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 280,
+        "unknown_scan_measures": 280,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "optical_cover": {
+            "actions": 74
+          },
+          "scan": {
+            "actions": 280,
+            "negative": 270,
+            "positive": 10
+          },
+          "shared_measure": {
+            "actions": 10,
+            "positive": 9,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 4,
+            "positive": 3,
+            "negative": 1
+          }
+        },
+        "window_trace_phase_counts": {},
+        "window_trace_fields": [],
+        "planner_profiles": [],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 371,
+        "belief": 24,
+        "task_choice": 38,
+        "decision": 4,
+        "shared_prediction": 10,
+        "ordered_optical_prune": 7,
+        "optical_plan": 7
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 6607.764110422375,
+      "average_s": 660.7764110422374,
+      "distance_m": 23078.82055211186,
+      "counts": {
+        "measure": 294,
+        "switch": 271,
+        "clear_success": 10,
+        "clear_fail": 67
+      },
+      "time_parts_s": {
+        "move": 4615.764110422372,
+        "measure": 1470,
+        "switch": 271,
+        "clear_success": 50,
+        "clear_fail": 201
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61200-cluster-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 61200,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "window_depth1",
+      "depth": 1,
+      "runtime_s": 45.12266290001571,
+      "process_cpu_s": 44.734375,
+      "independent_audit_wall_s": 0.5750538999855053,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 342,
+        "polygons": 27,
+        "optical_plans": 6,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 6063.135741745546,
+        "counts": {
+          "measure": 320,
+          "switch": 296,
+          "clear_success": 10,
+          "clear_fail": 12
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 6,
+          "removed_planned": 24,
+          "skipped_before_success": 0,
+          "accepted_actions": 342,
+          "actual_optical_actions": 18,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 120,
+          "used_transitions_maximum": 30,
+          "predicted_api_calls_total": 1233,
+          "predicted_api_calls_maximum": 327,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 303,
+        "unknown_scan_measures": 303,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 18
+          },
+          "scan": {
+            "actions": 303,
+            "negative": 293,
+            "positive": 10
+          },
+          "shared_measure": {
+            "actions": 11,
+            "positive": 10,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 6,
+            "positive": 5,
+            "negative": 1
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 26,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 318,
+              "predicted_clear": 0,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 37,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 318,
+              "predicted_clear": 9,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 48,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 270,
+              "predicted_clear": 19,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 51,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 282,
+              "predicted_clear": 17,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 342,
+        "belief": 27,
+        "window_rollout_prediction": 4,
+        "task_choice": 40,
+        "decision": 6,
+        "shared_prediction": 11,
+        "ordered_optical_prune": 6,
+        "optical_plan": 6
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 6063.135741745546,
+      "average_s": 606.3135741745546,
+      "distance_m": 20405.678708727748,
+      "counts": {
+        "measure": 320,
+        "switch": 296,
+        "clear_success": 10,
+        "clear_fail": 12
+      },
+      "time_parts_s": {
+        "move": 4081.1357417455497,
+        "measure": 1600,
+        "switch": 296,
+        "clear_success": 50,
+        "clear_fail": 36
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61200-cluster-hashed-window_depth1.json"
+    },
+    {
+      "seed": 61200,
+      "population": "cluster",
+      "field": "hashed",
+      "variant": "window_depth2",
+      "depth": 2,
+      "runtime_s": 957.5962507000077,
+      "process_cpu_s": 125.25,
+      "independent_audit_wall_s": 1.2788246000127401,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 382,
+        "polygons": 22,
+        "optical_plans": 9,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 6609.556567626854,
+        "counts": {
+          "measure": 298,
+          "switch": 277,
+          "clear_success": 10,
+          "clear_fail": 74
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 9,
+          "removed_planned": 72,
+          "skipped_before_success": 33,
+          "accepted_actions": 382,
+          "actual_optical_actions": 83,
+          "contractions_applied": 1,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 1
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 240,
+          "used_transitions_maximum": 60,
+          "predicted_api_calls_total": 2311,
+          "predicted_api_calls_maximum": 636,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 286,
+        "unknown_scan_measures": 286,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 1
+          },
+          "optical_cover": {
+            "actions": 83
+          },
+          "scan": {
+            "actions": 286,
+            "negative": 276,
+            "positive": 10
+          },
+          "shared_measure": {
+            "actions": 10,
+            "positive": 9,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 2,
+            "positive": 2
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 26,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 576,
+              "predicted_clear": 5,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 48,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 563,
+              "predicted_clear": 23,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 59,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 604,
+              "predicted_clear": 32,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 70,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 473,
+              "predicted_clear": 35,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 382,
+        "belief": 22,
+        "window_rollout_prediction": 4,
+        "task_choice": 36,
+        "shared_prediction": 10,
+        "decision": 2,
+        "ordered_optical_prune": 9,
+        "optical_plan": 9
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 6609.556567626854,
+      "average_s": 660.9556567626854,
+      "distance_m": 22852.782838134255,
+      "counts": {
+        "measure": 298,
+        "switch": 277,
+        "clear_success": 10,
+        "clear_fail": 74
+      },
+      "time_parts_s": {
+        "move": 4570.556567626851,
+        "measure": 1490,
+        "switch": 277,
+        "clear_success": 50,
+        "clear_fail": 222
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61200-cluster-hashed-window_depth2.json"
+    },
+    {
+      "seed": 61300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "depth": null,
+      "runtime_s": 14.100465399998939,
+      "process_cpu_s": 13.703125,
+      "independent_audit_wall_s": 0.7007701999973506,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 265,
+        "polygons": 39,
+        "optical_plans": 10,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 5701.421477569173,
+        "counts": {
+          "measure": 245,
+          "switch": 230,
+          "clear_success": 13,
+          "clear_fail": 7
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 10,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 265,
+          "actual_optical_actions": 17,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 0,
+          "evaluated_windows": 0,
+          "used_transitions_total": 0,
+          "used_transitions_maximum": 0,
+          "predicted_api_calls_total": 0,
+          "predicted_api_calls_maximum": 0,
+          "terminal_evaluations_total": 0,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 219,
+        "unknown_scan_measures": 219,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 3
+          },
+          "optical_cover": {
+            "actions": 17
+          },
+          "scan": {
+            "actions": 219,
+            "negative": 206,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 23,
+            "positive": 22,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 3,
+            "positive": 3
+          }
+        },
+        "window_trace_phase_counts": {},
+        "window_trace_fields": [],
+        "planner_profiles": [],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 265,
+        "belief": 39,
+        "task_choice": 40,
+        "decision": 3,
+        "shared_prediction": 23,
+        "ordered_optical_prune": 10,
+        "optical_plan": 10
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 5701.421477569173,
+      "average_s": 438.57088288993634,
+      "distance_m": 20802.107387845856,
+      "counts": {
+        "measure": 245,
+        "switch": 230,
+        "clear_success": 13,
+        "clear_fail": 7
+      },
+      "time_parts_s": {
+        "move": 4160.421477569171,
+        "measure": 1225,
+        "switch": 230,
+        "clear_success": 65,
+        "clear_fail": 21
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61300-omni_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 61300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "window_depth1",
+      "depth": 1,
+      "runtime_s": 70.17420400000992,
+      "process_cpu_s": 66.03125,
+      "independent_audit_wall_s": 0.6265818999963813,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 254,
+        "polygons": 37,
+        "optical_plans": 9,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 5654.875269694089,
+        "counts": {
+          "measure": 238,
+          "switch": 225,
+          "clear_success": 13,
+          "clear_fail": 3
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 9,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 254,
+          "actual_optical_actions": 12,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 120,
+          "used_transitions_maximum": 30,
+          "predicted_api_calls_total": 1140,
+          "predicted_api_calls_maximum": 308,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 214,
+        "unknown_scan_measures": 214,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 12
+          },
+          "scan": {
+            "actions": 214,
+            "negative": 201,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 21,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 2,
+            "positive": 2
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 27,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 300,
+              "predicted_clear": 0,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 38,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 294,
+              "predicted_clear": 14,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 61,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 264,
+              "predicted_clear": 10,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 72,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 246,
+              "predicted_clear": 12,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 254,
+        "belief": 37,
+        "window_rollout_prediction": 4,
+        "task_choice": 39,
+        "decision": 2,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 9,
+        "optical_plan": 9
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 5654.875269694089,
+      "average_s": 434.9904053610838,
+      "distance_m": 20829.376348470432,
+      "counts": {
+        "measure": 238,
+        "switch": 225,
+        "clear_success": 13,
+        "clear_fail": 3
+      },
+      "time_parts_s": {
+        "move": 4165.8752696940865,
+        "measure": 1190,
+        "switch": 225,
+        "clear_success": 65,
+        "clear_fail": 9
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61300-omni_heavy-hashed-window_depth1.json"
+    },
+    {
+      "seed": 61300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "variant": "window_depth2",
+      "depth": 2,
+      "runtime_s": 118.18704039999284,
+      "process_cpu_s": 116.46875,
+      "independent_audit_wall_s": 0.5764090000011493,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 254,
+        "polygons": 37,
+        "optical_plans": 9,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 5654.875269694089,
+        "counts": {
+          "measure": 238,
+          "switch": 225,
+          "clear_success": 13,
+          "clear_fail": 3
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 9,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 254,
+          "actual_optical_actions": 12,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 240,
+          "used_transitions_maximum": 60,
+          "predicted_api_calls_total": 2088,
+          "predicted_api_calls_maximum": 619,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 214,
+        "unknown_scan_measures": 214,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 12
+          },
+          "scan": {
+            "actions": 214,
+            "negative": 201,
+            "positive": 13
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 21,
+            "negative": 1
+          },
+          "source_measure": {
+            "actions": 2,
+            "positive": 2
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 27,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 611,
+              "predicted_clear": 8,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 38,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 490,
+              "predicted_clear": 34,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 61,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 460,
+              "predicted_clear": 25,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 72,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 430,
+              "predicted_clear": 30,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 254,
+        "belief": 37,
+        "window_rollout_prediction": 4,
+        "task_choice": 39,
+        "decision": 2,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 9,
+        "optical_plan": 9
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 5654.875269694089,
+      "average_s": 434.9904053610838,
+      "distance_m": 20829.376348470432,
+      "counts": {
+        "measure": 238,
+        "switch": 225,
+        "clear_success": 13,
+        "clear_fail": 3
+      },
+      "time_parts_s": {
+        "move": 4165.8752696940865,
+        "measure": 1190,
+        "switch": 225,
+        "clear_success": 65,
+        "clear_fail": 9
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61300-omni_heavy-hashed-window_depth2.json"
+    },
+    {
+      "seed": 61400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "baseline_share25_prune",
+      "depth": null,
+      "runtime_s": 9.6592251000111,
+      "process_cpu_s": 9.359375,
+      "independent_audit_wall_s": 1.1403632999863476,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 357,
+        "polygons": 42,
+        "optical_plans": 8,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 6305.315191311591,
+        "counts": {
+          "measure": 297,
+          "switch": 286,
+          "clear_success": 12,
+          "clear_fail": 48
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 124,
+          "skipped_before_success": 20,
+          "accepted_actions": 357,
+          "actual_optical_actions": 56,
+          "contractions_applied": 2,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 2
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 0,
+          "evaluated_windows": 0,
+          "used_transitions_total": 0,
+          "used_transitions_maximum": 0,
+          "predicted_api_calls_total": 0,
+          "predicted_api_calls_maximum": 0,
+          "terminal_evaluations_total": 0,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 267,
+        "unknown_scan_measures": 267,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 56
+          },
+          "scan": {
+            "actions": 267,
+            "negative": 255,
+            "positive": 12
+          },
+          "shared_measure": {
+            "actions": 25,
+            "positive": 14,
+            "negative": 11
+          },
+          "source_measure": {
+            "actions": 5,
+            "negative": 3,
+            "positive": 2
+          }
+        },
+        "window_trace_phase_counts": {},
+        "window_trace_fields": [],
+        "planner_profiles": [],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 357,
+        "belief": 42,
+        "task_choice": 41,
+        "decision": 5,
+        "shared_prediction": 25,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 6305.315191311591,
+      "average_s": 525.4429326092992,
+      "distance_m": 21651.57595655798,
+      "counts": {
+        "measure": 297,
+        "switch": 286,
+        "clear_success": 12,
+        "clear_fail": 48
+      },
+      "time_parts_s": {
+        "move": 4330.315191311596,
+        "measure": 1485,
+        "switch": 286,
+        "clear_success": 60,
+        "clear_fail": 144
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61400-dir_heavy-hashed-baseline_share25_prune.json"
+    },
+    {
+      "seed": 61400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "window_depth1",
+      "depth": 1,
+      "runtime_s": 49.08717590000015,
+      "process_cpu_s": 48.25,
+      "independent_audit_wall_s": 0.7164912000007462,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 311,
+        "polygons": 40,
+        "optical_plans": 8,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 6165.106682989282,
+        "counts": {
+          "measure": 292,
+          "switch": 276,
+          "clear_success": 12,
+          "clear_fail": 7
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 311,
+          "actual_optical_actions": 15,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 120,
+          "used_transitions_maximum": 30,
+          "predicted_api_calls_total": 1246,
+          "predicted_api_calls_maximum": 342,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 264,
+        "unknown_scan_measures": 264,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 15
+          },
+          "scan": {
+            "actions": 264,
+            "negative": 252,
+            "positive": 12
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 13,
+            "negative": 9
+          },
+          "source_measure": {
+            "actions": 6,
+            "negative": 1,
+            "positive": 5
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 25,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 342,
+              "predicted_clear": 0,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 49,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 312,
+              "predicted_clear": 12,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 60,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 270,
+              "predicted_clear": 11,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 79,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 30,
+              "predicted_measure": 288,
+              "predicted_clear": 11,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 311,
+        "belief": 40,
+        "window_rollout_prediction": 4,
+        "task_choice": 42,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8,
+        "decision": 6
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 6165.106682989282,
+      "average_s": 513.7588902491068,
+      "distance_m": 21740.533414946403,
+      "counts": {
+        "measure": 292,
+        "switch": 276,
+        "clear_success": 12,
+        "clear_fail": 7
+      },
+      "time_parts_s": {
+        "move": 4348.106682989281,
+        "measure": 1460,
+        "switch": 276,
+        "clear_success": 60,
+        "clear_fail": 21
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61400-dir_heavy-hashed-window_depth1.json"
+    },
+    {
+      "seed": 61400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "variant": "window_depth2",
+      "depth": 2,
+      "runtime_s": 85.88395670001046,
+      "process_cpu_s": 84.796875,
+      "independent_audit_wall_s": 0.6462981000076979,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 311,
+        "polygons": 40,
+        "optical_plans": 8,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 6165.106682989282,
+        "counts": {
+          "measure": 292,
+          "switch": 276,
+          "clear_success": 12,
+          "clear_fail": 7
+        },
+        "complete_optical_and_prune_proofs": {
+          "passed": true,
+          "plans": 8,
+          "removed_planned": 0,
+          "skipped_before_success": 0,
+          "accepted_actions": 311,
+          "actual_optical_actions": 15,
+          "contractions_applied": 0,
+          "all_optical_plans_audited": true,
+          "all_optical_actions_accounted": true,
+          "feedback_bound_to_independent_accepted_ledger": true
+        },
+        "exact_continuous_absence": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        },
+        "fixed_feedback_consistency": {
+          "passed": true,
+          "exact_repeated_points": 0
+        },
+        "postrun_contracted_true_source_retention": {
+          "passed": true,
+          "applied_contractions": 0
+        },
+        "planner_declared_budget": {
+          "passed": true,
+          "prediction_rows": 4,
+          "evaluated_windows": 4,
+          "used_transitions_total": 240,
+          "used_transitions_maximum": 60,
+          "predicted_api_calls_total": 2317,
+          "predicted_api_calls_maximum": 621,
+          "terminal_evaluations_total": 120,
+          "configuration": {
+            "WORLD_COUNT": 6,
+            "MAX_TRANSITIONS": 60,
+            "MAX_PREDICTED_API_CALLS": 6000,
+            "MAX_WINDOW_DECISIONS": 4
+          },
+          "scope": "Independent count/limit checks of declared profiles; prediction semantics require separate model audit. Same cap does not imply equal actual work."
+        }
+      },
+      "decision_diagnostics": {
+        "actual_scan_stations": 25,
+        "actual_scan_measures": 264,
+        "unknown_scan_measures": 264,
+        "by_reason": {
+          "certified_clear": {
+            "actions": 4
+          },
+          "optical_cover": {
+            "actions": 15
+          },
+          "scan": {
+            "actions": 264,
+            "negative": 252,
+            "positive": 12
+          },
+          "shared_measure": {
+            "actions": 22,
+            "positive": 13,
+            "negative": 9
+          },
+          "source_measure": {
+            "actions": 6,
+            "negative": 1,
+            "positive": 5
+          }
+        },
+        "window_trace_phase_counts": {
+          "window_rollout_prediction": 4
+        },
+        "window_trace_fields": [
+          "applied",
+          "baseline_task",
+          "budget",
+          "cpu_s",
+          "depth",
+          "event_prefix",
+          "model",
+          "model_assumption",
+          "new_discovery_scope",
+          "phase",
+          "reason",
+          "root_digest",
+          "root_tasks",
+          "rows",
+          "sampling",
+          "selected",
+          "successor_policy",
+          "terminal",
+          "wall_s",
+          "window_call",
+          "world_count",
+          "world_digest"
+        ],
+        "planner_profiles": [
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 25,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 521,
+              "predicted_clear": 17,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 49,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 603,
+              "predicted_clear": 18,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 60,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 546,
+              "predicted_clear": 24,
+              "terminal_evaluations": 30
+            }
+          },
+          {
+            "phase": "window_rollout_prediction",
+            "trace_index": 79,
+            "budget": {
+              "max_transitions": 60,
+              "max_api_calls": 6000,
+              "used_transitions": 60,
+              "predicted_measure": 570,
+              "predicted_clear": 18,
+              "terminal_evaluations": 30
+            }
+          }
+        ],
+        "decision_evidence_scope": "All planner alternatives, scores, profiles and budgets remain in the original complete trace."
+      },
+      "trace_phase_counts": {
+        "actual_action": 311,
+        "belief": 40,
+        "window_rollout_prediction": 4,
+        "task_choice": 42,
+        "shared_prediction": 22,
+        "ordered_optical_prune": 8,
+        "optical_plan": 8,
+        "decision": 6
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 6165.106682989282,
+      "average_s": 513.7588902491068,
+      "distance_m": 21740.533414946403,
+      "counts": {
+        "measure": 292,
+        "switch": 276,
+        "clear_success": 12,
+        "clear_fail": 7
+      },
+      "time_parts_s": {
+        "move": 4348.106682989281,
+        "measure": 1460,
+        "switch": 276,
+        "clear_success": 60,
+        "clear_fail": 21
+      },
+      "source_snapshot_stable": true,
+      "artifact": "src/q4_model/05_候选share25/results/window_joint_dev61000_v1/61400-dir_heavy-hashed-window_depth2.json"
+    }
+  ],
+  "comparisons": [
+    {
+      "seed": 61000,
+      "population": "uniform",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth1",
+      "scene_sha256": "66b8bd6fa99880961c94ae8e9b9d4d53f4735b4efc076e8d594dc8bc54cd102b",
+      "baseline_s": 6572.833824012858,
+      "candidate_s": 6255.549563933802,
+      "saved_s": 317.28426007905546,
+      "reduction_percent": 4.827206477058727,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 246
+      }
+    },
+    {
+      "seed": 61000,
+      "population": "uniform",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth2",
+      "scene_sha256": "66b8bd6fa99880961c94ae8e9b9d4d53f4735b4efc076e8d594dc8bc54cd102b",
+      "baseline_s": 6572.833824012858,
+      "candidate_s": 6290.175977094322,
+      "saved_s": 282.65784691853605,
+      "reduction_percent": 4.300395453265351,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 242
+      }
+    },
+    {
+      "seed": 61000,
+      "population": "uniform",
+      "field": "hashed",
+      "before_variant": "window_depth1",
+      "after_variant": "window_depth2",
+      "scene_sha256": "66b8bd6fa99880961c94ae8e9b9d4d53f4735b4efc076e8d594dc8bc54cd102b",
+      "baseline_s": 6255.549563933802,
+      "candidate_s": 6290.175977094322,
+      "saved_s": -34.626413160519405,
+      "reduction_percent": -0.5535311135596628,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 268
+      }
+    },
+    {
+      "seed": 61100,
+      "population": "boundary",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth1",
+      "scene_sha256": "515dcd5a5fa24d591c88ae35aec6db58e16eb50cf89dc9d5fb729c5b2d3e35f8",
+      "baseline_s": 7419.064583178268,
+      "candidate_s": 7254.751407012988,
+      "saved_s": 164.3131761652794,
+      "reduction_percent": 2.2147424964844955,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 15,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 334
+      }
+    },
+    {
+      "seed": 61100,
+      "population": "boundary",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth2",
+      "scene_sha256": "515dcd5a5fa24d591c88ae35aec6db58e16eb50cf89dc9d5fb729c5b2d3e35f8",
+      "baseline_s": 7419.064583178268,
+      "candidate_s": 7254.751407012988,
+      "saved_s": 164.3131761652794,
+      "reduction_percent": 2.2147424964844955,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 15,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 334
+      }
+    },
+    {
+      "seed": 61100,
+      "population": "boundary",
+      "field": "hashed",
+      "before_variant": "window_depth1",
+      "after_variant": "window_depth2",
+      "scene_sha256": "515dcd5a5fa24d591c88ae35aec6db58e16eb50cf89dc9d5fb729c5b2d3e35f8",
+      "baseline_s": 7254.751407012988,
+      "candidate_s": 7254.751407012988,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 15,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 388
+      }
+    },
+    {
+      "seed": 61200,
+      "population": "cluster",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth1",
+      "scene_sha256": "660f7504f108a6aa5a188c9c9b56ce70ba6099ac0081e7b150ec59b1cb2a828c",
+      "baseline_s": 6607.764110422375,
+      "candidate_s": 6063.135741745546,
+      "saved_s": 544.6283686768293,
+      "reduction_percent": 8.242248960095159,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 10,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 282
+      }
+    },
+    {
+      "seed": 61200,
+      "population": "cluster",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth2",
+      "scene_sha256": "660f7504f108a6aa5a188c9c9b56ce70ba6099ac0081e7b150ec59b1cb2a828c",
+      "baseline_s": 6607.764110422375,
+      "candidate_s": 6609.556567626854,
+      "saved_s": -1.7924572044794331,
+      "reduction_percent": -0.027126531373179687,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 10,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 280
+      }
+    },
+    {
+      "seed": 61200,
+      "population": "cluster",
+      "field": "hashed",
+      "before_variant": "window_depth1",
+      "after_variant": "window_depth2",
+      "scene_sha256": "660f7504f108a6aa5a188c9c9b56ce70ba6099ac0081e7b150ec59b1cb2a828c",
+      "baseline_s": 6063.135741745546,
+      "candidate_s": 6609.556567626854,
+      "saved_s": -546.4208258813087,
+      "reduction_percent": -9.012181965828741,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 10,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 279
+      }
+    },
+    {
+      "seed": 61300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth1",
+      "scene_sha256": "b005c8fd671058c63321715ef1dd344257f098c6c15388a22e72d5d98de2b5e9",
+      "baseline_s": 5701.421477569173,
+      "candidate_s": 5654.875269694089,
+      "saved_s": 46.54620787508338,
+      "reduction_percent": 0.8163965435323083,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 223
+      }
+    },
+    {
+      "seed": 61300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth2",
+      "scene_sha256": "b005c8fd671058c63321715ef1dd344257f098c6c15388a22e72d5d98de2b5e9",
+      "baseline_s": 5701.421477569173,
+      "candidate_s": 5654.875269694089,
+      "saved_s": 46.54620787508338,
+      "reduction_percent": 0.8163965435323083,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 223
+      }
+    },
+    {
+      "seed": 61300,
+      "population": "omni_heavy",
+      "field": "hashed",
+      "before_variant": "window_depth1",
+      "after_variant": "window_depth2",
+      "scene_sha256": "b005c8fd671058c63321715ef1dd344257f098c6c15388a22e72d5d98de2b5e9",
+      "baseline_s": 5654.875269694089,
+      "candidate_s": 5654.875269694089,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 13,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 238
+      }
+    },
+    {
+      "seed": 61400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth1",
+      "scene_sha256": "632cb1ec49e8e194deed91b1017d61a5c26d7de658e650c4469e3764e714712e",
+      "baseline_s": 6305.315191311591,
+      "candidate_s": 6165.106682989282,
+      "saved_s": 140.20850832230917,
+      "reduction_percent": 2.2236558216076094,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 12,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 237
+      }
+    },
+    {
+      "seed": 61400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "before_variant": "baseline_share25_prune",
+      "after_variant": "window_depth2",
+      "scene_sha256": "632cb1ec49e8e194deed91b1017d61a5c26d7de658e650c4469e3764e714712e",
+      "baseline_s": 6305.315191311591,
+      "candidate_s": 6165.106682989282,
+      "saved_s": 140.20850832230917,
+      "reduction_percent": 2.2236558216076094,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 12,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 237
+      }
+    },
+    {
+      "seed": 61400,
+      "population": "dir_heavy",
+      "field": "hashed",
+      "before_variant": "window_depth1",
+      "after_variant": "window_depth2",
+      "scene_sha256": "632cb1ec49e8e194deed91b1017d61a5c26d7de658e650c4469e3764e714712e",
+      "baseline_s": 6165.106682989282,
+      "candidate_s": 6165.106682989282,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "baseline_passed": true,
+      "candidate_passed": true,
+      "all_cleared": true,
+      "source_count": 12,
+      "same_source_layout": true,
+      "shared_point_feedback": {
+        "passed": true,
+        "shared_measurement_keys": 292
+      }
+    }
+  ],
+  "overall": {
+    "groups": {
+      "baseline_share25_prune": {
+        "runs": 5,
+        "all_cleared": 5,
+        "passes": 5,
+        "source_condition_instances": 63,
+        "cleared": 63,
+        "mean_total_s": 6521.279837298853,
+        "maximum_total_s": 7419.064583178268,
+        "p90_total_s": 7094.5443940759105,
+        "pooled_per_source_s": 517.5618918491153,
+        "mean_solver_wall_s": 9.298360019997926,
+        "maximum_solver_wall_s": 14.100465399998939,
+        "mean_process_cpu_s": 9.025,
+        "maximum_process_cpu_s": 13.703125
+      },
+      "window_depth1": {
+        "runs": 5,
+        "all_cleared": 5,
+        "passes": 5,
+        "source_condition_instances": 63,
+        "cleared": 63,
+        "mean_total_s": 6278.683733075142,
+        "maximum_total_s": 7254.751407012988,
+        "p90_total_s": 6855.070669781314,
+        "pooled_per_source_s": 498.30823278374135,
+        "mean_solver_wall_s": 44.5185548800102,
+        "maximum_solver_wall_s": 70.17420400000992,
+        "mean_process_cpu_s": 43.178125,
+        "maximum_process_cpu_s": 66.03125
+      },
+      "window_depth2": {
+        "runs": 5,
+        "all_cleared": 5,
+        "passes": 5,
+        "source_condition_instances": 63,
+        "cleared": 63,
+        "mean_total_s": 6394.893180883507,
+        "maximum_total_s": 7254.751407012988,
+        "p90_total_s": 6996.673471258535,
+        "pooled_per_source_s": 507.53120483202434,
+        "mean_solver_wall_s": 249.73564452000429,
+        "maximum_solver_wall_s": 957.5962507000077,
+        "mean_process_cpu_s": 82.34375,
+        "maximum_process_cpu_s": 125.25
+      }
+    },
+    "comparisons": {
+      "baseline_share25_prune__vs__window_depth1": {
+        "pairs": 5,
+        "mean_before_s": 6521.279837298853,
+        "mean_after_s": 6278.683733075142,
+        "mean_saved_s": 242.59610422371043,
+        "mean_reduction_percent": 3.7200689170884433,
+        "faster": 5,
+        "slower": 0,
+        "ties": 0,
+        "worst_pair": {
+          "seed": 61300,
+          "population": "omni_heavy",
+          "field": "hashed",
+          "before_variant": "baseline_share25_prune",
+          "after_variant": "window_depth1",
+          "scene_sha256": "b005c8fd671058c63321715ef1dd344257f098c6c15388a22e72d5d98de2b5e9",
+          "baseline_s": 5701.421477569173,
+          "candidate_s": 5654.875269694089,
+          "saved_s": 46.54620787508338,
+          "reduction_percent": 0.8163965435323083,
+          "baseline_passed": true,
+          "candidate_passed": true,
+          "all_cleared": true,
+          "source_count": 13,
+          "same_source_layout": true,
+          "shared_point_feedback": {
+            "passed": true,
+            "shared_measurement_keys": 223
+          }
+        }
+      },
+      "baseline_share25_prune__vs__window_depth2": {
+        "pairs": 5,
+        "mean_before_s": 6521.279837298853,
+        "mean_after_s": 6394.893180883507,
+        "mean_saved_s": 126.3866564153459,
+        "mean_reduction_percent": 1.9380652198433475,
+        "faster": 4,
+        "slower": 1,
+        "ties": 0,
+        "worst_pair": {
+          "seed": 61200,
+          "population": "cluster",
+          "field": "hashed",
+          "before_variant": "baseline_share25_prune",
+          "after_variant": "window_depth2",
+          "scene_sha256": "660f7504f108a6aa5a188c9c9b56ce70ba6099ac0081e7b150ec59b1cb2a828c",
+          "baseline_s": 6607.764110422375,
+          "candidate_s": 6609.556567626854,
+          "saved_s": -1.7924572044794331,
+          "reduction_percent": -0.027126531373179687,
+          "baseline_passed": true,
+          "candidate_passed": true,
+          "all_cleared": true,
+          "source_count": 10,
+          "same_source_layout": true,
+          "shared_point_feedback": {
+            "passed": true,
+            "shared_measurement_keys": 280
+          }
+        }
+      },
+      "window_depth1__vs__window_depth2": {
+        "pairs": 5,
+        "mean_before_s": 6278.683733075142,
+        "mean_after_s": 6394.893180883507,
+        "mean_saved_s": -116.20944780836453,
+        "mean_reduction_percent": -1.8508568475298572,
+        "faster": 0,
+        "slower": 2,
+        "ties": 3,
+        "worst_pair": {
+          "seed": 61200,
+          "population": "cluster",
+          "field": "hashed",
+          "before_variant": "window_depth1",
+          "after_variant": "window_depth2",
+          "scene_sha256": "660f7504f108a6aa5a188c9c9b56ce70ba6099ac0081e7b150ec59b1cb2a828c",
+          "baseline_s": 6063.135741745546,
+          "candidate_s": 6609.556567626854,
+          "saved_s": -546.4208258813087,
+          "reduction_percent": -9.012181965828741,
+          "baseline_passed": true,
+          "candidate_passed": true,
+          "all_cleared": true,
+          "source_count": 10,
+          "same_source_layout": true,
+          "shared_point_feedback": {
+            "passed": true,
+            "shared_measurement_keys": 279
+          }
+        }
+      }
+    }
+  },
+  "by_field": {
+    "hashed": {
+      "groups": {
+        "baseline_share25_prune": {
+          "runs": 5,
+          "all_cleared": 5,
+          "passes": 5,
+          "source_condition_instances": 63,
+          "cleared": 63,
+          "mean_total_s": 6521.279837298853,
+          "maximum_total_s": 7419.064583178268,
+          "p90_total_s": 7094.5443940759105,
+          "pooled_per_source_s": 517.5618918491153,
+          "mean_solver_wall_s": 9.298360019997926,
+          "maximum_solver_wall_s": 14.100465399998939,
+          "mean_process_cpu_s": 9.025,
+          "maximum_process_cpu_s": 13.703125
+        },
+        "window_depth1": {
+          "runs": 5,
+          "all_cleared": 5,
+          "passes": 5,
+          "source_condition_instances": 63,
+          "cleared": 63,
+          "mean_total_s": 6278.683733075142,
+          "maximum_total_s": 7254.751407012988,
+          "p90_total_s": 6855.070669781314,
+          "pooled_per_source_s": 498.30823278374135,
+          "mean_solver_wall_s": 44.5185548800102,
+          "maximum_solver_wall_s": 70.17420400000992,
+          "mean_process_cpu_s": 43.178125,
+          "maximum_process_cpu_s": 66.03125
+        },
+        "window_depth2": {
+          "runs": 5,
+          "all_cleared": 5,
+          "passes": 5,
+          "source_condition_instances": 63,
+          "cleared": 63,
+          "mean_total_s": 6394.893180883507,
+          "maximum_total_s": 7254.751407012988,
+          "p90_total_s": 6996.673471258535,
+          "pooled_per_source_s": 507.53120483202434,
+          "mean_solver_wall_s": 249.73564452000429,
+          "maximum_solver_wall_s": 957.5962507000077,
+          "mean_process_cpu_s": 82.34375,
+          "maximum_process_cpu_s": 125.25
+        }
+      },
+      "comparisons": {
+        "baseline_share25_prune__vs__window_depth1": {
+          "pairs": 5,
+          "mean_before_s": 6521.279837298853,
+          "mean_after_s": 6278.683733075142,
+          "mean_saved_s": 242.59610422371043,
+          "mean_reduction_percent": 3.7200689170884433,
+          "faster": 5,
+          "slower": 0,
+          "ties": 0,
+          "worst_pair": {
+            "seed": 61300,
+            "population": "omni_heavy",
+            "field": "hashed",
+            "before_variant": "baseline_share25_prune",
+            "after_variant": "window_depth1",
+            "scene_sha256": "b005c8fd671058c63321715ef1dd344257f098c6c15388a22e72d5d98de2b5e9",
+            "baseline_s": 5701.421477569173,
+            "candidate_s": 5654.875269694089,
+            "saved_s": 46.54620787508338,
+            "reduction_percent": 0.8163965435323083,
+            "baseline_passed": true,
+            "candidate_passed": true,
+            "all_cleared": true,
+            "source_count": 13,
+            "same_source_layout": true,
+            "shared_point_feedback": {
+              "passed": true,
+              "shared_measurement_keys": 223
+            }
+          }
+        },
+        "baseline_share25_prune__vs__window_depth2": {
+          "pairs": 5,
+          "mean_before_s": 6521.279837298853,
+          "mean_after_s": 6394.893180883507,
+          "mean_saved_s": 126.3866564153459,
+          "mean_reduction_percent": 1.9380652198433475,
+          "faster": 4,
+          "slower": 1,
+          "ties": 0,
+          "worst_pair": {
+            "seed": 61200,
+            "population": "cluster",
+            "field": "hashed",
+            "before_variant": "baseline_share25_prune",
+            "after_variant": "window_depth2",
+            "scene_sha256": "660f7504f108a6aa5a188c9c9b56ce70ba6099ac0081e7b150ec59b1cb2a828c",
+            "baseline_s": 6607.764110422375,
+            "candidate_s": 6609.556567626854,
+            "saved_s": -1.7924572044794331,
+            "reduction_percent": -0.027126531373179687,
+            "baseline_passed": true,
+            "candidate_passed": true,
+            "all_cleared": true,
+            "source_count": 10,
+            "same_source_layout": true,
+            "shared_point_feedback": {
+              "passed": true,
+              "shared_measurement_keys": 280
+            }
+          }
+        },
+        "window_depth1__vs__window_depth2": {
+          "pairs": 5,
+          "mean_before_s": 6278.683733075142,
+          "mean_after_s": 6394.893180883507,
+          "mean_saved_s": -116.20944780836453,
+          "mean_reduction_percent": -1.8508568475298572,
+          "faster": 0,
+          "slower": 2,
+          "ties": 3,
+          "worst_pair": {
+            "seed": 61200,
+            "population": "cluster",
+            "field": "hashed",
+            "before_variant": "window_depth1",
+            "after_variant": "window_depth2",
+            "scene_sha256": "660f7504f108a6aa5a188c9c9b56ce70ba6099ac0081e7b150ec59b1cb2a828c",
+            "baseline_s": 6063.135741745546,
+            "candidate_s": 6609.556567626854,
+            "saved_s": -546.4208258813087,
+            "reduction_percent": -9.012181965828741,
+            "baseline_passed": true,
+            "candidate_passed": true,
+            "all_cleared": true,
+            "source_count": 10,
+            "same_source_layout": true,
+            "shared_point_feedback": {
+              "passed": true,
+              "shared_measurement_keys": 279
+            }
+          }
+        }
+      }
+    }
+  },
+  "planned_conditions": 5,
+  "completed_conditions": 5,
+  "stopped_on_failure": null,
+  "official_contacted": false,
+  "performance_comparison_valid": true,
+  "warning": "Repeated fields share each layout. All three variants share every condition. Failures stop this batch, preserve partial evidence and invalidate performance claims.",
+  "independent_layouts": 5
+}
