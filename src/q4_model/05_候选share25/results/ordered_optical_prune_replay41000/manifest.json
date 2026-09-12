@@ -1,0 +1,46 @@
+{
+  "code_hashes": {
+    "src/q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "src/q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "src/q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "src/q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "src/q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "src/q4_model/task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+    "src/q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "src/q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "src/q4_model/q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "src/q4_model/q4_share25_client.py": "4c988ffa83489705decdfbe9239d2e489e5d6910a766adc32fe9c54ce8a4169c",
+    "src/q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src/q3_model_v2/official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e",
+    "src/q4_model/05_候选share25/code/ordered_optical_prune_experiment.py": "1717df71ff1d3307375427d5c17608390b96e94752e4cd11168229d3a6fe7e97",
+    "src/q4_model/05_候选share25/code/negative_region_boxes_v1.py": "020a8f9088c9710412753d3d027d5d44d3a996f1b6bb7cb8e67b023c1a3e2da5",
+    "src/q4_model/05_候选share25/code/audit_negative_region_boxes_v1.py": "87dbba7acb97e47e62aedeed18a54a0a109cdf932d092be44691698bcd014c59",
+    "src/q4_model/05_候选share25/code/continuous_hypothesis_experiment.py": "e13506bb3106594c9bad7ff016dcdec262c650c6470205bc15df1aca8f3667f1",
+    "src/q4_model/05_候选share25/code/late_negative_optical_experiment.py": "191bb642dbaa5a650f6d43571cdaa8c226806002257924527b44febf112fc649",
+    "src/q3_model_v2/00_主方案_lean/code/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src/q4_model/00_公共几何与定位/code/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756"
+  },
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "seeds": [
+    48000,
+    48100,
+    48200,
+    48300,
+    48400
+  ],
+  "populations": [
+    "uniform",
+    "boundary",
+    "cluster",
+    "omni_heavy",
+    "dir_heavy"
+  ],
+  "field": "smooth",
+  "python": "3.14.0",
+  "numpy": "2.4.1",
+  "scipy": "1.17.0",
+  "rule": "Preserve original optical path order; remove only exact dist(q,P)^2 > 400, with original or independently certified contracted P.",
+  "contraction_depth": 6,
+  "contraction_node_budget": 255
+}

@@ -1,0 +1,354 @@
+{
+  "passed": true,
+  "events": 151,
+  "polygons": 51,
+  "optical_plans": 10,
+  "triangle_certificates": 0,
+  "max_time_error_s": 0.0,
+  "total_s": 3789.927297620795,
+  "counts": {
+    "measure": 130,
+    "switch": 125,
+    "clear_success": 16,
+    "clear_fail": 5
+  },
+  "exact_completion": {
+    "passed": true,
+    "basis": "count_upper_bound",
+    "exact_domain": {
+      "passed": true,
+      "cells": 576,
+      "original_stations": 25,
+      "exact_binary_station_coordinates": true,
+      "exact_quarter_barycentric_cells": true,
+      "exact_outer_disk_enclosure": true,
+      "exact_parent_planarity_and_area": true,
+      "exact_parent_radius_bound": true,
+      "float_tolerance_used_for_acceptance": false,
+      "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+    },
+    "channels": 0
+  },
+  "independent_prune": {
+    "passed": true,
+    "plans": 10,
+    "rows": [
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 4,
+          "max_corner_distance_squared": 166.99337231186232,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 4,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 2,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 2,
+          "max_corner_distance_squared": 259.5394434134821,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 2,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 12,
+        "executed_original_points": 2
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 169.80710775757083,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 17,
+        "executed_original_points": 3
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 2,
+          "max_corner_distance_squared": 299.0748504631847,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 2,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 7,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 2,
+          "max_corner_distance_squared": 248.06302137164909,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 2,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 8,
+        "executed_original_points": 2
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 338.6775494317267,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 16,
+        "executed_original_points": 2
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 4,
+          "max_corner_distance_squared": 242.91169885589122,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 4,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 15,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 263.36227974118987,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 19,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 302.74914179027036,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 4,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 258.31828762474294,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 9,
+        "executed_original_points": 1
+      }
+    ],
+    "removed_events": 0,
+    "all_optical_plans_audited": true,
+    "all_actual_optical_actions_accounted": true,
+    "actual_optical_actions": 15,
+    "auditor_version": 2
+  },
+  "independent_baseline_replay": {
+    "passed": true,
+    "plans": 10,
+    "rows": [
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 4,
+          "max_corner_distance_squared": 166.99337231186232,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 4,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 2,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 2,
+          "max_corner_distance_squared": 259.5394434134821,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 2,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 12,
+        "executed_original_points": 2
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 169.80710775757083,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 17,
+        "executed_original_points": 3
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 2,
+          "max_corner_distance_squared": 299.0748504631847,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 2,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 7,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 2,
+          "max_corner_distance_squared": 248.06302137164909,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 2,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 8,
+        "executed_original_points": 2
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 338.6775494317267,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 16,
+        "executed_original_points": 2
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 4,
+          "max_corner_distance_squared": 242.91169885589122,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 4,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 15,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 263.36227974118987,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 19,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 302.74914179027036,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 4,
+        "executed_original_points": 1
+      },
+      {
+        "passed": true,
+        "original_cover": {
+          "passed": true,
+          "cells": 3,
+          "max_corner_distance_squared": 258.31828762474294,
+          "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+        },
+        "removed": 0,
+        "kept": 3,
+        "from_original": 0,
+        "additional_from_contraction": 0,
+        "channel": 9,
+        "executed_original_points": 1
+      }
+    ],
+    "removed_events": 0,
+    "all_optical_plans_audited": true,
+    "all_actual_optical_actions_accounted": true,
+    "actual_optical_actions": 15,
+    "auditor_version": 2
+  }
+}

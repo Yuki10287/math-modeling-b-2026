@@ -1,0 +1,128 @@
+{
+  "passed": false,
+  "rows": [
+    {
+      "seed": 34000,
+      "population": "uniform",
+      "variant": "baseline_share25",
+      "field": "smooth",
+      "runtime_s": 11.502817700005835,
+      "audit": {
+        "passed": true,
+        "events": 329,
+        "polygons": 39,
+        "optical_plans": 7,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 6355.192401588635,
+        "counts": {
+          "measure": 309,
+          "switch": 298,
+          "clear_success": 12,
+          "clear_fail": 8
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "original_frozen_cover": true
+      },
+      "error": null,
+      "experiment": {},
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 6355.192401588635,
+      "average_s": 529.599366799053,
+      "distance_m": 22140.962007943177,
+      "counts": {
+        "measure": 309,
+        "switch": 298,
+        "clear_success": 12,
+        "clear_fail": 8
+      },
+      "time_parts_s": {
+        "move": 4428.192401588635,
+        "measure": 1545,
+        "switch": 298,
+        "clear_success": 60,
+        "clear_fail": 24
+      }
+    },
+    {
+      "seed": 34000,
+      "population": "uniform",
+      "variant": "refined_service_cover",
+      "field": "smooth",
+      "runtime_s": 14.129403200000525,
+      "audit": {
+        "passed": true,
+        "events": 330,
+        "polygons": 41,
+        "optical_plans": 5,
+        "triangle_certificates": 4608,
+        "max_time_error_s": 0.0,
+        "total_s": 6460.863691236183,
+        "counts": {
+          "measure": 311,
+          "switch": 301,
+          "clear_success": 12,
+          "clear_fail": 7
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "vertices": 313,
+        "independent_barycentric_partition": true,
+        "original_disk_enclosure": true,
+        "coordinate_comparison_rounding_decimals": 8,
+        "rounding_used_only_for_domain_identity_not_observation_certificate": true
+      },
+      "error": null,
+      "experiment": {
+        "opportunity_scans": 1,
+        "extra_unknown_measures": 13,
+        "retired_stations": [
+          6
+        ],
+        "proposals": 1,
+        "fallback_restores": 0,
+        "plan_audits": 2,
+        "proxy_net_gain_s": 0.007731925378536175
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 6460.863691236183,
+      "average_s": 538.4053076030152,
+      "distance_m": 22619.318456180925,
+      "counts": {
+        "measure": 311,
+        "switch": 301,
+        "clear_success": 12,
+        "clear_fail": 7
+      },
+      "time_parts_s": {
+        "move": 4523.863691236185,
+        "measure": 1555,
+        "switch": 301,
+        "clear_success": 60,
+        "clear_fail": 21
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "population": "uniform",
+      "baseline_s": 6355.192401588635,
+      "candidate_s": 6460.863691236183,
+      "saved_s": -105.67128964754738,
+      "reduction_pct": -1.662755160978797
+    }
+  ],
+  "source_snapshot_stable": false,
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "exact_certificate_audit_integrated": false,
+  "numerical_development_prototype": true
+}

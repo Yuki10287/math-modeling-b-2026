@@ -1,0 +1,223 @@
+{
+  "paired_development_only": true,
+  "generator_matches_original_functions_on_all_five_layouts": true,
+  "original_generator_source_sha256": {
+    "src/q4_model/01_初版31站/code/benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+    "src/q4_model/04_22站覆盖实验/code/benchmark_cells.py": "0e47247b60e8458b591e9ba591aa29d8d17d59b84c1725857e75c2774f8c7d12"
+  },
+  "mean_reduction_percent": 2.5143671620517782,
+  "net_savings_from_cluster_fraction": 0.9056802018084925,
+  "excluding_cluster_reduction_percent": 0.293453813463533,
+  "details": [
+    {
+      "population": "uniform",
+      "share25": {
+        "total_s": 6093.216442296341,
+        "counts": {
+          "measure": 276,
+          "switch": 261,
+          "clear_success": 13,
+          "clear_fail": 5
+        },
+        "time_parts_s": {
+          "move": 4372.216442296339,
+          "measure": 1380,
+          "switch": 261,
+          "clear_success": 65,
+          "clear_fail": 15
+        },
+        "scored_measures": 26,
+        "high_mass_negative": 0
+      },
+      "volume_integral25": {
+        "total_s": 6129.78540138305,
+        "counts": {
+          "measure": 276,
+          "switch": 262,
+          "clear_success": 13,
+          "clear_fail": 5
+        },
+        "time_parts_s": {
+          "move": 4407.785401383049,
+          "measure": 1380,
+          "switch": 262,
+          "clear_success": 65,
+          "clear_fail": 15
+        },
+        "scored_measures": 26,
+        "high_mass_negative": 0
+      }
+    },
+    {
+      "population": "boundary",
+      "share25": {
+        "total_s": 7441.419017292365,
+        "counts": {
+          "measure": 405,
+          "switch": 388,
+          "clear_success": 11,
+          "clear_fail": 17
+        },
+        "time_parts_s": {
+          "move": 4922.419017292364,
+          "measure": 2025,
+          "switch": 388,
+          "clear_success": 55,
+          "clear_fail": 51
+        },
+        "scored_measures": 23,
+        "high_mass_negative": 2
+      },
+      "volume_integral25": {
+        "total_s": 7345.824599769493,
+        "counts": {
+          "measure": 405,
+          "switch": 388,
+          "clear_success": 11,
+          "clear_fail": 17
+        },
+        "time_parts_s": {
+          "move": 4826.824599769494,
+          "measure": 2025,
+          "switch": 388,
+          "clear_success": 55,
+          "clear_fail": 51
+        },
+        "scored_measures": 23,
+        "high_mass_negative": 2
+      }
+    },
+    {
+      "population": "cluster",
+      "share25": {
+        "total_s": 6147.2473386926795,
+        "counts": {
+          "measure": 209,
+          "switch": 186,
+          "clear_success": 15,
+          "clear_fail": 51
+        },
+        "time_parts_s": {
+          "move": 4688.247338692681,
+          "measure": 1045,
+          "switch": 186,
+          "clear_success": 75,
+          "clear_fail": 153
+        },
+        "scored_measures": 30,
+        "high_mass_negative": 1
+      },
+      "volume_integral25": {
+        "total_s": 5417.585365286359,
+        "counts": {
+          "measure": 205,
+          "switch": 184,
+          "clear_success": 15,
+          "clear_fail": 14
+        },
+        "time_parts_s": {
+          "move": 4091.5853652863543,
+          "measure": 1025,
+          "switch": 184,
+          "clear_success": 75,
+          "clear_fail": 42
+        },
+        "scored_measures": 27,
+        "high_mass_negative": 1
+      }
+    },
+    {
+      "population": "omni_heavy",
+      "share25": {
+        "total_s": 5928.996858425026,
+        "counts": {
+          "measure": 317,
+          "switch": 302,
+          "clear_success": 10,
+          "clear_fail": 5
+        },
+        "time_parts_s": {
+          "move": 3976.996858425026,
+          "measure": 1585,
+          "switch": 302,
+          "clear_success": 50,
+          "clear_fail": 15
+        },
+        "scored_measures": 19,
+        "high_mass_negative": 0
+      },
+      "volume_integral25": {
+        "total_s": 5927.107242230778,
+        "counts": {
+          "measure": 317,
+          "switch": 302,
+          "clear_success": 10,
+          "clear_fail": 5
+        },
+        "time_parts_s": {
+          "move": 3975.107242230777,
+          "measure": 1585,
+          "switch": 302,
+          "clear_success": 50,
+          "clear_fail": 15
+        },
+        "scored_measures": 19,
+        "high_mass_negative": 0
+      }
+    },
+    {
+      "population": "dir_heavy",
+      "share25": {
+        "total_s": 6431.011672383438,
+        "counts": {
+          "measure": 338,
+          "switch": 327,
+          "clear_success": 12,
+          "clear_fail": 8
+        },
+        "time_parts_s": {
+          "move": 4330.011672383434,
+          "measure": 1690,
+          "switch": 327,
+          "clear_success": 60,
+          "clear_fail": 24
+        },
+        "scored_measures": 27,
+        "high_mass_negative": 1
+      },
+      "volume_integral25": {
+        "total_s": 6415.937926741223,
+        "counts": {
+          "measure": 340,
+          "switch": 330,
+          "clear_success": 12,
+          "clear_fail": 8
+        },
+        "time_parts_s": {
+          "move": 4301.937926741221,
+          "measure": 1700,
+          "switch": 330,
+          "clear_success": 60,
+          "clear_fail": 24
+        },
+        "scored_measures": 29,
+        "high_mass_negative": 1
+      }
+    }
+  ],
+  "scoring_diagnostics": {
+    "share25": {
+      "scored_measures": 125,
+      "high_mass_at_least_095": 44,
+      "high_mass_negative": 4,
+      "mass_one_negative": 3
+    },
+    "volume_integral25": {
+      "scored_measures": 124,
+      "high_mass_at_least_095": 44,
+      "high_mass_negative": 4,
+      "mass_one_negative": 1
+    }
+  },
+  "interpretation": "Uncalibrated scoring masses, finite position and angle/radius quadrature; mass 1 is not a visibility guarantee. No official cases or counts were used; no statistical generalization from five development layouts."
+}

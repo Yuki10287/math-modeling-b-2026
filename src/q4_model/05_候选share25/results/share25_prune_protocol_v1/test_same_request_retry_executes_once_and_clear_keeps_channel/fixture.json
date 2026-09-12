@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 2,
+      "time_s": 6.0,
+      "measure_result": "near"
+    },
+    {
+      "action": "clear",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 1,
+      "time_s": 9.0,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 2,
+      "time_s": 14.0,
+      "clear_result": "success"
+    }
+  ],
+  "requests": [
+    {
+      "path": "/enter",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"6898b3fc-28fd-44d8-924a-668e24e0c0a9\"}"
+    },
+    {
+      "path": "/measure",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"ccf048e6-2648-48ce-a660-2fe644638b22\", \"position\": {\"x\": 0.0, \"y\": 0.0}, \"channel\": 2}"
+    },
+    {
+      "path": "/measure",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"ccf048e6-2648-48ce-a660-2fe644638b22\", \"position\": {\"x\": 0.0, \"y\": 0.0}, \"channel\": 2}"
+    },
+    {
+      "path": "/clear",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"46951769-682e-44f0-a92d-de5984d7f194\", \"position\": {\"x\": 0.0, \"y\": 0.0}, \"channel\": 1}"
+    },
+    {
+      "path": "/clear",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"a6e4eb44-0b1c-4a7d-bc13-13495825fe7f\", \"position\": {\"x\": 0.0, \"y\": 0.0}, \"channel\": 2}"
+    },
+    {
+      "path": "/exit",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"b4fbfc28-43d2-4f5a-a290-67bcc7788f32\"}"
+    }
+  ],
+  "executions": {
+    "/enter": 1,
+    "/measure": 1,
+    "/clear": 2,
+    "/exit": 1
+  },
+  "active": false,
+  "local_only": true
+}

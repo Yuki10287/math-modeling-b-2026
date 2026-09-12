@@ -1,0 +1,470 @@
+{
+  "passed": true,
+  "optimization_level": 1,
+  "extraction": {
+    "passed": true,
+    "equivalent_functions": 22,
+    "all_assertions_explicit": true,
+    "imports": [
+      "from fractions import Fraction as F",
+      "import itertools",
+      "import math",
+      "from fractions import Fraction as F",
+      "import math",
+      "from negative_region_proof import verify_certificate"
+    ]
+  },
+  "historical_cases": 25,
+  "optical_plans": 187,
+  "rows": [
+    {
+      "input_path": "src/q4_model/05_候选share25/results/ordered_optical_prune_dev48000/48000-uniform-ordered_prune.json",
+      "input_sha256": "c3a03f25fa26711f2dd3b0835753eaaa4098185c7a7027ddff75e940856b0879",
+      "audit": {
+        "passed": true,
+        "plans": 8,
+        "removed_planned": 58,
+        "skipped_before_success": 20,
+        "accepted_actions": 379,
+        "actual_optical_actions": 40,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/ordered_optical_prune_dev48000/48100-boundary-ordered_prune.json",
+      "input_sha256": "cbaf264d25fe91072bf33e6e7129bf177bbf10986fa06ee55880f0cb2fd3e640",
+      "audit": {
+        "passed": true,
+        "plans": 6,
+        "removed_planned": 278,
+        "skipped_before_success": 17,
+        "accepted_actions": 437,
+        "actual_optical_actions": 17,
+        "contractions_applied": 4,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/ordered_optical_prune_dev48000/48200-cluster-ordered_prune.json",
+      "input_sha256": "2f2d4381648d2db0a1c0574c320c83e3db6cc2f0545fc190101939329f0cbdee",
+      "audit": {
+        "passed": true,
+        "plans": 10,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 233,
+        "actual_optical_actions": 20,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/ordered_optical_prune_dev48000/48300-omni_heavy-ordered_prune.json",
+      "input_sha256": "76f94a7651ad8537f1f9c1e7e817db7576b30884b2c9ce1609ef4229915a5773",
+      "audit": {
+        "passed": true,
+        "plans": 9,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 286,
+        "actual_optical_actions": 16,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/ordered_optical_prune_dev48000/48400-dir_heavy-ordered_prune.json",
+      "input_sha256": "6dd2da2dfef49f3b9f15281494027d5f2a8b60947b57e761ac3f5f465050ae55",
+      "audit": {
+        "passed": true,
+        "plans": 9,
+        "removed_planned": 107,
+        "skipped_before_success": 0,
+        "accepted_actions": 315,
+        "actual_optical_actions": 23,
+        "contractions_applied": 2,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50000-uniform-station22_prune.json",
+      "input_sha256": "591d939fc380c1e3e56642690aaa1a516d2e9f3187b5bebb5f4be3a078eded1b",
+      "audit": {
+        "passed": true,
+        "plans": 5,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 334,
+        "actual_optical_actions": 14,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50001-uniform-station22_prune.json",
+      "input_sha256": "001cac9b5c70c677df7164fed95cfa4373703e4ce6d4f7359874059b8bcf7df8",
+      "audit": {
+        "passed": true,
+        "plans": 7,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 219,
+        "actual_optical_actions": 12,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50100-boundary-station22_prune.json",
+      "input_sha256": "3580cea75f0db9c12f2c9e03f23d7de6f6a687373eeebfa8bde9b2e809f19c4e",
+      "audit": {
+        "passed": true,
+        "plans": 11,
+        "removed_planned": 225,
+        "skipped_before_success": 0,
+        "accepted_actions": 346,
+        "actual_optical_actions": 30,
+        "contractions_applied": 3,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50101-boundary-station22_prune.json",
+      "input_sha256": "ad84a35e60769319b49bb30f7ffbc1b4fc8547fadee2cb2392a755a5b1f41ebb",
+      "audit": {
+        "passed": true,
+        "plans": 6,
+        "removed_planned": 306,
+        "skipped_before_success": 31,
+        "accepted_actions": 352,
+        "actual_optical_actions": 26,
+        "contractions_applied": 4,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50200-cluster-station22_prune.json",
+      "input_sha256": "48149f9f6bf62e63c04c13656b96213e69d7c819fb82111e2468570b5dd59893",
+      "audit": {
+        "passed": true,
+        "plans": 5,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 261,
+        "actual_optical_actions": 7,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50201-cluster-station22_prune.json",
+      "input_sha256": "d97f3c5c1c15af346ad7833fdb6f439d03d002ba5b664c341e08837150a10adc",
+      "audit": {
+        "passed": true,
+        "plans": 3,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 251,
+        "actual_optical_actions": 6,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50300-omni_heavy-station22_prune.json",
+      "input_sha256": "97c26c82ac8bcf5f44f12702e711d6423b8bc34f9d6149badbde6c123a1f863d",
+      "audit": {
+        "passed": true,
+        "plans": 6,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 230,
+        "actual_optical_actions": 12,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50301-omni_heavy-station22_prune.json",
+      "input_sha256": "5d5c81afdd2f96c444b203019cc56af03a1f8e01b4ed857dbdc788e6bec58b09",
+      "audit": {
+        "passed": true,
+        "plans": 10,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 241,
+        "actual_optical_actions": 18,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50400-dir_heavy-station22_prune.json",
+      "input_sha256": "24a2a376901b91eb33b04131ae4d03e07aac2aa13c052db95e85dc6d6333f8d7",
+      "audit": {
+        "passed": true,
+        "plans": 10,
+        "removed_planned": 8,
+        "skipped_before_success": 0,
+        "accepted_actions": 271,
+        "actual_optical_actions": 28,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_holdout50000/50401-dir_heavy-station22_prune.json",
+      "input_sha256": "c834644aab2e8b9495b20461aeb216bb6852feba2b92abf6b5afadd6382df1b0",
+      "audit": {
+        "passed": true,
+        "plans": 7,
+        "removed_planned": 41,
+        "skipped_before_success": 0,
+        "accepted_actions": 340,
+        "actual_optical_actions": 24,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53000-uniform-constant-station22_prune.json",
+      "input_sha256": "2fa7329f86109ecdc1584b2c3b9cbe8ccec700552d3ac06ab4b4e46cd1ee4645",
+      "audit": {
+        "passed": true,
+        "plans": 8,
+        "removed_planned": 81,
+        "skipped_before_success": 0,
+        "accepted_actions": 286,
+        "actual_optical_actions": 12,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53000-uniform-extreme-station22_prune.json",
+      "input_sha256": "4c17ce9c246a93890398260744082ecbc91809b5cda1c3f9940ea2ed2ebcf83b",
+      "audit": {
+        "passed": true,
+        "plans": 4,
+        "removed_planned": 87,
+        "skipped_before_success": 0,
+        "accepted_actions": 287,
+        "actual_optical_actions": 9,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53100-boundary-constant-station22_prune.json",
+      "input_sha256": "f650cd8aa0c94afb25734e3c1e5cf656a4ead7fbab133f8fa312f5efef9757bb",
+      "audit": {
+        "passed": true,
+        "plans": 7,
+        "removed_planned": 55,
+        "skipped_before_success": 0,
+        "accepted_actions": 359,
+        "actual_optical_actions": 19,
+        "contractions_applied": 1,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53100-boundary-extreme-station22_prune.json",
+      "input_sha256": "a00513dfdb720b378689c9c73d38f2a6942bf9b0bc8b9ddfacf08c747ce1993a",
+      "audit": {
+        "passed": true,
+        "plans": 9,
+        "removed_planned": 240,
+        "skipped_before_success": 25,
+        "accepted_actions": 409,
+        "actual_optical_actions": 45,
+        "contractions_applied": 4,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53200-cluster-constant-station22_prune.json",
+      "input_sha256": "1a20eaa68b7ad44bd81cf0ace89668f230103f0de161587cd3a78b2417776612",
+      "audit": {
+        "passed": true,
+        "plans": 5,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 256,
+        "actual_optical_actions": 10,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53200-cluster-extreme-station22_prune.json",
+      "input_sha256": "53c7e029a09e6b5dec62d37771a00eaa0d0026d6fdcfe45477e4db2be30e22dc",
+      "audit": {
+        "passed": true,
+        "plans": 6,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 251,
+        "actual_optical_actions": 6,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53300-omni_heavy-constant-station22_prune.json",
+      "input_sha256": "4d38bb36f6ec6467d491bc169d9355a72e5fa3f20f55ee4bfcef6753128a34a3",
+      "audit": {
+        "passed": true,
+        "plans": 11,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 213,
+        "actual_optical_actions": 18,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53300-omni_heavy-extreme-station22_prune.json",
+      "input_sha256": "642f0d9412d1d91c23b33a21b3097bf1179a17d5575c8725188130b908d4d81b",
+      "audit": {
+        "passed": true,
+        "plans": 5,
+        "removed_planned": 0,
+        "skipped_before_success": 0,
+        "accepted_actions": 213,
+        "actual_optical_actions": 10,
+        "contractions_applied": 0,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53400-dir_heavy-constant-station22_prune.json",
+      "input_sha256": "8881c1b6cbc113aae5a896466b2942d8d668e64ced2a5fcbe872f3144acc4c52",
+      "audit": {
+        "passed": true,
+        "plans": 12,
+        "removed_planned": 154,
+        "skipped_before_success": 26,
+        "accepted_actions": 274,
+        "actual_optical_actions": 38,
+        "contractions_applied": 2,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    },
+    {
+      "input_path": "src/q4_model/05_候选share25/results/station22_ordered_prune_pressure53000/53400-dir_heavy-extreme-station22_prune.json",
+      "input_sha256": "805b66497e3466fc55425ee4e869d3ee964d4403be32db05f6672b3d933e27df",
+      "audit": {
+        "passed": true,
+        "plans": 8,
+        "removed_planned": 145,
+        "skipped_before_success": 26,
+        "accepted_actions": 272,
+        "actual_optical_actions": 31,
+        "contractions_applied": 2,
+        "all_optical_plans_audited": true,
+        "all_optical_actions_accounted": true,
+        "feedback_bound_to_independent_accepted_ledger": true
+      }
+    }
+  ],
+  "corruption_challenges": {
+    "passed": true,
+    "challenges": 8,
+    "rows": [
+      {
+        "name": "omit_entire_pruning_proof",
+        "forged_record_rejected": true
+      },
+      {
+        "name": "omit_proof_and_original_cover_record",
+        "forged_record_rejected": true
+      },
+      {
+        "name": "duplicate_pruning_proof",
+        "forged_record_rejected": true
+      },
+      {
+        "name": "forge_exact_distance",
+        "forged_record_rejected": true
+      },
+      {
+        "name": "reverse_retained_order",
+        "forged_record_rejected": true
+      },
+      {
+        "name": "change_source_region_without_external_premise",
+        "forged_record_rejected": true
+      },
+      {
+        "name": "move_original_clearing_point",
+        "forged_record_rejected": true
+      },
+      {
+        "name": "invent_unobserved_negative_in_proof_and_belief",
+        "forged_record_rejected": true
+      }
+    ]
+  },
+  "independent_ledger_challenges_rejected": [
+    "different_feedback",
+    "missing_accepted_event",
+    "unaccepted_event"
+  ],
+  "source_sha256": {
+    "negative_region_proof.py": "2b7a9abb3ad39cbf829aebceaa7171b6b270e130d2b785cdc4e8354ccd9b76ca",
+    "prune_proof.py": "94b2875ffd20c6c46a87a136a4d91e8a9bb5851f1646c7e2a491ced63e9d0283"
+  },
+  "no_new_solver_runs": true,
+  "official_simulator_contacted": false
+}

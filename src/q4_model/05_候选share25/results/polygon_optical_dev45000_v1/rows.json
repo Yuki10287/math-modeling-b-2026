@@ -1,0 +1,927 @@
+[
+  {
+    "seed": 45000,
+    "population": "uniform",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 6.072332500014454,
+    "audit": {
+      "passed": true,
+      "events": 324,
+      "polygons": 49,
+      "optical_plans": 9,
+      "triangle_certificates": 252,
+      "max_time_error_s": 0.0,
+      "total_s": 6273.573831241248,
+      "counts": {
+        "measure": 308,
+        "switch": 288,
+        "clear_success": 13,
+        "clear_fail": 3
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 0,
+        "plans": [],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 0,
+    "skipped_grid_cells": 0,
+    "source_count": 13,
+    "cleared": 13,
+    "all_cleared": true,
+    "total_s": 6273.573831241248,
+    "average_s": 482.5826024031729,
+    "distance_m": 21857.869156206238,
+    "counts": {
+      "measure": 308,
+      "switch": 288,
+      "clear_success": 13,
+      "clear_fail": 3
+    },
+    "time_parts_s": {
+      "move": 4371.573831241248,
+      "measure": 1540,
+      "switch": 288,
+      "clear_success": 65,
+      "clear_fail": 9
+    }
+  },
+  {
+    "seed": 45000,
+    "population": "uniform",
+    "field": "smooth",
+    "variant": "polygon_optical25",
+    "runtime_s": 6.843070500006434,
+    "audit": {
+      "passed": true,
+      "events": 324,
+      "polygons": 49,
+      "optical_plans": 0,
+      "triangle_certificates": 252,
+      "max_time_error_s": 0.0,
+      "total_s": 6272.101544440905,
+      "counts": {
+        "measure": 308,
+        "switch": 288,
+        "clear_success": 13,
+        "clear_fail": 3
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 9,
+        "plans": [
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 124.27710837985441,
+            "channel": 2,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 221.65502599350486,
+            "channel": 4,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 114.43140724700645,
+            "channel": 12,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 13,
+            "max_squared_radius_m2": 182.26451183961103,
+            "channel": 20,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 14,
+            "max_squared_radius_m2": 244.07775553950535,
+            "channel": 5,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 161.50639468069335,
+            "channel": 16,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 7,
+            "max_squared_radius_m2": 247.47829472299398,
+            "channel": 9,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 4,
+            "rectangle_cells": 4,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 16,
+            "max_squared_radius_m2": 164.55988906477046,
+            "channel": 7,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 297.6804279699048,
+            "channel": 10,
+            "executed_points": 2
+          }
+        ],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 9,
+    "skipped_grid_cells": 0,
+    "source_count": 13,
+    "cleared": 13,
+    "all_cleared": true,
+    "total_s": 6272.101544440905,
+    "average_s": 482.4693495723773,
+    "distance_m": 21850.50772220453,
+    "counts": {
+      "measure": 308,
+      "switch": 288,
+      "clear_success": 13,
+      "clear_fail": 3
+    },
+    "time_parts_s": {
+      "move": 4370.101544440906,
+      "measure": 1540,
+      "switch": 288,
+      "clear_success": 65,
+      "clear_fail": 9
+    }
+  },
+  {
+    "seed": 45100,
+    "population": "boundary",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 3.3003647000005003,
+    "audit": {
+      "passed": true,
+      "events": 446,
+      "polygons": 25,
+      "optical_plans": 6,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 7045.038744366715,
+      "counts": {
+        "measure": 429,
+        "switch": 407,
+        "clear_success": 10,
+        "clear_fail": 7
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 0,
+        "plans": [],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 0,
+    "skipped_grid_cells": 0,
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 7045.038744366715,
+    "average_s": 704.5038744366715,
+    "distance_m": 22110.193721833566,
+    "counts": {
+      "measure": 429,
+      "switch": 407,
+      "clear_success": 10,
+      "clear_fail": 7
+    },
+    "time_parts_s": {
+      "move": 4422.038744366713,
+      "measure": 2145,
+      "switch": 407,
+      "clear_success": 50,
+      "clear_fail": 21
+    }
+  },
+  {
+    "seed": 45100,
+    "population": "boundary",
+    "field": "smooth",
+    "variant": "polygon_optical25",
+    "runtime_s": 3.3958709000144154,
+    "audit": {
+      "passed": true,
+      "events": 446,
+      "polygons": 25,
+      "optical_plans": 0,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 7038.300066741806,
+      "counts": {
+        "measure": 429,
+        "switch": 407,
+        "clear_success": 10,
+        "clear_fail": 7
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 6,
+        "plans": [
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 13,
+            "max_squared_radius_m2": 147.47291836836186,
+            "channel": 17,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 100,
+            "rectangle_cells": 100,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 401,
+            "max_squared_radius_m2": 368.8490965382697,
+            "channel": 1,
+            "executed_points": 4
+          },
+          {
+            "passed": true,
+            "occupied_cells": 23,
+            "rectangle_cells": 23,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 95,
+            "max_squared_radius_m2": 352.52692196010094,
+            "channel": 20,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 4,
+            "rectangle_cells": 4,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 17,
+            "max_squared_radius_m2": 196.69429642341606,
+            "channel": 16,
+            "executed_points": 3
+          },
+          {
+            "passed": true,
+            "occupied_cells": 77,
+            "rectangle_cells": 100,
+            "omitted_cells": 23,
+            "exact_vertices_checked": 308,
+            "max_squared_radius_m2": 368.56440774312614,
+            "channel": 7,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 13,
+            "max_squared_radius_m2": 147.12716957604695,
+            "channel": 14,
+            "executed_points": 2
+          }
+        ],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 6,
+    "skipped_grid_cells": 23,
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 7038.300066741806,
+    "average_s": 703.8300066741806,
+    "distance_m": 22076.50033370903,
+    "counts": {
+      "measure": 429,
+      "switch": 407,
+      "clear_success": 10,
+      "clear_fail": 7
+    },
+    "time_parts_s": {
+      "move": 4415.300066741806,
+      "measure": 2145,
+      "switch": 407,
+      "clear_success": 50,
+      "clear_fail": 21
+    }
+  },
+  {
+    "seed": 45200,
+    "population": "cluster",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 7.9391528999840375,
+    "audit": {
+      "passed": true,
+      "events": 258,
+      "polygons": 46,
+      "optical_plans": 6,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 5514.274590252901,
+      "counts": {
+        "measure": 224,
+        "switch": 202,
+        "clear_success": 14,
+        "clear_fail": 20
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 0,
+        "plans": [],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 0,
+    "skipped_grid_cells": 0,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 5514.274590252901,
+    "average_s": 393.8767564466358,
+    "distance_m": 20311.372951264515,
+    "counts": {
+      "measure": 224,
+      "switch": 202,
+      "clear_success": 14,
+      "clear_fail": 20
+    },
+    "time_parts_s": {
+      "move": 4062.274590252903,
+      "measure": 1120,
+      "switch": 202,
+      "clear_success": 70,
+      "clear_fail": 60
+    }
+  },
+  {
+    "seed": 45200,
+    "population": "cluster",
+    "field": "smooth",
+    "variant": "polygon_optical25",
+    "runtime_s": 7.9211050999874715,
+    "audit": {
+      "passed": true,
+      "events": 258,
+      "polygons": 46,
+      "optical_plans": 0,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 5513.201513416047,
+      "counts": {
+        "measure": 224,
+        "switch": 202,
+        "clear_success": 14,
+        "clear_fail": 20
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 6,
+        "plans": [
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 200.15828529437692,
+            "channel": 6,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 12,
+            "max_squared_radius_m2": 163.8166434656259,
+            "channel": 5,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 4,
+            "rectangle_cells": 4,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 16,
+            "max_squared_radius_m2": 178.21835106764956,
+            "channel": 1,
+            "executed_points": 3
+          },
+          {
+            "passed": true,
+            "occupied_cells": 4,
+            "rectangle_cells": 4,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 16,
+            "max_squared_radius_m2": 139.5520327267308,
+            "channel": 10,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 12,
+            "max_squared_radius_m2": 170.86818193786644,
+            "channel": 11,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 40,
+            "rectangle_cells": 40,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 160,
+            "max_squared_radius_m2": 286.51937435455886,
+            "channel": 20,
+            "executed_points": 17
+          }
+        ],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 6,
+    "skipped_grid_cells": 0,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 5513.201513416047,
+    "average_s": 393.80010810114624,
+    "distance_m": 20306.007567080247,
+    "counts": {
+      "measure": 224,
+      "switch": 202,
+      "clear_success": 14,
+      "clear_fail": 20
+    },
+    "time_parts_s": {
+      "move": 4061.2015134160492,
+      "measure": 1120,
+      "switch": 202,
+      "clear_success": 70,
+      "clear_fail": 60
+    }
+  },
+  {
+    "seed": 45300,
+    "population": "omni_heavy",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 6.111684899980901,
+    "audit": {
+      "passed": true,
+      "events": 299,
+      "polygons": 39,
+      "optical_plans": 10,
+      "triangle_certificates": 288,
+      "max_time_error_s": 0.0,
+      "total_s": 6081.305490932354,
+      "counts": {
+        "measure": 281,
+        "switch": 268,
+        "clear_success": 12,
+        "clear_fail": 6
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 0,
+        "plans": [],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 0,
+    "skipped_grid_cells": 0,
+    "source_count": 12,
+    "cleared": 12,
+    "all_cleared": true,
+    "total_s": 6081.305490932354,
+    "average_s": 506.77545757769616,
+    "distance_m": 21651.52745466177,
+    "counts": {
+      "measure": 281,
+      "switch": 268,
+      "clear_success": 12,
+      "clear_fail": 6
+    },
+    "time_parts_s": {
+      "move": 4330.305490932354,
+      "measure": 1405,
+      "switch": 268,
+      "clear_success": 60,
+      "clear_fail": 18
+    }
+  },
+  {
+    "seed": 45300,
+    "population": "omni_heavy",
+    "field": "smooth",
+    "variant": "polygon_optical25",
+    "runtime_s": 6.383962499996414,
+    "audit": {
+      "passed": true,
+      "events": 298,
+      "polygons": 39,
+      "optical_plans": 0,
+      "triangle_certificates": 288,
+      "max_time_error_s": 0.0,
+      "total_s": 6071.807787461779,
+      "counts": {
+        "measure": 281,
+        "switch": 268,
+        "clear_success": 12,
+        "clear_fail": 5
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 10,
+        "plans": [
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 188.56894513541977,
+            "channel": 10,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 6,
+            "rectangle_cells": 6,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 25,
+            "max_squared_radius_m2": 243.28014468227104,
+            "channel": 14,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 10,
+            "max_squared_radius_m2": 290.25252621896107,
+            "channel": 1,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 273.1482634754137,
+            "channel": 11,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 4,
+            "rectangle_cells": 4,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 17,
+            "max_squared_radius_m2": 179.1660254364769,
+            "channel": 3,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 6,
+            "rectangle_cells": 6,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 24,
+            "max_squared_radius_m2": 187.79692027116806,
+            "channel": 13,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 200.96235478701408,
+            "channel": 19,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 13,
+            "max_squared_radius_m2": 300.1165366779494,
+            "channel": 16,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 12,
+            "max_squared_radius_m2": 241.53245863574693,
+            "channel": 12,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 11,
+            "max_squared_radius_m2": 246.40246644659126,
+            "channel": 18,
+            "executed_points": 1
+          }
+        ],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 10,
+    "skipped_grid_cells": 0,
+    "source_count": 12,
+    "cleared": 12,
+    "all_cleared": true,
+    "total_s": 6071.807787461779,
+    "average_s": 505.9839822884816,
+    "distance_m": 21619.0389373089,
+    "counts": {
+      "measure": 281,
+      "switch": 268,
+      "clear_success": 12,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 4323.807787461779,
+      "measure": 1405,
+      "switch": 268,
+      "clear_success": 60,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 45400,
+    "population": "dir_heavy",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 7.051314200012712,
+    "audit": {
+      "passed": true,
+      "events": 302,
+      "polygons": 46,
+      "optical_plans": 11,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 6419.773278785007,
+      "counts": {
+        "measure": 273,
+        "switch": 260,
+        "clear_success": 14,
+        "clear_fail": 15
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 0,
+        "plans": [],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 0,
+    "skipped_grid_cells": 0,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6419.773278785007,
+    "average_s": 458.5552341989291,
+    "distance_m": 23398.866393925044,
+    "counts": {
+      "measure": 273,
+      "switch": 260,
+      "clear_success": 14,
+      "clear_fail": 15
+    },
+    "time_parts_s": {
+      "move": 4679.773278785009,
+      "measure": 1365,
+      "switch": 260,
+      "clear_success": 70,
+      "clear_fail": 45
+    }
+  },
+  {
+    "seed": 45400,
+    "population": "dir_heavy",
+    "field": "smooth",
+    "variant": "polygon_optical25",
+    "runtime_s": 7.064898799988441,
+    "audit": {
+      "passed": true,
+      "events": 402,
+      "polygons": 46,
+      "optical_plans": 0,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 7232.228826671684,
+      "counts": {
+        "measure": 273,
+        "switch": 260,
+        "clear_success": 14,
+        "clear_fail": 115
+      },
+      "convex_optical": {
+        "passed": true,
+        "optical_plans": 11,
+        "plans": [
+          {
+            "passed": true,
+            "occupied_cells": 104,
+            "rectangle_cells": 108,
+            "omitted_cells": 4,
+            "exact_vertices_checked": 416,
+            "max_squared_radius_m2": 366.0730169878129,
+            "channel": 20,
+            "executed_points": 104
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 254.45652849943923,
+            "channel": 5,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 12,
+            "max_squared_radius_m2": 307.4867180510186,
+            "channel": 9,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 8,
+            "max_squared_radius_m2": 311.8248015553986,
+            "channel": 6,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 4,
+            "rectangle_cells": 4,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 17,
+            "max_squared_radius_m2": 235.26101413999962,
+            "channel": 3,
+            "executed_points": 2
+          },
+          {
+            "passed": true,
+            "occupied_cells": 4,
+            "rectangle_cells": 4,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 17,
+            "max_squared_radius_m2": 207.67920162887498,
+            "channel": 15,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 10,
+            "max_squared_radius_m2": 264.75094808303123,
+            "channel": 7,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 99,
+            "rectangle_cells": 102,
+            "omitted_cells": 3,
+            "exact_vertices_checked": 397,
+            "max_squared_radius_m2": 370.3018045408412,
+            "channel": 2,
+            "executed_points": 8
+          },
+          {
+            "passed": true,
+            "occupied_cells": 8,
+            "rectangle_cells": 8,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 32,
+            "max_squared_radius_m2": 202.6719553485806,
+            "channel": 18,
+            "executed_points": 4
+          },
+          {
+            "passed": true,
+            "occupied_cells": 3,
+            "rectangle_cells": 3,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 12,
+            "max_squared_radius_m2": 169.9181572990864,
+            "channel": 8,
+            "executed_points": 1
+          },
+          {
+            "passed": true,
+            "occupied_cells": 2,
+            "rectangle_cells": 2,
+            "omitted_cells": 0,
+            "exact_vertices_checked": 9,
+            "max_squared_radius_m2": 142.05952819841144,
+            "channel": 19,
+            "executed_points": 1
+          }
+        ],
+        "independent_geometry": "exact vertex/edge intersections; no planner predicates imported"
+      }
+    },
+    "error": null,
+    "polygon_optical_plans": 11,
+    "skipped_grid_cells": 7,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 7232.228826671684,
+    "average_s": 516.5877733336918,
+    "distance_m": 25961.14413335842,
+    "counts": {
+      "measure": 273,
+      "switch": 260,
+      "clear_success": 14,
+      "clear_fail": 115
+    },
+    "time_parts_s": {
+      "move": 5192.228826671684,
+      "measure": 1365,
+      "switch": 260,
+      "clear_success": 70,
+      "clear_fail": 345
+    }
+  }
+]

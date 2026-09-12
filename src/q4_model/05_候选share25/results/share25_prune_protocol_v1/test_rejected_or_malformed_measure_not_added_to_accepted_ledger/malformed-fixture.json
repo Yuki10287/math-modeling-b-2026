@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 1,
+      "time_s": 5.0,
+      "measure_result": "no_signal"
+    }
+  ],
+  "requests": [
+    {
+      "path": "/enter",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"76e9ee2d-c563-45ed-a69e-c6d576c3e362\"}"
+    },
+    {
+      "path": "/measure",
+      "body": "{\"arena_id\": \"default\", \"robot_id\": \"local-test-team\", \"request_id\": \"3e4618d0-7ee0-4d99-ae52-0dcb3844f104\", \"position\": {\"x\": 0.0, \"y\": 0.0}, \"channel\": 1}"
+    }
+  ],
+  "executions": {
+    "/enter": 1,
+    "/measure": 1
+  },
+  "active": true,
+  "local_only": true
+}

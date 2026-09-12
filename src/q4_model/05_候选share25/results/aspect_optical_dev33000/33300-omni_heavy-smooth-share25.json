@@ -1,0 +1,7023 @@
+{
+  "summary": {
+    "seed": 33300,
+    "population": "omni_heavy",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 11.210245099995518,
+    "audit": {
+      "passed": true,
+      "events": 140,
+      "polygons": 55,
+      "optical_plans": 8,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 3072.3708397356404,
+      "counts": {
+        "measure": 115,
+        "switch": 106,
+        "clear_success": 16,
+        "clear_fail": 9
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 3072.3708397356404,
+    "average_s": 192.02317748347753,
+    "distance_m": 11421.854198678206,
+    "counts": {
+      "measure": 115,
+      "switch": 106,
+      "clear_success": 16,
+      "clear_fail": 9
+    },
+    "time_parts_s": {
+      "move": 2284.3708397356413,
+      "measure": 575,
+      "switch": 106,
+      "clear_success": 80,
+      "clear_fail": 27
+    }
+  },
+  "sources": [
+    {
+      "channel": 20,
+      "position": [
+        -183.57238414659986,
+        -753.9457031852853
+      ],
+      "radius": 1384.5566301563863,
+      "orientation": null
+    },
+    {
+      "channel": 11,
+      "position": [
+        685.9946011852833,
+        957.847658119159
+      ],
+      "radius": 1494.4334079350845,
+      "orientation": null
+    },
+    {
+      "channel": 1,
+      "position": [
+        779.2388512713763,
+        215.2232269059127
+      ],
+      "radius": 1480.4424621379264,
+      "orientation": null
+    },
+    {
+      "channel": 3,
+      "position": [
+        -331.6490811407831,
+        738.4606174393582
+      ],
+      "radius": 1071.0963650742412,
+      "orientation": null
+    },
+    {
+      "channel": 18,
+      "position": [
+        1332.097422103401,
+        -871.2432299109179
+      ],
+      "radius": 1460.94868624507,
+      "orientation": null
+    },
+    {
+      "channel": 9,
+      "position": [
+        1784.0673469928272,
+        215.01997097282623
+      ],
+      "radius": 1491.9877812539855,
+      "orientation": null
+    },
+    {
+      "channel": 2,
+      "position": [
+        424.5452729174801,
+        -677.2755890713167
+      ],
+      "radius": 1047.2499987130268,
+      "orientation": null
+    },
+    {
+      "channel": 6,
+      "position": [
+        950.9270429020498,
+        -820.5990552308826
+      ],
+      "radius": 1119.2793664350716,
+      "orientation": null
+    },
+    {
+      "channel": 5,
+      "position": [
+        -281.5315404487185,
+        950.5946002195926
+      ],
+      "radius": 1435.1136435551123,
+      "orientation": null
+    },
+    {
+      "channel": 7,
+      "position": [
+        887.6048346672804,
+        -508.0024168684164
+      ],
+      "radius": 1054.25912316886,
+      "orientation": null
+    },
+    {
+      "channel": 14,
+      "position": [
+        877.4237220376968,
+        580.2775159061756
+      ],
+      "radius": 1413.1306473469162,
+      "orientation": null
+    },
+    {
+      "channel": 13,
+      "position": [
+        -429.4225672672514,
+        -1457.413185484027
+      ],
+      "radius": 1197.659188032759,
+      "orientation": 3.4288332769153516
+    },
+    {
+      "channel": 10,
+      "position": [
+        307.5221127724288,
+        -208.8704754448097
+      ],
+      "radius": 1490.2523994590474,
+      "orientation": null
+    },
+    {
+      "channel": 15,
+      "position": [
+        772.8478141801365,
+        395.4707318677779
+      ],
+      "radius": 1233.0910219886728,
+      "orientation": null
+    },
+    {
+      "channel": 12,
+      "position": [
+        -116.15975686958222,
+        1015.6332193359794
+      ],
+      "radius": 1035.3705629361957,
+      "orientation": null
+    },
+    {
+      "channel": 16,
+      "position": [
+        1330.0672923235334,
+        -281.3197921816137
+      ],
+      "radius": 1454.9782081966052,
+      "orientation": null
+    }
+  ],
+  "result": {
+    "complete": true,
+    "cleared": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20
+    ],
+    "certificate": {
+      "basis": "count_upper_bound",
+      "cleared": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        20
+      ],
+      "absent": [],
+      "channels": {},
+      "spacing": 968.6184634592707,
+      "stations": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ],
+        [
+          248.46628329842014,
+          927.2887932375055
+        ],
+        [
+          -248.4662832984198,
+          927.2887932375056
+        ],
+        [
+          -678.8225099390855,
+          678.8225099390856
+        ],
+        [
+          -927.2887932375056,
+          248.46628329841974
+        ],
+        [
+          -927.2887932375056,
+          -248.46628329841997
+        ],
+        [
+          -678.8225099390858,
+          -678.8225099390855
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          678.8225099390854,
+          -678.8225099390858
+        ],
+        [
+          927.2887932375054,
+          -248.4662832984207
+        ],
+        [
+          1863.4972282657675,
+          0.0
+        ],
+        [
+          1613.8359395600437,
+          931.7486141328836
+        ],
+        [
+          931.748614132884,
+          1613.8359395600435
+        ],
+        [
+          1.1410629579078184e-13,
+          1863.4972282657675
+        ],
+        [
+          -931.7486141328833,
+          1613.8359395600437
+        ],
+        [
+          -1613.8359395600437,
+          931.7486141328836
+        ],
+        [
+          -1863.4972282657675,
+          2.2821259158156367e-13
+        ],
+        [
+          -1613.835939560044,
+          -931.7486141328832
+        ],
+        [
+          -931.7486141328845,
+          -1613.8359395600432
+        ],
+        [
+          -3.423188873723455e-13,
+          -1863.4972282657675
+        ],
+        [
+          931.748614132884,
+          -1613.8359395600435
+        ],
+        [
+          1613.835939560043,
+          -931.7486141328845
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          13,
+          14
+        ],
+        [
+          1,
+          14,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          2,
+          14,
+          15
+        ],
+        [
+          2,
+          15,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          3,
+          15,
+          16
+        ],
+        [
+          3,
+          16,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          4,
+          16,
+          17
+        ],
+        [
+          4,
+          17,
+          5
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          5,
+          17,
+          18
+        ],
+        [
+          5,
+          18,
+          6
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          6,
+          18,
+          19
+        ],
+        [
+          6,
+          19,
+          7
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          7,
+          19,
+          20
+        ],
+        [
+          7,
+          20,
+          8
+        ],
+        [
+          0,
+          8,
+          9
+        ],
+        [
+          8,
+          20,
+          21
+        ],
+        [
+          8,
+          21,
+          9
+        ],
+        [
+          0,
+          9,
+          10
+        ],
+        [
+          9,
+          21,
+          22
+        ],
+        [
+          9,
+          22,
+          10
+        ],
+        [
+          0,
+          10,
+          11
+        ],
+        [
+          10,
+          22,
+          23
+        ],
+        [
+          10,
+          23,
+          11
+        ],
+        [
+          0,
+          11,
+          12
+        ],
+        [
+          11,
+          23,
+          24
+        ],
+        [
+          11,
+          24,
+          12
+        ],
+        [
+          0,
+          12,
+          1
+        ],
+        [
+          12,
+          24,
+          13
+        ],
+        [
+          12,
+          13,
+          1
+        ]
+      ]
+    }
+  },
+  "events": [
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 1,
+      "time_s": 5.0,
+      "measure_result": "direction",
+      "svd_deg": 15.42
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 2,
+      "time_s": 11.0,
+      "measure_result": "direction",
+      "svd_deg": 302.45
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 3,
+      "time_s": 17.0,
+      "measure_result": "direction",
+      "svd_deg": 114.68
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 4,
+      "time_s": 23.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 5,
+      "time_s": 29.0,
+      "measure_result": "direction",
+      "svd_deg": 106.34
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 6,
+      "time_s": 35.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 7,
+      "time_s": 41.0,
+      "measure_result": "direction",
+      "svd_deg": 329.78
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 8,
+      "time_s": 47.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 9,
+      "time_s": 53.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 10,
+      "time_s": 59.0,
+      "measure_result": "direction",
+      "svd_deg": 326.31
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 11,
+      "time_s": 65.0,
+      "measure_result": "direction",
+      "svd_deg": 54.71
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 12,
+      "time_s": 71.0,
+      "measure_result": "direction",
+      "svd_deg": 96.44
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 13,
+      "time_s": 77.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 14,
+      "time_s": 83.0,
+      "measure_result": "direction",
+      "svd_deg": 33.02
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 15,
+      "time_s": 89.0,
+      "measure_result": "direction",
+      "svd_deg": 26.94
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 16,
+      "time_s": 95.0,
+      "measure_result": "direction",
+      "svd_deg": 348.32
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 17,
+      "time_s": 101.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 18,
+      "time_s": 107.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 19,
+      "time_s": 113.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 20,
+      "time_s": 119.0,
+      "measure_result": "direction",
+      "svd_deg": 255.92
+    },
+    {
+      "action": "measure",
+      "position": [
+        -210.95272156140845,
+        -448.0782469187758
+      ],
+      "channel": 20,
+      "time_s": 223.05052571207656,
+      "measure_result": "direction",
+      "svd_deg": 275.08
+    },
+    {
+      "action": "measure",
+      "position": [
+        -210.95272156140845,
+        -448.0782469187758
+      ],
+      "channel": 2,
+      "time_s": 229.05052571207656,
+      "measure_result": "direction",
+      "svd_deg": 340.72
+    },
+    {
+      "action": "measure",
+      "position": [
+        -210.95272156140845,
+        -448.0782469187758
+      ],
+      "channel": 10,
+      "time_s": 235.05052571207656,
+      "measure_result": "direction",
+      "svd_deg": 24.98
+    },
+    {
+      "action": "clear",
+      "position": [
+        -184.56270975146208,
+        -701.8810817331108
+      ],
+      "channel": 20,
+      "time_s": 289.0847541017061,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -184.67930278851853,
+        -729.99434423027
+      ],
+      "channel": 20,
+      "time_s": 297.7074549551055,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -184.79589582557497,
+        -758.1076067274292
+      ],
+      "channel": 20,
+      "time_s": 308.33015580850497,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -184.79589582557497,
+        -758.1076067274292
+      ],
+      "channel": 7,
+      "time_s": 314.33015580850497,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -184.79589582557497,
+        -758.1076067274292
+      ],
+      "channel": 16,
+      "time_s": 320.33015580850497,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 4,
+      "time_s": 362.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 6,
+      "time_s": 368.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 8,
+      "time_s": 374.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 9,
+      "time_s": 380.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 13,
+      "time_s": 386.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 17,
+      "time_s": 392.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 18,
+      "time_s": 398.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 19,
+      "time_s": 404.4832702579681,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 19,
+      "time_s": 508.86978357733614,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 4,
+      "time_s": 514.8697835773362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 6,
+      "time_s": 520.8697835773362,
+      "measure_result": "direction",
+      "svd_deg": 8.59
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 8,
+      "time_s": 526.8697835773362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 9,
+      "time_s": 532.8697835773362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 13,
+      "time_s": 538.8697835773362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 17,
+      "time_s": 544.8697835773362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 18,
+      "time_s": 550.8697835773362,
+      "measure_result": "direction",
+      "svd_deg": 3.64
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 7,
+      "time_s": 556.8697835773362,
+      "measure_result": "direction",
+      "svd_deg": 33.39
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 16,
+      "time_s": 562.8697835773362,
+      "measure_result": "direction",
+      "svd_deg": 31.68
+    },
+    {
+      "action": "measure",
+      "position": [
+        338.38502487460073,
+        -799.8403014554148
+      ],
+      "channel": 2,
+      "time_s": 600.0649743247407,
+      "measure_result": "direction",
+      "svd_deg": 55.25
+    },
+    {
+      "action": "measure",
+      "position": [
+        338.38502487460073,
+        -799.8403014554148
+      ],
+      "channel": 6,
+      "time_s": 606.0649743247407,
+      "measure_result": "direction",
+      "svd_deg": 357.57
+    },
+    {
+      "action": "measure",
+      "position": [
+        338.38502487460073,
+        -799.8403014554148
+      ],
+      "channel": 18,
+      "time_s": 612.0649743247407,
+      "measure_result": "direction",
+      "svd_deg": 356.22
+    },
+    {
+      "action": "clear",
+      "position": [
+        423.925638123332,
+        -676.9191247248356
+      ],
+      "channel": 2,
+      "time_s": 647.0161427185108,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        423.925638123332,
+        -676.9191247248356
+      ],
+      "channel": 1,
+      "time_s": 653.0161427185108,
+      "measure_result": "direction",
+      "svd_deg": 67.67
+    },
+    {
+      "action": "measure",
+      "position": [
+        423.925638123332,
+        -676.9191247248356
+      ],
+      "channel": 15,
+      "time_s": 659.0161427185108,
+      "measure_result": "direction",
+      "svd_deg": 71.24
+    },
+    {
+      "action": "clear",
+      "position": [
+        310.6893441001379,
+        -211.27475780745266
+      ],
+      "channel": 10,
+      "time_s": 759.8591674466562,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        310.6893441001379,
+        -211.27475780745266
+      ],
+      "channel": 14,
+      "time_s": 765.8591674466562,
+      "measure_result": "direction",
+      "svd_deg": 55.01
+    },
+    {
+      "action": "measure",
+      "position": [
+        310.6893441001379,
+        -211.27475780745266
+      ],
+      "channel": 11,
+      "time_s": 771.8591674466562,
+      "measure_result": "direction",
+      "svd_deg": 71.87
+    },
+    {
+      "action": "measure",
+      "position": [
+        551.6441533150162,
+        3.9677684092093557
+      ],
+      "channel": 1,
+      "time_s": 842.4776060461485,
+      "measure_result": "direction",
+      "svd_deg": 43.38
+    },
+    {
+      "action": "measure",
+      "position": [
+        551.6441533150162,
+        3.9677684092093557
+      ],
+      "channel": 12,
+      "time_s": 848.4776060461485,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        551.6441533150162,
+        3.9677684092093557
+      ],
+      "channel": 5,
+      "time_s": 854.4776060461485,
+      "measure_result": "direction",
+      "svd_deg": 131.48
+    },
+    {
+      "action": "clear",
+      "position": [
+        769.3591471170107,
+        210.29965581211255
+      ],
+      "channel": 1,
+      "time_s": 919.4684941160701,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        769.3591471170107,
+        210.29965581211255
+      ],
+      "channel": 3,
+      "time_s": 925.4684941160701,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        769.3591471170107,
+        210.29965581211255
+      ],
+      "channel": 18,
+      "time_s": 931.4684941160701,
+      "measure_result": "direction",
+      "svd_deg": 296.51
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 4,
+      "time_s": 969.9637027336022,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 8,
+      "time_s": 975.9637027336022,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 9,
+      "time_s": 981.9637027336022,
+      "measure_result": "direction",
+      "svd_deg": 357.33
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 13,
+      "time_s": 987.9637027336022,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 17,
+      "time_s": 993.9637027336022,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 19,
+      "time_s": 999.9637027336022,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 11,
+      "time_s": 1005.9637027336022,
+      "measure_result": "direction",
+      "svd_deg": 108.21
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 14,
+      "time_s": 1011.9637027336022,
+      "measure_result": "direction",
+      "svd_deg": 98.84
+    },
+    {
+      "action": "measure",
+      "position": [
+        859.4273167191349,
+        325.811895111293
+      ],
+      "channel": 15,
+      "time_s": 1038.5428413569373,
+      "measure_result": "direction",
+      "svd_deg": 141.52
+    },
+    {
+      "action": "measure",
+      "position": [
+        859.4273167191349,
+        325.811895111293
+      ],
+      "channel": 9,
+      "time_s": 1044.5428413569373,
+      "measure_result": "direction",
+      "svd_deg": 353.17
+    },
+    {
+      "action": "measure",
+      "position": [
+        859.4273167191349,
+        325.811895111293
+      ],
+      "channel": 12,
+      "time_s": 1050.5428413569373,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "clear",
+      "position": [
+        784.3207199169274,
+        387.6919786406484
+      ],
+      "channel": 15,
+      "time_s": 1075.0057759977456,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        784.3207199169274,
+        387.6919786406484
+      ],
+      "channel": 12,
+      "time_s": 1080.0057759977456,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        784.3207199169274,
+        387.6919786406484
+      ],
+      "channel": 16,
+      "time_s": 1086.0057759977456,
+      "measure_result": "direction",
+      "svd_deg": 309.52
+    },
+    {
+      "action": "clear",
+      "position": [
+        874.5328533021883,
+        574.6477040831413
+      ],
+      "channel": 14,
+      "time_s": 1132.5223617367724,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        874.5328533021883,
+        574.6477040831413
+      ],
+      "channel": 12,
+      "time_s": 1138.5223617367724,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        874.5328533021883,
+        574.6477040831413
+      ],
+      "channel": 5,
+      "time_s": 1144.5223617367724,
+      "measure_result": "direction",
+      "svd_deg": 162.02
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "channel": 4,
+      "time_s": 1194.8641833838033,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "channel": 8,
+      "time_s": 1200.8641833838033,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "channel": 13,
+      "time_s": 1206.8641833838033,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "channel": 17,
+      "time_s": 1212.8641833838033,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "channel": 19,
+      "time_s": 1218.8641833838033,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "channel": 3,
+      "time_s": 1224.8641833838033,
+      "measure_result": "direction",
+      "svd_deg": 177.42
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "channel": 12,
+      "time_s": 1230.8641833838033,
+      "measure_result": "direction",
+      "svd_deg": 157.71
+    },
+    {
+      "action": "clear",
+      "position": [
+        697.9886319335909,
+        948.6093031305761
+      ],
+      "channel": 11,
+      "time_s": 1289.9575301143786,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        697.9886319335909,
+        948.6093031305761
+      ],
+      "channel": 9,
+      "time_s": 1295.9575301143786,
+      "measure_result": "direction",
+      "svd_deg": 325.71
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "channel": 4,
+      "time_s": 1391.9630646252253,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "channel": 8,
+      "time_s": 1397.9630646252253,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "channel": 13,
+      "time_s": 1403.9630646252253,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "channel": 17,
+      "time_s": 1409.9630646252253,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "channel": 19,
+      "time_s": 1415.9630646252253,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "channel": 12,
+      "time_s": 1421.9630646252253,
+      "measure_result": "direction",
+      "svd_deg": 166.15
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "channel": 5,
+      "time_s": 1427.9630646252253,
+      "measure_result": "direction",
+      "svd_deg": 177.3
+    },
+    {
+      "action": "clear",
+      "position": [
+        -106.9453315323203,
+        1008.9103431793833
+      ],
+      "channel": 12,
+      "time_s": 1505.8957715190488,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -106.9453315323203,
+        1008.9103431793833
+      ],
+      "channel": 3,
+      "time_s": 1511.8957715190488,
+      "measure_result": "direction",
+      "svd_deg": 230.4
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 4,
+      "time_s": 1550.570077757252,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 8,
+      "time_s": 1556.570077757252,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 13,
+      "time_s": 1562.570077757252,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 17,
+      "time_s": 1568.570077757252,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 19,
+      "time_s": 1574.570077757252,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -266.1211699215485,
+        953.3148129764905
+      ],
+      "channel": 5,
+      "time_s": 1585.8599067696482,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -333.1581957761197,
+        730.5798688280253
+      ],
+      "channel": 3,
+      "time_s": 1637.3807916194644,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 19,
+      "time_s": 1712.2843372476832,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 4,
+      "time_s": 1718.2843372476832,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 8,
+      "time_s": 1724.2843372476832,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 13,
+      "time_s": 1730.2843372476832,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 17,
+      "time_s": 1736.2843372476832,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 17,
+      "time_s": 1840.6708505670513,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 4,
+      "time_s": 1846.6708505670513,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 8,
+      "time_s": 1852.6708505670513,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 13,
+      "time_s": 1858.6708505670513,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 19,
+      "time_s": 1864.6708505670513,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 19,
+      "time_s": 1969.0573638864191,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 4,
+      "time_s": 1975.0573638864191,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 8,
+      "time_s": 1981.0573638864191,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 13,
+      "time_s": 1987.0573638864191,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 17,
+      "time_s": 1993.0573638864191,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 17,
+      "time_s": 2097.443877205787,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 4,
+      "time_s": 2103.443877205787,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 8,
+      "time_s": 2109.443877205787,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 13,
+      "time_s": 2115.443877205787,
+      "measure_result": "direction",
+      "svd_deg": 286.88
+    },
+    {
+      "action": "measure",
+      "position": [
+        -659.5179001294491,
+        -1064.2631725228275
+      ],
+      "channel": 13,
+      "time_s": 2197.628635372901,
+      "measure_result": "direction",
+      "svd_deg": 300.75
+    },
+    {
+      "action": "clear",
+      "position": [
+        -485.40423877754466,
+        -1346.5016653878922
+      ],
+      "channel": 13,
+      "time_s": 2266.953331806163,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -473.0158833996119,
+        -1371.921593775283
+      ],
+      "channel": 13,
+      "time_s": 2275.6089276481234,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -460.6275280216791,
+        -1397.3415221626738
+      ],
+      "channel": 13,
+      "time_s": 2284.264523490084,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -448.23917264374626,
+        -1422.7614505500644
+      ],
+      "channel": 13,
+      "time_s": 2292.920119332044,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        -435.8508172658135,
+        -1448.1813789374553
+      ],
+      "channel": 13,
+      "time_s": 2303.5757151740045,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        860.9974148633842,
+        -522.8376049234101
+      ],
+      "channel": 7,
+      "time_s": 2625.202546265373,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        880.6143694393237,
+        -520.4906660742449
+      ],
+      "channel": 7,
+      "time_s": 2634.1539157940106,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        880.6143694393237,
+        -520.4906660742449
+      ],
+      "channel": 6,
+      "time_s": 2640.1539157940106,
+      "measure_result": "direction",
+      "svd_deg": 283.23
+    },
+    {
+      "action": "measure",
+      "position": [
+        880.6143694393237,
+        -520.4906660742449
+      ],
+      "channel": 16,
+      "time_s": 2646.1539157940106,
+      "measure_result": "direction",
+      "svd_deg": 28.96
+    },
+    {
+      "action": "clear",
+      "position": [
+        950.0568287638453,
+        -815.0935118285203
+      ],
+      "channel": 6,
+      "time_s": 2711.6892251212307,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        950.0568287638453,
+        -815.0935118285203
+      ],
+      "channel": 18,
+      "time_s": 2717.6892251212307,
+      "measure_result": "direction",
+      "svd_deg": 351.11
+    },
+    {
+      "action": "measure",
+      "position": [
+        950.0568287638453,
+        -815.0935118285203
+      ],
+      "channel": 9,
+      "time_s": 2723.6892251212307,
+      "measure_result": "direction",
+      "svd_deg": 50.6
+    },
+    {
+      "action": "clear",
+      "position": [
+        1289.1971404878846,
+        -865.0349812370025
+      ],
+      "channel": 18,
+      "time_s": 2795.2487762874853,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1307.6900590335495,
+        -870.502666894806
+      ],
+      "channel": 18,
+      "time_s": 2802.105633156954,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1326.1829775792144,
+        -875.9703525526096
+      ],
+      "channel": 18,
+      "time_s": 2810.9624900264225,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1329.2272539463058,
+        -276.61543297407593
+      ],
+      "channel": 16,
+      "time_s": 2935.835020197699,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1773.341604024627,
+        208.46625044888802
+      ],
+      "channel": 9,
+      "time_s": 3072.3708397356404,
+      "clear_result": "success"
+    }
+  ],
+  "trace": [
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 1,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 1,
+      "polygon": [
+        [
+          1446.0996368672102,
+          400.1896658576763
+        ],
+        [
+          1438.830408943264,
+          424.15309884300456
+        ],
+        [
+          6.821210263296962e-13,
+          2.2737367544323206e-13
+        ],
+        [
+          1452.8045269387042,
+          373.42224424669394
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 2,
+      "event": 2,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 2,
+      "polygon": [
+        [
+          802.7381995681992,
+          -1267.6621440118663
+        ],
+        [
+          826.9337870158541,
+          -1251.495169347435
+        ],
+        [
+          -7.958078640513122e-13,
+          1.1368683772161603e-12
+        ],
+        [
+          782.5504679521325,
+          -1279.7622046858978
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 3,
+      "event": 3,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 3,
+      "polygon": [
+        [
+          -608.0451028243207,
+          1371.7277723142142
+        ],
+        [
+          -650.148494891731,
+          1351.8143509207873
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -602.4489846871556,
+          1374.04576034327
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 4,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 5,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 5,
+      "polygon": [
+        [
+          -400.18966585768084,
+          1446.0996368672088
+        ],
+        [
+          -447.2020230222029,
+          1431.838594232787
+        ],
+        [
+          -3.979039320256561e-13,
+          1.5916157281026244e-12
+        ],
+        [
+          -396.7911757268978,
+          1446.9509143293087
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 6,
+      "event": 6,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 7,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 7,
+      "polygon": [
+        [
+          1305.5236859889503,
+          -739.5700330114653
+        ],
+        [
+          1309.4284346051106,
+          -732.2647621695129
+        ],
+        [
+          -1.5916157281026244e-12,
+          9.094947017729282e-13
+        ],
+        [
+          1282.7233673966516,
+          -777.6100664379077
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 8,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 9,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 10,
+      "event": 10,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 10,
+      "polygon": [
+        [
+          1262.696410478188,
+          -810.1699449905632
+        ],
+        [
+          -1.8189894035458565e-12,
+          1.1368683772161603e-12
+        ],
+        [
+          1233.4583395428683,
+          -853.9278104415849
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 11,
+      "event": 11,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 11,
+      "polygon": [
+        [
+          863.9724994906098,
+          1226.746692895768
+        ],
+        [
+          845.0014714240529,
+          1239.4227285892089
+        ],
+        [
+          -9.094947017729282e-13,
+          -1.5916157281026244e-12
+        ],
+        [
+          887.9239483009891,
+          1208.9830878015434
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 12,
+      "event": 12,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          -183.67133116981591,
+          1489.1678114010735
+        ],
+        [
+          -194.39078705001177,
+          1487.577730327211
+        ],
+        [
+          -2.842170943040401e-14,
+          4.547473508864641e-13
+        ],
+        [
+          -142.0754534518349,
+          1493.2646477713902
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 13,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 14,
+      "event": 14,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 14,
+      "polygon": [
+        [
+          1267.6621440118654,
+          802.7381995682003
+        ],
+        [
+          1243.2045677455164,
+          839.3415491492491
+        ],
+        [
+          1.3642420526593924e-12,
+          9.094947017729282e-13
+        ],
+        [
+          1272.088941774875,
+          795.3525336971164
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 15,
+      "event": 15,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 15,
+      "polygon": [
+        [
+          1340.2401070561166,
+          674.6201774665241
+        ],
+        [
+          1325.1033073845724,
+          702.9391378276001
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1349.0157961850562,
+          656.0655417383106
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 16,
+      "event": 16,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          1463.9941227164225,
+          -328.7508738521137
+        ],
+        [
+          1474.1148050065326,
+          -277.8707680877844
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1463.8111294267642,
+          -329.48142401535745
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 17,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 18,
+      "event": 18,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 19,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 20,
+      "event": 20,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 20,
+      "polygon": [
+        [
+          -339.3898670533501,
+          -1461.3291936499486
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -390.4397837688119,
+          -1448.5418551938733
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 20,
+      "known": 12,
+      "unknown": 8,
+      "pending_stations": 24
+    },
+    {
+      "phase": "decision",
+      "channel": 20,
+      "action": "measure",
+      "predicted_s": 262.2918886616295,
+      "optical_s": 455.3546257753668,
+      "signal_mass": 0.9756944444444444,
+      "scenarios": 208,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 20,
+      "event": 21,
+      "position": [
+        -210.95272156140845,
+        -448.0782469187758
+      ],
+      "move_s": 99.05052571207656,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 20,
+      "polygon": [
+        [
+          -185.86148964325824,
+          -800.2738064901218
+        ],
+        [
+          -177.32533036826104,
+          -763.5192066592485
+        ],
+        [
+          -185.39511749503245,
+          -687.820756501485
+        ],
+        [
+          -192.10057993176042,
+          -712.698198303835
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -210.95272156140845,
+          -448.0782469187758
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 2,
+      "gain_s": 361.48021243493395,
+      "signal_mass": 0.9565972222222223
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 2,
+      "event": 22,
+      "position": [
+        -210.95272156140845,
+        -448.0782469187758
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 2,
+      "polygon": [
+        [
+          459.91254873596284,
+          -696.0392018113165
+        ],
+        [
+          437.58447941760676,
+          -662.2475351367492
+        ],
+        [
+          396.69498416560106,
+          -648.7444175353311
+        ],
+        [
+          415.59960667795593,
+          -679.6605339724958
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -210.95272156140845,
+          -448.0782469187758
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 10,
+      "gain_s": 266.9119324177371,
+      "signal_mass": 0.9340277777777778
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 10,
+      "event": 23,
+      "position": [
+        -210.95272156140845,
+        -448.0782469187758
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 10,
+      "polygon": [
+        [
+          326.1145093130194,
+          -209.24124902730728
+        ],
+        [
+          305.8013061550412,
+          -196.20791294706214
+        ],
+        [
+          292.6629567300643,
+          -202.611656856189
+        ],
+        [
+          311.5772167675102,
+          -215.7060696483428
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -210.95272156140845,
+          -448.0782469187758
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 20,
+      "known": 12,
+      "unknown": 8,
+      "pending_stations": 24
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 20,
+      "polygon": [
+        [
+          -185.86148964325824,
+          -800.2738064901218
+        ],
+        [
+          -177.32533036826104,
+          -763.5192066592485
+        ],
+        [
+          -185.39511749503245,
+          -687.820756501485
+        ],
+        [
+          -192.10057993176042,
+          -712.698198303835
+        ]
+      ],
+      "path": [
+        [
+          -184.56270975146208,
+          -701.8810817331108
+        ],
+        [
+          -184.67930278851853,
+          -729.99434423027
+        ],
+        [
+          -184.79589582557497,
+          -758.1076067274292
+        ],
+        [
+          -184.91248886263142,
+          -786.2208692245885
+        ]
+      ],
+      "score": 69.83054975506865,
+      "worst_s": 81.90233094982787,
+      "mean_s": 66.81260445637884,
+      "origin": [
+        -185.17062935957804,
+        -741.0779919886726
+      ],
+      "rotation": [
+        [
+          0.004147225331611075,
+          -0.9999914002240463
+        ],
+        [
+          0.9999914002240463,
+          0.004147225331611075
+        ]
+      ],
+      "lower": [
+        -59.198170583976236,
+        -7.938300297457328
+      ],
+      "upper": [
+        53.25584648401248,
+        7.0475883754357405
+      ],
+      "cells": [
+        4,
+        1
+      ],
+      "cell_radius": 15.92910842990603
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 20,
+      "event": 24,
+      "position": [
+        -184.56270975146208,
+        -701.8810817331108
+      ],
+      "move_s": 51.03422838962954,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 20,
+      "event": 25,
+      "position": [
+        -184.67930278851853,
+        -729.99434423027
+      ],
+      "move_s": 5.6227008533994365,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 20,
+      "event": 26,
+      "position": [
+        -184.79589582557497,
+        -758.1076067274292
+      ],
+      "move_s": 5.6227008533994365,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 7,
+      "gain_s": 350.30030818076193,
+      "signal_mass": 0.9149305555555556
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 7,
+      "event": 27,
+      "position": [
+        -184.79589582557497,
+        -758.1076067274292
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 7,
+      "polygon": [
+        [
+          1305.5236859889503,
+          -739.5700330114653
+        ],
+        [
+          1309.4284346051106,
+          -732.2647621695129
+        ],
+        [
+          -1.5916157281026244e-12,
+          9.094947017729282e-13
+        ],
+        [
+          1282.7233673966516,
+          -777.6100664379077
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          -184.79589582557497,
+          -758.1076067274292
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 16,
+      "gain_s": 144.44682107363258,
+      "signal_mass": 0.4010416666666667
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 16,
+      "event": 28,
+      "position": [
+        -184.79589582557497,
+        -758.1076067274292
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          1463.9941227164225,
+          -328.7508738521137
+        ],
+        [
+          1474.1148050065326,
+          -277.8707680877844
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1463.8111294267642,
+          -329.48142401535745
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          -184.79589582557497,
+          -758.1076067274292
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 9,
+      "known": 11,
+      "unknown": 8,
+      "pending_stations": 24
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 29,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 36.15311444946312,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 6,
+      "event": 30,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 31,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 32,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 33,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 34,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 18,
+      "event": 35,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 36,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 10,
+      "known": 11,
+      "unknown": 8,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 37,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 99.38651331936804,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 38,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 6,
+      "event": 39,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 6,
+      "polygon": [
+        [
+          248.46628329842065,
+          -927.2887932375055
+        ],
+        [
+          1640.2552856655252,
+          -741.9553377884338
+        ],
+        [
+          1646.073326777057,
+          -729.6541233891851
+        ],
+        [
+          1663.2780318455955,
+          -688.1182910760903
+        ]
+      ],
+      "positives": [
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ]
+      ]
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 40,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 41,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 42,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 43,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 18,
+      "event": 44,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 18,
+      "polygon": [
+        [
+          248.46628329841587,
+          -927.288793237506
+        ],
+        [
+          1578.0592687219455,
+          -866.0984317818989
+        ],
+        [
+          1604.230883115065,
+          -817.1347851282794
+        ]
+      ],
+      "positives": [
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 7,
+      "gain_s": 356.7424292050629,
+      "signal_mass": 0.8021201413427561
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 7,
+      "event": 45,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 7,
+      "polygon": [
+        [
+          909.0072096001256,
+          -508.3393109215216
+        ],
+        [
+          882.2767240571551,
+          -493.39096237378146
+        ],
+        [
+          850.156345872307,
+          -515.3801274690173
+        ],
+        [
+          874.5708534425049,
+          -530.1806427915387
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ],
+      "negatives": [
+        [
+          -184.79589582557497,
+          -758.1076067274292
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 16,
+      "gain_s": 318.2343162890167,
+      "signal_mass": 0.8891213389121341
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 16,
+      "event": 46,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          1374.8452887589797,
+          -259.15845569954536
+        ],
+        [
+          1309.1007629454828,
+          -246.76560690424233
+        ],
+        [
+          1253.8420943960111,
+          -282.2206160666198
+        ],
+        [
+          1313.3750178164753,
+          -295.62056363502853
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ],
+      "negatives": [
+        [
+          -184.79589582557497,
+          -758.1076067274292
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 2,
+      "known": 13,
+      "unknown": 6,
+      "pending_stations": 22
+    },
+    {
+      "phase": "decision",
+      "channel": 2,
+      "action": "measure",
+      "predicted_s": 74.77376519612326,
+      "optical_s": 75.75419217511445,
+      "signal_mass": 0.8474264705882352,
+      "scenarios": 176,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 2,
+      "event": 47,
+      "position": [
+        338.38502487460073,
+        -799.8403014554148
+      ],
+      "move_s": 31.195190747404496,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 2,
+      "polygon": [
+        [
+          418.06311591690957,
+          -680.5710805909051
+        ],
+        [
+          422.9593367975696,
+          -682.3807906156842
+        ],
+        [
+          437.4805796450252,
+          -662.2132238585277
+        ],
+        [
+          431.6200423353351,
+          -660.2778728836007
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -210.95272156140845,
+          -448.0782469187758
+        ],
+        [
+          338.38502487460073,
+          -799.8403014554148
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 6,
+      "gain_s": 181.1259442800461,
+      "signal_mass": 0.9914529914529919
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 6,
+      "event": 48,
+      "position": [
+        338.38502487460073,
+        -799.8403014554148
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 6,
+      "polygon": [
+        [
+          917.2104877836374,
+          -814.2392038709295
+        ],
+        [
+          828.3975782380026,
+          -829.2528112969761
+        ],
+        [
+          936.1235406616241,
+          -835.7189536605304
+        ],
+        [
+          1069.0615272535847,
+          -818.0166608750383
+        ]
+      ],
+      "positives": [
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          338.38502487460073,
+          -799.8403014554148
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 18,
+      "gain_s": 171.91922702495222,
+      "signal_mass": 0.9722222222222225
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 18,
+      "event": 49,
+      "position": [
+        338.38502487460073,
+        -799.8403014554148
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 18,
+      "polygon": [
+        [
+          1264.558781288323,
+          -844.7326759893928
+        ],
+        [
+          1066.7110480160843,
+          -860.8075320655948
+        ],
+        [
+          1288.8953836117034,
+          -879.4062958002752
+        ],
+        [
+          1578.0592687219455,
+          -866.0984317818989
+        ],
+        [
+          1581.273989284832,
+          -860.0841126280648
+        ]
+      ],
+      "positives": [
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          338.38502487460073,
+          -799.8403014554148
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 2,
+      "known": 13,
+      "unknown": 6,
+      "pending_stations": 22
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 2,
+      "event": 50,
+      "position": [
+        423.925638123332,
+        -676.9191247248356
+      ],
+      "move_s": 29.951168393770086,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 1,
+      "gain_s": 369.1450624097459,
+      "signal_mass": 0.9253472222222223
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 1,
+      "event": 51,
+      "position": [
+        423.925638123332,
+        -676.9191247248356
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 1,
+      "polygon": [
+        [
+          820.2554990714373,
+          241.80327967191602
+        ],
+        [
+          777.6830948484636,
+          229.25335226967738
+        ],
+        [
+          764.9424259883518,
+          196.61730957982675
+        ],
+        [
+          805.2298059950667,
+          206.97259384413687
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          423.925638123332,
+          -676.9191247248356
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 15,
+      "gain_s": 183.56982934272492,
+      "signal_mass": 0.45138888888888895
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 15,
+      "event": 52,
+      "position": [
+        423.925638123332,
+        -676.9191247248356
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 15,
+      "polygon": [
+        [
+          824.2889325427074,
+          437.2677574143602
+        ],
+        [
+          771.7652686802836,
+          409.4050701919793
+        ],
+        [
+          758.8427478588208,
+          369.04725643397205
+        ],
+        [
+          808.4429195580572,
+          393.1692597553541
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          423.925638123332,
+          -676.9191247248356
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 10,
+      "known": 12,
+      "unknown": 6,
+      "pending_stations": 22
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 10,
+      "event": 53,
+      "position": [
+        310.6893441001379,
+        -211.27475780745266
+      ],
+      "move_s": 95.84302472814548,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 14,
+      "gain_s": 299.96421057275774,
+      "signal_mass": 0.9618055555555557
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 14,
+      "event": 54,
+      "position": [
+        310.6893441001379,
+        -211.27475780745266
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 14,
+      "polygon": [
+        [
+          910.8890303189619,
+          614.9808564470118
+        ],
+        [
+          831.607467010035,
+          561.4544200960229
+        ],
+        [
+          783.2419133063967,
+          489.7090288174721
+        ],
+        [
+          850.3852825523542,
+          531.6893079449862
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          310.6893441001379,
+          -211.27475780745266
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 11,
+      "gain_s": 261.15132002239363,
+      "signal_mass": 0.8385416666666667
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 11,
+      "event": 55,
+      "position": [
+        310.6893441001379,
+        -211.27475780745266
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 11,
+      "polygon": [
+        [
+          781.9357439991753,
+          1146.919817518917
+        ],
+        [
+          685.6648940242618,
+          1005.7126319758869
+        ],
+        [
+          647.3819685569681,
+          881.4649642355783
+        ],
+        [
+          727.8443552298404,
+          991.0212667520138
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          310.6893441001379,
+          -211.27475780745266
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 1,
+      "known": 11,
+      "unknown": 6,
+      "pending_stations": 22
+    },
+    {
+      "phase": "decision",
+      "channel": 1,
+      "action": "measure",
+      "predicted_s": 142.17756411678096,
+      "optical_s": 143.8356015188249,
+      "signal_mass": 1.0000000000000004,
+      "scenarios": 156,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 1,
+      "event": 56,
+      "position": [
+        551.6441533150162,
+        3.9677684092093557
+      ],
+      "move_s": 64.61843859949228,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 1,
+      "polygon": [
+        [
+          808.5549409986243,
+          238.35406985960668
+        ],
+        [
+          783.6011863703862,
+          230.99794763175595
+        ],
+        [
+          775.1257397155241,
+          222.7025226226545
+        ],
+        [
+          766.1235431930779,
+          199.64281726222472
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          423.925638123332,
+          -676.9191247248356
+        ],
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 12,
+      "gain_s": 168.23788415110357,
+      "signal_mass": 0.47048611111111116
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 12,
+      "event": 57,
+      "position": [
+        551.6441533150162,
+        3.9677684092093557
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          -183.67133116981591,
+          1489.1678114010735
+        ],
+        [
+          -194.39078705001177,
+          1487.577730327211
+        ],
+        [
+          -2.842170943040401e-14,
+          4.547473508864641e-13
+        ],
+        [
+          -142.0754534518349,
+          1493.2646477713902
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 5,
+      "gain_s": 118.68706909513173,
+      "signal_mass": 0.35590277777777785
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 5,
+      "event": 58,
+      "position": [
+        551.6441533150162,
+        3.9677684092093557
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 5,
+      "polygon": [
+        [
+          -320.4272718873484,
+          1025.9348368606313
+        ],
+        [
+          -287.36024508433525,
+          920.0617800861686
+        ],
+        [
+          -237.32207773285364,
+          865.4259932494911
+        ],
+        [
+          -262.8273789436722,
+          958.4344096781849
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 1,
+      "known": 11,
+      "unknown": 6,
+      "pending_stations": 22
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 1,
+      "polygon": [
+        [
+          808.5549409986243,
+          238.35406985960668
+        ],
+        [
+          783.6011863703862,
+          230.99794763175595
+        ],
+        [
+          775.1257397155241,
+          222.7025226226545
+        ],
+        [
+          766.1235431930779,
+          199.64281726222472
+        ]
+      ],
+      "path": [
+        [
+          769.3591471170107,
+          210.29965581211255
+        ],
+        [
+          783.5029463855262,
+          223.20340667790654
+        ],
+        [
+          797.6467456540416,
+          236.1071575437005
+        ]
+      ],
+      "score": 71.13709534032884,
+      "worst_s": 78.64912644860422,
+      "mean_s": 69.25908756326,
+      "origin": [
+        783.3513525694032,
+        222.92433934406046
+      ],
+      "rotation": [
+        [
+          -0.7387494914175632,
+          0.673980110188937
+        ],
+        [
+          -0.673980110188937,
+          -0.7387494914175632
+        ]
+      ],
+      "lower": [
+        -29.018469607038114,
+        -5.795991003724168
+      ],
+      "upper": [
+        28.418318233080814,
+        5.588011735613227
+      ],
+      "cells": [
+        3,
+        1
+      ],
+      "cell_radius": 11.137205243280048
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 1,
+      "event": 59,
+      "position": [
+        769.3591471170107,
+        210.29965581211255
+      ],
+      "move_s": 59.990888069921695,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 3,
+      "gain_s": 106.61087474010867,
+      "signal_mass": 0.28645833333333337
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 3,
+      "event": 60,
+      "position": [
+        769.3591471170107,
+        210.29965581211255
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 3,
+      "polygon": [
+        [
+          -608.0451028243207,
+          1371.7277723142142
+        ],
+        [
+          -650.148494891731,
+          1351.8143509207873
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -602.4489846871556,
+          1374.04576034327
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          769.3591471170107,
+          210.29965581211255
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 18,
+      "gain_s": 76.6601020907923,
+      "signal_mass": 0.8946428571428573
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 18,
+      "event": 61,
+      "position": [
+        769.3591471170107,
+        210.29965581211255
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 18,
+      "polygon": [
+        [
+          1320.333547779034,
+          -847.4361230364582
+        ],
+        [
+          1272.8894155455823,
+          -845.1364684209885
+        ],
+        [
+          1289.2315742984667,
+          -879.390823674695
+        ],
+        [
+          1335.8609111426954,
+          -877.2448541883828
+        ]
+      ],
+      "positives": [
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          338.38502487460073,
+          -799.8403014554148
+        ],
+        [
+          769.3591471170107,
+          210.29965581211255
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 1,
+      "known": 10,
+      "unknown": 6,
+      "pending_stations": 22
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 62,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 32.4952086175321,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 63,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 64,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 9,
+      "polygon": [
+        [
+          927.2887932375063,
+          248.46628329841988
+        ],
+        [
+          1789.6932077088115,
+          193.07494786716967
+        ],
+        [
+          1787.001373681288,
+          220.4055974037791
+        ],
+        [
+          1786.54391547899,
+          223.4895301020383
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ]
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 65,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 66,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 67,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 11,
+      "gain_s": 53.979972075588734,
+      "signal_mass": 0.925
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 11,
+      "event": 68,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 11,
+      "polygon": [
+        [
+          690.5780242656109,
+          1012.9190635568694
+        ],
+        [
+          685.6648940242618,
+          1005.7126319758869
+        ],
+        [
+          675.2013460142425,
+          971.7530685239159
+        ],
+        [
+          687.5890752617086,
+          936.2103195202018
+        ],
+        [
+          706.3998538362332,
+          961.8227756415799
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          310.6893441001379,
+          -211.27475780745266
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 14,
+      "gain_s": 24.92135547018212,
+      "signal_mass": 0.9000000000000001
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 14,
+      "event": 69,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 14,
+      "polygon": [
+        [
+          872.7868447426671,
+          562.5280720310247
+        ],
+        [
+          882.2748753283533,
+          575.5896225776926
+        ],
+        [
+          879.7475768297269,
+          593.955904888304
+        ],
+        [
+          868.6348949390228,
+          586.4532493516847
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          310.6893441001379,
+          -211.27475780745266
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 15,
+      "known": 11,
+      "unknown": 5,
+      "pending_stations": 21
+    },
+    {
+      "phase": "decision",
+      "channel": 15,
+      "action": "measure",
+      "predicted_s": 55.058786394301364,
+      "optical_s": 66.40580774835131,
+      "signal_mass": 0.8731060606060606,
+      "scenarios": 160,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 15,
+      "event": 70,
+      "position": [
+        859.4273167191349,
+        325.811895111293
+      ],
+      "move_s": 20.579138623335076,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 15,
+      "polygon": [
+        [
+          768.8848990755864,
+          400.40950178341274
+        ],
+        [
+          767.5519632662601,
+          396.2466626680892
+        ],
+        [
+          785.8796089126432,
+          382.19606680694284
+        ],
+        [
+          789.0939771269593,
+          383.75930737820624
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          423.925638123332,
+          -676.9191247248356
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 9,
+      "gain_s": 107.04995082560657,
+      "signal_mass": 0.9965277777777778
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 9,
+      "event": 71,
+      "position": [
+        859.4273167191349,
+        325.811895111293
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 9,
+      "polygon": [
+        [
+          1553.8699698458986,
+          230.25287612684417
+        ],
+        [
+          1789.2212032964628,
+          197.8672890894497
+        ],
+        [
+          1787.001373681288,
+          220.4055974037791
+        ],
+        [
+          1786.54391547899,
+          223.4895301020383
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 12,
+      "gain_s": 21.198822912316132,
+      "signal_mass": 0.07709750566893422
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 12,
+      "event": 72,
+      "position": [
+        859.4273167191349,
+        325.811895111293
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          -183.67133116981591,
+          1489.1678114010735
+        ],
+        [
+          -194.39078705001177,
+          1487.577730327211
+        ],
+        [
+          -2.842170943040401e-14,
+          4.547473508864641e-13
+        ],
+        [
+          -142.0754534518349,
+          1493.2646477713902
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 15,
+      "known": 11,
+      "unknown": 5,
+      "pending_stations": 21
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 15,
+      "event": 73,
+      "position": [
+        784.3207199169274,
+        387.6919786406484
+      ],
+      "move_s": 19.462934640808278,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 12,
+      "gain_s": 346.9583889830833,
+      "signal_mass": 0.9024943310657594
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 12,
+      "event": 74,
+      "position": [
+        784.3207199169274,
+        387.6919786406484
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          -183.67133116981591,
+          1489.1678114010735
+        ],
+        [
+          -194.39078705001177,
+          1487.577730327211
+        ],
+        [
+          -2.842170943040401e-14,
+          4.547473508864641e-13
+        ],
+        [
+          -142.0754534518349,
+          1493.2646477713902
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ],
+        [
+          784.3207199169274,
+          387.6919786406484
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 16,
+      "gain_s": 16.130756331218265,
+      "signal_mass": 0.909090909090909
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 16,
+      "event": 75,
+      "position": [
+        784.3207199169274,
+        387.6919786406484
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          1323.4078842780107,
+          -289.6694029485081
+        ],
+        [
+          1349.9134335070778,
+          -273.9471980182017
+        ],
+        [
+          1330.0539703471795,
+          -250.71528830954261
+        ],
+        [
+          1309.1007629454828,
+          -246.76560690424233
+        ],
+        [
+          1295.9682974990897,
+          -255.191645658861
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          784.3207199169274,
+          387.6919786406484
+        ]
+      ],
+      "negatives": [
+        [
+          -184.79589582557497,
+          -758.1076067274292
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 14,
+      "known": 10,
+      "unknown": 5,
+      "pending_stations": 21
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 14,
+      "event": 76,
+      "position": [
+        874.5328533021883,
+        574.6477040831413
+      ],
+      "move_s": 41.51658573902671,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 12,
+      "gain_s": 269.619170690906,
+      "signal_mass": 0.6250000000000002
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 12,
+      "event": 77,
+      "position": [
+        874.5328533021883,
+        574.6477040831413
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          -183.67133116981591,
+          1489.1678114010735
+        ],
+        [
+          -194.39078705001177,
+          1487.577730327211
+        ],
+        [
+          -2.842170943040401e-14,
+          4.547473508864641e-13
+        ],
+        [
+          -142.0754534518349,
+          1493.2646477713902
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ],
+        [
+          784.3207199169274,
+          387.6919786406484
+        ],
+        [
+          874.5328533021883,
+          574.6477040831413
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 5,
+      "gain_s": 17.611282314683535,
+      "signal_mass": 0.942857142857143
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 5,
+      "event": 78,
+      "position": [
+        874.5328533021883,
+        574.6477040831413
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 5,
+      "polygon": [
+        [
+          -271.8927889052301,
+          969.058023954474
+        ],
+        [
+          -306.3674514933449,
+          980.918507703471
+        ],
+        [
+          -290.55649892374146,
+          930.2954538367889
+        ],
+        [
+          -251.87280285273852,
+          918.487115331659
+        ],
+        [
+          -262.8273789436722,
+          958.4344096781849
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ],
+        [
+          874.5328533021883,
+          574.6477040831413
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 2,
+      "known": 9,
+      "unknown": 5,
+      "pending_stations": 21
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 79,
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "move_s": 44.3418216470308,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 80,
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 81,
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 82,
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 83,
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 3,
+      "gain_s": 358.2487716590165,
+      "signal_mass": 0.8958333333333335
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 3,
+      "event": 84,
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 3,
+      "polygon": [
+        [
+          -357.70923596312036,
+          743.7631286255347
+        ],
+        [
+          -339.94859159624116,
+          706.834497512198
+        ],
+        [
+          -309.54433660879187,
+          705.9985063738602
+        ],
+        [
+          -325.2094397860094,
+          741.7269566710636
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ]
+      ],
+      "negatives": [
+        [
+          769.3591471170107,
+          210.29965581211255
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 12,
+      "gain_s": 311.6898809346881,
+      "signal_mass": 0.6760563380281689
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 12,
+      "event": 85,
+      "position": [
+        678.8225099390856,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          -134.46504974218448,
+          1028.9953373785788
+        ],
+        [
+          -129.87592091996942,
+          993.8769763640029
+        ],
+        [
+          -93.20225501483979,
+          979.5895710684185
+        ],
+        [
+          -96.34115376116293,
+          1012.5805376072465
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ]
+      ],
+      "negatives": [
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ],
+        [
+          784.3207199169274,
+          387.6919786406484
+        ],
+        [
+          874.5328533021883,
+          574.6477040831413
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 11,
+      "known": 9,
+      "unknown": 5,
+      "pending_stations": 20
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 11,
+      "polygon": [
+        [
+          690.5780242656109,
+          1012.9190635568694
+        ],
+        [
+          685.6648940242618,
+          1005.7126319758869
+        ],
+        [
+          675.2013460142425,
+          971.7530685239159
+        ],
+        [
+          687.5890752617086,
+          936.2103195202018
+        ],
+        [
+          706.3998538362332,
+          961.8227756415799
+        ]
+      ],
+      "path": [
+        [
+          697.9886319335909,
+          948.6093031305761
+        ],
+        [
+          698.984948268225,
+          974.178884476132
+        ],
+        [
+          699.9812646028591,
+          999.7484658216879
+        ],
+        [
+          684.2124853955657,
+          1000.3628948218793
+        ],
+        [
+          683.2161690609316,
+          974.7933134763234
+        ],
+        [
+          682.2198527262975,
+          949.2237321307675
+        ]
+      ],
+      "score": 71.68949224813849,
+      "worst_s": 97.72068351657654,
+      "mean_s": 65.18169443102899,
+      "origin": [
+        689.0866386804113,
+        977.6835718436909
+      ],
+      "rotation": [
+        [
+          -0.03893536017527984,
+          0.9992417313783593
+        ],
+        [
+          -0.9992417313783593,
+          -0.03893536017527984
+        ]
+      ],
+      "lower": [
+        -35.26684138036437,
+        -13.643857601661582
+      ],
+      "upper": [
+        41.5001126287073,
+        17.917632900825446
+      ],
+      "cells": [
+        3,
+        2
+      ],
+      "cell_radius": 15.031866626522993
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 11,
+      "event": 86,
+      "position": [
+        697.9886319335909,
+        948.6093031305761
+      ],
+      "move_s": 54.0933467305754,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 9,
+      "gain_s": 4.396569251931339,
+      "signal_mass": 0.4131944444444445
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 9,
+      "event": 87,
+      "position": [
+        697.9886319335909,
+        948.6093031305761
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 9,
+      "polygon": [
+        [
+          1719.5506803120707,
+          225.43688363800132
+        ],
+        [
+          1751.082260157573,
+          203.11541141466455
+        ],
+        [
+          1789.2212032964628,
+          197.8672890894497
+        ],
+        [
+          1787.001373681288,
+          220.4055974037791
+        ],
+        [
+          1786.54391547899,
+          223.4895301020383
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ],
+        [
+          697.9886319335909,
+          948.6093031305761
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 3,
+      "known": 8,
+      "unknown": 5,
+      "pending_stations": 20
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 88,
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "move_s": 90.00553451084673,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 89,
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 90,
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 91,
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 92,
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 12,
+      "gain_s": 1.399822023382697,
+      "signal_mass": 0.96875
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 12,
+      "event": 93,
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          -133.62807885384936,
+          1028.6349673483676
+        ],
+        [
+          -134.4463184668132,
+          1028.8519960786862
+        ],
+        [
+          -132.52682308161482,
+          1014.1630355995438
+        ],
+        [
+          -95.69260733179638,
+          1005.764078944739
+        ],
+        [
+          -96.34115376116293,
+          1012.5805376072465
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ],
+        [
+          248.46628329842014,
+          927.2887932375055
+        ]
+      ],
+      "negatives": [
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ],
+        [
+          784.3207199169274,
+          387.6919786406484
+        ],
+        [
+          874.5328533021883,
+          574.6477040831413
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 5,
+      "gain_s": 1.0148622070009878,
+      "signal_mass": 0.96780303030303
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 5,
+      "event": 94,
+      "position": [
+        248.46628329842014,
+        927.2887932375055
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 5,
+      "polygon": [
+        [
+          -264.60049347767136,
+          960.5122952847672
+        ],
+        [
+          -300.7246364369085,
+          962.851504510325
+        ],
+        [
+          -294.6370000360689,
+          943.3602851113785
+        ],
+        [
+          -258.3996040469107,
+          942.2879494561889
+        ],
+        [
+          -262.8273789436722,
+          958.4344096781849
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          551.6441533150162,
+          3.9677684092093557
+        ],
+        [
+          874.5328533021883,
+          574.6477040831413
+        ],
+        [
+          248.46628329842014,
+          927.2887932375055
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 12,
+      "known": 8,
+      "unknown": 5,
+      "pending_stations": 19
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 12,
+      "polygon": [
+        [
+          -133.62807885384936,
+          1028.6349673483676
+        ],
+        [
+          -134.4463184668132,
+          1028.8519960786862
+        ],
+        [
+          -132.52682308161482,
+          1014.1630355995438
+        ],
+        [
+          -95.69260733179638,
+          1005.764078944739
+        ],
+        [
+          -96.34115376116293,
+          1012.5805376072465
+        ]
+      ],
+      "path": [
+        [
+          -106.9453315323203,
+          1008.9103431793833
+        ],
+        [
+          -126.32218709982871,
+          1020.4543017463568
+        ]
+      ],
+      "score": 81.31265187823772,
+      "worst_s": 85.44369574807737,
+      "mean_s": 80.2798909107778,
+      "origin": [
+        -118.52699629904733,
+        1017.9989231157166
+      ],
+      "rotation": [
+        [
+          0.8590956969106965,
+          0.5118149895709625
+        ],
+        [
+          -0.5118149895709625,
+          0.8590956969106965
+        ]
+      ],
+      "lower": [
+        -19.2309865974179,
+        -10.460715657692543
+      ],
+      "upper": [
+        25.878901945121605,
+        6.700135092620361
+      ],
+      "cells": [
+        2,
+        1
+      ],
+      "cell_radius": 14.170570820847331
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 12,
+      "event": 95,
+      "position": [
+        -106.9453315323203,
+        1008.9103431793833
+      ],
+      "move_s": 72.93270689382344,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 3,
+      "gain_s": 2.2427001692769437,
+      "signal_mass": 0.875
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 3,
+      "event": 96,
+      "position": [
+        -106.9453315323203,
+        1008.9103431793833
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 3,
+      "polygon": [
+        [
+          -335.44016116978344,
+          742.3679301664703
+        ],
+        [
+          -349.2759440531699,
+          726.2282960158342
+        ],
+        [
+          -342.9933165367794,
+          713.1652094980982
+        ],
+        [
+          -323.4321706828689,
+          737.6734199596897
+        ],
+        [
+          -325.2094397860094,
+          741.7269566710636
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ],
+        [
+          -106.9453315323203,
+          1008.9103431793833
+        ]
+      ],
+      "negatives": [
+        [
+          769.3591471170107,
+          210.29965581211255
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 4,
+      "known": 7,
+      "unknown": 5,
+      "pending_stations": 19
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 97,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 32.67430623820319,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 98,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 99,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 100,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 101,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 5,
+      "known": 7,
+      "unknown": 5,
+      "pending_stations": 18
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 5,
+      "polygon": [
+        [
+          -264.60049347767136,
+          960.5122952847672
+        ],
+        [
+          -300.7246364369085,
+          962.851504510325
+        ],
+        [
+          -294.6370000360689,
+          943.3602851113785
+        ],
+        [
+          -258.3996040469107,
+          942.2879494561889
+        ],
+        [
+          -262.8273789436722,
+          958.4344096781849
+        ]
+      ],
+      "path": [
+        [
+          -266.1211699215485,
+          953.3148129764905
+        ],
+        [
+          -287.2836861165474,
+          963.5965905035586
+        ],
+        [
+          -293.522663244972,
+          950.7551869453778
+        ],
+        [
+          -272.36014704997314,
+          940.4734094183098
+        ]
+      ],
+      "score": 17.08426091465393,
+      "worst_s": 32.55638743213523,
+      "mean_s": 13.216229285283607,
+      "origin": [
+        -276.23782258824633,
+        953.4892888081689
+      ],
+      "rotation": [
+        [
+          0.8994606972956113,
+          0.43700166363584114
+        ],
+        [
+          -0.43700166363584114,
+          0.8994606972956113
+        ]
+      ],
+      "lower": [
+        -26.116230496025292,
+        -17.15111188225443
+      ],
+      "upper": [
+        20.939780419466093,
+        11.402450484151776
+      ],
+      "cells": [
+        2,
+        2
+      ],
+      "cell_radius": 13.76039172564478
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 5,
+      "event": 102,
+      "position": [
+        -266.1211699215485,
+        953.3148129764905
+      ],
+      "move_s": 6.289829012396324,
+      "result": "success"
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 3,
+      "known": 6,
+      "unknown": 5,
+      "pending_stations": 18
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 3,
+      "event": 103,
+      "position": [
+        -333.1581957761197,
+        730.5798688280253
+      ],
+      "move_s": 46.52088484981617,
+      "result": "success"
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 5,
+      "known": 5,
+      "unknown": 5,
+      "pending_stations": 18
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 104,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 69.9035456282189,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 105,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 106,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 107,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 108,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 6,
+      "known": 5,
+      "unknown": 5,
+      "pending_stations": 17
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 109,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 99.38651331936804,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 110,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 111,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 112,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 113,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 7,
+      "known": 5,
+      "unknown": 5,
+      "pending_stations": 16
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 114,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 99.38651331936794,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 115,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 116,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 117,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 118,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 8,
+      "known": 5,
+      "unknown": 5,
+      "pending_stations": 15
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 119,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 99.38651331936794,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 120,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 121,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 122,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 13,
+      "polygon": [
+        [
+          -678.8225099390858,
+          -678.8225099390854
+        ],
+        [
+          -370.9296269439419,
+          -1761.4815945483
+        ],
+        [
+          -326.6006839075067,
+          -1770.2991695511153
+        ]
+      ],
+      "positives": [
+        [
+          -678.8225099390858,
+          -678.8225099390855
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ],
+        [
+          248.46628329842014,
+          927.2887932375055
+        ],
+        [
+          -248.4662832984198,
+          927.2887932375056
+        ],
+        [
+          -678.8225099390855,
+          678.8225099390856
+        ],
+        [
+          -927.2887932375056,
+          248.46628329841974
+        ],
+        [
+          -927.2887932375056,
+          -248.46628329841997
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 13,
+      "known": 6,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "decision",
+      "channel": 13,
+      "action": "measure",
+      "predicted_s": 192.37820421335533,
+      "optical_s": 325.5838493909707,
+      "signal_mass": 1.0,
+      "scenarios": 34,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 13,
+      "event": 123,
+      "position": [
+        -659.5179001294491,
+        -1064.2631725228275
+      ],
+      "move_s": 77.18475816711388,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 13,
+      "polygon": [
+        [
+          -418.11155876479086,
+          -1486.7222398282881
+        ],
+        [
+          -439.97481100431133,
+          -1418.9716697074361
+        ],
+        [
+          -492.4416910323876,
+          -1334.2026695039438
+        ],
+        [
+          -479.7361913682627,
+          -1378.8796509984497
+        ]
+      ],
+      "positives": [
+        [
+          -678.8225099390858,
+          -678.8225099390855
+        ],
+        [
+          -659.5179001294491,
+          -1064.2631725228275
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ],
+        [
+          248.46628329842014,
+          927.2887932375055
+        ],
+        [
+          -248.4662832984198,
+          927.2887932375056
+        ],
+        [
+          -678.8225099390855,
+          678.8225099390856
+        ],
+        [
+          -927.2887932375056,
+          248.46628329841974
+        ],
+        [
+          -927.2887932375056,
+          -248.46628329841997
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 13,
+      "known": 6,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 13,
+      "polygon": [
+        [
+          -418.11155876479086,
+          -1486.7222398282881
+        ],
+        [
+          -439.97481100431133,
+          -1418.9716697074361
+        ],
+        [
+          -492.4416910323876,
+          -1334.2026695039438
+        ],
+        [
+          -479.7361913682627,
+          -1378.8796509984497
+        ]
+      ],
+      "path": [
+        [
+          -485.40423877754466,
+          -1346.5016653878922
+        ],
+        [
+          -473.0158833996119,
+          -1371.921593775283
+        ],
+        [
+          -460.6275280216791,
+          -1397.3415221626738
+        ],
+        [
+          -448.23917264374626,
+          -1422.7614505500644
+        ],
+        [
+          -435.8508172658135,
+          -1448.1813789374553
+        ],
+        [
+          -423.4624618878807,
+          -1473.601307324846
+        ]
+      ],
+      "score": 95.56036479075148,
+      "worst_s": 114.60267564306461,
+      "mean_s": 90.79978707767319,
+      "origin": [
+        -457.56606304243815,
+        -1404.6940575095293
+      ],
+      "rotation": [
+        [
+          -0.4380919614524061,
+          -0.898930160418919
+        ],
+        [
+          0.898930160418919,
+          -0.4380919614524061
+        ]
+      ],
+      "lower": [
+        -91.02230825780104,
+        -9.558399883965174
+      ],
+      "upper": [
+        78.6455670010147,
+        8.620313030272886
+      ],
+      "cells": [
+        6,
+        1
+      ],
+      "cell_radius": 16.808552223558067
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 13,
+      "event": 124,
+      "position": [
+        -485.40423877754466,
+        -1346.5016653878922
+      ],
+      "move_s": 66.32469643326198,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 13,
+      "event": 125,
+      "position": [
+        -473.0158833996119,
+        -1371.921593775283
+      ],
+      "move_s": 5.655595841960552,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 13,
+      "event": 126,
+      "position": [
+        -460.6275280216791,
+        -1397.3415221626738
+      ],
+      "move_s": 5.65559584196051,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 13,
+      "event": 127,
+      "position": [
+        -448.23917264374626,
+        -1422.7614505500644
+      ],
+      "move_s": 5.6555958419605155,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 13,
+      "event": 128,
+      "position": [
+        -435.8508172658135,
+        -1448.1813789374553
+      ],
+      "move_s": 5.655595841960552,
+      "result": "success"
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 7,
+      "known": 5,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 7,
+      "polygon": [
+        [
+          909.0072096001256,
+          -508.3393109215216
+        ],
+        [
+          882.2767240571551,
+          -493.39096237378146
+        ],
+        [
+          850.156345872307,
+          -515.3801274690173
+        ],
+        [
+          874.5708534425049,
+          -530.1806427915387
+        ]
+      ],
+      "path": [
+        [
+          860.9974148633842,
+          -522.8376049234101
+        ],
+        [
+          880.6143694393237,
+          -520.4906660742449
+        ],
+        [
+          900.2313240152632,
+          -518.1437272250797
+        ],
+        [
+          898.1160221236809,
+          -500.4629166933829
+        ],
+        [
+          878.4990675477413,
+          -502.8098555425482
+        ],
+        [
+          858.8821129718018,
+          -505.1567943917134
+        ]
+      ],
+      "score": 335.3466617331579,
+      "worst_s": 357.99368850697863,
+      "mean_s": 329.68490503970264,
+      "origin": [
+        879.0027832430231,
+        -511.82276088896475
+      ],
+      "rotation": [
+        [
+          -0.9929192617275646,
+          0.11879115998418387
+        ],
+        [
+          -0.11879115998418387,
+          -0.9929192617275646
+        ]
+      ],
+      "lower": [
+        -30.205775929432725,
+        -17.912372546976716
+      ],
+      "upper": [
+        29.06476700013528,
+        17.70142046361354
+      ],
+      "cells": [
+        3,
+        2
+      ],
+      "cell_radius": 13.298670910531698
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 7,
+      "event": 129,
+      "position": [
+        860.9974148633842,
+        -522.8376049234101
+      ],
+      "move_s": 318.6268310913682,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 7,
+      "event": 130,
+      "position": [
+        880.6143694393237,
+        -520.4906660742449
+      ],
+      "move_s": 3.9513695286378656,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 6,
+      "gain_s": 26.55278371183472,
+      "signal_mass": 0.8678571428571429
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 6,
+      "event": 131,
+      "position": [
+        880.6143694393237,
+        -520.4906660742449
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 6,
+      "polygon": [
+        [
+          955.3759910911386,
+          -815.1886115818512
+        ],
+        [
+          944.4058031587315,
+          -814.9157164249507
+        ],
+        [
+          948.55447379369,
+          -834.0636253112592
+        ],
+        [
+          959.7849877857535,
+          -832.5681472171815
+        ]
+      ],
+      "positives": [
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          338.38502487460073,
+          -799.8403014554148
+        ],
+        [
+          880.6143694393237,
+          -520.4906660742449
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 16,
+      "gain_s": 2.671091639515055,
+      "signal_mass": 1.0
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 16,
+      "event": 132,
+      "position": [
+        880.6143694393237,
+        -520.4906660742449
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          1310.061059610631,
+          -272.89915836804323
+        ],
+        [
+          1321.0744449066492,
+          -286.7374434789977
+        ],
+        [
+          1348.4346633767746,
+          -272.2173096586594
+        ],
+        [
+          1336.156541809792,
+          -257.85417157484346
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          784.3207199169274,
+          387.6919786406484
+        ],
+        [
+          880.6143694393237,
+          -520.4906660742449
+        ]
+      ],
+      "negatives": [
+        [
+          -184.79589582557497,
+          -758.1076067274292
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 6,
+      "known": 4,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 6,
+      "event": 133,
+      "position": [
+        950.0568287638453,
+        -815.0935118285203
+      ],
+      "move_s": 60.53530932721999,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 18,
+      "gain_s": 2.039762056404257,
+      "signal_mass": 0.9999999999999998
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 18,
+      "event": 134,
+      "position": [
+        950.0568287638453,
+        -815.0935118285203
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 18,
+      "polygon": [
+        [
+          1330.9657549461706,
+          -867.8473543301403
+        ],
+        [
+          1280.3821555057004,
+          -860.8417972149722
+        ],
+        [
+          1286.5607538190764,
+          -873.7925893836613
+        ],
+        [
+          1312.5117347706746,
+          -878.3194270520772
+        ],
+        [
+          1335.8609111426954,
+          -877.2448541883828
+        ]
+      ],
+      "positives": [
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          338.38502487460073,
+          -799.8403014554148
+        ],
+        [
+          769.3591471170107,
+          210.29965581211255
+        ],
+        [
+          950.0568287638453,
+          -815.0935118285203
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 9,
+      "gain_s": 1.5839017745360593,
+      "signal_mass": 0.8823529411764706
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 9,
+      "event": 135,
+      "position": [
+        950.0568287638453,
+        -815.0935118285203
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 9,
+      "polygon": [
+        [
+          1773.3831970122092,
+          223.87208472234053
+        ],
+        [
+          1756.3591866128127,
+          202.38927814355088
+        ],
+        [
+          1789.2212032964628,
+          197.8672890894497
+        ],
+        [
+          1787.001373681288,
+          220.4055974037791
+        ],
+        [
+          1786.54391547899,
+          223.4895301020383
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          859.4273167191349,
+          325.811895111293
+        ],
+        [
+          697.9886319335909,
+          948.6093031305761
+        ],
+        [
+          950.0568287638453,
+          -815.0935118285203
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 18,
+      "known": 3,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 18,
+      "polygon": [
+        [
+          1330.9657549461706,
+          -867.8473543301403
+        ],
+        [
+          1280.3821555057004,
+          -860.8417972149722
+        ],
+        [
+          1286.5607538190764,
+          -873.7925893836613
+        ],
+        [
+          1312.5117347706746,
+          -878.3194270520772
+        ],
+        [
+          1335.8609111426954,
+          -877.2448541883828
+        ]
+      ],
+      "path": [
+        [
+          1289.1971404878846,
+          -865.0349812370025
+        ],
+        [
+          1307.6900590335495,
+          -870.502666894806
+        ],
+        [
+          1326.1829775792144,
+          -875.9703525526096
+        ]
+      ],
+      "score": 79.38787950530273,
+      "worst_s": 87.27326490519144,
+      "mean_s": 77.41653315533055,
+      "origin": [
+        1309.2562620368633,
+        -871.6092044338468
+      ],
+      "rotation": [
+        [
+          0.9589631750173631,
+          0.2835306490674657
+        ],
+        [
+          -0.2835306490674657,
+          0.9589631750173631
+        ]
+      ],
+      "lower": [
+        -30.74209483245474,
+        -8.52865793966434
+      ],
+      "upper": [
+        27.11075820957208,
+        9.762782334891206
+      ],
+      "cells": [
+        3,
+        1
+      ],
+      "cell_radius": 13.289661490297476
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 18,
+      "event": 136,
+      "position": [
+        1289.1971404878846,
+        -865.0349812370025
+      ],
+      "move_s": 68.55955116625456,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 18,
+      "event": 137,
+      "position": [
+        1307.6900590335495,
+        -870.502666894806
+      ],
+      "move_s": 3.856856869468438,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 18,
+      "event": 138,
+      "position": [
+        1326.1829775792144,
+        -875.9703525526096
+      ],
+      "move_s": 3.8568568694684444,
+      "result": "success"
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 16,
+      "known": 2,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 16,
+      "event": 139,
+      "position": [
+        1329.2272539463058,
+        -276.61543297407593
+      ],
+      "move_s": 119.87253017127648,
+      "result": "success"
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 9,
+      "known": 1,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 9,
+      "event": 140,
+      "position": [
+        1773.341604024627,
+        208.46625044888802
+      ],
+      "move_s": 131.53581953794125,
+      "result": "success"
+    }
+  ]
+}

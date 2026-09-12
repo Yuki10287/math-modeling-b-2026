@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "kind": "Isolated minimal runtime module closure and help validation; no solver run",
+  "files": 15,
+  "source_relative_to": "src",
+  "source_sha256": {
+    "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "q4_model/negative_region.py": "55389254f37177805a0d6269e4fb3fa35180d764f098f84b9c2d243441056bf6",
+    "q4_model/ordered_optical_prune.py": "2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a",
+    "q4_model/negative_region_proof.py": "2b7a9abb3ad39cbf829aebceaa7171b6b270e130d2b785cdc4e8354ccd9b76ca",
+    "q4_model/prune_proof.py": "94b2875ffd20c6c46a87a136a4d91e8a9bb5851f1646c7e2a491ced63e9d0283",
+    "q4_model/q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "q4_model/q4_share25_prune_client.py": "346ee3a02db3fc6c2a36ba58c073179b7bc2ff73894df73e5e89ee0018153e4d",
+    "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "q3_model_v2/official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e"
+  },
+  "bundle": "C:\\Users\\15591\\Desktop\\B题求解\\tmp\\share25_prune_minimal_runtime_v1",
+  "bundle_files": [
+    "src/q3_model_v2/geometry.py",
+    "src/q3_model_v2/official_client.py",
+    "src/q4_model/directional_cover.py",
+    "src/q4_model/guarded_policy.py",
+    "src/q4_model/localization.py",
+    "src/q4_model/negative_region.py",
+    "src/q4_model/negative_region_proof.py",
+    "src/q4_model/ordered_optical_prune.py",
+    "src/q4_model/polar_cover.py",
+    "src/q4_model/prune_proof.py",
+    "src/q4_model/q4_official_client.py",
+    "src/q4_model/q4_share25_prune_client.py",
+    "src/q4_model/route_planning.py",
+    "src/q4_model/shared.py",
+    "src/q4_model/solver.py"
+  ],
+  "only_declared_runtime_files_copied": true,
+  "research_directory_copied": false,
+  "pythonpath_present_in_child": false,
+  "independent_child_cwd": true,
+  "all_fifteen_declared_modules_resolve_inside_bundle": true,
+  "network_guard": {
+    "audit_hook": "Reject every socket.* audit event except the non-network local socket.gethostname query",
+    "self_test": "Socket construction blocked by PermissionError before imports/help",
+    "child_application_network_attempts": 0,
+    "parent_network_attempts": 0,
+    "official_contacted": false
+  },
+  "initial_harness_failure": {
+    "exit_code": 1,
+    "production_imports_succeeded": true,
+    "cause": "Initial guard classified local socket.gethostname as networking. NumPy testing utils imports platform.machine, which queries the local hostname; no connection was attempted.",
+    "diagnosis": "Recorded stack pointed to numpy/testing/_private/utils.py -> platform.machine -> platform.uname -> platform._node -> socket.gethostname.",
+    "correction": "Permit only the non-network socket.gethostname audit event; continue rejecting socket creation, name resolution, connect and every other socket audit event.",
+    "production_files_changed": false
+  },
+  "source_and_copy_hashes_stable": true,
+  "commands": [
+    {
+      "label": "imports_and_hashes",
+      "argv": [
+        "D:\\Python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "import sys,json,socket\nattempts=[]\ndef deny_network(event,args):\n    if event.startswith('socket.') and event!='socket.gethostname':\n        attempts.append(event)\n        raise PermissionError('Network prohibited for minimal runtime validation')\nsys.addaudithook(deny_network)\ntry:\n    socket.socket()\nexcept PermissionError:\n    pass\nelse:\n    raise AssertionError('Network guard probe did not block socket construction')\nassert attempts==['socket.__new__']\nattempts.clear()\nfrom pathlib import Path\nimport q4_share25_prune_client as client\nimport ordered_optical_prune\nimport negative_region\nimport prune_proof\nimport negative_region_proof\nexpected=json.loads(sys.argv[1])\nassert client.source_hashes()==expected\nroot=Path.cwd().parents[1]\nloaded={}\nfor name,module in list(sys.modules.items()):\n    filename=getattr(module,'__file__',None)\n    if not filename:\n        continue\n    path=Path(filename).resolve()\n    if 'q4_model' in path.parts or 'q3_model_v2' in path.parts:\n        assert path.is_relative_to(root), str(path)\n        loaded[name]=path.relative_to(root).as_posix()\nassert not attempts\nassert set(loaded.values())=={'src/'+name for name in expected}\nprint(json.dumps(dict(passed=True,source_hashes=client.source_hashes(),\n    imported_local_modules=loaded,network_guard_probe_blocked=True,network_attempts=attempts),ensure_ascii=False))\n",
+        "{\"q4_model/shared.py\": \"1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970\", \"q4_model/directional_cover.py\": \"2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd\", \"q4_model/polar_cover.py\": \"84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd\", \"q4_model/localization.py\": \"ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1\", \"q4_model/solver.py\": \"1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab\", \"q4_model/route_planning.py\": \"e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5\", \"q4_model/guarded_policy.py\": \"bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0\", \"q4_model/negative_region.py\": \"55389254f37177805a0d6269e4fb3fa35180d764f098f84b9c2d243441056bf6\", \"q4_model/ordered_optical_prune.py\": \"2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a\", \"q4_model/negative_region_proof.py\": \"2b7a9abb3ad39cbf829aebceaa7171b6b270e130d2b785cdc4e8354ccd9b76ca\", \"q4_model/prune_proof.py\": \"94b2875ffd20c6c46a87a136a4d91e8a9bb5851f1646c7e2a491ced63e9d0283\", \"q4_model/q4_official_client.py\": \"a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723\", \"q4_model/q4_share25_prune_client.py\": \"346ee3a02db3fc6c2a36ba58c073179b7bc2ff73894df73e5e89ee0018153e4d\", \"q3_model_v2/geometry.py\": \"a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311\", \"q3_model_v2/official_client.py\": \"9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e\"}"
+      ],
+      "cwd": "C:\\Users\\15591\\Desktop\\B题求解\\tmp\\share25_prune_minimal_runtime_v1\\src\\q4_model",
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"source_hashes\": {\"q4_model/shared.py\": \"1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970\", \"q4_model/directional_cover.py\": \"2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd\", \"q4_model/polar_cover.py\": \"84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd\", \"q4_model/localization.py\": \"ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1\", \"q4_model/solver.py\": \"1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab\", \"q4_model/route_planning.py\": \"e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5\", \"q4_model/guarded_policy.py\": \"bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0\", \"q4_model/negative_region.py\": \"55389254f37177805a0d6269e4fb3fa35180d764f098f84b9c2d243441056bf6\", \"q4_model/ordered_optical_prune.py\": \"2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a\", \"q4_model/negative_region_proof.py\": \"2b7a9abb3ad39cbf829aebceaa7171b6b270e130d2b785cdc4e8354ccd9b76ca\", \"q4_model/prune_proof.py\": \"94b2875ffd20c6c46a87a136a4d91e8a9bb5851f1646c7e2a491ced63e9d0283\", \"q4_model/q4_official_client.py\": \"a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723\", \"q4_model/q4_share25_prune_client.py\": \"346ee3a02db3fc6c2a36ba58c073179b7bc2ff73894df73e5e89ee0018153e4d\", \"q3_model_v2/geometry.py\": \"a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311\", \"q3_model_v2/official_client.py\": \"9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e\"}, \"imported_local_modules\": {\"_b_q4_frozen_geometry\": \"src/q3_model_v2/geometry.py\", \"shared\": \"src/q4_model/shared.py\", \"directional_cover\": \"src/q4_model/directional_cover.py\", \"polar_cover\": \"src/q4_model/polar_cover.py\", \"_b_q4_http_transport\": \"src/q3_model_v2/official_client.py\", \"q4_official_client\": \"src/q4_model/q4_official_client.py\", \"q4_share25_prune_client\": \"src/q4_model/q4_share25_prune_client.py\", \"localization\": \"src/q4_model/localization.py\", \"route_planning\": \"src/q4_model/route_planning.py\", \"guarded_policy\": \"src/q4_model/guarded_policy.py\", \"solver\": \"src/q4_model/solver.py\", \"negative_region\": \"src/q4_model/negative_region.py\", \"ordered_optical_prune\": \"src/q4_model/ordered_optical_prune.py\", \"negative_region_proof\": \"src/q4_model/negative_region_proof.py\", \"prune_proof\": \"src/q4_model/prune_proof.py\"}, \"network_guard_probe_blocked\": true, \"network_attempts\": []}\n",
+      "stderr": ""
+    },
+    {
+      "label": "help",
+      "argv": [
+        "D:\\Python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "import sys,json,socket\nattempts=[]\ndef deny_network(event,args):\n    if event.startswith('socket.') and event!='socket.gethostname':\n        attempts.append(event)\n        raise PermissionError('Network prohibited for minimal runtime validation')\nsys.addaudithook(deny_network)\ntry:\n    socket.socket()\nexcept PermissionError:\n    pass\nelse:\n    raise AssertionError('Network guard probe did not block socket construction')\nassert attempts==['socket.__new__']\nattempts.clear()\nimport runpy\nsys.argv=['q4_share25_prune_client.py','--help']\ntry:\n    runpy.run_path('q4_share25_prune_client.py',run_name='__main__')\nfinally:\n    assert not attempts\n    print('NETWORK_GUARD '+json.dumps(dict(probe_blocked=True,network_attempts=attempts)))\n"
+      ],
+      "cwd": "C:\\Users\\15591\\Desktop\\B题求解\\tmp\\share25_prune_minimal_runtime_v1\\src\\q4_model",
+      "exit_code": 0,
+      "stdout": "usage: q4_share25_prune_client.py [-h] --robot-id ROBOT_ID [--url URL]\n                                  --log LOG\n\n第四问25站＋保序删点候选；由用户先手动启动问题4演练。\n\noptions:\n  -h, --help           show this help message and exit\n  --robot-id ROBOT_ID\n  --url URL\n  --log LOG            新的 JSONL 日志路径，已有文件不会覆盖。\nNETWORK_GUARD {\"probe_blocked\": true, \"network_attempts\": []}\n",
+      "stderr": ""
+    }
+  ]
+}

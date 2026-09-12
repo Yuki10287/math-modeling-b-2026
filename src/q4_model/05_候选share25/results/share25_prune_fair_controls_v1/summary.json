@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "code_and_inputs_stable": true,
+  "batches": {
+    "holdout50000": {
+      "condition_pairs": 10,
+      "independent_layouts": 10,
+      "sources": 125,
+      "cleared": 125,
+      "means_s": {
+        "share25": 6304.7150361786435,
+        "share25_prune": 6245.283329482785,
+        "station22_prune": 5994.737190228052
+      },
+      "comparisons": {
+        "share25_to_share25_prune": {
+          "reduction_percent": 0.9426549234155481,
+          "mean_saved_s": 59.43170669585834,
+          "faster": 2,
+          "slower": 0,
+          "ties": 8,
+          "worst_case": "50001-uniform-share25",
+          "worst_added_s": 0.0,
+          "worst_added_percent": 0.0
+        },
+        "share25_to_station22_prune": {
+          "reduction_percent": 4.916603592261204,
+          "mean_saved_s": 309.9778459505915,
+          "faster": 9,
+          "slower": 1,
+          "ties": 0,
+          "worst_case": "50400-dir_heavy-share25",
+          "worst_added_s": 11.086818850377313,
+          "worst_added_percent": 0.1821203241403132
+        },
+        "share25_prune_to_station22_prune": {
+          "reduction_percent": 4.011765776453293,
+          "mean_saved_s": 250.54613925473313,
+          "faster": 9,
+          "slower": 1,
+          "ties": 0,
+          "worst_case": "50400-dir_heavy-share25",
+          "worst_added_s": 11.086818850377313,
+          "worst_added_percent": 0.1821203241403132
+        }
+      },
+      "percentiles_s": {
+        "share25": {
+          "90": 7259.858886655773,
+          "95": 7298.2353914822825
+        },
+        "share25_prune": {
+          "90": 6950.410358147008,
+          "95": 7143.5111272279
+        },
+        "station22_prune": {
+          "90": 6816.328708443429,
+          "95": 6949.624572031799
+        }
+      },
+      "mean_time_parts_s": {
+        "share25": {
+          "move": 4388.715036178644,
+          "measure": 1517.0,
+          "switch": 288.5,
+          "clear_success": 62.5,
+          "clear_fail": 48.0
+        },
+        "share25_prune": {
+          "move": 4345.783329482786,
+          "measure": 1517.0,
+          "switch": 288.5,
+          "clear_success": 62.5,
+          "clear_fail": 31.5
+        },
+        "station22_prune": {
+          "move": 4346.637190228052,
+          "measure": 1306.5,
+          "switch": 247.0,
+          "clear_success": 62.5,
+          "clear_fail": 32.1
+        }
+      },
+      "removed_actual": 55,
+      "removed_original_only": 0,
+      "additional_from_contraction": 55
+    },
+    "pressure53000": {
+      "condition_pairs": 10,
+      "independent_layouts": 5,
+      "sources": 124,
+      "cleared": 124,
+      "means_s": {
+        "share25": 6038.812737091014,
+        "share25_prune": 5969.199814549883,
+        "station22_prune": 5824.404134341632
+      },
+      "comparisons": {
+        "share25_to_share25_prune": {
+          "reduction_percent": 1.1527584240783229,
+          "mean_saved_s": 69.61292254113141,
+          "faster": 3,
+          "slower": 0,
+          "ties": 7,
+          "worst_case": "53000-uniform-constant-share25",
+          "worst_added_s": 0.0,
+          "worst_added_percent": 0.0
+        },
+        "share25_to_station22_prune": {
+          "reduction_percent": 3.550509215701662,
+          "mean_saved_s": 214.40860274938223,
+          "faster": 7,
+          "slower": 3,
+          "ties": 0,
+          "worst_case": "53300-omni_heavy-extreme-share25",
+          "worst_added_s": 1346.0462549027188,
+          "worst_added_percent": 35.51641361953638
+        },
+        "share25_prune_to_station22_prune": {
+          "reduction_percent": 2.425713407269637,
+          "mean_saved_s": 144.79568020825081,
+          "faster": 7,
+          "slower": 3,
+          "ties": 0,
+          "worst_case": "53300-omni_heavy-extreme-share25",
+          "worst_added_s": 1346.0462549027188,
+          "worst_added_percent": 35.51641361953638
+        }
+      },
+      "percentiles_s": {
+        "share25": {
+          "90": 7223.781495239975,
+          "95": 7399.409024803776
+        },
+        "share25_prune": {
+          "90": 7212.077370979996,
+          "95": 7335.0363413738905
+        },
+        "station22_prune": {
+          "90": 6551.215113437182,
+          "95": 6692.781595815702
+        }
+      },
+      "mean_time_parts_s": {
+        "share25": {
+          "move": 4192.412737091014,
+          "measure": 1441.5,
+          "switch": 272.4,
+          "clear_success": 62.0,
+          "clear_fail": 70.5
+        },
+        "share25_prune": {
+          "move": 4147.999814549883,
+          "measure": 1441.5,
+          "switch": 272.4,
+          "clear_success": 62.0,
+          "clear_fail": 45.3
+        },
+        "station22_prune": {
+          "move": 4198.004134341632,
+          "measure": 1286.5,
+          "switch": 241.0,
+          "clear_success": 62.0,
+          "clear_fail": 36.9
+        }
+      },
+      "removed_actual": 84,
+      "removed_original_only": 0,
+      "additional_from_contraction": 84
+    }
+  },
+  "new_solver_runs": 0,
+  "official_contacted": false
+}

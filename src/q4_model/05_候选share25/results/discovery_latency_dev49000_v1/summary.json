@@ -1,0 +1,739 @@
+{
+  "passed": true,
+  "source_snapshot_stable": true,
+  "rows": [
+    {
+      "seed": 49000,
+      "population": "uniform",
+      "field": "smooth",
+      "variant": "baseline_share25",
+      "runtime_s": 7.6353392000019085,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 272,
+        "polygons": 49,
+        "optical_plans": 9,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 5829.545629443167,
+        "counts": {
+          "measure": 256,
+          "switch": 244,
+          "clear_success": 13,
+          "clear_fail": 3
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 5829.545629443167,
+      "average_s": 448.42658688024363,
+      "distance_m": 21157.728147215832,
+      "counts": {
+        "measure": 256,
+        "switch": 244,
+        "clear_success": 13,
+        "clear_fail": 3
+      },
+      "time_parts_s": {
+        "move": 4231.545629443166,
+        "measure": 1280,
+        "switch": 244,
+        "clear_success": 65,
+        "clear_fail": 9
+      },
+      "route_diagnostics": {
+        "scored_states": 0,
+        "order_changed": 0,
+        "first_task_changed": 0,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 0
+      }
+    },
+    {
+      "seed": 49000,
+      "population": "uniform",
+      "field": "smooth",
+      "variant": "discovery_latency_25",
+      "runtime_s": 9.723256400000537,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 271,
+        "polygons": 44,
+        "optical_plans": 10,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 5883.483820952746,
+        "counts": {
+          "measure": 248,
+          "switch": 236,
+          "clear_success": 13,
+          "clear_fail": 10
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 5883.483820952746,
+      "average_s": 452.57567853482664,
+      "distance_m": 21562.419104763725,
+      "counts": {
+        "measure": 248,
+        "switch": 236,
+        "clear_success": 13,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 4312.483820952745,
+        "measure": 1240,
+        "switch": 236,
+        "clear_success": 65,
+        "clear_fail": 30
+      },
+      "route_diagnostics": {
+        "scored_states": 42,
+        "order_changed": 8,
+        "first_task_changed": 2,
+        "cloud_empty_fallbacks": 2,
+        "two_opt_evaluations": 115357
+      }
+    },
+    {
+      "seed": 49100,
+      "population": "boundary",
+      "field": "smooth",
+      "variant": "baseline_share25",
+      "runtime_s": 4.601416400022572,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 482,
+        "polygons": 37,
+        "optical_plans": 8,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 7638.80812097028,
+        "counts": {
+          "measure": 409,
+          "switch": 392,
+          "clear_success": 13,
+          "clear_fail": 60
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 7638.80812097028,
+      "average_s": 587.6006246900215,
+      "distance_m": 24784.04060485137,
+      "counts": {
+        "measure": 409,
+        "switch": 392,
+        "clear_success": 13,
+        "clear_fail": 60
+      },
+      "time_parts_s": {
+        "move": 4956.808120970274,
+        "measure": 2045,
+        "switch": 392,
+        "clear_success": 65,
+        "clear_fail": 180
+      },
+      "route_diagnostics": {
+        "scored_states": 0,
+        "order_changed": 0,
+        "first_task_changed": 0,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 0
+      }
+    },
+    {
+      "seed": 49100,
+      "population": "boundary",
+      "field": "smooth",
+      "variant": "discovery_latency_25",
+      "runtime_s": 4.896420600009151,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 409,
+        "polygons": 35,
+        "optical_plans": 8,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 7120.731037568168,
+        "counts": {
+          "measure": 387,
+          "switch": 366,
+          "clear_success": 13,
+          "clear_fail": 9
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 7120.731037568168,
+      "average_s": 547.7485413513975,
+      "distance_m": 23638.655187840843,
+      "counts": {
+        "measure": 387,
+        "switch": 366,
+        "clear_success": 13,
+        "clear_fail": 9
+      },
+      "time_parts_s": {
+        "move": 4727.731037568168,
+        "measure": 1935,
+        "switch": 366,
+        "clear_success": 65,
+        "clear_fail": 27
+      },
+      "route_diagnostics": {
+        "scored_states": 45,
+        "order_changed": 13,
+        "first_task_changed": 2,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 51555
+      }
+    },
+    {
+      "seed": 49200,
+      "population": "cluster",
+      "field": "smooth",
+      "variant": "baseline_share25",
+      "runtime_s": 7.201985599996988,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 275,
+        "polygons": 35,
+        "optical_plans": 5,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5562.026186273014,
+        "counts": {
+          "measure": 262,
+          "switch": 238,
+          "clear_success": 11,
+          "clear_fail": 2
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5562.026186273014,
+      "average_s": 505.6387442066376,
+      "distance_m": 19765.130931365078,
+      "counts": {
+        "measure": 262,
+        "switch": 238,
+        "clear_success": 11,
+        "clear_fail": 2
+      },
+      "time_parts_s": {
+        "move": 3953.026186273016,
+        "measure": 1310,
+        "switch": 238,
+        "clear_success": 55,
+        "clear_fail": 6
+      },
+      "route_diagnostics": {
+        "scored_states": 0,
+        "order_changed": 0,
+        "first_task_changed": 0,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 0
+      }
+    },
+    {
+      "seed": 49200,
+      "population": "cluster",
+      "field": "smooth",
+      "variant": "discovery_latency_25",
+      "runtime_s": 7.6773239000176545,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 277,
+        "polygons": 37,
+        "optical_plans": 4,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5564.263940381422,
+        "counts": {
+          "measure": 264,
+          "switch": 240,
+          "clear_success": 11,
+          "clear_fail": 2
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5564.263940381422,
+      "average_s": 505.8421763983111,
+      "distance_m": 19716.31970190711,
+      "counts": {
+        "measure": 264,
+        "switch": 240,
+        "clear_success": 11,
+        "clear_fail": 2
+      },
+      "time_parts_s": {
+        "move": 3943.263940381422,
+        "measure": 1320,
+        "switch": 240,
+        "clear_success": 55,
+        "clear_fail": 6
+      },
+      "route_diagnostics": {
+        "scored_states": 40,
+        "order_changed": 11,
+        "first_task_changed": 2,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 126214
+      }
+    },
+    {
+      "seed": 49300,
+      "population": "omni_heavy",
+      "field": "smooth",
+      "variant": "baseline_share25",
+      "runtime_s": 7.167117300006794,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 335,
+        "polygons": 37,
+        "optical_plans": 8,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 6085.13797486395,
+        "counts": {
+          "measure": 320,
+          "switch": 308,
+          "clear_success": 10,
+          "clear_fail": 5
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 6085.13797486395,
+      "average_s": 608.513797486395,
+      "distance_m": 20560.68987431975,
+      "counts": {
+        "measure": 320,
+        "switch": 308,
+        "clear_success": 10,
+        "clear_fail": 5
+      },
+      "time_parts_s": {
+        "move": 4112.13797486395,
+        "measure": 1600,
+        "switch": 308,
+        "clear_success": 50,
+        "clear_fail": 15
+      },
+      "route_diagnostics": {
+        "scored_states": 0,
+        "order_changed": 0,
+        "first_task_changed": 0,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 0
+      }
+    },
+    {
+      "seed": 49300,
+      "population": "omni_heavy",
+      "field": "smooth",
+      "variant": "discovery_latency_25",
+      "runtime_s": 7.82993079998414,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 324,
+        "polygons": 33,
+        "optical_plans": 10,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 5981.483149533904,
+        "counts": {
+          "measure": 310,
+          "switch": 297,
+          "clear_success": 10,
+          "clear_fail": 4
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 5981.483149533904,
+      "average_s": 598.1483149533904,
+      "distance_m": 20362.415747669518,
+      "counts": {
+        "measure": 310,
+        "switch": 297,
+        "clear_success": 10,
+        "clear_fail": 4
+      },
+      "time_parts_s": {
+        "move": 4072.4831495339035,
+        "measure": 1550,
+        "switch": 297,
+        "clear_success": 50,
+        "clear_fail": 12
+      },
+      "route_diagnostics": {
+        "scored_states": 36,
+        "order_changed": 5,
+        "first_task_changed": 2,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 82770
+      }
+    },
+    {
+      "seed": 49400,
+      "population": "dir_heavy",
+      "field": "smooth",
+      "variant": "baseline_share25",
+      "runtime_s": 6.786551299999701,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 325,
+        "polygons": 48,
+        "optical_plans": 9,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 6784.507093662964,
+        "counts": {
+          "measure": 256,
+          "switch": 246,
+          "clear_success": 15,
+          "clear_fail": 54
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 6784.507093662964,
+      "average_s": 452.30047291086424,
+      "distance_m": 25107.535468314858,
+      "counts": {
+        "measure": 256,
+        "switch": 246,
+        "clear_success": 15,
+        "clear_fail": 54
+      },
+      "time_parts_s": {
+        "move": 5021.507093662972,
+        "measure": 1280,
+        "switch": 246,
+        "clear_success": 75,
+        "clear_fail": 162
+      },
+      "route_diagnostics": {
+        "scored_states": 0,
+        "order_changed": 0,
+        "first_task_changed": 0,
+        "cloud_empty_fallbacks": 0,
+        "two_opt_evaluations": 0
+      }
+    },
+    {
+      "seed": 49400,
+      "population": "dir_heavy",
+      "field": "smooth",
+      "variant": "discovery_latency_25",
+      "runtime_s": 10.043518899998162,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 249,
+        "polygons": 48,
+        "optical_plans": 9,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 5978.062202611711,
+        "counts": {
+          "measure": 230,
+          "switch": 219,
+          "clear_success": 15,
+          "clear_fail": 4
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 5978.062202611711,
+      "average_s": 398.537480174114,
+      "distance_m": 22610.311013058556,
+      "counts": {
+        "measure": 230,
+        "switch": 219,
+        "clear_success": 15,
+        "clear_fail": 4
+      },
+      "time_parts_s": {
+        "move": 4522.062202611711,
+        "measure": 1150,
+        "switch": 219,
+        "clear_success": 75,
+        "clear_fail": 12
+      },
+      "route_diagnostics": {
+        "scored_states": 42,
+        "order_changed": 2,
+        "first_task_changed": 1,
+        "cloud_empty_fallbacks": 2,
+        "two_opt_evaluations": 98373
+      }
+    }
+  ],
+  "local_only": true,
+  "official_contacted": false,
+  "source_hashes": {
+    "src\\q4_model\\q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "src\\q4_model\\q4_share25_client.py": "4c988ffa83489705decdfbe9239d2e489e5d6910a766adc32fe9c54ce8a4169c",
+    "src\\q4_model\\solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "src\\q4_model\\joint_solver.py": "8ba8f79b19e1f0284ec810dcf96909df9644d7a2d92f38b1b32fbaff234cfc85",
+    "src\\q4_model\\task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+    "src\\q4_model\\shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "src\\q4_model\\directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "src\\q4_model\\polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "src\\q4_model\\localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "src\\q4_model\\route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "src\\q4_model\\guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "src\\q3_model_v2\\geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src\\q3_model_v2\\00_主方案_lean\\code\\environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src\\q4_model\\00_公共几何与定位\\code\\validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+    "src\\q4_model\\01_初版31站\\code\\benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+    "src\\q4_model\\04_22站覆盖实验\\code\\benchmark_cells.py": "0e47247b60e8458b591e9ba591aa29d8d17d59b84c1725857e75c2774f8c7d12",
+    "src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+    "src\\q4_model\\05_候选share25\\code\\station22_geometry_v1.py": "22368a29b8bf8d60b70fa94abc3c325626357e18614d9d33ef41f0d55d19afca",
+    "src\\q4_model\\05_候选share25\\code\\share22_geometry_experiment_v1.py": "8d1581e44fd88aff33f6dd759089671a8ac221f6858d3e73c52178bd532247cd",
+    "src\\q4_model\\05_候选share25\\code\\validate_station22_v1.py": "66c9d20674a384e56bba8208a8d649807fb0542e0ebf21ed51c42188448ad956",
+    "src\\q4_model\\05_候选share25\\code\\audit_station_certificates_v1.py": "f5f5d4f49dd3c2e7fd57c3b88519070eedda24081c1a9173600b8914d6f62e8d",
+    "src\\q4_model\\05_候选share25\\code\\refined_cover_audit.py": "592eadb386b6500ce07496079bf16df3d1bb3a1c7205da133689a1a204fcc06a",
+    "src\\q4_model\\05_候选share25\\code\\benchmark_station22_v1.py": "bfdec8b3ac3898b6d1b476ac432649c4957c039e066b6d39480cf1b5e528fa76",
+    "src\\q4_model\\05_候选share25\\code\\benchmark_detection_route_v1.py": "6652f3c92e6bd562837a8195ddfb59b438013fcde11bab0ec7a05d5078caa3c3",
+    "src\\q4_model\\05_候选share25\\code\\detection_latency_route_v1.py": "e019126084599287a3693fa013a472e99e5c10562a7e9c3d3ac092bd857ee417"
+  },
+  "mean_baseline_s": 6380.005001042675,
+  "mean_candidate_s": 6105.60483020959,
+  "total_reduction_fraction": 0.04300939745160702,
+  "faster": 3
+}

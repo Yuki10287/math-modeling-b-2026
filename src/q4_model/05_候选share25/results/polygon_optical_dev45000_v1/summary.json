@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "source_snapshot_stable": true,
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "phase": "development",
+  "pairs": [
+    {
+      "seed": 45000,
+      "population": "uniform",
+      "baseline_s": 6273.573831241248,
+      "candidate_s": 6272.101544440905,
+      "saved_s": 1.472286800342772
+    },
+    {
+      "seed": 45100,
+      "population": "boundary",
+      "baseline_s": 7045.038744366715,
+      "candidate_s": 7038.300066741806,
+      "saved_s": 6.738677624908632
+    },
+    {
+      "seed": 45200,
+      "population": "cluster",
+      "baseline_s": 5514.274590252901,
+      "candidate_s": 5513.201513416047,
+      "saved_s": 1.073076836853943
+    },
+    {
+      "seed": 45300,
+      "population": "omni_heavy",
+      "baseline_s": 6081.305490932354,
+      "candidate_s": 6071.807787461779,
+      "saved_s": 9.497703470574379
+    },
+    {
+      "seed": 45400,
+      "population": "dir_heavy",
+      "baseline_s": 6419.773278785007,
+      "candidate_s": 7232.228826671684,
+      "saved_s": -812.4555478866769
+    }
+  ],
+  "independent_layouts": 5,
+  "mean_baseline_s": 6266.793187115645,
+  "mean_candidate_s": 6425.527947746445,
+  "saved_pct": -2.5329503605951724,
+  "faster": 4,
+  "slower": 1,
+  "sources_per_variant": 63,
+  "polygon_optical_plans": 42,
+  "skipped_grid_cells": 30
+}

@@ -1,0 +1,9331 @@
+{
+  "summary": {
+    "seed": 52200,
+    "population": "cluster",
+    "variant": "discovery_latency_25",
+    "field": "smooth",
+    "runtime_s": 5.049286199995549,
+    "error": null,
+    "audit": {
+      "passed": true,
+      "events": 160,
+      "polygons": 39,
+      "optical_plans": 9,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 2760.5828465651457,
+      "counts": {
+        "measure": 99,
+        "switch": 88,
+        "clear_success": 16,
+        "clear_fail": 45
+      },
+      "exact_certificate": {
+        "passed": true,
+        "basis": "count_upper_bound",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 0
+      },
+      "prior_and_route_proxy": {
+        "passed": true,
+        "posterior_states": 27,
+        "cloud_empty_fallbacks": 0
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 2760.5828465651457,
+    "average_s": 172.5364279103216,
+    "distance_m": 9812.9142328257,
+    "counts": {
+      "measure": 99,
+      "switch": 88,
+      "clear_success": 16,
+      "clear_fail": 45
+    },
+    "time_parts_s": {
+      "move": 1962.58284656514,
+      "measure": 495,
+      "switch": 88,
+      "clear_success": 80,
+      "clear_fail": 135
+    },
+    "route_diagnostics": {
+      "scored_states": 27,
+      "order_changed": 2,
+      "first_task_changed": 0,
+      "cloud_empty_fallbacks": 0,
+      "two_opt_evaluations": 97181
+    }
+  },
+  "sources": [
+    {
+      "channel": 3,
+      "position": [
+        1001.4184583768163,
+        183.68405424659764
+      ],
+      "radius": 1104.2815715182094,
+      "orientation": null
+    },
+    {
+      "channel": 12,
+      "position": [
+        939.5793362729236,
+        311.5040629942328
+      ],
+      "radius": 1227.7257994678823,
+      "orientation": 5.3130274557433985
+    },
+    {
+      "channel": 14,
+      "position": [
+        1147.4205197287542,
+        74.62084183652702
+      ],
+      "radius": 1185.6374369591376,
+      "orientation": null
+    },
+    {
+      "channel": 6,
+      "position": [
+        843.5379400434185,
+        186.58766796797894
+      ],
+      "radius": 1004.9373414396304,
+      "orientation": 3.409236448878781
+    },
+    {
+      "channel": 17,
+      "position": [
+        857.520588620113,
+        258.34286031882374
+      ],
+      "radius": 1261.8627082369705,
+      "orientation": null
+    },
+    {
+      "channel": 2,
+      "position": [
+        851.9445125002727,
+        272.38330095580096
+      ],
+      "radius": 1435.6560744547282,
+      "orientation": 6.166810695562145
+    },
+    {
+      "channel": 18,
+      "position": [
+        867.8368763828906,
+        195.99824542582277
+      ],
+      "radius": 1234.2933772946944,
+      "orientation": null
+    },
+    {
+      "channel": 8,
+      "position": [
+        867.0184788367529,
+        269.36679912659656
+      ],
+      "radius": 1241.9202261342336,
+      "orientation": 3.4353073137150396
+    },
+    {
+      "channel": 4,
+      "position": [
+        1153.1498948848734,
+        58.994964900887744
+      ],
+      "radius": 1424.073907841207,
+      "orientation": null
+    },
+    {
+      "channel": 7,
+      "position": [
+        1018.7691876381645,
+        460.2998981614999
+      ],
+      "radius": 1403.491485323754,
+      "orientation": 1.511388730428731
+    },
+    {
+      "channel": 20,
+      "position": [
+        1017.321581950925,
+        330.00319054162026
+      ],
+      "radius": 1044.7262055620315,
+      "orientation": null
+    },
+    {
+      "channel": 10,
+      "position": [
+        817.6627658584501,
+        55.34321964611559
+      ],
+      "radius": 1450.09668740902,
+      "orientation": 1.6604544665032779
+    },
+    {
+      "channel": 11,
+      "position": [
+        1140.4795367696263,
+        390.1655901463373
+      ],
+      "radius": 1101.3304212587745,
+      "orientation": null
+    },
+    {
+      "channel": 16,
+      "position": [
+        1045.570334510206,
+        125.21902531732361
+      ],
+      "radius": 1197.9823879500366,
+      "orientation": 1.609123283032947
+    },
+    {
+      "channel": 15,
+      "position": [
+        981.5638890498942,
+        217.34528228040645
+      ],
+      "radius": 1352.3402418144724,
+      "orientation": null
+    },
+    {
+      "channel": 19,
+      "position": [
+        929.9531342942072,
+        63.84461083045934
+      ],
+      "radius": 1449.7062181314905,
+      "orientation": 5.072951246170449
+    }
+  ],
+  "result": {
+    "complete": true,
+    "cleared": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "certificate": {
+      "basis": "count_upper_bound",
+      "cleared": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "absent": [],
+      "channels": {},
+      "spacing": 968.6184634592707,
+      "stations": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          678.8225099390856,
+          678.8225099390856
+        ],
+        [
+          248.46628329842014,
+          927.2887932375055
+        ],
+        [
+          -248.4662832984198,
+          927.2887932375056
+        ],
+        [
+          -678.8225099390855,
+          678.8225099390856
+        ],
+        [
+          -927.2887932375056,
+          248.46628329841974
+        ],
+        [
+          -927.2887932375056,
+          -248.46628329841997
+        ],
+        [
+          -678.8225099390858,
+          -678.8225099390855
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          678.8225099390854,
+          -678.8225099390858
+        ],
+        [
+          927.2887932375054,
+          -248.4662832984207
+        ],
+        [
+          1863.4972282657675,
+          0.0
+        ],
+        [
+          1613.8359395600437,
+          931.7486141328836
+        ],
+        [
+          931.748614132884,
+          1613.8359395600435
+        ],
+        [
+          1.1410629579078184e-13,
+          1863.4972282657675
+        ],
+        [
+          -931.7486141328833,
+          1613.8359395600437
+        ],
+        [
+          -1613.8359395600437,
+          931.7486141328836
+        ],
+        [
+          -1863.4972282657675,
+          2.2821259158156367e-13
+        ],
+        [
+          -1613.835939560044,
+          -931.7486141328832
+        ],
+        [
+          -931.7486141328845,
+          -1613.8359395600432
+        ],
+        [
+          -3.423188873723455e-13,
+          -1863.4972282657675
+        ],
+        [
+          931.748614132884,
+          -1613.8359395600435
+        ],
+        [
+          1613.835939560043,
+          -931.7486141328845
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          13,
+          14
+        ],
+        [
+          1,
+          14,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          2,
+          14,
+          15
+        ],
+        [
+          2,
+          15,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          3,
+          15,
+          16
+        ],
+        [
+          3,
+          16,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          4,
+          16,
+          17
+        ],
+        [
+          4,
+          17,
+          5
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          5,
+          17,
+          18
+        ],
+        [
+          5,
+          18,
+          6
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          6,
+          18,
+          19
+        ],
+        [
+          6,
+          19,
+          7
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          7,
+          19,
+          20
+        ],
+        [
+          7,
+          20,
+          8
+        ],
+        [
+          0,
+          8,
+          9
+        ],
+        [
+          8,
+          20,
+          21
+        ],
+        [
+          8,
+          21,
+          9
+        ],
+        [
+          0,
+          9,
+          10
+        ],
+        [
+          9,
+          21,
+          22
+        ],
+        [
+          9,
+          22,
+          10
+        ],
+        [
+          0,
+          10,
+          11
+        ],
+        [
+          10,
+          22,
+          23
+        ],
+        [
+          10,
+          23,
+          11
+        ],
+        [
+          0,
+          11,
+          12
+        ],
+        [
+          11,
+          23,
+          24
+        ],
+        [
+          11,
+          24,
+          12
+        ],
+        [
+          0,
+          12,
+          1
+        ],
+        [
+          12,
+          24,
+          13
+        ],
+        [
+          12,
+          13,
+          1
+        ]
+      ]
+    }
+  },
+  "events": [
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 1,
+      "time_s": 5.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 2,
+      "time_s": 11.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 3,
+      "time_s": 17.0,
+      "measure_result": "direction",
+      "svd_deg": 10.0
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 4,
+      "time_s": 23.0,
+      "measure_result": "direction",
+      "svd_deg": 2.45
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 5,
+      "time_s": 29.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 6,
+      "time_s": 35.0,
+      "measure_result": "direction",
+      "svd_deg": 12.67
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 7,
+      "time_s": 41.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 8,
+      "time_s": 47.0,
+      "measure_result": "direction",
+      "svd_deg": 17.67
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 9,
+      "time_s": 53.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 10,
+      "time_s": 59.0,
+      "measure_result": "direction",
+      "svd_deg": 3.52
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 11,
+      "time_s": 65.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 12,
+      "time_s": 71.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 13,
+      "time_s": 77.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 14,
+      "time_s": 83.0,
+      "measure_result": "direction",
+      "svd_deg": 4.17
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 15,
+      "time_s": 89.0,
+      "measure_result": "direction",
+      "svd_deg": 12.93
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 16,
+      "time_s": 95.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 17,
+      "time_s": 101.0,
+      "measure_result": "direction",
+      "svd_deg": 16.47
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 18,
+      "time_s": 107.0,
+      "measure_result": "direction",
+      "svd_deg": 12.23
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 19,
+      "time_s": 113.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "channel": 20,
+      "time_s": 119.0,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        489.77688646308485,
+        -79.26128375415536
+      ],
+      "channel": 4,
+      "time_s": 224.22978375786784,
+      "measure_result": "direction",
+      "svd_deg": 12.74
+    },
+    {
+      "action": "measure",
+      "position": [
+        489.77688646308485,
+        -79.26128375415536
+      ],
+      "channel": 14,
+      "time_s": 230.22978375786784,
+      "measure_result": "direction",
+      "svd_deg": 13.28
+    },
+    {
+      "action": "measure",
+      "position": [
+        489.77688646308485,
+        -79.26128375415536
+      ],
+      "channel": 10,
+      "time_s": 236.22978375786784,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        745.5371707148578,
+        91.19674269157915
+      ],
+      "channel": 10,
+      "time_s": 302.7014883967738,
+      "measure_result": "direction",
+      "svd_deg": 333.47
+    },
+    {
+      "action": "measure",
+      "position": [
+        745.5371707148578,
+        91.19674269157915
+      ],
+      "channel": 6,
+      "time_s": 308.7014883967738,
+      "measure_result": "direction",
+      "svd_deg": 43.68
+    },
+    {
+      "action": "measure",
+      "position": [
+        745.5371707148578,
+        91.19674269157915
+      ],
+      "channel": 3,
+      "time_s": 314.7014883967738,
+      "measure_result": "direction",
+      "svd_deg": 19.83
+    },
+    {
+      "action": "measure",
+      "position": [
+        753.9789079799327,
+        66.48582865347007
+      ],
+      "channel": 18,
+      "time_s": 325.9241015383012,
+      "measure_result": "direction",
+      "svd_deg": 48.81
+    },
+    {
+      "action": "measure",
+      "position": [
+        753.9789079799327,
+        66.48582865347007
+      ],
+      "channel": 15,
+      "time_s": 331.9241015383012,
+      "measure_result": "direction",
+      "svd_deg": 32.74
+    },
+    {
+      "action": "measure",
+      "position": [
+        753.9789079799327,
+        66.48582865347007
+      ],
+      "channel": 8,
+      "time_s": 337.9241015383012,
+      "measure_result": "direction",
+      "svd_deg": 60.11
+    },
+    {
+      "action": "clear",
+      "position": [
+        808.5304186019725,
+        58.14225802772229
+      ],
+      "channel": 10,
+      "time_s": 353.9612795869391,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        808.5304186019725,
+        58.14225802772229
+      ],
+      "channel": 17,
+      "time_s": 359.9612795869391,
+      "measure_result": "direction",
+      "svd_deg": 76.24
+    },
+    {
+      "action": "measure",
+      "position": [
+        808.5304186019725,
+        58.14225802772229
+      ],
+      "channel": 14,
+      "time_s": 365.9612795869391,
+      "measure_result": "direction",
+      "svd_deg": 1.86
+    },
+    {
+      "action": "clear",
+      "position": [
+        845.0507152341347,
+        173.76410511441276
+      ],
+      "channel": 18,
+      "time_s": 393.2117588315554,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        859.5016603046881,
+        187.42806581720077
+      ],
+      "channel": 18,
+      "time_s": 402.18936431988374,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        859.5016603046881,
+        187.42806581720077
+      ],
+      "channel": 4,
+      "time_s": 408.18936431988374,
+      "measure_result": "direction",
+      "svd_deg": 336.43
+    },
+    {
+      "action": "measure",
+      "position": [
+        859.5016603046881,
+        187.42806581720077
+      ],
+      "channel": 3,
+      "time_s": 414.18936431988374,
+      "measure_result": "direction",
+      "svd_deg": 358.4
+    },
+    {
+      "action": "clear",
+      "position": [
+        869.0938851054489,
+        207.20789399469794
+      ],
+      "channel": 6,
+      "time_s": 421.585964730927,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        851.5047222418779,
+        192.78380357484608
+      ],
+      "channel": 6,
+      "time_s": 431.1353956170106,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        851.5047222418779,
+        192.78380357484608
+      ],
+      "channel": 14,
+      "time_s": 437.1353956170106,
+      "measure_result": "direction",
+      "svd_deg": 337.39
+    },
+    {
+      "action": "measure",
+      "position": [
+        851.5047222418779,
+        192.78380357484608
+      ],
+      "channel": 15,
+      "time_s": 443.1353956170106,
+      "measure_result": "direction",
+      "svd_deg": 9.77
+    },
+    {
+      "action": "clear",
+      "position": [
+        852.1371196039659,
+        244.35823842575272
+      ],
+      "channel": 17,
+      "time_s": 458.4510579934438,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        864.6996263278972,
+        265.16427804963234
+      ],
+      "channel": 8,
+      "time_s": 468.31195445405376,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 1,
+      "time_s": 487.2676124352608,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 2,
+      "time_s": 493.2676124352608,
+      "measure_result": "direction",
+      "svd_deg": 162.12
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 5,
+      "time_s": 499.2676124352608,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 7,
+      "time_s": 505.2676124352608,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 9,
+      "time_s": 511.2676124352608,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 11,
+      "time_s": 517.2676124352608,
+      "measure_result": "direction",
+      "svd_deg": 33.91
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 12,
+      "time_s": 523.2676124352608,
+      "measure_result": "direction",
+      "svd_deg": 79.12
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 13,
+      "time_s": 529.2676124352608,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 16,
+      "time_s": 535.2676124352608,
+      "measure_result": "direction",
+      "svd_deg": 313.43
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 19,
+      "time_s": 541.2676124352608,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "channel": 20,
+      "time_s": 547.2676124352608,
+      "measure_result": "direction",
+      "svd_deg": 41.99
+    },
+    {
+      "action": "clear",
+      "position": [
+        986.1237620222274,
+        217.63358448522487
+      ],
+      "channel": 15,
+      "time_s": 565.55250440773,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1002.8800637335851,
+        184.39749670011997
+      ],
+      "channel": 3,
+      "time_s": 577.9967268071516,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        1002.8800637335851,
+        184.39749670011997
+      ],
+      "channel": 2,
+      "time_s": 583.9967268071516,
+      "measure_result": "direction",
+      "svd_deg": 149.84
+    },
+    {
+      "action": "measure",
+      "position": [
+        1002.8800637335851,
+        184.39749670011997
+      ],
+      "channel": 12,
+      "time_s": 589.9967268071516,
+      "measure_result": "direction",
+      "svd_deg": 116.3
+    },
+    {
+      "action": "clear",
+      "position": [
+        1134.0587088146924,
+        71.28095757628209
+      ],
+      "channel": 14,
+      "time_s": 629.6395837035855,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        1134.0587088146924,
+        71.28095757628209
+      ],
+      "channel": 16,
+      "time_s": 635.6395837035855,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        1134.0587088146924,
+        71.28095757628209
+      ],
+      "channel": 11,
+      "time_s": 641.6395837035855,
+      "measure_result": "direction",
+      "svd_deg": 88.45
+    },
+    {
+      "action": "clear",
+      "position": [
+        1131.8734564957497,
+        65.01998384458327
+      ],
+      "channel": 4,
+      "time_s": 645.9658584830556,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1153.2982153466635,
+        61.584358825804685
+      ],
+      "channel": 4,
+      "time_s": 655.3055534543156,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        1153.2982153466635,
+        61.584358825804685
+      ],
+      "channel": 20,
+      "time_s": 661.3055534543156,
+      "measure_result": "direction",
+      "svd_deg": 116.24
+    },
+    {
+      "action": "clear",
+      "position": [
+        1143.2538797695984,
+        383.93108054782226
+      ],
+      "channel": 11,
+      "time_s": 730.8061883913816,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1033.4206262275727,
+        337.7210068673429
+      ],
+      "channel": 20,
+      "time_s": 759.637860169234,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        1033.4206262275727,
+        337.7210068673429
+      ],
+      "channel": 16,
+      "time_s": 765.637860169234,
+      "measure_result": "direction",
+      "svd_deg": 273.35
+    },
+    {
+      "action": "clear",
+      "position": [
+        956.6498460738677,
+        317.3035408394949
+      ],
+      "channel": 12,
+      "time_s": 786.5257493989673,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        856.1494536246004,
+        270.73951805162096
+      ],
+      "channel": 2,
+      "time_s": 813.6784351058033,
+      "clear_result": "success"
+    },
+    {
+      "action": "clear",
+      "position": [
+        1037.8204793309396,
+        129.14962432412278
+      ],
+      "channel": 16,
+      "time_s": 864.7445005279587,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "channel": 1,
+      "time_s": 949.4365655206261,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "channel": 5,
+      "time_s": 955.4365655206261,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "channel": 7,
+      "time_s": 961.4365655206261,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "channel": 9,
+      "time_s": 967.4365655206261,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "channel": 13,
+      "time_s": 973.4365655206261,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "channel": 19,
+      "time_s": 979.4365655206261,
+      "measure_result": "direction",
+      "svd_deg": 89.15
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "channel": 1,
+      "time_s": 1084.823078839994,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "channel": 5,
+      "time_s": 1090.823078839994,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "channel": 7,
+      "time_s": 1096.823078839994,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "channel": 9,
+      "time_s": 1102.823078839994,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "channel": 13,
+      "time_s": 1108.823078839994,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 13,
+      "time_s": 1213.209592159362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 1,
+      "time_s": 1219.209592159362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 5,
+      "time_s": 1225.209592159362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 7,
+      "time_s": 1231.209592159362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "channel": 9,
+      "time_s": 1237.209592159362,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 9,
+      "time_s": 1341.5961054787301,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 1,
+      "time_s": 1347.5961054787301,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 5,
+      "time_s": 1353.5961054787301,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 7,
+      "time_s": 1359.5961054787301,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "channel": 13,
+      "time_s": 1365.5961054787301,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 13,
+      "time_s": 1469.982618798098,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 1,
+      "time_s": 1475.982618798098,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 5,
+      "time_s": 1481.982618798098,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 7,
+      "time_s": 1487.982618798098,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "channel": 9,
+      "time_s": 1493.982618798098,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 9,
+      "time_s": 1598.3691321174658,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 1,
+      "time_s": 1604.3691321174658,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 5,
+      "time_s": 1610.3691321174658,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 7,
+      "time_s": 1616.3691321174658,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "channel": 13,
+      "time_s": 1622.3691321174658,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 13,
+      "time_s": 1726.7556454368337,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 1,
+      "time_s": 1732.7556454368337,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 5,
+      "time_s": 1738.7556454368337,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 7,
+      "time_s": 1744.7556454368337,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "channel": 9,
+      "time_s": 1750.7556454368337,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 9,
+      "time_s": 1855.1421587562018,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 1,
+      "time_s": 1861.1421587562018,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 5,
+      "time_s": 1867.1421587562018,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 7,
+      "time_s": 1873.1421587562018,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "channel": 13,
+      "time_s": 1879.1421587562018,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 13,
+      "time_s": 1983.5286720755698,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 1,
+      "time_s": 1989.5286720755698,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 5,
+      "time_s": 1995.5286720755698,
+      "measure_result": "no_signal"
+    },
+    {
+      "action": "measure",
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "channel": 7,
+      "time_s": 2001.5286720755698,
+      "measure_result": "direction",
+      "svd_deg": 339.72
+    },
+    {
+      "action": "measure",
+      "position": [
+        489.4225461747178,
+        755.6248814848948
+      ],
+      "channel": 7,
+      "time_s": 2158.0474396602417,
+      "measure_result": "direction",
+      "svd_deg": 330.71
+    },
+    {
+      "action": "clear",
+      "position": [
+        962.3663935331888,
+        1237.6793034012771
+      ],
+      "channel": 19,
+      "time_s": 2296.1107357022634,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        961.6844873634964,
+        1209.9015256234993
+      ],
+      "channel": 19,
+      "time_s": 2304.6679649913817,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        961.0025811938041,
+        1182.1237478457217
+      ],
+      "channel": 19,
+      "time_s": 2313.2251942805,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        960.3206750241118,
+        1154.3459700679439
+      ],
+      "channel": 19,
+      "time_s": 2321.7824235696185,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        959.6387688544194,
+        1126.568192290166
+      ],
+      "channel": 19,
+      "time_s": 2330.339652858737,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        958.9568626847271,
+        1098.7904145123882
+      ],
+      "channel": 19,
+      "time_s": 2338.896882147855,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        958.2749565150348,
+        1071.0126367346106
+      ],
+      "channel": 19,
+      "time_s": 2347.4541114369736,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        957.5930503453424,
+        1043.2348589568328
+      ],
+      "channel": 19,
+      "time_s": 2356.011340726092,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        956.9111441756501,
+        1015.457081179055
+      ],
+      "channel": 19,
+      "time_s": 2364.5685700152103,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        956.2292380059577,
+        987.6793034012773
+      ],
+      "channel": 19,
+      "time_s": 2373.1257993043287,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        955.5473318362654,
+        959.9015256234994
+      ],
+      "channel": 19,
+      "time_s": 2381.683028593447,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        954.8654256665731,
+        932.1237478457216
+      ],
+      "channel": 19,
+      "time_s": 2390.2402578825654,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        954.1835194968806,
+        904.3459700679439
+      ],
+      "channel": 19,
+      "time_s": 2398.7974871716838,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        953.5016133271884,
+        876.568192290166
+      ],
+      "channel": 19,
+      "time_s": 2407.354716460802,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        952.819707157496,
+        848.7904145123883
+      ],
+      "channel": 19,
+      "time_s": 2415.9119457499205,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        952.1378009878036,
+        821.0126367346105
+      ],
+      "channel": 19,
+      "time_s": 2424.469175039039,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        951.4558948181113,
+        793.2348589568328
+      ],
+      "channel": 19,
+      "time_s": 2433.0264043281572,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        950.7739886484189,
+        765.457081179055
+      ],
+      "channel": 19,
+      "time_s": 2441.5836336172756,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        950.0920824787266,
+        737.6793034012771
+      ],
+      "channel": 19,
+      "time_s": 2450.140862906394,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        949.4101763090343,
+        709.9015256234994
+      ],
+      "channel": 19,
+      "time_s": 2458.6980921955123,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        948.7282701393419,
+        682.1237478457216
+      ],
+      "channel": 19,
+      "time_s": 2467.2553214846307,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        948.0463639696496,
+        654.3459700679439
+      ],
+      "channel": 19,
+      "time_s": 2475.812550773749,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        947.3644577999573,
+        626.5681922901662
+      ],
+      "channel": 19,
+      "time_s": 2484.3697800628674,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        946.6825516302649,
+        598.7904145123882
+      ],
+      "channel": 19,
+      "time_s": 2492.927009351986,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        946.0006454605726,
+        571.0126367346106
+      ],
+      "channel": 19,
+      "time_s": 2501.484238641104,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        945.3187392908803,
+        543.2348589568327
+      ],
+      "channel": 19,
+      "time_s": 2510.0414679302226,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        944.6368331211879,
+        515.457081179055
+      ],
+      "channel": 19,
+      "time_s": 2518.598697219341,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        943.9549269514956,
+        487.67930340127725
+      ],
+      "channel": 19,
+      "time_s": 2527.1559265084593,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        943.2730207818032,
+        459.9015256234993
+      ],
+      "channel": 19,
+      "time_s": 2535.7131557975777,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        942.5911146121109,
+        432.12374784572165
+      ],
+      "channel": 19,
+      "time_s": 2544.270385086696,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        941.9092084424186,
+        404.3459700679439
+      ],
+      "channel": 19,
+      "time_s": 2552.8276143758144,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        941.2273022727262,
+        376.568192290166
+      ],
+      "channel": 19,
+      "time_s": 2561.3848436649328,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        940.5453961030339,
+        348.79041451238834
+      ],
+      "channel": 19,
+      "time_s": 2569.942072954051,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        939.8634899333416,
+        321.0126367346104
+      ],
+      "channel": 19,
+      "time_s": 2578.4993022431695,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        939.1815837636492,
+        293.2348589568328
+      ],
+      "channel": 19,
+      "time_s": 2587.056531532288,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        938.4996775939569,
+        265.45708117905497
+      ],
+      "channel": 19,
+      "time_s": 2595.6137608214062,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        937.8177714242645,
+        237.67930340127702
+      ],
+      "channel": 19,
+      "time_s": 2604.1709901105246,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        937.1358652545722,
+        209.9015256234993
+      ],
+      "channel": 19,
+      "time_s": 2612.728219399643,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        936.4539590848799,
+        182.1237478457216
+      ],
+      "channel": 19,
+      "time_s": 2621.2854486887613,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        935.7720529151875,
+        154.34597006794377
+      ],
+      "channel": 19,
+      "time_s": 2629.8426779778797,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        935.0901467454952,
+        126.56819229016605
+      ],
+      "channel": 19,
+      "time_s": 2638.399907266998,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        934.4082405758029,
+        98.79041451238811
+      ],
+      "channel": 19,
+      "time_s": 2646.9571365561164,
+      "clear_result": "no_target_in_range"
+    },
+    {
+      "action": "clear",
+      "position": [
+        933.7263344061105,
+        71.01263673461051
+      ],
+      "channel": 19,
+      "time_s": 2657.514365845235,
+      "clear_result": "success"
+    },
+    {
+      "action": "measure",
+      "position": [
+        1022.6560128398503,
+        496.73560347930146
+      ],
+      "channel": 7,
+      "time_s": 2749.4967852459918,
+      "measure_result": "direction",
+      "svd_deg": 264.35
+    },
+    {
+      "action": "clear",
+      "position": [
+        1019.8247404609046,
+        466.4372956679942
+      ],
+      "channel": 7,
+      "time_s": 2760.5828465651457,
+      "clear_result": "success"
+    }
+  ],
+  "trace": [
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 1,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 2,
+      "event": 2,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 3,
+      "event": 3,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 3,
+      "polygon": [
+        [
+          1478.3617184932693,
+          256.5200921962703
+        ],
+        [
+          1472.429253629136,
+          286.34460709337606
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1481.6231201203389,
+          234.53350835243702
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 4,
+      "event": 4,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 4,
+      "polygon": [
+        [
+          1497.367801336101,
+          90.40256784891959
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1499.9501931375082,
+          37.83677514034059
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 5,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 6,
+      "event": 6,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 6,
+      "polygon": [
+        [
+          1463.9941227164215,
+          328.75087385211725
+        ],
+        [
+          1457.51188415497,
+          354.62942080921505
+        ],
+        [
+          6.821210263296962e-13,
+          1.7053025658242404e-13
+        ],
+        [
+          1469.058291183215,
+          303.29157972422803
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 7,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 8,
+      "event": 8,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 8,
+      "polygon": [
+        [
+          1424.7213703294174,
+          470.66436590570834
+        ],
+        [
+          1421.2470292475984,
+          480.3744987371643
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1437.006434871319,
+          430.1659355427654
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 9,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 10,
+      "event": 10,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 10,
+      "polygon": [
+        [
+          1496.386368615517,
+          110.38008981886611
+        ],
+        [
+          1495.6001276117388,
+          118.36292869595263
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1498.5753530119327,
+          65.82228880602841
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 11,
+      "event": 11,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 12,
+      "event": 12,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 13,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 14,
+      "event": 14,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 14,
+      "polygon": [
+        [
+          1496.3863686155173,
+          110.3800898188637
+        ],
+        [
+          1493.931850725534,
+          135.30122817529636
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1497.7403612027324,
+          82.81893754533658
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 15,
+      "event": 15,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 15,
+      "polygon": [
+        [
+          1463.994122716422,
+          328.7508738521155
+        ],
+        [
+          1455.8579342893688,
+          361.23235879983184
+        ],
+        [
+          -6.821210263296962e-13,
+          -1.7053025658242404e-13
+        ],
+        [
+          1467.7302310473615,
+          309.9681888931221
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 16,
+      "event": 16,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 17,
+      "event": 17,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 17,
+      "polygon": [
+        [
+          1446.09963686721,
+          400.1896658576769
+        ],
+        [
+          1430.850555104745,
+          450.4591515205029
+        ],
+        [
+          2.2737367544323206e-13,
+          1.1368683772161603e-13
+        ],
+        [
+          1446.1235063643428,
+          400.0943734835168
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 18,
+      "event": 18,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 18,
+      "polygon": [
+        [
+          1463.9941227164218,
+          328.7508738521159
+        ],
+        [
+          1460.3111433417605,
+          343.4541517067737
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1471.3056074408676,
+          291.9935579508345
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 19,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 20,
+      "event": 20,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": true,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4627.423402653893,
+      "selected_proxy_s": 4625.413381566842,
+      "original_travel_m": 18219.820514512587,
+      "selected_travel_m": 18219.820514512587,
+      "original_scan_fee_proxy_s": 983.4592997513756,
+      "selected_scan_fee_proxy_s": 981.4492786643243,
+      "original_order": [
+        25,
+        28,
+        29,
+        24,
+        32,
+        26,
+        30,
+        31,
+        27,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "selected_order": [
+        25,
+        28,
+        29,
+        24,
+        32,
+        26,
+        30,
+        31,
+        27,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "first_task_changed": false,
+      "route_nodes": 33,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 6336,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 4,
+      "known": 9,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "decision",
+      "channel": 4,
+      "action": "measure",
+      "predicted_s": 263.1011165726654,
+      "optical_s": 455.39069824353544,
+      "signal_mass": 0.9739583333333334,
+      "scenarios": 208,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 4,
+      "event": 21,
+      "position": [
+        489.77688646308485,
+        -79.26128375415536
+      ],
+      "move_s": 99.22978375786782,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 4,
+      "polygon": [
+        [
+          1228.352505167872,
+          74.16095136528406
+        ],
+        [
+          1080.507320410796,
+          65.23489837134929
+        ],
+        [
+          907.3893776045708,
+          22.88921859021374
+        ],
+        [
+          991.777761261423,
+          25.01794547160586
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          489.77688646308485,
+          -79.26128375415536
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 14,
+      "gain_s": 421.721705084396,
+      "signal_mass": 0.9809027777777779
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 14,
+      "event": 22,
+      "position": [
+        489.77688646308485,
+        -79.26128375415536
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 14,
+      "polygon": [
+        [
+          1463.07039897627,
+          132.50619283086604
+        ],
+        [
+          1243.3178414348624,
+          112.60381849191938
+        ],
+        [
+          1023.3050513957655,
+          56.58459859712748
+        ],
+        [
+          1145.079083323883,
+          63.31820624111182
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          489.77688646308485,
+          -79.26128375415536
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 10,
+      "gain_s": 409.7476148108867,
+      "signal_mass": 0.9756944444444445
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 10,
+      "event": 23,
+      "position": [
+        489.77688646308485,
+        -79.26128375415536
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 10,
+      "polygon": [
+        [
+          1496.386368615517,
+          110.38008981886611
+        ],
+        [
+          1495.6001276117388,
+          118.36292869595263
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1498.5753530119327,
+          65.82228880602841
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "negatives": [
+        [
+          489.77688646308485,
+          -79.26128375415536
+        ]
+      ]
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4602.663390393736,
+      "selected_proxy_s": 4602.663390393736,
+      "original_travel_m": 18099.638491168498,
+      "selected_travel_m": 18099.638491168498,
+      "original_scan_fee_proxy_s": 982.7356921600372,
+      "selected_scan_fee_proxy_s": 982.7356921600372,
+      "original_order": [
+        28,
+        24,
+        32,
+        26,
+        30,
+        31,
+        27,
+        0,
+        29,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "selected_order": [
+        28,
+        24,
+        32,
+        26,
+        30,
+        31,
+        27,
+        0,
+        29,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "first_task_changed": false,
+      "route_nodes": 33,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 5808,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 10,
+      "known": 9,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "decision",
+      "channel": 10,
+      "action": "measure",
+      "predicted_s": 294.18858830416815,
+      "optical_s": 586.3660760272874,
+      "signal_mass": 0.6428571428571429,
+      "scenarios": 14,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 10,
+      "event": 24,
+      "position": [
+        745.5371707148578,
+        91.19674269157915
+      ],
+      "move_s": 61.47170463890599,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 10,
+      "polygon": [
+        [
+          803.3728837934248,
+          63.579539480614734
+        ],
+        [
+          799.1511565066502,
+          63.24542878043968
+        ],
+        [
+          848.9402319905753,
+          37.288207774691365
+        ],
+        [
+          857.6324278122758,
+          37.6699972006182
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          745.5371707148578,
+          91.19674269157915
+        ]
+      ],
+      "negatives": [
+        [
+          489.77688646308485,
+          -79.26128375415536
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 6,
+      "gain_s": 501.2256013282919,
+      "signal_mass": 0.9253472222222223
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 6,
+      "event": 25,
+      "position": [
+        745.5371707148578,
+        91.19674269157915
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 6,
+      "polygon": [
+        [
+          878.4487630404394,
+          213.73669706179882
+        ],
+        [
+          866.4901437997636,
+          210.82702732867168
+        ],
+        [
+          825.6812744497263,
+          170.46442580224323
+        ],
+        [
+          833.1969374120674,
+          172.0160574197248
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          745.5371707148578,
+          91.19674269157915
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 3,
+      "gain_s": 468.72211566399574,
+      "signal_mass": 0.920138888888889
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 3,
+      "event": 26,
+      "position": [
+        745.5371707148578,
+        91.19674269157915
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 3,
+      "polygon": [
+        [
+          1112.8350783304659,
+          216.41401274721198
+        ],
+        [
+          1034.578784379131,
+          201.1954426944584
+        ],
+        [
+          866.1932469819372,
+          137.11404632330695
+        ],
+        [
+          892.3890382787745,
+          141.26070869208564
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          745.5371707148578,
+          91.19674269157915
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4588.719078566161,
+      "selected_proxy_s": 4588.719078566161,
+      "original_travel_m": 18029.91693203062,
+      "selected_travel_m": 18029.91693203062,
+      "original_scan_fee_proxy_s": 982.7356921600372,
+      "selected_scan_fee_proxy_s": 982.7356921600372,
+      "original_order": [
+        32,
+        30,
+        31,
+        27,
+        26,
+        0,
+        24,
+        29,
+        25,
+        28,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "selected_order": [
+        32,
+        30,
+        31,
+        27,
+        26,
+        0,
+        24,
+        29,
+        25,
+        28,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "first_task_changed": false,
+      "route_nodes": 33,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 5280,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 18,
+      "known": 9,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "decision",
+      "channel": 18,
+      "action": "measure",
+      "predicted_s": 157.95206879521177,
+      "optical_s": 619.8540366194779,
+      "signal_mass": 0.9097222222222223,
+      "scenarios": 208,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 18,
+      "event": 27,
+      "position": [
+        753.9789079799327,
+        66.48582865347007
+      ],
+      "move_s": 5.2226131415274155,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 18,
+      "polygon": [
+        [
+          881.7021995228779,
+          207.36969814675706
+        ],
+        [
+          870.8076173252675,
+          204.8073746967577
+        ],
+        [
+          838.3493643112176,
+          166.37781603839304
+        ],
+        [
+          845.89763183627,
+          167.8758362184686
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          753.9789079799327,
+          66.48582865347007
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 15,
+      "gain_s": 438.08966920190574,
+      "signal_mass": 0.8940972222222223
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 15,
+      "event": 28,
+      "position": [
+        753.9789079799327,
+        66.48582865347007
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 15,
+      "polygon": [
+        [
+          1079.6150561421402,
+          267.877712612392
+        ],
+        [
+          1041.155863054884,
+          258.3350884941747
+        ],
+        [
+          956.9849469975517,
+          202.1045043183004
+        ],
+        [
+          981.7062969997133,
+          207.32537660468432
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          753.9789079799327,
+          66.48582865347007
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 8,
+      "gain_s": 435.5796173976855,
+      "signal_mass": 0.9201388888888891
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 8,
+      "event": 29,
+      "position": [
+        753.9789079799327,
+        66.48582865347007
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 8,
+      "polygon": [
+        [
+          895.2580385412048,
+          302.59280945151346
+        ],
+        [
+          881.7100636255442,
+          298.0136606300313
+        ],
+        [
+          859.192633539995,
+          257.19815447540486
+        ],
+        [
+          870.0378913230703,
+          260.4446677458043
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          753.9789079799327,
+          66.48582865347007
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": true,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4592.418710294008,
+      "selected_proxy_s": 4566.1558530093935,
+      "original_travel_m": 18043.99304427834,
+      "selected_travel_m": 17923.532871725347,
+      "original_scan_fee_proxy_s": 983.6201014383397,
+      "selected_scan_fee_proxy_s": 981.4492786643243,
+      "original_order": [
+        28,
+        31,
+        26,
+        32,
+        27,
+        0,
+        30,
+        24,
+        29,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "selected_order": [
+        28,
+        24,
+        30,
+        0,
+        27,
+        32,
+        26,
+        31,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        25,
+        29,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "first_task_changed": false,
+      "route_nodes": 33,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 9504,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 10,
+      "known": 9,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 10,
+      "polygon": [
+        [
+          803.3728837934248,
+          63.579539480614734
+        ],
+        [
+          799.1511565066502,
+          63.24542878043968
+        ],
+        [
+          848.9402319905753,
+          37.288207774691365
+        ],
+        [
+          857.6324278122758,
+          37.6699972006182
+        ]
+      ],
+      "path": [
+        [
+          808.5304186019725,
+          58.14225802772229
+        ],
+        [
+          828.0241757038477,
+          49.6171141677818
+        ],
+        [
+          847.5179328057229,
+          41.09197030784131
+        ]
+      ],
+      "score": 23.655219318666642,
+      "worst_s": 30.547732848692633,
+      "mean_s": 21.932090936160144,
+      "origin": [
+        827.2741750257314,
+        50.44579330909099
+      ],
+      "rotation": [
+        [
+          0.9162155727732272,
+          0.40068569254195635
+        ],
+        [
+          -0.40068569254195635,
+          0.9162155727732272
+        ]
+      ],
+      "lower": [
+        -30.895378323694047,
+        -3.373905727100745
+      ],
+      "upper": [
+        32.93378267671637,
+        2.45643734113702
+      ],
+      "cells": [
+        3,
+        1
+      ],
+      "cell_radius": 11.030384672269351
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 10,
+      "event": 30,
+      "position": [
+        808.5304186019725,
+        58.14225802772229
+      ],
+      "move_s": 11.03717804863791,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 17,
+      "gain_s": 343.0386445520786,
+      "signal_mass": 0.8958333333333335
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 17,
+      "event": 31,
+      "position": [
+        808.5304186019725,
+        58.14225802772229
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 17,
+      "polygon": [
+        [
+          864.9763323072755,
+          272.3111112801914
+        ],
+        [
+          856.400360970222,
+          269.61123129749785
+        ],
+        [
+          848.509895755464,
+          234.7545238306329
+        ],
+        [
+          855.5945936154112,
+          236.7146245683091
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          808.5304186019725,
+          58.14225802772229
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 14,
+      "gain_s": 38.180622105458966,
+      "signal_mass": 1.0
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 14,
+      "event": 32,
+      "position": [
+        808.5304186019725,
+        58.14225802772229
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 14,
+      "polygon": [
+        [
+          1214.7177657183543,
+          78.47006727150492
+        ],
+        [
+          1083.4604270210623,
+          71.90124093600454
+        ],
+        [
+          1043.1757139129845,
+          61.64402724584143
+        ],
+        [
+          1141.2792799473468,
+          63.10809260147323
+        ],
+        [
+          1145.079083323883,
+          63.31820624111182
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          489.77688646308485,
+          -79.26128375415536
+        ],
+        [
+          808.5304186019725,
+          58.14225802772229
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4498.113796396163,
+      "selected_proxy_s": 4498.113796396163,
+      "original_travel_m": 17576.890521180627,
+      "selected_travel_m": 17576.890521180627,
+      "original_scan_fee_proxy_s": 982.7356921600372,
+      "selected_scan_fee_proxy_s": 982.7356921600372,
+      "original_order": [
+        31,
+        26,
+        30,
+        27,
+        0,
+        29,
+        24,
+        28,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "selected_order": [
+        31,
+        26,
+        30,
+        27,
+        0,
+        29,
+        24,
+        28,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "first_task_changed": false,
+      "route_nodes": 32,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 5952,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 18,
+      "known": 8,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 18,
+      "polygon": [
+        [
+          881.7021995228779,
+          207.36969814675706
+        ],
+        [
+          870.8076173252675,
+          204.8073746967577
+        ],
+        [
+          838.3493643112176,
+          166.37781603839304
+        ],
+        [
+          845.89763183627,
+          167.8758362184686
+        ]
+      ],
+      "path": [
+        [
+          845.0507152341347,
+          173.76410511441276
+        ],
+        [
+          859.5016603046881,
+          187.42806581720077
+        ],
+        [
+          873.9526053752415,
+          201.0920265199888
+        ]
+      ],
+      "score": 35.53032418411178,
+      "worst_s": 43.20569022127292,
+      "mean_s": 33.61148267482149,
+      "origin": [
+        859.1892032489084,
+        186.6076812750941
+      ],
+      "rotation": [
+        [
+          -0.7266153022444063,
+          0.6870445418924963
+        ],
+        [
+          -0.6870445418924963,
+          -0.7266153022444063
+        ]
+      ],
+      "lower": [
+        -30.62271796239351,
+        -5.241807759728118
+      ],
+      "upper": [
+        29.04136436253112,
+        4.478943665187774
+      ],
+      "cells": [
+        3,
+        1
+      ],
+      "cell_radius": 11.068272717372068
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 18,
+      "event": 33,
+      "position": [
+        845.0507152341347,
+        173.76410511441276
+      ],
+      "move_s": 24.2504792446163,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 18,
+      "event": 34,
+      "position": [
+        859.5016603046881,
+        187.42806581720077
+      ],
+      "move_s": 3.9776054883283094,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 4,
+      "gain_s": 28.02708624756744,
+      "signal_mass": 0.9184027777777779
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 4,
+      "event": 35,
+      "position": [
+        859.5016603046881,
+        187.42806581720077
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 4,
+      "polygon": [
+        [
+          1145.03158323248,
+          56.85293069441798
+        ],
+        [
+          1164.164674065997,
+          60.82739381786796
+        ],
+        [
+          1144.290938885905,
+          69.08579117918212
+        ],
+        [
+          1121.315156364169,
+          67.69864385542513
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          489.77688646308485,
+          -79.26128375415536
+        ],
+        [
+          859.5016603046881,
+          187.42806581720077
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 3,
+      "gain_s": 18.064252543780455,
+      "signal_mass": 0.9732142857142858
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 3,
+      "event": 36,
+      "position": [
+        859.5016603046881,
+        187.42806581720077
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 3,
+      "polygon": [
+        [
+          1007.9938414419643,
+          180.67208990954367
+        ],
+        [
+          1022.8355019088168,
+          185.7318307036481
+        ],
+        [
+          994.7127609106396,
+          186.02388763625896
+        ],
+        [
+          983.5698751370591,
+          181.7833115689038
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          745.5371707148578,
+          91.19674269157915
+        ],
+        [
+          859.5016603046881,
+          187.42806581720077
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4466.992749746114,
+      "selected_proxy_s": 4466.992749746114,
+      "original_travel_m": 17421.285287930386,
+      "selected_travel_m": 17421.285287930386,
+      "original_scan_fee_proxy_s": 982.7356921600372,
+      "selected_scan_fee_proxy_s": 982.7356921600372,
+      "original_order": [
+        26,
+        30,
+        27,
+        0,
+        29,
+        24,
+        28,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "selected_order": [
+        26,
+        30,
+        27,
+        0,
+        29,
+        24,
+        28,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "first_task_changed": false,
+      "route_nodes": 31,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 5115,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 6,
+      "known": 7,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 6,
+      "polygon": [
+        [
+          878.4487630404394,
+          213.73669706179882
+        ],
+        [
+          866.4901437997636,
+          210.82702732867168
+        ],
+        [
+          825.6812744497263,
+          170.46442580224323
+        ],
+        [
+          833.1969374120674,
+          172.0160574197248
+        ]
+      ],
+      "path": [
+        [
+          869.0938851054489,
+          207.20789399469794
+        ],
+        [
+          851.5047222418779,
+          192.78380357484608
+        ],
+        [
+          833.9155593783069,
+          178.3597131549942
+        ]
+      ],
+      "score": 15.813616664214312,
+      "worst_s": 24.495462183210464,
+      "mean_s": 13.643155284465273,
+      "origin": [
+        850.954279675499,
+        191.76105190310963
+      ],
+      "rotation": [
+        [
+          -0.7732467336683818,
+          0.6341052663960288
+        ],
+        [
+          -0.6341052663960288,
+          -0.7732467336683818
+        ]
+      ],
+      "lower": [
+        -35.19489178341502,
+        -4.891329962808208
+      ],
+      "upper": [
+        33.04657150783923,
+        4.007728244138775
+      ],
+      "cells": [
+        3,
+        1
+      ],
+      "cell_radius": 12.21296720346779
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 6,
+      "event": 37,
+      "position": [
+        869.0938851054489,
+        207.20789399469794
+      ],
+      "move_s": 4.396600411043242,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 6,
+      "event": 38,
+      "position": [
+        851.5047222418779,
+        192.78380357484608
+      ],
+      "move_s": 4.549430886083611,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 14,
+      "gain_s": 7.057897753385731,
+      "signal_mass": 0.9427083333333335
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 14,
+      "event": 39,
+      "position": [
+        851.5047222418779,
+        192.78380357484608
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 14,
+      "polygon": [
+        [
+          1146.7812966538245,
+          63.68857079903465
+        ],
+        [
+          1166.5939055245722,
+          67.99936310493467
+        ],
+        [
+          1148.519954275265,
+          75.15717115860495
+        ],
+        [
+          1123.4223001245243,
+          73.9011489568683
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          489.77688646308485,
+          -79.26128375415536
+        ],
+        [
+          808.5304186019725,
+          58.14225802772229
+        ],
+        [
+          851.5047222418779,
+          192.78380357484608
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 15,
+      "gain_s": 1.680503202601912,
+      "signal_mass": 1.0
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 15,
+      "event": 40,
+      "position": [
+        851.5047222418779,
+        192.78380357484608
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 15,
+      "polygon": [
+        [
+          993.6243902202801,
+          214.69620217314176
+        ],
+        [
+          1005.6158199447456,
+          222.11238319972773
+        ],
+        [
+          979.4928684692702,
+          217.14097572936785
+        ],
+        [
+          970.4952368114224,
+          211.13008612498834
+        ]
+      ],
+      "positives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          753.9789079799327,
+          66.48582865347007
+        ],
+        [
+          851.5047222418779,
+          192.78380357484608
+        ]
+      ],
+      "negatives": []
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4457.7396577809395,
+      "selected_proxy_s": 4457.7396577809395,
+      "original_travel_m": 17375.019828104512,
+      "selected_travel_m": 17375.019828104512,
+      "original_scan_fee_proxy_s": 982.7356921600372,
+      "selected_scan_fee_proxy_s": 982.7356921600372,
+      "original_order": [
+        29,
+        26,
+        0,
+        28,
+        24,
+        27,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "selected_order": [
+        29,
+        26,
+        0,
+        28,
+        24,
+        27,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "first_task_changed": false,
+      "route_nodes": 30,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 3480,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 17,
+      "known": 6,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 17,
+      "polygon": [
+        [
+          864.9763323072755,
+          272.3111112801914
+        ],
+        [
+          856.400360970222,
+          269.61123129749785
+        ],
+        [
+          848.509895755464,
+          234.7545238306329
+        ],
+        [
+          855.5945936154112,
+          236.7146245683091
+        ]
+      ],
+      "path": [
+        [
+          852.1371196039659,
+          244.35823842575272
+        ],
+        [
+          860.3703378798716,
+          263.136532150532
+        ]
+      ],
+      "score": 18.155974928879807,
+      "worst_s": 22.416443757549704,
+      "mean_s": 17.090857721712332,
+      "origin": [
+        856.3702956620932,
+        253.34787274415783
+      ],
+      "rotation": [
+        [
+          -0.4015438771653878,
+          0.9158397865953345
+        ],
+        [
+          -0.9158397865953345,
+          -0.4015438771653878
+        ]
+      ],
+      "lower": [
+        -20.822989655531327,
+        -6.502917043858452
+      ],
+      "upper": [
+        20.18482415563362,
+        5.968560165489609
+      ],
+      "cells": [
+        2,
+        1
+      ],
+      "cell_radius": 11.99945771874797
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 17,
+      "event": 41,
+      "position": [
+        852.1371196039659,
+        244.35823842575272
+      ],
+      "move_s": 10.315662376433206,
+      "result": "success"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4447.568055706677,
+      "selected_proxy_s": 4447.568055706677,
+      "original_travel_m": 17324.1618177332,
+      "selected_travel_m": 17324.1618177332,
+      "original_scan_fee_proxy_s": 982.7356921600372,
+      "selected_scan_fee_proxy_s": 982.7356921600372,
+      "original_order": [
+        26,
+        0,
+        28,
+        24,
+        27,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "selected_order": [
+        26,
+        0,
+        28,
+        24,
+        27,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "first_task_changed": false,
+      "route_nodes": 29,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 3248,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 8,
+      "known": 5,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 8,
+      "polygon": [
+        [
+          895.2580385412048,
+          302.59280945151346
+        ],
+        [
+          881.7100636255442,
+          298.0136606300313
+        ],
+        [
+          859.192633539995,
+          257.19815447540486
+        ],
+        [
+          870.0378913230703,
+          260.4446677458043
+        ]
+      ],
+      "path": [
+        [
+          864.6996263278972,
+          265.16427804963234
+        ],
+        [
+          876.7214279949671,
+          280.2958297083352
+        ],
+        [
+          888.743229662037,
+          295.4273813670381
+        ]
+      ],
+      "score": 15.696286970070961,
+      "worst_s": 23.59122707110638,
+      "mean_s": 13.722551944812103,
+      "origin": [
+        876.5496567574535,
+        279.5623230756885
+      ],
+      "rotation": [
+        [
+          -0.6220588625664475,
+          0.7829704793301837
+        ],
+        [
+          -0.7829704793301837,
+          -0.6220588625664475
+        ]
+      ],
+      "lower": [
+        -29.669905649746124,
+        -7.437371812836324
+      ],
+      "upper": [
+        28.30757392897677,
+        6.79378682600044
+      ],
+      "cells": [
+        3,
+        1
+      ],
+      "cell_radius": 12.000140073412654
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 8,
+      "event": 42,
+      "position": [
+        864.6996263278972,
+        265.16427804963234
+      ],
+      "move_s": 4.860896460609999,
+      "result": "success"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 11,
+      "discovered": 9,
+      "surviving_hypotheses": 1295,
+      "expected_remaining_sources": 5.784394017181129,
+      "total_count_posterior": {
+        "10": 0.005345426234588048,
+        "11": 0.018590233572194026,
+        "12": 0.04702021967967042,
+        "13": 0.09662907694180307,
+        "14": 0.17108253564012607,
+        "15": 0.2704490767260296,
+        "16": 0.3908834312055888
+      },
+      "original_proxy_s": 4440.00130847256,
+      "selected_proxy_s": 4440.00130847256,
+      "original_travel_m": 17286.32808156261,
+      "selected_travel_m": 17286.32808156261,
+      "original_scan_fee_proxy_s": 982.7356921600372,
+      "selected_scan_fee_proxy_s": 982.7356921600372,
+      "original_order": [
+        0,
+        27,
+        24,
+        26,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "selected_order": [
+        0,
+        27,
+        24,
+        26,
+        25,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "first_task_changed": false,
+      "route_nodes": 28,
+      "scan_nodes": 24,
+      "two_opt_evaluations": 4536,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 1,
+      "known": 4,
+      "unknown": 11,
+      "pending_stations": 24
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 43,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 12.955657981207029,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 2,
+      "event": 44,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 2,
+      "polygon": [
+        [
+          -497.43257709190993,
+          719.1306492041341
+        ],
+        [
+          -508.12171112077147,
+          683.8932966748489
+        ],
+        [
+          927.288793237505,
+          248.46628329842008
+        ],
+        [
+          -492.1056205043486,
+          734.0184955135529
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 45,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 46,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 47,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 11,
+      "event": 48,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 11,
+      "polygon": [
+        [
+          927.2887932375047,
+          248.46628329841928
+        ],
+        [
+          1651.331376463244,
+          716.9600685251605
+        ],
+        [
+          1646.0733267770572,
+          729.6541233891841
+        ],
+        [
+          1638.775794864535,
+          745.0834582667545
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 12,
+      "event": 49,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          927.2887932375046,
+          248.46628329841406
+        ],
+        [
+          1164.0157207309453,
+          1373.2754059009408
+        ],
+        [
+          1128.2091240949405,
+          1402.6611203318664
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 50,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 16,
+      "event": 51,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          927.2887932375082,
+          248.46628329841724
+        ],
+        [
+          1698.6607347892525,
+          -595.5539010139372
+        ],
+        [
+          1709.6656443952998,
+          -564.7972390868531
+        ],
+        [
+          1713.2107296264976,
+          -553.1106592665616
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 52,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 20,
+      "event": 53,
+      "position": [
+        927.2887932375056,
+        248.4662832984199
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 20,
+      "polygon": [
+        [
+          927.2887932375047,
+          248.46628329841906
+        ],
+        [
+          1597.121624530907,
+          830.4352724446233
+        ],
+        [
+          1581.9423120886604,
+          858.8337686055039
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4332.544656086285,
+      "selected_proxy_s": 4332.544656086285,
+      "original_travel_m": 18352.275963495893,
+      "selected_travel_m": 18352.275963495893,
+      "original_scan_fee_proxy_s": 662.0894633871061,
+      "selected_scan_fee_proxy_s": 662.0894633871061,
+      "original_order": [
+        26,
+        23,
+        25,
+        24,
+        30,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        27,
+        0,
+        29,
+        31,
+        28,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "selected_order": [
+        26,
+        23,
+        25,
+        24,
+        30,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        27,
+        0,
+        29,
+        31,
+        28,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "first_task_changed": false,
+      "route_nodes": 32,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 5952,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 15,
+      "known": 9,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 15,
+      "event": 54,
+      "position": [
+        986.1237620222274,
+        217.63358448522487
+      ],
+      "move_s": 13.28489197246916,
+      "result": "success"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4319.173842127397,
+      "selected_proxy_s": 4319.173842127397,
+      "original_travel_m": 18285.421893701456,
+      "selected_travel_m": 18285.421893701456,
+      "original_scan_fee_proxy_s": 662.0894633871061,
+      "selected_scan_fee_proxy_s": 662.0894633871061,
+      "original_order": [
+        23,
+        25,
+        24,
+        29,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        26,
+        0,
+        28,
+        30,
+        27,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "selected_order": [
+        23,
+        25,
+        24,
+        29,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        26,
+        0,
+        28,
+        30,
+        27,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "first_task_changed": false,
+      "route_nodes": 31,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 6975,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 3,
+      "known": 8,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 3,
+      "event": 55,
+      "position": [
+        1002.8800637335851,
+        184.39749670011997
+      ],
+      "move_s": 7.444222399421572,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 2,
+      "gain_s": 158.98643149751706,
+      "signal_mass": 0.8636363636363635
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 2,
+      "event": 56,
+      "position": [
+        1002.8800637335851,
+        184.39749670011997
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 2,
+      "polygon": [
+        [
+          841.2385988954583,
+          274.5693242118414
+        ],
+        [
+          866.4071575481313,
+          266.9345254613457
+        ],
+        [
+          857.4297320390017,
+          272.36395499545324
+        ],
+        [
+          825.7896985674686,
+          283.18750629164555
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          1002.8800637335851,
+          184.39749670011997
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 12,
+      "gain_s": 133.3902526155463,
+      "signal_mass": 0.9947916666666667
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 12,
+      "event": 57,
+      "position": [
+        1002.8800637335851,
+        184.39749670011997
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 12,
+      "polygon": [
+        [
+          939.4866805538352,
+          318.5375324504689
+        ],
+        [
+          938.0099158357999,
+          310.05419875399525
+        ],
+        [
+          939.6016574346643,
+          306.9709161299074
+        ],
+        [
+          941.2504856101492,
+          314.805331052734
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          1002.8800637335851,
+          184.39749670011997
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4255.484486541854,
+      "selected_proxy_s": 4255.484486541854,
+      "original_travel_m": 17966.975115773737,
+      "selected_travel_m": 17966.975115773737,
+      "original_scan_fee_proxy_s": 662.0894633871061,
+      "selected_scan_fee_proxy_s": 662.0894633871061,
+      "original_order": [
+        24,
+        23,
+        28,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        25,
+        27,
+        26,
+        29,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "selected_order": [
+        24,
+        23,
+        28,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        25,
+        27,
+        26,
+        29,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "first_task_changed": false,
+      "route_nodes": 30,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 3480,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 14,
+      "known": 7,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 14,
+      "polygon": [
+        [
+          1146.7812966538245,
+          63.68857079903465
+        ],
+        [
+          1166.5939055245722,
+          67.99936310493467
+        ],
+        [
+          1148.519954275265,
+          75.15717115860495
+        ],
+        [
+          1123.4223001245243,
+          73.9011489568683
+        ]
+      ],
+      "path": [
+        [
+          1134.0587088146924,
+          71.28095757628209
+        ],
+        [
+          1155.6445115147164,
+          68.33006465031528
+        ]
+      ],
+      "score": 42.2179168203706,
+      "worst_s": 47.00017096482455,
+      "mean_s": 41.02235328425711,
+      "origin": [
+        1146.3293641445466,
+        70.18656350486066
+      ],
+      "rotation": [
+        [
+          -0.9907847982138422,
+          -0.13544550058365182
+        ],
+        [
+          0.13544550058365182,
+          -0.9907847982138422
+        ]
+      ],
+      "lower": [
+        -20.374045995149405,
+        -5.2215080780439855
+      ],
+      "upper": [
+        23.199094688757278,
+        6.376900166887673
+      ],
+      "cells": [
+        2,
+        1
+      ],
+      "cell_radius": 12.340762953328491
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 14,
+      "event": 58,
+      "position": [
+        1134.0587088146924,
+        71.28095757628209
+      ],
+      "move_s": 34.642856896433855,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 16,
+      "gain_s": 231.7464599083783,
+      "signal_mass": 0.9930555555555556
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 16,
+      "event": 59,
+      "position": [
+        1134.0587088146924,
+        71.28095757628209
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          927.2887932375082,
+          248.46628329841724
+        ],
+        [
+          1698.6607347892525,
+          -595.5539010139372
+        ],
+        [
+          1709.6656443952998,
+          -564.7972390868531
+        ],
+        [
+          1713.2107296264976,
+          -553.1106592665616
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1134.0587088146924,
+          71.28095757628209
+        ]
+      ]
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 11,
+      "gain_s": 155.41701425466275,
+      "signal_mass": 0.9461805555555557
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 11,
+      "event": 60,
+      "position": [
+        1134.0587088146924,
+        71.28095757628209
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 11,
+      "polygon": [
+        [
+          1148.8666067518548,
+          403.1273628845802
+        ],
+        [
+          1137.1374644217542,
+          394.94043393794357
+        ],
+        [
+          1137.0351384912415,
+          384.1832445683082
+        ],
+        [
+          1148.3479047581504,
+          391.5032017262938
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          1134.0587088146924,
+          71.28095757628209
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4212.085689670716,
+      "selected_proxy_s": 4212.085689670716,
+      "original_travel_m": 17749.98113141805,
+      "selected_travel_m": 17749.98113141805,
+      "original_scan_fee_proxy_s": 662.0894633871061,
+      "selected_scan_fee_proxy_s": 662.0894633871061,
+      "original_order": [
+        23,
+        27,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        24,
+        26,
+        25,
+        28,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        11
+      ],
+      "selected_order": [
+        23,
+        27,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        24,
+        26,
+        25,
+        28,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        11
+      ],
+      "first_task_changed": false,
+      "route_nodes": 29,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 5278,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 4,
+      "known": 6,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 4,
+      "polygon": [
+        [
+          1145.03158323248,
+          56.85293069441798
+        ],
+        [
+          1164.164674065997,
+          60.82739381786796
+        ],
+        [
+          1144.290938885905,
+          69.08579117918212
+        ],
+        [
+          1121.315156364169,
+          67.69864385542513
+        ]
+      ],
+      "path": [
+        [
+          1131.8734564957497,
+          65.01998384458327
+        ],
+        [
+          1153.2982153466635,
+          61.584358825804685
+        ]
+      ],
+      "score": 9.262152767974156,
+      "worst_s": 13.66596975073011,
+      "mean_s": 8.161198522285167,
+      "origin": [
+        1143.7005881371379,
+        63.6161898867233
+      ],
+      "rotation": [
+        [
+          -0.9873854726104703,
+          -0.15833486185233522
+        ],
+        [
+          0.15833486185233522,
+          -0.9873854726104703
+        ]
+      ],
+      "lower": [
+        -20.647504796704315,
+        -5.494077961395766
+      ],
+      "upper": [
+        22.749444915895143,
+        6.467200949434363
+      ],
+      "cells": [
+        2,
+        1
+      ],
+      "cell_radius": 12.388462417428375
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 4,
+      "event": 61,
+      "position": [
+        1131.8734564957497,
+        65.01998384458327
+      ],
+      "move_s": 1.3262747794701866,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 4,
+      "event": 62,
+      "position": [
+        1153.2982153466635,
+        61.584358825804685
+      ],
+      "move_s": 4.339694971259924,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 20,
+      "gain_s": 154.10485056140666,
+      "signal_mass": 0.9288194444444444
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 20,
+      "event": 63,
+      "position": [
+        1153.2982153466635,
+        61.584358825804685
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 20,
+      "polygon": [
+        [
+          1023.1116098777217,
+          337.80687331062813
+        ],
+        [
+          1014.9723468829894,
+          330.2182155805576
+        ],
+        [
+          1016.9539710749441,
+          326.3698294815893
+        ],
+        [
+          1025.1470477169257,
+          333.48819739157136
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          1153.2982153466635,
+          61.584358825804685
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4189.361076736921,
+      "selected_proxy_s": 4189.361076736921,
+      "original_travel_m": 17640.525638995445,
+      "selected_travel_m": 17640.525638995445,
+      "original_scan_fee_proxy_s": 661.255948937832,
+      "selected_scan_fee_proxy_s": 661.255948937832,
+      "original_order": [
+        24,
+        27,
+        25,
+        23,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        26,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "selected_order": [
+        24,
+        27,
+        25,
+        23,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        26,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "first_task_changed": false,
+      "route_nodes": 28,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 2646,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 11,
+      "known": 5,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 11,
+      "event": 64,
+      "position": [
+        1143.2538797695984,
+        383.93108054782226
+      ],
+      "move_s": 64.50063493706602,
+      "result": "success"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4122.156246604318,
+      "selected_proxy_s": 4122.156246604318,
+      "original_travel_m": 17304.50148833243,
+      "selected_travel_m": 17304.50148833243,
+      "original_scan_fee_proxy_s": 661.255948937832,
+      "selected_scan_fee_proxy_s": 661.255948937832,
+      "original_order": [
+        26,
+        24,
+        23,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        25,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "selected_order": [
+        26,
+        24,
+        23,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        25,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "first_task_changed": false,
+      "route_nodes": 27,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 3861,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 20,
+      "known": 4,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 20,
+      "event": 65,
+      "position": [
+        1033.4206262275727,
+        337.7210068673429
+      ],
+      "move_s": 23.83167177785245,
+      "result": "success"
+    },
+    {
+      "phase": "shared_prediction",
+      "channel": 16,
+      "gain_s": 62.384089304431086,
+      "signal_mass": 0.25
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "shared_measure",
+      "channel": 16,
+      "event": 66,
+      "position": [
+        1033.4206262275727,
+        337.7210068673429
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 16,
+      "polygon": [
+        [
+          1049.7280921574506,
+          123.5880805993254
+        ],
+        [
+          1041.8609661558112,
+          131.61191415732708
+        ],
+        [
+          1042.2257314165588,
+          122.70451971776404
+        ],
+        [
+          1050.483484157556,
+          113.6690471849656
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          1033.4206262275727,
+          337.7210068673429
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1134.0587088146924,
+          71.28095757628209
+        ]
+      ]
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4139.31714882179,
+      "selected_proxy_s": 4139.31714882179,
+      "original_travel_m": 17387.8363269775,
+      "selected_travel_m": 17387.8363269775,
+      "original_scan_fee_proxy_s": 661.7498834262907,
+      "selected_scan_fee_proxy_s": 661.7498834262907,
+      "original_order": [
+        24,
+        23,
+        25,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "selected_order": [
+        24,
+        23,
+        25,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "first_task_changed": false,
+      "route_nodes": 26,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 1950,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 12,
+      "known": 3,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 12,
+      "event": 67,
+      "position": [
+        956.6498460738677,
+        317.3035408394949
+      ],
+      "move_s": 15.887889229733238,
+      "result": "success"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4123.4063250787185,
+      "selected_proxy_s": 4123.4063250787185,
+      "original_travel_m": 17308.28220826214,
+      "selected_travel_m": 17308.28220826214,
+      "original_scan_fee_proxy_s": 661.7498834262907,
+      "selected_scan_fee_proxy_s": 661.7498834262907,
+      "original_order": [
+        23,
+        24,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "selected_order": [
+        23,
+        24,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "first_task_changed": false,
+      "route_nodes": 25,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 2100,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 2,
+      "known": 2,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 2,
+      "polygon": [
+        [
+          841.2385988954583,
+          274.5693242118414
+        ],
+        [
+          866.4071575481313,
+          266.9345254613457
+        ],
+        [
+          857.4297320390017,
+          272.36395499545324
+        ],
+        [
+          825.7896985674686,
+          283.18750629164555
+        ]
+      ],
+      "path": [
+        [
+          856.1494536246004,
+          270.73951805162096
+        ],
+        [
+          835.840724134269,
+          278.8660084667709
+        ]
+      ],
+      "score": 29.36514280096301,
+      "worst_s": 34.527542687259384,
+      "mean_s": 28.074542829388918,
+      "origin": [
+        847.716296762515,
+        274.26382774007146
+      ],
+      "rotation": [
+        [
+          -0.9284294129480771,
+          -0.37150884938704865
+        ],
+        [
+          0.37150884938704865,
+          -0.9284294129480771
+        ]
+      ],
+      "lower": [
+        -20.0760455630633,
+        -1.8447294262012077
+      ],
+      "upper": [
+        23.672524241170454,
+        2.1228901713241206
+      ],
+      "cells": [
+        2,
+        1
+      ],
+      "cell_radius": 11.115601032441356
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 2,
+      "event": 68,
+      "position": [
+        856.1494536246004,
+        270.73951805162096
+      ],
+      "move_s": 22.152685706835992,
+      "result": "success"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4097.617006489609,
+      "selected_proxy_s": 4097.617006489609,
+      "original_travel_m": 17179.33561531659,
+      "selected_travel_m": 17179.33561531659,
+      "original_scan_fee_proxy_s": 661.7498834262907,
+      "selected_scan_fee_proxy_s": 661.7498834262907,
+      "original_order": [
+        23,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "selected_order": [
+        23,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "first_task_changed": false,
+      "route_nodes": 24,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 1380,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 16,
+      "known": 1,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 16,
+      "event": 69,
+      "position": [
+        1037.8204793309396,
+        129.14962432412278
+      ],
+      "move_s": 46.06606542215543,
+      "result": "success"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 6,
+      "discovered": 14,
+      "surviving_hypotheses": 1022,
+      "expected_remaining_sources": 1.7527814139053695,
+      "total_count_posterior": {
+        "14": 0.02606319696910345,
+        "15": 0.19509219215642376,
+        "16": 0.7788446108744729
+      },
+      "original_proxy_s": 4050.1884962566282,
+      "selected_proxy_s": 4050.1884962566282,
+      "original_travel_m": 16942.19306415169,
+      "selected_travel_m": 16942.19306415169,
+      "original_scan_fee_proxy_s": 661.7498834262907,
+      "selected_scan_fee_proxy_s": 661.7498834262907,
+      "original_order": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "selected_order": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        13,
+        12,
+        11,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "first_task_changed": false,
+      "route_nodes": 23,
+      "scan_nodes": 23,
+      "two_opt_evaluations": 2277,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 12,
+      "known": 0,
+      "unknown": 6,
+      "pending_stations": 23
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 70,
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "move_s": 78.69206499266741,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 71,
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 72,
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 73,
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 74,
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 19,
+      "event": 75,
+      "position": [
+        927.2887932375054,
+        -248.4662832984207
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 19,
+      "polygon": [
+        [
+          964.1117264008917,
+          1251.5337167015794
+        ],
+        [
+          923.2308902094425,
+          1251.5337167015794
+        ],
+        [
+          927.2887932375054,
+          -248.46628329842065
+        ],
+        [
+          975.8508796059734,
+          1250.9570090856525
+        ]
+      ],
+      "positives": [
+        [
+          927.2887932375054,
+          -248.4662832984207
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ]
+      ]
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 933,
+      "expected_remaining_sources": 0.8793590951932139,
+      "total_count_posterior": {
+        "15": 0.12064090480678603,
+        "16": 0.8793590951932139
+      },
+      "original_proxy_s": 3918.9243401146,
+      "selected_proxy_s": 3918.9243401146,
+      "original_travel_m": 16695.14007946084,
+      "selected_travel_m": 16695.14007946084,
+      "original_scan_fee_proxy_s": 579.8963242224316,
+      "selected_scan_fee_proxy_s": 579.8963242224316,
+      "original_order": [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        22,
+        11,
+        10,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "selected_order": [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        22,
+        11,
+        10,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "first_task_changed": false,
+      "route_nodes": 23,
+      "scan_nodes": 22,
+      "two_opt_evaluations": 2024,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 11,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 22
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 76,
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "move_s": 99.38651331936786,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 77,
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 78,
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 79,
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 80,
+      "position": [
+        678.8225099390854,
+        -678.8225099390858
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 840,
+      "expected_remaining_sources": 0.8677685950413222,
+      "total_count_posterior": {
+        "15": 0.13223140495867772,
+        "16": 0.8677685950413222
+      },
+      "original_proxy_s": 3793.9472876967675,
+      "selected_proxy_s": 3793.9472876967675,
+      "original_travel_m": 16198.207512864003,
+      "selected_travel_m": 16198.207512864003,
+      "original_scan_fee_proxy_s": 554.3057851239671,
+      "selected_scan_fee_proxy_s": 554.3057851239671,
+      "original_order": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        21,
+        10,
+        9,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "selected_order": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        21,
+        10,
+        9,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "first_task_changed": false,
+      "route_nodes": 22,
+      "scan_nodes": 21,
+      "two_opt_evaluations": 1848,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 10,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 21
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 81,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 99.38651331936802,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 82,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 83,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 84,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 85,
+      "position": [
+        248.46628329841948,
+        -927.2887932375057
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 738,
+      "expected_remaining_sources": 0.8521939953810623,
+      "total_count_posterior": {
+        "15": 0.14780600461893767,
+        "16": 0.8521939953810623
+      },
+      "original_proxy_s": 3669.7792386760652,
+      "selected_proxy_s": 3669.7792386760652,
+      "original_travel_m": 15701.274946267164,
+      "selected_travel_m": 15701.274946267164,
+      "original_scan_fee_proxy_s": 529.5242494226328,
+      "selected_scan_fee_proxy_s": 529.5242494226328,
+      "original_order": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        20,
+        9,
+        8,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "selected_order": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        20,
+        9,
+        8,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "first_task_changed": false,
+      "route_nodes": 21,
+      "scan_nodes": 20,
+      "two_opt_evaluations": 1890,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 9,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 20
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 86,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 99.38651331936804,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 87,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 88,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 89,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 90,
+      "position": [
+        -248.46628329842065,
+        -927.2887932375054
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 645,
+      "expected_remaining_sources": 0.8344113842173351,
+      "total_count_posterior": {
+        "15": 0.16558861578266493,
+        "16": 0.8344113842173351
+      },
+      "original_proxy_s": 3545.629148637816,
+      "selected_proxy_s": 3545.629148637816,
+      "original_travel_m": 15204.342379670321,
+      "selected_travel_m": 15204.342379670321,
+      "original_scan_fee_proxy_s": 504.76067270375165,
+      "selected_scan_fee_proxy_s": 504.76067270375165,
+      "original_order": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        19,
+        8,
+        7,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "selected_order": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        19,
+        8,
+        7,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "first_task_changed": false,
+      "route_nodes": 20,
+      "scan_nodes": 19,
+      "two_opt_evaluations": 1520,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 8,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 19
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 91,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 99.38651331936786,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 92,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 93,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 94,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 95,
+      "position": [
+        -678.8225099390858,
+        -678.8225099390855
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 561,
+      "expected_remaining_sources": 0.8142235123367199,
+      "total_count_posterior": {
+        "15": 0.18577648766328012,
+        "16": 0.8142235123367199
+      },
+      "original_proxy_s": 3421.4558377961184,
+      "selected_proxy_s": 3421.4558377961184,
+      "original_travel_m": 14707.40981307348,
+      "selected_travel_m": 14707.40981307348,
+      "original_scan_fee_proxy_s": 479.9738751814224,
+      "selected_scan_fee_proxy_s": 479.9738751814224,
+      "original_order": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        18,
+        7,
+        6,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "selected_order": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        18,
+        7,
+        6,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "first_task_changed": false,
+      "route_nodes": 19,
+      "scan_nodes": 18,
+      "two_opt_evaluations": 1197,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 7,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 18
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 96,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 99.38651331936794,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 97,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 98,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 99,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 100,
+      "position": [
+        -927.2887932375056,
+        -248.46628329841997
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 467,
+      "expected_remaining_sources": 0.7848739495798319,
+      "total_count_posterior": {
+        "15": 0.21512605042016808,
+        "16": 0.7848739495798319
+      },
+      "original_proxy_s": 3298.7004913121345,
+      "selected_proxy_s": 3298.7004913121345,
+      "original_travel_m": 14210.47724647664,
+      "selected_travel_m": 14210.47724647664,
+      "original_scan_fee_proxy_s": 456.60504201680675,
+      "selected_scan_fee_proxy_s": 456.60504201680675,
+      "original_order": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        17,
+        6,
+        5,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "selected_order": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        17,
+        6,
+        5,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "first_task_changed": false,
+      "route_nodes": 18,
+      "scan_nodes": 17,
+      "two_opt_evaluations": 1224,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 6,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 17
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 101,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 99.38651331936794,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 102,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 103,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 104,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 105,
+      "position": [
+        -927.2887932375056,
+        248.46628329841974
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 373,
+      "expected_remaining_sources": 0.7445109780439122,
+      "total_count_posterior": {
+        "15": 0.2554890219560878,
+        "16": 0.7445109780439122
+      },
+      "original_proxy_s": 3177.3077383711698,
+      "selected_proxy_s": 3177.3077383711698,
+      "original_travel_m": 13713.544679879802,
+      "selected_travel_m": 13713.544679879802,
+      "original_scan_fee_proxy_s": 434.59880239520953,
+      "selected_scan_fee_proxy_s": 434.59880239520953,
+      "original_order": [
+        3,
+        2,
+        1,
+        0,
+        16,
+        5,
+        4,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "selected_order": [
+        3,
+        2,
+        1,
+        0,
+        16,
+        5,
+        4,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "first_task_changed": false,
+      "route_nodes": 17,
+      "scan_nodes": 16,
+      "two_opt_evaluations": 1360,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 5,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 16
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 9,
+      "event": 106,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 99.38651331936804,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 107,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 108,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 109,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 110,
+      "position": [
+        -678.8225099390855,
+        678.8225099390856
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "discovery_fee_route",
+      "applied": false,
+      "unknown": 5,
+      "discovered": 15,
+      "surviving_hypotheses": 290,
+      "expected_remaining_sources": 0.69377990430622,
+      "total_count_posterior": {
+        "15": 0.30622009569377995,
+        "16": 0.69377990430622
+      },
+      "original_proxy_s": 3056.7769681111376,
+      "selected_proxy_s": 3056.7769681111376,
+      "original_travel_m": 13216.612113282961,
+      "selected_travel_m": 13216.612113282961,
+      "original_scan_fee_proxy_s": 413.45454545454544,
+      "selected_scan_fee_proxy_s": 413.45454545454544,
+      "original_order": [
+        2,
+        1,
+        0,
+        15,
+        4,
+        3,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "selected_order": [
+        2,
+        1,
+        0,
+        15,
+        4,
+        3,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "first_task_changed": false,
+      "route_nodes": 16,
+      "scan_nodes": 15,
+      "two_opt_evaluations": 960,
+      "cloud_is_scoring_only": true
+    },
+    {
+      "phase": "task_choice",
+      "task": "scan",
+      "index": 4,
+      "known": 1,
+      "unknown": 5,
+      "pending_stations": 15
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 13,
+      "event": 111,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 99.38651331936799,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 1,
+      "event": 112,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 5,
+      "event": 113,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 0.0,
+      "result": "no_signal"
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "scan",
+      "channel": 7,
+      "event": 114,
+      "position": [
+        -248.4662832984198,
+        927.2887932375056
+      ],
+      "move_s": 0.0,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 7,
+      "polygon": [
+        [
+          1151.4445419212254,
+          387.28359896655473
+        ],
+        [
+          1167.4880274593004,
+          432.1221372636328
+        ],
+        [
+          -248.4662832984195,
+          927.2887932375056
+        ],
+        [
+          1149.5274734369282,
+          382.65538623176633
+        ]
+      ],
+      "positives": [
+        [
+          -248.4662832984198,
+          927.2887932375056
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          927.2887932375054,
+          -248.4662832984207
+        ],
+        [
+          678.8225099390854,
+          -678.8225099390858
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          -678.8225099390858,
+          -678.8225099390855
+        ],
+        [
+          -927.2887932375056,
+          -248.46628329841997
+        ],
+        [
+          -927.2887932375056,
+          248.46628329841974
+        ],
+        [
+          -678.8225099390855,
+          678.8225099390856
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 7,
+      "known": 2,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "decision",
+      "channel": 7,
+      "action": "measure",
+      "predicted_s": 245.5993375404919,
+      "optical_s": 467.22768474671517,
+      "signal_mass": 1.0,
+      "scenarios": 58,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 7,
+      "event": 115,
+      "position": [
+        489.4225461747178,
+        755.6248814848948
+      ],
+      "move_s": 151.51876758467185,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 7,
+      "polygon": [
+        [
+          1151.4445419212254,
+          387.28359896655473
+        ],
+        [
+          1155.0758025614148,
+          397.4322925839981
+        ],
+        [
+          947.9095091619531,
+          508.90989785939075
+        ],
+        [
+          857.7314919343037,
+          540.4456239020441
+        ],
+        [
+          1084.3480529024616,
+          408.04812471955825
+        ],
+        [
+          1149.5274734369282,
+          382.65538623176633
+        ]
+      ],
+      "positives": [
+        [
+          -248.4662832984198,
+          927.2887932375056
+        ],
+        [
+          489.4225461747178,
+          755.6248814848948
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          927.2887932375054,
+          -248.4662832984207
+        ],
+        [
+          678.8225099390854,
+          -678.8225099390858
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          -678.8225099390858,
+          -678.8225099390855
+        ],
+        [
+          -927.2887932375056,
+          -248.46628329841997
+        ],
+        [
+          -927.2887932375056,
+          248.46628329841974
+        ],
+        [
+          -678.8225099390855,
+          678.8225099390856
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 19,
+      "known": 2,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "optical_plan",
+      "channel": 19,
+      "polygon": [
+        [
+          964.1117264008917,
+          1251.5337167015794
+        ],
+        [
+          923.2308902094425,
+          1251.5337167015794
+        ],
+        [
+          927.2887932375054,
+          -248.46628329842065
+        ],
+        [
+          975.8508796059734,
+          1250.9570090856525
+        ]
+      ],
+      "path": [
+        [
+          962.3663935331888,
+          1237.6793034012771
+        ],
+        [
+          961.6844873634964,
+          1209.9015256234993
+        ],
+        [
+          961.0025811938041,
+          1182.1237478457217
+        ],
+        [
+          960.3206750241118,
+          1154.3459700679439
+        ],
+        [
+          959.6387688544194,
+          1126.568192290166
+        ],
+        [
+          958.9568626847271,
+          1098.7904145123882
+        ],
+        [
+          958.2749565150348,
+          1071.0126367346106
+        ],
+        [
+          957.5930503453424,
+          1043.2348589568328
+        ],
+        [
+          956.9111441756501,
+          1015.457081179055
+        ],
+        [
+          956.2292380059577,
+          987.6793034012773
+        ],
+        [
+          955.5473318362654,
+          959.9015256234994
+        ],
+        [
+          954.8654256665731,
+          932.1237478457216
+        ],
+        [
+          954.1835194968806,
+          904.3459700679439
+        ],
+        [
+          953.5016133271884,
+          876.568192290166
+        ],
+        [
+          952.819707157496,
+          848.7904145123883
+        ],
+        [
+          952.1378009878036,
+          821.0126367346105
+        ],
+        [
+          951.4558948181113,
+          793.2348589568328
+        ],
+        [
+          950.7739886484189,
+          765.457081179055
+        ],
+        [
+          950.0920824787266,
+          737.6793034012771
+        ],
+        [
+          949.4101763090343,
+          709.9015256234994
+        ],
+        [
+          948.7282701393419,
+          682.1237478457216
+        ],
+        [
+          948.0463639696496,
+          654.3459700679439
+        ],
+        [
+          947.3644577999573,
+          626.5681922901662
+        ],
+        [
+          946.6825516302649,
+          598.7904145123882
+        ],
+        [
+          946.0006454605726,
+          571.0126367346106
+        ],
+        [
+          945.3187392908803,
+          543.2348589568327
+        ],
+        [
+          944.6368331211879,
+          515.457081179055
+        ],
+        [
+          943.9549269514956,
+          487.67930340127725
+        ],
+        [
+          943.2730207818032,
+          459.9015256234993
+        ],
+        [
+          942.5911146121109,
+          432.12374784572165
+        ],
+        [
+          941.9092084424186,
+          404.3459700679439
+        ],
+        [
+          941.2273022727262,
+          376.568192290166
+        ],
+        [
+          940.5453961030339,
+          348.79041451238834
+        ],
+        [
+          939.8634899333416,
+          321.0126367346104
+        ],
+        [
+          939.1815837636492,
+          293.2348589568328
+        ],
+        [
+          938.4996775939569,
+          265.45708117905497
+        ],
+        [
+          937.8177714242645,
+          237.67930340127702
+        ],
+        [
+          937.1358652545722,
+          209.9015256234993
+        ],
+        [
+          936.4539590848799,
+          182.1237478457216
+        ],
+        [
+          935.7720529151875,
+          154.34597006794377
+        ],
+        [
+          935.0901467454952,
+          126.56819229016605
+        ],
+        [
+          934.4082405758029,
+          98.79041451238811
+        ],
+        [
+          933.7263344061105,
+          71.01263673461051
+        ],
+        [
+          933.0444282364182,
+          43.234858956832795
+        ],
+        [
+          932.3625220667259,
+          15.457081179054967
+        ],
+        [
+          931.6806158970335,
+          -12.320696598722975
+        ],
+        [
+          930.9987097273412,
+          -40.09847437650069
+        ],
+        [
+          930.3168035576488,
+          -67.87625215427829
+        ],
+        [
+          929.6348973879565,
+          -95.65402993205623
+        ],
+        [
+          928.9529912182642,
+          -123.43180770983383
+        ],
+        [
+          928.2710850485718,
+          -151.20958548761132
+        ],
+        [
+          927.5891788788795,
+          -178.9873632653896
+        ],
+        [
+          926.9072727091872,
+          -206.7651410431672
+        ],
+        [
+          926.2253665394948,
+          -234.5429188209448
+        ],
+        [
+          899.9241431862871,
+          -233.8972600278446
+        ],
+        [
+          900.6060493559794,
+          -206.119482250067
+        ],
+        [
+          901.2879555256717,
+          -178.3417044722894
+        ],
+        [
+          901.9698616953641,
+          -150.5639266945111
+        ],
+        [
+          902.6517678650564,
+          -122.78614891673351
+        ],
+        [
+          903.3336740347488,
+          -95.00837113895591
+        ],
+        [
+          904.0155802044411,
+          -67.23059336117797
+        ],
+        [
+          904.6974863741334,
+          -39.452815583400366
+        ],
+        [
+          905.3793925438258,
+          -11.675037805622651
+        ],
+        [
+          906.0612987135181,
+          16.10273997215529
+        ],
+        [
+          906.7432048832104,
+          43.88051774993312
+        ],
+        [
+          907.4251110529028,
+          71.65829552771083
+        ],
+        [
+          908.1070172225951,
+          99.43607330548843
+        ],
+        [
+          908.7889233922874,
+          127.21385108326638
+        ],
+        [
+          909.4708295619798,
+          154.9916288610441
+        ],
+        [
+          910.1527357316721,
+          182.76940663882192
+        ],
+        [
+          910.8346419013645,
+          210.54718441659963
+        ],
+        [
+          911.5165480710568,
+          238.32496219437735
+        ],
+        [
+          912.1984542407491,
+          266.1027399721553
+        ],
+        [
+          912.8803604104415,
+          293.8805177499331
+        ],
+        [
+          913.5622665801338,
+          321.6582955277107
+        ],
+        [
+          914.2441727498261,
+          349.43607330548866
+        ],
+        [
+          914.9260789195185,
+          377.2138510832663
+        ],
+        [
+          915.6079850892108,
+          404.9916288610442
+        ],
+        [
+          916.2898912589033,
+          432.769406638822
+        ],
+        [
+          916.9717974285956,
+          460.54718441659963
+        ],
+        [
+          917.6537035982878,
+          488.3249621943776
+        ],
+        [
+          918.3356097679803,
+          516.1027399721552
+        ],
+        [
+          919.0175159376726,
+          543.880517749933
+        ],
+        [
+          919.6994221073649,
+          571.6582955277108
+        ],
+        [
+          920.3813282770573,
+          599.4360733054885
+        ],
+        [
+          921.0632344467496,
+          627.2138510832665
+        ],
+        [
+          921.7451406164419,
+          654.9916288610441
+        ],
+        [
+          922.4270467861343,
+          682.7694066388219
+        ],
+        [
+          923.1089529558266,
+          710.5471844165997
+        ],
+        [
+          923.790859125519,
+          738.3249621943775
+        ],
+        [
+          924.4727652952113,
+          766.1027399721553
+        ],
+        [
+          925.1546714649036,
+          793.8805177499331
+        ],
+        [
+          925.836577634596,
+          821.6582955277108
+        ],
+        [
+          926.5184838042883,
+          849.4360733054887
+        ],
+        [
+          927.2003899739806,
+          877.2138510832664
+        ],
+        [
+          927.882296143673,
+          904.9916288610442
+        ],
+        [
+          928.5642023133653,
+          932.7694066388219
+        ],
+        [
+          929.2461084830577,
+          960.5471844165997
+        ],
+        [
+          929.92801465275,
+          988.3249621943776
+        ],
+        [
+          930.6099208224423,
+          1016.1027399721553
+        ],
+        [
+          931.2918269921347,
+          1043.880517749933
+        ],
+        [
+          931.973733161827,
+          1071.6582955277108
+        ],
+        [
+          932.6556393315193,
+          1099.4360733054887
+        ],
+        [
+          933.3375455012117,
+          1127.2138510832665
+        ],
+        [
+          934.019451670904,
+          1154.9916288610443
+        ],
+        [
+          934.7013578405964,
+          1182.769406638822
+        ],
+        [
+          935.3832640102887,
+          1210.5471844165997
+        ],
+        [
+          936.065170179981,
+          1238.3249621943776
+        ]
+      ],
+      "score": 535.7317607149057,
+      "worst_s": 1055.3914301238574,
+      "mean_s": 405.81684336266767,
+      "origin": [
+        947.6205723634532,
+        876.3895397975975
+      ],
+      "rotation": [
+        [
+          -0.02454122852291106,
+          0.9996988186962042
+        ],
+        [
+          -0.9996988186962042,
+          -0.02454122852291106
+        ]
+      ],
+      "lower": [
+        -375.4359036715098,
+        -33.58883541218044
+      ],
+      "upper": [
+        1125.0160043904432,
+        19.029458940731725
+      ],
+      "cells": [
+        54,
+        2
+      ],
+      "cell_radius": 19.13270210561159
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 116,
+      "position": [
+        962.3663935331888,
+        1237.6793034012771
+      ],
+      "move_s": 135.06329604202176,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 117,
+      "position": [
+        961.6844873634964,
+        1209.9015256234993
+      ],
+      "move_s": 5.5572292891183555,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 118,
+      "position": [
+        961.0025811938041,
+        1182.1237478457217
+      ],
+      "move_s": 5.557229289118308,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 119,
+      "position": [
+        960.3206750241118,
+        1154.3459700679439
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 120,
+      "position": [
+        959.6387688544194,
+        1126.568192290166
+      ],
+      "move_s": 5.5572292891183555,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 121,
+      "position": [
+        958.9568626847271,
+        1098.7904145123882
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 122,
+      "position": [
+        958.2749565150348,
+        1071.0126367346106
+      ],
+      "move_s": 5.557229289118308,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 123,
+      "position": [
+        957.5930503453424,
+        1043.2348589568328
+      ],
+      "move_s": 5.5572292891183555,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 124,
+      "position": [
+        956.9111441756501,
+        1015.457081179055
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 125,
+      "position": [
+        956.2292380059577,
+        987.6793034012773
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 126,
+      "position": [
+        955.5473318362654,
+        959.9015256234994
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 127,
+      "position": [
+        954.8654256665731,
+        932.1237478457216
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 128,
+      "position": [
+        954.1835194968806,
+        904.3459700679439
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 129,
+      "position": [
+        953.5016133271884,
+        876.568192290166
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 130,
+      "position": [
+        952.819707157496,
+        848.7904145123883
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 131,
+      "position": [
+        952.1378009878036,
+        821.0126367346105
+      ],
+      "move_s": 5.5572292891183555,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 132,
+      "position": [
+        951.4558948181113,
+        793.2348589568328
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 133,
+      "position": [
+        950.7739886484189,
+        765.457081179055
+      ],
+      "move_s": 5.5572292891183555,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 134,
+      "position": [
+        950.0920824787266,
+        737.6793034012771
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 135,
+      "position": [
+        949.4101763090343,
+        709.9015256234994
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 136,
+      "position": [
+        948.7282701393419,
+        682.1237478457216
+      ],
+      "move_s": 5.5572292891183555,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 137,
+      "position": [
+        948.0463639696496,
+        654.3459700679439
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 138,
+      "position": [
+        947.3644577999573,
+        626.5681922901662
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 139,
+      "position": [
+        946.6825516302649,
+        598.7904145123882
+      ],
+      "move_s": 5.557229289118377,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 140,
+      "position": [
+        946.0006454605726,
+        571.0126367346106
+      ],
+      "move_s": 5.557229289118308,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 141,
+      "position": [
+        945.3187392908803,
+        543.2348589568327
+      ],
+      "move_s": 5.557229289118377,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 142,
+      "position": [
+        944.6368331211879,
+        515.457081179055
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 143,
+      "position": [
+        943.9549269514956,
+        487.67930340127725
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 144,
+      "position": [
+        943.2730207818032,
+        459.9015256234993
+      ],
+      "move_s": 5.557229289118377,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 145,
+      "position": [
+        942.5911146121109,
+        432.12374784572165
+      ],
+      "move_s": 5.55722928911832,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 146,
+      "position": [
+        941.9092084424186,
+        404.3459700679439
+      ],
+      "move_s": 5.557229289118342,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 147,
+      "position": [
+        941.2273022727262,
+        376.568192290166
+      ],
+      "move_s": 5.557229289118366,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 148,
+      "position": [
+        940.5453961030339,
+        348.79041451238834
+      ],
+      "move_s": 5.55722928911832,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 149,
+      "position": [
+        939.8634899333416,
+        321.0126367346104
+      ],
+      "move_s": 5.557229289118377,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 150,
+      "position": [
+        939.1815837636492,
+        293.2348589568328
+      ],
+      "move_s": 5.557229289118309,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 151,
+      "position": [
+        938.4996775939569,
+        265.45708117905497
+      ],
+      "move_s": 5.557229289118354,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 152,
+      "position": [
+        937.8177714242645,
+        237.67930340127702
+      ],
+      "move_s": 5.557229289118377,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 153,
+      "position": [
+        937.1358652545722,
+        209.9015256234993
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 154,
+      "position": [
+        936.4539590848799,
+        182.1237478457216
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 155,
+      "position": [
+        935.7720529151875,
+        154.34597006794377
+      ],
+      "move_s": 5.5572292891183555,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 156,
+      "position": [
+        935.0901467454952,
+        126.56819229016605
+      ],
+      "move_s": 5.5572292891183315,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 157,
+      "position": [
+        934.4082405758029,
+        98.79041451238811
+      ],
+      "move_s": 5.557229289118377,
+      "result": "no_target_in_range"
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "optical_cover",
+      "channel": 19,
+      "event": 158,
+      "position": [
+        933.7263344061105,
+        71.01263673461051
+      ],
+      "move_s": 5.557229289118309,
+      "result": "success"
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 7,
+      "known": 1,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "decision",
+      "channel": 7,
+      "action": "measure",
+      "predicted_s": 124.89524229372009,
+      "optical_s": 129.01627138869756,
+      "signal_mass": 0.8541666666666666,
+      "scenarios": 48,
+      "type_costs": null
+    },
+    {
+      "phase": "actual_action",
+      "action": "measure",
+      "reason": "source_measure",
+      "channel": 7,
+      "event": 159,
+      "position": [
+        1022.6560128398503,
+        496.73560347930146
+      ],
+      "move_s": 86.98241940075698,
+      "result": "direction"
+    },
+    {
+      "phase": "belief",
+      "channel": 7,
+      "polygon": [
+        [
+          1020.4726643430404,
+          469.86316570003976
+        ],
+        [
+          1019.5768641827568,
+          470.3452019185532
+        ],
+        [
+          1016.9055748137915,
+          447.4504322978829
+        ],
+        [
+          1018.5725329238959,
+          446.47653575617875
+        ]
+      ],
+      "positives": [
+        [
+          -248.4662832984198,
+          927.2887932375056
+        ],
+        [
+          489.4225461747178,
+          755.6248814848948
+        ],
+        [
+          1022.6560128398503,
+          496.73560347930146
+        ]
+      ],
+      "negatives": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          927.2887932375056,
+          248.4662832984199
+        ],
+        [
+          927.2887932375054,
+          -248.4662832984207
+        ],
+        [
+          678.8225099390854,
+          -678.8225099390858
+        ],
+        [
+          248.46628329841948,
+          -927.2887932375057
+        ],
+        [
+          -248.46628329842065,
+          -927.2887932375054
+        ],
+        [
+          -678.8225099390858,
+          -678.8225099390855
+        ],
+        [
+          -927.2887932375056,
+          -248.46628329841997
+        ],
+        [
+          -927.2887932375056,
+          248.46628329841974
+        ],
+        [
+          -678.8225099390855,
+          678.8225099390856
+        ]
+      ]
+    },
+    {
+      "phase": "task_choice",
+      "task": "source",
+      "index": 7,
+      "known": 1,
+      "unknown": 0,
+      "pending_stations": 0
+    },
+    {
+      "phase": "actual_action",
+      "action": "clear",
+      "reason": "certified_clear",
+      "channel": 7,
+      "event": 160,
+      "position": [
+        1019.8247404609046,
+        466.4372956679942
+      ],
+      "move_s": 6.086061319153805,
+      "result": "success"
+    }
+  ]
+}

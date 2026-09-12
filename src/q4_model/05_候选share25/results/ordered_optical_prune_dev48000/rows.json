@@ -1,0 +1,781 @@
+[
+  {
+    "seed": 48000,
+    "population": "uniform",
+    "variant": "share25",
+    "runtime_s": 4.120394099998521,
+    "audit": {
+      "passed": true,
+      "events": 399,
+      "polygons": 37,
+      "optical_plans": 8,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6900.92285799389,
+      "counts": {
+        "measure": 337,
+        "switch": 321,
+        "clear_success": 10,
+        "clear_fail": 52
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 0,
+        "rows": [],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6900.92285799389,
+    "average_s": 690.092285799389,
+    "distance_m": 23444.61428996946,
+    "counts": {
+      "measure": 337,
+      "switch": 321,
+      "clear_success": 10,
+      "clear_fail": 52
+    },
+    "time_parts_s": {
+      "move": 4688.922857993892,
+      "measure": 1685,
+      "switch": 321,
+      "clear_success": 50,
+      "clear_fail": 156
+    }
+  },
+  {
+    "seed": 48000,
+    "population": "uniform",
+    "variant": "ordered_prune",
+    "runtime_s": 5.544693299976643,
+    "audit": {
+      "passed": true,
+      "events": 379,
+      "polygons": 37,
+      "optical_plans": 8,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6622.715331773155,
+      "counts": {
+        "measure": 337,
+        "switch": 321,
+        "clear_success": 10,
+        "clear_fail": 32
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 8,
+        "rows": [
+          {
+            "channel": 15,
+            "removed": 58,
+            "original_only": 18,
+            "additional_from_contraction": 40,
+            "contraction_applied": true
+          },
+          {
+            "channel": 13,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 20,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 4,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 2,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 58,
+        "original_only": 18,
+        "additional_from_contraction": 40
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6622.715331773155,
+    "average_s": 662.2715331773155,
+    "distance_m": 22353.57665886579,
+    "counts": {
+      "measure": 337,
+      "switch": 321,
+      "clear_success": 10,
+      "clear_fail": 32
+    },
+    "time_parts_s": {
+      "move": 4470.715331773158,
+      "measure": 1685,
+      "switch": 321,
+      "clear_success": 50,
+      "clear_fail": 96
+    }
+  },
+  {
+    "seed": 48100,
+    "population": "boundary",
+    "variant": "share25",
+    "runtime_s": 2.583220700005768,
+    "audit": {
+      "passed": true,
+      "events": 454,
+      "polygons": 24,
+      "optical_plans": 6,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6983.030678138958,
+      "counts": {
+        "measure": 416,
+        "switch": 398,
+        "clear_success": 10,
+        "clear_fail": 28
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 0,
+        "rows": [],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6983.030678138958,
+    "average_s": 698.3030678138958,
+    "distance_m": 21855.153390694853,
+    "counts": {
+      "measure": 416,
+      "switch": 398,
+      "clear_success": 10,
+      "clear_fail": 28
+    },
+    "time_parts_s": {
+      "move": 4371.030678138971,
+      "measure": 2080,
+      "switch": 398,
+      "clear_success": 50,
+      "clear_fail": 84
+    }
+  },
+  {
+    "seed": 48100,
+    "population": "boundary",
+    "variant": "ordered_prune",
+    "runtime_s": 3.1912829000211786,
+    "audit": {
+      "passed": true,
+      "events": 437,
+      "polygons": 24,
+      "optical_plans": 6,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6810.01816041166,
+      "counts": {
+        "measure": 416,
+        "switch": 398,
+        "clear_success": 10,
+        "clear_fail": 11
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 6,
+        "rows": [
+          {
+            "channel": 4,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 8,
+            "removed": 79,
+            "original_only": 3,
+            "additional_from_contraction": 76,
+            "contraction_applied": true
+          },
+          {
+            "channel": 20,
+            "removed": 113,
+            "original_only": 26,
+            "additional_from_contraction": 87,
+            "contraction_applied": true
+          },
+          {
+            "channel": 17,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 17,
+            "original_only": 0,
+            "additional_from_contraction": 17,
+            "contraction_applied": true
+          },
+          {
+            "channel": 7,
+            "removed": 69,
+            "original_only": 7,
+            "additional_from_contraction": 62,
+            "contraction_applied": true
+          }
+        ],
+        "removed": 278,
+        "original_only": 36,
+        "additional_from_contraction": 242
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6810.01816041166,
+    "average_s": 681.001816041166,
+    "distance_m": 21245.090802058316,
+    "counts": {
+      "measure": 416,
+      "switch": 398,
+      "clear_success": 10,
+      "clear_fail": 11
+    },
+    "time_parts_s": {
+      "move": 4249.018160411663,
+      "measure": 2080,
+      "switch": 398,
+      "clear_success": 50,
+      "clear_fail": 33
+    }
+  },
+  {
+    "seed": 48200,
+    "population": "cluster",
+    "variant": "share25",
+    "runtime_s": 9.736721399996895,
+    "audit": {
+      "passed": true,
+      "events": 233,
+      "polygons": 47,
+      "optical_plans": 10,
+      "triangle_certificates": 180,
+      "max_time_error_s": 0.0,
+      "total_s": 5304.326499304853,
+      "counts": {
+        "measure": 208,
+        "switch": 191,
+        "clear_success": 15,
+        "clear_fail": 10
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 0,
+        "rows": [],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      }
+    },
+    "source_count": 15,
+    "cleared": 15,
+    "all_cleared": true,
+    "total_s": 5304.326499304853,
+    "average_s": 353.62176662032357,
+    "distance_m": 19841.63249652427,
+    "counts": {
+      "measure": 208,
+      "switch": 191,
+      "clear_success": 15,
+      "clear_fail": 10
+    },
+    "time_parts_s": {
+      "move": 3968.326499304854,
+      "measure": 1040,
+      "switch": 191,
+      "clear_success": 75,
+      "clear_fail": 30
+    }
+  },
+  {
+    "seed": 48200,
+    "population": "cluster",
+    "variant": "ordered_prune",
+    "runtime_s": 10.231032100011362,
+    "audit": {
+      "passed": true,
+      "events": 233,
+      "polygons": 47,
+      "optical_plans": 10,
+      "triangle_certificates": 180,
+      "max_time_error_s": 0.0,
+      "total_s": 5304.326499304853,
+      "counts": {
+        "measure": 208,
+        "switch": 191,
+        "clear_success": 15,
+        "clear_fail": 10
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 10,
+        "rows": [
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 3,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 20,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 17,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 4,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      }
+    },
+    "source_count": 15,
+    "cleared": 15,
+    "all_cleared": true,
+    "total_s": 5304.326499304853,
+    "average_s": 353.62176662032357,
+    "distance_m": 19841.63249652427,
+    "counts": {
+      "measure": 208,
+      "switch": 191,
+      "clear_success": 15,
+      "clear_fail": 10
+    },
+    "time_parts_s": {
+      "move": 3968.326499304854,
+      "measure": 1040,
+      "switch": 191,
+      "clear_success": 75,
+      "clear_fail": 30
+    }
+  },
+  {
+    "seed": 48300,
+    "population": "omni_heavy",
+    "variant": "share25",
+    "runtime_s": 5.6515057000215165,
+    "audit": {
+      "passed": true,
+      "events": 286,
+      "polygons": 37,
+      "optical_plans": 9,
+      "triangle_certificates": 288,
+      "max_time_error_s": 0.0,
+      "total_s": 5542.990326203382,
+      "counts": {
+        "measure": 267,
+        "switch": 251,
+        "clear_success": 12,
+        "clear_fail": 7
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 0,
+        "rows": [],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      }
+    },
+    "source_count": 12,
+    "cleared": 12,
+    "all_cleared": true,
+    "total_s": 5542.990326203382,
+    "average_s": 461.9158605169485,
+    "distance_m": 19379.951631016917,
+    "counts": {
+      "measure": 267,
+      "switch": 251,
+      "clear_success": 12,
+      "clear_fail": 7
+    },
+    "time_parts_s": {
+      "move": 3875.990326203383,
+      "measure": 1335,
+      "switch": 251,
+      "clear_success": 60,
+      "clear_fail": 21
+    }
+  },
+  {
+    "seed": 48300,
+    "population": "omni_heavy",
+    "variant": "ordered_prune",
+    "runtime_s": 5.974627400020836,
+    "audit": {
+      "passed": true,
+      "events": 286,
+      "polygons": 37,
+      "optical_plans": 9,
+      "triangle_certificates": 288,
+      "max_time_error_s": 0.0,
+      "total_s": 5542.990326203382,
+      "counts": {
+        "measure": 267,
+        "switch": 251,
+        "clear_success": 12,
+        "clear_fail": 7
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 9,
+        "rows": [
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 20,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 3,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 1,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 13,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 10,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      }
+    },
+    "source_count": 12,
+    "cleared": 12,
+    "all_cleared": true,
+    "total_s": 5542.990326203382,
+    "average_s": 461.9158605169485,
+    "distance_m": 19379.951631016917,
+    "counts": {
+      "measure": 267,
+      "switch": 251,
+      "clear_success": 12,
+      "clear_fail": 7
+    },
+    "time_parts_s": {
+      "move": 3875.990326203383,
+      "measure": 1335,
+      "switch": 251,
+      "clear_success": 60,
+      "clear_fail": 21
+    }
+  },
+  {
+    "seed": 48400,
+    "population": "dir_heavy",
+    "variant": "share25",
+    "runtime_s": 6.356544999987818,
+    "audit": {
+      "passed": true,
+      "events": 315,
+      "polygons": 48,
+      "optical_plans": 9,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 6496.50329452397,
+      "counts": {
+        "measure": 287,
+        "switch": 271,
+        "clear_success": 14,
+        "clear_fail": 14
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 0,
+        "rows": [],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6496.50329452397,
+    "average_s": 464.035949608855,
+    "distance_m": 23392.51647261984,
+    "counts": {
+      "measure": 287,
+      "switch": 271,
+      "clear_success": 14,
+      "clear_fail": 14
+    },
+    "time_parts_s": {
+      "move": 4678.503294523968,
+      "measure": 1435,
+      "switch": 271,
+      "clear_success": 70,
+      "clear_fail": 42
+    }
+  },
+  {
+    "seed": 48400,
+    "population": "dir_heavy",
+    "variant": "ordered_prune",
+    "runtime_s": 6.774055400019279,
+    "audit": {
+      "passed": true,
+      "events": 315,
+      "polygons": 48,
+      "optical_plans": 9,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 6496.50329452397,
+      "counts": {
+        "measure": 287,
+        "switch": 271,
+        "clear_success": 14,
+        "clear_fail": 14
+      },
+      "ordered_prune": {
+        "passed": true,
+        "plans": 9,
+        "rows": [
+          {
+            "channel": 14,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 6,
+            "removed": 66,
+            "original_only": 0,
+            "additional_from_contraction": 66,
+            "contraction_applied": true
+          },
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 2,
+            "removed": 41,
+            "original_only": 0,
+            "additional_from_contraction": 41,
+            "contraction_applied": true
+          },
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 10,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 16,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 107,
+        "original_only": 0,
+        "additional_from_contraction": 107
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6496.50329452397,
+    "average_s": 464.035949608855,
+    "distance_m": 23392.51647261984,
+    "counts": {
+      "measure": 287,
+      "switch": 271,
+      "clear_success": 14,
+      "clear_fail": 14
+    },
+    "time_parts_s": {
+      "move": 4678.503294523968,
+      "measure": 1435,
+      "switch": 271,
+      "clear_success": 70,
+      "clear_fail": 42
+    }
+  }
+]

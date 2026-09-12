@@ -1,0 +1,50 @@
+{
+  "local_only": true,
+  "official_contacted": false,
+  "source_sha256": {
+    "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "q4_model/negative_region.py": "55389254f37177805a0d6269e4fb3fa35180d764f098f84b9c2d243441056bf6",
+    "q4_model/ordered_optical_prune.py": "2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a",
+    "q4_model/negative_region_proof.py": "2b7a9abb3ad39cbf829aebceaa7171b6b270e130d2b785cdc4e8354ccd9b76ca",
+    "q4_model/prune_proof.py": "94b2875ffd20c6c46a87a136a4d91e8a9bb5851f1646c7e2a491ced63e9d0283",
+    "q4_model/q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "q4_model/q4_share25_prune_client.py": "346ee3a02db3fc6c2a36ba58c073179b7bc2ff73894df73e5e89ee0018153e4d",
+    "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "q3_model_v2/official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e"
+  },
+  "validation_sha256": {
+    "src/q4_model/05_候选share25/code/validate_share25_prune_http.py": "263c0ab5da1841fc8d0ee880eb5dfeae4d4f7d80425c82323db81c599019836f",
+    "src/q4_model/02_主方案25站_shared/code/local_http_fixture.py": "6483c93b109a314479ff03bd938309e92609b04c56f8a95be36ed8db6683ee75",
+    "src/q3_model_v2/00_主方案_lean/code/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src/q4_model/00_公共几何与定位/code/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+    "src/q4_model/05_候选share25/code/audit_ordered_optical_prune_v1.py": "13d562a16c5fea431a94ebd9aa6d9bfd4a6fbaa1c636d564ad0eee6199b90112",
+    "src/q4_model/05_候选share25/code/audit_ordered_optical_prune_v2.py": "30f101648201c6f093f6fe82141f468a51489c7d78848d0eea64ad7e082c5cb1",
+    "src/q4_model/05_候选share25/code/audit_negative_region_boxes_v1.py": "87dbba7acb97e47e62aedeed18a54a0a109cdf932d092be44691698bcd014c59",
+    "src/q4_model/05_候选share25/code/ordered_optical_prune_experiment.py": "1717df71ff1d3307375427d5c17608390b96e94752e4cd11168229d3a6fe7e97",
+    "src/q4_model/05_候选share25/code/negative_region_boxes_v1.py": "020a8f9088c9710412753d3d027d5d44d3a996f1b6bb7cb8e67b023c1a3e2da5",
+    "src/q4_model/05_候选share25/code/continuous_hypothesis_experiment.py": "e13506bb3106594c9bad7ff016dcdec262c650c6470205bc15df1aca8f3667f1",
+    "src/q4_model/05_候选share25/code/late_negative_optical_experiment.py": "191bb642dbaa5a650f6d43571cdaa8c226806002257924527b44febf112fc649",
+    "src/q4_model/05_候选share25/code/refined_cover_audit.py": "592eadb386b6500ce07496079bf16df3d1bb3a1c7205da133689a1a204fcc06a"
+  },
+  "python": "3.14.0",
+  "cases": [
+    {
+      "file": "src\\q4_model\\05_候选share25\\results\\ordered_optical_prune_dev48000\\48000-uniform-share25.json",
+      "sha256": "bbc0524e74634f5eedd3b5b47c5c12b4b622910d9837d70c33e28d932efdd747",
+      "field": "smooth"
+    },
+    {
+      "file": "src\\q4_model\\05_候选share25\\results\\station22_ordered_prune_pressure53000\\53300-omni_heavy-extreme-share25.json",
+      "sha256": "65723f51abf1ec94a3080443c753c23d98513b7ff532152e8e56033be8c19def",
+      "field": "extreme"
+    }
+  ],
+  "policy": "Only owned 127.0.0.1:0 fixture URLs, explicitly reject port 2026; no PYTHONPATH.",
+  "scope": "Production transport/entry/proof equivalence; not model selection or performance testing."
+}

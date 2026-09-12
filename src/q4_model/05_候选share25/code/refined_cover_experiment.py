@@ -1,0 +1,290 @@
+# Local development prototype with exact certificate gates; not an official entry.
+# Frozen localization, service, optical fallback and known-source sharing are retained.
+"""Isolated 25-station tests of resumed tasks and sharing at service stops.
+
+The coverage, local sensing score, complete optical fallback, and scan-stop
+sharing are the frozen ``joint_solver/shared`` choices. Only the timing of
+global replanning and additional sharing at already reached service stops vary.
+"""
+from pathlib import Path
+import sys
+Q4 = next(p for p in Path(__file__).resolve().parents if (p/'polar_cover.py').is_file())
+sys.path.insert(0, str(Q4))
+import numpy as np
+from refined_cover_geometry import RefinedCover
+from refined_cover_audit import exact_plan_valid
+
+from localization import Belief, optical_plan, choose_measure
+from polar_cover import PolarCover
+from route_planning import open_route
+from guarded_policy import score_at
+from solver import accepted
+from shared import core
+
+
+VARIANTS = ('resume25', 'share25')
+
+
+def solve_multi(api, variant='resume25', trace=None, max_active_measures=6):
+    if variant not in VARIANTS:
+        raise ValueError('unknown task-sharing variant')
+    trace = [] if trace is None else trace
+    cover = RefinedCover()
+    remaining = set(range(25))
+    visited = set()
+    statistics = dict(opportunity_scans=0, extra_unknown_measures=0,
+                      retired_stations=[], proposals=0, fallback_restores=0,
+                      plan_audits=0, exact_plan_rejections=0, proxy_net_gain_s=0.)
+    beliefs, local_steps = {}, {}
+    cleared, discovered = set(), set()
+    calls = 0
+
+    def unknown():
+        if len(discovered) >= 16:
+            return []
+        return [c for c in range(1, 21) if c not in discovered and not cover.complete(c)]
+
+    def common_ledger():
+        channels = unknown()
+        if not channels:
+            return channels, []
+        signature = tuple(map(tuple, cover.negative[channels[0]]))
+        assert all(tuple(map(tuple, cover.negative[c])) == signature for c in channels), 'unknown ledgers diverged'
+        return channels, cover.negative[channels[0]]
+
+    def mark_scanned(q):
+        for k in [k for k,p in enumerate(cover.fixed_stations) if np.array_equal(p, q)]:
+            visited.add(int(k))
+            remaining.discard(int(k))
+
+    def route_proxy(stations, q):
+        points = [cover.fixed_stations[k] for k in sorted(stations)]
+        points.extend(core.mec(b.P)[0] for b in beliefs.values())
+        if not points:
+            return 0.
+        points = np.asarray(points)
+        order = open_route(points, q)
+        path = np.vstack((q, points[order]))
+        return float(np.linalg.norm(np.diff(path, axis=0), axis=1).sum())
+
+    def opportunity_scan():
+        nonlocal remaining
+        channels, actual = common_ledger()
+        if not channels:
+            return
+        q = np.asarray(api.position).copy()
+        if any(np.linalg.norm(q-p) < 1e-7 for p in actual):
+            return
+        if not cover.joint_plan_valid(actual, remaining):
+            remaining = set(range(25))-visited
+            statistics['fallback_restores'] += 1
+            assert cover.joint_plan_valid(actual, remaining), 'original fixed-station fallback invalid'
+        original = remaining.copy()
+        proposed = original.copy()
+        at_q = {k for k,p in enumerate(cover.fixed_stations) if np.array_equal(p, q)}
+        proposed -= at_q
+        old_length = route_proxy(original, q)
+        order = sorted(proposed & set(range(1, 13)), key=lambda k: route_proxy(original-{k}, q))
+        for k in order:
+            if cover.joint_plan_valid(actual, proposed-{k}, extra=q):
+                proposed.remove(k)
+        deleted = original-proposed
+        if not deleted:
+            return
+        statistics['proposals'] += 1
+        new_length = route_proxy(proposed, q)
+        sensing_cost = 6*len(channels)
+        # For n unchanged unknown channels a future scan costs at least 6n-1:
+        # its first channel may already be selected. Charge this opportunity
+        # conservatively at 6n, keeping the same positive-net decision rule.
+        future_sensing_credit = (6*len(channels)-1)*len(deleted)
+        net = (old_length-new_length)/5+future_sensing_credit-sensing_cost
+        trace.append(dict(phase='opportunity_proposal', position=q.tolist(),
+            deleted=sorted(deleted), unknown=len(channels), scan_cost_s=sensing_cost,
+            future_sensing_credit_lower_bound_s=future_sensing_credit,
+            route_proxy_old_m=old_length, route_proxy_new_m=new_length,
+            conditional_all_negative_net_s=net, extra_points_are_hypothetical=True))
+        if net <= 0:
+            return
+        assert cover.joint_plan_valid(actual, proposed, extra=q, independent=True), 'independent proposed-plan audit failed'
+        hypothetical = list(actual)+[cover.fixed_stations[k] for k in sorted(proposed)]+[q]
+        if not exact_plan_valid(hypothetical):
+            statistics['exact_plan_rejections'] += 1
+            return
+        statistics['plan_audits'] += 1
+        statistics['opportunity_scans'] += 1
+        statistics['proxy_net_gain_s'] += net
+        for c in sorted(channels, key=lambda c: (c != api.channel, c)):
+            if len(discovered) == 16:
+                break
+            measure(q, c, 'opportunistic_unknown_scan')
+            statistics['extra_unknown_measures'] += 1
+        mark_scanned(q)
+        after, real = common_ledger()
+        proposed -= visited
+        if after:
+            real_plan = list(real)+[cover.fixed_stations[k] for k in sorted(proposed)]
+            if not (cover.joint_plan_valid(real, proposed, independent=True) and exact_plan_valid(real_plan)):
+                remaining = set(range(25))-visited
+                statistics['fallback_restores'] += 1
+                fallback = list(real)+[cover.fixed_stations[k] for k in sorted(remaining)]
+                assert exact_plan_valid(fallback), 'original fixed-station fallback invalid'
+                trace.append(dict(phase='opportunity_fallback', remaining=sorted(remaining)))
+                return
+            statistics['plan_audits'] += 1
+        remaining = proposed
+        statistics['retired_stations'].extend(sorted(deleted-at_q))
+        trace.append(dict(phase='opportunity_commit', position=q.tolist(),
+            retired=sorted(deleted-at_q), remaining=sorted(remaining),
+            unknown_after=len(after), real_negative_plan_audited=bool(after)))
+
+    def measure(q, c, reason):
+        nonlocal calls
+        before = np.asarray(api.position).copy()
+        calls += 1
+        reply = api.measure(q, c)
+        kind = accepted(reply, 'measure_result', ('no_signal', 'near', 'direction'))
+        trace.append(dict(phase='actual_action', action='measure', reason=reason, channel=c,
+                          event=calls, position=np.asarray(q).tolist(),
+                          move_s=float(np.linalg.norm(q-before))/5, result=kind))
+        if kind == 'no_signal':
+            cover.observe_negative(c, q)
+            if c in beliefs:
+                beliefs[c].update(q, reply)
+        elif c not in beliefs:
+            beliefs[c] = Belief(q, reply)
+            beliefs[c].negatives = [p.copy() for p in cover.negative[c]]
+            local_steps[c] = 0
+            discovered.add(c)
+        else:
+            beliefs[c].update(q, reply)
+        if c in beliefs:
+            b = beliefs[c]
+            trace.append(dict(phase='belief', channel=c, polygon=b.P.tolist(),
+                              positives=[x.tolist() for x in b.positives],
+                              negatives=[x.tolist() for x in b.negatives]))
+
+    def clear(q, c, reason):
+        nonlocal calls
+        before = np.asarray(api.position).copy()
+        calls += 1
+        kind = accepted(api.clear(q, c), 'clear_result', ('success', 'no_target_in_range'))
+        trace.append(dict(phase='actual_action', action='clear', reason=reason, channel=c,
+                          event=calls, position=np.asarray(q).tolist(),
+                          move_s=float(np.linalg.norm(q-before))/5, result=kind))
+        if kind == 'success':
+            cleared.add(c)
+            beliefs.pop(c, None)
+            return True
+        if c in beliefs:
+            beliefs[c].failed_clears.append(np.asarray(q).copy())
+        return False
+
+    def service(c):
+        belief = beliefs[c]
+        if belief.near is not None:
+            return 'cleared' if clear(belief.near, c, 'near_clear') else 'failed'
+        safe = core.nearest_certified_clear(belief.P, np.asarray(api.position))
+        if safe is not None:
+            return 'cleared' if clear(safe, c, 'certified_clear') else 'failed'
+        plan = optical_plan(belief.P, np.asarray(api.position))
+        action = (choose_measure(belief, np.asarray(api.position), c, api.channel)
+                  if local_steps[c] < max_active_measures else None)
+        if action is not None and action['score'] < plan['score']:
+            trace.append(dict(phase='decision', channel=c, action='measure',
+                              predicted_s=action['score'], optical_s=plan['score'],
+                              signal_mass=action['signal_mass'], scenarios=action['scenarios'],
+                              type_costs=action.get('type_costs')))
+            measure(action['q'], c, 'source_measure')
+            local_steps[c] += 1
+            # The global route is reconsidered after exactly one active view.
+            return 'measured'
+        trace.append(dict(phase='optical_plan', channel=c, polygon=belief.P.tolist(),
+                          **{k: (v.tolist() if isinstance(v, np.ndarray) else v)
+                             for k, v in plan.items()}))
+        # Failed optical attempts do not stop or truncate the continuous cover.
+        for q in plan['path']:
+            if clear(q, c, 'optical_cover'):
+                return 'cleared'
+        return 'failed'
+
+    def share_at_stop(newly_found):
+        q = np.asarray(api.position).copy()
+        choices = []
+        for c, b in list(beliefs.items()):
+            if np.max(np.linalg.norm(b.P-q, axis=1)) <= 20-1e-6:
+                if not clear(q, c, 'shared_clear'):
+                    return False
+                continue
+            if c in newly_found or min(np.linalg.norm(q-p) for p in b.measured) < 80:
+                continue
+            value = score_at(b, q, q, c, api.channel, robust=False)
+            if value is None:
+                continue
+            gain = optical_plan(b.P, q)['score']-value['score']
+            if gain > 0:
+                choices.append((gain, c))
+        for gain, c in sorted(choices, reverse=True)[:2]:
+            # Switching may have changed after the preceding shared action.
+            value = score_at(beliefs[c], q, q, c, api.channel, robust=False)
+            if value is not None and value['score'] < optical_plan(beliefs[c].P, q)['score']:
+                trace.append(dict(phase='shared_prediction', channel=c, gain_s=gain,
+                                  signal_mass=value['signal_mass']))
+                measure(q, c, 'shared_measure')
+        return True
+
+    def scan(q):
+        newly_found = set()
+        for c in sorted(unknown(), key=lambda c: (c != api.channel, c)):
+            if len(discovered) == 16:
+                break
+            if any(np.linalg.norm(q-p) < 1e-7 for p in cover.negative[c]):
+                continue
+            measure(q, c, 'scan')
+            if c in discovered:
+                newly_found.add(c)
+        ok = share_at_stop(newly_found)
+        mark_scanned(q)
+        return ok
+
+    if not scan(np.asarray(api.position).copy()):
+        return dict(complete=False, reason='shared_clear_conflict')
+    # Fixed stations are visited at most once for each still-unknown channel.
+    # Every source service either consumes one of six lifetime active views or
+    # clears it with a complete fallback. Sharing adds no outer iterations.
+    for _ in range(len(cover.fixed_stations)+16*(max_active_measures+1)+2):
+        absent = [c for c in range(1, 21) if c not in discovered and cover.complete(c)]
+        if len(cleared) == 16 or len(cleared)+len(absent) == 20:
+            return dict(complete=True, cleared=sorted(cleared), experiment=statistics, certificate=dict(
+                basis='count_upper_bound' if len(cleared) == 16 else 'directional_triangle_cover',
+                cleared=sorted(cleared), absent=absent,
+                channels={str(c): cover.certificate(c) for c in absent},
+                spacing=cover.spacing, stations=cover.stations.tolist(),
+                triangles=cover.indices.tolist()))
+        pending = sorted(remaining) if unknown() else []
+        tasks, points = [], []
+        for k in pending:
+            tasks.append(('scan', k))
+            points.append(cover.stations[k])
+        for c, b in beliefs.items():
+            tasks.append(('source', c))
+            points.append(core.mec(b.P)[0])
+        if not tasks:
+            break
+        order = open_route(np.asarray(points), api.position)
+        task, index = tasks[order[0]]
+        trace.append(dict(phase='task_choice', task=task, index=index, known=len(beliefs),
+                          unknown=len(unknown()), pending_stations=len(pending)))
+        if task == 'scan':
+            if not scan(cover.stations[index].copy()):
+                return dict(complete=False, reason='shared_clear_conflict')
+        else:
+            status = service(index)
+            if status == 'failed':
+                return dict(complete=False, reason='local_cover_or_feedback_conflict',
+                            cleared=sorted(cleared))
+            if variant == 'share25' and not share_at_stop(set()):
+                return dict(complete=False, reason='service_shared_clear_conflict',
+                            cleared=sorted(cleared))
+            opportunity_scan()
+    return dict(complete=False, reason='discovery_certificate_incomplete', cleared=sorted(cleared))

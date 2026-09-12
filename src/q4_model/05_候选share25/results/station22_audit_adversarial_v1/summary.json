@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "valid_control_passed": true,
+  "malformed_cases": [
+    {
+      "name": "missing_leaf",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "duplicate_leaf",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "insufficient_witness",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "incomplete_midpoint_tree",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "outer_vertex_removed",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "unobserved_nearby_negative",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "duplicate_absent_channel",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "unjustified_16_source_stop",
+      "rejected": true,
+      "error": "AssertionError"
+    },
+    {
+      "name": "negative_witness_index",
+      "rejected": true,
+      "error": "AssertionError"
+    }
+  ],
+  "source_hashes": {
+    "test_station22_audits_v1.py": "378d8fe4b4803908771cbc430c69777a3c4524a80d1c5373b68b8acb13e05b8f",
+    "audit_station_certificates_v1.py": "f5f5d4f49dd3c2e7fd57c3b88519070eedda24081c1a9173600b8914d6f62e8d",
+    "validate_station22_v1.py": "66c9d20674a384e56bba8208a8d649807fb0542e0ebf21ed51c42188448ad956"
+  },
+  "input_case_sha256": "2c58e061d8f7a6280eae9c909f997c82616d109e5a0e7b6f693945c7e2cf2977"
+}

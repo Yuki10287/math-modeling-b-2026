@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "candidate_model_sha256": "020a8f9088c9710412753d3d027d5d44d3a996f1b6bb7cb8e67b023c1a3e2da5",
+  "cases": [
+    {
+      "case": "38000-uniform-smooth-negative_contraction25.json",
+      "passed": true,
+      "attempts": 49,
+      "applied": 0,
+      "error_fallbacks": 0,
+      "reasons": {
+        "fewer_than_two_negative_measurements": 24,
+        "no_strict_area_reduction": 21,
+        "already_small_enough_for_single_clear": 4
+      },
+      "input_file_sha256": "12d0052f6a145bd31a193a5ff9c0df6ddcefd7b5b1e154178226d08910423240"
+    },
+    {
+      "case": "38100-boundary-smooth-negative_contraction25.json",
+      "passed": true,
+      "attempts": 35,
+      "applied": 9,
+      "error_fallbacks": 0,
+      "reasons": {
+        "no_strict_area_reduction": 21,
+        "strict_verified_area_reduction": 9,
+        "already_small_enough_for_single_clear": 5
+      },
+      "input_file_sha256": "8b6059ff2b5bd331d4755f288da43e4590af54b8655e10d7912b52eed4763e98"
+    },
+    {
+      "case": "38200-cluster-smooth-negative_contraction25.json",
+      "passed": true,
+      "attempts": 32,
+      "applied": 7,
+      "error_fallbacks": 0,
+      "reasons": {
+        "fewer_than_two_negative_measurements": 16,
+        "no_strict_area_reduction": 8,
+        "already_small_enough_for_single_clear": 1,
+        "strict_verified_area_reduction": 7
+      },
+      "input_file_sha256": "8f29e3195fcc9a9345983a5ae3189852df9d976374ff084a6dde2774eb020735"
+    },
+    {
+      "case": "38300-omni_heavy-smooth-negative_contraction25.json",
+      "passed": true,
+      "attempts": 34,
+      "applied": 0,
+      "error_fallbacks": 0,
+      "reasons": {
+        "fewer_than_two_negative_measurements": 15,
+        "no_strict_area_reduction": 18,
+        "already_small_enough_for_single_clear": 1
+      },
+      "input_file_sha256": "4011a874654331770cdda972ed9d8edad4e555d6d817667f15053395886aba0b"
+    },
+    {
+      "case": "38400-dir_heavy-smooth-negative_contraction25.json",
+      "passed": true,
+      "attempts": 26,
+      "applied": 6,
+      "error_fallbacks": 0,
+      "reasons": {
+        "fewer_than_two_negative_measurements": 6,
+        "no_strict_area_reduction": 10,
+        "strict_verified_area_reduction": 6,
+        "already_small_enough_for_single_clear": 4
+      },
+      "input_file_sha256": "f962af1ec10dba8c24508c7cd4140de5d916597c27c63a67dd9245343b8563f3"
+    }
+  ],
+  "attempts": 176,
+  "contractions": 22,
+  "error_fallbacks": 0,
+  "scope": "Supplementary deterministic wrapper outcome audit; no new strategy performance score.",
+  "limitation": "Original counter omitted this exception reason; this file supplies the corrected check."
+}

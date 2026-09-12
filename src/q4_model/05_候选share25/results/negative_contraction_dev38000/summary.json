@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "source_snapshot_stable": true,
+  "phase": "development",
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "independent_layouts": 5,
+  "pairs": [
+    {
+      "seed": 38000,
+      "population": "uniform",
+      "field": "smooth",
+      "baseline_s": 5918.792754703664,
+      "candidate_s": 5918.792754703664,
+      "saved_s": 0.0
+    },
+    {
+      "seed": 38100,
+      "population": "boundary",
+      "field": "smooth",
+      "baseline_s": 6770.851335182773,
+      "candidate_s": 6665.280259900597,
+      "saved_s": 105.57107528217603
+    },
+    {
+      "seed": 38200,
+      "population": "cluster",
+      "field": "smooth",
+      "baseline_s": 5747.720832942334,
+      "candidate_s": 5776.51982454921,
+      "saved_s": -28.79899160687637
+    },
+    {
+      "seed": 38300,
+      "population": "omni_heavy",
+      "field": "smooth",
+      "baseline_s": 6174.3680911762485,
+      "candidate_s": 6174.3680911762485,
+      "saved_s": 0.0
+    },
+    {
+      "seed": 38400,
+      "population": "dir_heavy",
+      "field": "smooth",
+      "baseline_s": 6788.3901749870765,
+      "candidate_s": 6776.81494054656,
+      "saved_s": 11.575234440516397
+    }
+  ],
+  "mean_baseline_s": 6280.0246377984195,
+  "mean_candidate_s": 6262.355174175256,
+  "saved_pct": 0.28135978188387156,
+  "faster": 2,
+  "slower": 1,
+  "sources_per_variant": 62,
+  "contractions": 22,
+  "exact_certificate_audit": "pending independent audit"
+}

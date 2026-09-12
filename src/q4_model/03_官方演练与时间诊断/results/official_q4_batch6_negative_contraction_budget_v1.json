@@ -1,0 +1,2210 @@
+{
+  "model_source_sha256": "020a8f9088c9710412753d3d027d5d44d3a996f1b6bb7cb8e67b023c1a3e2da5",
+  "script_source_sha256": "d0941783fc7e82c818ad16dcff2327f6cda8f3b8e0357e74dcab3e46dd65349c",
+  "archive_sha256": "7ab0366739e91ed1f167c6221677baa2128403dff055486ff4054007189e17e1",
+  "rows": [
+    {
+      "case": 1,
+      "channel": 20,
+      "max_depth": 4,
+      "max_nodes": 255,
+      "runtime_s": 0.031692099990323186,
+      "result": {
+        "polygon": [
+          [
+            -927.2887933199761,
+            -248.46628331625902
+          ],
+          [
+            177.14806783296768,
+            -34.2855739549239
+          ],
+          [
+            170.70679882713955,
+            -1.9031279025179657
+          ],
+          [
+            169.13762204909057,
+            4.361376951748909
+          ]
+        ],
+        "changed": true,
+        "skipped": false,
+        "certificate": {
+          "version": "negative-region-fraction-v1",
+          "original_polygon": [
+            [
+              -927.2887932375046,
+              -248.46628329841974
+            ],
+            [
+              545.2936881524955,
+              37.10799582146967
+            ],
+            [
+              536.7053294789168,
+              80.28459055369325
+            ],
+            [
+              534.6130937750607,
+              88.63726369188049
+            ]
+          ],
+          "positive_points": [
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ]
+          ],
+          "negative_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              248.46628329841948,
+              -927.2887932375057
+            ],
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ],
+            [
+              931.748614132884,
+              -1613.8359395600435
+            ],
+            [
+              1613.835939560043,
+              -931.7486141328845
+            ],
+            [
+              1863.4972282657675,
+              0.0
+            ],
+            [
+              1613.8359395600437,
+              931.7486141328836
+            ],
+            [
+              931.748614132884,
+              1613.8359395600435
+            ],
+            [
+              1.1410629579078184e-13,
+              1863.4972282657675
+            ],
+            [
+              -931.7486141328833,
+              1613.8359395600437
+            ],
+            [
+              -1613.8359395600437,
+              931.7486141328836
+            ],
+            [
+              -1863.4972282657675,
+              2.2821259158156367e-13
+            ],
+            [
+              -1613.835939560044,
+              -931.7486141328832
+            ],
+            [
+              -678.8225099390858,
+              -678.8225099390855
+            ],
+            [
+              -216.41290408926264,
+              9.966004695309763
+            ]
+          ],
+          "split_rule": "exact_longest_edge_midpoint_first_max_index",
+          "max_depth": 4,
+          "max_nodes": 255,
+          "tested_nodes": 46,
+          "roots": 2,
+          "excluded_leaves": [
+            {
+              "root": 1,
+              "branch": "11",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "1011",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "100",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "0011",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "0001",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "1111",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "1101",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "01",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "0011",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "000",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            }
+          ],
+          "retained_leaves": [
+            {
+              "root": 1,
+              "branch": "1010"
+            },
+            {
+              "root": 1,
+              "branch": "0111"
+            },
+            {
+              "root": 1,
+              "branch": "0110"
+            },
+            {
+              "root": 1,
+              "branch": "0101"
+            },
+            {
+              "root": 1,
+              "branch": "0100"
+            },
+            {
+              "root": 1,
+              "branch": "0010"
+            },
+            {
+              "root": 1,
+              "branch": "0000"
+            },
+            {
+              "root": 0,
+              "branch": "1110"
+            },
+            {
+              "root": 0,
+              "branch": "1100"
+            },
+            {
+              "root": 0,
+              "branch": "1011"
+            },
+            {
+              "root": 0,
+              "branch": "1010"
+            },
+            {
+              "root": 0,
+              "branch": "1001"
+            },
+            {
+              "root": 0,
+              "branch": "1000"
+            },
+            {
+              "root": 0,
+              "branch": "0010"
+            }
+          ],
+          "output_polygon": [
+            [
+              -927.2887933199761,
+              -248.46628331625902
+            ],
+            [
+              177.14806783296768,
+              -34.2855739549239
+            ],
+            [
+              170.70679882713955,
+              -1.9031279025179657
+            ],
+            [
+              169.13762204909057,
+              4.361376951748909
+            ]
+          ],
+          "float_outer_expansion": 1e-10,
+          "original_polygon_fallback": false,
+          "heading_boundary_strictness_preserved": true
+        },
+        "statistics": {
+          "original_area_m2": 39474.900022501606,
+          "exactly_excluded_area_m2": 22204.631262657156,
+          "exactly_excluded_area_fraction": 0.5625,
+          "retained_union_area_m2": 17270.268759844454,
+          "retained_convex_hull_area_m2": 22204.631262657156,
+          "output_area_m2": 22204.631267098077,
+          "output_area_reduction_fraction": 0.43749999988750005,
+          "original_long_axis_span_m": 1500.4519080619518,
+          "retained_long_axis_span_m": 1125.3389310464638,
+          "excluded_leaves": 10,
+          "retained_leaves": 14,
+          "tested_nodes": 46,
+          "budget_retained_leaves": 0,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 8,
+            "cell_inside_forced_negative_hull": 2
+          }
+        }
+      }
+    },
+    {
+      "case": 3,
+      "channel": 14,
+      "max_depth": 4,
+      "max_nodes": 255,
+      "runtime_s": 0.014322799979709089,
+      "result": {
+        "polygon": [
+          [
+            -248.46628335343462,
+            927.2887932257394
+          ],
+          [
+            488.3357250819802,
+            1067.5081303374461
+          ],
+          [
+            483.5307780779783,
+            1091.6642301682361
+          ],
+          [
+            483.12105024015716,
+            1093.2999553872587
+          ]
+        ],
+        "changed": true,
+        "skipped": false,
+        "certificate": {
+          "version": "negative-region-fraction-v1",
+          "original_polygon": [
+            [
+              -248.46628329842497,
+              927.2887932375045
+            ],
+            [
+              1225.1377334250442,
+              1207.7274674328744
+            ],
+            [
+              1215.5278394180016,
+              1256.0396670896234
+            ],
+            [
+              1214.7083837424411,
+              1259.311117527341
+            ]
+          ],
+          "positive_points": [
+            [
+              -248.4662832984198,
+              927.2887932375056
+            ]
+          ],
+          "negative_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ],
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ],
+            [
+              248.46628329841948,
+              -927.2887932375057
+            ],
+            [
+              -248.46628329842065,
+              -927.2887932375054
+            ],
+            [
+              -678.8225099390858,
+              -678.8225099390855
+            ],
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ],
+            [
+              -927.2887932375056,
+              248.46628329841974
+            ],
+            [
+              -678.8225099390855,
+              678.8225099390856
+            ],
+            [
+              248.46628329842014,
+              927.2887932375055
+            ],
+            [
+              476.1294839382593,
+              1124.6236896091023
+            ]
+          ],
+          "split_rule": "exact_longest_edge_midpoint_first_max_index",
+          "max_depth": 4,
+          "max_nodes": 255,
+          "tested_nodes": 26,
+          "roots": 2,
+          "excluded_leaves": [
+            {
+              "root": 1,
+              "branch": "1",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "00",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "111",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "110",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "01",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "00",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            }
+          ],
+          "retained_leaves": [
+            {
+              "root": 1,
+              "branch": "0111"
+            },
+            {
+              "root": 1,
+              "branch": "0110"
+            },
+            {
+              "root": 1,
+              "branch": "0101"
+            },
+            {
+              "root": 1,
+              "branch": "0100"
+            },
+            {
+              "root": 0,
+              "branch": "1011"
+            },
+            {
+              "root": 0,
+              "branch": "1010"
+            },
+            {
+              "root": 0,
+              "branch": "1001"
+            },
+            {
+              "root": 0,
+              "branch": "1000"
+            }
+          ],
+          "output_polygon": [
+            [
+              -248.46628335343462,
+              927.2887932257394
+            ],
+            [
+              488.3357250819802,
+              1067.5081303374461
+            ],
+            [
+              483.5307780779783,
+              1091.6642301682361
+            ],
+            [
+              483.12105024015716,
+              1093.2999553872587
+            ]
+          ],
+          "float_outer_expansion": 1e-10,
+          "original_polygon_fallback": false,
+          "heading_boundary_strictness_preserved": true
+        },
+        "statistics": {
+          "original_area_m2": 39473.40919421235,
+          "exactly_excluded_area_m2": 29605.056895659265,
+          "exactly_excluded_area_fraction": 0.75,
+          "retained_union_area_m2": 9868.352298553087,
+          "retained_convex_hull_area_m2": 9868.352298553087,
+          "output_area_m2": 9868.35230052681,
+          "output_area_reduction_fraction": 0.7499999999499987,
+          "original_long_axis_span_m": 1500.4519080619582,
+          "retained_long_axis_span_m": 750.2259540309791,
+          "excluded_leaves": 6,
+          "retained_leaves": 8,
+          "tested_nodes": 26,
+          "budget_retained_leaves": 0,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 6
+          }
+        }
+      }
+    },
+    {
+      "case": 1,
+      "channel": 20,
+      "max_depth": 6,
+      "max_nodes": 255,
+      "runtime_s": 0.07487350000883453,
+      "result": {
+        "polygon": [
+          [
+            -927.2887932924857,
+            -248.4662833103126
+          ],
+          [
+            -190.9975525238564,
+            -105.67914373608917
+          ],
+          [
+            -195.29173186107516,
+            -84.09084636781856
+          ],
+          [
+            -196.3378497131078,
+            -79.91450979830731
+          ]
+        ],
+        "changed": true,
+        "skipped": false,
+        "certificate": {
+          "version": "negative-region-fraction-v1",
+          "original_polygon": [
+            [
+              -927.2887932375046,
+              -248.46628329841974
+            ],
+            [
+              545.2936881524955,
+              37.10799582146967
+            ],
+            [
+              536.7053294789168,
+              80.28459055369325
+            ],
+            [
+              534.6130937750607,
+              88.63726369188049
+            ]
+          ],
+          "positive_points": [
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ]
+          ],
+          "negative_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              248.46628329841948,
+              -927.2887932375057
+            ],
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ],
+            [
+              931.748614132884,
+              -1613.8359395600435
+            ],
+            [
+              1613.835939560043,
+              -931.7486141328845
+            ],
+            [
+              1863.4972282657675,
+              0.0
+            ],
+            [
+              1613.8359395600437,
+              931.7486141328836
+            ],
+            [
+              931.748614132884,
+              1613.8359395600435
+            ],
+            [
+              1.1410629579078184e-13,
+              1863.4972282657675
+            ],
+            [
+              -931.7486141328833,
+              1613.8359395600437
+            ],
+            [
+              -1613.8359395600437,
+              931.7486141328836
+            ],
+            [
+              -1863.4972282657675,
+              2.2821259158156367e-13
+            ],
+            [
+              -1613.835939560044,
+              -931.7486141328832
+            ],
+            [
+              -678.8225099390858,
+              -678.8225099390855
+            ],
+            [
+              -216.41290408926264,
+              9.966004695309763
+            ]
+          ],
+          "split_rule": "exact_longest_edge_midpoint_first_max_index",
+          "max_depth": 6,
+          "max_nodes": 255,
+          "tested_nodes": 106,
+          "roots": 2,
+          "excluded_leaves": [
+            {
+              "root": 1,
+              "branch": "11",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "1011",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "10101",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "10100",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "100",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "01111",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "011100",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "0011",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "00101",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "00100",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "0001",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "00001",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "000001",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "000000",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "1111",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "11101",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "11100",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "1101",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "110011",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "110010",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "11000",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "100111",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "10010",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "01",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "0011",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "00101",
+              "reason": "cell_inside_forced_negative_hull",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "00100",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "000",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 0,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 1,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 2,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 13,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 14,
+                  "kind": "minimum_radius"
+                }
+              ]
+            }
+          ],
+          "retained_leaves": [
+            {
+              "root": 1,
+              "branch": "011101"
+            },
+            {
+              "root": 1,
+              "branch": "011011"
+            },
+            {
+              "root": 1,
+              "branch": "011010"
+            },
+            {
+              "root": 1,
+              "branch": "011001"
+            },
+            {
+              "root": 1,
+              "branch": "011000"
+            },
+            {
+              "root": 1,
+              "branch": "010111"
+            },
+            {
+              "root": 1,
+              "branch": "010110"
+            },
+            {
+              "root": 1,
+              "branch": "010101"
+            },
+            {
+              "root": 1,
+              "branch": "010100"
+            },
+            {
+              "root": 1,
+              "branch": "010011"
+            },
+            {
+              "root": 1,
+              "branch": "010010"
+            },
+            {
+              "root": 1,
+              "branch": "010001"
+            },
+            {
+              "root": 1,
+              "branch": "010000"
+            },
+            {
+              "root": 0,
+              "branch": "101111"
+            },
+            {
+              "root": 0,
+              "branch": "101110"
+            },
+            {
+              "root": 0,
+              "branch": "101101"
+            },
+            {
+              "root": 0,
+              "branch": "101100"
+            },
+            {
+              "root": 0,
+              "branch": "101011"
+            },
+            {
+              "root": 0,
+              "branch": "101010"
+            },
+            {
+              "root": 0,
+              "branch": "101001"
+            },
+            {
+              "root": 0,
+              "branch": "101000"
+            },
+            {
+              "root": 0,
+              "branch": "100110"
+            },
+            {
+              "root": 0,
+              "branch": "100011"
+            },
+            {
+              "root": 0,
+              "branch": "100010"
+            },
+            {
+              "root": 0,
+              "branch": "100001"
+            },
+            {
+              "root": 0,
+              "branch": "100000"
+            }
+          ],
+          "output_polygon": [
+            [
+              -927.2887932924857,
+              -248.4662833103126
+            ],
+            [
+              -190.9975525238564,
+              -105.67914373608917
+            ],
+            [
+              -195.29173186107516,
+              -84.09084636781856
+            ],
+            [
+              -196.3378497131078,
+              -79.91450979830731
+            ]
+          ],
+          "float_outer_expansion": 1e-10,
+          "original_polygon_fallback": false,
+          "heading_boundary_strictness_preserved": true
+        },
+        "statistics": {
+          "original_area_m2": 39474.900022501606,
+          "exactly_excluded_area_m2": 31456.56095543097,
+          "exactly_excluded_area_fraction": 0.796875,
+          "retained_union_area_m2": 8018.339067070639,
+          "retained_convex_hull_area_m2": 9868.725005625402,
+          "output_area_m2": 9868.725007599145,
+          "output_area_reduction_fraction": 0.7499999999500001,
+          "original_long_axis_span_m": 1500.4519080619518,
+          "retained_long_axis_span_m": 750.2259540309759,
+          "excluded_leaves": 28,
+          "retained_leaves": 26,
+          "tested_nodes": 106,
+          "budget_retained_leaves": 0,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 16,
+            "cell_inside_forced_negative_hull": 12
+          }
+        }
+      }
+    },
+    {
+      "case": 3,
+      "channel": 14,
+      "max_depth": 6,
+      "max_nodes": 255,
+      "runtime_s": 0.03633440000703558,
+      "result": {
+        "polygon": [
+          [
+            -248.46628335343462,
+            927.2887932257394
+          ],
+          [
+            488.3357250819802,
+            1067.5081303374461
+          ],
+          [
+            483.5307780779783,
+            1091.6642301682361
+          ],
+          [
+            483.12105024015716,
+            1093.2999553872587
+          ]
+        ],
+        "changed": true,
+        "skipped": false,
+        "certificate": {
+          "version": "negative-region-fraction-v1",
+          "original_polygon": [
+            [
+              -248.46628329842497,
+              927.2887932375045
+            ],
+            [
+              1225.1377334250442,
+              1207.7274674328744
+            ],
+            [
+              1215.5278394180016,
+              1256.0396670896234
+            ],
+            [
+              1214.7083837424411,
+              1259.311117527341
+            ]
+          ],
+          "positive_points": [
+            [
+              -248.4662832984198,
+              927.2887932375056
+            ]
+          ],
+          "negative_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              927.2887932375054,
+              -248.4662832984207
+            ],
+            [
+              678.8225099390854,
+              -678.8225099390858
+            ],
+            [
+              248.46628329841948,
+              -927.2887932375057
+            ],
+            [
+              -248.46628329842065,
+              -927.2887932375054
+            ],
+            [
+              -678.8225099390858,
+              -678.8225099390855
+            ],
+            [
+              -927.2887932375056,
+              -248.46628329841997
+            ],
+            [
+              -927.2887932375056,
+              248.46628329841974
+            ],
+            [
+              -678.8225099390855,
+              678.8225099390856
+            ],
+            [
+              248.46628329842014,
+              927.2887932375055
+            ],
+            [
+              476.1294839382593,
+              1124.6236896091023
+            ]
+          ],
+          "split_rule": "exact_longest_edge_midpoint_first_max_index",
+          "max_depth": 6,
+          "max_nodes": 255,
+          "tested_nodes": 74,
+          "roots": 2,
+          "excluded_leaves": [
+            {
+              "root": 1,
+              "branch": "1",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "011111",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 1,
+              "branch": "00",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "111",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "110",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "100101",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "minimum_radius"
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "01",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            },
+            {
+              "root": 0,
+              "branch": "00",
+              "reason": "all_heading_quadrants_infeasible",
+              "forced": [
+                {
+                  "negative": 9,
+                  "kind": "positive_radius_dominates",
+                  "positive": 0
+                },
+                {
+                  "negative": 10,
+                  "kind": "minimum_radius"
+                }
+              ]
+            }
+          ],
+          "retained_leaves": [
+            {
+              "root": 1,
+              "branch": "011110"
+            },
+            {
+              "root": 1,
+              "branch": "011101"
+            },
+            {
+              "root": 1,
+              "branch": "011100"
+            },
+            {
+              "root": 1,
+              "branch": "011011"
+            },
+            {
+              "root": 1,
+              "branch": "011010"
+            },
+            {
+              "root": 1,
+              "branch": "011001"
+            },
+            {
+              "root": 1,
+              "branch": "011000"
+            },
+            {
+              "root": 1,
+              "branch": "010111"
+            },
+            {
+              "root": 1,
+              "branch": "010110"
+            },
+            {
+              "root": 1,
+              "branch": "010101"
+            },
+            {
+              "root": 1,
+              "branch": "010100"
+            },
+            {
+              "root": 1,
+              "branch": "010011"
+            },
+            {
+              "root": 1,
+              "branch": "010010"
+            },
+            {
+              "root": 1,
+              "branch": "010001"
+            },
+            {
+              "root": 1,
+              "branch": "010000"
+            },
+            {
+              "root": 0,
+              "branch": "101111"
+            },
+            {
+              "root": 0,
+              "branch": "101110"
+            },
+            {
+              "root": 0,
+              "branch": "101101"
+            },
+            {
+              "root": 0,
+              "branch": "101100"
+            },
+            {
+              "root": 0,
+              "branch": "101011"
+            },
+            {
+              "root": 0,
+              "branch": "101010"
+            },
+            {
+              "root": 0,
+              "branch": "101001"
+            },
+            {
+              "root": 0,
+              "branch": "101000"
+            },
+            {
+              "root": 0,
+              "branch": "100111"
+            },
+            {
+              "root": 0,
+              "branch": "100110"
+            },
+            {
+              "root": 0,
+              "branch": "100100"
+            },
+            {
+              "root": 0,
+              "branch": "100011"
+            },
+            {
+              "root": 0,
+              "branch": "100010"
+            },
+            {
+              "root": 0,
+              "branch": "100001"
+            },
+            {
+              "root": 0,
+              "branch": "100000"
+            }
+          ],
+          "output_polygon": [
+            [
+              -248.46628335343462,
+              927.2887932257394
+            ],
+            [
+              488.3357250819802,
+              1067.5081303374461
+            ],
+            [
+              483.5307780779783,
+              1091.6642301682361
+            ],
+            [
+              483.12105024015716,
+              1093.2999553872587
+            ]
+          ],
+          "float_outer_expansion": 1e-10,
+          "original_polygon_fallback": false,
+          "heading_boundary_strictness_preserved": true
+        },
+        "statistics": {
+          "original_area_m2": 39473.40919421235,
+          "exactly_excluded_area_m2": 30221.82891431883,
+          "exactly_excluded_area_fraction": 0.765625,
+          "retained_union_area_m2": 9251.58027989352,
+          "retained_convex_hull_area_m2": 9868.352298553087,
+          "output_area_m2": 9868.35230052681,
+          "output_area_reduction_fraction": 0.7499999999499987,
+          "original_long_axis_span_m": 1500.4519080619582,
+          "retained_long_axis_span_m": 750.2259540309791,
+          "excluded_leaves": 8,
+          "retained_leaves": 30,
+          "tested_nodes": 74,
+          "budget_retained_leaves": 0,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 8
+          }
+        }
+      }
+    }
+  ],
+  "selected_online_budget": {
+    "max_depth": 6,
+    "max_nodes": 255
+  },
+  "official_simulator_contacted": false,
+  "counterfactual_score_estimated": false,
+  "preliminary_unfrozen_observations": {
+    "provenance": "First exploratory local invocation before adding the bounded online wrapper; source hash was not logged then.",
+    "depth4_runtime_s": [
+      0.028004099993268028,
+      0.019781599985435605
+    ],
+    "depth6_runtime_s": [
+      0.07919560000300407,
+      0.030953200010117143
+    ],
+    "depth4_convex_hull_area_reduction": [
+      0.43749999988750005,
+      0.7499999999499987
+    ],
+    "depth6_convex_hull_area_reduction": [
+      0.7499999999500001,
+      0.7499999999499987
+    ]
+  },
+  "limitations": [
+    "These cases were selected after inspecting official failures; they are diagnostic, not holdout evidence.",
+    "Runtime measurements vary between invocations and machines.",
+    "Region reduction is not an estimate of saved virtual time.",
+    "Each saved exclusion certificate still requires independent checker review."
+  ]
+}

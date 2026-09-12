@@ -1,0 +1,671 @@
+[
+  {
+    "seed": 41000,
+    "population": "uniform",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 9.946107199997641,
+    "audit": {
+      "passed": true,
+      "events": 282,
+      "polygons": 45,
+      "optical_plans": 12,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 6053.939789145662,
+      "counts": {
+        "measure": 260,
+        "switch": 250,
+        "clear_success": 14,
+        "clear_fail": 8
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 0,
+        "rows": []
+      }
+    },
+    "late_contractions": 0,
+    "proof_error_fallbacks": 0,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6053.939789145662,
+    "average_s": 432.42427065326154,
+    "distance_m": 22049.698945728316,
+    "counts": {
+      "measure": 260,
+      "switch": 250,
+      "clear_success": 14,
+      "clear_fail": 8
+    },
+    "time_parts_s": {
+      "move": 4409.939789145663,
+      "measure": 1300,
+      "switch": 250,
+      "clear_success": 70,
+      "clear_fail": 24
+    }
+  },
+  {
+    "seed": 41000,
+    "population": "uniform",
+    "field": "smooth",
+    "variant": "late_negative_optical",
+    "runtime_s": 12.07785440000589,
+    "audit": {
+      "passed": true,
+      "events": 282,
+      "polygons": 45,
+      "optical_plans": 12,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 6053.939789145662,
+      "counts": {
+        "measure": 260,
+        "switch": 250,
+        "clear_success": 14,
+        "clear_fail": 8
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 0,
+        "rows": []
+      }
+    },
+    "late_contractions": 0,
+    "proof_error_fallbacks": 0,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6053.939789145662,
+    "average_s": 432.42427065326154,
+    "distance_m": 22049.698945728316,
+    "counts": {
+      "measure": 260,
+      "switch": 250,
+      "clear_success": 14,
+      "clear_fail": 8
+    },
+    "time_parts_s": {
+      "move": 4409.939789145663,
+      "measure": 1300,
+      "switch": 250,
+      "clear_success": 70,
+      "clear_fail": 24
+    }
+  },
+  {
+    "seed": 41100,
+    "population": "boundary",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 5.742295900010504,
+    "audit": {
+      "passed": true,
+      "events": 390,
+      "polygons": 36,
+      "optical_plans": 10,
+      "triangle_certificates": 180,
+      "max_time_error_s": 0.0,
+      "total_s": 6999.629955262793,
+      "counts": {
+        "measure": 366,
+        "switch": 354,
+        "clear_success": 15,
+        "clear_fail": 9
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 0,
+        "rows": []
+      }
+    },
+    "late_contractions": 0,
+    "proof_error_fallbacks": 0,
+    "source_count": 15,
+    "cleared": 15,
+    "all_cleared": true,
+    "total_s": 6999.629955262793,
+    "average_s": 466.64199701751954,
+    "distance_m": 23568.149776313956,
+    "counts": {
+      "measure": 366,
+      "switch": 354,
+      "clear_success": 15,
+      "clear_fail": 9
+    },
+    "time_parts_s": {
+      "move": 4713.629955262792,
+      "measure": 1830,
+      "switch": 354,
+      "clear_success": 75,
+      "clear_fail": 27
+    }
+  },
+  {
+    "seed": 41100,
+    "population": "boundary",
+    "field": "smooth",
+    "variant": "late_negative_optical",
+    "runtime_s": 7.316645599988988,
+    "audit": {
+      "passed": true,
+      "events": 459,
+      "polygons": 36,
+      "optical_plans": 10,
+      "triangle_certificates": 180,
+      "max_time_error_s": 0.0,
+      "total_s": 7517.544265912827,
+      "counts": {
+        "measure": 366,
+        "switch": 354,
+        "clear_success": 15,
+        "clear_fail": 78
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 7,
+        "rows": [
+          {
+            "passed": true,
+            "roots": 5,
+            "leaves": 92,
+            "excluded_leaves": 22,
+            "retained_leaves": 70,
+            "exclusion_reasons": {
+              "cell_inside_forced_negative_hull": 22
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 6,
+            "event": 275,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          },
+          {
+            "passed": true,
+            "roots": 3,
+            "leaves": 59,
+            "excluded_leaves": 11,
+            "retained_leaves": 48,
+            "exclusion_reasons": {
+              "cell_inside_forced_negative_hull": 8,
+              "all_heading_quadrants_infeasible": 3
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 15,
+            "event": 278,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          },
+          {
+            "passed": true,
+            "roots": 6,
+            "leaves": 133,
+            "excluded_leaves": 27,
+            "retained_leaves": 106,
+            "exclusion_reasons": {
+              "cell_inside_forced_negative_hull": 27
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 2,
+            "event": 331,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          },
+          {
+            "passed": true,
+            "roots": 3,
+            "leaves": 50,
+            "excluded_leaves": 12,
+            "retained_leaves": 38,
+            "exclusion_reasons": {
+              "all_heading_quadrants_infeasible": 5,
+              "cell_inside_forced_negative_hull": 7
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 14,
+            "event": 346,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          },
+          {
+            "passed": true,
+            "roots": 3,
+            "leaves": 48,
+            "excluded_leaves": 12,
+            "retained_leaves": 36,
+            "exclusion_reasons": {
+              "cell_inside_forced_negative_hull": 7,
+              "all_heading_quadrants_infeasible": 5
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 18,
+            "event": 377,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          },
+          {
+            "passed": true,
+            "roots": 4,
+            "leaves": 52,
+            "excluded_leaves": 14,
+            "retained_leaves": 38,
+            "exclusion_reasons": {
+              "cell_inside_forced_negative_hull": 11,
+              "all_heading_quadrants_infeasible": 3
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 5,
+            "event": 401,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          },
+          {
+            "passed": true,
+            "roots": 3,
+            "leaves": 41,
+            "excluded_leaves": 10,
+            "retained_leaves": 31,
+            "exclusion_reasons": {
+              "all_heading_quadrants_infeasible": 4,
+              "cell_inside_forced_negative_hull": 6
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 1,
+            "event": 438,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          }
+        ]
+      }
+    },
+    "late_contractions": 7,
+    "proof_error_fallbacks": 0,
+    "source_count": 15,
+    "cleared": 15,
+    "all_cleared": true,
+    "total_s": 7517.544265912827,
+    "average_s": 501.16961772752177,
+    "distance_m": 25122.721329564112,
+    "counts": {
+      "measure": 366,
+      "switch": 354,
+      "clear_success": 15,
+      "clear_fail": 78
+    },
+    "time_parts_s": {
+      "move": 5024.544265912822,
+      "measure": 1830,
+      "switch": 354,
+      "clear_success": 75,
+      "clear_fail": 234
+    }
+  },
+  {
+    "seed": 41200,
+    "population": "cluster",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 7.36032580002211,
+    "audit": {
+      "passed": true,
+      "events": 290,
+      "polygons": 32,
+      "optical_plans": 7,
+      "triangle_certificates": 324,
+      "max_time_error_s": 0.0,
+      "total_s": 5715.051876557373,
+      "counts": {
+        "measure": 273,
+        "switch": 252,
+        "clear_success": 11,
+        "clear_fail": 6
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 0,
+        "rows": []
+      }
+    },
+    "late_contractions": 0,
+    "proof_error_fallbacks": 0,
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5715.051876557373,
+    "average_s": 519.5501705961249,
+    "distance_m": 20125.259382786873,
+    "counts": {
+      "measure": 273,
+      "switch": 252,
+      "clear_success": 11,
+      "clear_fail": 6
+    },
+    "time_parts_s": {
+      "move": 4025.0518765573747,
+      "measure": 1365,
+      "switch": 252,
+      "clear_success": 55,
+      "clear_fail": 18
+    }
+  },
+  {
+    "seed": 41200,
+    "population": "cluster",
+    "field": "smooth",
+    "variant": "late_negative_optical",
+    "runtime_s": 7.773629999981495,
+    "audit": {
+      "passed": true,
+      "events": 291,
+      "polygons": 32,
+      "optical_plans": 7,
+      "triangle_certificates": 324,
+      "max_time_error_s": 0.0,
+      "total_s": 5723.982890412406,
+      "counts": {
+        "measure": 273,
+        "switch": 252,
+        "clear_success": 11,
+        "clear_fail": 7
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 1,
+        "rows": [
+          {
+            "passed": true,
+            "roots": 2,
+            "leaves": 48,
+            "excluded_leaves": 10,
+            "retained_leaves": 38,
+            "exclusion_reasons": {
+              "cell_inside_forced_negative_hull": 10
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 10,
+            "event": 186,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          }
+        ]
+      }
+    },
+    "late_contractions": 1,
+    "proof_error_fallbacks": 0,
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5723.982890412406,
+    "average_s": 520.3620809465824,
+    "distance_m": 20154.914452062032,
+    "counts": {
+      "measure": 273,
+      "switch": 252,
+      "clear_success": 11,
+      "clear_fail": 7
+    },
+    "time_parts_s": {
+      "move": 4030.9828904124065,
+      "measure": 1365,
+      "switch": 252,
+      "clear_success": 55,
+      "clear_fail": 21
+    }
+  },
+  {
+    "seed": 41300,
+    "population": "omni_heavy",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 8.241895700019086,
+    "audit": {
+      "passed": true,
+      "events": 262,
+      "polygons": 45,
+      "optical_plans": 10,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 5771.65657507257,
+      "counts": {
+        "measure": 237,
+        "switch": 223,
+        "clear_success": 14,
+        "clear_fail": 11
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 0,
+        "rows": []
+      }
+    },
+    "late_contractions": 0,
+    "proof_error_fallbacks": 0,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 5771.65657507257,
+    "average_s": 412.26118393375504,
+    "distance_m": 21303.282875362856,
+    "counts": {
+      "measure": 237,
+      "switch": 223,
+      "clear_success": 14,
+      "clear_fail": 11
+    },
+    "time_parts_s": {
+      "move": 4260.656575072571,
+      "measure": 1185,
+      "switch": 223,
+      "clear_success": 70,
+      "clear_fail": 33
+    }
+  },
+  {
+    "seed": 41300,
+    "population": "omni_heavy",
+    "field": "smooth",
+    "variant": "late_negative_optical",
+    "runtime_s": 8.785059699992416,
+    "audit": {
+      "passed": true,
+      "events": 262,
+      "polygons": 45,
+      "optical_plans": 10,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 5771.65657507257,
+      "counts": {
+        "measure": 237,
+        "switch": 223,
+        "clear_success": 14,
+        "clear_fail": 11
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 0,
+        "rows": []
+      }
+    },
+    "late_contractions": 0,
+    "proof_error_fallbacks": 0,
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 5771.65657507257,
+    "average_s": 412.26118393375504,
+    "distance_m": 21303.282875362856,
+    "counts": {
+      "measure": 237,
+      "switch": 223,
+      "clear_success": 14,
+      "clear_fail": 11
+    },
+    "time_parts_s": {
+      "move": 4260.656575072571,
+      "measure": 1185,
+      "switch": 223,
+      "clear_success": 70,
+      "clear_fail": 33
+    }
+  },
+  {
+    "seed": 41400,
+    "population": "dir_heavy",
+    "field": "smooth",
+    "variant": "share25",
+    "runtime_s": 4.192501299985452,
+    "audit": {
+      "passed": true,
+      "events": 424,
+      "polygons": 28,
+      "optical_plans": 8,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6987.02268098484,
+      "counts": {
+        "measure": 359,
+        "switch": 342,
+        "clear_success": 10,
+        "clear_fail": 55
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 0,
+        "rows": []
+      }
+    },
+    "late_contractions": 0,
+    "proof_error_fallbacks": 0,
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6987.02268098484,
+    "average_s": 698.702268098484,
+    "distance_m": 23175.11340492419,
+    "counts": {
+      "measure": 359,
+      "switch": 342,
+      "clear_success": 10,
+      "clear_fail": 55
+    },
+    "time_parts_s": {
+      "move": 4635.022680984837,
+      "measure": 1795,
+      "switch": 342,
+      "clear_success": 50,
+      "clear_fail": 165
+    }
+  },
+  {
+    "seed": 41400,
+    "population": "dir_heavy",
+    "field": "smooth",
+    "variant": "late_negative_optical",
+    "runtime_s": 4.884232999989763,
+    "audit": {
+      "passed": true,
+      "events": 409,
+      "polygons": 28,
+      "optical_plans": 8,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6731.471619536773,
+      "counts": {
+        "measure": 359,
+        "switch": 342,
+        "clear_success": 10,
+        "clear_fail": 40
+      },
+      "late_contraction_proofs": {
+        "passed": true,
+        "contractions": 2,
+        "rows": [
+          {
+            "passed": true,
+            "roots": 2,
+            "leaves": 56,
+            "excluded_leaves": 16,
+            "retained_leaves": 40,
+            "exclusion_reasons": {
+              "all_heading_quadrants_infeasible": 16
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 10,
+            "event": 41,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          },
+          {
+            "passed": true,
+            "roots": 2,
+            "leaves": 48,
+            "excluded_leaves": 12,
+            "retained_leaves": 36,
+            "exclusion_reasons": {
+              "all_heading_quadrants_infeasible": 3,
+              "cell_inside_forced_negative_hull": 9
+            },
+            "premises_bound_to_external_trace": true,
+            "original_partition_complete": true,
+            "actual_float_contains_all_retained_vertices": true,
+            "channel": 11,
+            "event": 367,
+            "true_source_retained": true,
+            "original_belief_unchanged": true,
+            "optical_plan_uses_certified_region": true
+          }
+        ]
+      }
+    },
+    "late_contractions": 2,
+    "proof_error_fallbacks": 0,
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6731.471619536773,
+    "average_s": 673.1471619536773,
+    "distance_m": 22122.35809768385,
+    "counts": {
+      "measure": 359,
+      "switch": 342,
+      "clear_success": 10,
+      "clear_fail": 40
+    },
+    "time_parts_s": {
+      "move": 4424.47161953677,
+      "measure": 1795,
+      "switch": 342,
+      "clear_success": 50,
+      "clear_fail": 120
+    }
+  }
+]

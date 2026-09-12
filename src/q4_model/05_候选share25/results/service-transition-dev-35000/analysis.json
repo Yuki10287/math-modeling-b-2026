@@ -1,0 +1,188 @@
+{
+  "paired_development_only": true,
+  "mean_reduction_percent": 2.1434785653543007,
+  "faster_layouts": 3,
+  "slower_layouts": 2,
+  "meets_predeclared_screen": false,
+  "all_actual_task_entries_verified": 240,
+  "observed_mean_wall_ratio": 7.5504175900043515,
+  "wall_time_limitation": "Observed wall time while other local work may run; not a controlled CPU benchmark.",
+  "details": [
+    {
+      "population": "uniform",
+      "share25": {
+        "counts": {
+          "measure": 309,
+          "switch": 299,
+          "clear_success": 11,
+          "clear_fail": 12
+        },
+        "time_parts_s": {
+          "move": 4204.131954647966,
+          "measure": 1545,
+          "switch": 299,
+          "clear_success": 55,
+          "clear_fail": 36
+        },
+        "actual_first_actions_matching_forecast": 0
+      },
+      "service_transition_route": {
+        "counts": {
+          "measure": 302,
+          "switch": 289,
+          "clear_success": 11,
+          "clear_fail": 14
+        },
+        "time_parts_s": {
+          "move": 4713.753618670036,
+          "measure": 1510,
+          "switch": 289,
+          "clear_success": 55,
+          "clear_fail": 42
+        },
+        "actual_first_actions_matching_forecast": 43
+      }
+    },
+    {
+      "population": "boundary",
+      "share25": {
+        "counts": {
+          "measure": 381,
+          "switch": 363,
+          "clear_success": 16,
+          "clear_fail": 163
+        },
+        "time_parts_s": {
+          "move": 5763.7386026059485,
+          "measure": 1905,
+          "switch": 363,
+          "clear_success": 80,
+          "clear_fail": 489
+        },
+        "actual_first_actions_matching_forecast": 0
+      },
+      "service_transition_route": {
+        "counts": {
+          "measure": 396,
+          "switch": 370,
+          "clear_success": 16,
+          "clear_fail": 32
+        },
+        "time_parts_s": {
+          "move": 5512.052901089164,
+          "measure": 1980,
+          "switch": 370,
+          "clear_success": 80,
+          "clear_fail": 96
+        },
+        "actual_first_actions_matching_forecast": 59
+      }
+    },
+    {
+      "population": "cluster",
+      "share25": {
+        "counts": {
+          "measure": 277,
+          "switch": 258,
+          "clear_success": 11,
+          "clear_fail": 50
+        },
+        "time_parts_s": {
+          "move": 4457.647401581667,
+          "measure": 1385,
+          "switch": 258,
+          "clear_success": 55,
+          "clear_fail": 150
+        },
+        "actual_first_actions_matching_forecast": 0
+      },
+      "service_transition_route": {
+        "counts": {
+          "measure": 271,
+          "switch": 247,
+          "clear_success": 11,
+          "clear_fail": 1
+        },
+        "time_parts_s": {
+          "move": 3908.3027131340227,
+          "measure": 1355,
+          "switch": 247,
+          "clear_success": 55,
+          "clear_fail": 3
+        },
+        "actual_first_actions_matching_forecast": 40
+      }
+    },
+    {
+      "population": "omni_heavy",
+      "share25": {
+        "counts": {
+          "measure": 202,
+          "switch": 190,
+          "clear_success": 15,
+          "clear_fail": 4
+        },
+        "time_parts_s": {
+          "move": 4239.41766157007,
+          "measure": 1010,
+          "switch": 190,
+          "clear_success": 75,
+          "clear_fail": 12
+        },
+        "actual_first_actions_matching_forecast": 0
+      },
+      "service_transition_route": {
+        "counts": {
+          "measure": 207,
+          "switch": 186,
+          "clear_success": 15,
+          "clear_fail": 3
+        },
+        "time_parts_s": {
+          "move": 4523.902004759541,
+          "measure": 1035,
+          "switch": 186,
+          "clear_success": 75,
+          "clear_fail": 9
+        },
+        "actual_first_actions_matching_forecast": 48
+      }
+    },
+    {
+      "population": "dir_heavy",
+      "share25": {
+        "counts": {
+          "measure": 240,
+          "switch": 223,
+          "clear_success": 15,
+          "clear_fail": 46
+        },
+        "time_parts_s": {
+          "move": 4972.174082519819,
+          "measure": 1200,
+          "switch": 223,
+          "clear_success": 75,
+          "clear_fail": 138
+        },
+        "actual_first_actions_matching_forecast": 0
+      },
+      "service_transition_route": {
+        "counts": {
+          "measure": 247,
+          "switch": 231,
+          "clear_success": 15,
+          "clear_fail": 35
+        },
+        "time_parts_s": {
+          "move": 4777.88992582951,
+          "measure": 1235,
+          "switch": 231,
+          "clear_success": 75,
+          "clear_fail": 105
+        },
+        "actual_first_actions_matching_forecast": 50
+      }
+    }
+  ],
+  "interpretation": "More accurate next-action entries do not represent complete multi-step source tasks. Five development layouts give weak mean benefit with two substantial regressions; do not promote or claim official improvement."
+}

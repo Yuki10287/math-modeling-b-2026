@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "evidence_type": "Record of already completed read-only AST and local equivalence checks",
+  "new_execution_when_recording": false,
+  "official_contacted": false,
+  "model_changed_when_recording": false,
+  "scope": "Production extraction of the frozen original-25-station ordered optical pruning candidate. No new model or parameter search.",
+  "source_sha256": {
+    "src/q4_model/task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+    "src/q4_model/05_候选share25/code/ordered_optical_prune_experiment.py": "1717df71ff1d3307375427d5c17608390b96e94752e4cd11168229d3a6fe7e97",
+    "src/q4_model/05_候选share25/code/negative_region_boxes_v1.py": "020a8f9088c9710412753d3d027d5d44d3a996f1b6bb7cb8e67b023c1a3e2da5"
+  },
+  "production_sha256": {
+    "src/q4_model/ordered_optical_prune.py": "2854b5d7e38ec5a56f9eb02bdbb126bb71b9c494030d0b3ae7e803e344d0f92a",
+    "src/q4_model/negative_region.py": "55389254f37177805a0d6269e4fb3fa35180d764f098f84b9c2d243441056bf6"
+  },
+  "auditor_sha256": {
+    "src/q4_model/05_候选share25/code/audit_ordered_optical_prune_v2.py": "30f101648201c6f093f6fe82141f468a51489c7d78848d0eea64ad7e082c5cb1",
+    "src/q4_model/05_候选share25/code/refined_cover_audit.py": "592eadb386b6500ce07496079bf16df3d1bb3a1c7205da133689a1a204fcc06a"
+  },
+  "historical_inputs_sha256": {
+    "src/q4_model/05_候选share25/results/ordered_optical_prune_dev48000/48000-uniform-ordered_prune.json": "c3a03f25fa26711f2dd3b0835753eaaa4098185c7a7027ddff75e940856b0879",
+    "src/q4_model/05_候选share25/results/ordered_optical_prune_dev48000/48000-uniform-homomorphism.json": "824d1276c0a9ca69bd773b868d71cc5e15ca8bdbcad5f9f6f7ce339a46583c9b"
+  },
+  "ast_checks": {
+    "passed": true,
+    "negative_region_function_count": 11,
+    "negative_region_function_names": [
+      "cross", "distance2", "exact_points", "hull", "contains", "area", "split",
+      "interval_nonempty", "_outer_float_polygon", "contract_region", "contract_position"
+    ],
+    "negative_region_all_function_asts_equal": true,
+    "negative_region_extraction_changes": "Offline main and unused imports removed; core function bodies, defaults and docstrings unchanged.",
+    "ordered_prune_function_count": 5,
+    "ordered_prune_function_names": [
+      "rational_point", "cross", "exact_hull", "distance_squared", "prune_path"
+    ],
+    "ordered_prune_all_five_function_asts_equal": true,
+    "static_solver_full_function_ast_equal_after_declared_default_migration": true,
+    "static_solver_comparison": "Reconstructed the exact frozen make_solver optical-loop patch on the original task_sharing_solver function, then compared full ast.dump output with the production static function.",
+    "only_solver_default_migration": {
+      "parameter": "variant",
+      "frozen_default": "resume25",
+      "production_default": "share25",
+      "both_literals_explicitly_asserted": true,
+      "other_ast_differences_allowed": false
+    },
+    "production_signature": "(api, variant='share25', trace=None, max_active_measures=6)",
+    "runtime_research_directory_dependency": false
+  },
+  "local_case": {
+    "seed": 48000,
+    "population": "uniform",
+    "field": "smooth",
+    "source_count": 10,
+    "sources_reused_from_historical_input": true,
+    "independent_new_layout": false,
+    "compared_live_invocations": [
+      "frozen.make_solver()(public_api(arena), variant='share25', trace=trace)",
+      "production.solve_multi(public_api(arena), trace=trace)",
+      "production.solve_multi(public_api(arena), variant='share25', trace=trace)"
+    ],
+    "all_live_results_exact_equal": true,
+    "all_live_events_exact_equal": true,
+    "all_live_traces_exact_equal_except_proof_wall_time": true,
+    "only_trace_field_excluded": "ordered_optical_prune rows: info.runtime_s",
+    "default_call_equals_explicit_share25": true,
+    "historical_events_exact_equal": true,
+    "historical_trace_exact_equal_except_same_proof_wall_time": true,
+    "historical_result_exact_after_json_key_serialization": true,
+    "total_s": 6622.715331773155,
+    "cleared": 10,
+    "events": 379,
+    "counts": {
+      "measure": 337,
+      "switch": 321,
+      "clear_success": 10,
+      "clear_fail": 32
+    },
+    "comparison_failure_and_resolution": {
+      "initial_plain_dict_assertion_failed": true,
+      "location": "Comparing live completion result with the historical JSON completion result",
+      "cause": "certificate.channels[*].triangle_witnesses has integer dictionary keys in memory; JSON converts them to strings.",
+      "live_to_live_results_were_equal": true,
+      "event_or_action_difference_found": false,
+      "resolution": "Assert json.loads(json.dumps(live_result)) == saved_result; this passed. No numerical tolerances, coordinate rounding, or model changes were added.",
+      "historical_inputs_rewritten": false
+    }
+  },
+  "numeric_audit": {
+    "passed": true,
+    "events": 379,
+    "polygons": 37,
+    "optical_plans": 8,
+    "triangle_certificates": 360,
+    "max_time_error_s": 0.0,
+    "total_s": 6622.715331773155
+  },
+  "independent_optical_v2_audit": {
+    "passed": true,
+    "plans": 8,
+    "all_optical_plans_audited": true,
+    "all_actual_optical_actions_accounted": true,
+    "actual_optical_actions": 40,
+    "auditor_version": 2,
+    "checks": "Exact original continuous optical cover, exact disk exclusion, contraction certificate, observation provenance, retained path order and successful termination."
+  },
+  "independent_exact_absence_audit": {
+    "passed": true,
+    "basis": "exact_quarter_cell_negative_hulls",
+    "original_stations": 25,
+    "cells_per_channel": 576,
+    "channels": 10,
+    "verified_cells": 5760,
+    "exact_binary_station_coordinates": true,
+    "exact_quarter_barycentric_cells": true,
+    "exact_outer_disk_enclosure": true,
+    "exact_parent_planarity_and_area": true,
+    "exact_parent_radius_bound": true,
+    "float_tolerance_used_for_acceptance": false,
+    "real_negative_points_only": true,
+    "independent_of_claimed_mesh_and_witness_indices": true
+  },
+  "historical_deletion_context": {
+    "source": "The separately hashed historical 48000 uniform homomorphism record; not a newly rerun baseline.",
+    "original_s": 6900.92285799389,
+    "candidate_s": 6622.715331773155,
+    "saved_s": 278.2075262207345,
+    "removed_actual": 20,
+    "removed_original_only": 0,
+    "additional_from_contraction": 20
+  },
+  "limits": [
+    "One reused layout validates production extraction equivalence, not a new estimate of general performance.",
+    "HTTP and command-line transport validation are separate artifacts, not claimed by this record.",
+    "Raw live traces were compared in read-only Python checks; the exact matching frozen case is retained at its recorded input path and SHA.",
+    "No new experiments were executed while saving this evidence record."
+  ]
+}

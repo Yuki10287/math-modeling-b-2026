@@ -1,0 +1,1406 @@
+{
+  "passed": true,
+  "source_snapshot_stable": true,
+  "local_only": true,
+  "official_contacted": false,
+  "candidate_unchanged_from_development": true,
+  "rows": [
+    {
+      "seed": 42000,
+      "population": "uniform",
+      "variant": "baseline_share25",
+      "field": "constant",
+      "runtime_s": 11.909964799997397,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 236,
+        "polygons": 55,
+        "optical_plans": 12,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 5933.891897858964,
+        "counts": {
+          "measure": 204,
+          "switch": 191,
+          "clear_success": 16,
+          "clear_fail": 16
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 5933.891897858964,
+      "average_s": 370.8682436161852,
+      "distance_m": 22974.45948929483,
+      "counts": {
+        "measure": 204,
+        "switch": 191,
+        "clear_success": 16,
+        "clear_fail": 16
+      },
+      "time_parts_s": {
+        "move": 4594.891897858966,
+        "measure": 1020,
+        "switch": 191,
+        "clear_success": 80,
+        "clear_fail": 48
+      }
+    },
+    {
+      "seed": 42000,
+      "population": "uniform",
+      "variant": "station22_share",
+      "field": "constant",
+      "runtime_s": 16.31224089997704,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 209,
+        "polygons": 59,
+        "optical_plans": 7,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 4636.583013950642,
+        "counts": {
+          "measure": 183,
+          "switch": 179,
+          "clear_success": 16,
+          "clear_fail": 10
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 0,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 4636.583013950642,
+      "average_s": 289.78643837191515,
+      "distance_m": 17162.915069753217,
+      "counts": {
+        "measure": 183,
+        "switch": 179,
+        "clear_success": 16,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 3432.5830139506434,
+        "measure": 915,
+        "switch": 179,
+        "clear_success": 80,
+        "clear_fail": 30
+      }
+    },
+    {
+      "seed": 42000,
+      "population": "uniform",
+      "variant": "baseline_share25",
+      "field": "extreme",
+      "runtime_s": 10.898262200003956,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 214,
+        "polygons": 54,
+        "optical_plans": 8,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 5023.126291347103,
+        "counts": {
+          "measure": 193,
+          "switch": 184,
+          "clear_success": 16,
+          "clear_fail": 5
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 5023.126291347103,
+      "average_s": 313.9453932091939,
+      "distance_m": 18895.63145673552,
+      "counts": {
+        "measure": 193,
+        "switch": 184,
+        "clear_success": 16,
+        "clear_fail": 5
+      },
+      "time_parts_s": {
+        "move": 3779.1262913471037,
+        "measure": 965,
+        "switch": 184,
+        "clear_success": 80,
+        "clear_fail": 15
+      }
+    },
+    {
+      "seed": 42000,
+      "population": "uniform",
+      "variant": "station22_share",
+      "field": "extreme",
+      "runtime_s": 15.806834500021068,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 228,
+        "polygons": 53,
+        "optical_plans": 6,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 5617.834680730562,
+        "counts": {
+          "measure": 199,
+          "switch": 190,
+          "clear_success": 16,
+          "clear_fail": 13
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 0,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 5617.834680730562,
+      "average_s": 351.1146675456601,
+      "distance_m": 21569.173403652803,
+      "counts": {
+        "measure": 199,
+        "switch": 190,
+        "clear_success": 16,
+        "clear_fail": 13
+      },
+      "time_parts_s": {
+        "move": 4313.834680730561,
+        "measure": 995,
+        "switch": 190,
+        "clear_success": 80,
+        "clear_fail": 39
+      }
+    },
+    {
+      "seed": 42100,
+      "population": "boundary",
+      "variant": "baseline_share25",
+      "field": "constant",
+      "runtime_s": 4.544518800015794,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 411,
+        "polygons": 41,
+        "optical_plans": 6,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 7106.835793209819,
+        "counts": {
+          "measure": 378,
+          "switch": 360,
+          "clear_success": 16,
+          "clear_fail": 17
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 7106.835793209819,
+      "average_s": 444.1772370756137,
+      "distance_m": 23629.178966049072,
+      "counts": {
+        "measure": 378,
+        "switch": 360,
+        "clear_success": 16,
+        "clear_fail": 17
+      },
+      "time_parts_s": {
+        "move": 4725.835793209814,
+        "measure": 1890,
+        "switch": 360,
+        "clear_success": 80,
+        "clear_fail": 51
+      }
+    },
+    {
+      "seed": 42100,
+      "population": "boundary",
+      "variant": "station22_share",
+      "field": "constant",
+      "runtime_s": 14.175079100008588,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 372,
+        "polygons": 46,
+        "optical_plans": 10,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 6958.523796946698,
+        "counts": {
+          "measure": 295,
+          "switch": 275,
+          "clear_success": 16,
+          "clear_fail": 61
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 0,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 6958.523796946698,
+      "average_s": 434.9077373091686,
+      "distance_m": 24727.618984733457,
+      "counts": {
+        "measure": 295,
+        "switch": 275,
+        "clear_success": 16,
+        "clear_fail": 61
+      },
+      "time_parts_s": {
+        "move": 4945.523796946692,
+        "measure": 1475,
+        "switch": 275,
+        "clear_success": 80,
+        "clear_fail": 183
+      }
+    },
+    {
+      "seed": 42100,
+      "population": "boundary",
+      "variant": "baseline_share25",
+      "field": "extreme",
+      "runtime_s": 4.621609499998158,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 417,
+        "polygons": 39,
+        "optical_plans": 9,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 7250.623802657287,
+        "counts": {
+          "measure": 376,
+          "switch": 359,
+          "clear_success": 16,
+          "clear_fail": 25
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "count_upper_bound",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 0
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 7250.623802657287,
+      "average_s": 453.16398766608046,
+      "distance_m": 24283.11901328642,
+      "counts": {
+        "measure": 376,
+        "switch": 359,
+        "clear_success": 16,
+        "clear_fail": 25
+      },
+      "time_parts_s": {
+        "move": 4856.623802657285,
+        "measure": 1880,
+        "switch": 359,
+        "clear_success": 80,
+        "clear_fail": 75
+      }
+    },
+    {
+      "seed": 42100,
+      "population": "boundary",
+      "variant": "station22_share",
+      "field": "extreme",
+      "runtime_s": 12.961637100001099,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 381,
+        "polygons": 39,
+        "optical_plans": 12,
+        "triangle_certificates": 0,
+        "max_time_error_s": 0.0,
+        "total_s": 6973.728986693158,
+        "counts": {
+          "measure": 288,
+          "switch": 271,
+          "clear_success": 16,
+          "clear_fail": 77
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 0,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 16,
+      "cleared": 16,
+      "all_cleared": true,
+      "total_s": 6973.728986693158,
+      "average_s": 435.85806166832236,
+      "distance_m": 24758.644933465766,
+      "counts": {
+        "measure": 288,
+        "switch": 271,
+        "clear_success": 16,
+        "clear_fail": 77
+      },
+      "time_parts_s": {
+        "move": 4951.728986693153,
+        "measure": 1440,
+        "switch": 271,
+        "clear_success": 80,
+        "clear_fail": 231
+      }
+    },
+    {
+      "seed": 42200,
+      "population": "cluster",
+      "variant": "baseline_share25",
+      "field": "constant",
+      "runtime_s": 5.391314100008458,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 273,
+        "polygons": 30,
+        "optical_plans": 7,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 5619.927234376263,
+        "counts": {
+          "measure": 245,
+          "switch": 223,
+          "clear_success": 12,
+          "clear_fail": 16
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 5619.927234376263,
+      "average_s": 468.3272695313553,
+      "distance_m": 20319.636171881317,
+      "counts": {
+        "measure": 245,
+        "switch": 223,
+        "clear_success": 12,
+        "clear_fail": 16
+      },
+      "time_parts_s": {
+        "move": 4063.927234376263,
+        "measure": 1225,
+        "switch": 223,
+        "clear_success": 60,
+        "clear_fail": 48
+      }
+    },
+    {
+      "seed": 42200,
+      "population": "cluster",
+      "variant": "station22_share",
+      "field": "constant",
+      "runtime_s": 7.352648100000806,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 252,
+        "polygons": 33,
+        "optical_plans": 5,
+        "triangle_certificates": 2192,
+        "max_time_error_s": 0.0,
+        "total_s": 5405.340217109867,
+        "counts": {
+          "measure": 230,
+          "switch": 210,
+          "clear_success": 12,
+          "clear_fail": 10
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 2192,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 5405.340217109867,
+      "average_s": 450.4450180924889,
+      "distance_m": 19776.701085549335,
+      "counts": {
+        "measure": 230,
+        "switch": 210,
+        "clear_success": 12,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 3955.340217109867,
+        "measure": 1150,
+        "switch": 210,
+        "clear_success": 60,
+        "clear_fail": 30
+      }
+    },
+    {
+      "seed": 42200,
+      "population": "cluster",
+      "variant": "baseline_share25",
+      "field": "extreme",
+      "runtime_s": 6.641471799986903,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 287,
+        "polygons": 34,
+        "optical_plans": 7,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 5665.791043866615,
+        "counts": {
+          "measure": 259,
+          "switch": 237,
+          "clear_success": 12,
+          "clear_fail": 16
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 5665.791043866615,
+      "average_s": 472.14925365555126,
+      "distance_m": 20128.95521933308,
+      "counts": {
+        "measure": 259,
+        "switch": 237,
+        "clear_success": 12,
+        "clear_fail": 16
+      },
+      "time_parts_s": {
+        "move": 4025.791043866616,
+        "measure": 1295,
+        "switch": 237,
+        "clear_success": 60,
+        "clear_fail": 48
+      }
+    },
+    {
+      "seed": 42200,
+      "population": "cluster",
+      "variant": "station22_share",
+      "field": "extreme",
+      "runtime_s": 9.623795799998334,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 232,
+        "polygons": 33,
+        "optical_plans": 7,
+        "triangle_certificates": 2192,
+        "max_time_error_s": 0.0,
+        "total_s": 5386.1255005155635,
+        "counts": {
+          "measure": 219,
+          "switch": 197,
+          "clear_success": 12,
+          "clear_fail": 1
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 2192,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 5386.1255005155635,
+      "average_s": 448.8437917096303,
+      "distance_m": 20155.627502577816,
+      "counts": {
+        "measure": 219,
+        "switch": 197,
+        "clear_success": 12,
+        "clear_fail": 1
+      },
+      "time_parts_s": {
+        "move": 4031.125500515563,
+        "measure": 1095,
+        "switch": 197,
+        "clear_success": 60,
+        "clear_fail": 3
+      }
+    },
+    {
+      "seed": 42300,
+      "population": "omni_heavy",
+      "variant": "baseline_share25",
+      "field": "constant",
+      "runtime_s": 7.031606100004865,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 313,
+        "polygons": 40,
+        "optical_plans": 6,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5852.33869185099,
+        "counts": {
+          "measure": 294,
+          "switch": 284,
+          "clear_success": 11,
+          "clear_fail": 8
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5852.33869185099,
+      "average_s": 532.0307901682718,
+      "distance_m": 20096.69345925494,
+      "counts": {
+        "measure": 294,
+        "switch": 284,
+        "clear_success": 11,
+        "clear_fail": 8
+      },
+      "time_parts_s": {
+        "move": 4019.338691850988,
+        "measure": 1470,
+        "switch": 284,
+        "clear_success": 55,
+        "clear_fail": 24
+      }
+    },
+    {
+      "seed": 42300,
+      "population": "omni_heavy",
+      "variant": "station22_share",
+      "field": "constant",
+      "runtime_s": 15.254316700011259,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 310,
+        "polygons": 37,
+        "optical_plans": 5,
+        "triangle_certificates": 2466,
+        "max_time_error_s": 0.0,
+        "total_s": 5923.656656547591,
+        "counts": {
+          "measure": 289,
+          "switch": 279,
+          "clear_success": 11,
+          "clear_fail": 10
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 2466,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5923.656656547591,
+      "average_s": 538.5142415043265,
+      "distance_m": 20573.283282737953,
+      "counts": {
+        "measure": 289,
+        "switch": 279,
+        "clear_success": 11,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 4114.6566565475905,
+        "measure": 1445,
+        "switch": 279,
+        "clear_success": 55,
+        "clear_fail": 30
+      }
+    },
+    {
+      "seed": 42300,
+      "population": "omni_heavy",
+      "variant": "baseline_share25",
+      "field": "extreme",
+      "runtime_s": 7.482353300001705,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 310,
+        "polygons": 39,
+        "optical_plans": 6,
+        "triangle_certificates": 324,
+        "max_time_error_s": 0.0,
+        "total_s": 5825.953879680396,
+        "counts": {
+          "measure": 293,
+          "switch": 282,
+          "clear_success": 11,
+          "clear_fail": 6
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 9,
+          "cells_per_channel": 576,
+          "verified_cells": 5184,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5825.953879680396,
+      "average_s": 529.632170880036,
+      "distance_m": 20029.769398401993,
+      "counts": {
+        "measure": 293,
+        "switch": 282,
+        "clear_success": 11,
+        "clear_fail": 6
+      },
+      "time_parts_s": {
+        "move": 4005.9538796803986,
+        "measure": 1465,
+        "switch": 282,
+        "clear_success": 55,
+        "clear_fail": 18
+      }
+    },
+    {
+      "seed": 42300,
+      "population": "omni_heavy",
+      "variant": "station22_share",
+      "field": "extreme",
+      "runtime_s": 14.057457699993392,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 303,
+        "polygons": 36,
+        "optical_plans": 4,
+        "triangle_certificates": 2466,
+        "max_time_error_s": 0.0,
+        "total_s": 5885.630064415204,
+        "counts": {
+          "measure": 288,
+          "switch": 277,
+          "clear_success": 11,
+          "clear_fail": 4
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 2466,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 11,
+      "cleared": 11,
+      "all_cleared": true,
+      "total_s": 5885.630064415204,
+      "average_s": 535.0572785832004,
+      "distance_m": 20508.150322076013,
+      "counts": {
+        "measure": 288,
+        "switch": 277,
+        "clear_success": 11,
+        "clear_fail": 4
+      },
+      "time_parts_s": {
+        "move": 4101.6300644152025,
+        "measure": 1440,
+        "switch": 277,
+        "clear_success": 55,
+        "clear_fail": 12
+      }
+    },
+    {
+      "seed": 42400,
+      "population": "dir_heavy",
+      "variant": "baseline_share25",
+      "field": "constant",
+      "runtime_s": 8.816848199989181,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 340,
+        "polygons": 46,
+        "optical_plans": 11,
+        "triangle_certificates": 216,
+        "max_time_error_s": 0.0,
+        "total_s": 6731.94170527714,
+        "counts": {
+          "measure": 279,
+          "switch": 267,
+          "clear_success": 14,
+          "clear_fail": 47
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 6,
+          "cells_per_channel": 576,
+          "verified_cells": 3456,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 6731.94170527714,
+      "average_s": 480.85297894836714,
+      "distance_m": 24294.708526385668,
+      "counts": {
+        "measure": 279,
+        "switch": 267,
+        "clear_success": 14,
+        "clear_fail": 47
+      },
+      "time_parts_s": {
+        "move": 4858.941705277133,
+        "measure": 1395,
+        "switch": 267,
+        "clear_success": 70,
+        "clear_fail": 141
+      }
+    },
+    {
+      "seed": 42400,
+      "population": "dir_heavy",
+      "variant": "station22_share",
+      "field": "constant",
+      "runtime_s": 16.522822800005088,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 305,
+        "polygons": 45,
+        "optical_plans": 10,
+        "triangle_certificates": 1644,
+        "max_time_error_s": 0.0,
+        "total_s": 6293.709277190594,
+        "counts": {
+          "measure": 266,
+          "switch": 252,
+          "clear_success": 14,
+          "clear_fail": 25
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 1644,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 6293.709277190594,
+      "average_s": 449.550662656471,
+      "distance_m": 22833.546385952963,
+      "counts": {
+        "measure": 266,
+        "switch": 252,
+        "clear_success": 14,
+        "clear_fail": 25
+      },
+      "time_parts_s": {
+        "move": 4566.709277190593,
+        "measure": 1330,
+        "switch": 252,
+        "clear_success": 70,
+        "clear_fail": 75
+      }
+    },
+    {
+      "seed": 42400,
+      "population": "dir_heavy",
+      "variant": "baseline_share25",
+      "field": "extreme",
+      "runtime_s": 8.333989899983862,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 403,
+        "polygons": 46,
+        "optical_plans": 9,
+        "triangle_certificates": 216,
+        "max_time_error_s": 0.0,
+        "total_s": 7013.881268298923,
+        "counts": {
+          "measure": 270,
+          "switch": 254,
+          "clear_success": 14,
+          "clear_fail": 119
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 6,
+          "cells_per_channel": 576,
+          "verified_cells": 3456,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 7013.881268298923,
+      "average_s": 500.9915191642088,
+      "distance_m": 24914.406341494556,
+      "counts": {
+        "measure": 270,
+        "switch": 254,
+        "clear_success": 14,
+        "clear_fail": 119
+      },
+      "time_parts_s": {
+        "move": 4982.881268298911,
+        "measure": 1350,
+        "switch": 254,
+        "clear_success": 70,
+        "clear_fail": 357
+      }
+    },
+    {
+      "seed": 42400,
+      "population": "dir_heavy",
+      "variant": "station22_share",
+      "field": "extreme",
+      "runtime_s": 18.930179999995744,
+      "error": null,
+      "audit": {
+        "passed": true,
+        "events": 319,
+        "polygons": 48,
+        "optical_plans": 11,
+        "triangle_certificates": 1644,
+        "max_time_error_s": 0.0,
+        "total_s": 6278.5491797359355,
+        "counts": {
+          "measure": 269,
+          "switch": 255,
+          "clear_success": 14,
+          "clear_fail": 36
+        },
+        "exact_certificate": {
+          "passed": true,
+          "actual_negative_witness_cells": 1644,
+          "static": {
+            "passed": true,
+            "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+            "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+            "station_count": 22,
+            "parent_count": 28,
+            "cell_count": 274,
+            "exact_disk_enclosure": true,
+            "exact_planar_partition": true,
+            "exact_complete_midpoint_tree": true,
+            "exact_radius_squared_checks": 2595,
+            "exact_convex_hull_cross_checks": 2595,
+            "no_float_tolerance": true
+          }
+        }
+      },
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 6278.5491797359355,
+      "average_s": 448.4677985525668,
+      "distance_m": 22502.745898679685,
+      "counts": {
+        "measure": 269,
+        "switch": 255,
+        "clear_success": 14,
+        "clear_fail": 36
+      },
+      "time_parts_s": {
+        "move": 4500.549179735937,
+        "measure": 1345,
+        "switch": 255,
+        "clear_success": 70,
+        "clear_fail": 108
+      }
+    }
+  ],
+  "groups": {
+    "baseline_share25": {
+      "runs": 10,
+      "mean_total_s": 6202.43116084235,
+      "p90_total_s": 7121.214594154566,
+      "p95_total_s": 7185.919198405926,
+      "maximum_total_s": 7250.623802657287,
+      "source_count": 138,
+      "cleared": 138,
+      "passed": 10,
+      "mean_runtime_s": 7.567193869999028,
+      "time_parts_mean_s": {
+        "move": 4391.331160842348,
+        "measure": 1395.5,
+        "switch": 264.1,
+        "clear_success": 69.0,
+        "clear_fail": 82.5
+      }
+    },
+    "station22_share": {
+      "runs": 10,
+      "mean_total_s": 5935.968137383582,
+      "p90_total_s": 6960.044315921344,
+      "p95_total_s": 6966.886651307251,
+      "maximum_total_s": 6973.728986693158,
+      "source_count": 138,
+      "cleared": 138,
+      "passed": 10,
+      "mean_runtime_s": 14.099701270001242,
+      "time_parts_mean_s": {
+        "move": 4291.368137383581,
+        "measure": 1263.0,
+        "switch": 238.5,
+        "clear_success": 69.0,
+        "clear_fail": 74.1
+      }
+    }
+  },
+  "pairs": [
+    {
+      "seed": 42000,
+      "population": "uniform",
+      "field": "constant",
+      "baseline_s": 5933.891897858964,
+      "candidate_s": 4636.583013950642,
+      "saving_s": 1297.3088839083211,
+      "saving_fraction": 0.2186269831400888
+    },
+    {
+      "seed": 42000,
+      "population": "uniform",
+      "field": "extreme",
+      "baseline_s": 5023.126291347103,
+      "candidate_s": 5617.834680730562,
+      "saving_s": -594.7083893834588,
+      "saving_fraction": -0.11839407470361844
+    },
+    {
+      "seed": 42100,
+      "population": "boundary",
+      "field": "constant",
+      "baseline_s": 7106.835793209819,
+      "candidate_s": 6958.523796946698,
+      "saving_s": 148.31199626312082,
+      "saving_fraction": 0.020868921215940372
+    },
+    {
+      "seed": 42100,
+      "population": "boundary",
+      "field": "extreme",
+      "baseline_s": 7250.623802657287,
+      "candidate_s": 6973.728986693158,
+      "saving_s": 276.8948159641295,
+      "saving_fraction": 0.03818910255179011
+    },
+    {
+      "seed": 42200,
+      "population": "cluster",
+      "field": "constant",
+      "baseline_s": 5619.927234376263,
+      "candidate_s": 5405.340217109867,
+      "saving_s": 214.5870172663963,
+      "saving_fraction": 0.03818323766788283
+    },
+    {
+      "seed": 42200,
+      "population": "cluster",
+      "field": "extreme",
+      "baseline_s": 5665.791043866615,
+      "candidate_s": 5386.1255005155635,
+      "saving_s": 279.6655433510514,
+      "saving_fraction": 0.04936037019116643
+    },
+    {
+      "seed": 42300,
+      "population": "omni_heavy",
+      "field": "constant",
+      "baseline_s": 5852.33869185099,
+      "candidate_s": 5923.656656547591,
+      "saving_s": -71.31796469660185,
+      "saving_fraction": -0.012186233308046164
+    },
+    {
+      "seed": 42300,
+      "population": "omni_heavy",
+      "field": "extreme",
+      "baseline_s": 5825.953879680396,
+      "candidate_s": 5885.630064415204,
+      "saving_s": -59.676184734807975,
+      "saving_fraction": -0.010243161200253396
+    },
+    {
+      "seed": 42400,
+      "population": "dir_heavy",
+      "field": "constant",
+      "baseline_s": 6731.94170527714,
+      "candidate_s": 6293.709277190594,
+      "saving_s": 438.23242808654595,
+      "saving_fraction": 0.06509747815299967
+    },
+    {
+      "seed": 42400,
+      "population": "dir_heavy",
+      "field": "extreme",
+      "baseline_s": 7013.881268298923,
+      "candidate_s": 6278.5491797359355,
+      "saving_s": 735.3320885629873,
+      "saving_fraction": 0.10483954039634427
+    }
+  ],
+  "by_population": {
+    "uniform": {
+      "pairs": 2,
+      "faster": 1,
+      "slower": 1,
+      "mean_saving_s": 351.3002472624312,
+      "total_reduction_fraction": 0.06412333012434034
+    },
+    "boundary": {
+      "pairs": 2,
+      "faster": 2,
+      "slower": 0,
+      "mean_saving_s": 212.60340611362517,
+      "total_reduction_fraction": 0.029615741516671172
+    },
+    "cluster": {
+      "pairs": 2,
+      "faster": 2,
+      "slower": 0,
+      "mean_saving_s": 247.12628030872474,
+      "total_reduction_fraction": 0.04379451519450845
+    },
+    "omni_heavy": {
+      "pairs": 2,
+      "faster": 0,
+      "slower": 2,
+      "mean_saving_s": -65.497074715704,
+      "total_reduction_fraction": -0.01121689224936335
+    },
+    "dir_heavy": {
+      "pairs": 2,
+      "faster": 2,
+      "slower": 0,
+      "mean_saving_s": 586.7822583247662,
+      "total_reduction_fraction": 0.08537608253107179
+    }
+  },
+  "total_reduction_fraction": 0.04296106100153477,
+  "mean_saving_s": 266.4630234587683,
+  "faster": 7,
+  "slower": 3,
+  "ties": 0,
+  "worst_pair": {
+    "seed": 42000,
+    "population": "uniform",
+    "field": "extreme",
+    "baseline_s": 5023.126291347103,
+    "candidate_s": 5617.834680730562,
+    "saving_s": -594.7083893834588,
+    "saving_fraction": -0.11839407470361844
+  },
+  "independent_layouts": 5,
+  "condition_pairs": 10
+}

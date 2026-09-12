@@ -1,0 +1,50 @@
+{
+  "local_only": true,
+  "official_contacted": false,
+  "source_hashes": {
+    "src\\q4_model\\q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "src\\q4_model\\q4_share25_client.py": "4c988ffa83489705decdfbe9239d2e489e5d6910a766adc32fe9c54ce8a4169c",
+    "src\\q4_model\\solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "src\\q4_model\\joint_solver.py": "8ba8f79b19e1f0284ec810dcf96909df9644d7a2d92f38b1b32fbaff234cfc85",
+    "src\\q4_model\\task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+    "src\\q4_model\\shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "src\\q4_model\\directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "src\\q4_model\\polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "src\\q4_model\\localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "src\\q4_model\\route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "src\\q4_model\\guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "src\\q3_model_v2\\geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src\\q3_model_v2\\00_主方案_lean\\code\\environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+    "src\\q4_model\\00_公共几何与定位\\code\\validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+    "src\\q4_model\\01_初版31站\\code\\benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+    "src\\q4_model\\04_22站覆盖实验\\code\\benchmark_cells.py": "0e47247b60e8458b591e9ba591aa29d8d17d59b84c1725857e75c2774f8c7d12",
+    "src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+    "src\\q4_model\\05_候选share25\\code\\station22_geometry_v1.py": "22368a29b8bf8d60b70fa94abc3c325626357e18614d9d33ef41f0d55d19afca",
+    "src\\q4_model\\05_候选share25\\code\\share22_geometry_experiment_v1.py": "8d1581e44fd88aff33f6dd759089671a8ac221f6858d3e73c52178bd532247cd",
+    "src\\q4_model\\05_候选share25\\code\\validate_station22_v1.py": "66c9d20674a384e56bba8208a8d649807fb0542e0ebf21ed51c42188448ad956",
+    "src\\q4_model\\05_候选share25\\code\\audit_station_certificates_v1.py": "f5f5d4f49dd3c2e7fd57c3b88519070eedda24081c1a9173600b8914d6f62e8d",
+    "src\\q4_model\\05_候选share25\\code\\refined_cover_audit.py": "592eadb386b6500ce07496079bf16df3d1bb3a1c7205da133689a1a204fcc06a",
+    "src\\q4_model\\05_候选share25\\code\\benchmark_station22_v1.py": "bfdec8b3ac3898b6d1b476ac432649c4957c039e066b6d39480cf1b5e528fa76"
+  },
+  "driver_sha256": "d997da87ed1d00a9132860b6cf8f76254ba3b301cc4bfcb29ac487e941b93aed",
+  "development_manifest_sha256": "cab4b15931b164530044049f962374785e09cbdcf2bd158dea69b32df8628acd",
+  "start_seed": 42000,
+  "layouts_per_population": 1,
+  "fields": [
+    "constant",
+    "extreme"
+  ],
+  "populations": [
+    "uniform",
+    "boundary",
+    "cluster",
+    "omni_heavy",
+    "dir_heavy"
+  ],
+  "variants": [
+    "baseline_share25",
+    "station22_share"
+  ],
+  "candidate_unchanged_from_development": true,
+  "quantile_method": "numpy linear interpolation; descriptive finite-sample quantiles"
+}

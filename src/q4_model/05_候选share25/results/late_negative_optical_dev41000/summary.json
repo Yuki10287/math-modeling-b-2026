@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "local_only": true,
+  "source_snapshot_stable": true,
+  "groups": {
+    "share25": {
+      "runs": 5,
+      "passes": 5,
+      "source_instances": 64,
+      "cleared": 64,
+      "mean_total_s": 6305.460175404647,
+      "mean_wall_s": 7.096625180006958,
+      "late_contractions": 0,
+      "proof_error_fallbacks": 0
+    },
+    "late_negative_optical": {
+      "runs": 5,
+      "passes": 5,
+      "source_instances": 64,
+      "cleared": 64,
+      "mean_total_s": 6359.719028016048,
+      "mean_wall_s": 8.16748453999171,
+      "late_contractions": 10,
+      "proof_error_fallbacks": 0
+    }
+  },
+  "pairs": [
+    {
+      "seed": 41000,
+      "population": "uniform",
+      "passed": true,
+      "baseline_s": 6053.939789145662,
+      "candidate_s": 6053.939789145662,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "real_events_equal_before_first_applied_contraction": true
+    },
+    {
+      "seed": 41100,
+      "population": "boundary",
+      "passed": true,
+      "baseline_s": 6999.629955262793,
+      "candidate_s": 7517.544265912827,
+      "saved_s": -517.9143106500333,
+      "reduction_percent": -7.399167012545147,
+      "real_events_equal_before_first_applied_contraction": true
+    },
+    {
+      "seed": 41200,
+      "population": "cluster",
+      "passed": true,
+      "baseline_s": 5715.051876557373,
+      "candidate_s": 5723.982890412406,
+      "saved_s": -8.931013855032688,
+      "reduction_percent": -0.15627178979191597,
+      "real_events_equal_before_first_applied_contraction": true
+    },
+    {
+      "seed": 41300,
+      "population": "omni_heavy",
+      "passed": true,
+      "baseline_s": 5771.65657507257,
+      "candidate_s": 5771.65657507257,
+      "saved_s": 0.0,
+      "reduction_percent": 0.0,
+      "real_events_equal_before_first_applied_contraction": true
+    },
+    {
+      "seed": 41400,
+      "population": "dir_heavy",
+      "passed": true,
+      "baseline_s": 6987.02268098484,
+      "candidate_s": 6731.471619536773,
+      "saved_s": 255.55106144806723,
+      "reduction_percent": 3.6575101171998288,
+      "real_events_equal_before_first_applied_contraction": true
+    }
+  ],
+  "reduction_percent": -0.8605058330721826,
+  "faster": 1,
+  "slower": 2,
+  "unchanged_local_decision_before_optical_fallback": true,
+  "belief_polygon_never_assigned": true
+}

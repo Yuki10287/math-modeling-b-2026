@@ -15,6 +15,14 @@
 
 在仓库根目录打开命令行。手动启动官方问题4演练并等待接口就绪后，运行对应客户端：
 
+**25站＋保序删点候选（本次新增）：**
+
+```powershell
+python -X utf8 src/q4_model/q4_share25_prune_client.py --robot-id 202619002152 --log q4-share25-prune-practice-01.jsonl
+```
+
+运行日志标记为 `share25_prune`，详细步骤见[候选运行说明](05_候选share25/reports/25站保序删点候选运行说明.md)。该入口保留原25站调度，只增加有证明的光学删点与独立核验。
+
 **share25候选：**
 
 ```powershell
@@ -31,7 +39,7 @@ python -X utf8 src/q4_model/q4_official_client.py --robot-id 202619002152 --log 
 
 根目录的[运行第四问候选.cmd](../../运行第四问候选.cmd)和[运行第四问.cmd](../../运行第四问.cmd)继续可用，会先核验发布文件。命令行运行前也可按各组操作说明进行只读版本核验。
 
-本目录两个客户端及其运行依赖须与相邻的 `src/q3_model_v2` 一起保留。实验、压力测试和版本检查脚本仍通过 `tools/run_study.py` 运行，例如：
+本目录各客户端及其运行依赖须与相邻的 `src/q3_model_v2` 一起保留。保序删点候选使用上面的独立命令，原CMD仍运行原版本。实验、压力测试和版本检查脚本仍通过 `tools/run_study.py` 运行，例如：
 
 ```powershell
 python -X utf8 tools/run_study.py q4_share -- --help

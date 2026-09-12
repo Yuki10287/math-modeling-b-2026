@@ -1,0 +1,1781 @@
+{
+  "passed": true,
+  "input_sha256": {
+    "53300-omni_heavy-extreme-share25.json": "65723f51abf1ec94a3080443c753c23d98513b7ff532152e8e56033be8c19def",
+    "53300-omni_heavy-extreme-station22.json": "e785099d57390b0023e8c8fef3137274b80a57c0f74464afe08c42d6296b9633",
+    "53300-omni_heavy-extreme-station22_prune.json": "642f0d9412d1d91c23b33a21b3097bf1179a17d5575c8725188130b908d4d81b"
+  },
+  "driver_sha256": "6a546e258cf9058b116ae21770563af7d4a41a5c093a43818b77a595ddd55b42",
+  "rows": {
+    "share25": {
+      "total_s": 3789.927297620795,
+      "source_count": 16,
+      "certificate_basis": "count_upper_bound",
+      "time_parts_s": {
+        "move": 2919.9272976207944,
+        "measure": 650,
+        "switch": 125,
+        "clear_success": 80,
+        "clear_fail": 15
+      },
+      "by_reason": {
+        "scan": {
+          "actions": 95,
+          "move_s": 720.471787424352,
+          "measure_s": 475.0,
+          "switch_s": 94.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 1289.471787424352
+        },
+        "source_measure": {
+          "actions": 5,
+          "move_s": 374.653614867921,
+          "measure_s": 25.0,
+          "switch_s": 3.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 402.653614867921
+        },
+        "shared_measure": {
+          "actions": 30,
+          "move_s": 0.0,
+          "measure_s": 150.0,
+          "switch_s": 28.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 178.0
+        },
+        "optical_cover": {
+          "actions": 15,
+          "move_s": 1186.6585812238663,
+          "measure_s": 0.0,
+          "switch_s": 0.0,
+          "clear_success_s": 50.0,
+          "clear_fail_s": 15.0,
+          "total_s": 1251.6585812238663
+        },
+        "certified_clear": {
+          "actions": 6,
+          "move_s": 638.1433141046551,
+          "measure_s": 0.0,
+          "switch_s": 0.0,
+          "clear_success_s": 30.0,
+          "clear_fail_s": 0.0,
+          "total_s": 668.1433141046551
+        }
+      },
+      "discovery_timeline": [
+        {
+          "count": 1,
+          "channel": 1,
+          "event": 1,
+          "time_s": 5.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 2,
+          "channel": 2,
+          "event": 2,
+          "time_s": 11.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 3,
+          "channel": 5,
+          "event": 5,
+          "time_s": 29.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 4,
+          "channel": 7,
+          "event": 7,
+          "time_s": 41.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 5,
+          "channel": 12,
+          "event": 12,
+          "time_s": 71.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 6,
+          "channel": 14,
+          "event": 14,
+          "time_s": 83.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 7,
+          "channel": 17,
+          "event": 17,
+          "time_s": 101.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 8,
+          "channel": 20,
+          "event": 20,
+          "time_s": 119.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 9,
+          "channel": 4,
+          "event": 28,
+          "time_s": 477.1288777358685,
+          "reason": "scan",
+          "position": [
+            927.2887932375054,
+            -248.4662832984207
+          ]
+        },
+        {
+          "count": 10,
+          "channel": 9,
+          "event": 31,
+          "time_s": 495.1288777358685,
+          "reason": "scan",
+          "position": [
+            927.2887932375054,
+            -248.4662832984207
+          ]
+        },
+        {
+          "count": 11,
+          "channel": 10,
+          "event": 72,
+          "time_s": 1043.7424875043207,
+          "reason": "scan",
+          "position": [
+            248.46628329842014,
+            927.2887932375055
+          ]
+        },
+        {
+          "count": 12,
+          "channel": 8,
+          "event": 104,
+          "time_s": 1507.2974158076138,
+          "reason": "scan",
+          "position": [
+            -678.8225099390855,
+            678.8225099390856
+          ]
+        },
+        {
+          "count": 13,
+          "channel": 16,
+          "event": 108,
+          "time_s": 1531.2974158076138,
+          "reason": "scan",
+          "position": [
+            -678.8225099390855,
+            678.8225099390856
+          ]
+        },
+        {
+          "count": 14,
+          "channel": 15,
+          "event": 117,
+          "time_s": 1684.6839291269819,
+          "reason": "scan",
+          "position": [
+            -927.2887932375056,
+            248.46628329841974
+          ]
+        },
+        {
+          "count": 15,
+          "channel": 19,
+          "event": 119,
+          "time_s": 1696.6839291269819,
+          "reason": "scan",
+          "position": [
+            -927.2887932375056,
+            248.46628329841974
+          ]
+        },
+        {
+          "count": 16,
+          "channel": 11,
+          "event": 135,
+          "time_s": 2063.666430720758,
+          "reason": "scan",
+          "position": [
+            -678.8225099390858,
+            -678.8225099390855
+          ]
+        }
+      ],
+      "all_sources_discovered": {
+        "count": 16,
+        "channel": 11,
+        "event": 135,
+        "time_s": 2063.666430720758,
+        "reason": "scan",
+        "position": [
+          -678.8225099390858,
+          -678.8225099390855
+        ]
+      },
+      "time_after_all_discovered_s": 1726.260866900037,
+      "distinct_actual_scan_stations_including_origin": 10,
+      "actual_scan_measurements": 95,
+      "scan_task_choices": 9,
+      "scan_after_all_discovered": 0,
+      "source_measure_timeline": [
+        {
+          "channel": 2,
+          "event": 21,
+          "time_s": 276.3722540099988,
+          "result": "direction"
+        },
+        {
+          "channel": 1,
+          "event": 81,
+          "time_s": 1130.3585177478903,
+          "result": "direction"
+        },
+        {
+          "channel": 17,
+          "event": 96,
+          "time_s": 1320.5587510351274,
+          "result": "direction"
+        },
+        {
+          "channel": 11,
+          "event": 136,
+          "time_s": 2171.36425405732,
+          "result": "direction"
+        },
+        {
+          "channel": 11,
+          "event": 137,
+          "time_s": 2231.5504287757412,
+          "result": "direction"
+        }
+      ],
+      "optical_start_timeline": [
+        {
+          "channel": 2,
+          "before_event": 24,
+          "start_s": 288.3722540099988,
+          "path_points": 4
+        },
+        {
+          "channel": 12,
+          "before_event": 41,
+          "start_s": 549.1288777358685,
+          "path_points": 2
+        },
+        {
+          "channel": 17,
+          "before_event": 97,
+          "start_s": 1320.5587510351274,
+          "path_points": 3
+        },
+        {
+          "channel": 7,
+          "before_event": 129,
+          "start_s": 1850.0704424463497,
+          "path_points": 2
+        },
+        {
+          "channel": 8,
+          "before_event": 139,
+          "start_s": 2265.615258398957,
+          "path_points": 2
+        },
+        {
+          "channel": 16,
+          "before_event": 142,
+          "start_s": 2599.0873214684984,
+          "path_points": 3
+        },
+        {
+          "channel": 15,
+          "before_event": 144,
+          "start_s": 2647.7800235753302,
+          "path_points": 4
+        },
+        {
+          "channel": 19,
+          "before_event": 145,
+          "start_s": 2741.5470050334698,
+          "path_points": 3
+        },
+        {
+          "channel": 4,
+          "before_event": 150,
+          "start_s": 3427.231655344006,
+          "path_points": 3
+        },
+        {
+          "channel": 9,
+          "before_event": 151,
+          "start_s": 3520.2178142735165,
+          "path_points": 3
+        }
+      ],
+      "success_timeline": [
+        {
+          "channel": 2,
+          "event": 24,
+          "time_s": 350.34406374070727,
+          "reason": "optical_cover",
+          "position": [
+            413.3789691552756,
+            -244.63974278914273
+          ]
+        },
+        {
+          "channel": 12,
+          "event": 42,
+          "time_s": 655.4168055840073,
+          "reason": "optical_cover",
+          "position": [
+            974.120171739066,
+            239.07732377886327
+          ]
+        },
+        {
+          "channel": 1,
+          "event": 83,
+          "time_s": 1174.47956635463,
+          "reason": "certified_clear",
+          "position": [
+            -75.33732500578671,
+            981.7379944776528
+          ]
+        },
+        {
+          "channel": 17,
+          "event": 99,
+          "time_s": 1370.3247374959194,
+          "reason": "optical_cover",
+          "position": [
+            -505.4448198138138,
+            1175.887366308215
+          ]
+        },
+        {
+          "channel": 10,
+          "event": 101,
+          "time_s": 1386.2512784000544,
+          "reason": "certified_clear",
+          "position": [
+            -529.7725222923403,
+            1172.0230391844889
+          ]
+        },
+        {
+          "channel": 7,
+          "event": 129,
+          "time_s": 1903.680726950788,
+          "reason": "optical_cover",
+          "position": [
+            -717.8374718643776,
+            -125.16122271649732
+          ]
+        },
+        {
+          "channel": 20,
+          "event": 132,
+          "time_s": 1974.4221553793043,
+          "reason": "certified_clear",
+          "position": [
+            -560.3497359020058,
+            -342.87925426161235
+          ]
+        },
+        {
+          "channel": 11,
+          "event": 138,
+          "time_s": 2265.615258398957,
+          "reason": "certified_clear",
+          "position": [
+            -628.2334204358486,
+            -1600.0788264834002
+          ]
+        },
+        {
+          "channel": 8,
+          "event": 140,
+          "time_s": 2593.0873214684984,
+          "reason": "optical_cover",
+          "position": [
+            -1254.8703902997572,
+            -155.0886132251165
+          ]
+        },
+        {
+          "channel": 16,
+          "event": 143,
+          "time_s": 2647.7800235753302,
+          "reason": "optical_cover",
+          "position": [
+            -1439.683485814138,
+            -240.0251003807281
+          ]
+        },
+        {
+          "channel": 15,
+          "event": 144,
+          "time_s": 2741.5470050334698,
+          "reason": "optical_cover",
+          "position": [
+            -1762.2632422729585,
+            64.82195250433779
+          ]
+        },
+        {
+          "channel": 19,
+          "event": 145,
+          "time_s": 2888.9421888019574,
+          "reason": "optical_cover",
+          "position": [
+            -1301.9181966191709,
+            607.9537486215839
+          ]
+        },
+        {
+          "channel": 5,
+          "event": 146,
+          "time_s": 3332.0114117398266,
+          "reason": "certified_clear",
+          "position": [
+            552.7435460664228,
+            -557.3127111862776
+          ]
+        },
+        {
+          "channel": 14,
+          "event": 148,
+          "time_s": 3422.231655344006,
+          "reason": "certified_clear",
+          "position": [
+            873.2105867643442,
+            -790.1153115668465
+          ]
+        },
+        {
+          "channel": 4,
+          "event": 150,
+          "time_s": 3520.2178142735165,
+          "reason": "optical_cover",
+          "position": [
+            1242.5791029248398,
+            -1029.083935759691
+          ]
+        },
+        {
+          "channel": 9,
+          "event": 151,
+          "time_s": 3789.927297620795,
+          "reason": "optical_cover",
+          "position": [
+            1463.688282694085,
+            275.8637624149699
+          ]
+        }
+      ],
+      "per_channel": {
+        "1": {
+          "discovery_s": 5.0,
+          "dedicated_measure_s": [
+            1130.3585177478903
+          ],
+          "cleared_s": 1174.47956635463
+        },
+        "2": {
+          "discovery_s": 11.0,
+          "dedicated_measure_s": [
+            276.3722540099988
+          ],
+          "cleared_s": 350.34406374070727,
+          "optical_start_s": 288.3722540099988
+        },
+        "5": {
+          "discovery_s": 29.0,
+          "cleared_s": 3332.0114117398266
+        },
+        "7": {
+          "discovery_s": 41.0,
+          "cleared_s": 1903.680726950788,
+          "optical_start_s": 1850.0704424463497
+        },
+        "12": {
+          "discovery_s": 71.0,
+          "cleared_s": 655.4168055840073,
+          "optical_start_s": 549.1288777358685
+        },
+        "14": {
+          "discovery_s": 83.0,
+          "cleared_s": 3422.231655344006
+        },
+        "17": {
+          "discovery_s": 101.0,
+          "dedicated_measure_s": [
+            1320.5587510351274
+          ],
+          "cleared_s": 1370.3247374959194,
+          "optical_start_s": 1320.5587510351274
+        },
+        "20": {
+          "discovery_s": 119.0,
+          "cleared_s": 1974.4221553793043
+        },
+        "4": {
+          "discovery_s": 477.1288777358685,
+          "cleared_s": 3520.2178142735165,
+          "optical_start_s": 3427.231655344006
+        },
+        "9": {
+          "discovery_s": 495.1288777358685,
+          "cleared_s": 3789.927297620795,
+          "optical_start_s": 3520.2178142735165
+        },
+        "10": {
+          "discovery_s": 1043.7424875043207,
+          "cleared_s": 1386.2512784000544
+        },
+        "8": {
+          "discovery_s": 1507.2974158076138,
+          "cleared_s": 2593.0873214684984,
+          "optical_start_s": 2265.615258398957
+        },
+        "16": {
+          "discovery_s": 1531.2974158076138,
+          "cleared_s": 2647.7800235753302,
+          "optical_start_s": 2599.0873214684984
+        },
+        "15": {
+          "discovery_s": 1684.6839291269819,
+          "cleared_s": 2741.5470050334698,
+          "optical_start_s": 2647.7800235753302
+        },
+        "19": {
+          "discovery_s": 1696.6839291269819,
+          "cleared_s": 2888.9421888019574,
+          "optical_start_s": 2741.5470050334698
+        },
+        "11": {
+          "discovery_s": 2063.666430720758,
+          "dedicated_measure_s": [
+            2171.36425405732,
+            2231.5504287757412
+          ],
+          "cleared_s": 2265.615258398957
+        }
+      }
+    },
+    "station22": {
+      "total_s": 5135.973552523514,
+      "source_count": 16,
+      "certificate_basis": "count_upper_bound",
+      "time_parts_s": {
+        "move": 3898.973552523513,
+        "measure": 960,
+        "switch": 182,
+        "clear_success": 80,
+        "clear_fail": 15
+      },
+      "by_reason": {
+        "scan": {
+          "actions": 153,
+          "move_s": 2041.9589443067448,
+          "measure_s": 765.0,
+          "switch_s": 148.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 2954.958944306745
+        },
+        "source_measure": {
+          "actions": 7,
+          "move_s": 718.8426969715211,
+          "measure_s": 35.0,
+          "switch_s": 5.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 758.8426969715211
+        },
+        "shared_measure": {
+          "actions": 32,
+          "move_s": 0.0,
+          "measure_s": 160.0,
+          "switch_s": 29.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 189.0
+        },
+        "optical_cover": {
+          "actions": 10,
+          "move_s": 337.6340361646917,
+          "measure_s": 0.0,
+          "switch_s": 0.0,
+          "clear_success_s": 25.0,
+          "clear_fail_s": 15.0,
+          "total_s": 377.6340361646917
+        },
+        "certified_clear": {
+          "actions": 11,
+          "move_s": 800.5378750805554,
+          "measure_s": 0.0,
+          "switch_s": 0.0,
+          "clear_success_s": 55.0,
+          "clear_fail_s": 0.0,
+          "total_s": 855.5378750805554
+        }
+      },
+      "discovery_timeline": [
+        {
+          "count": 1,
+          "channel": 1,
+          "event": 1,
+          "time_s": 5.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 2,
+          "channel": 2,
+          "event": 2,
+          "time_s": 11.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 3,
+          "channel": 5,
+          "event": 5,
+          "time_s": 29.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 4,
+          "channel": 7,
+          "event": 7,
+          "time_s": 41.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 5,
+          "channel": 12,
+          "event": 12,
+          "time_s": 71.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 6,
+          "channel": 14,
+          "event": 14,
+          "time_s": 83.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 7,
+          "channel": 17,
+          "event": 17,
+          "time_s": 101.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 8,
+          "channel": 20,
+          "event": 20,
+          "time_s": 119.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 9,
+          "channel": 10,
+          "event": 34,
+          "time_s": 426.3514398215022,
+          "reason": "scan",
+          "position": [
+            -215.84530593762491,
+            945.6800748163689
+          ]
+        },
+        {
+          "count": 10,
+          "channel": 9,
+          "event": 86,
+          "time_s": 1436.4569615533576,
+          "reason": "scan",
+          "position": [
+            1151.1432708733398,
+            1443.4880046424823
+          ]
+        },
+        {
+          "count": 11,
+          "channel": 4,
+          "event": 123,
+          "time_s": 2187.5381741338097,
+          "reason": "scan",
+          "position": [
+            1663.4502223778645,
+            -801.0754067469176
+          ]
+        },
+        {
+          "count": 12,
+          "channel": 11,
+          "event": 164,
+          "time_s": 3142.4425452443356,
+          "reason": "scan",
+          "position": [
+            -410.83827672661766,
+            -1800.0001
+          ]
+        },
+        {
+          "count": 13,
+          "channel": 16,
+          "event": 176,
+          "time_s": 3377.7778559349827,
+          "reason": "scan",
+          "position": [
+            -1151.14327087334,
+            -1443.4880046424823
+          ]
+        },
+        {
+          "count": 14,
+          "channel": 8,
+          "event": 185,
+          "time_s": 3807.0981878533653,
+          "reason": "scan",
+          "position": [
+            -1663.450222377864,
+            -801.0754067469185
+          ]
+        },
+        {
+          "count": 15,
+          "channel": 15,
+          "event": 187,
+          "time_s": 3819.0981878533653,
+          "reason": "scan",
+          "position": [
+            -1663.450222377864,
+            -801.0754067469185
+          ]
+        },
+        {
+          "count": 16,
+          "channel": 19,
+          "event": 200,
+          "time_s": 4205.786153651739,
+          "reason": "scan",
+          "position": [
+            -1846.2904564622834,
+            2.261053697802841e-13
+          ]
+        }
+      ],
+      "all_sources_discovered": {
+        "count": 16,
+        "channel": 19,
+        "event": 200,
+        "time_s": 4205.786153651739,
+        "reason": "scan",
+        "position": [
+          -1846.2904564622834,
+          2.261053697802841e-13
+        ]
+      },
+      "time_after_all_discovered_s": 930.1873988717743,
+      "distinct_actual_scan_stations_including_origin": 15,
+      "actual_scan_measurements": 153,
+      "scan_task_choices": 14,
+      "scan_after_all_discovered": 0,
+      "source_measure_timeline": [
+        {
+          "channel": 1,
+          "event": 21,
+          "time_s": 276.37225400999864,
+          "result": "direction"
+        },
+        {
+          "channel": 9,
+          "event": 105,
+          "time_s": 1774.622654923523,
+          "result": "direction"
+        },
+        {
+          "channel": 16,
+          "event": 182,
+          "time_s": 3635.448490476898,
+          "result": "direction"
+        },
+        {
+          "channel": 8,
+          "event": 191,
+          "time_s": 3999.950400627412,
+          "result": "direction"
+        },
+        {
+          "channel": 19,
+          "event": 203,
+          "time_s": 4325.305713035115,
+          "result": "direction"
+        },
+        {
+          "channel": 19,
+          "event": 205,
+          "time_s": 4404.024134444518,
+          "result": "direction"
+        },
+        {
+          "channel": 12,
+          "event": 212,
+          "time_s": 5045.288508290933,
+          "result": "direction"
+        }
+      ],
+      "optical_start_timeline": [
+        {
+          "channel": 1,
+          "before_event": 24,
+          "start_s": 288.37225400999864,
+          "path_points": 4
+        },
+        {
+          "channel": 17,
+          "before_event": 42,
+          "start_s": 468.3514398215022,
+          "path_points": 4
+        },
+        {
+          "channel": 4,
+          "before_event": 145,
+          "start_s": 2477.8734848244567,
+          "path_points": 2
+        },
+        {
+          "channel": 11,
+          "before_event": 179,
+          "start_s": 3389.7778559349827,
+          "path_points": 4
+        },
+        {
+          "channel": 15,
+          "before_event": 201,
+          "start_s": 4205.786153651739,
+          "path_points": 2
+        }
+      ],
+      "success_timeline": [
+        {
+          "channel": 1,
+          "event": 26,
+          "time_s": 350.7539977003449,
+          "reason": "optical_cover",
+          "position": [
+            -81.9242930731962,
+            978.9311289971193
+          ]
+        },
+        {
+          "channel": 17,
+          "event": 44,
+          "time_s": 553.8411577400424,
+          "reason": "optical_cover",
+          "position": [
+            -500.25104540549836,
+            1186.0177861919985
+          ]
+        },
+        {
+          "channel": 10,
+          "event": 47,
+          "time_s": 577.473745412748,
+          "reason": "certified_clear",
+          "position": [
+            -531.7207014516711,
+            1175.5563699762683
+          ]
+        },
+        {
+          "channel": 9,
+          "event": 107,
+          "time_s": 1832.8748326473644,
+          "reason": "certified_clear",
+          "position": [
+            1475.7232357791443,
+            299.77620209131175
+          ]
+        },
+        {
+          "channel": 4,
+          "event": 145,
+          "time_s": 2561.7945417654482,
+          "reason": "optical_cover",
+          "position": [
+            1242.9723393438492,
+            -1059.7162588079061
+          ]
+        },
+        {
+          "channel": 14,
+          "event": 148,
+          "time_s": 2661.4153344609113,
+          "reason": "certified_clear",
+          "position": [
+            905.1060984396435,
+            -813.4291752393563
+          ]
+        },
+        {
+          "channel": 11,
+          "event": 180,
+          "time_s": 3507.281354965403,
+          "reason": "optical_cover",
+          "position": [
+            -634.8335587767326,
+            -1623.915057906194
+          ]
+        },
+        {
+          "channel": 8,
+          "event": 194,
+          "time_s": 4034.7482829647893,
+          "reason": "certified_clear",
+          "position": [
+            -1261.8704590218772,
+            -140.18067982556232
+          ]
+        },
+        {
+          "channel": 16,
+          "event": 195,
+          "time_s": 4080.7540493250394,
+          "reason": "certified_clear",
+          "position": [
+            -1438.61751134454,
+            -244.0907436549879
+          ]
+        },
+        {
+          "channel": 15,
+          "event": 201,
+          "time_s": 4234.124172236133,
+          "reason": "optical_cover",
+          "position": [
+            -1756.3753139840808,
+            74.37637352857475
+          ]
+        },
+        {
+          "channel": 19,
+          "event": 206,
+          "time_s": 4426.820696305922,
+          "reason": "certified_clear",
+          "position": [
+            -1283.302415790493,
+            612.4381901082497
+          ]
+        },
+        {
+          "channel": 7,
+          "event": 207,
+          "time_s": 4613.446994415255,
+          "reason": "certified_clear",
+          "position": [
+            -738.9596422077888,
+            -114.46878397495257
+          ]
+        },
+        {
+          "channel": 20,
+          "event": 208,
+          "time_s": 4684.009596466007,
+          "reason": "certified_clear",
+          "position": [
+            -540.1974856199851,
+            -375.15053400781727
+          ]
+        },
+        {
+          "channel": 2,
+          "event": 210,
+          "time_s": 4884.920238791281,
+          "reason": "certified_clear",
+          "position": [
+            401.6808328813054,
+            -254.665950566051
+          ]
+        },
+        {
+          "channel": 5,
+          "event": 211,
+          "time_s": 4953.567758502855,
+          "reason": "certified_clear",
+          "position": [
+            557.4159577662588,
+            -532.1938590958955
+          ]
+        },
+        {
+          "channel": 12,
+          "event": 213,
+          "time_s": 5135.973552523514,
+          "reason": "certified_clear",
+          "position": [
+            961.4122766012051,
+            223.63934953884896
+          ]
+        }
+      ],
+      "per_channel": {
+        "1": {
+          "discovery_s": 5.0,
+          "dedicated_measure_s": [
+            276.37225400999864
+          ],
+          "cleared_s": 350.7539977003449,
+          "optical_start_s": 288.37225400999864
+        },
+        "2": {
+          "discovery_s": 11.0,
+          "cleared_s": 4884.920238791281
+        },
+        "5": {
+          "discovery_s": 29.0,
+          "cleared_s": 4953.567758502855
+        },
+        "7": {
+          "discovery_s": 41.0,
+          "cleared_s": 4613.446994415255
+        },
+        "12": {
+          "discovery_s": 71.0,
+          "dedicated_measure_s": [
+            5045.288508290933
+          ],
+          "cleared_s": 5135.973552523514
+        },
+        "14": {
+          "discovery_s": 83.0,
+          "cleared_s": 2661.4153344609113
+        },
+        "17": {
+          "discovery_s": 101.0,
+          "cleared_s": 553.8411577400424,
+          "optical_start_s": 468.3514398215022
+        },
+        "20": {
+          "discovery_s": 119.0,
+          "cleared_s": 4684.009596466007
+        },
+        "10": {
+          "discovery_s": 426.3514398215022,
+          "cleared_s": 577.473745412748
+        },
+        "9": {
+          "discovery_s": 1436.4569615533576,
+          "dedicated_measure_s": [
+            1774.622654923523
+          ],
+          "cleared_s": 1832.8748326473644
+        },
+        "4": {
+          "discovery_s": 2187.5381741338097,
+          "cleared_s": 2561.7945417654482,
+          "optical_start_s": 2477.8734848244567
+        },
+        "11": {
+          "discovery_s": 3142.4425452443356,
+          "cleared_s": 3507.281354965403,
+          "optical_start_s": 3389.7778559349827
+        },
+        "16": {
+          "discovery_s": 3377.7778559349827,
+          "dedicated_measure_s": [
+            3635.448490476898
+          ],
+          "cleared_s": 4080.7540493250394
+        },
+        "8": {
+          "discovery_s": 3807.0981878533653,
+          "dedicated_measure_s": [
+            3999.950400627412
+          ],
+          "cleared_s": 4034.7482829647893
+        },
+        "15": {
+          "discovery_s": 3819.0981878533653,
+          "cleared_s": 4234.124172236133,
+          "optical_start_s": 4205.786153651739
+        },
+        "19": {
+          "discovery_s": 4205.786153651739,
+          "dedicated_measure_s": [
+            4325.305713035115,
+            4404.024134444518
+          ],
+          "cleared_s": 4426.820696305922
+        }
+      }
+    },
+    "station22_prune": {
+      "total_s": 5135.973552523514,
+      "source_count": 16,
+      "certificate_basis": "count_upper_bound",
+      "time_parts_s": {
+        "move": 3898.973552523513,
+        "measure": 960,
+        "switch": 182,
+        "clear_success": 80,
+        "clear_fail": 15
+      },
+      "by_reason": {
+        "scan": {
+          "actions": 153,
+          "move_s": 2041.9589443067448,
+          "measure_s": 765.0,
+          "switch_s": 148.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 2954.958944306745
+        },
+        "source_measure": {
+          "actions": 7,
+          "move_s": 718.8426969715211,
+          "measure_s": 35.0,
+          "switch_s": 5.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 758.8426969715211
+        },
+        "shared_measure": {
+          "actions": 32,
+          "move_s": 0.0,
+          "measure_s": 160.0,
+          "switch_s": 29.0,
+          "clear_success_s": 0.0,
+          "clear_fail_s": 0.0,
+          "total_s": 189.0
+        },
+        "optical_cover": {
+          "actions": 10,
+          "move_s": 337.6340361646917,
+          "measure_s": 0.0,
+          "switch_s": 0.0,
+          "clear_success_s": 25.0,
+          "clear_fail_s": 15.0,
+          "total_s": 377.6340361646917
+        },
+        "certified_clear": {
+          "actions": 11,
+          "move_s": 800.5378750805554,
+          "measure_s": 0.0,
+          "switch_s": 0.0,
+          "clear_success_s": 55.0,
+          "clear_fail_s": 0.0,
+          "total_s": 855.5378750805554
+        }
+      },
+      "discovery_timeline": [
+        {
+          "count": 1,
+          "channel": 1,
+          "event": 1,
+          "time_s": 5.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 2,
+          "channel": 2,
+          "event": 2,
+          "time_s": 11.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 3,
+          "channel": 5,
+          "event": 5,
+          "time_s": 29.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 4,
+          "channel": 7,
+          "event": 7,
+          "time_s": 41.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 5,
+          "channel": 12,
+          "event": 12,
+          "time_s": 71.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 6,
+          "channel": 14,
+          "event": 14,
+          "time_s": 83.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 7,
+          "channel": 17,
+          "event": 17,
+          "time_s": 101.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 8,
+          "channel": 20,
+          "event": 20,
+          "time_s": 119.0,
+          "reason": "scan",
+          "position": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "count": 9,
+          "channel": 10,
+          "event": 34,
+          "time_s": 426.3514398215022,
+          "reason": "scan",
+          "position": [
+            -215.84530593762491,
+            945.6800748163689
+          ]
+        },
+        {
+          "count": 10,
+          "channel": 9,
+          "event": 86,
+          "time_s": 1436.4569615533576,
+          "reason": "scan",
+          "position": [
+            1151.1432708733398,
+            1443.4880046424823
+          ]
+        },
+        {
+          "count": 11,
+          "channel": 4,
+          "event": 123,
+          "time_s": 2187.5381741338097,
+          "reason": "scan",
+          "position": [
+            1663.4502223778645,
+            -801.0754067469176
+          ]
+        },
+        {
+          "count": 12,
+          "channel": 11,
+          "event": 164,
+          "time_s": 3142.4425452443356,
+          "reason": "scan",
+          "position": [
+            -410.83827672661766,
+            -1800.0001
+          ]
+        },
+        {
+          "count": 13,
+          "channel": 16,
+          "event": 176,
+          "time_s": 3377.7778559349827,
+          "reason": "scan",
+          "position": [
+            -1151.14327087334,
+            -1443.4880046424823
+          ]
+        },
+        {
+          "count": 14,
+          "channel": 8,
+          "event": 185,
+          "time_s": 3807.0981878533653,
+          "reason": "scan",
+          "position": [
+            -1663.450222377864,
+            -801.0754067469185
+          ]
+        },
+        {
+          "count": 15,
+          "channel": 15,
+          "event": 187,
+          "time_s": 3819.0981878533653,
+          "reason": "scan",
+          "position": [
+            -1663.450222377864,
+            -801.0754067469185
+          ]
+        },
+        {
+          "count": 16,
+          "channel": 19,
+          "event": 200,
+          "time_s": 4205.786153651739,
+          "reason": "scan",
+          "position": [
+            -1846.2904564622834,
+            2.261053697802841e-13
+          ]
+        }
+      ],
+      "all_sources_discovered": {
+        "count": 16,
+        "channel": 19,
+        "event": 200,
+        "time_s": 4205.786153651739,
+        "reason": "scan",
+        "position": [
+          -1846.2904564622834,
+          2.261053697802841e-13
+        ]
+      },
+      "time_after_all_discovered_s": 930.1873988717743,
+      "distinct_actual_scan_stations_including_origin": 15,
+      "actual_scan_measurements": 153,
+      "scan_task_choices": 14,
+      "scan_after_all_discovered": 0,
+      "source_measure_timeline": [
+        {
+          "channel": 1,
+          "event": 21,
+          "time_s": 276.37225400999864,
+          "result": "direction"
+        },
+        {
+          "channel": 9,
+          "event": 105,
+          "time_s": 1774.622654923523,
+          "result": "direction"
+        },
+        {
+          "channel": 16,
+          "event": 182,
+          "time_s": 3635.448490476898,
+          "result": "direction"
+        },
+        {
+          "channel": 8,
+          "event": 191,
+          "time_s": 3999.950400627412,
+          "result": "direction"
+        },
+        {
+          "channel": 19,
+          "event": 203,
+          "time_s": 4325.305713035115,
+          "result": "direction"
+        },
+        {
+          "channel": 19,
+          "event": 205,
+          "time_s": 4404.024134444518,
+          "result": "direction"
+        },
+        {
+          "channel": 12,
+          "event": 212,
+          "time_s": 5045.288508290933,
+          "result": "direction"
+        }
+      ],
+      "optical_start_timeline": [
+        {
+          "channel": 1,
+          "before_event": 24,
+          "start_s": 288.37225400999864,
+          "path_points": 4
+        },
+        {
+          "channel": 17,
+          "before_event": 42,
+          "start_s": 468.3514398215022,
+          "path_points": 4
+        },
+        {
+          "channel": 4,
+          "before_event": 145,
+          "start_s": 2477.8734848244567,
+          "path_points": 2
+        },
+        {
+          "channel": 11,
+          "before_event": 179,
+          "start_s": 3389.7778559349827,
+          "path_points": 4
+        },
+        {
+          "channel": 15,
+          "before_event": 201,
+          "start_s": 4205.786153651739,
+          "path_points": 2
+        }
+      ],
+      "success_timeline": [
+        {
+          "channel": 1,
+          "event": 26,
+          "time_s": 350.7539977003449,
+          "reason": "optical_cover",
+          "position": [
+            -81.9242930731962,
+            978.9311289971193
+          ]
+        },
+        {
+          "channel": 17,
+          "event": 44,
+          "time_s": 553.8411577400424,
+          "reason": "optical_cover",
+          "position": [
+            -500.25104540549836,
+            1186.0177861919985
+          ]
+        },
+        {
+          "channel": 10,
+          "event": 47,
+          "time_s": 577.473745412748,
+          "reason": "certified_clear",
+          "position": [
+            -531.7207014516711,
+            1175.5563699762683
+          ]
+        },
+        {
+          "channel": 9,
+          "event": 107,
+          "time_s": 1832.8748326473644,
+          "reason": "certified_clear",
+          "position": [
+            1475.7232357791443,
+            299.77620209131175
+          ]
+        },
+        {
+          "channel": 4,
+          "event": 145,
+          "time_s": 2561.7945417654482,
+          "reason": "optical_cover",
+          "position": [
+            1242.9723393438492,
+            -1059.7162588079061
+          ]
+        },
+        {
+          "channel": 14,
+          "event": 148,
+          "time_s": 2661.4153344609113,
+          "reason": "certified_clear",
+          "position": [
+            905.1060984396435,
+            -813.4291752393563
+          ]
+        },
+        {
+          "channel": 11,
+          "event": 180,
+          "time_s": 3507.281354965403,
+          "reason": "optical_cover",
+          "position": [
+            -634.8335587767326,
+            -1623.915057906194
+          ]
+        },
+        {
+          "channel": 8,
+          "event": 194,
+          "time_s": 4034.7482829647893,
+          "reason": "certified_clear",
+          "position": [
+            -1261.8704590218772,
+            -140.18067982556232
+          ]
+        },
+        {
+          "channel": 16,
+          "event": 195,
+          "time_s": 4080.7540493250394,
+          "reason": "certified_clear",
+          "position": [
+            -1438.61751134454,
+            -244.0907436549879
+          ]
+        },
+        {
+          "channel": 15,
+          "event": 201,
+          "time_s": 4234.124172236133,
+          "reason": "optical_cover",
+          "position": [
+            -1756.3753139840808,
+            74.37637352857475
+          ]
+        },
+        {
+          "channel": 19,
+          "event": 206,
+          "time_s": 4426.820696305922,
+          "reason": "certified_clear",
+          "position": [
+            -1283.302415790493,
+            612.4381901082497
+          ]
+        },
+        {
+          "channel": 7,
+          "event": 207,
+          "time_s": 4613.446994415255,
+          "reason": "certified_clear",
+          "position": [
+            -738.9596422077888,
+            -114.46878397495257
+          ]
+        },
+        {
+          "channel": 20,
+          "event": 208,
+          "time_s": 4684.009596466007,
+          "reason": "certified_clear",
+          "position": [
+            -540.1974856199851,
+            -375.15053400781727
+          ]
+        },
+        {
+          "channel": 2,
+          "event": 210,
+          "time_s": 4884.920238791281,
+          "reason": "certified_clear",
+          "position": [
+            401.6808328813054,
+            -254.665950566051
+          ]
+        },
+        {
+          "channel": 5,
+          "event": 211,
+          "time_s": 4953.567758502855,
+          "reason": "certified_clear",
+          "position": [
+            557.4159577662588,
+            -532.1938590958955
+          ]
+        },
+        {
+          "channel": 12,
+          "event": 213,
+          "time_s": 5135.973552523514,
+          "reason": "certified_clear",
+          "position": [
+            961.4122766012051,
+            223.63934953884896
+          ]
+        }
+      ],
+      "per_channel": {
+        "1": {
+          "discovery_s": 5.0,
+          "dedicated_measure_s": [
+            276.37225400999864
+          ],
+          "cleared_s": 350.7539977003449,
+          "optical_start_s": 288.37225400999864
+        },
+        "2": {
+          "discovery_s": 11.0,
+          "cleared_s": 4884.920238791281
+        },
+        "5": {
+          "discovery_s": 29.0,
+          "cleared_s": 4953.567758502855
+        },
+        "7": {
+          "discovery_s": 41.0,
+          "cleared_s": 4613.446994415255
+        },
+        "12": {
+          "discovery_s": 71.0,
+          "dedicated_measure_s": [
+            5045.288508290933
+          ],
+          "cleared_s": 5135.973552523514
+        },
+        "14": {
+          "discovery_s": 83.0,
+          "cleared_s": 2661.4153344609113
+        },
+        "17": {
+          "discovery_s": 101.0,
+          "cleared_s": 553.8411577400424,
+          "optical_start_s": 468.3514398215022
+        },
+        "20": {
+          "discovery_s": 119.0,
+          "cleared_s": 4684.009596466007
+        },
+        "10": {
+          "discovery_s": 426.3514398215022,
+          "cleared_s": 577.473745412748
+        },
+        "9": {
+          "discovery_s": 1436.4569615533576,
+          "dedicated_measure_s": [
+            1774.622654923523
+          ],
+          "cleared_s": 1832.8748326473644
+        },
+        "4": {
+          "discovery_s": 2187.5381741338097,
+          "cleared_s": 2561.7945417654482,
+          "optical_start_s": 2477.8734848244567
+        },
+        "11": {
+          "discovery_s": 3142.4425452443356,
+          "cleared_s": 3507.281354965403,
+          "optical_start_s": 3389.7778559349827
+        },
+        "16": {
+          "discovery_s": 3377.7778559349827,
+          "dedicated_measure_s": [
+            3635.448490476898
+          ],
+          "cleared_s": 4080.7540493250394
+        },
+        "8": {
+          "discovery_s": 3807.0981878533653,
+          "dedicated_measure_s": [
+            3999.950400627412
+          ],
+          "cleared_s": 4034.7482829647893
+        },
+        "15": {
+          "discovery_s": 3819.0981878533653,
+          "cleared_s": 4234.124172236133,
+          "optical_start_s": 4205.786153651739
+        },
+        "19": {
+          "discovery_s": 4205.786153651739,
+          "dedicated_measure_s": [
+            4325.305713035115,
+            4404.024134444518
+          ],
+          "cleared_s": 4426.820696305922
+        }
+      }
+    }
+  },
+  "fee_difference_s": {
+    "move": 979.0462549027184,
+    "measure": 310,
+    "switch": 57,
+    "clear_success": 0,
+    "clear_fail": 0
+  },
+  "station22_and_prune_actual_events_identical": true,
+  "no_new_solver_runs": true,
+  "interpretation": "Observed decomposition and event chronology; not a causal ablation or hidden-count rule."
+}

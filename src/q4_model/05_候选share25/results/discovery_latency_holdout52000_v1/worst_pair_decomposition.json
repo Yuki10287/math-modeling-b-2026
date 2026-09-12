@@ -1,0 +1,84 @@
+{
+  "pair": {
+    "seed": 52100,
+    "population": "boundary",
+    "baseline_s": 6815.021701925952,
+    "candidate_s": 7461.089250186923,
+    "saving_s": -646.0675482609713,
+    "saving_fraction": -0.09480051223877836
+  },
+  "baseline_by_reason": {
+    "scan": {
+      "move_s": 3092.9049772423587,
+      "measure_s": 2015.0,
+      "switch_s": 390.0,
+      "total_s": 5497.904977242359
+    },
+    "shared_measure": {
+      "move_s": 0.0,
+      "measure_s": 55.0,
+      "switch_s": 10.0,
+      "total_s": 65.0
+    },
+    "source_measure": {
+      "move_s": 746.4157010856972,
+      "measure_s": 40.0,
+      "switch_s": 6.0,
+      "total_s": 792.4157010856972
+    },
+    "certified_clear": {
+      "move_s": 166.0026587160881,
+      "successful_clear_s": 25.0,
+      "total_s": 191.0026587160881
+    },
+    "optical_cover": {
+      "move_s": 237.69836488180727,
+      "successful_clear_s": 25.0,
+      "failed_clear_s": 6.0,
+      "total_s": 268.69836488180727
+    }
+  },
+  "candidate_by_reason": {
+    "scan": {
+      "move_s": 3022.8533746360526,
+      "measure_s": 1960.0,
+      "switch_s": 377.0,
+      "total_s": 5359.853374636053
+    },
+    "shared_measure": {
+      "move_s": 0.0,
+      "measure_s": 35.0,
+      "switch_s": 7.0,
+      "total_s": 42.0
+    },
+    "source_measure": {
+      "move_s": 525.166688507986,
+      "measure_s": 25.0,
+      "switch_s": 4.0,
+      "total_s": 554.166688507986
+    },
+    "optical_cover": {
+      "move_s": 770.8655561437754,
+      "failed_clear_s": 186.0,
+      "successful_clear_s": 30.0,
+      "total_s": 986.8655561437754
+    },
+    "certified_clear": {
+      "move_s": 498.2036308991252,
+      "successful_clear_s": 20.0,
+      "total_s": 518.2036308991252
+    }
+  },
+  "candidate_minus_baseline_by_reason_s": {
+    "optical_cover": 718.1671912619681,
+    "scan": -138.051602606306,
+    "source_measure": -238.24901257771114,
+    "certified_clear": 327.2009721830371,
+    "shared_measure": -23.0
+  },
+  "note": "Movement belongs to arrival action; decomposition is descriptive, not an isolated causal effect.",
+  "input_case_hashes": {
+    "baseline_share25": "f9382892f53ca31235940d18f775091c4a2d481d3b13fc769900c6728ecdd3a7",
+    "discovery_latency_25": "97ec5309cefa3bf008043a8d0b856bf9ae440087d67038560e2c1c929aea4801"
+  }
+}

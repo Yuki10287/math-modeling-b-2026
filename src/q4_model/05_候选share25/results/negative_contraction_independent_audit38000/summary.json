@@ -1,0 +1,530 @@
+{
+  "passed": true,
+  "self_tests": 19,
+  "tests": [
+    {
+      "name": "closed_axis_zero",
+      "passed": true
+    },
+    {
+      "name": "strict_axis_zero_rejected",
+      "passed": true
+    },
+    {
+      "name": "closed_axis_one",
+      "passed": true
+    },
+    {
+      "name": "strict_axis_one_rejected",
+      "passed": true
+    },
+    {
+      "name": "closed_singleton_half",
+      "passed": true
+    },
+    {
+      "name": "strict_singleton_rejected",
+      "passed": true
+    },
+    {
+      "name": "constant_strict_zero_rejected",
+      "passed": true
+    },
+    {
+      "name": "closed_positive_axis_true_source_retained",
+      "passed": true
+    },
+    {
+      "name": "budget_retained_shallow_leaves_cover_original",
+      "passed": true
+    },
+    {
+      "name": "missing_retained_leaf",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "duplicate_retained_leaf",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "overlapping_parent_leaf",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "forged_original_polygon",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "forged_negative_premise",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "float_output_shrunk_through_rational_boundary",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "fake_axis_heading_exclusion",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "fake_negative_hull_exclusion",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "false_minimum_radius_premise_with_valid_index",
+      "passed": true,
+      "forgery_rejected": true
+    },
+    {
+      "name": "false_positive_radius_dominates_premise_with_valid_index",
+      "passed": true,
+      "forgery_rejected": true
+    }
+  ],
+  "cases": 10,
+  "contractions": 22,
+  "rows": [
+    {
+      "passed": true,
+      "contractions": 0,
+      "rows": [],
+      "case_file": "38000-uniform-smooth-negative_contraction25.json",
+      "case_sha256": "12d0052f6a145bd31a193a5ff9c0df6ddcefd7b5b1e154178226d08910423240"
+    },
+    {
+      "passed": true,
+      "contractions": 0,
+      "rows": [],
+      "case_file": "38000-uniform-smooth-share25.json",
+      "case_sha256": "a47989d05c71d875dbbb33b8eb853f19652043d845b328b5eb1e128fc3165b8d"
+    },
+    {
+      "passed": true,
+      "contractions": 9,
+      "rows": [
+        {
+          "passed": true,
+          "roots": 5,
+          "leaves": 134,
+          "excluded_leaves": 2,
+          "retained_leaves": 132,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 1,
+            "all_heading_quadrants_infeasible": 1
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 6,
+          "event": 262,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 2,
+          "leaves": 92,
+          "excluded_leaves": 21,
+          "retained_leaves": 71,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 21
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 1,
+          "event": 276,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 2,
+          "leaves": 40,
+          "excluded_leaves": 9,
+          "retained_leaves": 31,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 9
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 1,
+          "event": 289,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 2,
+          "leaves": 117,
+          "excluded_leaves": 5,
+          "retained_leaves": 112,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 5
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 10,
+          "event": 337,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 1,
+          "leaves": 32,
+          "excluded_leaves": 13,
+          "retained_leaves": 19,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 12,
+            "cell_inside_forced_negative_hull": 1
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 14,
+          "event": 339,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 78,
+          "excluded_leaves": 20,
+          "retained_leaves": 58,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 20
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 18,
+          "event": 363,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 89,
+          "excluded_leaves": 7,
+          "retained_leaves": 82,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 7
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 18,
+          "event": 369,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 92,
+          "excluded_leaves": 23,
+          "retained_leaves": 69,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 23
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 11,
+          "event": 420,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 48,
+          "excluded_leaves": 13,
+          "retained_leaves": 35,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 13
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 11,
+          "event": 422,
+          "feedback_provenance_verified": true
+        }
+      ],
+      "case_file": "38100-boundary-smooth-negative_contraction25.json",
+      "case_sha256": "8b6059ff2b5bd331d4755f288da43e4590af54b8655e10d7912b52eed4763e98"
+    },
+    {
+      "passed": true,
+      "contractions": 0,
+      "rows": [],
+      "case_file": "38100-boundary-smooth-share25.json",
+      "case_sha256": "190eb5d02c74f83e3b232a94baaead81e2b4c5702959afcb4b31ccc24639923b"
+    },
+    {
+      "passed": true,
+      "contractions": 7,
+      "rows": [
+        {
+          "passed": true,
+          "roots": 2,
+          "leaves": 110,
+          "excluded_leaves": 8,
+          "retained_leaves": 102,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 8
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 4,
+          "event": 204,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 100,
+          "excluded_leaves": 9,
+          "retained_leaves": 91,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 9
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 12,
+          "event": 208,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 100,
+          "excluded_leaves": 9,
+          "retained_leaves": 91,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 9
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 13,
+          "event": 209,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 116,
+          "excluded_leaves": 12,
+          "retained_leaves": 104,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 12
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 12,
+          "event": 213,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 113,
+          "excluded_leaves": 11,
+          "retained_leaves": 102,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 11
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 13,
+          "event": 215,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 41,
+          "excluded_leaves": 12,
+          "retained_leaves": 29,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 12
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 13,
+          "event": 217,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 2,
+          "leaves": 41,
+          "excluded_leaves": 13,
+          "retained_leaves": 28,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 13
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 4,
+          "event": 218,
+          "feedback_provenance_verified": true
+        }
+      ],
+      "case_file": "38200-cluster-smooth-negative_contraction25.json",
+      "case_sha256": "8f29e3195fcc9a9345983a5ae3189852df9d976374ff084a6dde2774eb020735"
+    },
+    {
+      "passed": true,
+      "contractions": 0,
+      "rows": [],
+      "case_file": "38200-cluster-smooth-share25.json",
+      "case_sha256": "a88a24cfd3690dcd0c322281b766641c7f376cbcaa57f2cb891e8a67521fb7c9"
+    },
+    {
+      "passed": true,
+      "contractions": 0,
+      "rows": [],
+      "case_file": "38300-omni_heavy-smooth-negative_contraction25.json",
+      "case_sha256": "4011a874654331770cdda972ed9d8edad4e555d6d817667f15053395886aba0b"
+    },
+    {
+      "passed": true,
+      "contractions": 0,
+      "rows": [],
+      "case_file": "38300-omni_heavy-smooth-share25.json",
+      "case_sha256": "962e2a380d77ebb01202e664358a709779e90e9a7a8f07e2b9970dc26f4fd661"
+    },
+    {
+      "passed": true,
+      "contractions": 6,
+      "rows": [
+        {
+          "passed": true,
+          "roots": 1,
+          "leaves": 33,
+          "excluded_leaves": 11,
+          "retained_leaves": 22,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 3,
+            "cell_inside_forced_negative_hull": 8
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 3,
+          "event": 115,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 2,
+          "leaves": 109,
+          "excluded_leaves": 9,
+          "retained_leaves": 100,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 9
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 3,
+          "event": 129,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 130,
+          "excluded_leaves": 16,
+          "retained_leaves": 114,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 16
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 14,
+          "event": 242,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 119,
+          "excluded_leaves": 24,
+          "retained_leaves": 95,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 24
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 14,
+          "event": 248,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 96,
+          "excluded_leaves": 9,
+          "retained_leaves": 87,
+          "exclusion_reasons": {
+            "all_heading_quadrants_infeasible": 2,
+            "cell_inside_forced_negative_hull": 7
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 2,
+          "event": 362,
+          "feedback_provenance_verified": true
+        },
+        {
+          "passed": true,
+          "roots": 3,
+          "leaves": 132,
+          "excluded_leaves": 7,
+          "retained_leaves": 125,
+          "exclusion_reasons": {
+            "cell_inside_forced_negative_hull": 7
+          },
+          "premises_bound_to_external_trace": true,
+          "original_partition_complete": true,
+          "actual_float_contains_all_retained_vertices": true,
+          "channel": 2,
+          "event": 372,
+          "feedback_provenance_verified": true
+        }
+      ],
+      "case_file": "38400-dir_heavy-smooth-negative_contraction25.json",
+      "case_sha256": "f962af1ec10dba8c24508c7cd4140de5d916597c27c63a67dd9245343b8563f3"
+    },
+    {
+      "passed": true,
+      "contractions": 0,
+      "rows": [],
+      "case_file": "38400-dir_heavy-smooth-share25.json",
+      "case_sha256": "3b63c6361c837bb68a32771ebb1ea4bc84174d5e0738f20013e50178ab6128a0"
+    }
+  ],
+  "auditor_source_sha256": "87dbba7acb97e47e62aedeed18a54a0a109cdf932d092be44691698bcd014c59",
+  "producer_source_sha256": "020a8f9088c9710412753d3d027d5d44d3a996f1b6bb7cb8e67b023c1a3e2da5",
+  "official_simulator_contacted": false,
+  "actual_binary_float_output_checked_exactly": true,
+  "runtime_s": 0.9031064999871887
+}

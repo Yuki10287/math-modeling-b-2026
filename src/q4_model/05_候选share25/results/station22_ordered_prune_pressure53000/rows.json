@@ -1,0 +1,3604 @@
+[
+  {
+    "seed": 53000,
+    "population": "uniform",
+    "field": "constant",
+    "variant": "share25",
+    "runtime_s": 5.1976282999967225,
+    "audit": {
+      "passed": true,
+      "events": 364,
+      "polygons": 36,
+      "optical_plans": 6,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6306.218197687733,
+      "counts": {
+        "measure": 339,
+        "switch": 319,
+        "clear_success": 10,
+        "clear_fail": 15
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 10,
+        "cells_per_channel": 576,
+        "verified_cells": 5760,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6306.218197687733,
+    "average_s": 630.6218197687733,
+    "distance_m": 20986.090988438656,
+    "counts": {
+      "measure": 339,
+      "switch": 319,
+      "clear_success": 10,
+      "clear_fail": 15
+    },
+    "time_parts_s": {
+      "move": 4197.218197687731,
+      "measure": 1695,
+      "switch": 319,
+      "clear_success": 50,
+      "clear_fail": 45
+    }
+  },
+  {
+    "seed": 53000,
+    "population": "uniform",
+    "field": "constant",
+    "variant": "station22",
+    "runtime_s": 7.66435979999369,
+    "audit": {
+      "passed": true,
+      "events": 286,
+      "polygons": 30,
+      "optical_plans": 8,
+      "triangle_certificates": 2740,
+      "max_time_error_s": 0.0,
+      "total_s": 5854.114739607029,
+      "counts": {
+        "measure": 272,
+        "switch": 255,
+        "clear_success": 10,
+        "clear_fail": 4
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2740,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 5854.114739607029,
+    "average_s": 585.4114739607029,
+    "distance_m": 20885.573698035143,
+    "counts": {
+      "measure": 272,
+      "switch": 255,
+      "clear_success": 10,
+      "clear_fail": 4
+    },
+    "time_parts_s": {
+      "move": 4177.114739607028,
+      "measure": 1360,
+      "switch": 255,
+      "clear_success": 50,
+      "clear_fail": 12
+    }
+  },
+  {
+    "seed": 53000,
+    "population": "uniform",
+    "field": "constant",
+    "variant": "station22_prune",
+    "runtime_s": 7.882841099984944,
+    "audit": {
+      "passed": true,
+      "events": 286,
+      "polygons": 30,
+      "optical_plans": 8,
+      "triangle_certificates": 2740,
+      "max_time_error_s": 0.0,
+      "total_s": 5854.114739607029,
+      "counts": {
+        "measure": 272,
+        "switch": 255,
+        "clear_success": 10,
+        "clear_fail": 4
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2740,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 8,
+        "rows": [
+          {
+            "channel": 19,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 1,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 81,
+            "original_only": 15,
+            "additional_from_contraction": 66,
+            "contraction_applied": true
+          },
+          {
+            "channel": 16,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 6,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 81,
+        "original_only": 15,
+        "additional_from_contraction": 66
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 8,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 130.62340984140403,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 19,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 259.60169381900266,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 7,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 292.73414170175397,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 155.7323148078034,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 14,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 279.0135966483679,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 1,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 108,
+              "max_corner_distance_squared": 366.0486002695403,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 81,
+            "kept": 27,
+            "from_original": 15,
+            "additional_from_contraction": 66,
+            "channel": 12,
+            "executed_original_points": 4
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 141.32133951586,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 16,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 192.5236160913891,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 6,
+            "executed_original_points": 1
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 5854.114739607029,
+    "average_s": 585.4114739607029,
+    "distance_m": 20885.573698035143,
+    "counts": {
+      "measure": 272,
+      "switch": 255,
+      "clear_success": 10,
+      "clear_fail": 4
+    },
+    "time_parts_s": {
+      "move": 4177.114739607028,
+      "measure": 1360,
+      "switch": 255,
+      "clear_success": 50,
+      "clear_fail": 12
+    }
+  },
+  {
+    "seed": 53000,
+    "population": "uniform",
+    "field": "extreme",
+    "variant": "share25",
+    "runtime_s": 4.978846199985128,
+    "audit": {
+      "passed": true,
+      "events": 386,
+      "polygons": 31,
+      "optical_plans": 8,
+      "triangle_certificates": 360,
+      "max_time_error_s": 0.0,
+      "total_s": 6834.813039514885,
+      "counts": {
+        "measure": 311,
+        "switch": 290,
+        "clear_success": 10,
+        "clear_fail": 65
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 10,
+        "cells_per_channel": 576,
+        "verified_cells": 5760,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 6834.813039514885,
+    "average_s": 683.4813039514885,
+    "distance_m": 23724.06519757448,
+    "counts": {
+      "measure": 311,
+      "switch": 290,
+      "clear_success": 10,
+      "clear_fail": 65
+    },
+    "time_parts_s": {
+      "move": 4744.813039514896,
+      "measure": 1555,
+      "switch": 290,
+      "clear_success": 50,
+      "clear_fail": 195
+    }
+  },
+  {
+    "seed": 53000,
+    "population": "uniform",
+    "field": "extreme",
+    "variant": "station22",
+    "runtime_s": 7.086538000003202,
+    "audit": {
+      "passed": true,
+      "events": 287,
+      "polygons": 30,
+      "optical_plans": 4,
+      "triangle_certificates": 2740,
+      "max_time_error_s": 0.0,
+      "total_s": 5816.3790747697985,
+      "counts": {
+        "measure": 272,
+        "switch": 255,
+        "clear_success": 10,
+        "clear_fail": 5
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2740,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 5816.3790747697985,
+    "average_s": 581.6379074769799,
+    "distance_m": 20681.895373848994,
+    "counts": {
+      "measure": 272,
+      "switch": 255,
+      "clear_success": 10,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 4136.3790747697985,
+      "measure": 1360,
+      "switch": 255,
+      "clear_success": 50,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 53000,
+    "population": "uniform",
+    "field": "extreme",
+    "variant": "station22_prune",
+    "runtime_s": 7.044412799994461,
+    "audit": {
+      "passed": true,
+      "events": 287,
+      "polygons": 30,
+      "optical_plans": 4,
+      "triangle_certificates": 2740,
+      "max_time_error_s": 0.0,
+      "total_s": 5816.3790747697985,
+      "counts": {
+        "measure": 272,
+        "switch": 255,
+        "clear_success": 10,
+        "clear_fail": 5
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2740,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 4,
+        "rows": [
+          {
+            "channel": 19,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 87,
+            "original_only": 20,
+            "additional_from_contraction": 67,
+            "contraction_applied": true
+          },
+          {
+            "channel": 18,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 16,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 87,
+        "original_only": 20,
+        "additional_from_contraction": 67
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 4,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 130.62340984140403,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 19,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 108,
+              "max_corner_distance_squared": 366.0144209967658,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 87,
+            "kept": 21,
+            "from_original": 20,
+            "additional_from_contraction": 67,
+            "channel": 12,
+            "executed_original_points": 5
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 315.03244837112516,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 18,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 212.23682008600176,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 16,
+            "executed_original_points": 1
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 10,
+    "cleared": 10,
+    "all_cleared": true,
+    "total_s": 5816.3790747697985,
+    "average_s": 581.6379074769799,
+    "distance_m": 20681.895373848994,
+    "counts": {
+      "measure": 272,
+      "switch": 255,
+      "clear_success": 10,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 4136.3790747697985,
+      "measure": 1360,
+      "switch": 255,
+      "clear_success": 50,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 53100,
+    "population": "boundary",
+    "field": "constant",
+    "variant": "share25",
+    "runtime_s": 2.3661570999829564,
+    "audit": {
+      "passed": true,
+      "events": 434,
+      "polygons": 31,
+      "optical_plans": 7,
+      "triangle_certificates": 324,
+      "max_time_error_s": 0.0,
+      "total_s": 7184.753155336908,
+      "counts": {
+        "measure": 415,
+        "switch": 400,
+        "clear_success": 11,
+        "clear_fail": 8
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 9,
+        "cells_per_channel": 576,
+        "verified_cells": 5184,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 7184.753155336908,
+    "average_s": 653.1593777579008,
+    "distance_m": 23153.765776684537,
+    "counts": {
+      "measure": 415,
+      "switch": 400,
+      "clear_success": 11,
+      "clear_fail": 8
+    },
+    "time_parts_s": {
+      "move": 4630.753155336907,
+      "measure": 2075,
+      "switch": 400,
+      "clear_success": 55,
+      "clear_fail": 24
+    }
+  },
+  {
+    "seed": 53100,
+    "population": "boundary",
+    "field": "constant",
+    "variant": "station22",
+    "runtime_s": 11.524956299981568,
+    "audit": {
+      "passed": true,
+      "events": 359,
+      "polygons": 34,
+      "optical_plans": 7,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 6519.755895130844,
+      "counts": {
+        "measure": 336,
+        "switch": 317,
+        "clear_success": 11,
+        "clear_fail": 12
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 6519.755895130844,
+    "average_s": 592.7050813755312,
+    "distance_m": 22158.779475654235,
+    "counts": {
+      "measure": 336,
+      "switch": 317,
+      "clear_success": 11,
+      "clear_fail": 12
+    },
+    "time_parts_s": {
+      "move": 4431.755895130847,
+      "measure": 1680,
+      "switch": 317,
+      "clear_success": 55,
+      "clear_fail": 36
+    }
+  },
+  {
+    "seed": 53100,
+    "population": "boundary",
+    "field": "constant",
+    "variant": "station22_prune",
+    "runtime_s": 12.432143599988194,
+    "audit": {
+      "passed": true,
+      "events": 359,
+      "polygons": 34,
+      "optical_plans": 7,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 6519.755895130844,
+      "counts": {
+        "measure": 336,
+        "switch": 317,
+        "clear_success": 11,
+        "clear_fail": 12
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 7,
+        "rows": [
+          {
+            "channel": 18,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 16,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 8,
+            "removed": 3,
+            "original_only": 3,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 3,
+            "removed": 2,
+            "original_only": 2,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 6,
+            "removed": 50,
+            "original_only": 0,
+            "additional_from_contraction": 50,
+            "contraction_applied": true
+          }
+        ],
+        "removed": 55,
+        "original_only": 5,
+        "additional_from_contraction": 50
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 7,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 182.00745533772255,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 18,
+            "executed_original_points": 4
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 13,
+              "max_corner_distance_squared": 192.00372231866498,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 13,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 16,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 74,
+              "max_corner_distance_squared": 277.01893785301723,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 3,
+            "kept": 71,
+            "from_original": 3,
+            "additional_from_contraction": 0,
+            "channel": 8,
+            "executed_original_points": 6
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 145.6344371227454,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 5,
+            "executed_original_points": 4
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 9,
+              "max_corner_distance_squared": 162.49811809093634,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 9,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 72,
+              "max_corner_distance_squared": 267.01995746906255,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 2,
+            "kept": 70,
+            "from_original": 2,
+            "additional_from_contraction": 0,
+            "channel": 3,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 102,
+              "max_corner_distance_squared": 371.2896663296027,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 50,
+            "kept": 52,
+            "from_original": 0,
+            "additional_from_contraction": 50,
+            "channel": 6,
+            "executed_original_points": 2
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 6519.755895130844,
+    "average_s": 592.7050813755312,
+    "distance_m": 22158.779475654235,
+    "counts": {
+      "measure": 336,
+      "switch": 317,
+      "clear_success": 11,
+      "clear_fail": 12
+    },
+    "time_parts_s": {
+      "move": 4431.755895130847,
+      "measure": 1680,
+      "switch": 317,
+      "clear_success": 55,
+      "clear_fail": 36
+    }
+  },
+  {
+    "seed": 53100,
+    "population": "boundary",
+    "field": "extreme",
+    "variant": "share25",
+    "runtime_s": 2.9389687000075355,
+    "audit": {
+      "passed": true,
+      "events": 441,
+      "polygons": 28,
+      "optical_plans": 9,
+      "triangle_certificates": 324,
+      "max_time_error_s": 0.0,
+      "total_s": 7575.036554367578,
+      "counts": {
+        "measure": 367,
+        "switch": 349,
+        "clear_success": 11,
+        "clear_fail": 63
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 9,
+        "cells_per_channel": 576,
+        "verified_cells": 5184,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 7575.036554367578,
+    "average_s": 688.639686760689,
+    "distance_m": 25735.182771837815,
+    "counts": {
+      "measure": 367,
+      "switch": 349,
+      "clear_success": 11,
+      "clear_fail": 63
+    },
+    "time_parts_s": {
+      "move": 5147.036554367563,
+      "measure": 1835,
+      "switch": 349,
+      "clear_success": 55,
+      "clear_fail": 189
+    }
+  },
+  {
+    "seed": 53100,
+    "population": "boundary",
+    "field": "extreme",
+    "variant": "station22",
+    "runtime_s": 8.835720500006573,
+    "audit": {
+      "passed": true,
+      "events": 434,
+      "polygons": 31,
+      "optical_plans": 9,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 7171.41066586114,
+      "counts": {
+        "measure": 362,
+        "switch": 343,
+        "clear_success": 11,
+        "clear_fail": 61
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 7171.41066586114,
+    "average_s": 651.9464241691945,
+    "distance_m": 23902.053329305683,
+    "counts": {
+      "measure": 362,
+      "switch": 343,
+      "clear_success": 11,
+      "clear_fail": 61
+    },
+    "time_parts_s": {
+      "move": 4780.410665861136,
+      "measure": 1810,
+      "switch": 343,
+      "clear_success": 55,
+      "clear_fail": 183
+    }
+  },
+  {
+    "seed": 53100,
+    "population": "boundary",
+    "field": "extreme",
+    "variant": "station22_prune",
+    "runtime_s": 9.983559600019362,
+    "audit": {
+      "passed": true,
+      "events": 409,
+      "polygons": 31,
+      "optical_plans": 9,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 6834.348078194222,
+      "counts": {
+        "measure": 362,
+        "switch": 343,
+        "clear_success": 11,
+        "clear_fail": 36
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 9,
+        "rows": [
+          {
+            "channel": 6,
+            "removed": 65,
+            "original_only": 15,
+            "additional_from_contraction": 50,
+            "contraction_applied": true
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": true
+          },
+          {
+            "channel": 18,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 16,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 8,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 5,
+            "removed": 6,
+            "original_only": 6,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 3,
+            "removed": 76,
+            "original_only": 6,
+            "additional_from_contraction": 70,
+            "contraction_applied": true
+          },
+          {
+            "channel": 20,
+            "removed": 93,
+            "original_only": 17,
+            "additional_from_contraction": 76,
+            "contraction_applied": true
+          }
+        ],
+        "removed": 240,
+        "original_only": 44,
+        "additional_from_contraction": 196
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 9,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 102,
+              "max_corner_distance_squared": 370.60255495744997,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 65,
+            "kept": 37,
+            "from_original": 15,
+            "additional_from_contraction": 50,
+            "channel": 6,
+            "executed_original_points": 25
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 11,
+              "max_corner_distance_squared": 180.84465122581167,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 11,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 11,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 8,
+              "max_corner_distance_squared": 286.1143631051604,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 8,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 18,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 21,
+              "max_corner_distance_squared": 314.1690347606755,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 21,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 16,
+            "executed_original_points": 3
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 264.23915074863527,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 8,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 80,
+              "max_corner_distance_squared": 294.7472474934918,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 6,
+            "kept": 74,
+            "from_original": 6,
+            "additional_from_contraction": 0,
+            "channel": 5,
+            "executed_original_points": 5
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 19,
+              "max_corner_distance_squared": 278.0071238668222,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 19,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 4
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 82,
+              "max_corner_distance_squared": 294.0226483398149,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 76,
+            "kept": 6,
+            "from_original": 6,
+            "additional_from_contraction": 70,
+            "channel": 3,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 100,
+              "max_corner_distance_squared": 373.0088681446169,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 93,
+            "kept": 7,
+            "from_original": 17,
+            "additional_from_contraction": 76,
+            "channel": 20,
+            "executed_original_points": 3
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 6834.348078194222,
+    "average_s": 621.3043707449292,
+    "distance_m": 22591.74039097111,
+    "counts": {
+      "measure": 362,
+      "switch": 343,
+      "clear_success": 11,
+      "clear_fail": 36
+    },
+    "time_parts_s": {
+      "move": 4518.348078194222,
+      "measure": 1810,
+      "switch": 343,
+      "clear_success": 55,
+      "clear_fail": 108
+    }
+  },
+  {
+    "seed": 53200,
+    "population": "cluster",
+    "field": "constant",
+    "variant": "share25",
+    "runtime_s": 4.614696400007233,
+    "audit": {
+      "passed": true,
+      "events": 309,
+      "polygons": 33,
+      "optical_plans": 5,
+      "triangle_certificates": 324,
+      "max_time_error_s": 0.0,
+      "total_s": 5761.885724698049,
+      "counts": {
+        "measure": 296,
+        "switch": 276,
+        "clear_success": 11,
+        "clear_fail": 2
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 9,
+        "cells_per_channel": 576,
+        "verified_cells": 5184,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5761.885724698049,
+    "average_s": 523.807793154368,
+    "distance_m": 19724.42862349024,
+    "counts": {
+      "measure": 296,
+      "switch": 276,
+      "clear_success": 11,
+      "clear_fail": 2
+    },
+    "time_parts_s": {
+      "move": 3944.885724698048,
+      "measure": 1480,
+      "switch": 276,
+      "clear_success": 55,
+      "clear_fail": 6
+    }
+  },
+  {
+    "seed": 53200,
+    "population": "cluster",
+    "field": "constant",
+    "variant": "station22",
+    "runtime_s": 6.380308399995556,
+    "audit": {
+      "passed": true,
+      "events": 256,
+      "polygons": 29,
+      "optical_plans": 5,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 5576.850743829025,
+      "counts": {
+        "measure": 240,
+        "switch": 222,
+        "clear_success": 11,
+        "clear_fail": 5
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5576.850743829025,
+    "average_s": 506.9864312571841,
+    "distance_m": 20424.25371914514,
+    "counts": {
+      "measure": 240,
+      "switch": 222,
+      "clear_success": 11,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 4084.850743829028,
+      "measure": 1200,
+      "switch": 222,
+      "clear_success": 55,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 53200,
+    "population": "cluster",
+    "field": "constant",
+    "variant": "station22_prune",
+    "runtime_s": 6.58717070001876,
+    "audit": {
+      "passed": true,
+      "events": 256,
+      "polygons": 29,
+      "optical_plans": 5,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 5576.850743829025,
+      "counts": {
+        "measure": 240,
+        "switch": 222,
+        "clear_success": 11,
+        "clear_fail": 5
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 5,
+        "rows": [
+          {
+            "channel": 3,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 9,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 5,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 120.44383363831587,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 3,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 254.76413352632235,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 163.04880211526142,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 9,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 172.73178596523408,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 5,
+            "executed_original_points": 4
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 8,
+              "max_corner_distance_squared": 218.88077404880664,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 8,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 12,
+            "executed_original_points": 2
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5576.850743829025,
+    "average_s": 506.9864312571841,
+    "distance_m": 20424.25371914514,
+    "counts": {
+      "measure": 240,
+      "switch": 222,
+      "clear_success": 11,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 4084.850743829028,
+      "measure": 1200,
+      "switch": 222,
+      "clear_success": 55,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 53200,
+    "population": "cluster",
+    "field": "extreme",
+    "variant": "share25",
+    "runtime_s": 4.7036843999812845,
+    "audit": {
+      "passed": true,
+      "events": 316,
+      "polygons": 31,
+      "optical_plans": 6,
+      "triangle_certificates": 324,
+      "max_time_error_s": 0.0,
+      "total_s": 5733.65860770111,
+      "counts": {
+        "measure": 294,
+        "switch": 272,
+        "clear_success": 11,
+        "clear_fail": 11
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 9,
+        "cells_per_channel": 576,
+        "verified_cells": 5184,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5733.65860770111,
+    "average_s": 521.2416916091918,
+    "distance_m": 19518.293038505555,
+    "counts": {
+      "measure": 294,
+      "switch": 272,
+      "clear_success": 11,
+      "clear_fail": 11
+    },
+    "time_parts_s": {
+      "move": 3903.658607701111,
+      "measure": 1470,
+      "switch": 272,
+      "clear_success": 55,
+      "clear_fail": 33
+    }
+  },
+  {
+    "seed": 53200,
+    "population": "cluster",
+    "field": "extreme",
+    "variant": "station22",
+    "runtime_s": 6.185680900001898,
+    "audit": {
+      "passed": true,
+      "events": 251,
+      "polygons": 29,
+      "optical_plans": 6,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 5549.552449317492,
+      "counts": {
+        "measure": 240,
+        "switch": 221,
+        "clear_success": 11,
+        "clear_fail": 0
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5549.552449317492,
+    "average_s": 504.504768119772,
+    "distance_m": 20367.762246587474,
+    "counts": {
+      "measure": 240,
+      "switch": 221,
+      "clear_success": 11,
+      "clear_fail": 0
+    },
+    "time_parts_s": {
+      "move": 4073.552449317495,
+      "measure": 1200,
+      "switch": 221,
+      "clear_success": 55,
+      "clear_fail": 0
+    }
+  },
+  {
+    "seed": 53200,
+    "population": "cluster",
+    "field": "extreme",
+    "variant": "station22_prune",
+    "runtime_s": 6.399000499979593,
+    "audit": {
+      "passed": true,
+      "events": 251,
+      "polygons": 29,
+      "optical_plans": 6,
+      "triangle_certificates": 2466,
+      "max_time_error_s": 0.0,
+      "total_s": 5549.552449317492,
+      "counts": {
+        "measure": 240,
+        "switch": 221,
+        "clear_success": 11,
+        "clear_fail": 0
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 2466,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 6,
+        "rows": [
+          {
+            "channel": 3,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 19,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 13,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 4,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 6,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 153.70014280351572,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 3,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 286.585948778623,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 150.82889252650742,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 19,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 168.28001789101853,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 13,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 200.71612405396382,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 4,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 247.26950080752903,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 12,
+            "executed_original_points": 1
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 11,
+    "cleared": 11,
+    "all_cleared": true,
+    "total_s": 5549.552449317492,
+    "average_s": 504.504768119772,
+    "distance_m": 20367.762246587474,
+    "counts": {
+      "measure": 240,
+      "switch": 221,
+      "clear_success": 11,
+      "clear_fail": 0
+    },
+    "time_parts_s": {
+      "move": 4073.552449317495,
+      "measure": 1200,
+      "switch": 221,
+      "clear_success": 55,
+      "clear_fail": 0
+    }
+  },
+  {
+    "seed": 53300,
+    "population": "omni_heavy",
+    "field": "constant",
+    "variant": "share25",
+    "runtime_s": 6.579265900014434,
+    "audit": {
+      "passed": true,
+      "events": 211,
+      "polygons": 51,
+      "optical_plans": 10,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 5016.140289639402,
+      "counts": {
+        "measure": 183,
+        "switch": 171,
+        "clear_success": 16,
+        "clear_fail": 12
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "count_upper_bound",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 0
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 5016.140289639402,
+    "average_s": 313.5087681024626,
+    "distance_m": 19070.701448197025,
+    "counts": {
+      "measure": 183,
+      "switch": 171,
+      "clear_success": 16,
+      "clear_fail": 12
+    },
+    "time_parts_s": {
+      "move": 3814.140289639405,
+      "measure": 915,
+      "switch": 171,
+      "clear_success": 80,
+      "clear_fail": 36
+    }
+  },
+  {
+    "seed": 53300,
+    "population": "omni_heavy",
+    "field": "constant",
+    "variant": "station22",
+    "runtime_s": 8.73882309999317,
+    "audit": {
+      "passed": true,
+      "events": 213,
+      "polygons": 53,
+      "optical_plans": 11,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 5112.522886448293,
+      "counts": {
+        "measure": 190,
+        "switch": 180,
+        "clear_success": 16,
+        "clear_fail": 7
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 0,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 5112.522886448293,
+    "average_s": 319.53268040301833,
+    "distance_m": 19407.614432241462,
+    "counts": {
+      "measure": 190,
+      "switch": 180,
+      "clear_success": 16,
+      "clear_fail": 7
+    },
+    "time_parts_s": {
+      "move": 3881.5228864482924,
+      "measure": 950,
+      "switch": 180,
+      "clear_success": 80,
+      "clear_fail": 21
+    }
+  },
+  {
+    "seed": 53300,
+    "population": "omni_heavy",
+    "field": "constant",
+    "variant": "station22_prune",
+    "runtime_s": 8.038230699981796,
+    "audit": {
+      "passed": true,
+      "events": 213,
+      "polygons": 53,
+      "optical_plans": 11,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 5112.522886448293,
+      "counts": {
+        "measure": 190,
+        "switch": 180,
+        "clear_success": 16,
+        "clear_fail": 7
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 0,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 11,
+        "rows": [
+          {
+            "channel": 1,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 17,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 9,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 20,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 2,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 12,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 11,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 6,
+              "max_corner_distance_squared": 210.95437489733408,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 6,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 1,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 272.2078848227092,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 17,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 325.00889408496073,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 9,
+            "executed_original_points": 3
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 128.5850333419502,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 14,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 232.62402682622292,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 11,
+            "executed_original_points": 3
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 272.5047112866444,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 308.19067590377404,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 7,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 368.44478492983984,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 20,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 221.79583226830383,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 2,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 131.4560923979007,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 5,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 175.99759280191242,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 12,
+            "executed_original_points": 1
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 5112.522886448293,
+    "average_s": 319.53268040301833,
+    "distance_m": 19407.614432241462,
+    "counts": {
+      "measure": 190,
+      "switch": 180,
+      "clear_success": 16,
+      "clear_fail": 7
+    },
+    "time_parts_s": {
+      "move": 3881.5228864482924,
+      "measure": 950,
+      "switch": 180,
+      "clear_success": 80,
+      "clear_fail": 21
+    }
+  },
+  {
+    "seed": 53300,
+    "population": "omni_heavy",
+    "field": "extreme",
+    "variant": "share25",
+    "runtime_s": 5.570763700001407,
+    "audit": {
+      "passed": true,
+      "events": 151,
+      "polygons": 51,
+      "optical_plans": 10,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 3789.927297620795,
+      "counts": {
+        "measure": 130,
+        "switch": 125,
+        "clear_success": 16,
+        "clear_fail": 5
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "count_upper_bound",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 0
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 3789.927297620795,
+    "average_s": 236.87045610129968,
+    "distance_m": 14599.636488103972,
+    "counts": {
+      "measure": 130,
+      "switch": 125,
+      "clear_success": 16,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 2919.9272976207944,
+      "measure": 650,
+      "switch": 125,
+      "clear_success": 80,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 53300,
+    "population": "omni_heavy",
+    "field": "extreme",
+    "variant": "station22",
+    "runtime_s": 7.791207100002794,
+    "audit": {
+      "passed": true,
+      "events": 213,
+      "polygons": 55,
+      "optical_plans": 5,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 5135.973552523514,
+      "counts": {
+        "measure": 192,
+        "switch": 182,
+        "clear_success": 16,
+        "clear_fail": 5
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 0,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 5135.973552523514,
+    "average_s": 320.9983470327196,
+    "distance_m": 19494.867762617563,
+    "counts": {
+      "measure": 192,
+      "switch": 182,
+      "clear_success": 16,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 3898.973552523513,
+      "measure": 960,
+      "switch": 182,
+      "clear_success": 80,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 53300,
+    "population": "omni_heavy",
+    "field": "extreme",
+    "variant": "station22_prune",
+    "runtime_s": 8.734225599997444,
+    "audit": {
+      "passed": true,
+      "events": 213,
+      "polygons": 55,
+      "optical_plans": 5,
+      "triangle_certificates": 0,
+      "max_time_error_s": 0.0,
+      "total_s": 5135.973552523514,
+      "counts": {
+        "measure": 192,
+        "switch": 182,
+        "clear_success": 16,
+        "clear_fail": 5
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 0,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 5,
+        "rows": [
+          {
+            "channel": 1,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 17,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 4,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 0,
+        "original_only": 0,
+        "additional_from_contraction": 0
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 5,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 198.49720816056038,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 1,
+            "executed_original_points": 3
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 252.7000863665753,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 17,
+            "executed_original_points": 3
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 174.0043241267928,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 4,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 166.59677472499425,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 11,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 287.55868714784816,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 1
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 16,
+    "cleared": 16,
+    "all_cleared": true,
+    "total_s": 5135.973552523514,
+    "average_s": 320.9983470327196,
+    "distance_m": 19494.867762617563,
+    "counts": {
+      "measure": 192,
+      "switch": 182,
+      "clear_success": 16,
+      "clear_fail": 5
+    },
+    "time_parts_s": {
+      "move": 3898.973552523513,
+      "measure": 960,
+      "switch": 182,
+      "clear_success": 80,
+      "clear_fail": 15
+    }
+  },
+  {
+    "seed": 53400,
+    "population": "dir_heavy",
+    "field": "constant",
+    "variant": "share25",
+    "runtime_s": 6.669881499983603,
+    "audit": {
+      "passed": true,
+      "events": 331,
+      "polygons": 52,
+      "optical_plans": 13,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 6337.9060782874985,
+      "counts": {
+        "measure": 267,
+        "switch": 254,
+        "clear_success": 14,
+        "clear_fail": 50
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 6,
+        "cells_per_channel": 576,
+        "verified_cells": 3456,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6337.9060782874985,
+    "average_s": 452.7075770205356,
+    "distance_m": 22644.530391437467,
+    "counts": {
+      "measure": 267,
+      "switch": 254,
+      "clear_success": 14,
+      "clear_fail": 50
+    },
+    "time_parts_s": {
+      "move": 4528.906078287493,
+      "measure": 1335,
+      "switch": 254,
+      "clear_success": 70,
+      "clear_fail": 150
+    }
+  },
+  {
+    "seed": 53400,
+    "population": "dir_heavy",
+    "field": "constant",
+    "variant": "station22",
+    "runtime_s": 9.126825199986342,
+    "audit": {
+      "passed": true,
+      "events": 300,
+      "polygons": 52,
+      "optical_plans": 12,
+      "triangle_certificates": 1644,
+      "max_time_error_s": 0.0,
+      "total_s": 6280.782862444047,
+      "counts": {
+        "measure": 234,
+        "switch": 217,
+        "clear_success": 14,
+        "clear_fail": 52
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 1644,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6280.782862444047,
+    "average_s": 448.62734731743194,
+    "distance_m": 23338.914312220233,
+    "counts": {
+      "measure": 234,
+      "switch": 217,
+      "clear_success": 14,
+      "clear_fail": 52
+    },
+    "time_parts_s": {
+      "move": 4667.782862444046,
+      "measure": 1170,
+      "switch": 217,
+      "clear_success": 70,
+      "clear_fail": 156
+    }
+  },
+  {
+    "seed": 53400,
+    "population": "dir_heavy",
+    "field": "constant",
+    "variant": "station22_prune",
+    "runtime_s": 9.094360699993558,
+    "audit": {
+      "passed": true,
+      "events": 274,
+      "polygons": 52,
+      "optical_plans": 12,
+      "triangle_certificates": 1644,
+      "max_time_error_s": 0.0,
+      "total_s": 5929.347260020971,
+      "counts": {
+        "measure": 234,
+        "switch": 217,
+        "clear_success": 14,
+        "clear_fail": 26
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 1644,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 12,
+        "rows": [
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 2,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 69,
+            "original_only": 17,
+            "additional_from_contraction": 52,
+            "contraction_applied": true
+          },
+          {
+            "channel": 6,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 16,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 18,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 20,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 13,
+            "removed": 85,
+            "original_only": 10,
+            "additional_from_contraction": 75,
+            "contraction_applied": true
+          },
+          {
+            "channel": 4,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 15,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 154,
+        "original_only": 27,
+        "additional_from_contraction": 127
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 12,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 152.79501499696744,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 5,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 6,
+              "max_corner_distance_squared": 191.8078484946401,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 6,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 2,
+            "executed_original_points": 5
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 108,
+              "max_corner_distance_squared": 366.04387850235133,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 69,
+            "kept": 39,
+            "from_original": 17,
+            "additional_from_contraction": 52,
+            "channel": 14,
+            "executed_original_points": 9
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 187.93575782776946,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 6,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 279.9780500640895,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 11,
+            "executed_original_points": 3
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 313.45611379313397,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 16,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 229.31629467389436,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 18,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 6,
+              "max_corner_distance_squared": 159.82526450925556,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 6,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 7,
+            "executed_original_points": 5
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 269.6210769080432,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 20,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 102,
+              "max_corner_distance_squared": 366.7293681292832,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 85,
+            "kept": 17,
+            "from_original": 10,
+            "additional_from_contraction": 75,
+            "channel": 13,
+            "executed_original_points": 8
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 243.94486123994295,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 4,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 145.5088533490932,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 15,
+            "executed_original_points": 1
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 5929.347260020971,
+    "average_s": 423.5248042872122,
+    "distance_m": 21971.736300104858,
+    "counts": {
+      "measure": 234,
+      "switch": 217,
+      "clear_success": 14,
+      "clear_fail": 26
+    },
+    "time_parts_s": {
+      "move": 4394.347260020972,
+      "measure": 1170,
+      "switch": 217,
+      "clear_success": 70,
+      "clear_fail": 78
+    }
+  },
+  {
+    "seed": 53400,
+    "population": "dir_heavy",
+    "field": "extreme",
+    "variant": "share25",
+    "runtime_s": 5.273082800005795,
+    "audit": {
+      "passed": true,
+      "events": 299,
+      "polygons": 46,
+      "optical_plans": 7,
+      "triangle_certificates": 216,
+      "max_time_error_s": 0.0,
+      "total_s": 5847.788426056189,
+      "counts": {
+        "measure": 281,
+        "switch": 268,
+        "clear_success": 14,
+        "clear_fail": 4
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "basis": "exact_quarter_cell_negative_hulls",
+        "exact_domain": {
+          "passed": true,
+          "cells": 576,
+          "original_stations": 25,
+          "exact_binary_station_coordinates": true,
+          "exact_quarter_barycentric_cells": true,
+          "exact_outer_disk_enclosure": true,
+          "exact_parent_planarity_and_area": true,
+          "exact_parent_radius_bound": true,
+          "float_tolerance_used_for_acceptance": false,
+          "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+        },
+        "channels": 6,
+        "cells_per_channel": 576,
+        "verified_cells": 3456,
+        "real_negative_points_only": true,
+        "independent_of_claimed_mesh_and_witness_indices": true
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 5847.788426056189,
+    "average_s": 417.69917328972775,
+    "distance_m": 20463.94213028094,
+    "counts": {
+      "measure": 281,
+      "switch": 268,
+      "clear_success": 14,
+      "clear_fail": 4
+    },
+    "time_parts_s": {
+      "move": 4092.7884260561877,
+      "measure": 1405,
+      "switch": 268,
+      "clear_success": 70,
+      "clear_fail": 12
+    }
+  },
+  {
+    "seed": 53400,
+    "population": "dir_heavy",
+    "field": "extreme",
+    "variant": "station22",
+    "runtime_s": 8.360530900012236,
+    "audit": {
+      "passed": true,
+      "events": 298,
+      "polygons": 53,
+      "optical_plans": 8,
+      "triangle_certificates": 1644,
+      "max_time_error_s": 0.0,
+      "total_s": 6266.63226599821,
+      "counts": {
+        "measure": 235,
+        "switch": 218,
+        "clear_success": 14,
+        "clear_fail": 49
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 1644,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 6266.63226599821,
+    "average_s": 447.61659042844354,
+    "distance_m": 23283.161329991053,
+    "counts": {
+      "measure": 235,
+      "switch": 218,
+      "clear_success": 14,
+      "clear_fail": 49
+    },
+    "time_parts_s": {
+      "move": 4656.632265998211,
+      "measure": 1175,
+      "switch": 218,
+      "clear_success": 70,
+      "clear_fail": 147
+    }
+  },
+  {
+    "seed": 53400,
+    "population": "dir_heavy",
+    "field": "extreme",
+    "variant": "station22_prune",
+    "runtime_s": 8.77921979999519,
+    "audit": {
+      "passed": true,
+      "events": 272,
+      "polygons": 53,
+      "optical_plans": 8,
+      "triangle_certificates": 1644,
+      "max_time_error_s": 0.0,
+      "total_s": 5915.196663575131,
+      "counts": {
+        "measure": 235,
+        "switch": 218,
+        "clear_success": 14,
+        "clear_fail": 23
+      },
+      "exact_station_cover": {
+        "passed": true,
+        "actual_negative_witness_cells": 1644,
+        "static": {
+          "passed": true,
+          "file": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\05_候选share25\\results\\station_geometry_dense_v1\\candidate_3_certificate.json",
+          "input_sha256": "ad7b777685f2b3cb3e590b8d6bc96da32dbe74426869ff313da9e1415546bb7f",
+          "station_count": 22,
+          "parent_count": 28,
+          "cell_count": 274,
+          "exact_disk_enclosure": true,
+          "exact_planar_partition": true,
+          "exact_complete_midpoint_tree": true,
+          "exact_radius_squared_checks": 2595,
+          "exact_convex_hull_cross_checks": 2595,
+          "no_float_tolerance": true
+        }
+      },
+      "source_retention_and_prune_execution": {
+        "passed": true,
+        "plans": 8,
+        "rows": [
+          {
+            "channel": 5,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 14,
+            "removed": 69,
+            "original_only": 17,
+            "additional_from_contraction": 52,
+            "contraction_applied": true
+          },
+          {
+            "channel": 11,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 18,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 7,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 8,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          },
+          {
+            "channel": 13,
+            "removed": 76,
+            "original_only": 0,
+            "additional_from_contraction": 76,
+            "contraction_applied": true
+          },
+          {
+            "channel": 4,
+            "removed": 0,
+            "original_only": 0,
+            "additional_from_contraction": 0,
+            "contraction_applied": false
+          }
+        ],
+        "removed": 145,
+        "original_only": 17,
+        "additional_from_contraction": 128
+      },
+      "independent_exact_prune": {
+        "passed": true,
+        "plans": 8,
+        "rows": [
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 182.71497070002658,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 5,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 108,
+              "max_corner_distance_squared": 366.04387850235133,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 69,
+            "kept": 39,
+            "from_original": 17,
+            "additional_from_contraction": 52,
+            "channel": 14,
+            "executed_original_points": 9
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 3,
+              "max_corner_distance_squared": 251.60140544220712,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 3,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 11,
+            "executed_original_points": 1
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 144.7182671568242,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 18,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 2,
+              "max_corner_distance_squared": 143.8953563956186,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 2,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 7,
+            "executed_original_points": 2
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 5,
+              "max_corner_distance_squared": 200.08049013882047,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 5,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 8,
+            "executed_original_points": 5
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 102,
+              "max_corner_distance_squared": 367.81142526246,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 76,
+            "kept": 26,
+            "from_original": 0,
+            "additional_from_contraction": 76,
+            "channel": 13,
+            "executed_original_points": 8
+          },
+          {
+            "passed": true,
+            "original_cover": {
+              "passed": true,
+              "cells": 4,
+              "max_corner_distance_squared": 219.292603415879,
+              "method": "exact inverse transform; outermost bounds include every original vertex; all cell corners checked"
+            },
+            "removed": 0,
+            "kept": 4,
+            "from_original": 0,
+            "additional_from_contraction": 0,
+            "channel": 4,
+            "executed_original_points": 3
+          }
+        ],
+        "removed_events": 0
+      }
+    },
+    "source_count": 14,
+    "cleared": 14,
+    "all_cleared": true,
+    "total_s": 5915.196663575131,
+    "average_s": 422.5140473982237,
+    "distance_m": 21915.983317875674,
+    "counts": {
+      "measure": 235,
+      "switch": 218,
+      "clear_success": 14,
+      "clear_fail": 23
+    },
+    "time_parts_s": {
+      "move": 4383.196663575135,
+      "measure": 1175,
+      "switch": 218,
+      "clear_success": 70,
+      "clear_fail": 69
+    }
+  }
+]

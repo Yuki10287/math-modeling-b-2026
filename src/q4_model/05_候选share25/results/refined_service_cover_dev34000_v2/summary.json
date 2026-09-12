@@ -1,0 +1,899 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "seed": 34000,
+      "population": "uniform",
+      "variant": "baseline_share25",
+      "field": "smooth",
+      "runtime_s": 11.606104500009678,
+      "audit": {
+        "passed": true,
+        "events": 329,
+        "polygons": 39,
+        "optical_plans": 7,
+        "triangle_certificates": 288,
+        "max_time_error_s": 0.0,
+        "total_s": 6355.192401588635,
+        "counts": {
+          "measure": 309,
+          "switch": 298,
+          "clear_success": 12,
+          "clear_fail": 8
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+      },
+      "error": null,
+      "experiment": {},
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 6355.192401588635,
+      "average_s": 529.599366799053,
+      "distance_m": 22140.962007943177,
+      "counts": {
+        "measure": 309,
+        "switch": 298,
+        "clear_success": 12,
+        "clear_fail": 8
+      },
+      "time_parts_s": {
+        "move": 4428.192401588635,
+        "measure": 1545,
+        "switch": 298,
+        "clear_success": 60,
+        "clear_fail": 24
+      }
+    },
+    {
+      "seed": 34000,
+      "population": "uniform",
+      "variant": "refined_service_cover",
+      "field": "smooth",
+      "runtime_s": 13.520258000004105,
+      "audit": {
+        "passed": true,
+        "events": 329,
+        "polygons": 39,
+        "optical_plans": 7,
+        "triangle_certificates": 4608,
+        "max_time_error_s": 0.0,
+        "total_s": 6355.192401588635,
+        "counts": {
+          "measure": 309,
+          "switch": 298,
+          "clear_success": 12,
+          "clear_fail": 8
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 8,
+          "cells_per_channel": 576,
+          "verified_cells": 4608,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055,
+        "floating_mesh_identity": {
+          "passed": true,
+          "cells": 576,
+          "vertices": 313,
+          "independent_barycentric_partition": true,
+          "original_disk_enclosure": true,
+          "coordinate_comparison_rounding_decimals": 8,
+          "rounding_used_only_for_domain_identity_not_observation_certificate": true
+        }
+      },
+      "error": null,
+      "experiment": {
+        "opportunity_scans": 0,
+        "extra_unknown_measures": 0,
+        "retired_stations": [],
+        "proposals": 1,
+        "fallback_restores": 0,
+        "plan_audits": 0,
+        "exact_plan_rejections": 0,
+        "proxy_net_gain_s": 0.0
+      },
+      "source_count": 12,
+      "cleared": 12,
+      "all_cleared": true,
+      "total_s": 6355.192401588635,
+      "average_s": 529.599366799053,
+      "distance_m": 22140.962007943177,
+      "counts": {
+        "measure": 309,
+        "switch": 298,
+        "clear_success": 12,
+        "clear_fail": 8
+      },
+      "time_parts_s": {
+        "move": 4428.192401588635,
+        "measure": 1545,
+        "switch": 298,
+        "clear_success": 60,
+        "clear_fail": 24
+      }
+    },
+    {
+      "seed": 34100,
+      "population": "boundary",
+      "variant": "baseline_share25",
+      "field": "smooth",
+      "runtime_s": 9.318002399988472,
+      "audit": {
+        "passed": true,
+        "events": 424,
+        "polygons": 43,
+        "optical_plans": 9,
+        "triangle_certificates": 216,
+        "max_time_error_s": 0.0,
+        "total_s": 7164.318270480979,
+        "counts": {
+          "measure": 402,
+          "switch": 386,
+          "clear_success": 14,
+          "clear_fail": 8
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 6,
+          "cells_per_channel": 576,
+          "verified_cells": 3456,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+      },
+      "error": null,
+      "experiment": {},
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 7164.318270480979,
+      "average_s": 511.7370193200699,
+      "distance_m": 23371.591352404896,
+      "counts": {
+        "measure": 402,
+        "switch": 386,
+        "clear_success": 14,
+        "clear_fail": 8
+      },
+      "time_parts_s": {
+        "move": 4674.318270480979,
+        "measure": 2010,
+        "switch": 386,
+        "clear_success": 70,
+        "clear_fail": 24
+      }
+    },
+    {
+      "seed": 34100,
+      "population": "boundary",
+      "variant": "refined_service_cover",
+      "field": "smooth",
+      "runtime_s": 9.657195599982515,
+      "audit": {
+        "passed": true,
+        "events": 424,
+        "polygons": 43,
+        "optical_plans": 9,
+        "triangle_certificates": 3456,
+        "max_time_error_s": 0.0,
+        "total_s": 7164.318270480979,
+        "counts": {
+          "measure": 402,
+          "switch": 386,
+          "clear_success": 14,
+          "clear_fail": 8
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 6,
+          "cells_per_channel": 576,
+          "verified_cells": 3456,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055,
+        "floating_mesh_identity": {
+          "passed": true,
+          "cells": 576,
+          "vertices": 313,
+          "independent_barycentric_partition": true,
+          "original_disk_enclosure": true,
+          "coordinate_comparison_rounding_decimals": 8,
+          "rounding_used_only_for_domain_identity_not_observation_certificate": true
+        }
+      },
+      "error": null,
+      "experiment": {
+        "opportunity_scans": 0,
+        "extra_unknown_measures": 0,
+        "retired_stations": [],
+        "proposals": 0,
+        "fallback_restores": 0,
+        "plan_audits": 0,
+        "exact_plan_rejections": 0,
+        "proxy_net_gain_s": 0.0
+      },
+      "source_count": 14,
+      "cleared": 14,
+      "all_cleared": true,
+      "total_s": 7164.318270480979,
+      "average_s": 511.7370193200699,
+      "distance_m": 23371.591352404896,
+      "counts": {
+        "measure": 402,
+        "switch": 386,
+        "clear_success": 14,
+        "clear_fail": 8
+      },
+      "time_parts_s": {
+        "move": 4674.318270480979,
+        "measure": 2010,
+        "switch": 386,
+        "clear_success": 70,
+        "clear_fail": 24
+      }
+    },
+    {
+      "seed": 34200,
+      "population": "cluster",
+      "variant": "baseline_share25",
+      "field": "smooth",
+      "runtime_s": 9.005484300025273,
+      "audit": {
+        "passed": true,
+        "events": 218,
+        "polygons": 36,
+        "optical_plans": 6,
+        "triangle_certificates": 180,
+        "max_time_error_s": 0.0,
+        "total_s": 5343.0235624657425,
+        "counts": {
+          "measure": 190,
+          "switch": 169,
+          "clear_success": 15,
+          "clear_fail": 13
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+      },
+      "error": null,
+      "experiment": {},
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 5343.0235624657425,
+      "average_s": 356.2015708310495,
+      "distance_m": 20550.117812328725,
+      "counts": {
+        "measure": 190,
+        "switch": 169,
+        "clear_success": 15,
+        "clear_fail": 13
+      },
+      "time_parts_s": {
+        "move": 4110.023562465745,
+        "measure": 950,
+        "switch": 169,
+        "clear_success": 75,
+        "clear_fail": 39
+      }
+    },
+    {
+      "seed": 34200,
+      "population": "cluster",
+      "variant": "refined_service_cover",
+      "field": "smooth",
+      "runtime_s": 14.758087900001556,
+      "audit": {
+        "passed": true,
+        "events": 218,
+        "polygons": 36,
+        "optical_plans": 6,
+        "triangle_certificates": 2880,
+        "max_time_error_s": 0.0,
+        "total_s": 5343.0235624657425,
+        "counts": {
+          "measure": 190,
+          "switch": 169,
+          "clear_success": 15,
+          "clear_fail": 13
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 5,
+          "cells_per_channel": 576,
+          "verified_cells": 2880,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055,
+        "floating_mesh_identity": {
+          "passed": true,
+          "cells": 576,
+          "vertices": 313,
+          "independent_barycentric_partition": true,
+          "original_disk_enclosure": true,
+          "coordinate_comparison_rounding_decimals": 8,
+          "rounding_used_only_for_domain_identity_not_observation_certificate": true
+        }
+      },
+      "error": null,
+      "experiment": {
+        "opportunity_scans": 0,
+        "extra_unknown_measures": 0,
+        "retired_stations": [],
+        "proposals": 0,
+        "fallback_restores": 0,
+        "plan_audits": 0,
+        "exact_plan_rejections": 0,
+        "proxy_net_gain_s": 0.0
+      },
+      "source_count": 15,
+      "cleared": 15,
+      "all_cleared": true,
+      "total_s": 5343.0235624657425,
+      "average_s": 356.2015708310495,
+      "distance_m": 20550.117812328725,
+      "counts": {
+        "measure": 190,
+        "switch": 169,
+        "clear_success": 15,
+        "clear_fail": 13
+      },
+      "time_parts_s": {
+        "move": 4110.023562465745,
+        "measure": 950,
+        "switch": 169,
+        "clear_success": 75,
+        "clear_fail": 39
+      }
+    },
+    {
+      "seed": 34300,
+      "population": "omni_heavy",
+      "variant": "baseline_share25",
+      "field": "smooth",
+      "runtime_s": 11.466040600003907,
+      "audit": {
+        "passed": true,
+        "events": 330,
+        "polygons": 33,
+        "optical_plans": 7,
+        "triangle_certificates": 360,
+        "max_time_error_s": 0.0,
+        "total_s": 5846.11538530116,
+        "counts": {
+          "measure": 315,
+          "switch": 302,
+          "clear_success": 10,
+          "clear_fail": 5
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+      },
+      "error": null,
+      "experiment": {},
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 5846.11538530116,
+      "average_s": 584.611538530116,
+      "distance_m": 19520.5769265058,
+      "counts": {
+        "measure": 315,
+        "switch": 302,
+        "clear_success": 10,
+        "clear_fail": 5
+      },
+      "time_parts_s": {
+        "move": 3904.11538530116,
+        "measure": 1575,
+        "switch": 302,
+        "clear_success": 50,
+        "clear_fail": 15
+      }
+    },
+    {
+      "seed": 34300,
+      "population": "omni_heavy",
+      "variant": "refined_service_cover",
+      "field": "smooth",
+      "runtime_s": 13.761077399976784,
+      "audit": {
+        "passed": true,
+        "events": 329,
+        "polygons": 33,
+        "optical_plans": 6,
+        "triangle_certificates": 5760,
+        "max_time_error_s": 0.0,
+        "total_s": 5840.294875282245,
+        "counts": {
+          "measure": 315,
+          "switch": 302,
+          "clear_success": 10,
+          "clear_fail": 4
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 10,
+          "cells_per_channel": 576,
+          "verified_cells": 5760,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055,
+        "floating_mesh_identity": {
+          "passed": true,
+          "cells": 576,
+          "vertices": 313,
+          "independent_barycentric_partition": true,
+          "original_disk_enclosure": true,
+          "coordinate_comparison_rounding_decimals": 8,
+          "rounding_used_only_for_domain_identity_not_observation_certificate": true
+        }
+      },
+      "error": null,
+      "experiment": {
+        "opportunity_scans": 1,
+        "extra_unknown_measures": 14,
+        "retired_stations": [
+          4
+        ],
+        "proposals": 1,
+        "fallback_restores": 0,
+        "plan_audits": 2,
+        "exact_plan_rejections": 0,
+        "proxy_net_gain_s": 1.182778806379062
+      },
+      "source_count": 10,
+      "cleared": 10,
+      "all_cleared": true,
+      "total_s": 5840.294875282245,
+      "average_s": 584.0294875282245,
+      "distance_m": 19506.474376411228,
+      "counts": {
+        "measure": 315,
+        "switch": 302,
+        "clear_success": 10,
+        "clear_fail": 4
+      },
+      "time_parts_s": {
+        "move": 3901.294875282246,
+        "measure": 1575,
+        "switch": 302,
+        "clear_success": 50,
+        "clear_fail": 12
+      }
+    },
+    {
+      "seed": 34400,
+      "population": "dir_heavy",
+      "variant": "baseline_share25",
+      "field": "smooth",
+      "runtime_s": 12.056486099987524,
+      "audit": {
+        "passed": true,
+        "events": 322,
+        "polygons": 49,
+        "optical_plans": 6,
+        "triangle_certificates": 252,
+        "max_time_error_s": 0.0,
+        "total_s": 6848.069838366144,
+        "counts": {
+          "measure": 299,
+          "switch": 292,
+          "clear_success": 13,
+          "clear_fail": 10
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+      },
+      "error": null,
+      "experiment": {},
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6848.069838366144,
+      "average_s": 526.7746029512418,
+      "distance_m": 24830.349191830715,
+      "counts": {
+        "measure": 299,
+        "switch": 292,
+        "clear_success": 13,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 4966.069838366143,
+        "measure": 1495,
+        "switch": 292,
+        "clear_success": 65,
+        "clear_fail": 30
+      }
+    },
+    {
+      "seed": 34400,
+      "population": "dir_heavy",
+      "variant": "refined_service_cover",
+      "field": "smooth",
+      "runtime_s": 13.257463400019333,
+      "audit": {
+        "passed": true,
+        "events": 322,
+        "polygons": 49,
+        "optical_plans": 6,
+        "triangle_certificates": 4032,
+        "max_time_error_s": 0.0,
+        "total_s": 6848.069838366144,
+        "counts": {
+          "measure": 299,
+          "switch": 292,
+          "clear_success": 13,
+          "clear_fail": 10
+        },
+        "exact_certificate": {
+          "passed": true,
+          "basis": "exact_quarter_cell_negative_hulls",
+          "exact_domain": {
+            "passed": true,
+            "cells": 576,
+            "original_stations": 25,
+            "exact_binary_station_coordinates": true,
+            "exact_quarter_barycentric_cells": true,
+            "exact_outer_disk_enclosure": true,
+            "exact_parent_planarity_and_area": true,
+            "exact_parent_radius_bound": true,
+            "float_tolerance_used_for_acceptance": false,
+            "minimum_edge_squared_distance_margin_m2": 0.36000000934533055
+          },
+          "channels": 7,
+          "cells_per_channel": 576,
+          "verified_cells": 4032,
+          "real_negative_points_only": true,
+          "independent_of_claimed_mesh_and_witness_indices": true
+        }
+      },
+      "domain_audit": {
+        "passed": true,
+        "cells": 576,
+        "original_stations": 25,
+        "exact_binary_station_coordinates": true,
+        "exact_quarter_barycentric_cells": true,
+        "exact_outer_disk_enclosure": true,
+        "exact_parent_planarity_and_area": true,
+        "exact_parent_radius_bound": true,
+        "float_tolerance_used_for_acceptance": false,
+        "minimum_edge_squared_distance_margin_m2": 0.36000000934533055,
+        "floating_mesh_identity": {
+          "passed": true,
+          "cells": 576,
+          "vertices": 313,
+          "independent_barycentric_partition": true,
+          "original_disk_enclosure": true,
+          "coordinate_comparison_rounding_decimals": 8,
+          "rounding_used_only_for_domain_identity_not_observation_certificate": true
+        }
+      },
+      "error": null,
+      "experiment": {
+        "opportunity_scans": 0,
+        "extra_unknown_measures": 0,
+        "retired_stations": [],
+        "proposals": 0,
+        "fallback_restores": 0,
+        "plan_audits": 0,
+        "exact_plan_rejections": 0,
+        "proxy_net_gain_s": 0.0
+      },
+      "source_count": 13,
+      "cleared": 13,
+      "all_cleared": true,
+      "total_s": 6848.069838366144,
+      "average_s": 526.7746029512418,
+      "distance_m": 24830.349191830715,
+      "counts": {
+        "measure": 299,
+        "switch": 292,
+        "clear_success": 13,
+        "clear_fail": 10
+      },
+      "time_parts_s": {
+        "move": 4966.069838366143,
+        "measure": 1495,
+        "switch": 292,
+        "clear_success": 65,
+        "clear_fail": 30
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "population": "uniform",
+      "baseline_s": 6355.192401588635,
+      "candidate_s": 6355.192401588635,
+      "saved_s": 0.0,
+      "reduction_pct": 0.0
+    },
+    {
+      "population": "boundary",
+      "baseline_s": 7164.318270480979,
+      "candidate_s": 7164.318270480979,
+      "saved_s": 0.0,
+      "reduction_pct": 0.0
+    },
+    {
+      "population": "cluster",
+      "baseline_s": 5343.0235624657425,
+      "candidate_s": 5343.0235624657425,
+      "saved_s": 0.0,
+      "reduction_pct": 0.0
+    },
+    {
+      "population": "omni_heavy",
+      "baseline_s": 5846.11538530116,
+      "candidate_s": 5840.294875282245,
+      "saved_s": 5.820510018915229,
+      "reduction_pct": 0.09956201058825642
+    },
+    {
+      "population": "dir_heavy",
+      "baseline_s": 6848.069838366144,
+      "candidate_s": 6848.069838366144,
+      "saved_s": 0.0,
+      "reduction_pct": 0.0
+    }
+  ],
+  "source_snapshot_stable": true,
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "exact_certificate_audit_integrated": true,
+  "development_prototype": true
+}

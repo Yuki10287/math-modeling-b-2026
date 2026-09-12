@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "local_only": true,
+  "source_snapshot_stable": true,
+  "groups": {
+    "share25": {
+      "runs": 5,
+      "passes": 5,
+      "sources": 68,
+      "cleared": 68,
+      "mean_total_s": 6636.0219405851,
+      "mean_wall_s": 10.858236380002927
+    },
+    "service_transition_route": {
+      "runs": 5,
+      "passes": 5,
+      "sources": 68,
+      "cleared": 68,
+      "mean_total_s": 6493.78023269645,
+      "mean_wall_s": 81.98421895999927
+    }
+  },
+  "pairs": [
+    {
+      "population": "uniform",
+      "seed": 35000,
+      "passed": true,
+      "baseline_s": 6139.131954647965,
+      "candidate_s": 6609.7536186700345,
+      "saved_s": -470.6216640220691,
+      "reduction_percent": -7.665931722900325
+    },
+    {
+      "population": "boundary",
+      "seed": 35100,
+      "passed": true,
+      "baseline_s": 8600.738602605983,
+      "candidate_s": 8038.052901089152,
+      "saved_s": 562.6857015168307,
+      "reduction_percent": 6.542295115751334
+    },
+    {
+      "population": "cluster",
+      "seed": 35200,
+      "passed": true,
+      "baseline_s": 6305.647401581671,
+      "candidate_s": 5568.302713134021,
+      "saved_s": 737.3446884476498,
+      "reduction_percent": 11.693401826792577
+    },
+    {
+      "population": "omni_heavy",
+      "seed": 35300,
+      "passed": true,
+      "baseline_s": 5526.41766157007,
+      "candidate_s": 5828.902004759542,
+      "saved_s": -302.4843431894724,
+      "reduction_percent": -5.473425312981788
+    },
+    {
+      "population": "dir_heavy",
+      "seed": 35400,
+      "passed": true,
+      "baseline_s": 6608.174082519811,
+      "candidate_s": 6423.889925829507,
+      "saved_s": 184.28415669030437,
+      "reduction_percent": 2.7887303571160404
+    }
+  ]
+}
