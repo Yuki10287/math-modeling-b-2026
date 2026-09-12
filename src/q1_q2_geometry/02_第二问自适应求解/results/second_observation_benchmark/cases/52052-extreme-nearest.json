@@ -1,0 +1,690 @@
+{
+  "case_id": "52052-extreme-nearest",
+  "layout_seed": 52052,
+  "distance_group": "far",
+  "error_field": "extreme",
+  "policy": "nearest",
+  "first_observation": {
+    "position": [
+      2021.1154651059337,
+      -36.101404784223526
+    ],
+    "status": "direction",
+    "angle": 175.97
+  },
+  "first_private_audit": {
+    "distance_to_source_m": 1007.6813248015857,
+    "receive_radius_m": 1067.9088233656416,
+    "true_bearing_deg": 176.95666974855558,
+    "prequantization_error_deg": -0.99,
+    "actual_output_error_deg": -0.9866697485555846
+  },
+  "passed": true,
+  "plan": {
+    "schema": "q2-plan-v1",
+    "status": "ready",
+    "first_observation": {
+      "position": [
+        2021.1154651059337,
+        -36.101404784223526
+      ],
+      "status": "direction",
+      "angle": 175.97
+    },
+    "policy": "nearest",
+    "angle_error_deg": 1.0,
+    "region": {
+      "vertices": [
+        [
+          524.7290964904164,
+          74.27868503464047
+        ],
+        [
+          523.2016801846707,
+          43.18741187315748
+        ],
+        [
+          1800.0,
+          -24.39713732278383
+        ],
+        [
+          1800.0,
+          -16.63964093663013
+        ],
+        [
+          526.8115009838384,
+          95.42169267227597
+        ]
+      ],
+      "diameter_m": 1279.082794527416,
+      "enclosing_circle": {
+        "center": [
+          1162.3645482452082,
+          24.94077385592832
+        ],
+        "radius_m": 639.541397263708
+      },
+      "representation": "conservative_convex_polygon",
+      "circle_sides": 128
+    },
+    "candidate_region": {
+      "definition": "intersection_{g in P1} B(g, max(1000, ||g-s1||))",
+      "test": "P1 intersect {2(q-s1).g <= ||q||^2-||s1||^2} inside B(q,999.999)",
+      "finite_candidates_are_subset": true
+    },
+    "candidates": [
+      {
+        "point": [
+          1162.3645482452082,
+          24.94077385592832
+        ],
+        "geometry_score_m": 639.5413972637086,
+        "distance_m": 860.9176991921313,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1591.1881348777638,
+              -13.344134235270992
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1592.25363048748,
+              1.6454246588972659
+            ]
+          ],
+          "farther_max_distance_m": 639.541397263708,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1177.1659215988218,
+          216.23140938236585
+        ],
+        "geometry_score_m": 200.91467008261014,
+        "distance_m": 880.8647348436042,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1568.5801570306046,
+              -12.147429973275194
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1573.205362925516,
+              3.3219825822388636
+            ]
+          ],
+          "farther_max_distance_m": 667.7008212570038,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1147.5631748915946,
+          -166.34986167050923
+        ],
+        "geometry_score_m": 200.81403259650963,
+        "distance_m": 883.2090716585601,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1571.0772835897635,
+              -12.279609950462493
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1568.6918207359931,
+              3.719247839856912
+            ]
+          ],
+          "farther_max_distance_m": 669.392979459542,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1194.434190511371,
+          439.403817496543
+        ],
+        "geometry_score_m": 124.19344942098904,
+        "distance_m": 953.6808408380509,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1487.273850422899,
+              -7.843657017446468
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1497.527621430358,
+              9.982856948454621
+            ]
+          ],
+          "farther_max_distance_m": 762.7720991966983,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1130.2949059790453,
+          -389.52226978468633
+        ],
+        "geometry_score_m": 123.38761354040928,
+        "distance_m": 958.367140703821,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1494.53944545894,
+              -8.22824552882713
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1486.9448989500208,
+              10.914308964613998
+            ]
+          ],
+          "farther_max_distance_m": 766.5157322940299,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          953.9935134846447,
+          233.4996782949151
+        ],
+        "geometry_score_m": 159.63619697707452,
+        "distance_m": 1100.6516268236164,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1460.9886936135847,
+              -6.452309264295387
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1465.845434082834,
+              12.771405673607465
+            ]
+          ],
+          "farther_max_distance_m": 884.442051652795,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          924.3907667774174,
+          -149.08159275795998
+        ],
+        "geometry_score_m": 163.26864465529545,
+        "distance_m": 1102.5287237974146,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1463.8952507217443,
+              -6.606161559382706
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1461.862941716457,
+              13.121929893711801
+            ]
+          ],
+          "farther_max_distance_m": 885.5689695934939,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1400.338329712999,
+          198.9631404698166
+        ],
+        "geometry_score_m": 280.8156280394829,
+        "distance_m": 663.7918290112848,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1673.1955049912133,
+              -17.685016466901615
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1677.6684633829445,
+              -5.872472409481867
+            ]
+          ],
+          "farther_max_distance_m": 457.84196442897536,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1370.7355830057718,
+          -183.61813058305847
+        ],
+        "geometry_score_m": 277.92091545194825,
+        "distance_m": 666.8996741872268,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1675.04094910957,
+              -17.7827010478333
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1672.2309640576252,
+              -5.39388386869339
+            ]
+          ],
+          "farther_max_distance_m": 460.59717292010924,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1806.4277358907523,
+          -20.840860124185564
+        ],
+        "geometry_score_m": 1278.7946454618086,
+        "distance_m": 215.22942479803285,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [],
+          "farther_max_distance_m": null,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1813.828422567559,
+          74.8044576390332
+        ],
+        "geometry_score_m": 662.3776674708199,
+        "distance_m": 235.09153180017415,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [],
+          "farther_max_distance_m": null,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1799.0270492139455,
+          -116.48617788740434
+        ],
+        "geometry_score_m": 662.6110902070964,
+        "distance_m": 236.18843371397887,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [],
+          "farther_max_distance_m": null,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1591.7400066755708,
+          -5.580315464147603
+        ],
+        "geometry_score_m": 1069.9952067251602,
+        "distance_m": 430.4588495960657,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [],
+          "farther_max_distance_m": null,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1599.1406933523776,
+          90.06500229907117
+        ],
+        "geometry_score_m": 541.6750378485063,
+        "distance_m": 440.4323674218022,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1794.8478110682695,
+              -24.124417378749364
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1797.160414015725,
+              -16.389711100992365
+            ]
+          ],
+          "farther_max_distance_m": 231.18400133611456,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1584.339319998764,
+          -101.22563322736637
+        ],
+        "geometry_score_m": 542.6038221377949,
+        "distance_m": 441.60453582928017,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1796.0963743478487,
+              -24.19050736734301
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1794.9036429209634,
+              -16.191078472183314
+            ]
+          ],
+          "farther_max_distance_m": 231.65560427152198,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1377.0522774603896,
+          9.680229195890355
+        ],
+        "geometry_score_m": 854.767667448603,
+        "distance_m": 645.6882743940984,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1698.6699674348063,
+              -19.033451872509126
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1699.4690891420935,
+              -7.791282701882945
+            ]
+          ],
+          "farther_max_distance_m": 424.31832733254794,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1384.4529641371964,
+          105.32554695910912
+        ],
+        "geometry_score_m": 424.4237852821366,
+        "distance_m": 652.1815106388545,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1690.9581822144712,
+              -18.625245251679885
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1693.4818778325812,
+              -7.264310549322079
+            ]
+          ],
+          "farther_max_distance_m": 435.3243777135182,
+          "threshold_m": 999.999
+        }
+      },
+      {
+        "point": [
+          1369.6515907835828,
+          -85.96508856732842
+        ],
+        "geometry_score_m": 425.76576582238937,
+        "distance_m": 653.3693951414538,
+        "receive_certificate": {
+          "certified": true,
+          "farther_region_vertices": [
+            [
+              1692.1423757258056,
+              -18.6879279662341
+            ],
+            [
+              1800.0,
+              -24.39713732278383
+            ],
+            [
+              1800.0,
+              -16.63964093663013
+            ],
+            [
+              1691.2529851228194,
+              -7.068131672651358
+            ]
+          ],
+          "farther_max_distance_m": 435.89651409973163,
+          "threshold_m": 999.999
+        }
+      }
+    ],
+    "selected_point": [
+      1806.4277358907523,
+      -20.840860124185564
+    ],
+    "selected_index": 9
+  },
+  "first_region_audit": {
+    "truth_in_region": true,
+    "diameter_matches_independent_vertex_pairs": true,
+    "independent_diameter_m": 1279.082794527416,
+    "reported_circle_covers_all_vertices": true,
+    "truth_in_reported_circle": true,
+    "finite_nonnegative_metrics": true,
+    "reported_circle_excess_m": 0.0
+  },
+  "reception_audit": {
+    "fixed_radius_reception_sufficient_check": true,
+    "farther_subregion_max_distance_m": null,
+    "farther_subregion_vertices": [],
+    "simple_1000m_check": false
+  },
+  "second_observation": {
+    "position": [
+      1806.4277358907523,
+      -20.840860124185564
+    ],
+    "status": "direction",
+    "angle": 176.24
+  },
+  "second_private_audit": {
+    "distance_to_source_m": 792.4954843235384,
+    "receive_radius_m": 1067.9088233656416,
+    "true_bearing_deg": 177.23436728340323,
+    "prequantization_error_deg": -0.99,
+    "actual_output_error_deg": -0.9943672834032213
+  },
+  "second_signal_received": true,
+  "updated": {
+    "schema": "q2-result-v1",
+    "status": "direction",
+    "first_observation": {
+      "position": [
+        2021.1154651059337,
+        -36.101404784223526
+      ],
+      "status": "direction",
+      "angle": 175.97
+    },
+    "second_observation": {
+      "position": [
+        1806.4277358907523,
+        -20.840860124185564
+      ],
+      "status": "direction",
+      "angle": 176.24
+    },
+    "initial_diameter_m": 1279.082794527416,
+    "region": {
+      "vertices": [
+        [
+          525.8629521768864,
+          85.79091501432997
+        ],
+        [
+          524.7290964904164,
+          74.27868503464047
+        ],
+        [
+          523.2016801846707,
+          43.18741187315748
+        ],
+        [
+          981.6722123047421,
+          18.919268853169825
+        ],
+        [
+          1800.0,
+          -20.53098937977698
+        ],
+        [
+          1800.0,
+          -20.305626845190766
+        ]
+      ],
+      "diameter_m": 1278.7903470470512,
+      "enclosing_circle": {
+        "center": [
+          1162.3645482452082,
+          26.873847827431746
+        ],
+        "radius_m": 639.3951735235256
+      },
+      "representation": "conservative_convex_polygon",
+      "circle_sides": 128
+    },
+    "diameter_ratio": 0.9997713615712635
+  },
+  "second_region_audit": {
+    "truth_in_region": true,
+    "diameter_matches_independent_vertex_pairs": true,
+    "independent_diameter_m": 1278.7903470470512,
+    "reported_circle_covers_all_vertices": true,
+    "truth_in_reported_circle": true,
+    "finite_nonnegative_metrics": true,
+    "reported_circle_excess_m": 0.0
+  },
+  "metrics": {
+    "first_diameter_m": 1279.082794527416,
+    "second_diameter_m": 1278.7903470470512,
+    "first_radius_m": 639.541397263708,
+    "second_radius_m": 639.3951735235256,
+    "diameter_ratio": 0.9997713615712635,
+    "candidate_count": 18,
+    "second_step_distance_m": 215.22942479803285
+  },
+  "transition_audit": {
+    "second_region_subset_first": true,
+    "diameter_nonincreasing": true,
+    "radius_nonincreasing": true,
+    "reported_ratio_matches": true,
+    "first_error_within_bound": true,
+    "second_error_within_bound": true
+  }
+}

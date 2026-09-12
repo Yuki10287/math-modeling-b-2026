@@ -1,3 +1,3 @@
 @echo off
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\q4_model\run_share25.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0tools\launch_model.ps1" -Problem share25
 exit /b %errorlevel%

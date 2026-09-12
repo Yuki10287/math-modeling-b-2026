@@ -1,2 +1,3 @@
 @echo off
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0src\q3_model_v2\run_official.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0tools\launch_model.ps1" -Problem q3
+exit /b %errorlevel%

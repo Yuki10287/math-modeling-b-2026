@@ -1,0 +1,83 @@
+{
+  "checked_at_utc": "2026-09-12T01:57:30.355472+00:00",
+  "python_version": "3.14.0",
+  "official_simulator_contacted": false,
+  "unittest": {
+    "command": "python -X utf8 -m unittest discover -s src/q1_q2_geometry -p test_q2_solver.py -v",
+    "tests_run": 17,
+    "failures": 0,
+    "errors": 0,
+    "result": "OK",
+    "observed_runtime_s": 14.049,
+    "note": "First sandbox attempt could not write tempfile.TemporaryDirectory paths; tests now use verified project tmp folders and passed."
+  },
+  "prototype_regression_cases": 7,
+  "example_cli": {
+    "plan_status": "ready",
+    "update_status": "direction",
+    "result": {
+      "schema": "q2-result-v1",
+      "status": "direction",
+      "first_observation": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "status": "direction",
+        "angle": 0.0
+      },
+      "second_observation": {
+        "position": [
+          758.739149832992,
+          -487.57425992140503
+        ],
+        "status": "direction",
+        "angle": 63.67
+      },
+      "initial_diameter_m": 1500.2284920658615,
+      "region": {
+        "vertices": [
+          [
+            1019.9188739675744,
+            17.802750166618576
+          ],
+          [
+            997.7705969124411,
+            17.41615055257307
+          ],
+          [
+            981.418230541505,
+            -17.130718935838384
+          ],
+          [
+            1001.6823967832233,
+            -17.484431273303773
+          ]
+        ],
+        "diameter_m": 51.98698690781821,
+        "enclosing_circle": {
+          "center": [
+            1000.6685522545397,
+            0.33601561539009595
+          ],
+          "radius_m": 25.993493453909107
+        },
+        "representation": "conservative_convex_polygon",
+        "circle_sides": 128
+      },
+      "diameter_ratio": 0.03465271269193835
+    }
+  },
+  "q3_freeze_check": {
+    "command": "python -X utf8 src/q3_model_v2/verify_main_solution.py",
+    "passed": true,
+    "files": 15,
+    "policy": "time/lean"
+  },
+  "source_sha256": {
+    "benchmark_q2.py": "fa2abfefaff742e4f7a42fd943044c3695b193f23491b7c67e5f88b343188fa0",
+    "geometry.py": "7c09e0be8c805404b23ecf04128ea9f11e43d2d1b8a25190a4aeddfbb18dfd77",
+    "q2_solver.py": "f84631c0378b10750841766c5e3447899146ac143a02df2d876bf655126f78a3",
+    "test_q2_solver.py": "b9153708ec1eac85a5d22997fa7d30a748c9b7d1f580f6ab960c1a196b0f97d7"
+  }
+}

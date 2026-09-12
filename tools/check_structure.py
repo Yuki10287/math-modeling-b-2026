@@ -1,72 +1,78 @@
-"""Read-only project layout, documentation and frozen-release checks. No HTTP."""
+"""Read-only study navigation and frozen-evidence checks. Never starts HTTP."""
+import argparse
 import hashlib
 import json
 import os
 import re
-import subprocess
-import sys
 from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
+from study_runtime import ROOT, index, safe_path, frozen_checks
 
 
 def check():
     errors = []
-    for name in ('src/q1_q2_geometry', 'src/q3_model_v2', 'src/q4_model',
-                 'archive/q3_prototype', 'archive/q3_improved', 'docs/论文整理'):
-        if not (ROOT/name).is_dir():
-            errors.append(f'缺少目录：{name}')
-    for name, target in [('运行第三问.cmd', 'src\\q3_model_v2\\run_official.ps1'),
-                         ('运行第四问.cmd', 'src\\q4_model\\run_official.ps1'),
-                         ('运行第四问候选.cmd', 'src\\q4_model\\run_share25.ps1')]:
-        path = ROOT/name
-        if not path.is_file() or target not in path.read_text(encoding='utf-8-sig'):
-            errors.append(f'根目录入口未指向已验证版本：{name}')
-    checks = []
-    for script in ('src/q3_model_v2/verify_main_solution.py', 'src/q4_model/verify_release.py',
-                   'src/q4_model/verify_share25_release.py'):
-        result = subprocess.run([sys.executable, '-X', 'utf8', str(ROOT/script)],
-            cwd=ROOT, capture_output=True, text=True, encoding='utf-8')
-        checks.append(dict(script=script, passed=result.returncode==0))
-        if result.returncode:
-            errors.append(result.stdout+result.stderr)
-    q4 = ROOT/'src/q4_model/results'
+    manifest = index()
+    locations = {}
+    for record in manifest['files']:
+        if record['logical'] in locations:
+            errors.append('重复逻辑路径：' + record['logical'])
+        source = safe_path(ROOT, record['path'])
+        locations[record['logical']] = source
+        if not source.is_file():
+            errors.append('缺少文件：' + record['path'])
+    for group in manifest['groups'].values():
+        if not (ROOT / group['path'] / 'README.md').is_file():
+            errors.append('缺少阶段说明：' + group['path'])
+    for name, problem in [('运行第三问.cmd', 'q3'), ('运行第四问.cmd', 'q4'),
+                          ('运行第四问候选.cmd', 'share25')]:
+        path = ROOT / name
+        if not path.is_file() or ('tools\\launch_model.ps1" -Problem ' + problem) not in path.read_text(encoding='utf-8-sig'):
+            errors.append('运行入口未指向对应方案：' + name)
+    counts, failures = frozen_checks()
+    errors.extend('冻结文件不匹配：' + name for name in failures)
+    additional = 0
     for name, key in [('joint_selection.json', 'code_hashes'),
                       ('stress-endpoints/manifest.json', 'source_sha256')]:
-        manifest = json.loads((q4/name).read_text(encoding='utf-8'))
-        for relative, expected in manifest[key].items():
-            path = ROOT/'src'/relative
-            if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
-                errors.append(f'第四问实验指纹不匹配：{relative}')
+        evidence = json.loads(locations['src/q4_model/results/' + name].read_text(encoding='utf-8'))
+        for relative, expected in evidence[key].items():
+            path = locations['src/' + relative]
+            additional += 1
+            if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+                errors.append('第四问实验指纹不匹配：' + relative)
     links = 0
     for parent, dirs, files in os.walk(ROOT):
-        dirs[:] = [d for d in dirs if d not in ('.git','tmp','local_data','__pycache__',
-                    '.venv','.codex','.agents','official_runs')]
+        dirs[:] = [d for d in dirs if d not in ('.git', 'tmp', 'local_data', '__pycache__',
+                    '.venv', '.codex', '.agents', 'official_runs')]
         for filename in files:
             if not filename.endswith('.md'):
                 continue
-            path = Path(parent)/filename
+            path = Path(parent) / filename
             content = path.read_text(encoding='utf-8-sig')
-            if content.count('```')%2:
-                errors.append(f'代码块未闭合：{path.relative_to(ROOT)}')
+            if content.count('```') % 2:
+                errors.append('代码块未闭合：' + str(path.relative_to(ROOT)))
             for target in re.findall(r'\]\(([^\n)]+)\)', content):
                 if ':' in target or target.startswith('#'):
                     continue
                 dest = target.split('#')[0].strip('<>')
-                # Original problem attachments are intentionally not in a Git checkout.
-                if dest.endswith(('.pdf','.docx','.xlsx','.zip')) or 'local_data/' in dest:
+                if dest.endswith(('.pdf', '.docx', '.xlsx', '.zip')) or 'local_data/' in dest:
                     continue
                 links += 1
-                if not (path.parent/dest).exists():
+                if not (path.parent / dest).exists():
                     errors.append(f'失效链接：{path.relative_to(ROOT)} -> {target}')
     return dict(passed=not errors, local_only=True, official_simulator_contacted=False,
-                document_links=links, release_checks=checks, errors=errors)
+                studies=len(manifest['groups']), mapped_files=len(manifest['files']),
+                document_links=links, frozen_files=counts, additional_evidence_checks=additional,
+                errors=errors)
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--json', action='store_true')
+    args = parser.parse_args()
     result = check()
-    if result['passed']:
-        print(f'目录、三个运行入口、第三/四问原版与候选版本及 {result["document_links"]} 个文档链接检查通过。')
+    if args.json:
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+    elif result['passed']:
+        print(f"{result['studies']} 个实验组、三个入口、冻结文件及 {result['document_links']} 个文档链接检查通过。")
         print('全部为本地只读检查，未连接官方模拟器。')
     else:
         for error in result['errors']:

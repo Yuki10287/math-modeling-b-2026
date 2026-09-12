@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "base_commit": "7bd32fe875456a8b486bf9659491cf402dc4e792",
+  "moved_files": 2616,
+  "study_groups": 17,
+  "non_markdown_preserved": {
+    ".py": 158,
+    ".txt": 7,
+    ".json": 2400,
+    ".ps1": 4,
+    ".cmd": 7,
+    ".png": 11,
+    ".svg": 4
+  },
+  "unexpected_changes": [],
+  "checks": [
+    {
+      "name": "q3_exploration",
+      "passed": true,
+      "exit_code": 0,
+      "tests": 8,
+      "seconds": 5.676,
+      "log": "tools/validation/reorganization_20260912/q3_exploration.txt",
+      "test_selection": "All code-owned test_*.py modules in assembled experiments/q3_exploration; snapshots excluded."
+    },
+    {
+      "name": "runtime_helper",
+      "passed": true,
+      "exit_code": 0,
+      "tests": 6,
+      "seconds": 1.204,
+      "log": "tools/validation/reorganization_20260912/runtime_helper.txt"
+    },
+    {
+      "name": "q3_model_v2",
+      "passed": true,
+      "exit_code": 0,
+      "tests": 24,
+      "seconds": 13.572,
+      "log": "tools/validation/reorganization_20260912/q3_model_v2.txt",
+      "test_selection": "All code-owned test_*.py modules in assembled src/q3_model_v2; snapshots excluded."
+    },
+    {
+      "name": "q3_closed_loop",
+      "passed": true,
+      "exit_code": 0,
+      "tests": 23,
+      "seconds": 14.022,
+      "log": "tools/validation/reorganization_20260912/q3_closed_loop.txt",
+      "test_selection": "All code-owned test_*.py modules in assembled experiments/q3_closed_loop; snapshots excluded."
+    },
+    {
+      "name": "q1_q2_geometry",
+      "passed": true,
+      "exit_code": 0,
+      "tests": 17,
+      "seconds": 18.818,
+      "log": "tools/validation/reorganization_20260912/q1_q2_geometry.txt",
+      "test_selection": "All code-owned test_*.py modules in assembled src/q1_q2_geometry; snapshots excluded."
+    },
+    {
+      "name": "q4_model",
+      "passed": true,
+      "exit_code": 0,
+      "tests": 59,
+      "seconds": 50.057,
+      "log": "tools/validation/reorganization_20260912/q4_model.txt",
+      "test_selection": "All code-owned test_*.py modules in assembled src/q4_model; snapshots excluded."
+    },
+    {
+      "name": "verify_main_solution",
+      "passed": true,
+      "exit_code": 0,
+      "tests": null,
+      "seconds": 0.274,
+      "log": "tools/validation/reorganization_20260912/verify_main_solution.txt"
+    },
+    {
+      "name": "verify_release",
+      "passed": true,
+      "exit_code": 0,
+      "tests": null,
+      "seconds": 0.26,
+      "log": "tools/validation/reorganization_20260912/verify_release.txt"
+    },
+    {
+      "name": "verify_share25_release",
+      "passed": true,
+      "exit_code": 0,
+      "tests": null,
+      "seconds": 0.335,
+      "log": "tools/validation/reorganization_20260912/verify_share25_release.txt"
+    }
+  ],
+  "official_simulator_contacted": false,
+  "runtime": "tmp\\study_runs\\run-k1v7m6xx",
+  "unique_local_unit_checks": 137,
+  "new_entry_smoke_checks": [
+    {
+      "entry": "tools/run_study.py q12_current --script q2_solver.py -- plan",
+      "passed": true
+    },
+    {
+      "entry": "tools/run_study.py q12_current --script q2_solver.py -- update",
+      "passed": true,
+      "diameter_m": 51.98698690781821,
+      "radius_m": 25.993493453909107
+    },
+    {
+      "entry": "tools/run_study.py q3_probe --tests",
+      "passed": true,
+      "tests": 8,
+      "counted_again_in_unique_total": false
+    },
+    {
+      "entry": "tools/launch_model.ps1",
+      "passed": true,
+      "method": "PowerShell parser and static branch/argument inspection only; no interactive launch"
+    }
+  ],
+  "local_file_relocation": {
+    "files": 295,
+    "all_bytes_preserved": true,
+    "failures": [],
+    "record": "local_data/reorganization_20260912/迁移清单.json"
+  },
+  "source_integrity_note": "All 2591 moved non-Markdown files retain pre-move SHA256; report links and instructions were updated. This does not claim new official scores.",
+  "runtime_note": "Generated ignored execution tree restores original logical paths. Original release verifiers check original preserved launchers; new root wrappers and launch_model.ps1 checked separately.",
+  "structure": {
+    "passed": true,
+    "local_only": true,
+    "official_simulator_contacted": false,
+    "studies": 17,
+    "mapped_files": 2616,
+    "document_links": 688,
+    "frozen_files": {
+      "q3": 15,
+      "q4": 15,
+      "share25": 17,
+      "share25_evidence": 8
+    },
+    "additional_evidence_checks": 26,
+    "errors": []
+  }
+}
