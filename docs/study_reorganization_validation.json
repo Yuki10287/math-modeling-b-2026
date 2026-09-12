@@ -115,7 +115,7 @@
     {
       "entry": "tools/launch_model.ps1",
       "passed": true,
-      "method": "PowerShell parser and static branch/argument inspection only; no interactive launch"
+      "method": "Real Windows powershell.exe preparation with -Problem share25 -CheckOnly; Python environment, UTF-8 Chinese path capture and 17-source/8-evidence release verification passed. No team prompt or HTTP. Root CMD wrappers checked statically; no official session."
     }
   ],
   "local_file_relocation": {
@@ -124,7 +124,7 @@
     "failures": [],
     "record": "local_data/reorganization_20260912/迁移清单.json"
   },
-  "source_integrity_note": "All 2591 moved non-Markdown files retain pre-move SHA256; report links and instructions were updated. This does not claim new official scores.",
+  "source_integrity_note": "All 2591 moved non-Markdown files retained pre-move SHA256 when creating commit 4343e13. Later edits by other active study tasks are outside this migration snapshot. Report links and instructions were updated; no new official scores are claimed.",
   "runtime_note": "Generated ignored execution tree restores original logical paths. Original release verifiers check original preserved launchers; new root wrappers and launch_model.ps1 checked separately.",
   "structure": {
     "passed": true,
@@ -141,5 +141,6 @@
     },
     "additional_evidence_checks": 26,
     "errors": []
-  }
+  },
+  "source_integrity_checked_before_commit": "4343e13"
 }

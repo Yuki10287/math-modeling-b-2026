@@ -1,5 +1,8 @@
-﻿param([Parameter(Mandatory=$true)][ValidateSet('q3','q4','share25')][string]$Problem)
+﻿param([Parameter(Mandatory=$true)][ValidateSet('q3','q4','share25')][string]$Problem, [switch]$CheckOnly)
 $ErrorActionPreference = 'Stop'
+# Python uses UTF-8; Windows PowerShell 5.1 must decode the captured path likewise.
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
+$OutputEncoding = [Console]::OutputEncoding
 $runExitCode = 1
 try {
     $projectRoot = Split-Path -Parent $PSScriptRoot
@@ -27,6 +30,7 @@ try {
     $modulePath = Join-Path $runtimePath $folder
     & $pythonPath -X utf8 (Join-Path $modulePath $verify)
     if ($LASTEXITCODE -ne 0) { throw '发布校验未通过；尚未连接模拟器。' }
+    if ($CheckOnly) { Write-Host '本地运行准备与发布核验通过，未连接模拟器。'; exit 0 }
     Write-Host $label -ForegroundColor Cyan
     $team = Read-Host '请输入与模拟器登录一致的参赛队号（不是手机号）'
     if ([string]::IsNullOrWhiteSpace($team)) { throw '参赛队号不能为空。' }
@@ -48,6 +52,6 @@ try {
     Write-Host '请同时保存官方源总数、清除数和模拟器汇总。'
 }
 catch { $runExitCode = 1; Write-Host $_.Exception.Message -ForegroundColor Red }
-$null = Read-Host '按回车关闭窗口'
+if (-not $CheckOnly) { $null = Read-Host '按回车关闭窗口' }
 
 exit $runExitCode

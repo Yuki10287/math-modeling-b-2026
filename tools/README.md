@@ -22,6 +22,14 @@ python -X utf8 tools/run_study.py q4_share --script benchmark_task_sharing.py --
 
 `--` 后面的参数原样交给原脚本。命令的工作目录是项目根目录，所以输入、输出路径按项目根目录填写。程序仍保持原来的参数，不要假定所有历史脚本都支持相同选项。
 
+Windows启动入口也支持只做准备和发布校验：
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/launch_model.ps1 -Problem share25 -CheckOnly
+```
+
+`-CheckOnly` 在校验结束后退出，不询问队号、不连接模拟器；去掉它会进入正常的交互启动流程。入口显式使用UTF-8，兼容Windows PowerShell读取中文项目路径。
+
 ## 结果保存
 
 建议使用原脚本的 `--out`、`--output` 或 `--output-dir` 参数，指定本实验组results中的新批次目录。具体参数以该脚本帮助为准。
