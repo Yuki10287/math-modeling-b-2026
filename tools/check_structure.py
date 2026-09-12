@@ -17,12 +17,14 @@ def check():
         if not (ROOT/name).is_dir():
             errors.append(f'缺少目录：{name}')
     for name, target in [('运行第三问.cmd', 'src\\q3_model_v2\\run_official.ps1'),
-                         ('运行第四问.cmd', 'src\\q4_model\\run_official.ps1')]:
+                         ('运行第四问.cmd', 'src\\q4_model\\run_official.ps1'),
+                         ('运行第四问候选.cmd', 'src\\q4_model\\run_share25.ps1')]:
         path = ROOT/name
         if not path.is_file() or target not in path.read_text(encoding='utf-8-sig'):
             errors.append(f'根目录入口未指向已验证版本：{name}')
     checks = []
-    for script in ('src/q3_model_v2/verify_main_solution.py', 'src/q4_model/verify_release.py'):
+    for script in ('src/q3_model_v2/verify_main_solution.py', 'src/q4_model/verify_release.py',
+                   'src/q4_model/verify_share25_release.py'):
         result = subprocess.run([sys.executable, '-X', 'utf8', str(ROOT/script)],
             cwd=ROOT, capture_output=True, text=True, encoding='utf-8')
         checks.append(dict(script=script, passed=result.returncode==0))
@@ -64,7 +66,7 @@ def check():
 if __name__ == '__main__':
     result = check()
     if result['passed']:
-        print(f'目录、两个运行入口、第三/四问冻结版本及 {result["document_links"]} 个文档链接检查通过。')
+        print(f'目录、三个运行入口、第三/四问原版与候选版本及 {result["document_links"]} 个文档链接检查通过。')
         print('全部为本地只读检查，未连接官方模拟器。')
     else:
         for error in result['errors']:

@@ -1,0 +1,283 @@
+{
+  "local_only": true,
+  "official_simulator_contacted": false,
+  "variant": "share25",
+  "cli_entry": "q4_share25_client.py",
+  "python": "3.14.0",
+  "cases": [
+    {
+      "name": "outward_min_radius",
+      "seed": 19000,
+      "purpose": "outer ring, outward headings, R=1000",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            1800.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            1456.2305898749055,
+            1058.0134541264517
+          ],
+          "radius": 1000.0,
+          "orientation": 0.6283185307179586
+        },
+        {
+          "channel": 18,
+          "position": [
+            556.2305898749054,
+            1711.9017293312763
+          ],
+          "radius": 1000.0,
+          "orientation": 1.2566370614359172
+        },
+        {
+          "channel": 5,
+          "position": [
+            -556.2305898749053,
+            1711.9017293312766
+          ],
+          "radius": 1000.0,
+          "orientation": 1.8849555921538759
+        },
+        {
+          "channel": 12,
+          "position": [
+            -1456.2305898749053,
+            1058.0134541264517
+          ],
+          "radius": 1000.0,
+          "orientation": 2.5132741228718345
+        },
+        {
+          "channel": 19,
+          "position": [
+            -1800.0,
+            2.2043642384652357e-13
+          ],
+          "radius": 1000.0,
+          "orientation": 3.141592653589793
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1456.2305898749055,
+            -1058.0134541264515
+          ],
+          "radius": 1000.0,
+          "orientation": 3.7699111843077517
+        },
+        {
+          "channel": 13,
+          "position": [
+            -556.2305898749056,
+            -1711.9017293312763
+          ],
+          "radius": 1000.0,
+          "orientation": 4.39822971502571
+        },
+        {
+          "channel": 20,
+          "position": [
+            556.230589874905,
+            -1711.9017293312766
+          ],
+          "radius": 1000.0,
+          "orientation": 5.026548245743669
+        },
+        {
+          "channel": 7,
+          "position": [
+            1456.2305898749053,
+            -1058.013454126452
+          ],
+          "radius": 1000.0,
+          "orientation": 5.654866776461628
+        }
+      ]
+    },
+    {
+      "name": "mixed_radius_endpoints",
+      "seed": 19009,
+      "purpose": "R alternates between 1000 and 1500, mixed radii and headings",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            0.0,
+            0.0
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            886.9243144732213,
+            367.3761837629195
+          ],
+          "radius": 1000.0,
+          "orientation": 0.8414981322115518
+        },
+        {
+          "channel": 18,
+          "position": [
+            1272.7913717498482,
+            1272.7916263081477
+          ],
+          "radius": 1500.0,
+          "orientation": 1.6829961644231033
+        },
+        {
+          "channel": 5,
+          "position": [
+            688.8300119588423,
+            1662.9832274033256
+          ],
+          "radius": 1000.0,
+          "orientation": 2.524494196634655
+        },
+        {
+          "channel": 12,
+          "position": [
+            -0.0,
+            0.0
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 19,
+          "position": [
+            -367.3761837629194,
+            886.9243144732213
+          ],
+          "radius": 1000.0,
+          "orientation": 4.2074902610577585
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1272.7916263081477,
+            1272.7913717498484
+          ],
+          "radius": 1500.0,
+          "orientation": 5.048988293269311
+        },
+        {
+          "channel": 13,
+          "position": [
+            -1662.9832274033254,
+            688.8300119588428
+          ],
+          "radius": 1000.0,
+          "orientation": 5.890486325480862
+        },
+        {
+          "channel": 20,
+          "position": [
+            -0.0,
+            -0.0
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            -886.9243144732214,
+            -367.3761837629192
+          ],
+          "radius": 1000.0,
+          "orientation": 7.573482389903965
+        },
+        {
+          "channel": 14,
+          "position": [
+            -1272.7913717498486,
+            -1272.7916263081474
+          ],
+          "radius": 1500.0,
+          "orientation": 8.414980422115518
+        },
+        {
+          "channel": 1,
+          "position": [
+            -688.8300119588429,
+            -1662.9832274033254
+          ],
+          "radius": 1000.0,
+          "orientation": 9.256478454327068
+        },
+        {
+          "channel": 8,
+          "position": [
+            0.0,
+            -0.0
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            367.37618376291994,
+            -886.9243144732211
+          ],
+          "radius": 1000.0,
+          "orientation": 10.939474518750174
+        },
+        {
+          "channel": 2,
+          "position": [
+            1272.791626308148,
+            -1272.791371749848
+          ],
+          "radius": 1500.0,
+          "orientation": 11.780972550961724
+        },
+        {
+          "channel": 9,
+          "position": [
+            1662.9832274033254,
+            -688.830011958843
+          ],
+          "radius": 1000.0,
+          "orientation": 12.622470583173275
+        }
+      ]
+    }
+  ],
+  "field": "plus_one",
+  "source_sha256": {
+    "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "q4_model/task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+    "q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "q4_model/q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "q4_model/q4_share25_client.py": "4c988ffa83489705decdfbe9239d2e489e5d6910a766adc32fe9c54ce8a4169c",
+    "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "q3_model_v2/official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e"
+  },
+  "validation_sha256": {
+    "q4_model/validate_share25_http.py": "e90399e6b60a19f54aec061d6e16c219c4e23284f419f6a5cb16cc561076cacf",
+    "q4_model/local_http_fixture.py": "6483c93b109a314479ff03bd938309e92609b04c56f8a95be36ed8db6683ee75",
+    "q4_model/stress_check.py": "b62ef6af9f8378030229004a89953431485959ec5b27ceacded755af18793c7d",
+    "q4_model/benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+    "q4_model/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+    "q3_model_v2/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e"
+  },
+  "connection_policy": "Only own LocalServer bound to 127.0.0.1:0; reject port 2026; explicit --url for every CLI subprocess.",
+  "purpose": "Full-session transport/certificate equivalence checks, not a performance benchmark.",
+  "scenario": "Drop the first measurement response once to verify same-body retry executes once."
+}

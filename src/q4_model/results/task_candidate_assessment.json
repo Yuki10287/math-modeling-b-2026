@@ -1,0 +1,565 @@
+{
+  "selected_variant": "share25",
+  "candidate_source_snapshot_stable": true,
+  "local_only": true,
+  "official_simulator_used": false,
+  "holdout_groups": {
+    "baseline25": {
+      "conditions": 20,
+      "independent_layouts": 10,
+      "source_instances": 258,
+      "mean_total_s": 6227.133156059519,
+      "mean_case_per_source_s": 502.3744488257732,
+      "pooled_per_source_s": 482.72350046973014,
+      "mean_runtime_s": 7.410712204998708,
+      "max_runtime_s": 12.347092600015458,
+      "audit_passes": 20,
+      "all_cleared_runs": 20,
+      "raw_event_full_clear_runs": 20,
+      "solver_complete_runs": 20,
+      "mean_time_parts_s": {
+        "clear_fail": 99,
+        "clear_success": 64.5,
+        "measure": 1329.75,
+        "move": 4484.433156059517,
+        "switch": 249.45
+      },
+      "mean_action_counts": {
+        "clear_fail": 33,
+        "clear_success": 12.9,
+        "measure": 265.95,
+        "switch": 249.45
+      },
+      "mean_trace_statistics": {
+        "event_count": 311.85,
+        "optical_plans": 8.4,
+        "planned_optical_path_points": 152.2,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 168.45,
+        "final_tail_after_last_success_s": 774.238208995423,
+        "discovered_channels_from_positive_measurements": 12.9,
+        "action_reason_counts": {
+          "certified_clear": 4.5,
+          "optical_cover": 41.4,
+          "scan": 244.75,
+          "shared_measure": 10.8,
+          "source_measure": 10.4
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 260.4941147164948,
+          "optical_cover": 684.0432478433655,
+          "scan": 2827.1249969960536,
+          "shared_measure": 0.0,
+          "source_measure": 712.7707965036067
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4.5,
+          "optical_cover": 41.4,
+          "scan": 22.85,
+          "shared_measure": 7.65,
+          "source_measure": 10.4
+        },
+        "consecutive_scan_batches": {
+          "scan": 22.85
+        },
+        "task_choice_counts": {
+          "scan": 21.85,
+          "source": 12.9
+        }
+      }
+    },
+    "share25": {
+      "conditions": 20,
+      "independent_layouts": 10,
+      "source_instances": 258,
+      "mean_total_s": 5850.84557221831,
+      "mean_case_per_source_s": 472.132468028783,
+      "pooled_per_source_s": 453.55392032700075,
+      "mean_runtime_s": 8.833612595000886,
+      "max_runtime_s": 17.626879999996163,
+      "audit_passes": 20,
+      "all_cleared_runs": 20,
+      "raw_event_full_clear_runs": 20,
+      "solver_complete_runs": 20,
+      "mean_time_parts_s": {
+        "clear_fail": 54.3,
+        "clear_success": 64.5,
+        "measure": 1352.5,
+        "move": 4124.845572218309,
+        "switch": 254.7
+      },
+      "mean_action_counts": {
+        "clear_fail": 18.1,
+        "clear_success": 12.9,
+        "measure": 270.5,
+        "switch": 254.7
+      },
+      "mean_trace_statistics": {
+        "event_count": 301.5,
+        "optical_plans": 7.25,
+        "planned_optical_path_points": 110.65,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 167.1,
+        "final_tail_after_last_success_s": 744.9939630485966,
+        "discovered_channels_from_positive_measurements": 12.9,
+        "action_reason_counts": {
+          "certified_clear": 5.65,
+          "optical_cover": 25.35,
+          "scan": 244.8,
+          "shared_measure": 20.25,
+          "source_measure": 5.45
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 360.7547985773949,
+          "optical_cover": 556.2655187053292,
+          "scan": 2720.1067983121056,
+          "shared_measure": 0.0,
+          "source_measure": 487.7184566234809
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 5.65,
+          "optical_cover": 25.35,
+          "scan": 22.5,
+          "shared_measure": 13.85,
+          "source_measure": 5.45
+        },
+        "consecutive_scan_batches": {
+          "scan": 22.5
+        },
+        "task_choice_counts": {
+          "scan": 21.5,
+          "source": 18.35
+        }
+      }
+    }
+  },
+  "paired_comparison": {
+    "reference": "baseline25",
+    "candidate": "share25",
+    "paired_conditions": 20,
+    "independent_layouts": 10,
+    "reference_mean_total_s": 6227.133156059519,
+    "candidate_mean_total_s": 5850.84557221831,
+    "mean_saving_s": 376.2875838412092,
+    "relative_reduction_percent": 6.04270977367892,
+    "condition_outcomes": {
+      "win": 18,
+      "tie": 0,
+      "loss": 2
+    },
+    "worst_regression_s": 285.112111029011,
+    "largest_improvement_s": 1497.6544760172383,
+    "worst_case": {
+      "seed": 23300,
+      "population": "omni_heavy",
+      "field": "hash",
+      "source_count": 16,
+      "reference_s": 3092.169507025216,
+      "candidate_s": 3377.281618054227,
+      "saving_s": -285.112111029011,
+      "relative_reduction_percent": -9.220455423975112
+    },
+    "best_case": {
+      "seed": 23101,
+      "population": "boundary",
+      "field": "extreme",
+      "source_count": 11,
+      "reference_s": 8260.964813988723,
+      "candidate_s": 6763.310337971485,
+      "saving_s": 1497.6544760172383,
+      "relative_reduction_percent": 18.129292518970445
+    },
+    "mean_time_part_savings_s": {
+      "clear_fail": 44.7,
+      "clear_success": 0,
+      "measure": -22.75,
+      "move": 359.5875838412086,
+      "switch": -5.25
+    },
+    "layout_aggregated": {
+      "reference_mean_total_s": 6227.133156059519,
+      "candidate_mean_total_s": 5850.84557221831,
+      "mean_saving_s": 376.2875838412092,
+      "relative_reduction_percent": 6.04270977367892,
+      "outcomes": {
+        "win": 9,
+        "tie": 0,
+        "loss": 1
+      },
+      "records": [
+        {
+          "seed": 23000,
+          "population": "uniform",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 6387.966906888933,
+          "candidate_mean_s": 6199.263069936699,
+          "saving_s": 188.70383695223427,
+          "relative_reduction_percent": 2.9540515738854505
+        },
+        {
+          "seed": 23001,
+          "population": "uniform",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 6363.540438386377,
+          "candidate_mean_s": 6273.0467652766,
+          "saving_s": 90.49367310977686,
+          "relative_reduction_percent": 1.4220648707423573
+        },
+        {
+          "seed": 23100,
+          "population": "boundary",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 7376.86706468658,
+          "candidate_mean_s": 7287.492913013806,
+          "saving_s": 89.37415167277413,
+          "relative_reduction_percent": 1.2115461874135232
+        },
+        {
+          "seed": 23101,
+          "population": "boundary",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 8087.037049447173,
+          "candidate_mean_s": 6790.723300089767,
+          "saving_s": 1296.3137493574059,
+          "relative_reduction_percent": 16.02952653031337
+        },
+        {
+          "seed": 23200,
+          "population": "cluster",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 5870.6563045941175,
+          "candidate_mean_s": 4959.628104538638,
+          "saving_s": 911.0282000554798,
+          "relative_reduction_percent": 15.518336499150005
+        },
+        {
+          "seed": 23201,
+          "population": "cluster",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 6168.056066743378,
+          "candidate_mean_s": 5685.007196960049,
+          "saving_s": 483.0488697833289,
+          "relative_reduction_percent": 7.8314604237761065
+        },
+        {
+          "seed": 23300,
+          "population": "omni_heavy",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 2976.408629727579,
+          "candidate_mean_s": 3091.6954586311094,
+          "saving_s": -115.28682890353048,
+          "relative_reduction_percent": -3.8733535359384543
+        },
+        {
+          "seed": 23301,
+          "population": "omni_heavy",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 6323.6279862288775,
+          "candidate_mean_s": 6268.1601116661905,
+          "saving_s": 55.46787456268703,
+          "relative_reduction_percent": 0.8771527149206247
+        },
+        {
+          "seed": 23400,
+          "population": "dir_heavy",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 6257.981553250439,
+          "candidate_mean_s": 5751.360293001015,
+          "saving_s": 506.62126024942427,
+          "relative_reduction_percent": 8.095601687836258
+        },
+        {
+          "seed": 23401,
+          "population": "dir_heavy",
+          "fields": [
+            "extreme",
+            "hash"
+          ],
+          "reference_mean_s": 6459.189560641731,
+          "candidate_mean_s": 6202.0785090692225,
+          "saving_s": 257.1110515725086,
+          "relative_reduction_percent": 3.980546617476329
+        }
+      ]
+    },
+    "condition_records": [
+      {
+        "seed": 23000,
+        "population": "uniform",
+        "field": "extreme",
+        "source_count": 12,
+        "reference_s": 6434.025259074962,
+        "candidate_s": 6078.385635685662,
+        "saving_s": 355.63962338930014,
+        "relative_reduction_percent": 5.527482548932849
+      },
+      {
+        "seed": 23000,
+        "population": "uniform",
+        "field": "hash",
+        "source_count": 12,
+        "reference_s": 6341.908554702904,
+        "candidate_s": 6320.140504187736,
+        "saving_s": 21.768050515168397,
+        "relative_reduction_percent": 0.34324131808911196
+      },
+      {
+        "seed": 23001,
+        "population": "uniform",
+        "field": "extreme",
+        "source_count": 12,
+        "reference_s": 6323.621763479895,
+        "candidate_s": 6186.844446362769,
+        "saving_s": 136.77731711712568,
+        "relative_reduction_percent": 2.1629585423189037
+      },
+      {
+        "seed": 23001,
+        "population": "uniform",
+        "field": "hash",
+        "source_count": 12,
+        "reference_s": 6403.45911329286,
+        "candidate_s": 6359.249084190431,
+        "saving_s": 44.21002910242896,
+        "relative_reduction_percent": 0.6904085482587672
+      },
+      {
+        "seed": 23100,
+        "population": "boundary",
+        "field": "extreme",
+        "source_count": 13,
+        "reference_s": 7364.278095199905,
+        "candidate_s": 7279.7652208069485,
+        "saving_s": 84.51287439295629,
+        "relative_reduction_percent": 1.1476056892534037
+      },
+      {
+        "seed": 23100,
+        "population": "boundary",
+        "field": "hash",
+        "source_count": 13,
+        "reference_s": 7389.456034173256,
+        "candidate_s": 7295.220605220663,
+        "saving_s": 94.23542895259288,
+        "relative_reduction_percent": 1.2752688224517745
+      },
+      {
+        "seed": 23101,
+        "population": "boundary",
+        "field": "extreme",
+        "source_count": 11,
+        "reference_s": 8260.964813988723,
+        "candidate_s": 6763.310337971485,
+        "saving_s": 1497.6544760172383,
+        "relative_reduction_percent": 18.129292518970445
+      },
+      {
+        "seed": 23101,
+        "population": "boundary",
+        "field": "hash",
+        "source_count": 11,
+        "reference_s": 7913.109284905622,
+        "candidate_s": 6818.13626220805,
+        "saving_s": 1094.9730226975726,
+        "relative_reduction_percent": 13.837456090569233
+      },
+      {
+        "seed": 23200,
+        "population": "cluster",
+        "field": "extreme",
+        "source_count": 15,
+        "reference_s": 5894.328829419779,
+        "candidate_s": 4913.722091457814,
+        "saving_s": 980.6067379619653,
+        "relative_reduction_percent": 16.636444391557525
+      },
+      {
+        "seed": 23200,
+        "population": "cluster",
+        "field": "hash",
+        "source_count": 15,
+        "reference_s": 5846.983779768456,
+        "candidate_s": 5005.5341176194615,
+        "saving_s": 841.4496621489943,
+        "relative_reduction_percent": 14.391174900476914
+      },
+      {
+        "seed": 23201,
+        "population": "cluster",
+        "field": "extreme",
+        "source_count": 11,
+        "reference_s": 6131.351110352785,
+        "candidate_s": 5869.354157587344,
+        "saving_s": 261.99695276544116,
+        "relative_reduction_percent": 4.273070454619037
+      },
+      {
+        "seed": 23201,
+        "population": "cluster",
+        "field": "hash",
+        "source_count": 11,
+        "reference_s": 6204.761023133972,
+        "candidate_s": 5500.660236332755,
+        "saving_s": 704.1007868012175,
+        "relative_reduction_percent": 11.347750286852822
+      },
+      {
+        "seed": 23300,
+        "population": "omni_heavy",
+        "field": "extreme",
+        "source_count": 16,
+        "reference_s": 2860.6477524299416,
+        "candidate_s": 2806.109299207992,
+        "saving_s": 54.53845322194957,
+        "relative_reduction_percent": 1.906507125025182
+      },
+      {
+        "seed": 23300,
+        "population": "omni_heavy",
+        "field": "hash",
+        "source_count": 16,
+        "reference_s": 3092.169507025216,
+        "candidate_s": 3377.281618054227,
+        "saving_s": -285.112111029011,
+        "relative_reduction_percent": -9.220455423975112
+      },
+      {
+        "seed": 23301,
+        "population": "omni_heavy",
+        "field": "extreme",
+        "source_count": 10,
+        "reference_s": 6287.270384021615,
+        "candidate_s": 6107.741631350286,
+        "saving_s": 179.52875267132913,
+        "relative_reduction_percent": 2.8554323530857064
+      },
+      {
+        "seed": 23301,
+        "population": "omni_heavy",
+        "field": "hash",
+        "source_count": 10,
+        "reference_s": 6359.9855884361405,
+        "candidate_s": 6428.578591982095,
+        "saving_s": -68.59300354595416,
+        "relative_reduction_percent": -1.0785087889298273
+      },
+      {
+        "seed": 23400,
+        "population": "dir_heavy",
+        "field": "extreme",
+        "source_count": 16,
+        "reference_s": 6937.729660310845,
+        "candidate_s": 5991.9897541702485,
+        "saving_s": 945.7399061405968,
+        "relative_reduction_percent": 13.631835664496371
+      },
+      {
+        "seed": 23400,
+        "population": "dir_heavy",
+        "field": "hash",
+        "source_count": 16,
+        "reference_s": 5578.233446190033,
+        "candidate_s": 5510.730831831781,
+        "saving_s": 67.50261435825178,
+        "relative_reduction_percent": 1.2101073755591292
+      },
+      {
+        "seed": 23401,
+        "population": "dir_heavy",
+        "field": "extreme",
+        "source_count": 13,
+        "reference_s": 6692.027421422314,
+        "candidate_s": 6221.620722546963,
+        "saving_s": 470.40669887535023,
+        "relative_reduction_percent": 7.029360001865784
+      },
+      {
+        "seed": 23401,
+        "population": "dir_heavy",
+        "field": "hash",
+        "source_count": 13,
+        "reference_s": 6226.3516998611485,
+        "candidate_s": 6182.5362955914825,
+        "saving_s": 43.81540426966603,
+        "relative_reduction_percent": 0.7037091122019841
+      }
+    ]
+  },
+  "worst_condition_slowdown_percent": 9.220455423975112,
+  "leave_one_layout_out_reduction_range_percent": [
+    4.552171641816262,
+    6.691934643087946
+  ],
+  "leave_one_out_interpretation": "Descriptive sensitivity to deleting one layout, not a confidence interval.",
+  "stress": {
+    "variant": "share25",
+    "runs": 30,
+    "independent_layouts": 10,
+    "passed": 30,
+    "all_cleared": 30,
+    "source_instances": 372,
+    "source_snapshot_stable": true,
+    "stress_snapshot_stable": true,
+    "local_only": true,
+    "official_simulator_used": false,
+    "maximum_total_s": 8045.7215149047,
+    "maximum_runtime_s": 13.416062700009206,
+    "audit_counts": {
+      "events": 10057,
+      "polygons": 1085,
+      "optical_plans": 219,
+      "triangle_certificates": 6912
+    }
+  },
+  "decision_gates": {
+    "all_holdout_audits_and_clears": true,
+    "all_stress_audits_and_clears": true,
+    "mean_gain_at_least_five_percent": true,
+    "faster_layouts_at_least_six": true,
+    "worst_condition_slowdown_at_most_fifteen_percent": true
+  },
+  "meets_predeclared_replacement_criteria": true,
+  "official_entry_changed": false,
+  "official_evidence": "Only the existing 25-station shared release has the five user-provided official runs. No new candidate has been run officially in this work.",
+  "runtime_context": "Holdout and stress ran concurrently on this computer. Solver wall times exclude auditing and are observations under shared load, not controlled speed comparisons or official program runtime.",
+  "development_data": "Two stages totaling 45 formal runs on ten development layouts, plus repeated smoke checks. Development is excluded from holdout and stress summaries.",
+  "evidence_files": [
+    "cell_evaluation_plan.json",
+    "cell_selection.json",
+    "cell_development_21000/analysis.json",
+    "task_development_22000/analysis.json",
+    "task_holdout_23000/analysis.json",
+    "task_stress_share25/summary.json"
+  ]
+}

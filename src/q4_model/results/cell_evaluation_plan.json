@@ -1,0 +1,31 @@
+{
+  "purpose": "Local exploratory optimization after the five user-run official Q4 records; no official simulator access",
+  "baseline": "joint_solver.solve_multi variant shared; frozen 25-station release",
+  "development_stage_1": "cell_development_21000: five paired layouts, smooth error field, baseline25/cells/context/interleave/opscan",
+  "development_stage_2": "task_development_22000: five new paired layouts, smooth error field, baseline25/context/resume25/share25",
+  "selection_rule": "Among context/resume25/share25 with every stage-2 full-clear and independent audit passing, select the lowest stage-2 mean total virtual time. Evaluate that single research candidate even if baseline is faster. Stage-1 results remain development evidence, not holdout.",
+  "holdout": {
+    "start_seed": 23000,
+    "layouts_per_population": 2,
+    "populations": ["uniform", "boundary", "cluster", "omni_heavy", "dir_heavy"],
+    "fields": ["hash", "extreme"],
+    "conditions_per_variant": 20,
+    "independent_layouts": 10,
+    "variants": ["baseline25", "selected_candidate"],
+    "freeze_before_run": true,
+    "independence": "Two error fields reuse one source layout; average paired differences by layout before counting independent layout outcomes."
+  },
+  "stress": "The existing ten constructed stress layouts under plus_one/minus_one/checker_one; correctness evidence only, excluded from performance means.",
+  "minimum_evidence_for_recommending_replacement": {
+    "all_holdout_and_stress_audits_pass": true,
+    "all_sources_cleared": true,
+    "holdout_mean_total_reduction_at_least_percent": 5,
+    "faster_independent_holdout_layouts_at_least": 6,
+    "maximum_single_condition_slowdown_at_most_percent": 15,
+    "interpretation": "An advance decision rule for this small local experiment, not a mathematical guarantee or contest standard. Passing it still does not establish an official score."
+  },
+  "target_400": "A research reference only. The competing approximately 400-second result has unknown question, clearance rate and averaging method. Local means below 400 are not official target attainment.",
+  "runtime": "Report actual solver wall time separately from virtual task cost. Preserve frozen launchers during this research.",
+  "local_only": true,
+  "official_simulator_used": false
+}

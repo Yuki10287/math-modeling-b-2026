@@ -1,0 +1,40 @@
+{
+  "recorded_at_utc": "2026-09-12T01:56:42.930286+00:00",
+  "problem": 4,
+  "variant": "share25",
+  "source_sha256": {
+    "src/q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+    "src/q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+    "src/q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+    "src/q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+    "src/q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+    "src/q4_model/task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+    "src/q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+    "src/q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+    "src/q4_model/q4_official_client.py": "a47b3cd01f727df60fbf9125052011f50c15890d3102b5b5cb72e3dfcef5c723",
+    "src/q4_model/q4_share25_client.py": "4c988ffa83489705decdfbe9239d2e489e5d6910a766adc32fe9c54ce8a4169c",
+    "src/q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+    "src/q3_model_v2/official_client.py": "9710b2fe191014d35742db83aa41e1f9361e898d53615d2ef44bc0c6e1c6e16e",
+    "运行第四问候选.cmd": "a94169f59668045e58cab376cc1000721ef3fb3a5df8986947f52a767239f84e",
+    "src/q4_model/运行第四问候选.cmd": "04216ca9c746e50d7170cabb152a33bf77df871377d6bb26ce44cc0ec08f8e3c",
+    "src/q4_model/run_share25.ps1": "2a8b219d75600d113ed334c6c1a281985b909ef9164f307ca22e833ff579ce32",
+    "src/q4_model/requirements.txt": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a",
+    "src/q4_model/verify_share25_release.py": "0d005624167c5832f3639b3c238518d52c797bfc39760b1d11ac0700b4edda72"
+  },
+  "evidence_sha256": {
+    "src/q4_model/results/cell_selection.json": "197a91c6bed22a0fcad392bedf3154be3d8be80934bb77ef98fa4ba1be0ca4c0",
+    "src/q4_model/results/task_candidate_assessment.json": "8e79a518f7e702f6de34643967a2a1e782757fadbd6b4a9abcec85d5579e80df",
+    "src/q4_model/results/task_holdout_23000/analysis.json": "b711a981543ffc904314bf791f9829fd54cbe559521df1e96b719745e57020ba",
+    "src/q4_model/results/task_stress_share25/summary.json": "60dba8cc0839c841c8632c95f8c5f81fc22e4f93113a1a39d667762f839efa3a",
+    "src/q4_model/results/share25_http_validation.json": "aea8137c51f56b3b77a2b0ea2ac4e5e50cd2291c9d3ab1fb4bb0c1d8b9711a20",
+    "src/q4_model/results/share25_http_full/manifest.json": "a125a874ab5835256722245368f4931c02b6a48747c63c831bbce706fb9b9d4e",
+    "src/q4_model/results/share25_http_full/summary.json": "8f417f0da071d667b6553a8138d900131f5553bc513b45d7855900c42bf9adc4",
+    "src/q4_model/results/share25_readiness.json": "1791f83238be738d984756a497fc73d9e89b539d178c2ca1e6c06d18df4233a5"
+  },
+  "official_simulator_used": false,
+  "official_evidence_available": false,
+  "default_entry_replaced": false,
+  "user_entry": "运行第四问候选.cmd",
+  "launcher_validation": "PowerShell parser and CMD/PowerShell encoding/path checks only; interactive launcher not executed.",
+  "interface_validation": "20 protocol/session tests plus two full real Python CLI sessions on owned ephemeral loopback fixtures; 10/16 source paths exactly match direct model actions, trace and certificate."
+}

@@ -1,0 +1,1930 @@
+{
+  "description": "Paired descriptive analysis of completed local cell-cover experiments; no candidate selection.",
+  "experiment_directory": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\results\\task_holdout_23000",
+  "conditions_per_variant": 20,
+  "independent_layouts": 10,
+  "fields": [
+    "hash",
+    "extreme"
+  ],
+  "safety_checks": {
+    "all_audits_passed": true,
+    "all_full_clears": true,
+    "all_raw_events_clear_every_source": true,
+    "all_solver_results_complete": true,
+    "source_snapshot_stable": true,
+    "raw_rows_and_saved_summary_match": true,
+    "event_accounting_rechecked": true,
+    "source_layouts_identical_across_variants_and_fields": true
+  },
+  "groups": {
+    "baseline25": {
+      "conditions": 20,
+      "independent_layouts": 10,
+      "source_instances": 258,
+      "mean_total_s": 6227.133156059519,
+      "mean_case_per_source_s": 502.3744488257732,
+      "pooled_per_source_s": 482.72350046973014,
+      "mean_runtime_s": 7.410712204998708,
+      "max_runtime_s": 12.347092600015458,
+      "audit_passes": 20,
+      "all_cleared_runs": 20,
+      "raw_event_full_clear_runs": 20,
+      "solver_complete_runs": 20,
+      "mean_time_parts_s": {
+        "clear_fail": 99,
+        "clear_success": 64.5,
+        "measure": 1329.75,
+        "move": 4484.433156059517,
+        "switch": 249.45
+      },
+      "mean_action_counts": {
+        "clear_fail": 33,
+        "clear_success": 12.9,
+        "measure": 265.95,
+        "switch": 249.45
+      },
+      "mean_trace_statistics": {
+        "event_count": 311.85,
+        "optical_plans": 8.4,
+        "planned_optical_path_points": 152.2,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 168.45,
+        "final_tail_after_last_success_s": 774.238208995423,
+        "discovered_channels_from_positive_measurements": 12.9,
+        "action_reason_counts": {
+          "certified_clear": 4.5,
+          "optical_cover": 41.4,
+          "scan": 244.75,
+          "shared_measure": 10.8,
+          "source_measure": 10.4
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 260.4941147164948,
+          "optical_cover": 684.0432478433655,
+          "scan": 2827.1249969960536,
+          "shared_measure": 0.0,
+          "source_measure": 712.7707965036067
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4.5,
+          "optical_cover": 41.4,
+          "scan": 22.85,
+          "shared_measure": 7.65,
+          "source_measure": 10.4
+        },
+        "consecutive_scan_batches": {
+          "scan": 22.85
+        },
+        "task_choice_counts": {
+          "scan": 21.85,
+          "source": 12.9
+        }
+      }
+    },
+    "share25": {
+      "conditions": 20,
+      "independent_layouts": 10,
+      "source_instances": 258,
+      "mean_total_s": 5850.84557221831,
+      "mean_case_per_source_s": 472.132468028783,
+      "pooled_per_source_s": 453.55392032700075,
+      "mean_runtime_s": 8.833612595000886,
+      "max_runtime_s": 17.626879999996163,
+      "audit_passes": 20,
+      "all_cleared_runs": 20,
+      "raw_event_full_clear_runs": 20,
+      "solver_complete_runs": 20,
+      "mean_time_parts_s": {
+        "clear_fail": 54.3,
+        "clear_success": 64.5,
+        "measure": 1352.5,
+        "move": 4124.845572218309,
+        "switch": 254.7
+      },
+      "mean_action_counts": {
+        "clear_fail": 18.1,
+        "clear_success": 12.9,
+        "measure": 270.5,
+        "switch": 254.7
+      },
+      "mean_trace_statistics": {
+        "event_count": 301.5,
+        "optical_plans": 7.25,
+        "planned_optical_path_points": 110.65,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 167.1,
+        "final_tail_after_last_success_s": 744.9939630485966,
+        "discovered_channels_from_positive_measurements": 12.9,
+        "action_reason_counts": {
+          "certified_clear": 5.65,
+          "optical_cover": 25.35,
+          "scan": 244.8,
+          "shared_measure": 20.25,
+          "source_measure": 5.45
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 360.7547985773949,
+          "optical_cover": 556.2655187053292,
+          "scan": 2720.1067983121056,
+          "shared_measure": 0.0,
+          "source_measure": 487.7184566234809
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 5.65,
+          "optical_cover": 25.35,
+          "scan": 22.5,
+          "shared_measure": 13.85,
+          "source_measure": 5.45
+        },
+        "consecutive_scan_batches": {
+          "scan": 22.5
+        },
+        "task_choice_counts": {
+          "scan": 21.5,
+          "source": 18.35
+        }
+      }
+    }
+  },
+  "comparisons_to_baseline25": {
+    "share25": {
+      "reference": "baseline25",
+      "candidate": "share25",
+      "paired_conditions": 20,
+      "independent_layouts": 10,
+      "reference_mean_total_s": 6227.133156059519,
+      "candidate_mean_total_s": 5850.84557221831,
+      "mean_saving_s": 376.2875838412092,
+      "relative_reduction_percent": 6.04270977367892,
+      "condition_outcomes": {
+        "win": 18,
+        "tie": 0,
+        "loss": 2
+      },
+      "worst_regression_s": 285.112111029011,
+      "largest_improvement_s": 1497.6544760172383,
+      "worst_case": {
+        "seed": 23300,
+        "population": "omni_heavy",
+        "field": "hash",
+        "source_count": 16,
+        "reference_s": 3092.169507025216,
+        "candidate_s": 3377.281618054227,
+        "saving_s": -285.112111029011,
+        "relative_reduction_percent": -9.220455423975112
+      },
+      "best_case": {
+        "seed": 23101,
+        "population": "boundary",
+        "field": "extreme",
+        "source_count": 11,
+        "reference_s": 8260.964813988723,
+        "candidate_s": 6763.310337971485,
+        "saving_s": 1497.6544760172383,
+        "relative_reduction_percent": 18.129292518970445
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 44.7,
+        "clear_success": 0,
+        "measure": -22.75,
+        "move": 359.5875838412086,
+        "switch": -5.25
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 6227.133156059519,
+        "candidate_mean_total_s": 5850.84557221831,
+        "mean_saving_s": 376.2875838412092,
+        "relative_reduction_percent": 6.04270977367892,
+        "outcomes": {
+          "win": 9,
+          "tie": 0,
+          "loss": 1
+        },
+        "records": [
+          {
+            "seed": 23000,
+            "population": "uniform",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 6387.966906888933,
+            "candidate_mean_s": 6199.263069936699,
+            "saving_s": 188.70383695223427,
+            "relative_reduction_percent": 2.9540515738854505
+          },
+          {
+            "seed": 23001,
+            "population": "uniform",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 6363.540438386377,
+            "candidate_mean_s": 6273.0467652766,
+            "saving_s": 90.49367310977686,
+            "relative_reduction_percent": 1.4220648707423573
+          },
+          {
+            "seed": 23100,
+            "population": "boundary",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 7376.86706468658,
+            "candidate_mean_s": 7287.492913013806,
+            "saving_s": 89.37415167277413,
+            "relative_reduction_percent": 1.2115461874135232
+          },
+          {
+            "seed": 23101,
+            "population": "boundary",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 8087.037049447173,
+            "candidate_mean_s": 6790.723300089767,
+            "saving_s": 1296.3137493574059,
+            "relative_reduction_percent": 16.02952653031337
+          },
+          {
+            "seed": 23200,
+            "population": "cluster",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 5870.6563045941175,
+            "candidate_mean_s": 4959.628104538638,
+            "saving_s": 911.0282000554798,
+            "relative_reduction_percent": 15.518336499150005
+          },
+          {
+            "seed": 23201,
+            "population": "cluster",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 6168.056066743378,
+            "candidate_mean_s": 5685.007196960049,
+            "saving_s": 483.0488697833289,
+            "relative_reduction_percent": 7.8314604237761065
+          },
+          {
+            "seed": 23300,
+            "population": "omni_heavy",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 2976.408629727579,
+            "candidate_mean_s": 3091.6954586311094,
+            "saving_s": -115.28682890353048,
+            "relative_reduction_percent": -3.8733535359384543
+          },
+          {
+            "seed": 23301,
+            "population": "omni_heavy",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 6323.6279862288775,
+            "candidate_mean_s": 6268.1601116661905,
+            "saving_s": 55.46787456268703,
+            "relative_reduction_percent": 0.8771527149206247
+          },
+          {
+            "seed": 23400,
+            "population": "dir_heavy",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 6257.981553250439,
+            "candidate_mean_s": 5751.360293001015,
+            "saving_s": 506.62126024942427,
+            "relative_reduction_percent": 8.095601687836258
+          },
+          {
+            "seed": 23401,
+            "population": "dir_heavy",
+            "fields": [
+              "extreme",
+              "hash"
+            ],
+            "reference_mean_s": 6459.189560641731,
+            "candidate_mean_s": 6202.0785090692225,
+            "saving_s": 257.1110515725086,
+            "relative_reduction_percent": 3.980546617476329
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 23000,
+          "population": "uniform",
+          "field": "extreme",
+          "source_count": 12,
+          "reference_s": 6434.025259074962,
+          "candidate_s": 6078.385635685662,
+          "saving_s": 355.63962338930014,
+          "relative_reduction_percent": 5.527482548932849
+        },
+        {
+          "seed": 23000,
+          "population": "uniform",
+          "field": "hash",
+          "source_count": 12,
+          "reference_s": 6341.908554702904,
+          "candidate_s": 6320.140504187736,
+          "saving_s": 21.768050515168397,
+          "relative_reduction_percent": 0.34324131808911196
+        },
+        {
+          "seed": 23001,
+          "population": "uniform",
+          "field": "extreme",
+          "source_count": 12,
+          "reference_s": 6323.621763479895,
+          "candidate_s": 6186.844446362769,
+          "saving_s": 136.77731711712568,
+          "relative_reduction_percent": 2.1629585423189037
+        },
+        {
+          "seed": 23001,
+          "population": "uniform",
+          "field": "hash",
+          "source_count": 12,
+          "reference_s": 6403.45911329286,
+          "candidate_s": 6359.249084190431,
+          "saving_s": 44.21002910242896,
+          "relative_reduction_percent": 0.6904085482587672
+        },
+        {
+          "seed": 23100,
+          "population": "boundary",
+          "field": "extreme",
+          "source_count": 13,
+          "reference_s": 7364.278095199905,
+          "candidate_s": 7279.7652208069485,
+          "saving_s": 84.51287439295629,
+          "relative_reduction_percent": 1.1476056892534037
+        },
+        {
+          "seed": 23100,
+          "population": "boundary",
+          "field": "hash",
+          "source_count": 13,
+          "reference_s": 7389.456034173256,
+          "candidate_s": 7295.220605220663,
+          "saving_s": 94.23542895259288,
+          "relative_reduction_percent": 1.2752688224517745
+        },
+        {
+          "seed": 23101,
+          "population": "boundary",
+          "field": "extreme",
+          "source_count": 11,
+          "reference_s": 8260.964813988723,
+          "candidate_s": 6763.310337971485,
+          "saving_s": 1497.6544760172383,
+          "relative_reduction_percent": 18.129292518970445
+        },
+        {
+          "seed": 23101,
+          "population": "boundary",
+          "field": "hash",
+          "source_count": 11,
+          "reference_s": 7913.109284905622,
+          "candidate_s": 6818.13626220805,
+          "saving_s": 1094.9730226975726,
+          "relative_reduction_percent": 13.837456090569233
+        },
+        {
+          "seed": 23200,
+          "population": "cluster",
+          "field": "extreme",
+          "source_count": 15,
+          "reference_s": 5894.328829419779,
+          "candidate_s": 4913.722091457814,
+          "saving_s": 980.6067379619653,
+          "relative_reduction_percent": 16.636444391557525
+        },
+        {
+          "seed": 23200,
+          "population": "cluster",
+          "field": "hash",
+          "source_count": 15,
+          "reference_s": 5846.983779768456,
+          "candidate_s": 5005.5341176194615,
+          "saving_s": 841.4496621489943,
+          "relative_reduction_percent": 14.391174900476914
+        },
+        {
+          "seed": 23201,
+          "population": "cluster",
+          "field": "extreme",
+          "source_count": 11,
+          "reference_s": 6131.351110352785,
+          "candidate_s": 5869.354157587344,
+          "saving_s": 261.99695276544116,
+          "relative_reduction_percent": 4.273070454619037
+        },
+        {
+          "seed": 23201,
+          "population": "cluster",
+          "field": "hash",
+          "source_count": 11,
+          "reference_s": 6204.761023133972,
+          "candidate_s": 5500.660236332755,
+          "saving_s": 704.1007868012175,
+          "relative_reduction_percent": 11.347750286852822
+        },
+        {
+          "seed": 23300,
+          "population": "omni_heavy",
+          "field": "extreme",
+          "source_count": 16,
+          "reference_s": 2860.6477524299416,
+          "candidate_s": 2806.109299207992,
+          "saving_s": 54.53845322194957,
+          "relative_reduction_percent": 1.906507125025182
+        },
+        {
+          "seed": 23300,
+          "population": "omni_heavy",
+          "field": "hash",
+          "source_count": 16,
+          "reference_s": 3092.169507025216,
+          "candidate_s": 3377.281618054227,
+          "saving_s": -285.112111029011,
+          "relative_reduction_percent": -9.220455423975112
+        },
+        {
+          "seed": 23301,
+          "population": "omni_heavy",
+          "field": "extreme",
+          "source_count": 10,
+          "reference_s": 6287.270384021615,
+          "candidate_s": 6107.741631350286,
+          "saving_s": 179.52875267132913,
+          "relative_reduction_percent": 2.8554323530857064
+        },
+        {
+          "seed": 23301,
+          "population": "omni_heavy",
+          "field": "hash",
+          "source_count": 10,
+          "reference_s": 6359.9855884361405,
+          "candidate_s": 6428.578591982095,
+          "saving_s": -68.59300354595416,
+          "relative_reduction_percent": -1.0785087889298273
+        },
+        {
+          "seed": 23400,
+          "population": "dir_heavy",
+          "field": "extreme",
+          "source_count": 16,
+          "reference_s": 6937.729660310845,
+          "candidate_s": 5991.9897541702485,
+          "saving_s": 945.7399061405968,
+          "relative_reduction_percent": 13.631835664496371
+        },
+        {
+          "seed": 23400,
+          "population": "dir_heavy",
+          "field": "hash",
+          "source_count": 16,
+          "reference_s": 5578.233446190033,
+          "candidate_s": 5510.730831831781,
+          "saving_s": 67.50261435825178,
+          "relative_reduction_percent": 1.2101073755591292
+        },
+        {
+          "seed": 23401,
+          "population": "dir_heavy",
+          "field": "extreme",
+          "source_count": 13,
+          "reference_s": 6692.027421422314,
+          "candidate_s": 6221.620722546963,
+          "saving_s": 470.40669887535023,
+          "relative_reduction_percent": 7.029360001865784
+        },
+        {
+          "seed": 23401,
+          "population": "dir_heavy",
+          "field": "hash",
+          "source_count": 13,
+          "reference_s": 6226.3516998611485,
+          "candidate_s": 6182.5362955914825,
+          "saving_s": 43.81540426966603,
+          "relative_reduction_percent": 0.7037091122019841
+        }
+      ]
+    }
+  },
+  "incremental_comparisons": {},
+  "by_population": {
+    "uniform": {
+      "groups": {
+        "baseline25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 48,
+          "mean_total_s": 6375.753672637656,
+          "mean_case_per_source_s": 531.3128060531379,
+          "pooled_per_source_s": 531.3128060531379,
+          "mean_runtime_s": 5.762676725011261,
+          "max_runtime_s": 6.4361565000144765,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 35.25,
+            "clear_success": 60,
+            "measure": 1517.5,
+            "move": 4476.503672637657,
+            "switch": 286.5
+          },
+          "mean_action_counts": {
+            "clear_fail": 11.75,
+            "clear_success": 12,
+            "measure": 303.5,
+            "switch": 286.5
+          },
+          "mean_trace_statistics": {
+            "event_count": 327.25,
+            "optical_plans": 6.5,
+            "planned_optical_path_points": 34.5,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 200,
+            "final_tail_after_last_success_s": 291.06335434218863,
+            "discovered_channels_from_positive_measurements": 12,
+            "action_reason_counts": {
+              "certified_clear": 5.5,
+              "optical_cover": 18.25,
+              "scan": 283.5,
+              "shared_measure": 11.75,
+              "source_measure": 8.25
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 344.85323084882714,
+              "optical_cover": 493.9052949646417,
+              "scan": 2964.223672041707,
+              "shared_measure": 0.0,
+              "source_measure": 673.5214747824823
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5.5,
+              "optical_cover": 18.25,
+              "scan": 25,
+              "shared_measure": 9,
+              "source_measure": 8.25
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 12
+            }
+          }
+        },
+        "share25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 48,
+          "mean_total_s": 6236.154917606649,
+          "mean_case_per_source_s": 519.6795764672208,
+          "pooled_per_source_s": 519.6795764672207,
+          "mean_runtime_s": 7.38257419999718,
+          "max_runtime_s": 8.232740199979162,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 21,
+            "clear_success": 60,
+            "measure": 1467.5,
+            "move": 4411.154917606652,
+            "switch": 276.5
+          },
+          "mean_action_counts": {
+            "clear_fail": 7,
+            "clear_success": 12,
+            "measure": 293.5,
+            "switch": 276.5
+          },
+          "mean_trace_statistics": {
+            "event_count": 312.5,
+            "optical_plans": 8.25,
+            "planned_optical_path_points": 31,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 200,
+            "final_tail_after_last_success_s": 224.07817015245223,
+            "discovered_channels_from_positive_measurements": 12,
+            "action_reason_counts": {
+              "certified_clear": 3.75,
+              "optical_cover": 15.25,
+              "scan": 271.5,
+              "shared_measure": 16.5,
+              "source_measure": 5.5
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 318.38993364758386,
+              "optical_cover": 668.4537363356698,
+              "scan": 2906.317272560919,
+              "shared_measure": 0.0,
+              "source_measure": 517.9939750624802
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3.75,
+              "optical_cover": 15.25,
+              "scan": 25,
+              "shared_measure": 12,
+              "source_measure": 5.5
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 17.5
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 4,
+          "independent_layouts": 2,
+          "reference_mean_total_s": 6375.753672637656,
+          "candidate_mean_total_s": 6236.154917606649,
+          "mean_saving_s": 139.59875503100648,
+          "relative_reduction_percent": 2.1895255400175198,
+          "condition_outcomes": {
+            "win": 4,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 355.63962338930014,
+          "worst_case": {
+            "seed": 23000,
+            "population": "uniform",
+            "field": "hash",
+            "source_count": 12,
+            "reference_s": 6341.908554702904,
+            "candidate_s": 6320.140504187736,
+            "saving_s": 21.768050515168397,
+            "relative_reduction_percent": 0.34324131808911196
+          },
+          "best_case": {
+            "seed": 23000,
+            "population": "uniform",
+            "field": "extreme",
+            "source_count": 12,
+            "reference_s": 6434.025259074962,
+            "candidate_s": 6078.385635685662,
+            "saving_s": 355.63962338930014,
+            "relative_reduction_percent": 5.527482548932849
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 14.25,
+            "clear_success": 0,
+            "measure": 50,
+            "move": 65.3487550310042,
+            "switch": 10
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6375.753672637655,
+            "candidate_mean_total_s": 6236.154917606649,
+            "mean_saving_s": 139.59875503100557,
+            "relative_reduction_percent": 2.1895255400175055,
+            "outcomes": {
+              "win": 2,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 23000,
+                "population": "uniform",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 6387.966906888933,
+                "candidate_mean_s": 6199.263069936699,
+                "saving_s": 188.70383695223427,
+                "relative_reduction_percent": 2.9540515738854505
+              },
+              {
+                "seed": 23001,
+                "population": "uniform",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 6363.540438386377,
+                "candidate_mean_s": 6273.0467652766,
+                "saving_s": 90.49367310977686,
+                "relative_reduction_percent": 1.4220648707423573
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 23000,
+              "population": "uniform",
+              "field": "extreme",
+              "source_count": 12,
+              "reference_s": 6434.025259074962,
+              "candidate_s": 6078.385635685662,
+              "saving_s": 355.63962338930014,
+              "relative_reduction_percent": 5.527482548932849
+            },
+            {
+              "seed": 23000,
+              "population": "uniform",
+              "field": "hash",
+              "source_count": 12,
+              "reference_s": 6341.908554702904,
+              "candidate_s": 6320.140504187736,
+              "saving_s": 21.768050515168397,
+              "relative_reduction_percent": 0.34324131808911196
+            },
+            {
+              "seed": 23001,
+              "population": "uniform",
+              "field": "extreme",
+              "source_count": 12,
+              "reference_s": 6323.621763479895,
+              "candidate_s": 6186.844446362769,
+              "saving_s": 136.77731711712568,
+              "relative_reduction_percent": 2.1629585423189037
+            },
+            {
+              "seed": 23001,
+              "population": "uniform",
+              "field": "hash",
+              "source_count": 12,
+              "reference_s": 6403.45911329286,
+              "candidate_s": 6359.249084190431,
+              "saving_s": 44.21002910242896,
+              "relative_reduction_percent": 0.6904085482587672
+            }
+          ]
+        }
+      }
+    },
+    "boundary": {
+      "groups": {
+        "baseline25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 48,
+          "mean_total_s": 7731.9520570668765,
+          "mean_case_per_source_s": 651.318249490789,
+          "pooled_per_source_s": 644.3293380889064,
+          "mean_runtime_s": 3.7205925499874866,
+          "max_runtime_s": 4.557306699978653,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 210.75,
+            "clear_success": 60,
+            "measure": 1845,
+            "move": 5266.2020570668765,
+            "switch": 350
+          },
+          "mean_action_counts": {
+            "clear_fail": 70.25,
+            "clear_success": 12,
+            "measure": 369,
+            "switch": 350
+          },
+          "mean_trace_statistics": {
+            "event_count": 451.25,
+            "optical_plans": 8.75,
+            "planned_optical_path_points": 426.75,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 200,
+            "final_tail_after_last_success_s": 445.49914607431424,
+            "discovered_channels_from_positive_measurements": 12,
+            "action_reason_counts": {
+              "certified_clear": 3.25,
+              "optical_cover": 79,
+              "scan": 351,
+              "shared_measure": 7.75,
+              "source_measure": 10.25
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 263.5090539909329,
+              "optical_cover": 997.7593986413133,
+              "scan": 3227.579968481789,
+              "shared_measure": 0.0,
+              "source_measure": 777.3536359528509
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3.25,
+              "optical_cover": 79,
+              "scan": 25,
+              "shared_measure": 7.25,
+              "source_measure": 10.25
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 12
+            }
+          }
+        },
+        "share25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 48,
+          "mean_total_s": 7039.1081065517865,
+          "mean_case_per_source_s": 588.9574298752407,
+          "pooled_per_source_s": 586.5923422126489,
+          "mean_runtime_s": 4.62056272499467,
+          "max_runtime_s": 5.345985599997221,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 91.5,
+            "clear_success": 60,
+            "measure": 1936.25,
+            "move": 4582.608106551785,
+            "switch": 368.75
+          },
+          "mean_action_counts": {
+            "clear_fail": 30.5,
+            "clear_success": 12,
+            "measure": 387.25,
+            "switch": 368.75
+          },
+          "mean_trace_statistics": {
+            "event_count": 429.75,
+            "optical_plans": 7.25,
+            "planned_optical_path_points": 334.25,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 200,
+            "final_tail_after_last_success_s": 446.52711792088576,
+            "discovered_channels_from_positive_measurements": 12,
+            "action_reason_counts": {
+              "certified_clear": 4.75,
+              "optical_cover": 37.75,
+              "scan": 367.5,
+              "shared_measure": 13,
+              "source_measure": 6.75
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 339.02288741525814,
+              "optical_cover": 663.8723481347785,
+              "scan": 2965.0825323123986,
+              "shared_measure": 0.0,
+              "source_measure": 614.630338689356
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4.75,
+              "optical_cover": 37.75,
+              "scan": 25,
+              "shared_measure": 12,
+              "source_measure": 6.75
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 18.75
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 4,
+          "independent_layouts": 2,
+          "reference_mean_total_s": 7731.9520570668765,
+          "candidate_mean_total_s": 7039.1081065517865,
+          "mean_saving_s": 692.84395051509,
+          "relative_reduction_percent": 8.960789531562629,
+          "condition_outcomes": {
+            "win": 4,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 1497.6544760172383,
+          "worst_case": {
+            "seed": 23100,
+            "population": "boundary",
+            "field": "extreme",
+            "source_count": 13,
+            "reference_s": 7364.278095199905,
+            "candidate_s": 7279.7652208069485,
+            "saving_s": 84.51287439295629,
+            "relative_reduction_percent": 1.1476056892534037
+          },
+          "best_case": {
+            "seed": 23101,
+            "population": "boundary",
+            "field": "extreme",
+            "source_count": 11,
+            "reference_s": 8260.964813988723,
+            "candidate_s": 6763.310337971485,
+            "saving_s": 1497.6544760172383,
+            "relative_reduction_percent": 18.129292518970445
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 119.25,
+            "clear_success": 0,
+            "measure": -91.25,
+            "move": 683.5939505150914,
+            "switch": -18.75
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 7731.9520570668765,
+            "candidate_mean_total_s": 7039.1081065517865,
+            "mean_saving_s": 692.84395051509,
+            "relative_reduction_percent": 8.960789531562629,
+            "outcomes": {
+              "win": 2,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 23100,
+                "population": "boundary",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 7376.86706468658,
+                "candidate_mean_s": 7287.492913013806,
+                "saving_s": 89.37415167277413,
+                "relative_reduction_percent": 1.2115461874135232
+              },
+              {
+                "seed": 23101,
+                "population": "boundary",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 8087.037049447173,
+                "candidate_mean_s": 6790.723300089767,
+                "saving_s": 1296.3137493574059,
+                "relative_reduction_percent": 16.02952653031337
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 23100,
+              "population": "boundary",
+              "field": "extreme",
+              "source_count": 13,
+              "reference_s": 7364.278095199905,
+              "candidate_s": 7279.7652208069485,
+              "saving_s": 84.51287439295629,
+              "relative_reduction_percent": 1.1476056892534037
+            },
+            {
+              "seed": 23100,
+              "population": "boundary",
+              "field": "hash",
+              "source_count": 13,
+              "reference_s": 7389.456034173256,
+              "candidate_s": 7295.220605220663,
+              "saving_s": 94.23542895259288,
+              "relative_reduction_percent": 1.2752688224517745
+            },
+            {
+              "seed": 23101,
+              "population": "boundary",
+              "field": "extreme",
+              "source_count": 11,
+              "reference_s": 8260.964813988723,
+              "candidate_s": 6763.310337971485,
+              "saving_s": 1497.6544760172383,
+              "relative_reduction_percent": 18.129292518970445
+            },
+            {
+              "seed": 23101,
+              "population": "boundary",
+              "field": "hash",
+              "source_count": 11,
+              "reference_s": 7913.109284905622,
+              "candidate_s": 6818.13626220805,
+              "saving_s": 1094.9730226975726,
+              "relative_reduction_percent": 13.837456090569233
+            }
+          ]
+        }
+      }
+    },
+    "cluster": {
+      "groups": {
+        "baseline25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 52,
+          "mean_total_s": 6019.356185668748,
+          "mean_case_per_source_s": 476.0547283384424,
+          "pooled_per_source_s": 463.027398897596,
+          "mean_runtime_s": 8.839226325006166,
+          "max_runtime_s": 10.642640900012339,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 132,
+            "clear_success": 65,
+            "measure": 1063.75,
+            "move": 4570.356185668746,
+            "switch": 188.25
+          },
+          "mean_action_counts": {
+            "clear_fail": 44,
+            "clear_success": 13,
+            "measure": 212.75,
+            "switch": 188.25
+          },
+          "mean_trace_statistics": {
+            "event_count": 269.75,
+            "optical_plans": 8.5,
+            "planned_optical_path_points": 117,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 175,
+            "final_tail_after_last_success_s": 2758.027449423365,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 4.5,
+              "optical_cover": 52.5,
+              "scan": 193.5,
+              "shared_measure": 5.75,
+              "source_measure": 13.5
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 133.3197956830337,
+              "optical_cover": 550.4691149611879,
+              "scan": 3379.5925779555905,
+              "shared_measure": 0.0,
+              "source_measure": 506.9746970689359
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4.5,
+              "optical_cover": 52.5,
+              "scan": 25,
+              "shared_measure": 3.25,
+              "source_measure": 13.5
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 13
+            }
+          }
+        },
+        "share25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 52,
+          "mean_total_s": 5322.317650749344,
+          "mean_case_per_source_s": 423.7303548615932,
+          "pooled_per_source_s": 409.4090500576418,
+          "mean_runtime_s": 10.532170175007195,
+          "max_runtime_s": 12.246107999992091,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 49.5,
+            "clear_success": 65,
+            "measure": 1103.75,
+            "move": 3903.067650749345,
+            "switch": 201
+          },
+          "mean_action_counts": {
+            "clear_fail": 16.5,
+            "clear_success": 13,
+            "measure": 220.75,
+            "switch": 201
+          },
+          "mean_trace_statistics": {
+            "event_count": 250.25,
+            "optical_plans": 5.5,
+            "planned_optical_path_points": 43,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 175,
+            "final_tail_after_last_success_s": 2748.526524799215,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 7.5,
+              "optical_cover": 22,
+              "scan": 196.5,
+              "shared_measure": 21,
+              "source_measure": 3.25
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 153.25721201793903,
+              "optical_cover": 233.01433095877235,
+              "scan": 3348.399691622216,
+              "shared_measure": 0.0,
+              "source_measure": 168.39641615041722
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 7.5,
+              "optical_cover": 22,
+              "scan": 25,
+              "shared_measure": 11.5,
+              "source_measure": 3.25
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 16.25
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 4,
+          "independent_layouts": 2,
+          "reference_mean_total_s": 6019.356185668748,
+          "candidate_mean_total_s": 5322.317650749344,
+          "mean_saving_s": 697.0385349194048,
+          "relative_reduction_percent": 11.579951633016115,
+          "condition_outcomes": {
+            "win": 4,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 980.6067379619653,
+          "worst_case": {
+            "seed": 23201,
+            "population": "cluster",
+            "field": "extreme",
+            "source_count": 11,
+            "reference_s": 6131.351110352785,
+            "candidate_s": 5869.354157587344,
+            "saving_s": 261.99695276544116,
+            "relative_reduction_percent": 4.273070454619037
+          },
+          "best_case": {
+            "seed": 23200,
+            "population": "cluster",
+            "field": "extreme",
+            "source_count": 15,
+            "reference_s": 5894.328829419779,
+            "candidate_s": 4913.722091457814,
+            "saving_s": 980.6067379619653,
+            "relative_reduction_percent": 16.636444391557525
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 82.5,
+            "clear_success": 0,
+            "measure": -40,
+            "move": 667.288534919401,
+            "switch": -12.75
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6019.356185668748,
+            "candidate_mean_total_s": 5322.317650749344,
+            "mean_saving_s": 697.0385349194048,
+            "relative_reduction_percent": 11.579951633016115,
+            "outcomes": {
+              "win": 2,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 23200,
+                "population": "cluster",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 5870.6563045941175,
+                "candidate_mean_s": 4959.628104538638,
+                "saving_s": 911.0282000554798,
+                "relative_reduction_percent": 15.518336499150005
+              },
+              {
+                "seed": 23201,
+                "population": "cluster",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 6168.056066743378,
+                "candidate_mean_s": 5685.007196960049,
+                "saving_s": 483.0488697833289,
+                "relative_reduction_percent": 7.8314604237761065
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 23200,
+              "population": "cluster",
+              "field": "extreme",
+              "source_count": 15,
+              "reference_s": 5894.328829419779,
+              "candidate_s": 4913.722091457814,
+              "saving_s": 980.6067379619653,
+              "relative_reduction_percent": 16.636444391557525
+            },
+            {
+              "seed": 23200,
+              "population": "cluster",
+              "field": "hash",
+              "source_count": 15,
+              "reference_s": 5846.983779768456,
+              "candidate_s": 5005.5341176194615,
+              "saving_s": 841.4496621489943,
+              "relative_reduction_percent": 14.391174900476914
+            },
+            {
+              "seed": 23201,
+              "population": "cluster",
+              "field": "extreme",
+              "source_count": 11,
+              "reference_s": 6131.351110352785,
+              "candidate_s": 5869.354157587344,
+              "saving_s": 261.99695276544116,
+              "relative_reduction_percent": 4.273070454619037
+            },
+            {
+              "seed": 23201,
+              "population": "cluster",
+              "field": "hash",
+              "source_count": 11,
+              "reference_s": 6204.761023133972,
+              "candidate_s": 5500.660236332755,
+              "saving_s": 704.1007868012175,
+              "relative_reduction_percent": 11.347750286852822
+            }
+          ]
+        }
+      }
+    },
+    "omni_heavy": {
+      "groups": {
+        "baseline25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 52,
+          "mean_total_s": 4650.018307978228,
+          "mean_case_per_source_s": 409.19416899043074,
+          "pooled_per_source_s": 357.6937159983253,
+          "mean_runtime_s": 9.956044849997852,
+          "max_runtime_s": 12.347092600015458,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 24.75,
+            "clear_success": 65,
+            "measure": 1003.75,
+            "move": 3363.7683079782287,
+            "switch": 192.75
+          },
+          "mean_action_counts": {
+            "clear_fail": 8.25,
+            "clear_success": 13,
+            "measure": 200.75,
+            "switch": 192.75
+          },
+          "mean_trace_statistics": {
+            "event_count": 222,
+            "optical_plans": 7.75,
+            "planned_optical_path_points": 31.75,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 139,
+            "final_tail_after_last_success_s": 173.50018569914437,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 5.25,
+              "optical_cover": 16,
+              "scan": 177.25,
+              "shared_measure": 14.25,
+              "source_measure": 9.25
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 333.7362189107899,
+              "optical_cover": 543.6635094245644,
+              "scan": 1826.3113881620918,
+              "shared_measure": 0.0,
+              "source_measure": 660.057191480783
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5.25,
+              "optical_cover": 16,
+              "scan": 16.25,
+              "shared_measure": 8.5,
+              "source_measure": 9.25
+            },
+            "consecutive_scan_batches": {
+              "scan": 16.25
+            },
+            "task_choice_counts": {
+              "scan": 15.25,
+              "source": 13
+            }
+          }
+        },
+        "share25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 52,
+          "mean_total_s": 4679.9277851486495,
+          "mean_case_per_source_s": 410.02348866553166,
+          "pooled_per_source_s": 359.99444501143455,
+          "mean_runtime_s": 11.683159724998404,
+          "max_runtime_s": 17.626879999996163,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 19.5,
+            "clear_success": 65,
+            "measure": 1041.25,
+            "move": 3356.4277851486495,
+            "switch": 197.75
+          },
+          "mean_action_counts": {
+            "clear_fail": 6.5,
+            "clear_success": 13,
+            "measure": 208.25,
+            "switch": 197.75
+          },
+          "mean_trace_statistics": {
+            "event_count": 227.75,
+            "optical_plans": 6,
+            "planned_optical_path_points": 21.75,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 140.5,
+            "final_tail_after_last_success_s": 102.73709293232764,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 7,
+              "optical_cover": 12.5,
+              "scan": 179,
+              "shared_measure": 25,
+              "source_measure": 4.25
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 600.0023893803778,
+              "optical_cover": 537.5636003644793,
+              "scan": 1811.5841478291986,
+              "shared_measure": 0.0,
+              "source_measure": 407.27764757459425
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 7,
+              "optical_cover": 12.5,
+              "scan": 16.5,
+              "shared_measure": 16.25,
+              "source_measure": 4.25
+            },
+            "consecutive_scan_batches": {
+              "scan": 16.5
+            },
+            "task_choice_counts": {
+              "scan": 15.5,
+              "source": 17.25
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 4,
+          "independent_layouts": 2,
+          "reference_mean_total_s": 4650.018307978228,
+          "candidate_mean_total_s": 4679.9277851486495,
+          "mean_saving_s": -29.90947717042127,
+          "relative_reduction_percent": -0.6432120303505977,
+          "condition_outcomes": {
+            "win": 2,
+            "tie": 0,
+            "loss": 2
+          },
+          "worst_regression_s": 285.112111029011,
+          "largest_improvement_s": 179.52875267132913,
+          "worst_case": {
+            "seed": 23300,
+            "population": "omni_heavy",
+            "field": "hash",
+            "source_count": 16,
+            "reference_s": 3092.169507025216,
+            "candidate_s": 3377.281618054227,
+            "saving_s": -285.112111029011,
+            "relative_reduction_percent": -9.220455423975112
+          },
+          "best_case": {
+            "seed": 23301,
+            "population": "omni_heavy",
+            "field": "extreme",
+            "source_count": 10,
+            "reference_s": 6287.270384021615,
+            "candidate_s": 6107.741631350286,
+            "saving_s": 179.52875267132913,
+            "relative_reduction_percent": 2.8554323530857064
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 5.25,
+            "clear_success": 0,
+            "measure": -37.5,
+            "move": 7.340522829579186,
+            "switch": -5
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 4650.018307978228,
+            "candidate_mean_total_s": 4679.9277851486495,
+            "mean_saving_s": -29.90947717042127,
+            "relative_reduction_percent": -0.6432120303505977,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 23300,
+                "population": "omni_heavy",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 2976.408629727579,
+                "candidate_mean_s": 3091.6954586311094,
+                "saving_s": -115.28682890353048,
+                "relative_reduction_percent": -3.8733535359384543
+              },
+              {
+                "seed": 23301,
+                "population": "omni_heavy",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 6323.6279862288775,
+                "candidate_mean_s": 6268.1601116661905,
+                "saving_s": 55.46787456268703,
+                "relative_reduction_percent": 0.8771527149206247
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 23300,
+              "population": "omni_heavy",
+              "field": "extreme",
+              "source_count": 16,
+              "reference_s": 2860.6477524299416,
+              "candidate_s": 2806.109299207992,
+              "saving_s": 54.53845322194957,
+              "relative_reduction_percent": 1.906507125025182
+            },
+            {
+              "seed": 23300,
+              "population": "omni_heavy",
+              "field": "hash",
+              "source_count": 16,
+              "reference_s": 3092.169507025216,
+              "candidate_s": 3377.281618054227,
+              "saving_s": -285.112111029011,
+              "relative_reduction_percent": -9.220455423975112
+            },
+            {
+              "seed": 23301,
+              "population": "omni_heavy",
+              "field": "extreme",
+              "source_count": 10,
+              "reference_s": 6287.270384021615,
+              "candidate_s": 6107.741631350286,
+              "saving_s": 179.52875267132913,
+              "relative_reduction_percent": 2.8554323530857064
+            },
+            {
+              "seed": 23301,
+              "population": "omni_heavy",
+              "field": "hash",
+              "source_count": 10,
+              "reference_s": 6359.9855884361405,
+              "candidate_s": 6428.578591982095,
+              "saving_s": -68.59300354595416,
+              "relative_reduction_percent": -1.0785087889298273
+            }
+          ]
+        }
+      }
+    },
+    "dir_heavy": {
+      "groups": {
+        "baseline25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 58,
+          "mean_total_s": 6358.5855569460855,
+          "mean_case_per_source_s": 443.99229125606587,
+          "pooled_per_source_s": 438.5231418583507,
+          "mean_runtime_s": 8.775020574990776,
+          "max_runtime_s": 10.67933469999116,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 92.25,
+            "clear_success": 72.5,
+            "measure": 1218.75,
+            "move": 4745.335556946082,
+            "switch": 229.75
+          },
+          "mean_action_counts": {
+            "clear_fail": 30.75,
+            "clear_success": 14.5,
+            "measure": 243.75,
+            "switch": 229.75
+          },
+          "mean_trace_statistics": {
+            "event_count": 289,
+            "optical_plans": 10.5,
+            "planned_optical_path_points": 151,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 128.25,
+            "final_tail_after_last_success_s": 203.10090943810224,
+            "discovered_channels_from_positive_measurements": 14.5,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 41.25,
+              "scan": 218.5,
+              "shared_measure": 14.5,
+              "source_measure": 10.75
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 227.05227414889035,
+              "optical_cover": 834.4189212251206,
+              "scan": 2737.917378339091,
+              "shared_measure": 0.0,
+              "source_measure": 945.9469832329816
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 41.25,
+              "scan": 23,
+              "shared_measure": 10.25,
+              "source_measure": 10.75
+            },
+            "consecutive_scan_batches": {
+              "scan": 23
+            },
+            "task_choice_counts": {
+              "scan": 22,
+              "source": 14.5
+            }
+          }
+        },
+        "share25": {
+          "conditions": 4,
+          "independent_layouts": 2,
+          "source_instances": 58,
+          "mean_total_s": 5976.719401035119,
+          "mean_case_per_source_s": 418.27149027432876,
+          "pooled_per_source_s": 412.18754489897367,
+          "mean_runtime_s": 9.949596150006982,
+          "max_runtime_s": 12.072736400004942,
+          "audit_passes": 4,
+          "all_cleared_runs": 4,
+          "raw_event_full_clear_runs": 4,
+          "solver_complete_runs": 4,
+          "mean_time_parts_s": {
+            "clear_fail": 90,
+            "clear_success": 72.5,
+            "measure": 1213.75,
+            "move": 4370.969401035114,
+            "switch": 229.5
+          },
+          "mean_action_counts": {
+            "clear_fail": 30,
+            "clear_success": 14.5,
+            "measure": 242.75,
+            "switch": 229.5
+          },
+          "mean_trace_statistics": {
+            "event_count": 287.25,
+            "optical_plans": 9.25,
+            "planned_optical_path_points": 123.25,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 120,
+            "final_tail_after_last_success_s": 203.10090943810224,
+            "discovered_channels_from_positive_measurements": 14.5,
+            "action_reason_counts": {
+              "certified_clear": 5.25,
+              "optical_cover": 39.25,
+              "scan": 209.5,
+              "shared_measure": 25.75,
+              "source_measure": 7.5
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 393.10157042581574,
+              "optical_cover": 678.4235777329463,
+              "scan": 2569.1503472357963,
+              "shared_measure": 0.0,
+              "source_measure": 730.2939056405569
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5.25,
+              "optical_cover": 39.25,
+              "scan": 21,
+              "shared_measure": 17.5,
+              "source_measure": 7.5
+            },
+            "consecutive_scan_batches": {
+              "scan": 21
+            },
+            "task_choice_counts": {
+              "scan": 20,
+              "source": 22
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 4,
+          "independent_layouts": 2,
+          "reference_mean_total_s": 6358.5855569460855,
+          "candidate_mean_total_s": 5976.719401035119,
+          "mean_saving_s": 381.8661559109669,
+          "relative_reduction_percent": 6.005520449336697,
+          "condition_outcomes": {
+            "win": 4,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 945.7399061405968,
+          "worst_case": {
+            "seed": 23401,
+            "population": "dir_heavy",
+            "field": "hash",
+            "source_count": 13,
+            "reference_s": 6226.3516998611485,
+            "candidate_s": 6182.5362955914825,
+            "saving_s": 43.81540426966603,
+            "relative_reduction_percent": 0.7037091122019841
+          },
+          "best_case": {
+            "seed": 23400,
+            "population": "dir_heavy",
+            "field": "extreme",
+            "source_count": 16,
+            "reference_s": 6937.729660310845,
+            "candidate_s": 5991.9897541702485,
+            "saving_s": 945.7399061405968,
+            "relative_reduction_percent": 13.631835664496371
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 2.25,
+            "clear_success": 0,
+            "measure": 5,
+            "move": 374.36615591096734,
+            "switch": 0.25
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6358.5855569460855,
+            "candidate_mean_total_s": 5976.719401035119,
+            "mean_saving_s": 381.8661559109669,
+            "relative_reduction_percent": 6.005520449336697,
+            "outcomes": {
+              "win": 2,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 23400,
+                "population": "dir_heavy",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 6257.981553250439,
+                "candidate_mean_s": 5751.360293001015,
+                "saving_s": 506.62126024942427,
+                "relative_reduction_percent": 8.095601687836258
+              },
+              {
+                "seed": 23401,
+                "population": "dir_heavy",
+                "fields": [
+                  "extreme",
+                  "hash"
+                ],
+                "reference_mean_s": 6459.189560641731,
+                "candidate_mean_s": 6202.0785090692225,
+                "saving_s": 257.1110515725086,
+                "relative_reduction_percent": 3.980546617476329
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 23400,
+              "population": "dir_heavy",
+              "field": "extreme",
+              "source_count": 16,
+              "reference_s": 6937.729660310845,
+              "candidate_s": 5991.9897541702485,
+              "saving_s": 945.7399061405968,
+              "relative_reduction_percent": 13.631835664496371
+            },
+            {
+              "seed": 23400,
+              "population": "dir_heavy",
+              "field": "hash",
+              "source_count": 16,
+              "reference_s": 5578.233446190033,
+              "candidate_s": 5510.730831831781,
+              "saving_s": 67.50261435825178,
+              "relative_reduction_percent": 1.2101073755591292
+            },
+            {
+              "seed": 23401,
+              "population": "dir_heavy",
+              "field": "extreme",
+              "source_count": 13,
+              "reference_s": 6692.027421422314,
+              "candidate_s": 6221.620722546963,
+              "saving_s": 470.40669887535023,
+              "relative_reduction_percent": 7.029360001865784
+            },
+            {
+              "seed": 23401,
+              "population": "dir_heavy",
+              "field": "hash",
+              "source_count": 13,
+              "reference_s": 6226.3516998611485,
+              "candidate_s": 6182.5362955914825,
+              "saving_s": 43.81540426966603,
+              "relative_reduction_percent": 0.7037091122019841
+            }
+          ]
+        }
+      }
+    }
+  },
+  "interpretation": {
+    "gain_sign": "Positive savings mean reference minus candidate.",
+    "pooled_per_source": "Sum of whole-task times divided by sum of source counts; not the mean of case averages.",
+    "independence": "Error fields on one (seed, population) source layout are paired repetitions. Layout comparisons average fields first; no independent-sample uncertainty claim is made.",
+    "incremental": "Adjacent-variant differences are empirical marginal effects in this fixed order; interactions prevent treating them as universal independent benefits.",
+    "movement": "Movement is attributed to the following actual action reason; scan movement can include travel departing a cleared source.",
+    "stations": "Distinct positions and contiguous scan batches are observed; they are not a proof that a fixed station was eliminated.",
+    "opportunity": "Predicted station removals describe the all-negative design scenario, not proven actual or counterfactual savings.",
+    "optical": "Planned optical points include unused suffixes after success; actual optical actions are counted separately.",
+    "audit": "Stored independent audit flags are checked, not recomputed; event counts and time accounting are rechecked without importing a solver."
+  },
+  "provenance": {
+    "input_metadata_sha256": {
+      "manifest.json": "cb697277ca5125293f4344bdf544d725a5b3efe0a3228d3e7404bcd0ef96a990",
+      "rows.json": "0d81e146962c118435ce4bef7da028ae29faede1fcb6623c877de51b80969306",
+      "summary.json": "f1ad79ccac222e69dd4eb7a273aa2c09ecebb06cba1831b233602cc60069e5ef"
+    },
+    "raw_case_sha256": {
+      "23000-uniform-hash-baseline25.json": "75fcf113069ed59b6ed02ed2bc2a3993f7b6aaa1d7ec7b65807e26c870eb726e",
+      "23000-uniform-hash-share25.json": "b758e6032a0228455dc6298caaaf0f492ab38f2a7d5f26767af5c2b5ac59bf4e",
+      "23000-uniform-extreme-baseline25.json": "5e449e5cc83eab6b84d64223c4d21b89761b4b5e643b9bca3a86fc9885fb6ac6",
+      "23000-uniform-extreme-share25.json": "1e4d27c9b55eda5b6eec85dc106e52af5a027c9043d063e72ec821c7dc70d285",
+      "23001-uniform-hash-baseline25.json": "1491638df8ca4335995be75ed79fb836f4713e41396f52f7e6e2865e739c86eb",
+      "23001-uniform-hash-share25.json": "cdfec16bb74e87efe3fc6330bda42bca8bcb9f89965db5ff5ba607ce3d0a7756",
+      "23001-uniform-extreme-baseline25.json": "5183957dfa8837fc38a1965bcc765a26663e129cb93e8b12f92df1bc36a2c87f",
+      "23001-uniform-extreme-share25.json": "f46ce0ea493369d3fb2a97b7727c331675566373f905c43d2e08c4f7b7b02d99",
+      "23100-boundary-hash-baseline25.json": "4dc39e4772982d36e3cac1827d7b8d88d30c1505977b67a54ce6587e7f3a36d4",
+      "23100-boundary-hash-share25.json": "1385473cb2ccc50a449d9eeaff9ec6975816ad092c3b73fc5a640cd26ff7a522",
+      "23100-boundary-extreme-baseline25.json": "157c47844f4720c023e7cc0e600313b158037486852c2133e8a867cb4a7fd23c",
+      "23100-boundary-extreme-share25.json": "b6e343fc86b47dae2477430426745af3260d9b48a1cb9f983113d52c9c7cd551",
+      "23101-boundary-hash-baseline25.json": "5f228158f94b8ad797cdc1e3f91a929c6fc7289709c4d4cf0c0eefed51e3bf30",
+      "23101-boundary-hash-share25.json": "df18781e0c211482e29ecadfa82c0238c4a261ba61ac2603cc451a268ef7a748",
+      "23101-boundary-extreme-baseline25.json": "74da889c0d67b85b737f160ae2b27e43f49a095e2c73ab4b38c07ace72c6a7c6",
+      "23101-boundary-extreme-share25.json": "5132a9526614872de087b2c48ce392edec5915bb21862959b400be5cce2978b6",
+      "23200-cluster-hash-baseline25.json": "4b041b56e2d23d51fb5e5e9ae7719ebc5d6ffa57470552f1a348bb3070a51104",
+      "23200-cluster-hash-share25.json": "4b9ca1c7c2116bdb80f5d29120fc431e733ebceade64a8d252e2e0ae900432e1",
+      "23200-cluster-extreme-baseline25.json": "2fb9b801c36e736b55037883c2ed18e7b8d97d5bffede02e213eb32d25d3067b",
+      "23200-cluster-extreme-share25.json": "e49f25626adf6918f438a51a2ffd6ed2c9fc2acf3cfc1a438d1f8b5b169189a8",
+      "23201-cluster-hash-baseline25.json": "a86241b215b093cbae65344d28619e8b5b47404c35f792dc802ef58a1e004be0",
+      "23201-cluster-hash-share25.json": "a563c9eb8f2cb2bcd82ddb1a75c50c6857f9fc5b331b0a72a037055c4f2e62b7",
+      "23201-cluster-extreme-baseline25.json": "eefa2abca6542161fc8f1d88dd6bc62ca79f6fbcffaa0176f5ff7f1d68f7c290",
+      "23201-cluster-extreme-share25.json": "141508cf3cf8fc54f26b7f600957420ebbcd533d967cda05de75a2863094c720",
+      "23300-omni_heavy-hash-baseline25.json": "b9dd60c36c91cedc53098748cdae14e62c17e116630c3894a312fdddd70ab280",
+      "23300-omni_heavy-hash-share25.json": "566a11a807c8e7793f882125eff51baac58e1be1e193c70a5a09497fed37627a",
+      "23300-omni_heavy-extreme-baseline25.json": "6017b952e5fd6b7b25c2d5ad36f62341cc842d7728dd699b3f2a3308cc7db955",
+      "23300-omni_heavy-extreme-share25.json": "3fa0a7d5064d3bbda45c3fae97c5056a19a3bea55d92ad684f0cc034bab18a27",
+      "23301-omni_heavy-hash-baseline25.json": "f42ff116c4c976adcb8f1203b9b43ce1caa6dc1944b8926ad70a95e9bb0e7ab5",
+      "23301-omni_heavy-hash-share25.json": "f6b735344cead787c1c38a80c5328cd5b6d85b36e51078481b04fae8d88ea63e",
+      "23301-omni_heavy-extreme-baseline25.json": "6459d31977cf47310a9b6f91119a060f5a76cc93727f39615cf8252c981644fa",
+      "23301-omni_heavy-extreme-share25.json": "16d01ab26f24c994e65fd52a3b1930d81f8dd8472f10bc5c073cb91c09b570ef",
+      "23400-dir_heavy-hash-baseline25.json": "c4582c9b70d899b13363aa6a0318b5327f75db86129ff4ae180d7051db3be36e",
+      "23400-dir_heavy-hash-share25.json": "ed1d2dce37f19992b69abe8221e51e4662c519c73061612a7bbbfe1da82bc248",
+      "23400-dir_heavy-extreme-baseline25.json": "c452060e242987c22cc1b4adab1c141e5b1845b13197de126eb583409c2a242e",
+      "23400-dir_heavy-extreme-share25.json": "5b087a01f97cd42f9232fdf9a9501cf0c6fd34702e7f85284d1138651ba7d3a3",
+      "23401-dir_heavy-hash-baseline25.json": "8705f2d6f318f46020ec238269abfe25761eb092d110b8d36a83d9eb1a44b154",
+      "23401-dir_heavy-hash-share25.json": "0edd37cb98729b28e06425d4ea551be6cdf396295f871294b9c905819131ca52",
+      "23401-dir_heavy-extreme-baseline25.json": "c88776353b2140f2336a3d6bb507dcfe32713cebaf896ba54e9810fceea263f4",
+      "23401-dir_heavy-extreme-share25.json": "fe76c56fe333f23f0ca49f4364350274eb6576cbe69873ecb8b207606465c706"
+    },
+    "solver_code_hashes": {
+      "q4_model/benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+      "q4_model/benchmark_cells.py": "0e47247b60e8458b591e9ba591aa29d8d17d59b84c1725857e75c2774f8c7d12",
+      "q4_model/benchmark_joint.py": "727565ebc9c30d37681bb0b544d0426654a44fc17e40af831a81e8c7b05bf7cb",
+      "q4_model/cell_cover.py": "b9ee11a3f9c22bb1966a5563ecb35f662d586958193af17478add9ee80951949",
+      "q4_model/cell_solver.py": "56c98c7dc93df2a617cabe12064291efc4a329d40f5c07dabb30f7c36af6beb6",
+      "q4_model/cell_validation.py": "afa43131b4ed241ff3a36cbb3dfb30398ef9219fb33df941a766460088ad800e",
+      "q4_model/context_policy.py": "1ce20666878ae827223dc6bcff1f2b371bf794e34cbf1d4a047f4d6385dbb944",
+      "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+      "q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+      "q4_model/joint_solver.py": "8ba8f79b19e1f0284ec810dcf96909df9644d7a2d92f38b1b32fbaff234cfc85",
+      "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+      "q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+      "q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+      "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+      "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+      "q4_model/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+      "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+      "q3_model_v2/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+      "q4_model/results/coverage_probe_400/certificate-22-990.json": "29e52deef3efda2b39b2673677c766897f3537a81da2031ee395cec01163090a",
+      "q4_model/results/coverage_probe_400/independent_exact_audit.py": "51d81e35fe067899ac6110eddd647d3c9835a7f2c44000ab7d4b2c0f28df6e8d",
+      "q4_model/task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+      "q4_model/benchmark_task_sharing.py": "abf4871209f194341ad54c03d094cbd31e2f709b97ccf58f48a684d6170a05b6"
+    },
+    "analysis_script_sha256": "6157456022c99c4304de13dc4c8bce9c1d62ddc586104f15f8933327109abba8",
+    "local_only": true,
+    "official_simulator_used": false
+  }
+}

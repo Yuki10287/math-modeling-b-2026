@@ -1,0 +1,3396 @@
+{
+  "description": "Paired descriptive analysis of completed local cell-cover experiments; no candidate selection.",
+  "experiment_directory": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\results\\task_development_22000",
+  "conditions_per_variant": 5,
+  "independent_layouts": 5,
+  "fields": [
+    "smooth"
+  ],
+  "safety_checks": {
+    "all_audits_passed": true,
+    "all_full_clears": true,
+    "all_raw_events_clear_every_source": true,
+    "all_solver_results_complete": true,
+    "source_snapshot_stable": true,
+    "raw_rows_and_saved_summary_match": true,
+    "event_accounting_rechecked": true,
+    "source_layouts_identical_across_variants_and_fields": true
+  },
+  "groups": {
+    "baseline25": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 68,
+      "mean_total_s": 6404.464832903925,
+      "mean_case_per_source_s": 478.1783666240128,
+      "pooled_per_source_s": 470.91653183117097,
+      "mean_runtime_s": 6.785189339984209,
+      "max_runtime_s": 10.036777799978154,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 91.8,
+        "clear_success": 68,
+        "measure": 1265,
+        "move": 4743.464832903927,
+        "switch": 236.2
+      },
+      "mean_action_counts": {
+        "clear_fail": 30.6,
+        "clear_success": 13.6,
+        "measure": 253,
+        "switch": 236.2
+      },
+      "mean_trace_statistics": {
+        "event_count": 297.2,
+        "optical_plans": 9.4,
+        "planned_optical_path_points": 164.6,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 160,
+        "final_tail_after_last_success_s": 864.3509095620363,
+        "discovered_channels_from_positive_measurements": 13.6,
+        "action_reason_counts": {
+          "certified_clear": 4.2,
+          "optical_cover": 40,
+          "scan": 229.4,
+          "shared_measure": 13.4,
+          "source_measure": 10.2
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 244.58095768998518,
+          "optical_cover": 699.6385299977072,
+          "scan": 3145.0344292642453,
+          "shared_measure": 0.0,
+          "source_measure": 654.2109159519888
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4.2,
+          "optical_cover": 40,
+          "scan": 25,
+          "shared_measure": 8.8,
+          "source_measure": 10.2
+        },
+        "consecutive_scan_batches": {
+          "scan": 25
+        },
+        "task_choice_counts": {
+          "scan": 24,
+          "source": 13.6
+        }
+      }
+    },
+    "context": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 68,
+      "mean_total_s": 6327.026370821773,
+      "mean_case_per_source_s": 471.76417345357083,
+      "pooled_per_source_s": 465.22252726630677,
+      "mean_runtime_s": 8.699679639999522,
+      "max_runtime_s": 11.557368700014194,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 105,
+        "clear_success": 68,
+        "measure": 1204,
+        "move": 4725.426370821769,
+        "switch": 224.6
+      },
+      "mean_action_counts": {
+        "clear_fail": 35,
+        "clear_success": 13.6,
+        "measure": 240.8,
+        "switch": 224.6
+      },
+      "mean_trace_statistics": {
+        "event_count": 289.4,
+        "optical_plans": 8.8,
+        "planned_optical_path_points": 153.8,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 140.8,
+        "final_tail_after_last_success_s": 855.7959372313884,
+        "discovered_channels_from_positive_measurements": 13.6,
+        "action_reason_counts": {
+          "certified_clear": 4.8,
+          "optical_cover": 43.8,
+          "scan": 217.6,
+          "shared_measure": 10.8,
+          "source_measure": 12.4
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 239.32919397150457,
+          "optical_cover": 739.2392312356876,
+          "scan": 2899.2483297222984,
+          "shared_measure": 0.0,
+          "source_measure": 847.6096158922804
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4.8,
+          "optical_cover": 43.8,
+          "scan": 22,
+          "shared_measure": 7.2,
+          "source_measure": 12.4
+        },
+        "consecutive_scan_batches": {
+          "scan": 22
+        },
+        "task_choice_counts": {
+          "scan": 21,
+          "source": 13.6
+        }
+      }
+    },
+    "resume25": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 68,
+      "mean_total_s": 6129.134638269935,
+      "mean_case_per_source_s": 458.75412061454324,
+      "pooled_per_source_s": 450.67166457867165,
+      "mean_runtime_s": 7.267888599995058,
+      "max_runtime_s": 9.293199199979426,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 75.6,
+        "clear_success": 68,
+        "measure": 1261,
+        "move": 4487.734638269935,
+        "switch": 236.8
+      },
+      "mean_action_counts": {
+        "clear_fail": 25.2,
+        "clear_success": 13.6,
+        "measure": 252.2,
+        "switch": 236.8
+      },
+      "mean_trace_statistics": {
+        "event_count": 291,
+        "optical_plans": 8.4,
+        "planned_optical_path_points": 169.6,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 160,
+        "final_tail_after_last_success_s": 870.5372773572078,
+        "discovered_channels_from_positive_measurements": 13.6,
+        "action_reason_counts": {
+          "certified_clear": 5.2,
+          "optical_cover": 33.6,
+          "scan": 226,
+          "shared_measure": 16.2,
+          "source_measure": 10
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 278.6657767671867,
+          "optical_cover": 634.2661951337003,
+          "scan": 3091.3909097524183,
+          "shared_measure": 0.0,
+          "source_measure": 483.4117566166312
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 5.2,
+          "optical_cover": 33.6,
+          "scan": 25,
+          "shared_measure": 10,
+          "source_measure": 10
+        },
+        "consecutive_scan_batches": {
+          "scan": 25
+        },
+        "task_choice_counts": {
+          "scan": 24,
+          "source": 23.6
+        }
+      }
+    },
+    "share25": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 68,
+      "mean_total_s": 5956.847322490525,
+      "mean_case_per_source_s": 446.6412281881238,
+      "pooled_per_source_s": 438.00347959489153,
+      "mean_runtime_s": 7.8235867800016425,
+      "max_runtime_s": 9.111687900003744,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 47.4,
+        "clear_success": 68,
+        "measure": 1273,
+        "move": 4330.647322490523,
+        "switch": 237.8
+      },
+      "mean_action_counts": {
+        "clear_fail": 15.8,
+        "clear_success": 13.6,
+        "measure": 254.6,
+        "switch": 237.8
+      },
+      "mean_trace_statistics": {
+        "event_count": 284,
+        "optical_plans": 7.8,
+        "planned_optical_path_points": 135.2,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 160,
+        "final_tail_after_last_success_s": 878.5309665461599,
+        "discovered_channels_from_positive_measurements": 13.6,
+        "action_reason_counts": {
+          "certified_clear": 5.8,
+          "optical_cover": 23.6,
+          "scan": 224.4,
+          "shared_measure": 24,
+          "source_measure": 6.2
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 376.6141045728214,
+          "optical_cover": 449.2000875169361,
+          "scan": 3062.4697144764164,
+          "shared_measure": 0.0,
+          "source_measure": 442.36341592435053
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 5.8,
+          "optical_cover": 23.6,
+          "scan": 25,
+          "shared_measure": 15.8,
+          "source_measure": 6.2
+        },
+        "consecutive_scan_batches": {
+          "scan": 25
+        },
+        "task_choice_counts": {
+          "scan": 24,
+          "source": 19.8
+        }
+      }
+    }
+  },
+  "comparisons_to_baseline25": {
+    "context": {
+      "reference": "baseline25",
+      "candidate": "context",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 6404.464832903925,
+      "candidate_mean_total_s": 6327.026370821773,
+      "mean_saving_s": 77.438462082152,
+      "relative_reduction_percent": 1.209132442796781,
+      "condition_outcomes": {
+        "win": 3,
+        "tie": 0,
+        "loss": 2
+      },
+      "worst_regression_s": 170.09578869812321,
+      "largest_improvement_s": 343.2291790865911,
+      "worst_case": {
+        "seed": 22200,
+        "population": "cluster",
+        "field": "smooth",
+        "source_count": 15,
+        "reference_s": 5693.225471097309,
+        "candidate_s": 5863.3212597954325,
+        "saving_s": -170.09578869812321,
+        "relative_reduction_percent": -2.98768755183938
+      },
+      "best_case": {
+        "seed": 22100,
+        "population": "boundary",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 8186.272370515099,
+        "candidate_s": 7843.043191428508,
+        "saving_s": 343.2291790865911,
+        "relative_reduction_percent": 4.192740768347955
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": -13.2,
+        "clear_success": 0,
+        "measure": 61,
+        "move": 18.03846208215891,
+        "switch": 11.6
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 6404.464832903925,
+        "candidate_mean_total_s": 6327.026370821773,
+        "mean_saving_s": 77.438462082152,
+        "relative_reduction_percent": 1.209132442796781,
+        "outcomes": {
+          "win": 3,
+          "tie": 0,
+          "loss": 2
+        },
+        "records": [
+          {
+            "seed": 22000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6441.2095214460605,
+            "candidate_mean_s": 6195.490462796025,
+            "saving_s": 245.71905865003555,
+            "relative_reduction_percent": 3.814796861240298
+          },
+          {
+            "seed": 22100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 8186.272370515099,
+            "candidate_mean_s": 7843.043191428508,
+            "saving_s": 343.2291790865911,
+            "relative_reduction_percent": 4.192740768347955
+          },
+          {
+            "seed": 22200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5693.225471097309,
+            "candidate_mean_s": 5863.3212597954325,
+            "saving_s": -170.09578869812321,
+            "relative_reduction_percent": -2.98768755183938
+          },
+          {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5760.216507205143,
+            "candidate_mean_s": 5661.898891913793,
+            "saving_s": 98.3176152913502,
+            "relative_reduction_percent": 1.7068388864961934
+          },
+          {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5941.400294256011,
+            "candidate_mean_s": 6071.378048175104,
+            "saving_s": -129.97775391909272,
+            "relative_reduction_percent": -2.187661956470965
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 22000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6441.2095214460605,
+          "candidate_s": 6195.490462796025,
+          "saving_s": 245.71905865003555,
+          "relative_reduction_percent": 3.814796861240298
+        },
+        {
+          "seed": 22100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 8186.272370515099,
+          "candidate_s": 7843.043191428508,
+          "saving_s": 343.2291790865911,
+          "relative_reduction_percent": 4.192740768347955
+        },
+        {
+          "seed": 22200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 15,
+          "reference_s": 5693.225471097309,
+          "candidate_s": 5863.3212597954325,
+          "saving_s": -170.09578869812321,
+          "relative_reduction_percent": -2.98768755183938
+        },
+        {
+          "seed": 22300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 15,
+          "reference_s": 5760.216507205143,
+          "candidate_s": 5661.898891913793,
+          "saving_s": 98.3176152913502,
+          "relative_reduction_percent": 1.7068388864961934
+        },
+        {
+          "seed": 22400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 13,
+          "reference_s": 5941.400294256011,
+          "candidate_s": 6071.378048175104,
+          "saving_s": -129.97775391909272,
+          "relative_reduction_percent": -2.187661956470965
+        }
+      ]
+    },
+    "resume25": {
+      "reference": "baseline25",
+      "candidate": "resume25",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 6404.464832903925,
+      "candidate_mean_total_s": 6129.134638269935,
+      "mean_saving_s": 275.3301946339898,
+      "relative_reduction_percent": 4.299035154653961,
+      "condition_outcomes": {
+        "win": 5,
+        "tie": 0,
+        "loss": 0
+      },
+      "worst_regression_s": 0.0,
+      "largest_improvement_s": 417.60942902321403,
+      "worst_case": {
+        "seed": 22400,
+        "population": "dir_heavy",
+        "field": "smooth",
+        "source_count": 13,
+        "reference_s": 5941.400294256011,
+        "candidate_s": 5924.262371938146,
+        "saving_s": 17.13792231786465,
+        "relative_reduction_percent": 0.2884492117865403
+      },
+      "best_case": {
+        "seed": 22100,
+        "population": "boundary",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 8186.272370515099,
+        "candidate_s": 7768.662941491885,
+        "saving_s": 417.60942902321403,
+        "relative_reduction_percent": 5.101338070882401
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 16.2,
+        "clear_success": 0,
+        "measure": 4,
+        "move": 255.73019463399206,
+        "switch": -0.6
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 6404.464832903925,
+        "candidate_mean_total_s": 6129.134638269935,
+        "mean_saving_s": 275.3301946339898,
+        "relative_reduction_percent": 4.299035154653961,
+        "outcomes": {
+          "win": 5,
+          "tie": 0,
+          "loss": 0
+        },
+        "records": [
+          {
+            "seed": 22000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6441.2095214460605,
+            "candidate_mean_s": 6310.03004121062,
+            "saving_s": 131.17948023544068,
+            "relative_reduction_percent": 2.0365659554882902
+          },
+          {
+            "seed": 22100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 8186.272370515099,
+            "candidate_mean_s": 7768.662941491885,
+            "saving_s": 417.60942902321403,
+            "relative_reduction_percent": 5.101338070882401
+          },
+          {
+            "seed": 22200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5693.225471097309,
+            "candidate_mean_s": 5280.613806359328,
+            "saving_s": 412.6116647379813,
+            "relative_reduction_percent": 7.2474147885531535
+          },
+          {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5760.216507205143,
+            "candidate_mean_s": 5362.104030349693,
+            "saving_s": 398.11247685545004,
+            "relative_reduction_percent": 6.911415158743994
+          },
+          {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5941.400294256011,
+            "candidate_mean_s": 5924.262371938146,
+            "saving_s": 17.13792231786465,
+            "relative_reduction_percent": 0.2884492117865403
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 22000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6441.2095214460605,
+          "candidate_s": 6310.03004121062,
+          "saving_s": 131.17948023544068,
+          "relative_reduction_percent": 2.0365659554882902
+        },
+        {
+          "seed": 22100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 8186.272370515099,
+          "candidate_s": 7768.662941491885,
+          "saving_s": 417.60942902321403,
+          "relative_reduction_percent": 5.101338070882401
+        },
+        {
+          "seed": 22200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 15,
+          "reference_s": 5693.225471097309,
+          "candidate_s": 5280.613806359328,
+          "saving_s": 412.6116647379813,
+          "relative_reduction_percent": 7.2474147885531535
+        },
+        {
+          "seed": 22300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 15,
+          "reference_s": 5760.216507205143,
+          "candidate_s": 5362.104030349693,
+          "saving_s": 398.11247685545004,
+          "relative_reduction_percent": 6.911415158743994
+        },
+        {
+          "seed": 22400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 13,
+          "reference_s": 5941.400294256011,
+          "candidate_s": 5924.262371938146,
+          "saving_s": 17.13792231786465,
+          "relative_reduction_percent": 0.2884492117865403
+        }
+      ]
+    },
+    "share25": {
+      "reference": "baseline25",
+      "candidate": "share25",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 6404.464832903925,
+      "candidate_mean_total_s": 5956.847322490525,
+      "mean_saving_s": 447.61751041339994,
+      "relative_reduction_percent": 6.989147760070382,
+      "condition_outcomes": {
+        "win": 5,
+        "tie": 0,
+        "loss": 0
+      },
+      "worst_regression_s": 0.0,
+      "largest_improvement_s": 1047.246147245015,
+      "worst_case": {
+        "seed": 22000,
+        "population": "uniform",
+        "field": "smooth",
+        "source_count": 11,
+        "reference_s": 6441.2095214460605,
+        "candidate_s": 6359.906177626992,
+        "saving_s": 81.30334381906869,
+        "relative_reduction_percent": 1.2622372172240093
+      },
+      "best_case": {
+        "seed": 22100,
+        "population": "boundary",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 8186.272370515099,
+        "candidate_s": 7139.026223270084,
+        "saving_s": 1047.246147245015,
+        "relative_reduction_percent": 12.792710770495898
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 44.4,
+        "clear_success": 0,
+        "measure": -8,
+        "move": 412.8175104134043,
+        "switch": -1.6
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 6404.464832903925,
+        "candidate_mean_total_s": 5956.847322490525,
+        "mean_saving_s": 447.61751041339994,
+        "relative_reduction_percent": 6.989147760070382,
+        "outcomes": {
+          "win": 5,
+          "tie": 0,
+          "loss": 0
+        },
+        "records": [
+          {
+            "seed": 22000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6441.2095214460605,
+            "candidate_mean_s": 6359.906177626992,
+            "saving_s": 81.30334381906869,
+            "relative_reduction_percent": 1.2622372172240093
+          },
+          {
+            "seed": 22100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 8186.272370515099,
+            "candidate_mean_s": 7139.026223270084,
+            "saving_s": 1047.246147245015,
+            "relative_reduction_percent": 12.792710770495898
+          },
+          {
+            "seed": 22200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5693.225471097309,
+            "candidate_mean_s": 5139.290075154326,
+            "saving_s": 553.9353959429836,
+            "relative_reduction_percent": 9.72972875841888
+          },
+          {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5760.216507205143,
+            "candidate_mean_s": 5353.006775763009,
+            "saving_s": 407.2097314421344,
+            "relative_reduction_percent": 7.069347670053335
+          },
+          {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 5941.400294256011,
+            "candidate_mean_s": 5793.007360638213,
+            "saving_s": 148.392933617798,
+            "relative_reduction_percent": 2.497608749931567
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 22000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6441.2095214460605,
+          "candidate_s": 6359.906177626992,
+          "saving_s": 81.30334381906869,
+          "relative_reduction_percent": 1.2622372172240093
+        },
+        {
+          "seed": 22100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 8186.272370515099,
+          "candidate_s": 7139.026223270084,
+          "saving_s": 1047.246147245015,
+          "relative_reduction_percent": 12.792710770495898
+        },
+        {
+          "seed": 22200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 15,
+          "reference_s": 5693.225471097309,
+          "candidate_s": 5139.290075154326,
+          "saving_s": 553.9353959429836,
+          "relative_reduction_percent": 9.72972875841888
+        },
+        {
+          "seed": 22300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 15,
+          "reference_s": 5760.216507205143,
+          "candidate_s": 5353.006775763009,
+          "saving_s": 407.2097314421344,
+          "relative_reduction_percent": 7.069347670053335
+        },
+        {
+          "seed": 22400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 13,
+          "reference_s": 5941.400294256011,
+          "candidate_s": 5793.007360638213,
+          "saving_s": 148.392933617798,
+          "relative_reduction_percent": 2.497608749931567
+        }
+      ]
+    }
+  },
+  "incremental_comparisons": {},
+  "by_population": {
+    "uniform": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6441.2095214460605,
+          "mean_case_per_source_s": 585.5645019496419,
+          "pooled_per_source_s": 585.5645019496419,
+          "mean_runtime_s": 4.211985299974913,
+          "max_runtime_s": 4.211985299974913,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 15,
+            "clear_success": 55,
+            "measure": 1560,
+            "move": 4516.209521446061,
+            "switch": 295
+          },
+          "mean_action_counts": {
+            "clear_fail": 5,
+            "clear_success": 11,
+            "measure": 312,
+            "switch": 295
+          },
+          "mean_trace_statistics": {
+            "event_count": 328,
+            "optical_plans": 9,
+            "planned_optical_path_points": 128,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 225,
+            "final_tail_after_last_success_s": 200.57814375452654,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 2,
+              "optical_cover": 14,
+              "scan": 297,
+              "shared_measure": 12,
+              "source_measure": 3
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 205.26008103625182,
+              "optical_cover": 661.5405692731298,
+              "scan": 3297.611284080419,
+              "shared_measure": 0.0,
+              "source_measure": 351.7975870562613
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 2,
+              "optical_cover": 14,
+              "scan": 25,
+              "shared_measure": 7,
+              "source_measure": 3
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 11
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6195.490462796025,
+          "mean_case_per_source_s": 563.2264057087295,
+          "pooled_per_source_s": 563.2264057087295,
+          "mean_runtime_s": 7.292206799989799,
+          "max_runtime_s": 7.292206799989799,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 42,
+            "clear_success": 55,
+            "measure": 1335,
+            "move": 4511.490462796026,
+            "switch": 252
+          },
+          "mean_action_counts": {
+            "clear_fail": 14,
+            "clear_success": 11,
+            "measure": 267,
+            "switch": 252
+          },
+          "mean_trace_statistics": {
+            "event_count": 292,
+            "optical_plans": 9,
+            "planned_optical_path_points": 107,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 198,
+            "final_tail_after_last_success_s": 1383.4454471866857,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 2,
+              "optical_cover": 23,
+              "scan": 249,
+              "shared_measure": 11,
+              "source_measure": 7
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 164.33912847596258,
+              "optical_cover": 856.4422106131966,
+              "scan": 2825.232990329651,
+              "shared_measure": 0.0,
+              "source_measure": 665.4761333772184
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 2,
+              "optical_cover": 23,
+              "scan": 22,
+              "shared_measure": 7,
+              "source_measure": 7
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 11
+            }
+          }
+        },
+        "resume25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6310.03004121062,
+          "mean_case_per_source_s": 573.6390946555109,
+          "pooled_per_source_s": 573.6390946555109,
+          "mean_runtime_s": 5.991797800001223,
+          "max_runtime_s": 5.991797800001223,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 15,
+            "clear_success": 55,
+            "measure": 1560,
+            "move": 4383.030041210621,
+            "switch": 297
+          },
+          "mean_action_counts": {
+            "clear_fail": 5,
+            "clear_success": 11,
+            "measure": 312,
+            "switch": 297
+          },
+          "mean_trace_statistics": {
+            "event_count": 328,
+            "optical_plans": 9,
+            "planned_optical_path_points": 129,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 225,
+            "final_tail_after_last_success_s": 200.57814375452654,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 2,
+              "optical_cover": 14,
+              "scan": 297,
+              "shared_measure": 13,
+              "source_measure": 2
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 205.26008103625182,
+              "optical_cover": 792.320343625299,
+              "scan": 3160.3672036691614,
+              "shared_measure": 0.0,
+              "source_measure": 225.08241287990876
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 2,
+              "optical_cover": 14,
+              "scan": 25,
+              "shared_measure": 8,
+              "source_measure": 2
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 13
+            }
+          }
+        },
+        "share25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6359.906177626992,
+          "mean_case_per_source_s": 578.1732888751811,
+          "pooled_per_source_s": 578.1732888751811,
+          "mean_runtime_s": 7.900449500011746,
+          "max_runtime_s": 7.900449500011746,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 12,
+            "clear_success": 55,
+            "measure": 1550,
+            "move": 4447.906177626993,
+            "switch": 295
+          },
+          "mean_action_counts": {
+            "clear_fail": 4,
+            "clear_success": 11,
+            "measure": 310,
+            "switch": 295
+          },
+          "mean_trace_statistics": {
+            "event_count": 325,
+            "optical_plans": 6,
+            "planned_optical_path_points": 19,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 225,
+            "final_tail_after_last_success_s": 245.0153596827522,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 5,
+              "optical_cover": 10,
+              "scan": 289,
+              "shared_measure": 15,
+              "source_measure": 6
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 467.696396515122,
+              "optical_cover": 385.5715023548187,
+              "scan": 3031.389692858836,
+              "shared_measure": 0.0,
+              "source_measure": 563.2485858982159
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5,
+              "optical_cover": 10,
+              "scan": 25,
+              "shared_measure": 10,
+              "source_measure": 6
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 17
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6441.2095214460605,
+          "candidate_mean_total_s": 6195.490462796025,
+          "mean_saving_s": 245.71905865003555,
+          "relative_reduction_percent": 3.814796861240298,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 245.71905865003555,
+          "worst_case": {
+            "seed": 22000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6441.2095214460605,
+            "candidate_s": 6195.490462796025,
+            "saving_s": 245.71905865003555,
+            "relative_reduction_percent": 3.814796861240298
+          },
+          "best_case": {
+            "seed": 22000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6441.2095214460605,
+            "candidate_s": 6195.490462796025,
+            "saving_s": 245.71905865003555,
+            "relative_reduction_percent": 3.814796861240298
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -27,
+            "clear_success": 0,
+            "measure": 225,
+            "move": 4.719058650035549,
+            "switch": 43
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6441.2095214460605,
+            "candidate_mean_total_s": 6195.490462796025,
+            "mean_saving_s": 245.71905865003555,
+            "relative_reduction_percent": 3.814796861240298,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22000,
+                "population": "uniform",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6441.2095214460605,
+                "candidate_mean_s": 6195.490462796025,
+                "saving_s": 245.71905865003555,
+                "relative_reduction_percent": 3.814796861240298
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22000,
+              "population": "uniform",
+              "field": "smooth",
+              "source_count": 11,
+              "reference_s": 6441.2095214460605,
+              "candidate_s": 6195.490462796025,
+              "saving_s": 245.71905865003555,
+              "relative_reduction_percent": 3.814796861240298
+            }
+          ]
+        },
+        "resume25": {
+          "reference": "baseline25",
+          "candidate": "resume25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6441.2095214460605,
+          "candidate_mean_total_s": 6310.03004121062,
+          "mean_saving_s": 131.17948023544068,
+          "relative_reduction_percent": 2.0365659554882902,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 131.17948023544068,
+          "worst_case": {
+            "seed": 22000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6441.2095214460605,
+            "candidate_s": 6310.03004121062,
+            "saving_s": 131.17948023544068,
+            "relative_reduction_percent": 2.0365659554882902
+          },
+          "best_case": {
+            "seed": 22000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6441.2095214460605,
+            "candidate_s": 6310.03004121062,
+            "saving_s": 131.17948023544068,
+            "relative_reduction_percent": 2.0365659554882902
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 0,
+            "clear_success": 0,
+            "measure": 0,
+            "move": 133.17948023544068,
+            "switch": -2
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6441.2095214460605,
+            "candidate_mean_total_s": 6310.03004121062,
+            "mean_saving_s": 131.17948023544068,
+            "relative_reduction_percent": 2.0365659554882902,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22000,
+                "population": "uniform",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6441.2095214460605,
+                "candidate_mean_s": 6310.03004121062,
+                "saving_s": 131.17948023544068,
+                "relative_reduction_percent": 2.0365659554882902
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22000,
+              "population": "uniform",
+              "field": "smooth",
+              "source_count": 11,
+              "reference_s": 6441.2095214460605,
+              "candidate_s": 6310.03004121062,
+              "saving_s": 131.17948023544068,
+              "relative_reduction_percent": 2.0365659554882902
+            }
+          ]
+        },
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6441.2095214460605,
+          "candidate_mean_total_s": 6359.906177626992,
+          "mean_saving_s": 81.30334381906869,
+          "relative_reduction_percent": 1.2622372172240093,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 81.30334381906869,
+          "worst_case": {
+            "seed": 22000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6441.2095214460605,
+            "candidate_s": 6359.906177626992,
+            "saving_s": 81.30334381906869,
+            "relative_reduction_percent": 1.2622372172240093
+          },
+          "best_case": {
+            "seed": 22000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6441.2095214460605,
+            "candidate_s": 6359.906177626992,
+            "saving_s": 81.30334381906869,
+            "relative_reduction_percent": 1.2622372172240093
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 3,
+            "clear_success": 0,
+            "measure": 10,
+            "move": 68.30334381906869,
+            "switch": 0
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6441.2095214460605,
+            "candidate_mean_total_s": 6359.906177626992,
+            "mean_saving_s": 81.30334381906869,
+            "relative_reduction_percent": 1.2622372172240093,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22000,
+                "population": "uniform",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6441.2095214460605,
+                "candidate_mean_s": 6359.906177626992,
+                "saving_s": 81.30334381906869,
+                "relative_reduction_percent": 1.2622372172240093
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22000,
+              "population": "uniform",
+              "field": "smooth",
+              "source_count": 11,
+              "reference_s": 6441.2095214460605,
+              "candidate_s": 6359.906177626992,
+              "saving_s": 81.30334381906869,
+              "relative_reduction_percent": 1.2622372172240093
+            }
+          ]
+        }
+      }
+    },
+    "boundary": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 8186.272370515099,
+          "mean_case_per_source_s": 584.7337407510785,
+          "pooled_per_source_s": 584.7337407510785,
+          "mean_runtime_s": 7.995844099990791,
+          "max_runtime_s": 7.995844099990791,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 318,
+            "clear_success": 70,
+            "measure": 1560,
+            "move": 5949.272370515116,
+            "switch": 289
+          },
+          "mean_action_counts": {
+            "clear_fail": 106,
+            "clear_success": 14,
+            "measure": 312,
+            "switch": 289
+          },
+          "mean_trace_statistics": {
+            "event_count": 432,
+            "optical_plans": 9,
+            "planned_optical_path_points": 488,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 150,
+            "final_tail_after_last_success_s": 786.9982889102084,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 5,
+              "optical_cover": 115,
+              "scan": 287,
+              "shared_measure": 5,
+              "source_measure": 20
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 87.08831089160603,
+              "optical_cover": 1098.6359148024785,
+              "scan": 3419.840291773992,
+              "shared_measure": 0.0,
+              "source_measure": 1343.7078530470324
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5,
+              "optical_cover": 115,
+              "scan": 25,
+              "shared_measure": 5,
+              "source_measure": 20
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 14
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 7843.043191428508,
+          "mean_case_per_source_s": 560.217370816322,
+          "pooled_per_source_s": 560.217370816322,
+          "mean_runtime_s": 8.125745400000596,
+          "max_runtime_s": 8.125745400000596,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 288,
+            "clear_success": 70,
+            "measure": 1685,
+            "move": 5480.043191428495,
+            "switch": 320
+          },
+          "mean_action_counts": {
+            "clear_fail": 96,
+            "clear_success": 14,
+            "measure": 337,
+            "switch": 320
+          },
+          "mean_trace_statistics": {
+            "event_count": 447,
+            "optical_plans": 9,
+            "planned_optical_path_points": 464,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 377.8981687576934,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 5,
+              "optical_cover": 105,
+              "scan": 320,
+              "source_measure": 17
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 92.67975443820796,
+              "optical_cover": 1107.2970966939452,
+              "scan": 2996.6570615714527,
+              "source_measure": 1283.409278724891
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5,
+              "optical_cover": 105,
+              "scan": 22,
+              "source_measure": 17
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 14
+            }
+          }
+        },
+        "resume25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 7768.662941491885,
+          "mean_case_per_source_s": 554.904495820849,
+          "pooled_per_source_s": 554.904495820849,
+          "mean_runtime_s": 5.7628202000050806,
+          "max_runtime_s": 5.7628202000050806,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 297,
+            "clear_success": 70,
+            "measure": 1455,
+            "move": 5677.662941491891,
+            "switch": 269
+          },
+          "mean_action_counts": {
+            "clear_fail": 99,
+            "clear_success": 14,
+            "measure": 291,
+            "switch": 269
+          },
+          "mean_trace_statistics": {
+            "event_count": 404,
+            "optical_plans": 10,
+            "planned_optical_path_points": 560,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 150,
+            "final_tail_after_last_success_s": 800.5371830555578,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 109,
+              "scan": 266,
+              "shared_measure": 10,
+              "source_measure": 15
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 60.12941854097994,
+              "optical_cover": 1300.1072527480806,
+              "scan": 3425.9024919275953,
+              "shared_measure": 0.0,
+              "source_measure": 891.5237782752381
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 109,
+              "scan": 25,
+              "shared_measure": 7,
+              "source_measure": 15
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 29
+            }
+          }
+        },
+        "share25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 7139.026223270084,
+          "mean_case_per_source_s": 509.9304445192917,
+          "pooled_per_source_s": 509.9304445192917,
+          "mean_runtime_s": 6.460157800000161,
+          "max_runtime_s": 6.460157800000161,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 192,
+            "clear_success": 70,
+            "measure": 1485,
+            "move": 5119.026223270076,
+            "switch": 273
+          },
+          "mean_action_counts": {
+            "clear_fail": 64,
+            "clear_success": 14,
+            "measure": 297,
+            "switch": 273
+          },
+          "mean_trace_statistics": {
+            "event_count": 375,
+            "optical_plans": 11,
+            "planned_optical_path_points": 579,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 150,
+            "final_tail_after_last_success_s": 797.06762782436,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 75,
+              "scan": 266,
+              "shared_measure": 19,
+              "source_measure": 12
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 39.47777079485695,
+              "optical_cover": 912.3148984023143,
+              "scan": 3421.0473373072223,
+              "shared_measure": 0.0,
+              "source_measure": 746.1862167656859
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 75,
+              "scan": 25,
+              "shared_measure": 15,
+              "source_measure": 12
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 26
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 8186.272370515099,
+          "candidate_mean_total_s": 7843.043191428508,
+          "mean_saving_s": 343.2291790865911,
+          "relative_reduction_percent": 4.192740768347955,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 343.2291790865911,
+          "worst_case": {
+            "seed": 22100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 8186.272370515099,
+            "candidate_s": 7843.043191428508,
+            "saving_s": 343.2291790865911,
+            "relative_reduction_percent": 4.192740768347955
+          },
+          "best_case": {
+            "seed": 22100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 8186.272370515099,
+            "candidate_s": 7843.043191428508,
+            "saving_s": 343.2291790865911,
+            "relative_reduction_percent": 4.192740768347955
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 30,
+            "clear_success": 0,
+            "measure": -125,
+            "move": 469.2291790866202,
+            "switch": -31
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 8186.272370515099,
+            "candidate_mean_total_s": 7843.043191428508,
+            "mean_saving_s": 343.2291790865911,
+            "relative_reduction_percent": 4.192740768347955,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22100,
+                "population": "boundary",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 8186.272370515099,
+                "candidate_mean_s": 7843.043191428508,
+                "saving_s": 343.2291790865911,
+                "relative_reduction_percent": 4.192740768347955
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22100,
+              "population": "boundary",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 8186.272370515099,
+              "candidate_s": 7843.043191428508,
+              "saving_s": 343.2291790865911,
+              "relative_reduction_percent": 4.192740768347955
+            }
+          ]
+        },
+        "resume25": {
+          "reference": "baseline25",
+          "candidate": "resume25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 8186.272370515099,
+          "candidate_mean_total_s": 7768.662941491885,
+          "mean_saving_s": 417.60942902321403,
+          "relative_reduction_percent": 5.101338070882401,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 417.60942902321403,
+          "worst_case": {
+            "seed": 22100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 8186.272370515099,
+            "candidate_s": 7768.662941491885,
+            "saving_s": 417.60942902321403,
+            "relative_reduction_percent": 5.101338070882401
+          },
+          "best_case": {
+            "seed": 22100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 8186.272370515099,
+            "candidate_s": 7768.662941491885,
+            "saving_s": 417.60942902321403,
+            "relative_reduction_percent": 5.101338070882401
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 21,
+            "clear_success": 0,
+            "measure": 105,
+            "move": 271.60942902322495,
+            "switch": 20
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 8186.272370515099,
+            "candidate_mean_total_s": 7768.662941491885,
+            "mean_saving_s": 417.60942902321403,
+            "relative_reduction_percent": 5.101338070882401,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22100,
+                "population": "boundary",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 8186.272370515099,
+                "candidate_mean_s": 7768.662941491885,
+                "saving_s": 417.60942902321403,
+                "relative_reduction_percent": 5.101338070882401
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22100,
+              "population": "boundary",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 8186.272370515099,
+              "candidate_s": 7768.662941491885,
+              "saving_s": 417.60942902321403,
+              "relative_reduction_percent": 5.101338070882401
+            }
+          ]
+        },
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 8186.272370515099,
+          "candidate_mean_total_s": 7139.026223270084,
+          "mean_saving_s": 1047.246147245015,
+          "relative_reduction_percent": 12.792710770495898,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 1047.246147245015,
+          "worst_case": {
+            "seed": 22100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 8186.272370515099,
+            "candidate_s": 7139.026223270084,
+            "saving_s": 1047.246147245015,
+            "relative_reduction_percent": 12.792710770495898
+          },
+          "best_case": {
+            "seed": 22100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 8186.272370515099,
+            "candidate_s": 7139.026223270084,
+            "saving_s": 1047.246147245015,
+            "relative_reduction_percent": 12.792710770495898
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 126,
+            "clear_success": 0,
+            "measure": 75,
+            "move": 830.2461472450395,
+            "switch": 16
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 8186.272370515099,
+            "candidate_mean_total_s": 7139.026223270084,
+            "mean_saving_s": 1047.246147245015,
+            "relative_reduction_percent": 12.792710770495898,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22100,
+                "population": "boundary",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 8186.272370515099,
+                "candidate_mean_s": 7139.026223270084,
+                "saving_s": 1047.246147245015,
+                "relative_reduction_percent": 12.792710770495898
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22100,
+              "population": "boundary",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 8186.272370515099,
+              "candidate_s": 7139.026223270084,
+              "saving_s": 1047.246147245015,
+              "relative_reduction_percent": 12.792710770495898
+            }
+          ]
+        }
+      }
+    },
+    "cluster": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5693.225471097309,
+          "mean_case_per_source_s": 379.5483647398206,
+          "pooled_per_source_s": 379.5483647398206,
+          "mean_runtime_s": 10.036777799978154,
+          "max_runtime_s": 10.036777799978154,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 42,
+            "clear_success": 75,
+            "measure": 880,
+            "move": 4541.225471097309,
+            "switch": 155
+          },
+          "mean_action_counts": {
+            "clear_fail": 14,
+            "clear_success": 15,
+            "measure": 176,
+            "switch": 155
+          },
+          "mean_trace_statistics": {
+            "event_count": 205,
+            "optical_plans": 12,
+            "planned_optical_path_points": 55,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 125,
+            "final_tail_after_last_success_s": 2388.7122336844272,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 26,
+              "scan": 157,
+              "shared_measure": 4,
+              "source_measure": 15
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 57.116281960757306,
+              "optical_cover": 463.8723824578029,
+              "scan": 3353.8854739472895,
+              "shared_measure": 0.0,
+              "source_measure": 666.3513327314599
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 26,
+              "scan": 25,
+              "shared_measure": 3,
+              "source_measure": 15
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 15
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5863.3212597954325,
+          "mean_case_per_source_s": 390.8880839863622,
+          "pooled_per_source_s": 390.8880839863622,
+          "mean_runtime_s": 7.656829599989578,
+          "max_runtime_s": 7.656829599989578,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 159,
+            "clear_success": 75,
+            "measure": 770,
+            "move": 4723.321259795424,
+            "switch": 136
+          },
+          "mean_action_counts": {
+            "clear_fail": 53,
+            "clear_success": 15,
+            "measure": 154,
+            "switch": 136
+          },
+          "mean_trace_statistics": {
+            "event_count": 222,
+            "optical_plans": 9,
+            "planned_optical_path_points": 144,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 110,
+            "final_tail_after_last_success_s": 2218.701422315734,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 6,
+              "optical_cover": 62,
+              "scan": 130,
+              "shared_measure": 11,
+              "source_measure": 13
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 183.79749304285195,
+              "optical_cover": 607.2362954158781,
+              "scan": 3367.5386747689004,
+              "shared_measure": 0.0,
+              "source_measure": 564.7487965678013
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 6,
+              "optical_cover": 62,
+              "scan": 22,
+              "shared_measure": 6,
+              "source_measure": 13
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 15
+            }
+          }
+        },
+        "resume25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5280.613806359328,
+          "mean_case_per_source_s": 352.0409204239552,
+          "pooled_per_source_s": 352.0409204239552,
+          "mean_runtime_s": 9.280942199984565,
+          "max_runtime_s": 9.280942199984565,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 27,
+            "clear_success": 75,
+            "measure": 935,
+            "move": 4075.6138063593266,
+            "switch": 168
+          },
+          "mean_action_counts": {
+            "clear_fail": 9,
+            "clear_success": 15,
+            "measure": 187,
+            "switch": 168
+          },
+          "mean_trace_statistics": {
+            "event_count": 211,
+            "optical_plans": 8,
+            "planned_optical_path_points": 33,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 125,
+            "final_tail_after_last_success_s": 2406.327181952314,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 7,
+              "optical_cover": 17,
+              "scan": 156,
+              "shared_measure": 12,
+              "source_measure": 19
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 116.83139918611343,
+              "optical_cover": 136.56476070658275,
+              "scan": 3324.096716835638,
+              "shared_measure": 0.0,
+              "source_measure": 498.1209296309938
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 7,
+              "optical_cover": 17,
+              "scan": 25,
+              "shared_measure": 6,
+              "source_measure": 19
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 34
+            }
+          }
+        },
+        "share25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5139.290075154326,
+          "mean_case_per_source_s": 342.61933834362173,
+          "pooled_per_source_s": 342.61933834362173,
+          "mean_runtime_s": 8.497299500013469,
+          "max_runtime_s": 8.497299500013469,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 15,
+            "clear_success": 75,
+            "measure": 945,
+            "move": 3933.290075154325,
+            "switch": 171
+          },
+          "mean_action_counts": {
+            "clear_fail": 5,
+            "clear_success": 15,
+            "measure": 189,
+            "switch": 171
+          },
+          "mean_trace_statistics": {
+            "event_count": 209,
+            "optical_plans": 8,
+            "planned_optical_path_points": 33,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 125,
+            "final_tail_after_last_success_s": 2406.327181952314,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 7,
+              "optical_cover": 13,
+              "scan": 156,
+              "shared_measure": 28,
+              "source_measure": 5
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 212.94624846571753,
+              "optical_cover": 133.70988220139918,
+              "scan": 3274.82868266988,
+              "shared_measure": 0.0,
+              "source_measure": 311.80526181732927
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 7,
+              "optical_cover": 13,
+              "scan": 25,
+              "shared_measure": 15,
+              "source_measure": 5
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 20
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5693.225471097309,
+          "candidate_mean_total_s": 5863.3212597954325,
+          "mean_saving_s": -170.09578869812321,
+          "relative_reduction_percent": -2.98768755183938,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 170.09578869812321,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 22200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5693.225471097309,
+            "candidate_s": 5863.3212597954325,
+            "saving_s": -170.09578869812321,
+            "relative_reduction_percent": -2.98768755183938
+          },
+          "best_case": {
+            "seed": 22200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5693.225471097309,
+            "candidate_s": 5863.3212597954325,
+            "saving_s": -170.09578869812321,
+            "relative_reduction_percent": -2.98768755183938
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -117,
+            "clear_success": 0,
+            "measure": 110,
+            "move": -182.09578869811503,
+            "switch": 19
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5693.225471097309,
+            "candidate_mean_total_s": 5863.3212597954325,
+            "mean_saving_s": -170.09578869812321,
+            "relative_reduction_percent": -2.98768755183938,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 22200,
+                "population": "cluster",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5693.225471097309,
+                "candidate_mean_s": 5863.3212597954325,
+                "saving_s": -170.09578869812321,
+                "relative_reduction_percent": -2.98768755183938
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22200,
+              "population": "cluster",
+              "field": "smooth",
+              "source_count": 15,
+              "reference_s": 5693.225471097309,
+              "candidate_s": 5863.3212597954325,
+              "saving_s": -170.09578869812321,
+              "relative_reduction_percent": -2.98768755183938
+            }
+          ]
+        },
+        "resume25": {
+          "reference": "baseline25",
+          "candidate": "resume25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5693.225471097309,
+          "candidate_mean_total_s": 5280.613806359328,
+          "mean_saving_s": 412.6116647379813,
+          "relative_reduction_percent": 7.2474147885531535,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 412.6116647379813,
+          "worst_case": {
+            "seed": 22200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5693.225471097309,
+            "candidate_s": 5280.613806359328,
+            "saving_s": 412.6116647379813,
+            "relative_reduction_percent": 7.2474147885531535
+          },
+          "best_case": {
+            "seed": 22200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5693.225471097309,
+            "candidate_s": 5280.613806359328,
+            "saving_s": 412.6116647379813,
+            "relative_reduction_percent": 7.2474147885531535
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 15,
+            "clear_success": 0,
+            "measure": -55,
+            "move": 465.61166473798266,
+            "switch": -13
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5693.225471097309,
+            "candidate_mean_total_s": 5280.613806359328,
+            "mean_saving_s": 412.6116647379813,
+            "relative_reduction_percent": 7.2474147885531535,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22200,
+                "population": "cluster",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5693.225471097309,
+                "candidate_mean_s": 5280.613806359328,
+                "saving_s": 412.6116647379813,
+                "relative_reduction_percent": 7.2474147885531535
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22200,
+              "population": "cluster",
+              "field": "smooth",
+              "source_count": 15,
+              "reference_s": 5693.225471097309,
+              "candidate_s": 5280.613806359328,
+              "saving_s": 412.6116647379813,
+              "relative_reduction_percent": 7.2474147885531535
+            }
+          ]
+        },
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5693.225471097309,
+          "candidate_mean_total_s": 5139.290075154326,
+          "mean_saving_s": 553.9353959429836,
+          "relative_reduction_percent": 9.72972875841888,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 553.9353959429836,
+          "worst_case": {
+            "seed": 22200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5693.225471097309,
+            "candidate_s": 5139.290075154326,
+            "saving_s": 553.9353959429836,
+            "relative_reduction_percent": 9.72972875841888
+          },
+          "best_case": {
+            "seed": 22200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5693.225471097309,
+            "candidate_s": 5139.290075154326,
+            "saving_s": 553.9353959429836,
+            "relative_reduction_percent": 9.72972875841888
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 27,
+            "clear_success": 0,
+            "measure": -65,
+            "move": 607.9353959429841,
+            "switch": -16
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5693.225471097309,
+            "candidate_mean_total_s": 5139.290075154326,
+            "mean_saving_s": 553.9353959429836,
+            "relative_reduction_percent": 9.72972875841888,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22200,
+                "population": "cluster",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5693.225471097309,
+                "candidate_mean_s": 5139.290075154326,
+                "saving_s": 553.9353959429836,
+                "relative_reduction_percent": 9.72972875841888
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22200,
+              "population": "cluster",
+              "field": "smooth",
+              "source_count": 15,
+              "reference_s": 5693.225471097309,
+              "candidate_s": 5139.290075154326,
+              "saving_s": 553.9353959429836,
+              "relative_reduction_percent": 9.72972875841888
+            }
+          ]
+        }
+      }
+    },
+    "omni_heavy": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5760.216507205143,
+          "mean_case_per_source_s": 384.0144338136762,
+          "pooled_per_source_s": 384.0144338136762,
+          "mean_runtime_s": 4.713616900000488,
+          "max_runtime_s": 4.713616900000488,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 42,
+            "clear_success": 75,
+            "measure": 1040,
+            "move": 4405.21650720514,
+            "switch": 198
+          },
+          "mean_action_counts": {
+            "clear_fail": 14,
+            "clear_success": 15,
+            "measure": 208,
+            "switch": 198
+          },
+          "mean_trace_statistics": {
+            "event_count": 237,
+            "optical_plans": 7,
+            "planned_optical_path_points": 41,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 125,
+            "final_tail_after_last_success_s": 337.6647730672121,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 8,
+              "optical_cover": 21,
+              "scan": 178,
+              "shared_measure": 25,
+              "source_measure": 5
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 558.6726245506396,
+              "optical_cover": 596.8729563997472,
+              "scan": 2859.454824624763,
+              "shared_measure": 0.0,
+              "source_measure": 390.21610162999133
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 8,
+              "optical_cover": 21,
+              "scan": 25,
+              "shared_measure": 16,
+              "source_measure": 5
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 15
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5661.898891913793,
+          "mean_case_per_source_s": 377.4599261275862,
+          "pooled_per_source_s": 377.4599261275862,
+          "mean_runtime_s": 8.866247700003441,
+          "max_runtime_s": 8.866247700003441,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 21,
+            "clear_success": 75,
+            "measure": 955,
+            "move": 4435.898891913793,
+            "switch": 175
+          },
+          "mean_action_counts": {
+            "clear_fail": 7,
+            "clear_success": 15,
+            "measure": 191,
+            "switch": 175
+          },
+          "mean_trace_statistics": {
+            "event_count": 213,
+            "optical_plans": 7,
+            "planned_optical_path_points": 26,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 110,
+            "final_tail_after_last_success_s": 167.05532228959055,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 8,
+              "optical_cover": 14,
+              "scan": 161,
+              "shared_measure": 19,
+              "source_measure": 11
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 674.4659240895043,
+              "optical_cover": 500.8165136065191,
+              "scan": 2628.3236955434554,
+              "shared_measure": 0.0,
+              "source_measure": 632.2927586743141
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 8,
+              "optical_cover": 14,
+              "scan": 22,
+              "shared_measure": 12,
+              "source_measure": 11
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 15
+            }
+          }
+        },
+        "resume25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5362.104030349693,
+          "mean_case_per_source_s": 357.4736020233129,
+          "pooled_per_source_s": 357.4736020233129,
+          "mean_runtime_s": 9.293199199979426,
+          "max_runtime_s": 9.293199199979426,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 3,
+            "clear_success": 75,
+            "measure": 1065,
+            "move": 4015.104030349692,
+            "switch": 204
+          },
+          "mean_action_counts": {
+            "clear_fail": 1,
+            "clear_success": 15,
+            "measure": 213,
+            "switch": 204
+          },
+          "mean_trace_statistics": {
+            "event_count": 229,
+            "optical_plans": 6,
+            "planned_optical_path_points": 20,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 125,
+            "final_tail_after_last_success_s": 337.4427696298335,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 9,
+              "optical_cover": 7,
+              "scan": 183,
+              "shared_measure": 24,
+              "source_measure": 6
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 666.5252855871851,
+              "optical_cover": 349.85776529761193,
+              "scan": 2715.3710224630804,
+              "shared_measure": 0.0,
+              "source_measure": 283.34995700181605
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 9,
+              "optical_cover": 7,
+              "scan": 25,
+              "shared_measure": 15,
+              "source_measure": 6
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 21
+            }
+          }
+        },
+        "share25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 15,
+          "mean_total_s": 5353.006775763009,
+          "mean_case_per_source_s": 356.8671183842006,
+          "pooled_per_source_s": 356.8671183842006,
+          "mean_runtime_s": 9.111687900003744,
+          "max_runtime_s": 9.111687900003744,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 6,
+            "clear_success": 75,
+            "measure": 1095,
+            "move": 3968.006775763008,
+            "switch": 209
+          },
+          "mean_action_counts": {
+            "clear_fail": 2,
+            "clear_success": 15,
+            "measure": 219,
+            "switch": 209
+          },
+          "mean_trace_statistics": {
+            "event_count": 236,
+            "optical_plans": 7,
+            "planned_optical_path_points": 22,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 125,
+            "final_tail_after_last_success_s": 337.549027833973,
+            "discovered_channels_from_positive_measurements": 15,
+            "action_reason_counts": {
+              "certified_clear": 8,
+              "optical_cover": 9,
+              "scan": 183,
+              "shared_measure": 33,
+              "source_measure": 3
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 613.0167392590174,
+              "optical_cover": 424.60569353632036,
+              "scan": 2709.5831857869744,
+              "shared_measure": 0.0,
+              "source_measure": 220.80115718069615
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 8,
+              "optical_cover": 9,
+              "scan": 25,
+              "shared_measure": 21,
+              "source_measure": 3
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 18
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5760.216507205143,
+          "candidate_mean_total_s": 5661.898891913793,
+          "mean_saving_s": 98.3176152913502,
+          "relative_reduction_percent": 1.7068388864961934,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 98.3176152913502,
+          "worst_case": {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5760.216507205143,
+            "candidate_s": 5661.898891913793,
+            "saving_s": 98.3176152913502,
+            "relative_reduction_percent": 1.7068388864961934
+          },
+          "best_case": {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5760.216507205143,
+            "candidate_s": 5661.898891913793,
+            "saving_s": 98.3176152913502,
+            "relative_reduction_percent": 1.7068388864961934
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 21,
+            "clear_success": 0,
+            "measure": 85,
+            "move": -30.682384708652535,
+            "switch": 23
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5760.216507205143,
+            "candidate_mean_total_s": 5661.898891913793,
+            "mean_saving_s": 98.3176152913502,
+            "relative_reduction_percent": 1.7068388864961934,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22300,
+                "population": "omni_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5760.216507205143,
+                "candidate_mean_s": 5661.898891913793,
+                "saving_s": 98.3176152913502,
+                "relative_reduction_percent": 1.7068388864961934
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22300,
+              "population": "omni_heavy",
+              "field": "smooth",
+              "source_count": 15,
+              "reference_s": 5760.216507205143,
+              "candidate_s": 5661.898891913793,
+              "saving_s": 98.3176152913502,
+              "relative_reduction_percent": 1.7068388864961934
+            }
+          ]
+        },
+        "resume25": {
+          "reference": "baseline25",
+          "candidate": "resume25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5760.216507205143,
+          "candidate_mean_total_s": 5362.104030349693,
+          "mean_saving_s": 398.11247685545004,
+          "relative_reduction_percent": 6.911415158743994,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 398.11247685545004,
+          "worst_case": {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5760.216507205143,
+            "candidate_s": 5362.104030349693,
+            "saving_s": 398.11247685545004,
+            "relative_reduction_percent": 6.911415158743994
+          },
+          "best_case": {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5760.216507205143,
+            "candidate_s": 5362.104030349693,
+            "saving_s": 398.11247685545004,
+            "relative_reduction_percent": 6.911415158743994
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 39,
+            "clear_success": 0,
+            "measure": -25,
+            "move": 390.1124768554482,
+            "switch": -6
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5760.216507205143,
+            "candidate_mean_total_s": 5362.104030349693,
+            "mean_saving_s": 398.11247685545004,
+            "relative_reduction_percent": 6.911415158743994,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22300,
+                "population": "omni_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5760.216507205143,
+                "candidate_mean_s": 5362.104030349693,
+                "saving_s": 398.11247685545004,
+                "relative_reduction_percent": 6.911415158743994
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22300,
+              "population": "omni_heavy",
+              "field": "smooth",
+              "source_count": 15,
+              "reference_s": 5760.216507205143,
+              "candidate_s": 5362.104030349693,
+              "saving_s": 398.11247685545004,
+              "relative_reduction_percent": 6.911415158743994
+            }
+          ]
+        },
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5760.216507205143,
+          "candidate_mean_total_s": 5353.006775763009,
+          "mean_saving_s": 407.2097314421344,
+          "relative_reduction_percent": 7.069347670053335,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 407.2097314421344,
+          "worst_case": {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5760.216507205143,
+            "candidate_s": 5353.006775763009,
+            "saving_s": 407.2097314421344,
+            "relative_reduction_percent": 7.069347670053335
+          },
+          "best_case": {
+            "seed": 22300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 15,
+            "reference_s": 5760.216507205143,
+            "candidate_s": 5353.006775763009,
+            "saving_s": 407.2097314421344,
+            "relative_reduction_percent": 7.069347670053335
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 36,
+            "clear_success": 0,
+            "measure": -55,
+            "move": 437.2097314421321,
+            "switch": -11
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5760.216507205143,
+            "candidate_mean_total_s": 5353.006775763009,
+            "mean_saving_s": 407.2097314421344,
+            "relative_reduction_percent": 7.069347670053335,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22300,
+                "population": "omni_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5760.216507205143,
+                "candidate_mean_s": 5353.006775763009,
+                "saving_s": 407.2097314421344,
+                "relative_reduction_percent": 7.069347670053335
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22300,
+              "population": "omni_heavy",
+              "field": "smooth",
+              "source_count": 15,
+              "reference_s": 5760.216507205143,
+              "candidate_s": 5353.006775763009,
+              "saving_s": 407.2097314421344,
+              "relative_reduction_percent": 7.069347670053335
+            }
+          ]
+        }
+      }
+    },
+    "dir_heavy": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 13,
+          "mean_total_s": 5941.400294256011,
+          "mean_case_per_source_s": 457.030791865847,
+          "pooled_per_source_s": 457.030791865847,
+          "mean_runtime_s": 6.967722599976696,
+          "max_runtime_s": 6.967722599976696,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 42,
+            "clear_success": 65,
+            "measure": 1285,
+            "move": 4305.40029425601,
+            "switch": 244
+          },
+          "mean_action_counts": {
+            "clear_fail": 14,
+            "clear_success": 13,
+            "measure": 257,
+            "switch": 244
+          },
+          "mean_trace_statistics": {
+            "event_count": 284,
+            "optical_plans": 10,
+            "planned_optical_path_points": 111,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 175,
+            "final_tail_after_last_success_s": 607.8011083938072,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 24,
+              "scan": 228,
+              "shared_measure": 21,
+              "source_measure": 8
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 314.76749001067117,
+              "optical_cover": 677.2708270553778,
+              "scan": 2794.3802718947622,
+              "shared_measure": 0.0,
+              "source_measure": 518.9817052951993
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 24,
+              "scan": 25,
+              "shared_measure": 13,
+              "source_measure": 8
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 13
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 13,
+          "mean_total_s": 6071.378048175104,
+          "mean_case_per_source_s": 467.0290806288541,
+          "pooled_per_source_s": 467.0290806288541,
+          "mean_runtime_s": 11.557368700014194,
+          "max_runtime_s": 11.557368700014194,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 15,
+            "clear_success": 65,
+            "measure": 1275,
+            "move": 4476.378048175104,
+            "switch": 240
+          },
+          "mean_action_counts": {
+            "clear_fail": 5,
+            "clear_success": 13,
+            "measure": 255,
+            "switch": 240
+          },
+          "mean_trace_statistics": {
+            "event_count": 273,
+            "optical_plans": 10,
+            "planned_optical_path_points": 28,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 154,
+            "final_tail_after_last_success_s": 131.87932560723857,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 15,
+              "scan": 228,
+              "shared_measure": 13,
+              "source_measure": 14
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 81.36366981099604,
+              "optical_cover": 624.4040398488988,
+              "scan": 2678.4892263980323,
+              "shared_measure": 0.0,
+              "source_measure": 1092.1211121171775
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 15,
+              "scan": 22,
+              "shared_measure": 11,
+              "source_measure": 14
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 13
+            }
+          }
+        },
+        "resume25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 13,
+          "mean_total_s": 5924.262371938146,
+          "mean_case_per_source_s": 455.7124901490882,
+          "pooled_per_source_s": 455.7124901490882,
+          "mean_runtime_s": 6.010683600004995,
+          "max_runtime_s": 6.010683600004995,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 36,
+            "clear_success": 65,
+            "measure": 1290,
+            "move": 4287.262371938146,
+            "switch": 246
+          },
+          "mean_action_counts": {
+            "clear_fail": 12,
+            "clear_success": 13,
+            "measure": 258,
+            "switch": 246
+          },
+          "mean_trace_statistics": {
+            "event_count": 283,
+            "optical_plans": 9,
+            "planned_optical_path_points": 106,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 175,
+            "final_tail_after_last_success_s": 607.8011083938072,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 21,
+              "scan": 228,
+              "shared_measure": 22,
+              "source_measure": 8
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 344.58269948540317,
+              "optical_cover": 592.4808532909271,
+              "scan": 2831.217113866617,
+              "shared_measure": 0.0,
+              "source_measure": 518.9817052951993
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 21,
+              "scan": 25,
+              "shared_measure": 14,
+              "source_measure": 8
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 21
+            }
+          }
+        },
+        "share25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 13,
+          "mean_total_s": 5793.007360638213,
+          "mean_case_per_source_s": 445.61595081832405,
+          "pooled_per_source_s": 445.61595081832405,
+          "mean_runtime_s": 7.148339199979091,
+          "max_runtime_s": 7.148339199979091,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 12,
+            "clear_success": 65,
+            "measure": 1290,
+            "move": 4185.007360638213,
+            "switch": 241
+          },
+          "mean_action_counts": {
+            "clear_fail": 4,
+            "clear_success": 13,
+            "measure": 258,
+            "switch": 241
+          },
+          "mean_trace_statistics": {
+            "event_count": 275,
+            "optical_plans": 7,
+            "planned_optical_path_points": 23,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 175,
+            "final_tail_after_last_success_s": 606.6956354374006,
+            "discovered_channels_from_positive_measurements": 13,
+            "action_reason_counts": {
+              "certified_clear": 6,
+              "optical_cover": 11,
+              "scan": 228,
+              "shared_measure": 25,
+              "source_measure": 5
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 549.9333678293931,
+              "optical_cover": 389.79846108982787,
+              "scan": 2875.499673759168,
+              "shared_measure": 0.0,
+              "source_measure": 369.77585795982543
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 6,
+              "optical_cover": 11,
+              "scan": 25,
+              "shared_measure": 18,
+              "source_measure": 5
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 18
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5941.400294256011,
+          "candidate_mean_total_s": 6071.378048175104,
+          "mean_saving_s": -129.97775391909272,
+          "relative_reduction_percent": -2.187661956470965,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 129.97775391909272,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 13,
+            "reference_s": 5941.400294256011,
+            "candidate_s": 6071.378048175104,
+            "saving_s": -129.97775391909272,
+            "relative_reduction_percent": -2.187661956470965
+          },
+          "best_case": {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 13,
+            "reference_s": 5941.400294256011,
+            "candidate_s": 6071.378048175104,
+            "saving_s": -129.97775391909272,
+            "relative_reduction_percent": -2.187661956470965
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 27,
+            "clear_success": 0,
+            "measure": 10,
+            "move": -170.97775391909363,
+            "switch": 4
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5941.400294256011,
+            "candidate_mean_total_s": 6071.378048175104,
+            "mean_saving_s": -129.97775391909272,
+            "relative_reduction_percent": -2.187661956470965,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 22400,
+                "population": "dir_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5941.400294256011,
+                "candidate_mean_s": 6071.378048175104,
+                "saving_s": -129.97775391909272,
+                "relative_reduction_percent": -2.187661956470965
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22400,
+              "population": "dir_heavy",
+              "field": "smooth",
+              "source_count": 13,
+              "reference_s": 5941.400294256011,
+              "candidate_s": 6071.378048175104,
+              "saving_s": -129.97775391909272,
+              "relative_reduction_percent": -2.187661956470965
+            }
+          ]
+        },
+        "resume25": {
+          "reference": "baseline25",
+          "candidate": "resume25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5941.400294256011,
+          "candidate_mean_total_s": 5924.262371938146,
+          "mean_saving_s": 17.13792231786465,
+          "relative_reduction_percent": 0.2884492117865403,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 17.13792231786465,
+          "worst_case": {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 13,
+            "reference_s": 5941.400294256011,
+            "candidate_s": 5924.262371938146,
+            "saving_s": 17.13792231786465,
+            "relative_reduction_percent": 0.2884492117865403
+          },
+          "best_case": {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 13,
+            "reference_s": 5941.400294256011,
+            "candidate_s": 5924.262371938146,
+            "saving_s": 17.13792231786465,
+            "relative_reduction_percent": 0.2884492117865403
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 6,
+            "clear_success": 0,
+            "measure": -5,
+            "move": 18.13792231786374,
+            "switch": -2
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5941.400294256011,
+            "candidate_mean_total_s": 5924.262371938146,
+            "mean_saving_s": 17.13792231786465,
+            "relative_reduction_percent": 0.2884492117865403,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22400,
+                "population": "dir_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5941.400294256011,
+                "candidate_mean_s": 5924.262371938146,
+                "saving_s": 17.13792231786465,
+                "relative_reduction_percent": 0.2884492117865403
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22400,
+              "population": "dir_heavy",
+              "field": "smooth",
+              "source_count": 13,
+              "reference_s": 5941.400294256011,
+              "candidate_s": 5924.262371938146,
+              "saving_s": 17.13792231786465,
+              "relative_reduction_percent": 0.2884492117865403
+            }
+          ]
+        },
+        "share25": {
+          "reference": "baseline25",
+          "candidate": "share25",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 5941.400294256011,
+          "candidate_mean_total_s": 5793.007360638213,
+          "mean_saving_s": 148.392933617798,
+          "relative_reduction_percent": 2.497608749931567,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 148.392933617798,
+          "worst_case": {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 13,
+            "reference_s": 5941.400294256011,
+            "candidate_s": 5793.007360638213,
+            "saving_s": 148.392933617798,
+            "relative_reduction_percent": 2.497608749931567
+          },
+          "best_case": {
+            "seed": 22400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 13,
+            "reference_s": 5941.400294256011,
+            "candidate_s": 5793.007360638213,
+            "saving_s": 148.392933617798,
+            "relative_reduction_percent": 2.497608749931567
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 30,
+            "clear_success": 0,
+            "measure": -5,
+            "move": 120.3929336177971,
+            "switch": 3
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 5941.400294256011,
+            "candidate_mean_total_s": 5793.007360638213,
+            "mean_saving_s": 148.392933617798,
+            "relative_reduction_percent": 2.497608749931567,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 22400,
+                "population": "dir_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 5941.400294256011,
+                "candidate_mean_s": 5793.007360638213,
+                "saving_s": 148.392933617798,
+                "relative_reduction_percent": 2.497608749931567
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 22400,
+              "population": "dir_heavy",
+              "field": "smooth",
+              "source_count": 13,
+              "reference_s": 5941.400294256011,
+              "candidate_s": 5793.007360638213,
+              "saving_s": 148.392933617798,
+              "relative_reduction_percent": 2.497608749931567
+            }
+          ]
+        }
+      }
+    }
+  },
+  "interpretation": {
+    "gain_sign": "Positive savings mean reference minus candidate.",
+    "pooled_per_source": "Sum of whole-task times divided by sum of source counts; not the mean of case averages.",
+    "independence": "Error fields on one (seed, population) source layout are paired repetitions. Layout comparisons average fields first; no independent-sample uncertainty claim is made.",
+    "incremental": "Adjacent-variant differences are empirical marginal effects in this fixed order; interactions prevent treating them as universal independent benefits.",
+    "movement": "Movement is attributed to the following actual action reason; scan movement can include travel departing a cleared source.",
+    "stations": "Distinct positions and contiguous scan batches are observed; they are not a proof that a fixed station was eliminated.",
+    "opportunity": "Predicted station removals describe the all-negative design scenario, not proven actual or counterfactual savings.",
+    "optical": "Planned optical points include unused suffixes after success; actual optical actions are counted separately.",
+    "audit": "Stored independent audit flags are checked, not recomputed; event counts and time accounting are rechecked without importing a solver."
+  },
+  "provenance": {
+    "input_metadata_sha256": {
+      "manifest.json": "a00e0fb835771f780b47621d122b6babae2f452a9e8f24762cbf70e63c69ca9f",
+      "rows.json": "1d773b23df2e7c4015bb2850ca760e1a28c6a33585d2975897a7d926caecaf35",
+      "summary.json": "ef69bb6296f933f84e2ba5bd361354b53869642f873a3a2f52de26af8842a0f0"
+    },
+    "raw_case_sha256": {
+      "22000-uniform-smooth-baseline25.json": "232604e471c1f4cd13f5272c83efae466076b40b94c725765a205a3f20780eef",
+      "22000-uniform-smooth-context.json": "66de565a122d14fa7c4eac18cee2c1d034f49df4710d80019b1682fb4802015d",
+      "22000-uniform-smooth-resume25.json": "2c06c4f64b7c6f14367dedd5fd2c45eea62390055ef42460bc5278f16d417e68",
+      "22000-uniform-smooth-share25.json": "f089517167b7dc3ffdcbea2137cd3b2091a498fcaf4efc40f28f21a563729975",
+      "22100-boundary-smooth-baseline25.json": "e5d022d09636b9363bb8a72eedca36aeaaf46339aa4b047c0045225e14883c09",
+      "22100-boundary-smooth-context.json": "975a30aa085b7cd80f45f82f6675f21353cdc7d7a7b7c56cb7b4322e9576f42d",
+      "22100-boundary-smooth-resume25.json": "b77c395f8005d6dfcb583f675203ce70b4ebfdd410e117264fa03889a49f937d",
+      "22100-boundary-smooth-share25.json": "30e2a18e192d25ed664e90bae1d0e96b71a0e64ac14aec342b113b942746349b",
+      "22200-cluster-smooth-baseline25.json": "6048495dfb66ee7a5fe56fb24981e83788e359df4eb65c43c0b79b4ccfc6fe9f",
+      "22200-cluster-smooth-context.json": "e75657e603cdfdfcab8181bfb9cc8225d5625bfcbf8421da20fda4c5fa53a3bd",
+      "22200-cluster-smooth-resume25.json": "bf2a5b92b9c054ed8a050e96292e9c4ca10a639ef5937efe3f03776a918c8ae3",
+      "22200-cluster-smooth-share25.json": "65f389d2707fe4839e47284fd407d13a3e7fb730585497db5126be332f5275c9",
+      "22300-omni_heavy-smooth-baseline25.json": "e07963cc748645e65ddc4c25616400e964c27e72cf74fd2e5e57e50c6fb246ef",
+      "22300-omni_heavy-smooth-context.json": "359d9b465a579c8df5909bd340645a795265874cba6cc67ec1d504a7b5fba7b9",
+      "22300-omni_heavy-smooth-resume25.json": "e58e11dd1084874f158e998d3a256eb05e38c2bf804b8369787c8097c24e29d6",
+      "22300-omni_heavy-smooth-share25.json": "e727debc7aac74bf76119ea0b28e1ebebad62146344b0aa0c13cd312d7a226d9",
+      "22400-dir_heavy-smooth-baseline25.json": "4bd716bc530ce3af6c83367d65d210340bec3e7b6a4ced80d8c0ae6614363e00",
+      "22400-dir_heavy-smooth-context.json": "91f8103c1cde75bbdc8431f4dca305ddb922414838df38f85d1a705268531b6d",
+      "22400-dir_heavy-smooth-resume25.json": "6ecf15c03664a22a651a37226d37c64964c81ae683d37d47baac7af8c18ee067",
+      "22400-dir_heavy-smooth-share25.json": "60d014e99cdc8270cc7254e50c95fc4158399c49ce55f045498219c4bc605106"
+    },
+    "solver_code_hashes": {
+      "q4_model/benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+      "q4_model/benchmark_cells.py": "0e47247b60e8458b591e9ba591aa29d8d17d59b84c1725857e75c2774f8c7d12",
+      "q4_model/benchmark_joint.py": "727565ebc9c30d37681bb0b544d0426654a44fc17e40af831a81e8c7b05bf7cb",
+      "q4_model/cell_cover.py": "b9ee11a3f9c22bb1966a5563ecb35f662d586958193af17478add9ee80951949",
+      "q4_model/cell_solver.py": "56c98c7dc93df2a617cabe12064291efc4a329d40f5c07dabb30f7c36af6beb6",
+      "q4_model/cell_validation.py": "afa43131b4ed241ff3a36cbb3dfb30398ef9219fb33df941a766460088ad800e",
+      "q4_model/context_policy.py": "1ce20666878ae827223dc6bcff1f2b371bf794e34cbf1d4a047f4d6385dbb944",
+      "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+      "q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+      "q4_model/joint_solver.py": "8ba8f79b19e1f0284ec810dcf96909df9644d7a2d92f38b1b32fbaff234cfc85",
+      "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+      "q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+      "q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+      "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+      "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+      "q4_model/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+      "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+      "q3_model_v2/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+      "q4_model/results/coverage_probe_400/certificate-22-990.json": "29e52deef3efda2b39b2673677c766897f3537a81da2031ee395cec01163090a",
+      "q4_model/results/coverage_probe_400/independent_exact_audit.py": "51d81e35fe067899ac6110eddd647d3c9835a7f2c44000ab7d4b2c0f28df6e8d",
+      "q4_model/task_sharing_solver.py": "55803bde9c240a27a680711990e2e0a9eff557d84d3ef787b00ed20dea51263f",
+      "q4_model/benchmark_task_sharing.py": "abf4871209f194341ad54c03d094cbd31e2f709b97ccf58f48a684d6170a05b6"
+    },
+    "analysis_script_sha256": "6157456022c99c4304de13dc4c8bce9c1d62ddc586104f15f8933327109abba8",
+    "local_only": true,
+    "official_simulator_used": false
+  }
+}

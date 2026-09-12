@@ -1,0 +1,5016 @@
+{
+  "description": "Paired descriptive analysis of completed local cell-cover experiments; no candidate selection.",
+  "experiment_directory": "C:\\Users\\15591\\Desktop\\B题求解\\src\\q4_model\\results\\cell_development_21000",
+  "conditions_per_variant": 5,
+  "independent_layouts": 5,
+  "fields": [
+    "smooth"
+  ],
+  "safety_checks": {
+    "all_audits_passed": true,
+    "all_full_clears": true,
+    "all_raw_events_clear_every_source": true,
+    "all_solver_results_complete": true,
+    "source_snapshot_stable": true,
+    "raw_rows_and_saved_summary_match": true,
+    "event_accounting_rechecked": true,
+    "source_layouts_identical_across_variants_and_fields": true
+  },
+  "groups": {
+    "baseline25": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 71,
+      "mean_total_s": 5781.114481676004,
+      "mean_case_per_source_s": 424.590676089508,
+      "pooled_per_source_s": 407.1207381461975,
+      "mean_runtime_s": 6.991691059997538,
+      "max_runtime_s": 9.061784599995008,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 147.6,
+        "clear_success": 71,
+        "measure": 1077,
+        "move": 4281.514481675994,
+        "switch": 204
+      },
+      "mean_action_counts": {
+        "clear_fail": 49.2,
+        "clear_success": 14.2,
+        "measure": 215.4,
+        "switch": 204
+      },
+      "mean_trace_statistics": {
+        "event_count": 278.8,
+        "optical_plans": 9.8,
+        "planned_optical_path_points": 221.4,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 118.4,
+        "final_tail_after_last_success_s": 477.73972487565896,
+        "discovered_channels_from_positive_measurements": 14.2,
+        "action_reason_counts": {
+          "certified_clear": 4.4,
+          "optical_cover": 59,
+          "scan": 190.6,
+          "shared_measure": 12.8,
+          "source_measure": 12
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 230.06009793414617,
+          "optical_cover": 919.2196638773646,
+          "scan": 2235.1347607525227,
+          "shared_measure": 0.0,
+          "source_measure": 897.0999591119657
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4.4,
+          "optical_cover": 59,
+          "scan": 18.6,
+          "shared_measure": 8.4,
+          "source_measure": 12
+        },
+        "consecutive_scan_batches": {
+          "scan": 18.6
+        },
+        "task_choice_counts": {
+          "scan": 17.6,
+          "source": 14.2
+        }
+      }
+    },
+    "cells": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 71,
+      "mean_total_s": 5677.91413296981,
+      "mean_case_per_source_s": 419.24508867069756,
+      "pooled_per_source_s": 399.85310795562043,
+      "mean_runtime_s": 8.357478579989401,
+      "max_runtime_s": 11.932414299983066,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 193.8,
+        "clear_success": 71,
+        "measure": 982,
+        "move": 4245.314132969804,
+        "switch": 185.8
+      },
+      "mean_action_counts": {
+        "clear_fail": 64.6,
+        "clear_success": 14.2,
+        "measure": 196.4,
+        "switch": 185.8
+      },
+      "mean_trace_statistics": {
+        "event_count": 275.2,
+        "optical_plans": 10.4,
+        "planned_optical_path_points": 239.2,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 101,
+        "final_tail_after_last_success_s": 395.8840170918653,
+        "discovered_channels_from_positive_measurements": 14.2,
+        "action_reason_counts": {
+          "certified_clear": 3.8,
+          "optical_cover": 75,
+          "scan": 173.8,
+          "shared_measure": 8.8,
+          "source_measure": 13.8
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 141.91853113963828,
+          "optical_cover": 1010.3980992567499,
+          "scan": 2050.6282302356694,
+          "shared_measure": 0.0,
+          "source_measure": 1042.3692723377537
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 3.8,
+          "optical_cover": 75,
+          "scan": 15.6,
+          "shared_measure": 6.2,
+          "source_measure": 13.8
+        },
+        "consecutive_scan_batches": {
+          "scan": 15.6
+        },
+        "task_choice_counts": {
+          "scan": 14.6,
+          "source": 14.2
+        }
+      }
+    },
+    "context": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 71,
+      "mean_total_s": 5529.862284344634,
+      "mean_case_per_source_s": 408.5822940530795,
+      "pooled_per_source_s": 389.4269214327207,
+      "mean_runtime_s": 12.083533119992353,
+      "max_runtime_s": 17.10741309999139,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 145.2,
+        "clear_success": 71,
+        "measure": 991,
+        "move": 4136.662284344626,
+        "switch": 186
+      },
+      "mean_action_counts": {
+        "clear_fail": 48.4,
+        "clear_success": 14.2,
+        "measure": 198.2,
+        "switch": 186
+      },
+      "mean_trace_statistics": {
+        "event_count": 260.8,
+        "optical_plans": 10.2,
+        "planned_optical_path_points": 215.6,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 101,
+        "final_tail_after_last_success_s": 395.8840170918653,
+        "discovered_channels_from_positive_measurements": 14.2,
+        "action_reason_counts": {
+          "certified_clear": 4,
+          "optical_cover": 58.6,
+          "scan": 173.8,
+          "shared_measure": 8.8,
+          "source_measure": 15.6
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 148.53344614496774,
+          "optical_cover": 891.8305817134428,
+          "scan": 2051.7254286013676,
+          "shared_measure": 0.0,
+          "source_measure": 1044.5728278848521
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4,
+          "optical_cover": 58.6,
+          "scan": 15.6,
+          "shared_measure": 6.2,
+          "source_measure": 15.6
+        },
+        "consecutive_scan_batches": {
+          "scan": 15.6
+        },
+        "task_choice_counts": {
+          "scan": 14.6,
+          "source": 14.2
+        }
+      }
+    },
+    "interleave": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 71,
+      "mean_total_s": 5552.681126297709,
+      "mean_case_per_source_s": 411.5864086029303,
+      "pooled_per_source_s": 391.0338821336415,
+      "mean_runtime_s": 11.106356720003532,
+      "max_runtime_s": 17.740510899981018,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 139.8,
+        "clear_success": 71,
+        "measure": 1075,
+        "move": 4061.4811262977123,
+        "switch": 205.4
+      },
+      "mean_action_counts": {
+        "clear_fail": 46.6,
+        "clear_success": 14.2,
+        "measure": 215,
+        "switch": 205.4
+      },
+      "mean_trace_statistics": {
+        "event_count": 275.8,
+        "optical_plans": 9.8,
+        "planned_optical_path_points": 251.6,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 104.2,
+        "final_tail_after_last_success_s": 84.94117583034203,
+        "discovered_channels_from_positive_measurements": 14.2,
+        "action_reason_counts": {
+          "certified_clear": 4.4,
+          "optical_cover": 56.4,
+          "scan": 190.6,
+          "shared_measure": 10.8,
+          "source_measure": 13.6
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 206.69193046520348,
+          "optical_cover": 972.9961612487996,
+          "scan": 2124.2322867047787,
+          "shared_measure": 0.0,
+          "source_measure": 757.5607478789282
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4.4,
+          "optical_cover": 56.4,
+          "scan": 16.4,
+          "shared_measure": 7,
+          "source_measure": 13.2
+        },
+        "consecutive_scan_batches": {
+          "scan": 16.4
+        },
+        "task_choice_counts": {
+          "scan": 15.4,
+          "source": 27.8
+        }
+      }
+    },
+    "opscan": {
+      "conditions": 5,
+      "independent_layouts": 5,
+      "source_instances": 71,
+      "mean_total_s": 5552.681126297709,
+      "mean_case_per_source_s": 411.5864086029303,
+      "pooled_per_source_s": 391.0338821336415,
+      "mean_runtime_s": 11.334943420003402,
+      "max_runtime_s": 17.571968000003835,
+      "audit_passes": 5,
+      "all_cleared_runs": 5,
+      "raw_event_full_clear_runs": 5,
+      "solver_complete_runs": 5,
+      "mean_time_parts_s": {
+        "clear_fail": 139.8,
+        "clear_success": 71,
+        "measure": 1075,
+        "move": 4061.4811262977123,
+        "switch": 205.4
+      },
+      "mean_action_counts": {
+        "clear_fail": 46.6,
+        "clear_success": 14.2,
+        "measure": 215,
+        "switch": 205.4
+      },
+      "mean_trace_statistics": {
+        "event_count": 275.8,
+        "optical_plans": 9.8,
+        "planned_optical_path_points": 251.6,
+        "opportunity_predictions": 0,
+        "predicted_station_removals_sum": 0,
+        "distinct_predicted_station_indices": 0,
+        "measured_absent_channels": 104.2,
+        "final_tail_after_last_success_s": 84.94117583034203,
+        "discovered_channels_from_positive_measurements": 14.2,
+        "action_reason_counts": {
+          "certified_clear": 4.4,
+          "optical_cover": 56.4,
+          "scan": 190.6,
+          "shared_measure": 10.8,
+          "source_measure": 13.6
+        },
+        "movement_s_by_action_reason": {
+          "certified_clear": 206.69193046520348,
+          "optical_cover": 972.9961612487996,
+          "scan": 2124.2322867047787,
+          "shared_measure": 0.0,
+          "source_measure": 757.5607478789282
+        },
+        "distinct_positions_by_reason": {
+          "certified_clear": 4.4,
+          "optical_cover": 56.4,
+          "scan": 16.4,
+          "shared_measure": 7,
+          "source_measure": 13.2
+        },
+        "consecutive_scan_batches": {
+          "scan": 16.4
+        },
+        "task_choice_counts": {
+          "scan": 15.4,
+          "source": 27.8
+        }
+      }
+    }
+  },
+  "comparisons_to_baseline25": {
+    "cells": {
+      "reference": "baseline25",
+      "candidate": "cells",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5781.114481676004,
+      "candidate_mean_total_s": 5677.91413296981,
+      "mean_saving_s": 103.20034870619384,
+      "relative_reduction_percent": 1.785128957976888,
+      "condition_outcomes": {
+        "win": 2,
+        "tie": 0,
+        "loss": 3
+      },
+      "worst_regression_s": 617.0256426981878,
+      "largest_improvement_s": 2011.948989630374,
+      "worst_case": {
+        "seed": 21000,
+        "population": "uniform",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 6274.107700577662,
+        "candidate_s": 6891.13334327585,
+        "saving_s": -617.0256426981878,
+        "relative_reduction_percent": -9.834476425091932
+      },
+      "best_case": {
+        "seed": 21200,
+        "population": "cluster",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 4186.567200364565,
+        "candidate_s": 2174.618210734191,
+        "saving_s": 2011.948989630374,
+        "relative_reduction_percent": 48.05724817829686
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": -46.2,
+        "clear_success": 0,
+        "measure": 95,
+        "move": 36.20034870618961,
+        "switch": 18.2
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5781.114481676004,
+        "candidate_mean_total_s": 5677.91413296981,
+        "mean_saving_s": 103.20034870619384,
+        "relative_reduction_percent": 1.785128957976888,
+        "outcomes": {
+          "win": 2,
+          "tie": 0,
+          "loss": 3
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6274.107700577662,
+            "candidate_mean_s": 6891.13334327585,
+            "saving_s": -617.0256426981878,
+            "relative_reduction_percent": -9.834476425091932
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 9173.557506388579,
+            "candidate_mean_s": 9750.512863866128,
+            "saving_s": -576.9553574775491,
+            "relative_reduction_percent": -6.289330579502557
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 4186.567200364565,
+            "candidate_mean_s": 2174.618210734191,
+            "saving_s": 2011.948989630374,
+            "relative_reduction_percent": 48.05724817829686
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 2990.6208013498117,
+            "candidate_mean_s": 3473.4577686997904,
+            "saving_s": -482.83696734997875,
+            "relative_reduction_percent": -16.145041428590716
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6280.719199699402,
+            "candidate_mean_s": 6099.848478273092,
+            "saving_s": 180.8707214263104,
+            "relative_reduction_percent": 2.879777230527468
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6274.107700577662,
+          "candidate_s": 6891.13334327585,
+          "saving_s": -617.0256426981878,
+          "relative_reduction_percent": -9.834476425091932
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 9173.557506388579,
+          "candidate_s": 9750.512863866128,
+          "saving_s": -576.9553574775491,
+          "relative_reduction_percent": -6.289330579502557
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 4186.567200364565,
+          "candidate_s": 2174.618210734191,
+          "saving_s": 2011.948989630374,
+          "relative_reduction_percent": 48.05724817829686
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 2990.6208013498117,
+          "candidate_s": 3473.4577686997904,
+          "saving_s": -482.83696734997875,
+          "relative_reduction_percent": -16.145041428590716
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6280.719199699402,
+          "candidate_s": 6099.848478273092,
+          "saving_s": 180.8707214263104,
+          "relative_reduction_percent": 2.879777230527468
+        }
+      ]
+    },
+    "context": {
+      "reference": "baseline25",
+      "candidate": "context",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5781.114481676004,
+      "candidate_mean_total_s": 5529.862284344634,
+      "mean_saving_s": 251.25219733137055,
+      "relative_reduction_percent": 4.34608583047001,
+      "condition_outcomes": {
+        "win": 2,
+        "tie": 0,
+        "loss": 3
+      },
+      "worst_regression_s": 501.6959288142466,
+      "largest_improvement_s": 2003.6043109281231,
+      "worst_case": {
+        "seed": 21300,
+        "population": "omni_heavy",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 2990.6208013498117,
+        "candidate_s": 3492.3167301640583,
+        "saving_s": -501.6959288142466,
+        "relative_reduction_percent": -16.775644996109403
+      },
+      "best_case": {
+        "seed": 21200,
+        "population": "cluster",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 4186.567200364565,
+        "candidate_s": 2182.962889436442,
+        "saving_s": 2003.6043109281231,
+        "relative_reduction_percent": 47.857927868771576
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 2.4,
+        "clear_success": 0,
+        "measure": 86,
+        "move": 144.85219733136825,
+        "switch": 18
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5781.114481676004,
+        "candidate_mean_total_s": 5529.862284344634,
+        "mean_saving_s": 251.25219733137055,
+        "relative_reduction_percent": 4.34608583047001,
+        "outcomes": {
+          "win": 2,
+          "tie": 0,
+          "loss": 3
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6274.107700577662,
+            "candidate_mean_s": 6675.47068703951,
+            "saving_s": -401.36298646184787,
+            "relative_reduction_percent": -6.397132558385858
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 9173.557506388579,
+            "candidate_mean_s": 9208.744362127465,
+            "saving_s": -35.18685573888615,
+            "relative_reduction_percent": -0.3835682690644452
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 4186.567200364565,
+            "candidate_mean_s": 2182.962889436442,
+            "saving_s": 2003.6043109281231,
+            "relative_reduction_percent": 47.857927868771576
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 2990.6208013498117,
+            "candidate_mean_s": 3492.3167301640583,
+            "saving_s": -501.6959288142466,
+            "relative_reduction_percent": -16.775644996109403
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6280.719199699402,
+            "candidate_mean_s": 6089.816752955693,
+            "saving_s": 190.90244674370933,
+            "relative_reduction_percent": 3.0394997877447856
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6274.107700577662,
+          "candidate_s": 6675.47068703951,
+          "saving_s": -401.36298646184787,
+          "relative_reduction_percent": -6.397132558385858
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 9173.557506388579,
+          "candidate_s": 9208.744362127465,
+          "saving_s": -35.18685573888615,
+          "relative_reduction_percent": -0.3835682690644452
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 4186.567200364565,
+          "candidate_s": 2182.962889436442,
+          "saving_s": 2003.6043109281231,
+          "relative_reduction_percent": 47.857927868771576
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 2990.6208013498117,
+          "candidate_s": 3492.3167301640583,
+          "saving_s": -501.6959288142466,
+          "relative_reduction_percent": -16.775644996109403
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6280.719199699402,
+          "candidate_s": 6089.816752955693,
+          "saving_s": 190.90244674370933,
+          "relative_reduction_percent": 3.0394997877447856
+        }
+      ]
+    },
+    "interleave": {
+      "reference": "baseline25",
+      "candidate": "interleave",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5781.114481676004,
+      "candidate_mean_total_s": 5552.681126297709,
+      "mean_saving_s": 228.43335537829535,
+      "relative_reduction_percent": 3.9513722847444837,
+      "condition_outcomes": {
+        "win": 2,
+        "tie": 0,
+        "loss": 3
+      },
+      "worst_regression_s": 1084.090655022018,
+      "largest_improvement_s": 2318.429003873005,
+      "worst_case": {
+        "seed": 21300,
+        "population": "omni_heavy",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 2990.6208013498117,
+        "candidate_s": 4074.7114563718296,
+        "saving_s": -1084.090655022018,
+        "relative_reduction_percent": -36.24968616993219
+      },
+      "best_case": {
+        "seed": 21200,
+        "population": "cluster",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 4186.567200364565,
+        "candidate_s": 1868.1381964915597,
+        "saving_s": 2318.429003873005,
+        "relative_reduction_percent": 55.377804604954555
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 7.8,
+        "clear_success": 0,
+        "measure": 2,
+        "move": 220.03335537828124,
+        "switch": -1.4
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5781.114481676004,
+        "candidate_mean_total_s": 5552.681126297709,
+        "mean_saving_s": 228.43335537829535,
+        "relative_reduction_percent": 3.9513722847444837,
+        "outcomes": {
+          "win": 2,
+          "tie": 0,
+          "loss": 3
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6274.107700577662,
+            "candidate_mean_s": 6689.707317187436,
+            "saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 9173.557506388579,
+            "candidate_mean_s": 8565.68501124788,
+            "saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 4186.567200364565,
+            "candidate_mean_s": 1868.1381964915597,
+            "saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 2990.6208013498117,
+            "candidate_mean_s": 4074.7114563718296,
+            "saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6280.719199699402,
+            "candidate_mean_s": 6565.163650189838,
+            "saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6274.107700577662,
+          "candidate_s": 6689.707317187436,
+          "saving_s": -415.5996166097739,
+          "relative_reduction_percent": -6.624043392999283
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 9173.557506388579,
+          "candidate_s": 8565.68501124788,
+          "saving_s": 607.8724951406984,
+          "relative_reduction_percent": 6.626355094164598
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 4186.567200364565,
+          "candidate_s": 1868.1381964915597,
+          "saving_s": 2318.429003873005,
+          "relative_reduction_percent": 55.377804604954555
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 2990.6208013498117,
+          "candidate_s": 4074.7114563718296,
+          "saving_s": -1084.090655022018,
+          "relative_reduction_percent": -36.24968616993219
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6280.719199699402,
+          "candidate_s": 6565.163650189838,
+          "saving_s": -284.4444504904359,
+          "relative_reduction_percent": -4.528851576489035
+        }
+      ]
+    },
+    "opscan": {
+      "reference": "baseline25",
+      "candidate": "opscan",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5781.114481676004,
+      "candidate_mean_total_s": 5552.681126297709,
+      "mean_saving_s": 228.43335537829535,
+      "relative_reduction_percent": 3.9513722847444837,
+      "condition_outcomes": {
+        "win": 2,
+        "tie": 0,
+        "loss": 3
+      },
+      "worst_regression_s": 1084.090655022018,
+      "largest_improvement_s": 2318.429003873005,
+      "worst_case": {
+        "seed": 21300,
+        "population": "omni_heavy",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 2990.6208013498117,
+        "candidate_s": 4074.7114563718296,
+        "saving_s": -1084.090655022018,
+        "relative_reduction_percent": -36.24968616993219
+      },
+      "best_case": {
+        "seed": 21200,
+        "population": "cluster",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 4186.567200364565,
+        "candidate_s": 1868.1381964915597,
+        "saving_s": 2318.429003873005,
+        "relative_reduction_percent": 55.377804604954555
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 7.8,
+        "clear_success": 0,
+        "measure": 2,
+        "move": 220.03335537828124,
+        "switch": -1.4
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5781.114481676004,
+        "candidate_mean_total_s": 5552.681126297709,
+        "mean_saving_s": 228.43335537829535,
+        "relative_reduction_percent": 3.9513722847444837,
+        "outcomes": {
+          "win": 2,
+          "tie": 0,
+          "loss": 3
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6274.107700577662,
+            "candidate_mean_s": 6689.707317187436,
+            "saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 9173.557506388579,
+            "candidate_mean_s": 8565.68501124788,
+            "saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 4186.567200364565,
+            "candidate_mean_s": 1868.1381964915597,
+            "saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 2990.6208013498117,
+            "candidate_mean_s": 4074.7114563718296,
+            "saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6280.719199699402,
+            "candidate_mean_s": 6565.163650189838,
+            "saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6274.107700577662,
+          "candidate_s": 6689.707317187436,
+          "saving_s": -415.5996166097739,
+          "relative_reduction_percent": -6.624043392999283
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 9173.557506388579,
+          "candidate_s": 8565.68501124788,
+          "saving_s": 607.8724951406984,
+          "relative_reduction_percent": 6.626355094164598
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 4186.567200364565,
+          "candidate_s": 1868.1381964915597,
+          "saving_s": 2318.429003873005,
+          "relative_reduction_percent": 55.377804604954555
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 2990.6208013498117,
+          "candidate_s": 4074.7114563718296,
+          "saving_s": -1084.090655022018,
+          "relative_reduction_percent": -36.24968616993219
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6280.719199699402,
+          "candidate_s": 6565.163650189838,
+          "saving_s": -284.4444504904359,
+          "relative_reduction_percent": -4.528851576489035
+        }
+      ]
+    }
+  },
+  "incremental_comparisons": {
+    "baseline25_to_cells": {
+      "reference": "baseline25",
+      "candidate": "cells",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5781.114481676004,
+      "candidate_mean_total_s": 5677.91413296981,
+      "mean_saving_s": 103.20034870619384,
+      "relative_reduction_percent": 1.785128957976888,
+      "condition_outcomes": {
+        "win": 2,
+        "tie": 0,
+        "loss": 3
+      },
+      "worst_regression_s": 617.0256426981878,
+      "largest_improvement_s": 2011.948989630374,
+      "worst_case": {
+        "seed": 21000,
+        "population": "uniform",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 6274.107700577662,
+        "candidate_s": 6891.13334327585,
+        "saving_s": -617.0256426981878,
+        "relative_reduction_percent": -9.834476425091932
+      },
+      "best_case": {
+        "seed": 21200,
+        "population": "cluster",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 4186.567200364565,
+        "candidate_s": 2174.618210734191,
+        "saving_s": 2011.948989630374,
+        "relative_reduction_percent": 48.05724817829686
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": -46.2,
+        "clear_success": 0,
+        "measure": 95,
+        "move": 36.20034870618961,
+        "switch": 18.2
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5781.114481676004,
+        "candidate_mean_total_s": 5677.91413296981,
+        "mean_saving_s": 103.20034870619384,
+        "relative_reduction_percent": 1.785128957976888,
+        "outcomes": {
+          "win": 2,
+          "tie": 0,
+          "loss": 3
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6274.107700577662,
+            "candidate_mean_s": 6891.13334327585,
+            "saving_s": -617.0256426981878,
+            "relative_reduction_percent": -9.834476425091932
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 9173.557506388579,
+            "candidate_mean_s": 9750.512863866128,
+            "saving_s": -576.9553574775491,
+            "relative_reduction_percent": -6.289330579502557
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 4186.567200364565,
+            "candidate_mean_s": 2174.618210734191,
+            "saving_s": 2011.948989630374,
+            "relative_reduction_percent": 48.05724817829686
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 2990.6208013498117,
+            "candidate_mean_s": 3473.4577686997904,
+            "saving_s": -482.83696734997875,
+            "relative_reduction_percent": -16.145041428590716
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6280.719199699402,
+            "candidate_mean_s": 6099.848478273092,
+            "saving_s": 180.8707214263104,
+            "relative_reduction_percent": 2.879777230527468
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6274.107700577662,
+          "candidate_s": 6891.13334327585,
+          "saving_s": -617.0256426981878,
+          "relative_reduction_percent": -9.834476425091932
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 9173.557506388579,
+          "candidate_s": 9750.512863866128,
+          "saving_s": -576.9553574775491,
+          "relative_reduction_percent": -6.289330579502557
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 4186.567200364565,
+          "candidate_s": 2174.618210734191,
+          "saving_s": 2011.948989630374,
+          "relative_reduction_percent": 48.05724817829686
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 2990.6208013498117,
+          "candidate_s": 3473.4577686997904,
+          "saving_s": -482.83696734997875,
+          "relative_reduction_percent": -16.145041428590716
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6280.719199699402,
+          "candidate_s": 6099.848478273092,
+          "saving_s": 180.8707214263104,
+          "relative_reduction_percent": 2.879777230527468
+        }
+      ]
+    },
+    "cells_to_context": {
+      "reference": "cells",
+      "candidate": "context",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5677.91413296981,
+      "candidate_mean_total_s": 5529.862284344634,
+      "mean_saving_s": 148.05184862517672,
+      "relative_reduction_percent": 2.607504184776017,
+      "condition_outcomes": {
+        "win": 3,
+        "tie": 0,
+        "loss": 2
+      },
+      "worst_regression_s": 18.85896146426785,
+      "largest_improvement_s": 541.768501738663,
+      "worst_case": {
+        "seed": 21300,
+        "population": "omni_heavy",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 3473.4577686997904,
+        "candidate_s": 3492.3167301640583,
+        "saving_s": -18.85896146426785,
+        "relative_reduction_percent": -0.5429448900807357
+      },
+      "best_case": {
+        "seed": 21100,
+        "population": "boundary",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 9750.512863866128,
+        "candidate_s": 9208.744362127465,
+        "saving_s": 541.768501738663,
+        "relative_reduction_percent": 5.556307748142891
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 48.6,
+        "clear_success": 0,
+        "measure": -9,
+        "move": 108.65184862517863,
+        "switch": -0.2
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5677.91413296981,
+        "candidate_mean_total_s": 5529.862284344634,
+        "mean_saving_s": 148.05184862517672,
+        "relative_reduction_percent": 2.607504184776017,
+        "outcomes": {
+          "win": 3,
+          "tie": 0,
+          "loss": 2
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6891.13334327585,
+            "candidate_mean_s": 6675.47068703951,
+            "saving_s": 215.6626562363399,
+            "relative_reduction_percent": 3.1295673076298356
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 9750.512863866128,
+            "candidate_mean_s": 9208.744362127465,
+            "saving_s": 541.768501738663,
+            "relative_reduction_percent": 5.556307748142891
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 2174.618210734191,
+            "candidate_mean_s": 2182.962889436442,
+            "saving_s": -8.344678702250803,
+            "relative_reduction_percent": -0.3837307468989458
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 3473.4577686997904,
+            "candidate_mean_s": 3492.3167301640583,
+            "saving_s": -18.85896146426785,
+            "relative_reduction_percent": -0.5429448900807357
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6099.848478273092,
+            "candidate_mean_s": 6089.816752955693,
+            "saving_s": 10.031725317398923,
+            "relative_reduction_percent": 0.16445859849028532
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6891.13334327585,
+          "candidate_s": 6675.47068703951,
+          "saving_s": 215.6626562363399,
+          "relative_reduction_percent": 3.1295673076298356
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 9750.512863866128,
+          "candidate_s": 9208.744362127465,
+          "saving_s": 541.768501738663,
+          "relative_reduction_percent": 5.556307748142891
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 2174.618210734191,
+          "candidate_s": 2182.962889436442,
+          "saving_s": -8.344678702250803,
+          "relative_reduction_percent": -0.3837307468989458
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 3473.4577686997904,
+          "candidate_s": 3492.3167301640583,
+          "saving_s": -18.85896146426785,
+          "relative_reduction_percent": -0.5429448900807357
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6099.848478273092,
+          "candidate_s": 6089.816752955693,
+          "saving_s": 10.031725317398923,
+          "relative_reduction_percent": 0.16445859849028532
+        }
+      ]
+    },
+    "context_to_interleave": {
+      "reference": "context",
+      "candidate": "interleave",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5529.862284344634,
+      "candidate_mean_total_s": 5552.681126297709,
+      "mean_saving_s": -22.818841953075207,
+      "relative_reduction_percent": -0.41264756299043276,
+      "condition_outcomes": {
+        "win": 2,
+        "tie": 0,
+        "loss": 3
+      },
+      "worst_regression_s": 582.3947262077713,
+      "largest_improvement_s": 643.0593508795846,
+      "worst_case": {
+        "seed": 21300,
+        "population": "omni_heavy",
+        "field": "smooth",
+        "source_count": 16,
+        "reference_s": 3492.3167301640583,
+        "candidate_s": 4074.7114563718296,
+        "saving_s": -582.3947262077713,
+        "relative_reduction_percent": -16.676457813160955
+      },
+      "best_case": {
+        "seed": 21100,
+        "population": "boundary",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 9208.744362127465,
+        "candidate_s": 8565.68501124788,
+        "saving_s": 643.0593508795846,
+        "relative_reduction_percent": 6.98313826067619
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 5.4,
+        "clear_success": 0,
+        "measure": -84,
+        "move": 75.18115804691301,
+        "switch": -19.4
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5529.862284344634,
+        "candidate_mean_total_s": 5552.681126297709,
+        "mean_saving_s": -22.818841953075207,
+        "relative_reduction_percent": -0.41264756299043276,
+        "outcomes": {
+          "win": 2,
+          "tie": 0,
+          "loss": 3
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6675.47068703951,
+            "candidate_mean_s": 6689.707317187436,
+            "saving_s": -14.236630147926007,
+            "relative_reduction_percent": -0.21326781009714507
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 9208.744362127465,
+            "candidate_mean_s": 8565.68501124788,
+            "saving_s": 643.0593508795846,
+            "relative_reduction_percent": 6.98313826067619
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 2182.962889436442,
+            "candidate_mean_s": 1868.1381964915597,
+            "saving_s": 314.82469294488214,
+            "relative_reduction_percent": 14.42189853379312
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 3492.3167301640583,
+            "candidate_mean_s": 4074.7114563718296,
+            "saving_s": -582.3947262077713,
+            "relative_reduction_percent": -16.676457813160955
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6089.816752955693,
+            "candidate_mean_s": 6565.163650189838,
+            "saving_s": -475.3468972341452,
+            "relative_reduction_percent": -7.805602639905963
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6675.47068703951,
+          "candidate_s": 6689.707317187436,
+          "saving_s": -14.236630147926007,
+          "relative_reduction_percent": -0.21326781009714507
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 9208.744362127465,
+          "candidate_s": 8565.68501124788,
+          "saving_s": 643.0593508795846,
+          "relative_reduction_percent": 6.98313826067619
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 2182.962889436442,
+          "candidate_s": 1868.1381964915597,
+          "saving_s": 314.82469294488214,
+          "relative_reduction_percent": 14.42189853379312
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 3492.3167301640583,
+          "candidate_s": 4074.7114563718296,
+          "saving_s": -582.3947262077713,
+          "relative_reduction_percent": -16.676457813160955
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6089.816752955693,
+          "candidate_s": 6565.163650189838,
+          "saving_s": -475.3468972341452,
+          "relative_reduction_percent": -7.805602639905963
+        }
+      ]
+    },
+    "interleave_to_opscan": {
+      "reference": "interleave",
+      "candidate": "opscan",
+      "paired_conditions": 5,
+      "independent_layouts": 5,
+      "reference_mean_total_s": 5552.681126297709,
+      "candidate_mean_total_s": 5552.681126297709,
+      "mean_saving_s": 0.0,
+      "relative_reduction_percent": 0.0,
+      "condition_outcomes": {
+        "win": 0,
+        "tie": 5,
+        "loss": 0
+      },
+      "worst_regression_s": 0.0,
+      "largest_improvement_s": 0.0,
+      "worst_case": {
+        "seed": 21000,
+        "population": "uniform",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 6689.707317187436,
+        "candidate_s": 6689.707317187436,
+        "saving_s": 0.0,
+        "relative_reduction_percent": 0.0
+      },
+      "best_case": {
+        "seed": 21000,
+        "population": "uniform",
+        "field": "smooth",
+        "source_count": 14,
+        "reference_s": 6689.707317187436,
+        "candidate_s": 6689.707317187436,
+        "saving_s": 0.0,
+        "relative_reduction_percent": 0.0
+      },
+      "mean_time_part_savings_s": {
+        "clear_fail": 0,
+        "clear_success": 0,
+        "measure": 0,
+        "move": 0.0,
+        "switch": 0
+      },
+      "layout_aggregated": {
+        "reference_mean_total_s": 5552.681126297709,
+        "candidate_mean_total_s": 5552.681126297709,
+        "mean_saving_s": 0.0,
+        "relative_reduction_percent": 0.0,
+        "outcomes": {
+          "win": 0,
+          "tie": 5,
+          "loss": 0
+        },
+        "records": [
+          {
+            "seed": 21000,
+            "population": "uniform",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6689.707317187436,
+            "candidate_mean_s": 6689.707317187436,
+            "saving_s": 0.0,
+            "relative_reduction_percent": 0.0
+          },
+          {
+            "seed": 21100,
+            "population": "boundary",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 8565.68501124788,
+            "candidate_mean_s": 8565.68501124788,
+            "saving_s": 0.0,
+            "relative_reduction_percent": 0.0
+          },
+          {
+            "seed": 21200,
+            "population": "cluster",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 1868.1381964915597,
+            "candidate_mean_s": 1868.1381964915597,
+            "saving_s": 0.0,
+            "relative_reduction_percent": 0.0
+          },
+          {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 4074.7114563718296,
+            "candidate_mean_s": 4074.7114563718296,
+            "saving_s": 0.0,
+            "relative_reduction_percent": 0.0
+          },
+          {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "fields": [
+              "smooth"
+            ],
+            "reference_mean_s": 6565.163650189838,
+            "candidate_mean_s": 6565.163650189838,
+            "saving_s": 0.0,
+            "relative_reduction_percent": 0.0
+          }
+        ]
+      },
+      "condition_records": [
+        {
+          "seed": 21000,
+          "population": "uniform",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 6689.707317187436,
+          "candidate_s": 6689.707317187436,
+          "saving_s": 0.0,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "seed": 21100,
+          "population": "boundary",
+          "field": "smooth",
+          "source_count": 14,
+          "reference_s": 8565.68501124788,
+          "candidate_s": 8565.68501124788,
+          "saving_s": 0.0,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "seed": 21200,
+          "population": "cluster",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 1868.1381964915597,
+          "candidate_s": 1868.1381964915597,
+          "saving_s": 0.0,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "seed": 21300,
+          "population": "omni_heavy",
+          "field": "smooth",
+          "source_count": 16,
+          "reference_s": 4074.7114563718296,
+          "candidate_s": 4074.7114563718296,
+          "saving_s": 0.0,
+          "relative_reduction_percent": 0.0
+        },
+        {
+          "seed": 21400,
+          "population": "dir_heavy",
+          "field": "smooth",
+          "source_count": 11,
+          "reference_s": 6565.163650189838,
+          "candidate_s": 6565.163650189838,
+          "saving_s": 0.0,
+          "relative_reduction_percent": 0.0
+        }
+      ]
+    }
+  },
+  "by_population": {
+    "uniform": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 6274.107700577662,
+          "mean_case_per_source_s": 448.1505500412616,
+          "pooled_per_source_s": 448.1505500412616,
+          "mean_runtime_s": 6.7757521999883465,
+          "max_runtime_s": 6.7757521999883465,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 12,
+            "clear_success": 70,
+            "measure": 1115,
+            "move": 4869.107700577664,
+            "switch": 208
+          },
+          "mean_action_counts": {
+            "clear_fail": 4,
+            "clear_success": 14,
+            "measure": 223,
+            "switch": 208
+          },
+          "mean_trace_statistics": {
+            "event_count": 241,
+            "optical_plans": 9,
+            "planned_optical_path_points": 31,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 150,
+            "final_tail_after_last_success_s": 1081.3049425967129,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 5,
+              "optical_cover": 13,
+              "scan": 194,
+              "shared_measure": 20,
+              "source_measure": 9
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 312.2005217148727,
+              "optical_cover": 676.1763642039892,
+              "scan": 3024.6118875844663,
+              "shared_measure": 0.0,
+              "source_measure": 856.1189270743366
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5,
+              "optical_cover": 13,
+              "scan": 25,
+              "shared_measure": 12,
+              "source_measure": 9
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 14
+            }
+          }
+        },
+        "cells": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 6891.13334327585,
+          "mean_case_per_source_s": 492.2238102339893,
+          "pooled_per_source_s": 492.2238102339893,
+          "mean_runtime_s": 7.626070400001481,
+          "max_runtime_s": 7.626070400001481,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 153,
+            "clear_success": 70,
+            "measure": 1155,
+            "move": 5292.1333432758465,
+            "switch": 221
+          },
+          "mean_action_counts": {
+            "clear_fail": 51,
+            "clear_success": 14,
+            "measure": 231,
+            "switch": 221
+          },
+          "mean_trace_statistics": {
+            "event_count": 296,
+            "optical_plans": 7,
+            "planned_optical_path_points": 134,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 411.8585838043373,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 7,
+              "optical_cover": 58,
+              "scan": 205,
+              "shared_measure": 15,
+              "source_measure": 11
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 452.5072436534398,
+              "optical_cover": 770.1493779490015,
+              "scan": 2939.986422868488,
+              "shared_measure": 0.0,
+              "source_measure": 1129.4902988049269
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 7,
+              "optical_cover": 58,
+              "scan": 22,
+              "shared_measure": 12,
+              "source_measure": 11
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 14
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 6675.47068703951,
+          "mean_case_per_source_s": 476.8193347885364,
+          "pooled_per_source_s": 476.8193347885364,
+          "mean_runtime_s": 10.38161250000121,
+          "max_runtime_s": 10.38161250000121,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 48,
+            "clear_success": 70,
+            "measure": 1180,
+            "move": 5156.470687039512,
+            "switch": 221
+          },
+          "mean_action_counts": {
+            "clear_fail": 16,
+            "clear_success": 14,
+            "measure": 236,
+            "switch": 221
+          },
+          "mean_trace_statistics": {
+            "event_count": 266,
+            "optical_plans": 7,
+            "planned_optical_path_points": 118,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 411.8585838043373,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 7,
+              "optical_cover": 23,
+              "scan": 205,
+              "shared_measure": 15,
+              "source_measure": 16
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 450.0599021300827,
+              "optical_cover": 502.41901295651877,
+              "scan": 2942.233499564592,
+              "shared_measure": 0.0,
+              "source_measure": 1261.7582723883197
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 7,
+              "optical_cover": 23,
+              "scan": 22,
+              "shared_measure": 12,
+              "source_measure": 16
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 14
+            }
+          }
+        },
+        "interleave": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 6689.707317187436,
+          "mean_case_per_source_s": 477.8362369419597,
+          "pooled_per_source_s": 477.8362369419597,
+          "mean_runtime_s": 7.3783941000001505,
+          "max_runtime_s": 7.3783941000001505,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 156,
+            "clear_success": 70,
+            "measure": 1220,
+            "move": 5012.707317187441,
+            "switch": 231
+          },
+          "mean_action_counts": {
+            "clear_fail": 52,
+            "clear_success": 14,
+            "measure": 244,
+            "switch": 231
+          },
+          "mean_trace_statistics": {
+            "event_count": 310,
+            "optical_plans": 10,
+            "planned_optical_path_points": 314,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 62,
+              "scan": 221,
+              "shared_measure": 13,
+              "source_measure": 10
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 195.4223740875209,
+              "optical_cover": 1193.628890888632,
+              "scan": 2977.263699794388,
+              "shared_measure": 0.0,
+              "source_measure": 646.3923524169006
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 62,
+              "scan": 22,
+              "shared_measure": 9,
+              "source_measure": 9
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 24
+            }
+          }
+        },
+        "opscan": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 6689.707317187436,
+          "mean_case_per_source_s": 477.8362369419597,
+          "pooled_per_source_s": 477.8362369419597,
+          "mean_runtime_s": 7.92627860000357,
+          "max_runtime_s": 7.92627860000357,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 156,
+            "clear_success": 70,
+            "measure": 1220,
+            "move": 5012.707317187441,
+            "switch": 231
+          },
+          "mean_action_counts": {
+            "clear_fail": 52,
+            "clear_success": 14,
+            "measure": 244,
+            "switch": 231
+          },
+          "mean_trace_statistics": {
+            "event_count": 310,
+            "optical_plans": 10,
+            "planned_optical_path_points": 314,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 62,
+              "scan": 221,
+              "shared_measure": 13,
+              "source_measure": 10
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 195.4223740875209,
+              "optical_cover": 1193.628890888632,
+              "scan": 2977.263699794388,
+              "shared_measure": 0.0,
+              "source_measure": 646.3923524169006
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 62,
+              "scan": 22,
+              "shared_measure": 9,
+              "source_measure": 9
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 24
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "cells": {
+          "reference": "baseline25",
+          "candidate": "cells",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6274.107700577662,
+          "candidate_mean_total_s": 6891.13334327585,
+          "mean_saving_s": -617.0256426981878,
+          "relative_reduction_percent": -9.834476425091932,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 617.0256426981878,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6891.13334327585,
+            "saving_s": -617.0256426981878,
+            "relative_reduction_percent": -9.834476425091932
+          },
+          "best_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6891.13334327585,
+            "saving_s": -617.0256426981878,
+            "relative_reduction_percent": -9.834476425091932
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -141,
+            "clear_success": 0,
+            "measure": -40,
+            "move": -423.0256426981823,
+            "switch": -13
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6274.107700577662,
+            "candidate_mean_total_s": 6891.13334327585,
+            "mean_saving_s": -617.0256426981878,
+            "relative_reduction_percent": -9.834476425091932,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21000,
+                "population": "uniform",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6274.107700577662,
+                "candidate_mean_s": 6891.13334327585,
+                "saving_s": -617.0256426981878,
+                "relative_reduction_percent": -9.834476425091932
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21000,
+              "population": "uniform",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 6274.107700577662,
+              "candidate_s": 6891.13334327585,
+              "saving_s": -617.0256426981878,
+              "relative_reduction_percent": -9.834476425091932
+            }
+          ]
+        },
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6274.107700577662,
+          "candidate_mean_total_s": 6675.47068703951,
+          "mean_saving_s": -401.36298646184787,
+          "relative_reduction_percent": -6.397132558385858,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 401.36298646184787,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6675.47068703951,
+            "saving_s": -401.36298646184787,
+            "relative_reduction_percent": -6.397132558385858
+          },
+          "best_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6675.47068703951,
+            "saving_s": -401.36298646184787,
+            "relative_reduction_percent": -6.397132558385858
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -36,
+            "clear_success": 0,
+            "measure": -65,
+            "move": -287.36298646184787,
+            "switch": -13
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6274.107700577662,
+            "candidate_mean_total_s": 6675.47068703951,
+            "mean_saving_s": -401.36298646184787,
+            "relative_reduction_percent": -6.397132558385858,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21000,
+                "population": "uniform",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6274.107700577662,
+                "candidate_mean_s": 6675.47068703951,
+                "saving_s": -401.36298646184787,
+                "relative_reduction_percent": -6.397132558385858
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21000,
+              "population": "uniform",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 6274.107700577662,
+              "candidate_s": 6675.47068703951,
+              "saving_s": -401.36298646184787,
+              "relative_reduction_percent": -6.397132558385858
+            }
+          ]
+        },
+        "interleave": {
+          "reference": "baseline25",
+          "candidate": "interleave",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6274.107700577662,
+          "candidate_mean_total_s": 6689.707317187436,
+          "mean_saving_s": -415.5996166097739,
+          "relative_reduction_percent": -6.624043392999283,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 415.5996166097739,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6689.707317187436,
+            "saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283
+          },
+          "best_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6689.707317187436,
+            "saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -144,
+            "clear_success": 0,
+            "measure": -105,
+            "move": -143.5996166097766,
+            "switch": -23
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6274.107700577662,
+            "candidate_mean_total_s": 6689.707317187436,
+            "mean_saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21000,
+                "population": "uniform",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6274.107700577662,
+                "candidate_mean_s": 6689.707317187436,
+                "saving_s": -415.5996166097739,
+                "relative_reduction_percent": -6.624043392999283
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21000,
+              "population": "uniform",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 6274.107700577662,
+              "candidate_s": 6689.707317187436,
+              "saving_s": -415.5996166097739,
+              "relative_reduction_percent": -6.624043392999283
+            }
+          ]
+        },
+        "opscan": {
+          "reference": "baseline25",
+          "candidate": "opscan",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6274.107700577662,
+          "candidate_mean_total_s": 6689.707317187436,
+          "mean_saving_s": -415.5996166097739,
+          "relative_reduction_percent": -6.624043392999283,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 415.5996166097739,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6689.707317187436,
+            "saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283
+          },
+          "best_case": {
+            "seed": 21000,
+            "population": "uniform",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 6274.107700577662,
+            "candidate_s": 6689.707317187436,
+            "saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -144,
+            "clear_success": 0,
+            "measure": -105,
+            "move": -143.5996166097766,
+            "switch": -23
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6274.107700577662,
+            "candidate_mean_total_s": 6689.707317187436,
+            "mean_saving_s": -415.5996166097739,
+            "relative_reduction_percent": -6.624043392999283,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21000,
+                "population": "uniform",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6274.107700577662,
+                "candidate_mean_s": 6689.707317187436,
+                "saving_s": -415.5996166097739,
+                "relative_reduction_percent": -6.624043392999283
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21000,
+              "population": "uniform",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 6274.107700577662,
+              "candidate_s": 6689.707317187436,
+              "saving_s": -415.5996166097739,
+              "relative_reduction_percent": -6.624043392999283
+            }
+          ]
+        }
+      }
+    },
+    "boundary": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 9173.557506388579,
+          "mean_case_per_source_s": 655.2541075991842,
+          "pooled_per_source_s": 655.2541075991842,
+          "mean_runtime_s": 5.249278600007528,
+          "max_runtime_s": 5.249278600007528,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 486,
+            "clear_success": 70,
+            "measure": 1700,
+            "move": 6594.557506388529,
+            "switch": 323
+          },
+          "mean_action_counts": {
+            "clear_fail": 162,
+            "clear_success": 14,
+            "measure": 340,
+            "switch": 323
+          },
+          "mean_trace_statistics": {
+            "event_count": 516,
+            "optical_plans": 14,
+            "planned_optical_path_points": 802,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 150,
+            "final_tail_after_last_success_s": 701.5444632517028,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "optical_cover": 176,
+              "scan": 318,
+              "shared_measure": 9,
+              "source_measure": 13
+            },
+            "movement_s_by_action_reason": {
+              "optical_cover": 2000.6989291003483,
+              "scan": 3655.826757423557,
+              "shared_measure": 0.0,
+              "source_measure": 938.0318198646407
+            },
+            "distinct_positions_by_reason": {
+              "optical_cover": 176,
+              "scan": 25,
+              "shared_measure": 7,
+              "source_measure": 13
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 14
+            }
+          }
+        },
+        "cells": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 9750.512863866128,
+          "mean_case_per_source_s": 696.4652045618662,
+          "pooled_per_source_s": 696.4652045618662,
+          "mean_runtime_s": 4.383677500009071,
+          "max_runtime_s": 4.383677500009071,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 726,
+            "clear_success": 70,
+            "measure": 1630,
+            "move": 7014.512863866099,
+            "switch": 310
+          },
+          "mean_action_counts": {
+            "clear_fail": 242,
+            "clear_success": 14,
+            "measure": 326,
+            "switch": 310
+          },
+          "mean_trace_statistics": {
+            "event_count": 582,
+            "optical_plans": 13,
+            "planned_optical_path_points": 841,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 194.91416216182552,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 1,
+              "optical_cover": 255,
+              "scan": 306,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 4.506873954478116,
+              "optical_cover": 2364.278416022073,
+              "scan": 3341.787702721731,
+              "shared_measure": 0.0,
+              "source_measure": 1303.9398711678434
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 1,
+              "optical_cover": 255,
+              "scan": 22,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 14
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 9208.744362127465,
+          "mean_case_per_source_s": 657.7674544376761,
+          "pooled_per_source_s": 657.7674544376761,
+          "mean_runtime_s": 7.951747499988414,
+          "max_runtime_s": 7.951747499988414,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 600,
+            "clear_success": 70,
+            "measure": 1630,
+            "move": 6598.7443621274215,
+            "switch": 310
+          },
+          "mean_action_counts": {
+            "clear_fail": 200,
+            "clear_success": 14,
+            "measure": 326,
+            "switch": 310
+          },
+          "mean_trace_statistics": {
+            "event_count": 540,
+            "optical_plans": 13,
+            "planned_optical_path_points": 747,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 194.91416216182552,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 1,
+              "optical_cover": 213,
+              "scan": 306,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 4.506873954478116,
+              "optical_cover": 2074.56978610085,
+              "scan": 3338.8200213709288,
+              "shared_measure": 0.0,
+              "source_measure": 1180.847680701188
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 1,
+              "optical_cover": 213,
+              "scan": 22,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 14
+            }
+          }
+        },
+        "interleave": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 8565.68501124788,
+          "mean_case_per_source_s": 611.8346436605628,
+          "pooled_per_source_s": 611.8346436605628,
+          "mean_runtime_s": 6.910819000011543,
+          "max_runtime_s": 6.910819000011543,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 354,
+            "clear_success": 70,
+            "measure": 1825,
+            "move": 5966.685011247892,
+            "switch": 350
+          },
+          "mean_action_counts": {
+            "clear_fail": 118,
+            "clear_success": 14,
+            "measure": 365,
+            "switch": 350
+          },
+          "mean_trace_statistics": {
+            "event_count": 497,
+            "optical_plans": 11,
+            "planned_optical_path_points": 646,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 129,
+              "scan": 345,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 115.2736557525884,
+              "optical_cover": 1432.2475211580834,
+              "scan": 3275.28582952225,
+              "shared_measure": 0.0,
+              "source_measure": 1143.8780048149563
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 129,
+              "scan": 22,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 30
+            }
+          }
+        },
+        "opscan": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 14,
+          "mean_total_s": 8565.68501124788,
+          "mean_case_per_source_s": 611.8346436605628,
+          "pooled_per_source_s": 611.8346436605628,
+          "mean_runtime_s": 11.588514900009613,
+          "max_runtime_s": 11.588514900009613,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 354,
+            "clear_success": 70,
+            "measure": 1825,
+            "move": 5966.685011247892,
+            "switch": 350
+          },
+          "mean_action_counts": {
+            "clear_fail": 118,
+            "clear_success": 14,
+            "measure": 365,
+            "switch": 350
+          },
+          "mean_trace_statistics": {
+            "event_count": 497,
+            "optical_plans": 11,
+            "planned_optical_path_points": 646,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 132,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 14,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 129,
+              "scan": 345,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 115.2736557525884,
+              "optical_cover": 1432.2475211580834,
+              "scan": 3275.28582952225,
+              "shared_measure": 0.0,
+              "source_measure": 1143.8780048149563
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 129,
+              "scan": 22,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 30
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "cells": {
+          "reference": "baseline25",
+          "candidate": "cells",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 9173.557506388579,
+          "candidate_mean_total_s": 9750.512863866128,
+          "mean_saving_s": -576.9553574775491,
+          "relative_reduction_percent": -6.289330579502557,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 576.9553574775491,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 9750.512863866128,
+            "saving_s": -576.9553574775491,
+            "relative_reduction_percent": -6.289330579502557
+          },
+          "best_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 9750.512863866128,
+            "saving_s": -576.9553574775491,
+            "relative_reduction_percent": -6.289330579502557
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -240,
+            "clear_success": 0,
+            "measure": 70,
+            "move": -419.95535747757003,
+            "switch": 13
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 9173.557506388579,
+            "candidate_mean_total_s": 9750.512863866128,
+            "mean_saving_s": -576.9553574775491,
+            "relative_reduction_percent": -6.289330579502557,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21100,
+                "population": "boundary",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 9173.557506388579,
+                "candidate_mean_s": 9750.512863866128,
+                "saving_s": -576.9553574775491,
+                "relative_reduction_percent": -6.289330579502557
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21100,
+              "population": "boundary",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 9173.557506388579,
+              "candidate_s": 9750.512863866128,
+              "saving_s": -576.9553574775491,
+              "relative_reduction_percent": -6.289330579502557
+            }
+          ]
+        },
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 9173.557506388579,
+          "candidate_mean_total_s": 9208.744362127465,
+          "mean_saving_s": -35.18685573888615,
+          "relative_reduction_percent": -0.3835682690644452,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 35.18685573888615,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 9208.744362127465,
+            "saving_s": -35.18685573888615,
+            "relative_reduction_percent": -0.3835682690644452
+          },
+          "best_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 9208.744362127465,
+            "saving_s": -35.18685573888615,
+            "relative_reduction_percent": -0.3835682690644452
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -114,
+            "clear_success": 0,
+            "measure": 70,
+            "move": -4.186855738892518,
+            "switch": 13
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 9173.557506388579,
+            "candidate_mean_total_s": 9208.744362127465,
+            "mean_saving_s": -35.18685573888615,
+            "relative_reduction_percent": -0.3835682690644452,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21100,
+                "population": "boundary",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 9173.557506388579,
+                "candidate_mean_s": 9208.744362127465,
+                "saving_s": -35.18685573888615,
+                "relative_reduction_percent": -0.3835682690644452
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21100,
+              "population": "boundary",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 9173.557506388579,
+              "candidate_s": 9208.744362127465,
+              "saving_s": -35.18685573888615,
+              "relative_reduction_percent": -0.3835682690644452
+            }
+          ]
+        },
+        "interleave": {
+          "reference": "baseline25",
+          "candidate": "interleave",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 9173.557506388579,
+          "candidate_mean_total_s": 8565.68501124788,
+          "mean_saving_s": 607.8724951406984,
+          "relative_reduction_percent": 6.626355094164598,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 607.8724951406984,
+          "worst_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 8565.68501124788,
+            "saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598
+          },
+          "best_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 8565.68501124788,
+            "saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 132,
+            "clear_success": 0,
+            "measure": -125,
+            "move": 627.8724951406366,
+            "switch": -27
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 9173.557506388579,
+            "candidate_mean_total_s": 8565.68501124788,
+            "mean_saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21100,
+                "population": "boundary",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 9173.557506388579,
+                "candidate_mean_s": 8565.68501124788,
+                "saving_s": 607.8724951406984,
+                "relative_reduction_percent": 6.626355094164598
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21100,
+              "population": "boundary",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 9173.557506388579,
+              "candidate_s": 8565.68501124788,
+              "saving_s": 607.8724951406984,
+              "relative_reduction_percent": 6.626355094164598
+            }
+          ]
+        },
+        "opscan": {
+          "reference": "baseline25",
+          "candidate": "opscan",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 9173.557506388579,
+          "candidate_mean_total_s": 8565.68501124788,
+          "mean_saving_s": 607.8724951406984,
+          "relative_reduction_percent": 6.626355094164598,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 607.8724951406984,
+          "worst_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 8565.68501124788,
+            "saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598
+          },
+          "best_case": {
+            "seed": 21100,
+            "population": "boundary",
+            "field": "smooth",
+            "source_count": 14,
+            "reference_s": 9173.557506388579,
+            "candidate_s": 8565.68501124788,
+            "saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 132,
+            "clear_success": 0,
+            "measure": -125,
+            "move": 627.8724951406366,
+            "switch": -27
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 9173.557506388579,
+            "candidate_mean_total_s": 8565.68501124788,
+            "mean_saving_s": 607.8724951406984,
+            "relative_reduction_percent": 6.626355094164598,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21100,
+                "population": "boundary",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 9173.557506388579,
+                "candidate_mean_s": 8565.68501124788,
+                "saving_s": 607.8724951406984,
+                "relative_reduction_percent": 6.626355094164598
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21100,
+              "population": "boundary",
+              "field": "smooth",
+              "source_count": 14,
+              "reference_s": 9173.557506388579,
+              "candidate_s": 8565.68501124788,
+              "saving_s": 607.8724951406984,
+              "relative_reduction_percent": 6.626355094164598
+            }
+          ]
+        }
+      }
+    },
+    "cluster": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 4186.567200364565,
+          "mean_case_per_source_s": 261.6604500227853,
+          "pooled_per_source_s": 261.6604500227853,
+          "mean_runtime_s": 9.061784599995008,
+          "max_runtime_s": 9.061784599995008,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 219,
+            "clear_success": 80,
+            "measure": 665,
+            "move": 3095.5672003645586,
+            "switch": 127
+          },
+          "mean_action_counts": {
+            "clear_fail": 73,
+            "clear_success": 16,
+            "measure": 133,
+            "switch": 127
+          },
+          "mean_trace_statistics": {
+            "event_count": 222,
+            "optical_plans": 14,
+            "planned_optical_path_points": 233,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 52,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 2,
+              "optical_cover": 87,
+              "scan": 105,
+              "shared_measure": 15,
+              "source_measure": 13
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 91.17003026835371,
+              "optical_cover": 1003.8201674727269,
+              "scan": 1310.2455438744742,
+              "shared_measure": 0.0,
+              "source_measure": 690.3314587490121
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 2,
+              "optical_cover": 87,
+              "scan": 14,
+              "shared_measure": 9,
+              "source_measure": 13
+            },
+            "consecutive_scan_batches": {
+              "scan": 14
+            },
+            "task_choice_counts": {
+              "scan": 13,
+              "source": 16
+            }
+          }
+        },
+        "cells": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 2174.618210734191,
+          "mean_case_per_source_s": 135.91363817088694,
+          "pooled_per_source_s": 135.91363817088694,
+          "mean_runtime_s": 8.330296699976316,
+          "max_runtime_s": 8.330296699976316,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 51,
+            "clear_success": 80,
+            "measure": 280,
+            "move": 1713.6182107341908,
+            "switch": 50
+          },
+          "mean_action_counts": {
+            "clear_fail": 17,
+            "clear_success": 16,
+            "measure": 56,
+            "switch": 50
+          },
+          "mean_trace_statistics": {
+            "event_count": 89,
+            "optical_plans": 12,
+            "planned_optical_path_points": 150,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 12,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 29,
+              "scan": 36,
+              "shared_measure": 4,
+              "source_measure": 16
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 83.2691337336014,
+              "optical_cover": 578.0473342347955,
+              "scan": 301.4294379250345,
+              "shared_measure": 0.0,
+              "source_measure": 750.8723048407595
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 29,
+              "scan": 4,
+              "shared_measure": 2,
+              "source_measure": 16
+            },
+            "consecutive_scan_batches": {
+              "scan": 4
+            },
+            "task_choice_counts": {
+              "scan": 3,
+              "source": 16
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 2182.962889436442,
+          "mean_case_per_source_s": 136.43518058977762,
+          "pooled_per_source_s": 136.43518058977762,
+          "mean_runtime_s": 13.721539199992549,
+          "max_runtime_s": 13.721539199992549,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 48,
+            "clear_success": 80,
+            "measure": 295,
+            "move": 1708.9628894364425,
+            "switch": 51
+          },
+          "mean_action_counts": {
+            "clear_fail": 16,
+            "clear_success": 16,
+            "measure": 59,
+            "switch": 51
+          },
+          "mean_trace_statistics": {
+            "event_count": 91,
+            "optical_plans": 12,
+            "planned_optical_path_points": 149,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 12,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 28,
+              "scan": 36,
+              "shared_measure": 4,
+              "source_measure": 19
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 83.2691337336014,
+              "optical_cover": 558.2245501980615,
+              "scan": 306.00084148710346,
+              "shared_measure": 0.0,
+              "source_measure": 761.4683640176758
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 28,
+              "scan": 4,
+              "shared_measure": 2,
+              "source_measure": 19
+            },
+            "consecutive_scan_batches": {
+              "scan": 4
+            },
+            "task_choice_counts": {
+              "scan": 3,
+              "source": 16
+            }
+          }
+        },
+        "interleave": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 1868.1381964915597,
+          "mean_case_per_source_s": 116.75863728072248,
+          "pooled_per_source_s": 116.75863728072248,
+          "mean_runtime_s": 16.01300220002304,
+          "max_runtime_s": 16.01300220002304,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 21,
+            "clear_success": 80,
+            "measure": 315,
+            "move": 1395.1381964915595,
+            "switch": 57
+          },
+          "mean_action_counts": {
+            "clear_fail": 7,
+            "clear_success": 16,
+            "measure": 63,
+            "switch": 57
+          },
+          "mean_trace_statistics": {
+            "event_count": 86,
+            "optical_plans": 8,
+            "planned_optical_path_points": 126,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 12,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 8,
+              "optical_cover": 15,
+              "scan": 36,
+              "shared_measure": 4,
+              "source_measure": 23
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 109.7322836345237,
+              "optical_cover": 320.2583421878698,
+              "scan": 280.0865514858131,
+              "shared_measure": 0.0,
+              "source_measure": 685.0610191833532
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 8,
+              "optical_cover": 15,
+              "scan": 4,
+              "shared_measure": 2,
+              "source_measure": 23
+            },
+            "consecutive_scan_batches": {
+              "scan": 4
+            },
+            "task_choice_counts": {
+              "scan": 3,
+              "source": 39
+            }
+          }
+        },
+        "opscan": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 1868.1381964915597,
+          "mean_case_per_source_s": 116.75863728072248,
+          "pooled_per_source_s": 116.75863728072248,
+          "mean_runtime_s": 10.81929250000394,
+          "max_runtime_s": 10.81929250000394,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 21,
+            "clear_success": 80,
+            "measure": 315,
+            "move": 1395.1381964915595,
+            "switch": 57
+          },
+          "mean_action_counts": {
+            "clear_fail": 7,
+            "clear_success": 16,
+            "measure": 63,
+            "switch": 57
+          },
+          "mean_trace_statistics": {
+            "event_count": 86,
+            "optical_plans": 8,
+            "planned_optical_path_points": 126,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 12,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 8,
+              "optical_cover": 15,
+              "scan": 36,
+              "shared_measure": 4,
+              "source_measure": 23
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 109.7322836345237,
+              "optical_cover": 320.2583421878698,
+              "scan": 280.0865514858131,
+              "shared_measure": 0.0,
+              "source_measure": 685.0610191833532
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 8,
+              "optical_cover": 15,
+              "scan": 4,
+              "shared_measure": 2,
+              "source_measure": 23
+            },
+            "consecutive_scan_batches": {
+              "scan": 4
+            },
+            "task_choice_counts": {
+              "scan": 3,
+              "source": 39
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "cells": {
+          "reference": "baseline25",
+          "candidate": "cells",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 4186.567200364565,
+          "candidate_mean_total_s": 2174.618210734191,
+          "mean_saving_s": 2011.948989630374,
+          "relative_reduction_percent": 48.05724817829686,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 2011.948989630374,
+          "worst_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 2174.618210734191,
+            "saving_s": 2011.948989630374,
+            "relative_reduction_percent": 48.05724817829686
+          },
+          "best_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 2174.618210734191,
+            "saving_s": 2011.948989630374,
+            "relative_reduction_percent": 48.05724817829686
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 168,
+            "clear_success": 0,
+            "measure": 385,
+            "move": 1381.9489896303678,
+            "switch": 77
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 4186.567200364565,
+            "candidate_mean_total_s": 2174.618210734191,
+            "mean_saving_s": 2011.948989630374,
+            "relative_reduction_percent": 48.05724817829686,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21200,
+                "population": "cluster",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 4186.567200364565,
+                "candidate_mean_s": 2174.618210734191,
+                "saving_s": 2011.948989630374,
+                "relative_reduction_percent": 48.05724817829686
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21200,
+              "population": "cluster",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 4186.567200364565,
+              "candidate_s": 2174.618210734191,
+              "saving_s": 2011.948989630374,
+              "relative_reduction_percent": 48.05724817829686
+            }
+          ]
+        },
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 4186.567200364565,
+          "candidate_mean_total_s": 2182.962889436442,
+          "mean_saving_s": 2003.6043109281231,
+          "relative_reduction_percent": 47.857927868771576,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 2003.6043109281231,
+          "worst_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 2182.962889436442,
+            "saving_s": 2003.6043109281231,
+            "relative_reduction_percent": 47.857927868771576
+          },
+          "best_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 2182.962889436442,
+            "saving_s": 2003.6043109281231,
+            "relative_reduction_percent": 47.857927868771576
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 171,
+            "clear_success": 0,
+            "measure": 370,
+            "move": 1386.604310928116,
+            "switch": 76
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 4186.567200364565,
+            "candidate_mean_total_s": 2182.962889436442,
+            "mean_saving_s": 2003.6043109281231,
+            "relative_reduction_percent": 47.857927868771576,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21200,
+                "population": "cluster",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 4186.567200364565,
+                "candidate_mean_s": 2182.962889436442,
+                "saving_s": 2003.6043109281231,
+                "relative_reduction_percent": 47.857927868771576
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21200,
+              "population": "cluster",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 4186.567200364565,
+              "candidate_s": 2182.962889436442,
+              "saving_s": 2003.6043109281231,
+              "relative_reduction_percent": 47.857927868771576
+            }
+          ]
+        },
+        "interleave": {
+          "reference": "baseline25",
+          "candidate": "interleave",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 4186.567200364565,
+          "candidate_mean_total_s": 1868.1381964915597,
+          "mean_saving_s": 2318.429003873005,
+          "relative_reduction_percent": 55.377804604954555,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 2318.429003873005,
+          "worst_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 1868.1381964915597,
+            "saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555
+          },
+          "best_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 1868.1381964915597,
+            "saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 198,
+            "clear_success": 0,
+            "measure": 350,
+            "move": 1700.4290038729991,
+            "switch": 70
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 4186.567200364565,
+            "candidate_mean_total_s": 1868.1381964915597,
+            "mean_saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21200,
+                "population": "cluster",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 4186.567200364565,
+                "candidate_mean_s": 1868.1381964915597,
+                "saving_s": 2318.429003873005,
+                "relative_reduction_percent": 55.377804604954555
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21200,
+              "population": "cluster",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 4186.567200364565,
+              "candidate_s": 1868.1381964915597,
+              "saving_s": 2318.429003873005,
+              "relative_reduction_percent": 55.377804604954555
+            }
+          ]
+        },
+        "opscan": {
+          "reference": "baseline25",
+          "candidate": "opscan",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 4186.567200364565,
+          "candidate_mean_total_s": 1868.1381964915597,
+          "mean_saving_s": 2318.429003873005,
+          "relative_reduction_percent": 55.377804604954555,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 2318.429003873005,
+          "worst_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 1868.1381964915597,
+            "saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555
+          },
+          "best_case": {
+            "seed": 21200,
+            "population": "cluster",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 4186.567200364565,
+            "candidate_s": 1868.1381964915597,
+            "saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 198,
+            "clear_success": 0,
+            "measure": 350,
+            "move": 1700.4290038729991,
+            "switch": 70
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 4186.567200364565,
+            "candidate_mean_total_s": 1868.1381964915597,
+            "mean_saving_s": 2318.429003873005,
+            "relative_reduction_percent": 55.377804604954555,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21200,
+                "population": "cluster",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 4186.567200364565,
+                "candidate_mean_s": 1868.1381964915597,
+                "saving_s": 2318.429003873005,
+                "relative_reduction_percent": 55.377804604954555
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21200,
+              "population": "cluster",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 4186.567200364565,
+              "candidate_s": 1868.1381964915597,
+              "saving_s": 2318.429003873005,
+              "relative_reduction_percent": 55.377804604954555
+            }
+          ]
+        }
+      }
+    },
+    "omni_heavy": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 2990.6208013498117,
+          "mean_case_per_source_s": 186.91380008436323,
+          "pooled_per_source_s": 186.91380008436323,
+          "mean_runtime_s": 7.11720909998985,
+          "max_runtime_s": 7.11720909998985,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 15,
+            "clear_success": 80,
+            "measure": 310,
+            "move": 2529.620801349812,
+            "switch": 56
+          },
+          "mean_action_counts": {
+            "clear_fail": 5,
+            "clear_success": 16,
+            "measure": 62,
+            "switch": 56
+          },
+          "mean_trace_statistics": {
+            "event_count": 83,
+            "optical_plans": 6,
+            "planned_optical_path_points": 23,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 15,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 10,
+              "optical_cover": 11,
+              "scan": 38,
+              "shared_measure": 6,
+              "source_measure": 18
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 556.7699825202442,
+              "optical_cover": 411.50518439170094,
+              "scan": 215.5566351066273,
+              "shared_measure": 0.0,
+              "source_measure": 1345.78899933124
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 10,
+              "optical_cover": 11,
+              "scan": 4,
+              "shared_measure": 3,
+              "source_measure": 18
+            },
+            "consecutive_scan_batches": {
+              "scan": 4
+            },
+            "task_choice_counts": {
+              "scan": 3,
+              "source": 16
+            }
+          }
+        },
+        "cells": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 3473.4577686997904,
+          "mean_case_per_source_s": 217.0911105437369,
+          "pooled_per_source_s": 217.0911105437369,
+          "mean_runtime_s": 11.932414299983066,
+          "max_runtime_s": 11.932414299983066,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 15,
+            "clear_success": 80,
+            "measure": 470,
+            "move": 2818.457768699791,
+            "switch": 90
+          },
+          "mean_action_counts": {
+            "clear_fail": 5,
+            "clear_success": 16,
+            "measure": 94,
+            "switch": 90
+          },
+          "mean_trace_statistics": {
+            "event_count": 115,
+            "optical_plans": 12,
+            "planned_optical_path_points": 40,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 31,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 17,
+              "scan": 66,
+              "shared_measure": 14,
+              "source_measure": 14
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 138.6937858359022,
+              "optical_cover": 794.6879662538275,
+              "scan": 790.5408333181116,
+              "shared_measure": 0.0,
+              "source_measure": 1094.5351832919494
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 17,
+              "scan": 8,
+              "shared_measure": 7,
+              "source_measure": 14
+            },
+            "consecutive_scan_batches": {
+              "scan": 8
+            },
+            "task_choice_counts": {
+              "scan": 7,
+              "source": 16
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 3492.3167301640583,
+          "mean_case_per_source_s": 218.26979563525364,
+          "pooled_per_source_s": 218.26979563525364,
+          "mean_runtime_s": 17.10741309999139,
+          "max_runtime_s": 17.10741309999139,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 12,
+            "clear_success": 80,
+            "measure": 480,
+            "move": 2830.316730164058,
+            "switch": 90
+          },
+          "mean_action_counts": {
+            "clear_fail": 4,
+            "clear_success": 16,
+            "measure": 96,
+            "switch": 90
+          },
+          "mean_trace_statistics": {
+            "event_count": 116,
+            "optical_plans": 11,
+            "planned_optical_path_points": 36,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 31,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 5,
+              "optical_cover": 15,
+              "scan": 66,
+              "shared_measure": 14,
+              "source_measure": 16
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 162.23456391814824,
+              "optical_cover": 750.8962515105634,
+              "scan": 792.0833110213899,
+              "shared_measure": 0.0,
+              "source_measure": 1125.1026037139566
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5,
+              "optical_cover": 15,
+              "scan": 8,
+              "shared_measure": 7,
+              "source_measure": 16
+            },
+            "consecutive_scan_batches": {
+              "scan": 8
+            },
+            "task_choice_counts": {
+              "scan": 7,
+              "source": 16
+            }
+          }
+        },
+        "interleave": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 4074.7114563718296,
+          "mean_case_per_source_s": 254.66946602323935,
+          "pooled_per_source_s": 254.66946602323935,
+          "mean_runtime_s": 17.740510899981018,
+          "max_runtime_s": 17.740510899981018,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 18,
+            "clear_success": 80,
+            "measure": 625,
+            "move": 3228.711456371829,
+            "switch": 123
+          },
+          "mean_action_counts": {
+            "clear_fail": 6,
+            "clear_success": 16,
+            "measure": 125,
+            "switch": 123
+          },
+          "mean_trace_statistics": {
+            "event_count": 147,
+            "optical_plans": 13,
+            "planned_optical_path_points": 40,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 47,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 19,
+              "scan": 94,
+              "shared_measure": 18,
+              "source_measure": 13
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 243.08720546233448,
+              "optical_cover": 961.8162606625807,
+              "scan": 1337.0754475480956,
+              "shared_measure": 0.0,
+              "source_measure": 686.7325426988197
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 19,
+              "scan": 12,
+              "shared_measure": 10,
+              "source_measure": 12
+            },
+            "consecutive_scan_batches": {
+              "scan": 12
+            },
+            "task_choice_counts": {
+              "scan": 11,
+              "source": 29
+            }
+          }
+        },
+        "opscan": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 16,
+          "mean_total_s": 4074.7114563718296,
+          "mean_case_per_source_s": 254.66946602323935,
+          "pooled_per_source_s": 254.66946602323935,
+          "mean_runtime_s": 17.571968000003835,
+          "max_runtime_s": 17.571968000003835,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 18,
+            "clear_success": 80,
+            "measure": 625,
+            "move": 3228.711456371829,
+            "switch": 123
+          },
+          "mean_action_counts": {
+            "clear_fail": 6,
+            "clear_success": 16,
+            "measure": 125,
+            "switch": 123
+          },
+          "mean_trace_statistics": {
+            "event_count": 147,
+            "optical_plans": 13,
+            "planned_optical_path_points": 40,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 47,
+            "final_tail_after_last_success_s": 0.0,
+            "discovered_channels_from_positive_measurements": 16,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 19,
+              "scan": 94,
+              "shared_measure": 18,
+              "source_measure": 13
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 243.08720546233448,
+              "optical_cover": 961.8162606625807,
+              "scan": 1337.0754475480956,
+              "shared_measure": 0.0,
+              "source_measure": 686.7325426988197
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 19,
+              "scan": 12,
+              "shared_measure": 10,
+              "source_measure": 12
+            },
+            "consecutive_scan_batches": {
+              "scan": 12
+            },
+            "task_choice_counts": {
+              "scan": 11,
+              "source": 29
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "cells": {
+          "reference": "baseline25",
+          "candidate": "cells",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 2990.6208013498117,
+          "candidate_mean_total_s": 3473.4577686997904,
+          "mean_saving_s": -482.83696734997875,
+          "relative_reduction_percent": -16.145041428590716,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 482.83696734997875,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 3473.4577686997904,
+            "saving_s": -482.83696734997875,
+            "relative_reduction_percent": -16.145041428590716
+          },
+          "best_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 3473.4577686997904,
+            "saving_s": -482.83696734997875,
+            "relative_reduction_percent": -16.145041428590716
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 0,
+            "clear_success": 0,
+            "measure": -160,
+            "move": -288.83696734997875,
+            "switch": -34
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 2990.6208013498117,
+            "candidate_mean_total_s": 3473.4577686997904,
+            "mean_saving_s": -482.83696734997875,
+            "relative_reduction_percent": -16.145041428590716,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21300,
+                "population": "omni_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 2990.6208013498117,
+                "candidate_mean_s": 3473.4577686997904,
+                "saving_s": -482.83696734997875,
+                "relative_reduction_percent": -16.145041428590716
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21300,
+              "population": "omni_heavy",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 2990.6208013498117,
+              "candidate_s": 3473.4577686997904,
+              "saving_s": -482.83696734997875,
+              "relative_reduction_percent": -16.145041428590716
+            }
+          ]
+        },
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 2990.6208013498117,
+          "candidate_mean_total_s": 3492.3167301640583,
+          "mean_saving_s": -501.6959288142466,
+          "relative_reduction_percent": -16.775644996109403,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 501.6959288142466,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 3492.3167301640583,
+            "saving_s": -501.6959288142466,
+            "relative_reduction_percent": -16.775644996109403
+          },
+          "best_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 3492.3167301640583,
+            "saving_s": -501.6959288142466,
+            "relative_reduction_percent": -16.775644996109403
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": 3,
+            "clear_success": 0,
+            "measure": -170,
+            "move": -300.6959288142457,
+            "switch": -34
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 2990.6208013498117,
+            "candidate_mean_total_s": 3492.3167301640583,
+            "mean_saving_s": -501.6959288142466,
+            "relative_reduction_percent": -16.775644996109403,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21300,
+                "population": "omni_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 2990.6208013498117,
+                "candidate_mean_s": 3492.3167301640583,
+                "saving_s": -501.6959288142466,
+                "relative_reduction_percent": -16.775644996109403
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21300,
+              "population": "omni_heavy",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 2990.6208013498117,
+              "candidate_s": 3492.3167301640583,
+              "saving_s": -501.6959288142466,
+              "relative_reduction_percent": -16.775644996109403
+            }
+          ]
+        },
+        "interleave": {
+          "reference": "baseline25",
+          "candidate": "interleave",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 2990.6208013498117,
+          "candidate_mean_total_s": 4074.7114563718296,
+          "mean_saving_s": -1084.090655022018,
+          "relative_reduction_percent": -36.24968616993219,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 1084.090655022018,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 4074.7114563718296,
+            "saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219
+          },
+          "best_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 4074.7114563718296,
+            "saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -3,
+            "clear_success": 0,
+            "measure": -315,
+            "move": -699.090655022017,
+            "switch": -67
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 2990.6208013498117,
+            "candidate_mean_total_s": 4074.7114563718296,
+            "mean_saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21300,
+                "population": "omni_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 2990.6208013498117,
+                "candidate_mean_s": 4074.7114563718296,
+                "saving_s": -1084.090655022018,
+                "relative_reduction_percent": -36.24968616993219
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21300,
+              "population": "omni_heavy",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 2990.6208013498117,
+              "candidate_s": 4074.7114563718296,
+              "saving_s": -1084.090655022018,
+              "relative_reduction_percent": -36.24968616993219
+            }
+          ]
+        },
+        "opscan": {
+          "reference": "baseline25",
+          "candidate": "opscan",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 2990.6208013498117,
+          "candidate_mean_total_s": 4074.7114563718296,
+          "mean_saving_s": -1084.090655022018,
+          "relative_reduction_percent": -36.24968616993219,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 1084.090655022018,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 4074.7114563718296,
+            "saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219
+          },
+          "best_case": {
+            "seed": 21300,
+            "population": "omni_heavy",
+            "field": "smooth",
+            "source_count": 16,
+            "reference_s": 2990.6208013498117,
+            "candidate_s": 4074.7114563718296,
+            "saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -3,
+            "clear_success": 0,
+            "measure": -315,
+            "move": -699.090655022017,
+            "switch": -67
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 2990.6208013498117,
+            "candidate_mean_total_s": 4074.7114563718296,
+            "mean_saving_s": -1084.090655022018,
+            "relative_reduction_percent": -36.24968616993219,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21300,
+                "population": "omni_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 2990.6208013498117,
+                "candidate_mean_s": 4074.7114563718296,
+                "saving_s": -1084.090655022018,
+                "relative_reduction_percent": -36.24968616993219
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21300,
+              "population": "omni_heavy",
+              "field": "smooth",
+              "source_count": 16,
+              "reference_s": 2990.6208013498117,
+              "candidate_s": 4074.7114563718296,
+              "saving_s": -1084.090655022018,
+              "relative_reduction_percent": -36.24968616993219
+            }
+          ]
+        }
+      }
+    },
+    "dir_heavy": {
+      "groups": {
+        "baseline25": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6280.719199699402,
+          "mean_case_per_source_s": 570.9744726999456,
+          "pooled_per_source_s": 570.9744726999456,
+          "mean_runtime_s": 6.754430800006958,
+          "max_runtime_s": 6.754430800006958,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 6,
+            "clear_success": 55,
+            "measure": 1595,
+            "move": 4318.719199699404,
+            "switch": 306
+          },
+          "mean_action_counts": {
+            "clear_fail": 2,
+            "clear_success": 11,
+            "measure": 319,
+            "switch": 306
+          },
+          "mean_trace_statistics": {
+            "event_count": 332,
+            "optical_plans": 6,
+            "planned_optical_path_points": 18,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 225,
+            "final_tail_after_last_success_s": 605.8492185298792,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 5,
+              "optical_cover": 8,
+              "scan": 298,
+              "shared_measure": 14,
+              "source_measure": 7
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 190.1599551672602,
+              "optical_cover": 503.89767421805755,
+              "scan": 2969.432979773488,
+              "shared_measure": 0.0,
+              "source_measure": 655.2285905405994
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 5,
+              "optical_cover": 8,
+              "scan": 25,
+              "shared_measure": 11,
+              "source_measure": 7
+            },
+            "consecutive_scan_batches": {
+              "scan": 25
+            },
+            "task_choice_counts": {
+              "scan": 24,
+              "source": 11
+            }
+          }
+        },
+        "cells": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6099.848478273092,
+          "mean_case_per_source_s": 554.5316798430084,
+          "pooled_per_source_s": 554.5316798430084,
+          "mean_runtime_s": 9.514933999977075,
+          "max_runtime_s": 9.514933999977075,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 24,
+            "clear_success": 55,
+            "measure": 1375,
+            "move": 4387.848478273093,
+            "switch": 258
+          },
+          "mean_action_counts": {
+            "clear_fail": 8,
+            "clear_success": 11,
+            "measure": 275,
+            "switch": 258
+          },
+          "mean_trace_statistics": {
+            "event_count": 294,
+            "optical_plans": 8,
+            "planned_optical_path_points": 31,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 198,
+            "final_tail_after_last_success_s": 1372.6473394931636,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 16,
+              "scan": 256,
+              "shared_measure": 7,
+              "source_measure": 12
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 30.61561852076988,
+              "optical_cover": 544.8274018240518,
+              "scan": 2879.3967543449817,
+              "shared_measure": 0.0,
+              "source_measure": 933.0087035832897
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 16,
+              "scan": 22,
+              "shared_measure": 6,
+              "source_measure": 12
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 11
+            }
+          }
+        },
+        "context": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6089.816752955693,
+          "mean_case_per_source_s": 553.6197048141539,
+          "pooled_per_source_s": 553.6197048141539,
+          "mean_runtime_s": 11.2553532999882,
+          "max_runtime_s": 11.2553532999882,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 18,
+            "clear_success": 55,
+            "measure": 1370,
+            "move": 4388.816752955693,
+            "switch": 258
+          },
+          "mean_action_counts": {
+            "clear_fail": 6,
+            "clear_success": 11,
+            "measure": 274,
+            "switch": 258
+          },
+          "mean_trace_statistics": {
+            "event_count": 291,
+            "optical_plans": 8,
+            "planned_optical_path_points": 28,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 198,
+            "final_tail_after_last_success_s": 1372.6473394931636,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 3,
+              "optical_cover": 14,
+              "scan": 256,
+              "shared_measure": 7,
+              "source_measure": 11
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 42.5967569885282,
+              "optical_cover": 573.043307801221,
+              "scan": 2879.4894695628236,
+              "shared_measure": 0.0,
+              "source_measure": 893.6872186031208
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 3,
+              "optical_cover": 14,
+              "scan": 22,
+              "shared_measure": 6,
+              "source_measure": 11
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 11
+            }
+          }
+        },
+        "interleave": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6565.163650189838,
+          "mean_case_per_source_s": 596.8330591081672,
+          "pooled_per_source_s": 596.8330591081672,
+          "mean_runtime_s": 7.4890574000019114,
+          "max_runtime_s": 7.4890574000019114,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 150,
+            "clear_success": 55,
+            "measure": 1390,
+            "move": 4704.16365018984,
+            "switch": 266
+          },
+          "mean_action_counts": {
+            "clear_fail": 50,
+            "clear_success": 11,
+            "measure": 278,
+            "switch": 266
+          },
+          "mean_trace_statistics": {
+            "event_count": 339,
+            "optical_plans": 7,
+            "planned_optical_path_points": 132,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 198,
+            "final_tail_after_last_success_s": 424.7058791517102,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 57,
+              "scan": 257,
+              "shared_measure": 15,
+              "source_measure": 6
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 369.94413338904997,
+              "optical_cover": 957.0297913468319,
+              "scan": 2751.4499051733465,
+              "shared_measure": 0.0,
+              "source_measure": 625.739820280611
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 57,
+              "scan": 22,
+              "shared_measure": 10,
+              "source_measure": 6
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 17
+            }
+          }
+        },
+        "opscan": {
+          "conditions": 1,
+          "independent_layouts": 1,
+          "source_instances": 11,
+          "mean_total_s": 6565.163650189838,
+          "mean_case_per_source_s": 596.8330591081672,
+          "pooled_per_source_s": 596.8330591081672,
+          "mean_runtime_s": 8.768663099996047,
+          "max_runtime_s": 8.768663099996047,
+          "audit_passes": 1,
+          "all_cleared_runs": 1,
+          "raw_event_full_clear_runs": 1,
+          "solver_complete_runs": 1,
+          "mean_time_parts_s": {
+            "clear_fail": 150,
+            "clear_success": 55,
+            "measure": 1390,
+            "move": 4704.16365018984,
+            "switch": 266
+          },
+          "mean_action_counts": {
+            "clear_fail": 50,
+            "clear_success": 11,
+            "measure": 278,
+            "switch": 266
+          },
+          "mean_trace_statistics": {
+            "event_count": 339,
+            "optical_plans": 7,
+            "planned_optical_path_points": 132,
+            "opportunity_predictions": 0,
+            "predicted_station_removals_sum": 0,
+            "distinct_predicted_station_indices": 0,
+            "measured_absent_channels": 198,
+            "final_tail_after_last_success_s": 424.7058791517102,
+            "discovered_channels_from_positive_measurements": 11,
+            "action_reason_counts": {
+              "certified_clear": 4,
+              "optical_cover": 57,
+              "scan": 257,
+              "shared_measure": 15,
+              "source_measure": 6
+            },
+            "movement_s_by_action_reason": {
+              "certified_clear": 369.94413338904997,
+              "optical_cover": 957.0297913468319,
+              "scan": 2751.4499051733465,
+              "shared_measure": 0.0,
+              "source_measure": 625.739820280611
+            },
+            "distinct_positions_by_reason": {
+              "certified_clear": 4,
+              "optical_cover": 57,
+              "scan": 22,
+              "shared_measure": 10,
+              "source_measure": 6
+            },
+            "consecutive_scan_batches": {
+              "scan": 22
+            },
+            "task_choice_counts": {
+              "scan": 21,
+              "source": 17
+            }
+          }
+        }
+      },
+      "comparisons": {
+        "cells": {
+          "reference": "baseline25",
+          "candidate": "cells",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6280.719199699402,
+          "candidate_mean_total_s": 6099.848478273092,
+          "mean_saving_s": 180.8707214263104,
+          "relative_reduction_percent": 2.879777230527468,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 180.8707214263104,
+          "worst_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6099.848478273092,
+            "saving_s": 180.8707214263104,
+            "relative_reduction_percent": 2.879777230527468
+          },
+          "best_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6099.848478273092,
+            "saving_s": 180.8707214263104,
+            "relative_reduction_percent": 2.879777230527468
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -18,
+            "clear_success": 0,
+            "measure": 220,
+            "move": -69.12927857368868,
+            "switch": 48
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6280.719199699402,
+            "candidate_mean_total_s": 6099.848478273092,
+            "mean_saving_s": 180.8707214263104,
+            "relative_reduction_percent": 2.879777230527468,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21400,
+                "population": "dir_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6280.719199699402,
+                "candidate_mean_s": 6099.848478273092,
+                "saving_s": 180.8707214263104,
+                "relative_reduction_percent": 2.879777230527468
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21400,
+              "population": "dir_heavy",
+              "field": "smooth",
+              "source_count": 11,
+              "reference_s": 6280.719199699402,
+              "candidate_s": 6099.848478273092,
+              "saving_s": 180.8707214263104,
+              "relative_reduction_percent": 2.879777230527468
+            }
+          ]
+        },
+        "context": {
+          "reference": "baseline25",
+          "candidate": "context",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6280.719199699402,
+          "candidate_mean_total_s": 6089.816752955693,
+          "mean_saving_s": 190.90244674370933,
+          "relative_reduction_percent": 3.0394997877447856,
+          "condition_outcomes": {
+            "win": 1,
+            "tie": 0,
+            "loss": 0
+          },
+          "worst_regression_s": 0.0,
+          "largest_improvement_s": 190.90244674370933,
+          "worst_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6089.816752955693,
+            "saving_s": 190.90244674370933,
+            "relative_reduction_percent": 3.0394997877447856
+          },
+          "best_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6089.816752955693,
+            "saving_s": 190.90244674370933,
+            "relative_reduction_percent": 3.0394997877447856
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -12,
+            "clear_success": 0,
+            "measure": 225,
+            "move": -70.09755325628885,
+            "switch": 48
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6280.719199699402,
+            "candidate_mean_total_s": 6089.816752955693,
+            "mean_saving_s": 190.90244674370933,
+            "relative_reduction_percent": 3.0394997877447856,
+            "outcomes": {
+              "win": 1,
+              "tie": 0,
+              "loss": 0
+            },
+            "records": [
+              {
+                "seed": 21400,
+                "population": "dir_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6280.719199699402,
+                "candidate_mean_s": 6089.816752955693,
+                "saving_s": 190.90244674370933,
+                "relative_reduction_percent": 3.0394997877447856
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21400,
+              "population": "dir_heavy",
+              "field": "smooth",
+              "source_count": 11,
+              "reference_s": 6280.719199699402,
+              "candidate_s": 6089.816752955693,
+              "saving_s": 190.90244674370933,
+              "relative_reduction_percent": 3.0394997877447856
+            }
+          ]
+        },
+        "interleave": {
+          "reference": "baseline25",
+          "candidate": "interleave",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6280.719199699402,
+          "candidate_mean_total_s": 6565.163650189838,
+          "mean_saving_s": -284.4444504904359,
+          "relative_reduction_percent": -4.528851576489035,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 284.4444504904359,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6565.163650189838,
+            "saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035
+          },
+          "best_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6565.163650189838,
+            "saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -144,
+            "clear_success": 0,
+            "measure": 205,
+            "move": -385.4444504904359,
+            "switch": 40
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6280.719199699402,
+            "candidate_mean_total_s": 6565.163650189838,
+            "mean_saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21400,
+                "population": "dir_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6280.719199699402,
+                "candidate_mean_s": 6565.163650189838,
+                "saving_s": -284.4444504904359,
+                "relative_reduction_percent": -4.528851576489035
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21400,
+              "population": "dir_heavy",
+              "field": "smooth",
+              "source_count": 11,
+              "reference_s": 6280.719199699402,
+              "candidate_s": 6565.163650189838,
+              "saving_s": -284.4444504904359,
+              "relative_reduction_percent": -4.528851576489035
+            }
+          ]
+        },
+        "opscan": {
+          "reference": "baseline25",
+          "candidate": "opscan",
+          "paired_conditions": 1,
+          "independent_layouts": 1,
+          "reference_mean_total_s": 6280.719199699402,
+          "candidate_mean_total_s": 6565.163650189838,
+          "mean_saving_s": -284.4444504904359,
+          "relative_reduction_percent": -4.528851576489035,
+          "condition_outcomes": {
+            "win": 0,
+            "tie": 0,
+            "loss": 1
+          },
+          "worst_regression_s": 284.4444504904359,
+          "largest_improvement_s": 0.0,
+          "worst_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6565.163650189838,
+            "saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035
+          },
+          "best_case": {
+            "seed": 21400,
+            "population": "dir_heavy",
+            "field": "smooth",
+            "source_count": 11,
+            "reference_s": 6280.719199699402,
+            "candidate_s": 6565.163650189838,
+            "saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035
+          },
+          "mean_time_part_savings_s": {
+            "clear_fail": -144,
+            "clear_success": 0,
+            "measure": 205,
+            "move": -385.4444504904359,
+            "switch": 40
+          },
+          "layout_aggregated": {
+            "reference_mean_total_s": 6280.719199699402,
+            "candidate_mean_total_s": 6565.163650189838,
+            "mean_saving_s": -284.4444504904359,
+            "relative_reduction_percent": -4.528851576489035,
+            "outcomes": {
+              "win": 0,
+              "tie": 0,
+              "loss": 1
+            },
+            "records": [
+              {
+                "seed": 21400,
+                "population": "dir_heavy",
+                "fields": [
+                  "smooth"
+                ],
+                "reference_mean_s": 6280.719199699402,
+                "candidate_mean_s": 6565.163650189838,
+                "saving_s": -284.4444504904359,
+                "relative_reduction_percent": -4.528851576489035
+              }
+            ]
+          },
+          "condition_records": [
+            {
+              "seed": 21400,
+              "population": "dir_heavy",
+              "field": "smooth",
+              "source_count": 11,
+              "reference_s": 6280.719199699402,
+              "candidate_s": 6565.163650189838,
+              "saving_s": -284.4444504904359,
+              "relative_reduction_percent": -4.528851576489035
+            }
+          ]
+        }
+      }
+    }
+  },
+  "interpretation": {
+    "gain_sign": "Positive savings mean reference minus candidate.",
+    "pooled_per_source": "Sum of whole-task times divided by sum of source counts; not the mean of case averages.",
+    "independence": "Error fields on one (seed, population) source layout are paired repetitions. Layout comparisons average fields first; no independent-sample uncertainty claim is made.",
+    "incremental": "Adjacent-variant differences are empirical marginal effects in this fixed order; interactions prevent treating them as universal independent benefits.",
+    "movement": "Movement is attributed to the following actual action reason; scan movement can include travel departing a cleared source.",
+    "stations": "Distinct positions and contiguous scan batches are observed; they are not a proof that a fixed station was eliminated.",
+    "opportunity": "Predicted station removals describe the all-negative design scenario, not proven actual or counterfactual savings.",
+    "optical": "Planned optical points include unused suffixes after success; actual optical actions are counted separately.",
+    "audit": "Stored independent audit flags are checked, not recomputed; event counts and time accounting are rechecked without importing a solver."
+  },
+  "provenance": {
+    "input_metadata_sha256": {
+      "manifest.json": "b1a1afe45273c1411f0855552d06abdd54c4fef326033b1b96fb678e09f97db1",
+      "rows.json": "070e3006e4d9cc0dc9b7515d3f694fb772190a63c03e0558657c947d64c6e2a4",
+      "summary.json": "6f18b50228b576b45a8fa1713ea372afd734c2a94a6a153ae7507ae75c2ae0d6"
+    },
+    "raw_case_sha256": {
+      "21000-uniform-smooth-baseline25.json": "29fc096cb7c30197f8d349086654d0ac1f74663c6c67b3fb576b6be91ff4d4ee",
+      "21000-uniform-smooth-cells.json": "02b349315c730bf0e63740fa6cf8f35874c7bc4e784fec3dc4a5d0a28e3882ca",
+      "21000-uniform-smooth-context.json": "8c80a98f157924b1d60c5619942d4ca21af2b0d4982bc8cc4f5d34ee66403da3",
+      "21000-uniform-smooth-interleave.json": "4e8dd7596aaf329a3c91eee45992936769bec0d9ccbb96756e16485003965d95",
+      "21000-uniform-smooth-opscan.json": "dbf1af8e670212b7945aa442b555a44d8554b4be1b742c0615cd892be2feaccf",
+      "21100-boundary-smooth-baseline25.json": "0b75b16353f1bbda63c440165eab4bdae5734dbedf50c5b3a6c6ba472ba339ff",
+      "21100-boundary-smooth-cells.json": "6d5a0dede46d73376738920112739572af4b60286ac7bb8d22faa0e778633913",
+      "21100-boundary-smooth-context.json": "3c9a4f25abbf23edca3874d7835f54d2790c8692eb1a41f6f89bda81ea67b68c",
+      "21100-boundary-smooth-interleave.json": "bc77c35b32b996ea42a57039f33cc1c96d6d611f109c0f43bf3da838125a436d",
+      "21100-boundary-smooth-opscan.json": "fefcee4e0b1040a984eb89b4d1ee12d48691b6e0381e27afbe70a92de3e2d373",
+      "21200-cluster-smooth-baseline25.json": "7de24389fde174ae506e393a1da639d433e826a64e46f9551360a2594edd8627",
+      "21200-cluster-smooth-cells.json": "12afe7acd8eba0c20d81b9e9e5711d1500f2b32fbfa0dc18fa80eb06fb6edd4e",
+      "21200-cluster-smooth-context.json": "a9c9cdb7471e3233ae4ee6bcda2cd62e0efd64ed0d8a5141e1e58be6b45df122",
+      "21200-cluster-smooth-interleave.json": "ed05f70d0a29313c4de767a159cb9058e66ec0f5c1d30a57a9d8304e5e123e5a",
+      "21200-cluster-smooth-opscan.json": "0471fe3acbd653018c702f1ab8d1c55116ac4368a167f3faa2c581668245303f",
+      "21300-omni_heavy-smooth-baseline25.json": "91a97111fa166ad17e94ea91f8f5a17c9592433f1df9b6865c0482b5eaa90fdf",
+      "21300-omni_heavy-smooth-cells.json": "ac5f91831b298fa7645e54ba36033eac29e91696221d1b966af1b9722b210b80",
+      "21300-omni_heavy-smooth-context.json": "af19148187da6cbd2b327ab640881a52a52617dd4bad22cc3a7e06fe861be011",
+      "21300-omni_heavy-smooth-interleave.json": "fdfcb00fdfef3e0604945c6a7c7e009f41a171a56e80b7670074166e57832e7b",
+      "21300-omni_heavy-smooth-opscan.json": "f6a7e55b74305c3a0c3e1a6b1af0cb1d02c8573e035262fb00fe0f70eb6b5301",
+      "21400-dir_heavy-smooth-baseline25.json": "3f2deb45c06b538654a09726bee966f0d941af564a3e3d9fdfa56ddc26bce5a5",
+      "21400-dir_heavy-smooth-cells.json": "bb1b2e002145801b0f8d539b783bd8fc05ebe518953fc835b9aa715406413b22",
+      "21400-dir_heavy-smooth-context.json": "71d4250db0fca2d2808b6cb40fb83882e589ffbbe30dfb8f0080b56746ea2639",
+      "21400-dir_heavy-smooth-interleave.json": "43605171150a55531e81caca5f6908fb64f1501289fccfa482dac0e618b44553",
+      "21400-dir_heavy-smooth-opscan.json": "215f96244a0ae5c4cc71a24f2e7938d1cace1d4d9b19c6ec0ed42c373e31e3b6"
+    },
+    "solver_code_hashes": {
+      "q4_model/benchmark.py": "e1a22e5ea698071d6ca16f7ab304a15987a1647af1bce67e303ad5d042b47059",
+      "q4_model/benchmark_cells.py": "0e47247b60e8458b591e9ba591aa29d8d17d59b84c1725857e75c2774f8c7d12",
+      "q4_model/benchmark_joint.py": "727565ebc9c30d37681bb0b544d0426654a44fc17e40af831a81e8c7b05bf7cb",
+      "q4_model/cell_cover.py": "b9ee11a3f9c22bb1966a5563ecb35f662d586958193af17478add9ee80951949",
+      "q4_model/cell_solver.py": "56c98c7dc93df2a617cabe12064291efc4a329d40f5c07dabb30f7c36af6beb6",
+      "q4_model/cell_validation.py": "afa43131b4ed241ff3a36cbb3dfb30398ef9219fb33df941a766460088ad800e",
+      "q4_model/context_policy.py": "1ce20666878ae827223dc6bcff1f2b371bf794e34cbf1d4a047f4d6385dbb944",
+      "q4_model/directional_cover.py": "2cd47c80d64d0bfdaa9a6446f1ad31b32cc63dd704d5df1a1fce7ea75b5da1bd",
+      "q4_model/guarded_policy.py": "bcf44a781f8bdc510aaedef304b0cd455db714789e35d9d98ae29de5e915abf0",
+      "q4_model/joint_solver.py": "8ba8f79b19e1f0284ec810dcf96909df9644d7a2d92f38b1b32fbaff234cfc85",
+      "q4_model/localization.py": "ee5e893a2ee2f03a05464fe3c482534922dec88c64bd5c3400a920e2407588b1",
+      "q4_model/polar_cover.py": "84d8d90a2ba397ab12756b13fcabd2386a6f0435c71943a1c58f224ace948bbd",
+      "q4_model/route_planning.py": "e4744817bc36465f02cd5f20c4483751d36c4451e452988a43e898c6db11b5f5",
+      "q4_model/shared.py": "1eae4afef558b0b2a9fb002930aefdb278fbddce49ee6d8ddf338fea85f42970",
+      "q4_model/solver.py": "1290fc12cfcb12741b18f3772c4a08fdb8fd876505506f7fd1161dfca36737ab",
+      "q4_model/validation.py": "c71dc304645d9128404fb942669449f00baa573e530c1abdcea1502ca003c756",
+      "q3_model_v2/geometry.py": "a313aa8decb579048e46f1d946d902f722cd9f35e6ea4cab26cac23d438ad311",
+      "q3_model_v2/environment.py": "46ae3247bf248eeca7b315e82c890860aea1d63edeb32607796d8cfd7de9085e",
+      "q4_model/results/coverage_probe_400/certificate-22-990.json": "29e52deef3efda2b39b2673677c766897f3537a81da2031ee395cec01163090a",
+      "q4_model/results/coverage_probe_400/independent_exact_audit.py": "51d81e35fe067899ac6110eddd647d3c9835a7f2c44000ab7d4b2c0f28df6e8d"
+    },
+    "analysis_script_sha256": "6157456022c99c4304de13dc4c8bce9c1d62ddc586104f15f8933327109abba8",
+    "local_only": true,
+    "official_simulator_used": false
+  }
+}
