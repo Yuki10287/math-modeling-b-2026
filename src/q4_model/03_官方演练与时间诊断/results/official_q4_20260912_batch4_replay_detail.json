@@ -1,0 +1,41 @@
+{
+  "strict": false,
+  "strict_failure": {
+    "consumed_actions": 185,
+    "detail": "(185, array([ -931.74861413, -1613.83593956]), [-3.423188873723455e-13, -1863.4972282657675])"
+  },
+  "consumed_actions": 318,
+  "equivalent_route_reversals": [
+    {
+      "event": 186,
+      "original_first_point": [
+        -931.7486141328845,
+        -1613.8359395600432
+      ],
+      "logged_first_point": [
+        -3.423188873723455e-13,
+        -1863.4972282657675
+      ],
+      "forward_length_m": 12295.193325049113,
+      "reverse_length_m": 12295.193325049115,
+      "absolute_difference_m": 1.8189894035458565e-12
+    },
+    {
+      "event": 197,
+      "original_first_point": [
+        -931.7486141328845,
+        -1613.8359395600432
+      ],
+      "logged_first_point": [
+        931.748614132884,
+        -1613.8359395600435
+      ],
+      "forward_length_m": 11326.574861589843,
+      "reverse_length_m": 11326.574861589843,
+      "absolute_difference_m": 0.0
+    }
+  ],
+  "note": "Replay conditions only equal-cost route reversals on the logged choice; it is not a strict deterministic replay.",
+  "trace_and_certificate_match": true,
+  "official_simulator_contacted": false
+}

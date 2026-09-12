@@ -4,7 +4,7 @@ Does not infer an official source total from the client's own completion flag.
 Reads ZIP members in memory; output excludes identity and request identifiers.
 """
 import argparse
-from collections import Counter, defaultdict
+from collections import Counter
 import hashlib
 import json
 from pathlib import Path
@@ -157,6 +157,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--zip', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
+    parser.add_argument('--source-counts', type=int, nargs='+')
+    parser.add_argument('--omni-counts', type=int, nargs='+')
+    parser.add_argument('--directional-counts', type=int, nargs='+')
     args = parser.parse_args()
     if args.output.exists():
         raise FileExistsError(args.output)
@@ -167,6 +170,15 @@ def main():
             case = analyze_member(z, name, paths, legacy)
             cases.append(case)
             print(json.dumps({k:case[k] for k in ('case','variant','total_s','cleared','average_s','replay_audit')}, ensure_ascii=False), flush=True)
+    if args.source_counts is not None:
+        assert len(args.source_counts) == len(cases)
+        assert args.omni_counts is not None and args.directional_counts is not None
+        assert len(args.omni_counts) == len(args.directional_counts) == len(cases)
+        for case, n, o, d in zip(cases, args.source_counts, args.omni_counts, args.directional_counts):
+            assert n == o+d == case['cleared']
+            case.update(official_source_total=n, official_type_composition=dict(omni=o,directional=d),
+                        all_cleared_against_user_total=True,
+                        source_total_provenance='User transcribed official source totals; original sheet not supplied.')
     total = sum(r['total_s'] for r in cases)
     cleared = sum(r['cleared'] for r in cases)
     counts = dict(sum((Counter(r['counts']) for r in cases), Counter()))
@@ -183,6 +195,9 @@ def main():
         mean_fixed_station_and_observed_fees_floor_s=float(np.mean([r['fixed_station_and_observed_fees_floor_s'] for r in cases])),
         target5000_required_reduction_pct=100*(1-5000*len(cases)/total),
         target5000_mean_gap_s=total/len(cases)-5000)
+    if args.source_counts is not None:
+        aggregate.update(user_total_sources=sum(args.source_counts), omni=sum(args.omni_counts),
+                         directional=sum(args.directional_counts), all_cleared_against_user_total=True)
     old_path = paths['src/q4_model/results/official_q4_20260911_analysis.json']
     old = json.loads(old_path.read_text(encoding='utf-8-sig'))['aggregate']
     report = dict(archive_name=args.zip.name, archive_sha256=sha(args.zip.read_bytes()),
@@ -190,7 +205,9 @@ def main():
         official_simulator_contacted=False, original_solver_modified=False,
         cases=cases, aggregate=aggregate, previous_batch=dict(input_sha256=sha(old_path.read_bytes()),
         runs=old['runs'], mean_total_s=old['mean_total_s'], pooled_average_s=old['pooled_average_s']),
-        limitations=['Official total counts and type composition not supplied; successful clear count is not independent ground truth.',
+        limitations=[('Official totals and types supplied by user; original result sheet not independently inspected.'
+                      if args.source_counts is not None else
+                      'Official total counts and type composition not supplied; successful clear count is not independent ground truth.'),
         'Completion certificates audited from actual saved feedback under the problem assumptions.',
         'No true source locations, official result sheet or encrypted official activity log supplied.',
         'Different official layouts are not a paired experiment. All four records are shared, not share25.',

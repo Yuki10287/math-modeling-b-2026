@@ -1,0 +1,61 @@
+{
+  "scope": "Integrate completed Q4 shared batch of four saved official practice records",
+  "official_simulator_contacted": false,
+  "solver_modified_for_organization": false,
+  "archive_sha256": "9a3e696bb8458e29f1e5cd99e5875227ad41b470406e38ef611c621bb076e85b",
+  "analysis": {
+    "saved_file": "official_q4_20260912_batch4_analysis.json",
+    "saved_sha256": "1f9c6206971f584db2f4292664920f61a10292d0493e8118e012c93bf8a2236e",
+    "reproduced_sha256": "1f9c6206971f584db2f4292664920f61a10292d0493e8118e012c93bf8a2236e",
+    "bytes_identical": true,
+    "source_sha256": "6ad9549813fb6ecb4f24d7c6e2fca76c2786836d898df2580f7ba6471ef9eee1",
+    "invocation": "tools/run_study.py q4_official --script analyze_official_archive.py -- --zip <saved zip> --source-counts 13 11 15 11 --omni-counts 5 1 1 7 --directional-counts 8 10 14 4 --output <new file>"
+  },
+  "replay": {
+    "saved_file": "official_q4_20260912_batch4_replay_detail.json",
+    "saved_sha256": "7c12b2270ce83ca5678281dfa2c96d291cc6e84c01f0d33015c7cb0cc55e1714",
+    "reproduced_sha256": "7c12b2270ce83ca5678281dfa2c96d291cc6e84c01f0d33015c7cb0cc55e1714",
+    "all_fields_identical": true,
+    "consumed_actions": 318,
+    "strict": false,
+    "equivalent_route_reversals": 2,
+    "reusable_source_sha256": "6f10c641a9fa8565ef54d600473dc03105c0d30c578d647771ef3c0733a9cf37",
+    "historical_source_sha256": "d4e6725b7df4893741ae917398f3b7257fd0871212cc54975f5818a2a68e1f9a",
+    "historical_source_bytes_preserved": true,
+    "invocation": "tools/run_study.py q4_official --script replay_fourth.py -- --zip <saved zip> --analysis <saved batch analysis> --case q4-practice-04 --output <new file>"
+  },
+  "input_rejection_checks": {
+    "passed": 5,
+    "cases": [
+      "ZIP hash mismatch",
+      "session member hash mismatch",
+      "trace member hash mismatch",
+      "action count mismatch",
+      "existing output file"
+    ]
+  },
+  "frozen_files": {
+    "q3": 15,
+    "q4": 15,
+    "share25": 17,
+    "share25_evidence": 8
+  },
+  "frozen_failures": [],
+  "structure": {
+    "passed": true,
+    "local_only": true,
+    "official_simulator_contacted": false,
+    "studies": 17,
+    "mapped_files": 2624,
+    "document_links": 734,
+    "frozen_files": {
+      "q3": 15,
+      "q4": 15,
+      "share25": 17,
+      "share25_evidence": 8
+    },
+    "additional_evidence_checks": 26,
+    "errors": []
+  },
+  "passed": true
+}

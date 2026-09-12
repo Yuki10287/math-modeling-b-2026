@@ -103,7 +103,7 @@
       "path": "src/q4_model/03_官方演练与时间诊断",
       "title": "第四问：官方演练与时间诊断",
       "status": "实测复盘",
-      "purpose": "五次官方结果、时间开销及400秒目标分析。",
+      "purpose": "两批shared官方记录（5次与4次）、时间开销及目标差距；含新批次回放诊断。",
       "logical_root": "src/q4_model"
     },
     "q4_cells": {
@@ -15817,6 +15817,54 @@
       "path": "src/q4_model/05_候选share25/code/legacy_project_entry/运行第四问候选.cmd",
       "study": "q4_share",
       "sha256": "a94169f59668045e58cab376cc1000721ef3fb3a5df8986947f52a767239f84e"
+    },
+    {
+      "logical": "src/q4_model/analyze_official_archive.py",
+      "path": "src/q4_model/03_官方演练与时间诊断/code/analyze_official_archive.py",
+      "study": "q4_official",
+      "sha256": "6ad9549813fb6ecb4f24d7c6e2fca76c2786836d898df2580f7ba6471ef9eee1",
+      "registration": "q4_batch4_added_after_initial_migration"
+    },
+    {
+      "logical": "src/q4_model/官方演练第四批结果分析.md",
+      "path": "src/q4_model/03_官方演练与时间诊断/reports/官方演练第四批结果分析.md",
+      "study": "q4_official",
+      "sha256": "6f6bad8d441e08944669ce3ee6aa661869469f854df57919b651ff18ab2f3f6e",
+      "registration": "q4_batch4_added_after_initial_migration"
+    },
+    {
+      "logical": "src/q4_model/results/official_q4_20260912_batch4_analysis.json",
+      "path": "src/q4_model/03_官方演练与时间诊断/results/official_q4_20260912_batch4_analysis.json",
+      "study": "q4_official",
+      "sha256": "1f9c6206971f584db2f4292664920f61a10292d0493e8118e012c93bf8a2236e",
+      "registration": "q4_batch4_added_after_initial_migration"
+    },
+    {
+      "logical": "src/q4_model/results/official_q4_20260912_batch4_replay_detail.json",
+      "path": "src/q4_model/03_官方演练与时间诊断/results/official_q4_20260912_batch4_replay_detail.json",
+      "study": "q4_official",
+      "sha256": "7c12b2270ce83ca5678281dfa2c96d291cc6e84c01f0d33015c7cb0cc55e1714",
+      "registration": "q4_batch4_added_after_initial_migration"
+    },
+    {
+      "logical": "src/q4_model/replay_fourth.py",
+      "path": "src/q4_model/03_官方演练与时间诊断/code/replay_fourth.py",
+      "study": "q4_official",
+      "registration": "q4_batch4_added_after_initial_migration",
+      "sha256": "6f10c641a9fa8565ef54d600473dc03105c0d30c578d647771ef3c0733a9cf37"
+    },
+    {
+      "logical": "src/q4_model/results/source_snapshots/batch4_replay/replay_fourth.py",
+      "path": "src/q4_model/03_官方演练与时间诊断/results/source_snapshots/batch4_replay/replay_fourth.py",
+      "study": "q4_official",
+      "registration": "q4_batch4_added_after_initial_migration",
+      "sha256": "d4e6725b7df4893741ae917398f3b7257fd0871212cc54975f5818a2a68e1f9a"
+    },
+    {
+      "logical": "src/q4_model/results/batch4_organization_check.json",
+      "path": "src/q4_model/03_官方演练与时间诊断/results/batch4_organization_check.json",
+      "study": "q4_official",
+      "registration": "q4_batch4_added_after_initial_migration"
     }
   ]
 }
