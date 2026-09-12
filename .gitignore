@@ -16,13 +16,18 @@ venv/
 *.jsonl.*
 /practice-*.json
 
-# Original problem materials and old transfer bundles remain local
+# Only the named problem originals below are shared; other transfers stay local
 *.zip
 *.pdf
 *.docx
 *.xlsx
 /附件/
 /local_data/
+
+# Paper handoff: exact copies of the supplied statement and two official attachments
+!/B题.pdf
+!/docs/题目材料/附件1_模拟器使用说明.docx
+!/docs/题目材料/附件2_通信接口说明.docx
 
 # Local credentials and machine settings
 .env

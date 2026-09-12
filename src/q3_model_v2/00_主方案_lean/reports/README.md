@@ -8,17 +8,17 @@
 
 后续[完整策略展开与已知源条件化实验](../../07_闭环预测实验/reports/README.md)修正了预测中的定位简化，并纳入已知源历史约束。两阶段开发集分别节省1.03%和0.51%，布局不同、收益不能累加；51次完整基准运行通过审计，仍未发现足够收益来替换lean。
 
-先看[版本选择](../../../../docs/方案冻结与版本选择.md)、[前三问正文草稿](../../../../docs/论文整理/前三问模型与验证整理稿.md)和[证据清单](../../../../docs/论文整理/证据索引与交付清单.md)。主方案本地60组全部清除，合并单源时间234.69秒；用户提供的5次官方演练合并单源时间239.29秒。两批结果分别记录，演练不替代正式测试。
+先看[版本选择](../../../../docs/方案冻结与版本选择.md)、[前三问当前正文草稿](../../../../docs/论文整理/问题一至三建模算法论文初稿.md)和[证据清单](../../../../docs/论文整理/证据索引与交付清单.md)。主方案本地60组全部清除，合并单源时间234.69秒；用户提供的5次官方演练合并单源时间239.29秒。两批结果分别记录，演练不替代正式测试。
 
 **需要手动运行官方第三问测试：**先看[官方测试操作说明](官方测试操作说明.md)，双击 `运行第三问.cmd`。入口已通过12项本地HTTP替身检查，另有用户提供的5次lean演练证据。本次整理未连接官方模拟器。启动文件会等待使用者手动启动问题3并确认倒计时结束。
 
-先读 **`本轮改进与实验结果.md`** 看整局结果，再读 **`模型推导与适用边界.md`** 看推导与仍然存在的模型局限。图表位于 `figures/`，逐局原始反馈和完整轨迹位于 `results/holdout-*/cases/`。
+先读[本轮改进与实验结果](本轮改进与实验结果.md)看整局结果，再读[模型推导与适用边界](模型推导与适用边界.md)看推导与仍然存在的模型局限。图表位于[本阶段 figures](../figures/)，逐局原始反馈和完整轨迹位于本阶段 `results/holdout-*/cases/`。
 
 默认方案为 `lean`：持续维护所有已发现源的位置集合；利用固定未知接收半径产生的正负测点半平面；沿途筛选有价值的检测并共享测向；在当前位置即可保证清除的其他源及时清除；联合比较测向与有限光学覆盖；加入短横向测向候选；按剩余覆盖区域调整扫描点。最多16源的数量上界也参与搜索停止判断。
 
 ## 本地运行
 
-运行环境只需 Python 和 NumPy。下列命令在项目根目录执行，仅运行自建环境，不连接官方模拟器。
+当前项目启动工具使用 Python 3.11 或更新版本及 NumPy、SciPy，详见[运行工具说明](../../../../tools/README.md)。下列命令在项目根目录执行，仅运行自建环境，不连接官方模拟器。
 
 ```powershell
 python -X utf8 tools/run_study.py q3_main --script verify_main_solution.py --
@@ -38,23 +38,23 @@ result = solve_multi(public_api, trace=trace)
 
 接口只要求 `position`、`channel`、`measure(q, channel)`、`clear(q, channel)`。求解器不需要真实源位置、真实半径、源总数或环境评价结果。真正的完成判定看 `result['complete']` 和 `completion_certificate`，不能仅看某一条清除反馈。
 
-上述整局程序与验证器可在本目录独立运行。`local_checks.py` 的393组单源开发分析额外读取相邻 `q3_improved` 中上一版的首次服务状态；单独拷贝本目录时，复现这部分分析还需保留上一版结果。现成单源记录已包含在本目录中。
+复现时应保留完整仓库并通过根目录工具运行；仅复制本阶段目录会缺少共用几何、官方客户端和路径映射。[早期局部选点实验](../../01_早期局部选点实验/README.md)中的 `local_checks.py` 保存393组单源开发分析，该分析还依赖[上一版归档](../../../../archive/q3_improved/README.md)中的首次服务状态，不属于主方案60组留出验证。
 
 ## 文件与证据
 
-| 文件 | 用途 |
+| 文件（相对本报告） | 用途 |
 |---|---|
-| `solver.py` | 全局调度、沿途信息共享和完整任务入口 |
-| `belief_model.py` | 正负观测、固定半径约束和完成证书 |
-| `geometry.py` | v2独立几何，包含量化余量；不改原版几何 |
-| `local_policy.py` | 测向/光学行动比较、短横向候选及覆盖检查 |
-| `coverage_model.py`、`scan_planning.py` | 任意负测点的连续覆盖证据及自适应扫描点 |
-| `recovery.py` | 局部异常或迭代上限时的有限光学后备 |
-| `baseline_solver.py`、`v1_solver.py` | 初版与上一版的对照入口 |
-| `benchmark.py`、`environment.py` | 同布局、同误差场的本地配对实验 |
-| `validate_model.py` | 隐藏真值接口、独立计时、覆盖与几何验证 |
-| `results/selection.json` | 开发选择依据和留出测试前的源码指纹 |
-| `results/holdout_summary.json` | 冻结版本的完整留出集统计 |
+| [solver.py](../code/solver.py) | 全局调度、沿途信息共享和完整任务入口 |
+| [belief_model.py](../code/belief_model.py) | 正负观测、固定半径约束和完成证书 |
+| [geometry.py](../../geometry.py) | v2独立几何，包含量化余量；不改原版几何 |
+| [local_policy.py](../code/local_policy.py) | 测向/光学行动比较、短横向候选及覆盖检查 |
+| [coverage_model.py](../code/coverage_model.py)、[scan_planning.py](../code/scan_planning.py) | 任意负测点的连续覆盖证据及自适应扫描点 |
+| [recovery.py](../code/recovery.py) | 局部异常或迭代上限时的有限光学后备 |
+| [baseline_solver.py](../code/baseline_solver.py)、[v1_solver.py](../code/v1_solver.py) | 初版与上一版的对照入口，也是主方案依赖 |
+| [benchmark.py](../code/benchmark.py)、[environment.py](../code/environment.py) | 同布局、同误差场的本地配对实验 |
+| [validate_model.py](../code/validate_model.py) | 隐藏真值接口、独立计时、覆盖与几何验证 |
+| [selection.json](../results/selection.json) | 开发选择依据和留出测试前的源码指纹 |
+| [holdout_summary.json](../results/holdout_summary.json) | 冻结版本的完整留出集统计 |
 
 `coverage/shared/optical/full/short/range/adaptive_short/adaptive_range` 等配置保留供模型拆分比较。`results/development`、`range-development`、`adaptive-development` 等为开发过程记录，期间其他文件可能继续编辑，部分标有 `code_hashes_unchanged=false`；正式结果采用最终冻结后的 `development-final` 和 `holdout-*`，不把探索中的单局最佳结果当作最终性能。
 
