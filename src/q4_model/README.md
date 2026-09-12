@@ -33,7 +33,7 @@ python -X utf8 src/q4_model/q4_share25_prune_client.py --robot-id 202619002152 -
 python -X utf8 src/q4_model/q4_share25_client.py --robot-id 202619002152 --log q4-share25-practice-01.jsonl
 ```
 
-**shared主方案：**
+**shared基线与备用方案：**
 
 ```powershell
 python -X utf8 src/q4_model/q4_official_client.py --robot-id 202619002152 --log q4-shared-practice-01.jsonl

@@ -95,8 +95,8 @@
     "q4_main": {
       "path": "src/q4_model/02_主方案25站_shared",
       "title": "第四问：25站shared",
-      "status": "当前主方案",
-      "purpose": "双环覆盖、联合路线与停点复用；含接口和压力验证。",
+      "status": "基线与备用方案",
+      "purpose": "shared双环覆盖、联合路线与停点复用；最终方案为share25_prune。",
       "logical_root": "src/q4_model"
     },
     "q4_official": {
@@ -116,8 +116,8 @@
     "q4_share": {
       "path": "src/q4_model/05_候选share25",
       "title": "第四问：share25候选",
-      "status": "下一轮候选",
-      "purpose": "服务停点共享与任务恢复；本地优于shared，未自动替换。",
+      "status": "当前最终方案",
+      "purpose": "share25_prune保留25站与原顺序，跳过有证明必失败光学点。",
       "logical_root": "src/q4_model"
     }
   },

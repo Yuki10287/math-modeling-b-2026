@@ -55,4 +55,4 @@ python -X utf8 tools/run_study.py q4_official --script replay_fourth.py -- --zip
 
 原始包、成员指纹和动作数量须与分析文件对应，输出须不存在；核验失败时返回非零。两份新结果已通过上述整理后入口离线复现，见[归档复核记录](results/batch4_organization_check.json)。
 
-求解与公共几何仍依赖[25站shared主方案](../02_主方案25站_shared/README.md)和其共享模块，由运行工具准备。
+求解与公共几何仍依赖[25站shared基线代码](../02_主方案25站_shared/README.md)和其共享模块，由运行工具准备。

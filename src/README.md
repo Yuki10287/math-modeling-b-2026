@@ -6,7 +6,7 @@
 |---|---|---|
 | 第一、二问 | [第二问自适应求解](q1_q2_geometry/02_第二问自适应求解/README.md) | [3个阶段](q1_q2_geometry/README.md) |
 | 第三问 | [lean主方案](q3_model_v2/00_主方案_lean/README.md) | [8个阶段](q3_model_v2/README.md) |
-| 第四问 | [25站shared主方案](q4_model/02_主方案25站_shared/README.md) | [6个阶段](q4_model/README.md) |
+| 第四问 | [25站share25_prune最终方案](q4_model/05_候选share25/README.md) | [6个阶段](q4_model/README.md) |
 
 例如打开第四问的 [share25候选](q4_model/05_候选share25/README.md)，便能同时看到：
 

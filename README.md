@@ -9,7 +9,7 @@
 | [原题与两个附件](docs/题目材料/README.md) | 原件、便于搜索的文本副本及文件校验清单 |
 | [第一、二问](src/q1_q2_geometry/README.md) | 第一问几何核、早期预设测点、当前第二问自适应求解 |
 | [第三问](src/q3_model_v2/README.md) | lean主方案、局部选点、联合调度、成本预测、全局价值、官方复盘、反馈与闭环预测 |
-| [第四问](src/q4_model/README.md) | 公共几何、初版31站、shared主方案、官方复盘、22站实验、share25候选 |
+| [第四问](src/q4_model/README.md) | 公共几何、初版31站、shared基线、官方复盘、22站实验、share25_prune最终方案 |
 | [论文和总体结论](docs/README.md) | 跨题目的论文稿、总体版本选择、证据索引与文献复盘 |
 | [早期完整版本](archive/README.md) | 第三问最初原型与上一版完整程序 |
 
