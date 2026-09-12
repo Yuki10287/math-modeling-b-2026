@@ -13,7 +13,7 @@
 | 第四问实际怎么运行 | [第四问操作说明](../src/q4_model/02_主方案25站_shared/reports/第四问官方演练操作说明.md) |
 | 第四问新候选怎么演练 | [share25候选说明](../src/q4_model/05_候选share25/reports/第四问share25候选演练说明.md) |
 | 第四问官方演练复盘 | [shared第四批4次](../src/q4_model/03_官方演练与时间诊断/reports/官方演练第四批结果分析.md)、[share25第六批4次](../src/q4_model/03_官方演练与时间诊断/reports/官方演练第六批share25结果分析.md)，以及[各批代码和结果对应](../src/q4_model/03_官方演练与时间诊断/README.md) |
-| 第四问最新保序删点候选 | [公平对照](../src/q4_model/05_候选share25/reports/保留25站保序删点公平对照.md)与[客户端接入验证](../src/q4_model/05_候选share25/reports/25站保序删点客户端接入验证.md)；share25_prune尚无官方实测 |
+| 第四问最终保序删点方案 | [第八批演练分析](../src/q4_model/03_官方演练与时间诊断/reports/官方演练第八批保序删点结果分析.md)、[公平对照](../src/q4_model/05_候选share25/reports/保留25站保序删点公平对照.md)与[客户端接入验证](../src/q4_model/05_候选share25/reports/25站保序删点客户端接入验证.md)；72/72全清 |
 | 第四问模型与结果 | [覆盖与联合路线](../src/q4_model/02_主方案25站_shared/reports/第四问覆盖与联合路线改进.md)、[压力与接口验证](../src/q4_model/02_主方案25站_shared/reports/第四问压力测试与接口验证.md) |
 | 整理后旧文件在哪里 | [目录调整说明](目录调整说明.md) |
 
